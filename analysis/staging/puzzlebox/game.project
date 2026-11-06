@@ -1,0 +1,36 @@
+[project]
+title = Puzzlebox Defold
+version = 1.0
+
+[bootstrap]
+main_collection = /main/main.collection
+
+[display]
+width = 540
+height = 960
+dynamic_orientation = 1
+high_dpi = 1
+vsync = 1
+
+[render]
+clear_color_red = 0.12
+clear_color_green = 0.65
+clear_color_blue = 0.85
+clear_color_alpha = 1
+
+[input]
+game_binding = /main/input.input_binding
+
+[html5]
+htmlfile = /web/template.html
+scale_mode = 2
+show_fullscreen_button = 0
+show_made_with_defold = 0
+heap_size = 256
+
+[gui]
+max_count = 4
+max_particlefx_count = 32
+
+[resource]
+max_resources = 2048

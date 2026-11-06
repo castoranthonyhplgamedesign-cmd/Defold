@@ -1,0 +1,10 @@
+{
+  "combinations": 80,
+  "transparentHoles": true,
+  "maxShadowAlpha": 39,
+  "resizeAndTransfer": "passed",
+  "viewport": "540x960 DPR 2",
+  "landscape": "960x540 DPR 2",
+  "pointerDrop": "passed",
+  "pageErrors": []
+}

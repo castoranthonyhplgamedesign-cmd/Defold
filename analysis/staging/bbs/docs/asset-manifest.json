@@ -1,0 +1,165 @@
+{
+  "baseline": "cfd9f7b",
+  "conversion": "Mesh Z reflected and winding reversed; original normals and material regions retained. Raster and audio assets copied byte-for-byte.",
+  "assets": [
+    {
+      "asset": "base",
+      "source": "PortRoot/src/generated/wideUModels.ts",
+      "vertices": 84,
+      "bounds": {
+        "min": [
+          -3.626,
+          0.031,
+          -6.139
+        ],
+        "max": [
+          3.452,
+          0.031,
+          6.037
+        ]
+      }
+    },
+    {
+      "asset": "border",
+      "source": "PortRoot/src/generated/wideUModels.ts",
+      "vertices": 3996,
+      "bounds": {
+        "min": [
+          -3.409,
+          -0.001,
+          -4.414
+        ],
+        "max": [
+          4.388,
+          0.222,
+          7.418
+        ]
+      }
+    },
+    {
+      "asset": "borderOuter",
+      "source": "PortRoot/src/generated/wideUModels.ts",
+      "vertices": 2070,
+      "bounds": {
+        "min": [
+          -3.992,
+          0.001,
+          -6.277
+        ],
+        "max": [
+          3.805,
+          0.225,
+          6.571
+        ]
+      }
+    },
+    {
+      "asset": "borderInside",
+      "source": "PortRoot/src/generated/wideUModels.ts",
+      "vertices": 1950,
+      "bounds": {
+        "min": [
+          -1.499,
+          0.001,
+          -3.451
+        ],
+        "max": [
+          1.48,
+          0.225,
+          3.542
+        ]
+      }
+    },
+    {
+      "asset": "tileShort",
+      "source": "PortRoot/src/generated/wideUModels.ts",
+      "vertices": 9534,
+      "bounds": {
+        "min": [
+          -0.531,
+          0.003,
+          -0.531
+        ],
+        "max": [
+          0.531,
+          0.332,
+          0.531
+        ]
+      }
+    },
+    {
+      "asset": "tileLong",
+      "source": "PortRoot/src/generated/wideUModels.ts",
+      "vertices": 18558,
+      "bounds": {
+        "min": [
+          -0.531,
+          0.003,
+          -1.058
+        ],
+        "max": [
+          0.531,
+          0.332,
+          1.059
+        ]
+      }
+    },
+    {
+      "asset": "gate",
+      "source": "PortRoot/src/generated/wideUModels.ts",
+      "vertices": 1500,
+      "bounds": {
+        "min": [
+          -0.189,
+          0,
+          -0.492
+        ],
+        "max": [
+          0.184,
+          0.232,
+          0.498
+        ]
+      }
+    },
+    {
+      "asset": "app_icon.png",
+      "source": "PortRoot/src/assets/app_icon.png",
+      "sha256": "67d01927adc3d8c4ad01e517e82d399e8185f1befb51e6d54db1981b65cd9cb7"
+    },
+    {
+      "asset": "play_now.png",
+      "source": "PortRoot/src/assets/new/playnowbutton.png",
+      "sha256": "0213ca881ec246c5757b8f40ee1f914ef74179ab36694cc4926de7b43053806c"
+    },
+    {
+      "asset": "hand.png",
+      "source": "PortRoot/src/assets/hand_pointer.png",
+      "sha256": "541a64ba91f957a6faf71e4fe8702a2ebd2a2f0aed8caed0c9bbe182049e8026"
+    },
+    {
+      "asset": "board.png",
+      "source": "PortRoot/src/assets/board_base_texture.png",
+      "sha256": "592825d86864de61e8ff21d8d7f169b421147615729ecaa7d619bd4482e4e7f5"
+    },
+    {
+      "asset": "bgm.wav",
+      "source": "PortRoot/src/assets/bgm_compressed.wav",
+      "sha256": "01bd6e0ff313381b8e4767a1e0b136dacdbf9ba9e0d32f1da689ea66fb48558e"
+    },
+    {
+      "asset": "drag.wav",
+      "source": "PortRoot/src/assets/drag_compressed.wav",
+      "sha256": "4cbbe310b2049ea588536c871b3bf00af4f6a92ba4d4c5eab63489f942e41e3a"
+    },
+    {
+      "asset": "drop.wav",
+      "source": "PortRoot/src/assets/drop_compressed.wav",
+      "sha256": "b640b6a5e2a9900808cedce960f2a5c4665324c2c23d85fd24531a32adbce70b"
+    },
+    {
+      "asset": "crumple.wav",
+      "source": "PortRoot/src/assets/crumple_compressed.wav",
+      "sha256": "a906770f19101cc6aa8363bf00849c54529b7cface1a83ed4a5acd1d58f2e06d"
+    }
+  ]
+}

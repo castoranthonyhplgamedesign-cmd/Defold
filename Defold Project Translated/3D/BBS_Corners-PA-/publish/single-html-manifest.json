@@ -1,0 +1,16 @@
+{
+  "name": "Brickshatter Corners",
+  "file": "D:\\allproject\\defold\\output\\Brickshatter-Corners.html",
+  "bytes": 7259839,
+  "sha256": "90d0621c1afe0575235bac51634065d9c3e958eea002855d9a56ac093d3a965f",
+  "embeddedResources": [
+    "archive_files.json",
+    "game0.arcd",
+    "game0.arci",
+    "game0.dmanifest",
+    "game0.projectc",
+    "game1.arcd",
+    "BrickshatterCorners.wasm"
+  ],
+  "companionFilesRequired": false
+}

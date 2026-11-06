@@ -1,0 +1,233 @@
+[ {
+  "path" : "/<AnonymousRoot>",
+  "hexDigest" : null,
+  "children" : [ "/main/main.collectionc", "/render/main.renderc", "/input/game.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc", "/builtins/scripts/debugger.luac" ]
+}, {
+  "path" : "/main/main.collectionc",
+  "hexDigest" : "7adddec4fe42283c64d86df89701176752e64ebb",
+  "children" : [ "/_generated_1900950d6a9c7be6.goc", "/_generated_39686d0adbe1faf6.goc", "/_generated_6b4e5785d4347c47.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_6b4e5785d4347c47.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_6b4e5785d4347c47.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_6b4e5785d4347c47.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_6b4e5785d4347c47.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_6b4e5785d4347c47.goc", "/_generated_6b4e5785d4347c47.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_4f949790416b2dfd.goc", "/_generated_c3a453f41954d30c.goc", "/_generated_8a34df1f078dbdc4.goc", "/_generated_e42290c0caa95b8d.goc", "/_generated_e42290c0caa95b8d.goc", "/_generated_e42290c0caa95b8d.goc", "/_generated_e42290c0caa95b8d.goc", "/_generated_e42290c0caa95b8d.goc", "/_generated_e42290c0caa95b8d.goc", "/_generated_e42290c0caa95b8d.goc", "/_generated_e42290c0caa95b8d.goc", "/_generated_e42290c0caa95b8d.goc", "/_generated_dd9a45a636fd277f.goc" ]
+}, {
+  "path" : "/_generated_1900950d6a9c7be6.goc",
+  "hexDigest" : "6883bcf98fb2dc324ecb0f7b7c791796b80c57bd",
+  "children" : [ "/assets/models/borderInside.meshc" ]
+}, {
+  "path" : "/assets/models/borderInside.meshc",
+  "hexDigest" : "7f24487aa57312808e924696b64800c0202ea504",
+  "children" : [ "/render/plastic.materialc", "/assets/models/borderInside.bufferc" ]
+}, {
+  "path" : "/render/plastic.materialc",
+  "hexDigest" : "6938df0e7a4e786a615a208ee14fc2ed473e91af",
+  "children" : [ "/shader_7545941272140213989.spc" ]
+}, {
+  "path" : "/shader_7545941272140213989.spc",
+  "hexDigest" : "ea3b9e9b5eaca3855cb318f99241c284edfb0ae5",
+  "children" : [ ]
+}, {
+  "path" : "/assets/models/borderInside.bufferc",
+  "hexDigest" : "cacd3eabf2a1acf62480c75718a56138599a0030",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_39686d0adbe1faf6.goc",
+  "hexDigest" : "93e5184c5a6f2b115e34fecec4adf9158015b9c1",
+  "children" : [ "/assets/models/borderOuter.meshc" ]
+}, {
+  "path" : "/assets/models/borderOuter.meshc",
+  "hexDigest" : "fae6ffca37459d0c57448c3f2eb108ac386222ef",
+  "children" : [ "/render/plastic.materialc", "/assets/models/borderOuter.bufferc" ]
+}, {
+  "path" : "/assets/models/borderOuter.bufferc",
+  "hexDigest" : "d9759cff050af488d72dbec7d5e1ec13e5f64f5c",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_6b4e5785d4347c47.goc",
+  "hexDigest" : "bb8710977c44a5b72d864d2fd2e7e333462d41a3",
+  "children" : [ "/assets/models/tileLong.meshc" ]
+}, {
+  "path" : "/assets/models/tileLong.meshc",
+  "hexDigest" : "357b7412fa513410ba267b0d22f92cc48759c29a",
+  "children" : [ "/render/plastic.materialc", "/assets/models/tileLong.bufferc" ]
+}, {
+  "path" : "/assets/models/tileLong.bufferc",
+  "hexDigest" : "bc2d0445ea3eda38de6d4e6939e0ac211cc03b93",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_4f949790416b2dfd.goc",
+  "hexDigest" : "70ff3d682289e61d0b90bdec46b5c6bff355fd5d",
+  "children" : [ "/assets/models/tileShort.meshc" ]
+}, {
+  "path" : "/assets/models/tileShort.meshc",
+  "hexDigest" : "1a379ed82db9f025ae5e89ebdac9fc084b6ef0a6",
+  "children" : [ "/render/plastic.materialc", "/assets/models/tileShort.bufferc" ]
+}, {
+  "path" : "/assets/models/tileShort.bufferc",
+  "hexDigest" : "c8bfc7cc87d1815d98e53d80b75d2ce117eacd4c",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_c3a453f41954d30c.goc",
+  "hexDigest" : "91f47479dc770ae036f5c28de488c26a0874aa3e",
+  "children" : [ "/assets/models/floor.meshc" ]
+}, {
+  "path" : "/assets/models/floor.meshc",
+  "hexDigest" : "11b615da924358bb7ec1b8c9477d89cfdacd8475",
+  "children" : [ "/render/floor.materialc", "/assets/models/floor.bufferc", "/assets/board.texturec" ]
+}, {
+  "path" : "/render/floor.materialc",
+  "hexDigest" : "889beb91bd5bdb2f723b15a609c025f18e02d5d0",
+  "children" : [ "/shader_-4605504279975239650.spc" ]
+}, {
+  "path" : "/shader_-4605504279975239650.spc",
+  "hexDigest" : "765479f4308e9ac184f61107a7c3f0f5f7eead8c",
+  "children" : [ ]
+}, {
+  "path" : "/assets/models/floor.bufferc",
+  "hexDigest" : "a5706b13361723b422f98bb4b606b6b549787d22",
+  "children" : [ ]
+}, {
+  "path" : "/assets/board.texturec",
+  "hexDigest" : "01a8d09278fb3ead444d4946d5ed6e28dc29ada6",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_8a34df1f078dbdc4.goc",
+  "hexDigest" : "e5db8fe56717ee3315db135064b8fc6459e1da87",
+  "children" : [ "/main/game.scriptc", "/main/bgm.soundc", "/main/drag.soundc", "/main/drop.soundc", "/main/crumple.soundc" ]
+}, {
+  "path" : "/main/game.scriptc",
+  "hexDigest" : "faecb9dd9cba9d59e20e1e19caf48ba7a89153de",
+  "children" : [ "/main/board.luac", "/main/viewport.luac", "/main/platform.luac" ]
+}, {
+  "path" : "/main/board.luac",
+  "hexDigest" : "a668409dee76e45b20e1f664c47f6081de912d0e",
+  "children" : [ ]
+}, {
+  "path" : "/main/viewport.luac",
+  "hexDigest" : "9890dd6d59a24572611e30db3310424930ab504a",
+  "children" : [ ]
+}, {
+  "path" : "/main/platform.luac",
+  "hexDigest" : "d2a910a3acf75639b8d618c0debbd20876c90243",
+  "children" : [ ]
+}, {
+  "path" : "/main/bgm.soundc",
+  "hexDigest" : "429b0627c9a68c15aa95ef2ca004dfb1a0549bda",
+  "children" : [ "/assets/bgm.wavc" ]
+}, {
+  "path" : "/assets/bgm.wavc",
+  "hexDigest" : "3521c3851a1d2dcddcf3dc0028f09cfa4756f962",
+  "children" : [ ]
+}, {
+  "path" : "/main/drag.soundc",
+  "hexDigest" : "a967878b8159dd0a4eec4e4955397b98b9173558",
+  "children" : [ "/assets/drag.wavc" ]
+}, {
+  "path" : "/assets/drag.wavc",
+  "hexDigest" : "4399200106245b177f3af10175fde74b7ad70106",
+  "children" : [ ]
+}, {
+  "path" : "/main/drop.soundc",
+  "hexDigest" : "df93b8c08bbfbdfaf1b0ea625a6076c8ea28f214",
+  "children" : [ "/assets/drop.wavc" ]
+}, {
+  "path" : "/assets/drop.wavc",
+  "hexDigest" : "5ac7b417baf961d31093ae7c9a26c8289a9a2416",
+  "children" : [ ]
+}, {
+  "path" : "/main/crumple.soundc",
+  "hexDigest" : "59bb1ab2cd5f2b9a069113b2a24fbe47b36c5aa7",
+  "children" : [ "/assets/crumple.wavc" ]
+}, {
+  "path" : "/assets/crumple.wavc",
+  "hexDigest" : "64bcf78ec8fc24914ec88fc73658828eeb83e3bc",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_e42290c0caa95b8d.goc",
+  "hexDigest" : "a7803de4f5ecfe2579c79934edd67a571b64d6f8",
+  "children" : [ "/assets/models/gate.meshc" ]
+}, {
+  "path" : "/assets/models/gate.meshc",
+  "hexDigest" : "1011a2a5de1c3b623519a02506414b79d80f9207",
+  "children" : [ "/render/plastic.materialc", "/assets/models/gate.bufferc" ]
+}, {
+  "path" : "/assets/models/gate.bufferc",
+  "hexDigest" : "115037b7ee251c91da0e84292be3958add0eab9c",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_dd9a45a636fd277f.goc",
+  "hexDigest" : "5d022cb6aabb55a3e743f4a3a721b9e8e7da1476",
+  "children" : [ "/main/hud.guic" ]
+}, {
+  "path" : "/main/hud.guic",
+  "hexDigest" : "e657f2acb231357cfceaa0dc67a11ca5c0bc6ab0",
+  "children" : [ "/main/hud.gui_scriptc", "/builtins/fonts/default.fontc", "/assets/ui.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/hud.gui_scriptc",
+  "hexDigest" : "d3a954aa31658a8b55ec24532fa6544feabe9294",
+  "children" : [ "/main/viewport.luac", "/main/platform.luac" ]
+}, {
+  "path" : "/builtins/fonts/default.fontc",
+  "hexDigest" : "2836f6811cf0d71847075efdaad196ee62035ac8",
+  "children" : [ "/builtins/fonts/font-df.materialc", "/_generated_vera_mo_bd_2e9565c19ca35f02.glyph_bankc" ]
+}, {
+  "path" : "/builtins/fonts/font-df.materialc",
+  "hexDigest" : "caeb86001c8d4963edab6d15a3b40fcd2aa6e957",
+  "children" : [ "/shader_6592067761991147028.spc" ]
+}, {
+  "path" : "/shader_6592067761991147028.spc",
+  "hexDigest" : "6267cb38e22da23d799890f82708ac2461ff0b54",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_vera_mo_bd_2e9565c19ca35f02.glyph_bankc",
+  "hexDigest" : "4a04bfbc8cb70d877faf31ac9ed0d2ec7a268dcf",
+  "children" : [ ]
+}, {
+  "path" : "/assets/ui.a.texturesetc",
+  "hexDigest" : "509ae147585ff2057069d866a229f843ab2c27d6",
+  "children" : [ "/assets/ui.texturec" ]
+}, {
+  "path" : "/assets/ui.texturec",
+  "hexDigest" : "c1afd244bb6f3946542ba5173dddfe7db5eae682",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.materialc",
+  "hexDigest" : "ea4cbed1ddcc693822de188e07c6acc30e862c99",
+  "children" : [ "/shader_2713870051161532414.spc" ]
+}, {
+  "path" : "/shader_2713870051161532414.spc",
+  "hexDigest" : "776384ae46b6e11bb881178735b971c8b4f24013",
+  "children" : [ ]
+}, {
+  "path" : "/render/main.renderc",
+  "hexDigest" : "a030de6ccab5abb7d47532915724e69329afd0b8",
+  "children" : [ "/render/main.render_scriptc" ]
+}, {
+  "path" : "/render/main.render_scriptc",
+  "hexDigest" : "a42c00cdf65515b04910173c235a5bb3e55a34e6",
+  "children" : [ "/main/viewport.luac" ]
+}, {
+  "path" : "/input/game.input_bindingc",
+  "hexDigest" : "f59aa4f2cc2dd35676fba93fc56434b6ebe2094b",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/input/default.gamepadsc",
+  "hexDigest" : "2e53741aa7c7cd588b25b758a0461d0eb8bd0ba2",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.display_profilesc",
+  "hexDigest" : "4187e11a10b0dd0d7f1b34d3ae3c0e9632dc69fd",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/scripts/debugger.luac",
+  "hexDigest" : "d6f1c2d3b64fc7ca0966ed8445cf9daa7b96dd80",
+  "children" : [ "/builtins/scripts/edn.luac", "/builtins/scripts/mobdebug.luac" ]
+}, {
+  "path" : "/builtins/scripts/edn.luac",
+  "hexDigest" : "6523072212c98476acfe76072e8d11a0fff09105",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/scripts/mobdebug.luac",
+  "hexDigest" : "8db838bbd616a8f07ee8c5bedffba7231c4279a1",
+  "children" : [ "/builtins/scripts/socket.luac", "/builtins/scripts/edn.luac" ]
+}, {
+  "path" : "/builtins/scripts/socket.luac",
+  "hexDigest" : "47cf9dff90073583fb62f6d8d825f0fa26608760",
+  "children" : [ ]
+} ]

@@ -1,0 +1,12 @@
+{
+  "project_git" : {
+    "sha1" : "083328aa01c298402c05ad4f4d048b1e20232a24",
+    "branch" : "cantReach"
+  },
+  "bob_arguments" : {
+    "sha1" : "d295ed4edff2e49072719835713e625f409849f1",
+    "version" : "1.14.0",
+    "timestamp" : "2026-10-19 14:44:44"
+  },
+  "defold_sdk" : "d295ed4edff2e49072719835713e625f409849f1"
+}

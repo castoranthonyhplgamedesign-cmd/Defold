@@ -1,0 +1,73 @@
+[ {
+  "path" : "/<AnonymousRoot>",
+  "hexDigest" : null,
+  "children" : [ "/main/main.collectionc", "/main/game.renderc", "/input/game.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc" ]
+}, {
+  "path" : "/main/main.collectionc",
+  "hexDigest" : "405db35a3fb73cb0cbaece48b2ed6c74f8071293",
+  "children" : [ "/_generated_ae0751f441600128.goc" ]
+}, {
+  "path" : "/_generated_ae0751f441600128.goc",
+  "hexDigest" : "d621fa7d65468b30805737b01f13ee5bece529f0",
+  "children" : [ "/main/game.guic" ]
+}, {
+  "path" : "/main/game.guic",
+  "hexDigest" : "afee58df0cc7b472158cef1f9a43cc2e6d9ce984",
+  "children" : [ "/main/game.gui_scriptc", "/assets/fonts/grenze600.fontc", "/assets/fonts/grenze700.fontc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/game.gui_scriptc",
+  "hexDigest" : "24b445daacb6b820310d93d2f7539fdbcf08d758",
+  "children" : [ ]
+}, {
+  "path" : "/assets/fonts/grenze600.fontc",
+  "hexDigest" : "3a98c562de675b09369ee48c70a215066b0ad200",
+  "children" : [ "/builtins/fonts/font-df.materialc", "/_generated_Grenze-600_67c45a5a70baffd9.glyph_bankc" ]
+}, {
+  "path" : "/builtins/fonts/font-df.materialc",
+  "hexDigest" : "caeb86001c8d4963edab6d15a3b40fcd2aa6e957",
+  "children" : [ "/shader_6592067761991147028.spc" ]
+}, {
+  "path" : "/shader_6592067761991147028.spc",
+  "hexDigest" : "fb95f0cf9bf49b6ab8b72d9d9cd164dbafd388db",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_Grenze-600_67c45a5a70baffd9.glyph_bankc",
+  "hexDigest" : "eed971e25da516a91985092cac29385cee8433e1",
+  "children" : [ ]
+}, {
+  "path" : "/assets/fonts/grenze700.fontc",
+  "hexDigest" : "75ef36d3c3c2a4f63697231cf1162eebfeb59bc9",
+  "children" : [ "/builtins/fonts/font-df.materialc", "/_generated_Grenze-700_5e932a6108344038.glyph_bankc" ]
+}, {
+  "path" : "/_generated_Grenze-700_5e932a6108344038.glyph_bankc",
+  "hexDigest" : "e2b4d1017a3c6b6e10db22cc72a2000b0a287662",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.materialc",
+  "hexDigest" : "ea4cbed1ddcc693822de188e07c6acc30e862c99",
+  "children" : [ "/shader_2713870051161532414.spc" ]
+}, {
+  "path" : "/shader_2713870051161532414.spc",
+  "hexDigest" : "25557c8a98c2faddac2fb2b562bd8d005a911639",
+  "children" : [ ]
+}, {
+  "path" : "/main/game.renderc",
+  "hexDigest" : "5baaac01125a47b3c042707663dd6522beb7d601",
+  "children" : [ "/main/game.render_scriptc" ]
+}, {
+  "path" : "/main/game.render_scriptc",
+  "hexDigest" : "faf6d3f02a2f208317f94c47f67ea9e1ef298549",
+  "children" : [ ]
+}, {
+  "path" : "/input/game.input_bindingc",
+  "hexDigest" : "65e2ac424470b233c2417d0dcee54c4fc528ef6f",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/input/default.gamepadsc",
+  "hexDigest" : "2e53741aa7c7cd588b25b758a0461d0eb8bd0ba2",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.display_profilesc",
+  "hexDigest" : "4187e11a10b0dd0d7f1b34d3ae3c0e9632dc69fd",
+  "children" : [ ]
+} ]

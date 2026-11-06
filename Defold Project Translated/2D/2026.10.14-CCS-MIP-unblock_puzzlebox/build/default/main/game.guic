@@ -1,0 +1,23 @@
+
+/main/game.gui_scriptc
+font/assets/game.fontc 
+art/assets/art.a.texturesetc$
+rings/assets/rings.a.texturesetc*
+giftanim/assets/giftanim.a.texturesetc$
+balls/assets/balls.a.texturesetc:
+
+background:
+board:
+balls:
+gift:
+rope:
+player:
+fx:
+hand:
+hud:
+
+hudcontent:
+danger:
+dim:
+beat:	
+endcardB!/builtins/materials/gui.materialcX€ 

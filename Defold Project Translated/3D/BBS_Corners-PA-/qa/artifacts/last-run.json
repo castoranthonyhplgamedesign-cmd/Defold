@@ -1,0 +1,589 @@
+{
+  "url": "http://127.0.0.1:8188/",
+  "errors": [],
+  "logs": [
+    "Running...",
+    "",
+    "%c    %c    Made with Defold    %c    %c    https://www.defold.com background: #fd6623; padding:5px 0; border: 5px; background: #272c31; color: #fafafa; padding:5px 0; background: #39a3e4; padding:5px 0; background: #ffffff; color: #000000; padding:5px 0;"
+  ],
+  "state": {
+    "clicks": 0,
+    "paused": false,
+    "ended": false,
+    "ppu": 48.148148148148,
+    "remaining": 56,
+    "time": 30,
+    "width": 390,
+    "height": 844,
+    "iteration": "full",
+    "bricks": [
+      {
+        "screen_x": 50.555555555556,
+        "x": -3,
+        "screen_y": 617.94641892961,
+        "z": -4,
+        "id": 1,
+        "length": 2,
+        "active": true,
+        "color": "Blue"
+      },
+      {
+        "screen_x": 98.703703703704,
+        "x": -2,
+        "screen_y": 617.94641892961,
+        "z": -4,
+        "id": 2,
+        "length": 2,
+        "active": true,
+        "color": "Green"
+      },
+      {
+        "screen_x": 146.85185185185,
+        "x": -1,
+        "screen_y": 617.94641892961,
+        "z": -4,
+        "id": 3,
+        "length": 2,
+        "active": true,
+        "color": "Orange"
+      },
+      {
+        "screen_x": 195,
+        "x": 0,
+        "screen_y": 617.94641892961,
+        "z": -4,
+        "id": 4,
+        "length": 2,
+        "active": true,
+        "color": "Purple"
+      },
+      {
+        "screen_x": 243.14814814815,
+        "x": 1,
+        "screen_y": 617.94641892961,
+        "z": -4,
+        "id": 5,
+        "length": 2,
+        "active": true,
+        "color": "Yellow"
+      },
+      {
+        "screen_x": 291.2962962963,
+        "x": 2,
+        "screen_y": 617.94641892961,
+        "z": -4,
+        "id": 6,
+        "length": 2,
+        "active": true,
+        "color": "Red"
+      },
+      {
+        "screen_x": 339.44444444444,
+        "x": 3,
+        "screen_y": 617.94641892961,
+        "z": -4,
+        "id": 7,
+        "length": 2,
+        "active": true,
+        "color": "Pink"
+      },
+      {
+        "screen_x": 50.555555555556,
+        "x": -3,
+        "screen_y": 549.91250629036,
+        "z": -2,
+        "id": 8,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 98.703703703704,
+        "x": -2,
+        "screen_y": 549.91250629036,
+        "z": -2,
+        "id": 9,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 146.85185185185,
+        "x": -1,
+        "screen_y": 549.91250629036,
+        "z": -2,
+        "id": 10,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 195,
+        "x": 0,
+        "screen_y": 549.91250629036,
+        "z": -2,
+        "id": 11,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 243.14814814815,
+        "x": 1,
+        "screen_y": 549.91250629036,
+        "z": -2,
+        "id": 12,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 291.2962962963,
+        "x": 2,
+        "screen_y": 549.91250629036,
+        "z": -2,
+        "id": 13,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 339.44444444444,
+        "x": 3,
+        "screen_y": 549.91250629036,
+        "z": -2,
+        "id": 14,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 50.555555555556,
+        "x": -3,
+        "screen_y": 504.55656453086,
+        "z": -1,
+        "id": 15,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 98.703703703704,
+        "x": -2,
+        "screen_y": 504.55656453086,
+        "z": -1,
+        "id": 16,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 291.2962962963,
+        "x": 2,
+        "screen_y": 504.55656453086,
+        "z": -1,
+        "id": 17,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 339.44444444444,
+        "x": 3,
+        "screen_y": 504.55656453086,
+        "z": -1,
+        "id": 18,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 50.555555555556,
+        "x": -3,
+        "screen_y": 459.20062277136,
+        "z": 0,
+        "id": 19,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 98.703703703704,
+        "x": -2,
+        "screen_y": 459.20062277136,
+        "z": 0,
+        "id": 20,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 291.2962962963,
+        "x": 2,
+        "screen_y": 459.20062277136,
+        "z": 0,
+        "id": 21,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 339.44444444444,
+        "x": 3,
+        "screen_y": 459.20062277136,
+        "z": 0,
+        "id": 22,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 50.555555555556,
+        "x": -3,
+        "screen_y": 413.84468101186,
+        "z": 1,
+        "id": 23,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 98.703703703704,
+        "x": -2,
+        "screen_y": 413.84468101186,
+        "z": 1,
+        "id": 24,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 291.2962962963,
+        "x": 2,
+        "screen_y": 413.84468101186,
+        "z": 1,
+        "id": 25,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 339.44444444444,
+        "x": 3,
+        "screen_y": 413.84468101186,
+        "z": 1,
+        "id": 26,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 50.555555555556,
+        "x": -3,
+        "screen_y": 368.48873925236,
+        "z": 2,
+        "id": 27,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 98.703703703704,
+        "x": -2,
+        "screen_y": 368.48873925236,
+        "z": 2,
+        "id": 28,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 291.2962962963,
+        "x": 2,
+        "screen_y": 368.48873925236,
+        "z": 2,
+        "id": 29,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 339.44444444444,
+        "x": 3,
+        "screen_y": 368.48873925236,
+        "z": 2,
+        "id": 30,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 50.555555555556,
+        "x": -3,
+        "screen_y": 323.13279749286,
+        "z": 3,
+        "id": 31,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 98.703703703704,
+        "x": -2,
+        "screen_y": 323.13279749286,
+        "z": 3,
+        "id": 32,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 291.2962962963,
+        "x": 2,
+        "screen_y": 323.13279749286,
+        "z": 3,
+        "id": 33,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 339.44444444444,
+        "x": 3,
+        "screen_y": 323.13279749286,
+        "z": 3,
+        "id": 34,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 50.555555555556,
+        "x": -3,
+        "screen_y": 277.77685573336,
+        "z": 4,
+        "id": 35,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 98.703703703704,
+        "x": -2,
+        "screen_y": 277.77685573336,
+        "z": 4,
+        "id": 36,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 291.2962962963,
+        "x": 2,
+        "screen_y": 277.77685573336,
+        "z": 4,
+        "id": 37,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 339.44444444444,
+        "x": 3,
+        "screen_y": 277.77685573336,
+        "z": 4,
+        "id": 38,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 50.555555555556,
+        "x": -3,
+        "screen_y": 232.42091397386,
+        "z": 5,
+        "id": 39,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 98.703703703704,
+        "x": -2,
+        "screen_y": 232.42091397386,
+        "z": 5,
+        "id": 40,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 291.2962962963,
+        "x": 2,
+        "screen_y": 232.42091397386,
+        "z": 5,
+        "id": 41,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 339.44444444444,
+        "x": 3,
+        "screen_y": 232.42091397386,
+        "z": 5,
+        "id": 42,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 50.555555555556,
+        "x": -3,
+        "screen_y": 187.06497221436,
+        "z": 6,
+        "id": 43,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 98.703703703704,
+        "x": -2,
+        "screen_y": 187.06497221436,
+        "z": 6,
+        "id": 44,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 146.85185185185,
+        "x": -1,
+        "screen_y": 187.06497221436,
+        "z": 6,
+        "id": 45,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 195,
+        "x": 0,
+        "screen_y": 187.06497221436,
+        "z": 6,
+        "id": 46,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 243.14814814815,
+        "x": 1,
+        "screen_y": 187.06497221436,
+        "z": 6,
+        "id": 47,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 291.2962962963,
+        "x": 2,
+        "screen_y": 187.06497221436,
+        "z": 6,
+        "id": 48,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 339.44444444444,
+        "x": 3,
+        "screen_y": 187.06497221436,
+        "z": 6,
+        "id": 49,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 50.555555555556,
+        "x": -3,
+        "screen_y": 141.70903045486,
+        "z": 7,
+        "id": 50,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 98.703703703704,
+        "x": -2,
+        "screen_y": 141.70903045486,
+        "z": 7,
+        "id": 51,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 146.85185185185,
+        "x": -1,
+        "screen_y": 141.70903045486,
+        "z": 7,
+        "id": 52,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 195,
+        "x": 0,
+        "screen_y": 141.70903045486,
+        "z": 7,
+        "id": 53,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 243.14814814815,
+        "x": 1,
+        "screen_y": 141.70903045486,
+        "z": 7,
+        "id": 54,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      },
+      {
+        "screen_x": 291.2962962963,
+        "x": 2,
+        "screen_y": 141.70903045486,
+        "z": 7,
+        "id": 55,
+        "length": 1,
+        "active": true,
+        "color": "Black"
+      },
+      {
+        "screen_x": 339.44444444444,
+        "x": 3,
+        "screen_y": 141.70903045486,
+        "z": 7,
+        "id": 56,
+        "length": 1,
+        "active": true,
+        "color": "White"
+      }
+    ],
+    "hint": {
+      "dx": -1,
+      "dz": 0,
+      "blocker": false,
+      "id": 23,
+      "route": {}
+    }
+  }
+}

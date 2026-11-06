@@ -1,0 +1,18 @@
+INFO:DLIB: Writing log to: D:/allproject/defold/Defold Project Translated/3D/BBS_Corners-PA-/qa/artifacts/native-log/log.txt
+INFO:ENGINE: Loading data from: archive:game.dmanifest
+INFO:SOUND: Mix format:
+INFO:SOUND:   wFormatTag:       fffe  IEEE_FLOAT/PCM/EXTENSIBLE: 3 / 1 / fffe
+INFO:SOUND:   nChannels:        2
+INFO:SOUND:   nSamplesPerSec:   48000
+INFO:SOUND:   nAvgBytesPerSec:  384000
+INFO:SOUND:   nBlockAlign:      8
+INFO:SOUND:   wBitsPerSample:   32
+INFO:SOUND:   -> Format:        3  IEEE_FLOAT/PCM/EXTENSIBLE: 3 / 1 / fffe
+INFO:SOUND:   DSP backend: SSE
+INFO:SOUND: Sound
+INFO:SOUND:   nSamplesPerSec:   48000
+INFO:SOUND:        useThread:   1
+INFO:ENGINE: Initialised sound device 'default'
+INFO:PHYSICS: Created physics context: Box2D v2.2.1
+DEBUG:SCRIPT: BBS_EVENT LOADED
+DEBUG:SCRIPT: BBS_EVENT DISPLAYED

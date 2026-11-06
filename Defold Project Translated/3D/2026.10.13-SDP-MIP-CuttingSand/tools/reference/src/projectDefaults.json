@@ -1,0 +1,911 @@
+{
+  "APP_LINKS": {
+    "app_store": "https://apps.apple.com/app/sand-drop-color-puzzle/id6786642612",
+    "google_play": "https://play.google.com/store/apps/details?id=com.fingersyoda.sanddrop&hl=en"
+  },
+  "MUTE": false,
+  "AUDIO": {
+    "flowHoldMs": 120,
+    "flowFadeInMs": 100,
+    "flowFadeMs": 220,
+    "loopCrossfadeMs": 240,
+    "endcardMusicFadeMs": 500,
+    "endcardSecondPopMs": 233,
+    "maxEffectVoices": 4
+  },
+  "MECHANIC": "cut",
+  "GAME_LENGTH": {
+    "timeLimit": 9999,
+    "clickLimit": 9999
+  },
+  "GAME_BACKGROUND_TYPE": "Image",
+  "GAME_BACKGROUND_COLOR": [
+    161,
+    180,
+    217
+  ],
+  "GAME_BACKGROUND_COLOR_CONFIG": {
+    "gradientDirection": "vertical",
+    "colors": [
+      [
+        174,
+        197,
+        225
+      ],
+      [
+        174,
+        198,
+        226
+      ],
+      [
+        169,
+        192,
+        223
+      ],
+      [
+        161,
+        180,
+        217
+      ],
+      [
+        153,
+        170,
+        211
+      ],
+      [
+        149,
+        163,
+        209
+      ],
+      [
+        147,
+        161,
+        208
+      ],
+      [
+        147,
+        161,
+        208
+      ],
+      [
+        147,
+        161,
+        208
+      ]
+    ]
+  },
+  "SHOW_PACKSHOT": true,
+  "CHANGABLE_TEXTURES": [
+    {
+      "spriteName": "sand-picture",
+      "path": "",
+      "originalSize": {
+        "width": 189,
+        "height": 168
+      },
+      "format": "webp",
+      "uuid": "sand-picture",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "sand-picture-hd",
+      "path": "",
+      "originalSize": {
+        "width": 756,
+        "height": 672
+      },
+      "format": "webp",
+      "uuid": "sand-picture-hd",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "background",
+      "path": "",
+      "originalSize": {
+        "width": 1200,
+        "height": 1200
+      },
+      "format": "webp",
+      "uuid": "background",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "sand-container",
+      "path": "",
+      "originalSize": {
+        "width": 902,
+        "height": 1213
+      },
+      "format": "webp",
+      "uuid": "sand-container",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "conveyor-belt",
+      "path": "",
+      "originalSize": {
+        "width": 857,
+        "height": 259
+      },
+      "format": "webp",
+      "uuid": "conveyor-belt",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "belt-chevron",
+      "path": "",
+      "originalSize": {
+        "width": 47,
+        "height": 50
+      },
+      "format": "webp",
+      "uuid": "belt-chevron",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-purple",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 118
+      },
+      "format": "webp",
+      "uuid": "bucket-purple",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-purple-lid",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 68
+      },
+      "format": "webp",
+      "uuid": "bucket-purple-lid",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-blue-v2",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 118
+      },
+      "format": "webp",
+      "uuid": "bucket-blue-v2",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-blue-v2-lid",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 50
+      },
+      "format": "webp",
+      "uuid": "bucket-blue-v2-lid",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-cyan",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 118
+      },
+      "format": "webp",
+      "uuid": "bucket-cyan",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-cyan-lid",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 68
+      },
+      "format": "webp",
+      "uuid": "bucket-cyan-lid",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-green-v2",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 118
+      },
+      "format": "webp",
+      "uuid": "bucket-green-v2",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-green-v2-lid",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 50
+      },
+      "format": "webp",
+      "uuid": "bucket-green-v2-lid",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-green",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 118
+      },
+      "format": "webp",
+      "uuid": "bucket-green",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-green-lid",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 68
+      },
+      "format": "webp",
+      "uuid": "bucket-green-lid",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-yellow-v2",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 118
+      },
+      "format": "webp",
+      "uuid": "bucket-yellow-v2",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-yellow-v2-lid",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 50
+      },
+      "format": "webp",
+      "uuid": "bucket-yellow-v2-lid",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-orange",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 118
+      },
+      "format": "webp",
+      "uuid": "bucket-orange",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-orange-lid",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 68
+      },
+      "format": "webp",
+      "uuid": "bucket-orange-lid",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-red-v2",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 118
+      },
+      "format": "webp",
+      "uuid": "bucket-red-v2",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-red-v2-lid",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 50
+      },
+      "format": "webp",
+      "uuid": "bucket-red-v2-lid",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-pink",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 118
+      },
+      "format": "webp",
+      "uuid": "bucket-pink",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-pink-lid",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 68
+      },
+      "format": "webp",
+      "uuid": "bucket-pink-lid",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-black-v2",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 118
+      },
+      "format": "webp",
+      "uuid": "bucket-black-v2",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-black-v2-lid",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 50
+      },
+      "format": "webp",
+      "uuid": "bucket-black-v2-lid",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-white-v2",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 118
+      },
+      "format": "webp",
+      "uuid": "bucket-white-v2",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-white-v2-lid",
+      "path": "",
+      "originalSize": {
+        "width": 145,
+        "height": 50
+      },
+      "format": "webp",
+      "uuid": "bucket-white-v2-lid",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-shadow",
+      "path": "",
+      "originalSize": {
+        "width": 180,
+        "height": 85
+      },
+      "format": "webp",
+      "uuid": "bucket-shadow",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "bucket-glow",
+      "path": "",
+      "originalSize": {
+        "width": 292,
+        "height": 263
+      },
+      "format": "webp",
+      "uuid": "bucket-glow",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "sparkle",
+      "path": "",
+      "originalSize": {
+        "width": 22,
+        "height": 22
+      },
+      "format": "webp",
+      "uuid": "sparkle",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "fail-glow",
+      "path": "",
+      "originalSize": {
+        "width": 590,
+        "height": 1000
+      },
+      "format": "webp",
+      "uuid": "fail-glow",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "endcard-logo",
+      "path": "",
+      "originalSize": {
+        "width": 1000,
+        "height": 747
+      },
+      "format": "webp",
+      "uuid": "endcard-logo",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    },
+    {
+      "spriteName": "ui-hand",
+      "path": "",
+      "originalSize": {
+        "width": 341,
+        "height": 400
+      },
+      "format": "webp",
+      "uuid": "ui-hand",
+      "resizeBlocked": true,
+      "anchorPoint": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "scale": 1
+    }
+  ],
+  "CHANGABLE_SOUNDTRACKS": [
+    {
+      "id": "bgm",
+      "path": "",
+      "volume": 0.8,
+      "loop": true,
+      "format": "mp3",
+      "uuid": "bgm"
+    },
+    {
+      "id": "sfx-conveyor",
+      "path": "",
+      "volume": 0.9,
+      "loop": true,
+      "format": "mp3",
+      "uuid": "sfx-conveyor"
+    },
+    {
+      "id": "sfx-cut",
+      "path": "",
+      "volume": 0.8,
+      "loop": true,
+      "format": "mp3",
+      "uuid": "sfx-cut"
+    },
+    {
+      "id": "sfx-sand",
+      "path": "",
+      "volume": 0.85,
+      "loop": true,
+      "format": "mp3",
+      "uuid": "sfx-sand"
+    },
+    {
+      "id": "sfx-click",
+      "path": "",
+      "volume": 0.8,
+      "loop": false,
+      "format": "mp3",
+      "uuid": "sfx-click"
+    },
+    {
+      "id": "sfx-woosh",
+      "path": "",
+      "volume": 0.55,
+      "loop": false,
+      "format": "mp3",
+      "uuid": "sfx-woosh"
+    },
+    {
+      "id": "sfx-bells",
+      "path": "",
+      "volume": 0.9,
+      "loop": false,
+      "format": "mp3",
+      "uuid": "sfx-bells"
+    },
+    {
+      "id": "sfx-win",
+      "path": "",
+      "volume": 1,
+      "loop": false,
+      "format": "mp3",
+      "uuid": "sfx-win"
+    },
+    {
+      "id": "sfx-endcard",
+      "path": "",
+      "volume": 1,
+      "loop": false,
+      "format": "mp3",
+      "uuid": "sfx-endcard"
+    },
+    {
+      "id": "sfx-cta",
+      "path": "",
+      "volume": 0.9,
+      "loop": false,
+      "format": "mp3",
+      "uuid": "sfx-cta"
+    },
+    {
+      "id": "sfx-fail",
+      "path": "",
+      "volume": 0.4,
+      "loop": false,
+      "format": "mp3",
+      "uuid": "sfx-fail"
+    }
+  ],
+  "HAND_TUTOR_MODE": true,
+  "TUTORIAL_DELAY": 10,
+  "OPENING_GAMEPLAY_ANIMATION": true,
+  "OPENING_STYLE": "reveal",
+  "SAND": {
+    "columns": 189,
+    "palette": [
+      [
+        173,
+        41,
+        252
+      ],
+      [
+        33,
+        92,
+        249
+      ],
+      [
+        75,
+        189,
+        252
+      ],
+      [
+        59,
+        165,
+        48
+      ],
+      [
+        150,
+        237,
+        57
+      ],
+      [
+        253,
+        238,
+        48
+      ],
+      [
+        253,
+        127,
+        53
+      ],
+      [
+        247,
+        27,
+        18
+      ],
+      [
+        252,
+        104,
+        202
+      ],
+      [
+        13,
+        13,
+        12
+      ],
+      [
+        254,
+        254,
+        254
+      ]
+    ],
+    "grainShade": 0.085,
+    "gravity": 9000
+  },
+  "BELT": {
+    "capacity": 3000,
+    "overflow": 750,
+    "speed": 480,
+    "stallSeconds": 4,
+    "stallPercent": 5
+  },
+  "BUCKETS": {
+    "capacity": 800,
+    "stacks": [
+      [
+        800,
+        800,
+        380
+      ],
+      [
+        800,
+        800,
+        380
+      ],
+      [
+        800,
+        800,
+        380
+      ],
+      [
+        800,
+        800,
+        380
+      ],
+      [
+        800,
+        800,
+        380
+      ],
+      [
+        800,
+        800,
+        380
+      ],
+      [
+        800,
+        800,
+        380
+      ],
+      [
+        800,
+        800,
+        380
+      ],
+      [
+        800,
+        800,
+        380
+      ],
+      [
+        1396
+      ],
+      [
+        1404
+      ]
+    ],
+    "art": [
+      "bucket-purple",
+      "bucket-blue-v2",
+      "bucket-cyan",
+      "bucket-green-v2",
+      "bucket-green",
+      "bucket-yellow-v2",
+      "bucket-orange",
+      "bucket-red-v2",
+      "bucket-pink",
+      "bucket-black-v2",
+      "bucket-white-v2"
+    ],
+    "start": [
+      10,
+      11,
+      10,
+      11,
+      7,
+      5,
+      3,
+      1,
+      8,
+      6,
+      [
+        9,
+        800
+      ],
+      [
+        9,
+        800,
+        380
+      ],
+      0,
+      0,
+      4,
+      2
+    ],
+    "waves": [
+      [
+        10,
+        11
+      ],
+      [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      [
+        2,
+        4,
+        6,
+        8
+      ]
+    ],
+    "racks": [
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ]
+    ]
+  }
+}

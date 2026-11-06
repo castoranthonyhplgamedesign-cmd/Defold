@@ -1,0 +1,7 @@
+name: "floor"
+tags: "world"
+vertex_program: "/render/floor.vp"
+fragment_program: "/render/floor.fp"
+vertex_space: VERTEX_SPACE_LOCAL
+vertex_constants { name: "worldviewproj" type: CONSTANT_TYPE_WORLDVIEWPROJ }
+samplers { name: "texture_sampler" wrap_u: WRAP_MODE_CLAMP_TO_EDGE wrap_v: WRAP_MODE_CLAMP_TO_EDGE filter_min: FILTER_MODE_MIN_LINEAR filter_mag: FILTER_MODE_MAG_LINEAR }

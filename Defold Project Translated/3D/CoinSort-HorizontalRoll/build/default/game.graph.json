@@ -1,0 +1,201 @@
+[ {
+  "path" : "/<AnonymousRoot>",
+  "hexDigest" : null,
+  "children" : [ "/main/main.collectionc", "/render/main.renderc", "/main/input.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc" ]
+}, {
+  "path" : "/main/main.collectionc",
+  "hexDigest" : "5d205fc43df2b80c2f5b133255bb96caa789c680",
+  "children" : [ "/main/background.goc", "/main/game.goc", "/main/hud.goc", "/main/jarbase.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc", "/main/band.goc" ]
+}, {
+  "path" : "/main/background.goc",
+  "hexDigest" : "41f5a085736e91a74f5531fe188d2f9411804f76",
+  "children" : [ "/main/background.guic" ]
+}, {
+  "path" : "/main/background.guic",
+  "hexDigest" : "bee413e512d7f58590f97ee5d5c45378a028a289",
+  "children" : [ "/main/background.gui_scriptc", "/assets/background.a.texturesetc", "/render/bg.materialc" ]
+}, {
+  "path" : "/main/background.gui_scriptc",
+  "hexDigest" : "dad8a68d42b5a5b54a783d706f938b7503848453",
+  "children" : [ ]
+}, {
+  "path" : "/assets/background.a.texturesetc",
+  "hexDigest" : "999095686eacf5a561c30412a47dc7c5c0e5e247",
+  "children" : [ "/assets/background.texturec" ]
+}, {
+  "path" : "/assets/background.texturec",
+  "hexDigest" : "671014d7f6569c975561b5890c6ca48b85c01748",
+  "children" : [ ]
+}, {
+  "path" : "/render/bg.materialc",
+  "hexDigest" : "a8385a7260c26c6111f2b108056367cf546a6268",
+  "children" : [ "/shader_2713870051161532414.spc" ]
+}, {
+  "path" : "/shader_2713870051161532414.spc",
+  "hexDigest" : "708d407ccc12f41b1f215dd0740c20efbfa95cf3",
+  "children" : [ ]
+}, {
+  "path" : "/main/game.goc",
+  "hexDigest" : "ac61562a7dfb17865250823bd2439e1fd7511fbf",
+  "children" : [ "/main/game.scriptc", "/main/coin.soundc", "/main/jar.soundc", "/main/lock.soundc", "/main/bgm.soundc" ]
+}, {
+  "path" : "/main/game.scriptc",
+  "hexDigest" : "4f83fa59d15ab1cb18edc0c445fd9e2179bdfc62",
+  "children" : [ "/main/config.luac", "/main/rules.luac", "/main/platform.luac" ]
+}, {
+  "path" : "/main/config.luac",
+  "hexDigest" : "893a7a45cbb7671a8a1b1046a541d9b2f6fa29b8",
+  "children" : [ ]
+}, {
+  "path" : "/main/rules.luac",
+  "hexDigest" : "0ddfe03f2f54c8cbd2036416e7f4694ea415d84e",
+  "children" : [ "/main/config.luac" ]
+}, {
+  "path" : "/main/platform.luac",
+  "hexDigest" : "d915cee98c775574d972ec04dd7ebe6156e45e93",
+  "children" : [ ]
+}, {
+  "path" : "/main/coin.soundc",
+  "hexDigest" : "75620a2983fde6ce2fc0577ffdadfe91c1a499fa",
+  "children" : [ "/assets/audio/Coin.oggc" ]
+}, {
+  "path" : "/assets/audio/Coin.oggc",
+  "hexDigest" : "bb817625880d52285deca5accd0399ee4451ee32",
+  "children" : [ ]
+}, {
+  "path" : "/main/jar.soundc",
+  "hexDigest" : "4845fa19890bb62aa2f8cada3a644cef0478e634",
+  "children" : [ "/assets/audio/Jar.oggc" ]
+}, {
+  "path" : "/assets/audio/Jar.oggc",
+  "hexDigest" : "7279a348490f130d9af78e9d36902cab327ac0ef",
+  "children" : [ ]
+}, {
+  "path" : "/main/lock.soundc",
+  "hexDigest" : "cdb793a084f0d8f8cbd161a09af7c98dc12cd31c",
+  "children" : [ "/assets/audio/Lock.oggc" ]
+}, {
+  "path" : "/assets/audio/Lock.oggc",
+  "hexDigest" : "47b0807070f10d8b56b8b3e13f0ab418d3ef9ce3",
+  "children" : [ ]
+}, {
+  "path" : "/main/bgm.soundc",
+  "hexDigest" : "7db2848cc5abda7434edefa99abf2c15d838d543",
+  "children" : [ "/assets/audio/Lowkey-Trap.oggc" ]
+}, {
+  "path" : "/assets/audio/Lowkey-Trap.oggc",
+  "hexDigest" : "4dca0dff0ad4de1b6ddcad84a4bee86dc80f6936",
+  "children" : [ ]
+}, {
+  "path" : "/main/hud.goc",
+  "hexDigest" : "e4ba9e390fde943ef99090d1498563b0ae749120",
+  "children" : [ "/main/hud.guic" ]
+}, {
+  "path" : "/main/hud.guic",
+  "hexDigest" : "fff5c796c81e8f7edc57ff977eeb0035f379f96d",
+  "children" : [ "/main/hud.gui_scriptc", "/assets/tutorial.fontc", "/assets/ui.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/hud.gui_scriptc",
+  "hexDigest" : "e2be2aa2637391b058aa6fbddc74a20e67eb9b59",
+  "children" : [ "/main/config.luac", "/main/rules.luac", "/main/branding.luac" ]
+}, {
+  "path" : "/main/branding.luac",
+  "hexDigest" : "de0dfd547489a2b43d8fd4025dcfcfd5871a792e",
+  "children" : [ ]
+}, {
+  "path" : "/assets/tutorial.fontc",
+  "hexDigest" : "3d1e69741315aeee97508be18ed9a15486193735",
+  "children" : [ "/builtins/fonts/font-df.materialc", "/_generated_Arial-Bold_a84e6ddddbcad424.glyph_bankc" ]
+}, {
+  "path" : "/builtins/fonts/font-df.materialc",
+  "hexDigest" : "caeb86001c8d4963edab6d15a3b40fcd2aa6e957",
+  "children" : [ "/shader_6592067761991147028.spc" ]
+}, {
+  "path" : "/shader_6592067761991147028.spc",
+  "hexDigest" : "5d5b599f6287e612d8f9b1292be0c289b49b0702",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_Arial-Bold_a84e6ddddbcad424.glyph_bankc",
+  "hexDigest" : "0eb3ad9471461844ee05cd5714e53b71861d7529",
+  "children" : [ ]
+}, {
+  "path" : "/assets/ui.a.texturesetc",
+  "hexDigest" : "dc3ddce67fe44e5ceb881ea254ac8ba536686542",
+  "children" : [ "/assets/ui.texturec" ]
+}, {
+  "path" : "/assets/ui.texturec",
+  "hexDigest" : "5577133de4e1b99b6229f3b54a3945e0fd91f48f",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.materialc",
+  "hexDigest" : "ea4cbed1ddcc693822de188e07c6acc30e862c99",
+  "children" : [ "/shader_2713870051161532414.spc" ]
+}, {
+  "path" : "/main/jarbase.goc",
+  "hexDigest" : "2abe0687299e3d467ff1ad55b69afd5d309702d4",
+  "children" : [ "/main/jarbase.guic" ]
+}, {
+  "path" : "/main/jarbase.guic",
+  "hexDigest" : "c4830fb8870f33dfe744f6299f152ad5b2d22b2a",
+  "children" : [ "/main/jarbase.gui_scriptc", "/assets/ui.a.texturesetc", "/render/jarbase.materialc" ]
+}, {
+  "path" : "/main/jarbase.gui_scriptc",
+  "hexDigest" : "141d8e23fa53bdf950f68fc582b72b60acb167c4",
+  "children" : [ ]
+}, {
+  "path" : "/render/jarbase.materialc",
+  "hexDigest" : "d28c5f57a16ca21e0a617fbd782aced1b5e718b1",
+  "children" : [ "/shader_2713870051161532414.spc" ]
+}, {
+  "path" : "/main/band.goc",
+  "hexDigest" : "bcf1c32ddfe81b1cf9728ee5fcd67d552c8f7b35",
+  "children" : [ "/assets/meshes/coin_batch.meshc" ]
+}, {
+  "path" : "/assets/meshes/coin_batch.meshc",
+  "hexDigest" : "d7a43368bfe7d401570b8b73d112e4645df97446",
+  "children" : [ "/render/coin.materialc", "/assets/meshes/coin_batch.bufferc", "/assets/coin_atlas.texturec" ]
+}, {
+  "path" : "/render/coin.materialc",
+  "hexDigest" : "10f79b8fe4199c8437a0aa594ce9a51abc218673",
+  "children" : [ "/shader_6750409262619819141.spc" ]
+}, {
+  "path" : "/shader_6750409262619819141.spc",
+  "hexDigest" : "f6953ec97e2513c35bdadda0b244cd73e8522670",
+  "children" : [ ]
+}, {
+  "path" : "/assets/meshes/coin_batch.bufferc",
+  "hexDigest" : "c7903d4cbb1a609c3f8d797912152fef258325db",
+  "children" : [ ]
+}, {
+  "path" : "/assets/coin_atlas.texturec",
+  "hexDigest" : "2e0f05e2280230b7c9141e0624269c1ad848b361",
+  "children" : [ ]
+}, {
+  "path" : "/render/main.renderc",
+  "hexDigest" : "3afad7861f978a159e52bf9c1610897aebfc6a62",
+  "children" : [ "/render/main.render_scriptc", "/render/shadow.materialc" ]
+}, {
+  "path" : "/render/main.render_scriptc",
+  "hexDigest" : "d83009712e9005616f2c120a032111af012227b0",
+  "children" : [ ]
+}, {
+  "path" : "/render/shadow.materialc",
+  "hexDigest" : "ac2c4d7a4c0c64101fbea0e3ef1a442a1827a8e9",
+  "children" : [ "/shader_-8962092676282600565.spc" ]
+}, {
+  "path" : "/shader_-8962092676282600565.spc",
+  "hexDigest" : "af01e685bab36055a7787c1105d4f8a97a95ec31",
+  "children" : [ ]
+}, {
+  "path" : "/main/input.input_bindingc",
+  "hexDigest" : "f59aa4f2cc2dd35676fba93fc56434b6ebe2094b",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/input/default.gamepadsc",
+  "hexDigest" : "2e53741aa7c7cd588b25b758a0461d0eb8bd0ba2",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.display_profilesc",
+  "hexDigest" : "4187e11a10b0dd0d7f1b34d3ae3c0e9632dc69fd",
+  "children" : [ ]
+} ]

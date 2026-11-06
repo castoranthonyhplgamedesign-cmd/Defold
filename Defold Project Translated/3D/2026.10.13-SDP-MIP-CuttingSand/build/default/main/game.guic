@@ -1,0 +1,21 @@
+
+/main/game.gui_scriptc
+font/assets/game.fontc 
+art/assets/art.a.texturesetc:
+
+background:
+belt:
+arrows:
+sand:
+frame:	
+buckets:
+lids:
+fly:
+text:
+impact:
+hand:
+trail:
+praise:
+danger:
+dim:	
+endcardB!/builtins/materials/gui.materialcPX€

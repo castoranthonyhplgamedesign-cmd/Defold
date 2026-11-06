@@ -1,0 +1,13 @@
+{
+  "name": "Brickshatter Corners",
+  "timestamp": "2026-11-06T15:44:40.391Z",
+  "tests": [
+    "browser title and application name match the new brand",
+    "browser icon is the new generated app icon",
+    "new in-game and end-card wordmark renders; four-click mode still works",
+    "Windows icon contains all eight engine resolutions as DIB frames",
+    "no browser or Defold runtime errors"
+  ],
+  "errors": [],
+  "passed": true
+}

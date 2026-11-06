@@ -1,0 +1,22 @@
+script: "/main/game.gui_script"
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_DISABLED
+max_nodes: 4096
+textures { name: "art" texture: "/assets/art.atlas" }
+textures { name: "rings" texture: "/assets/rings.atlas" }
+textures { name: "giftanim" texture: "/assets/giftanim.atlas" }
+fonts { name: "font" font: "/assets/game.font" }
+layers { name: "background" }
+layers { name: "board" }
+layers { name: "balls" }
+layers { name: "gift" }
+layers { name: "rope" }
+layers { name: "player" }
+layers { name: "fx" }
+layers { name: "hand" }
+layers { name: "hud" }
+layers { name: "hudcontent" }
+layers { name: "danger" }
+layers { name: "dim" }
+layers { name: "beat" }
+layers { name: "endcard" }

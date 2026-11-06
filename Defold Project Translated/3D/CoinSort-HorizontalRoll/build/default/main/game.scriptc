@@ -1,0 +1,235 @@
+
+ãk
+Íklocal C=require 'main.config'
+local R=require 'main.rules'
+local P=require 'main.platform'
+local function clamp(x,a,b)return math.max(a,math.min(b,x))end
+local function sine(x)return (1-math.cos(clamp(x,0,1)*math.pi))/2 end
+local function mesh(level,row,inner)return msg.url(nil,'/level'..level.index..'_'..(inner and 'inner' or 'outer')..(row-1),'mesh')end
+local function lane_value(self,level,row,source)
+    local colors=C.LEVEL_EDITOR_CONFIG.levels[level.index].outerCylinder.rowSegmentColors[row]
+    local tile=0;for i,color in ipairs(R.colors)do if color==colors[source+1]then tile=i-1 end end
+    local event=level.clear_events[row][source]
+    return vmath.vector4(tile,event and event.start or -10000,event and event.serial or -1,event and event.lane+event.batch/100 or 0)
+end
+local function play(self,key)
+    if self.audio and not self.paused and not P.muted()then sound.stop('#'..key);sound.play('#'..key)end
+end
+local function open_lid(self)
+    local jar=self.jar
+    if jar.lid_kind~='open'and jar.lid<.999 then play(self,'jar')end
+    jar.lid_from=jar.lid;jar.lid_kind='open';jar.lid_start=self.time;jar.lid_hold_until=self.time+.35
+end
+local function close_lid(self)
+    local jar=self.jar
+    jar.lid_hold_until=nil
+    if jar.lid_kind=='close'or jar.lid<=.001 then return end
+    play(self,'jar');jar.lid_from=jar.lid;jar.lid_kind='close';jar.lid_start=self.time
+end
+local function tween_camera(self,x,y,zoom,duration,done)
+    self.camera_tween={x=self.camera.x,y=self.camera.y,z=self.camera.zoom,tox=x,toy=y,toz=zoom,time=0,duration=duration,done=done}
+end
+local function focus(self,index,duration)
+    local level=self.levels[index]
+    tween_camera(self,level.config.centerX,level.config.centerY,level.config.focusZoom,duration,function()
+        self.phase='playing'
+        if index==1 then self.tutorial='rotate';self.hint=true;self.hint_time=0 end
+    end)
+end
+local function finish(self)
+    if self.ended then return end
+    self.ended=true;self.phase='ending';self.hint=false;self.tutorial='';self.drag=nil;P.life('gameEnd')
+    local level=self.levels[self.active];level.completed=true;level.locked=true;level.unlit=false;level.dim=0
+    tween_camera(self,540,960,C.CAMERA_CONFIG.endcardZoom,.72,function()self.end_at=self.time+.32 end)
+end
+local function begin(self)
+    self.phase='focus';self.active=1;self.hint=false;self.tutorial=''
+    P.event('CHALLENGE_STARTED');P.life('gameStart')
+    focus(self,1,.62)
+end
+local function jar_hidden_offset(self)
+    local w,h=window.get_size();local s=math.min(w/1080,h/1920)
+    local y=(h-1920*s)/2+(960+(self.jar.y-self.camera.y)*self.camera.zoom)*s
+    return math.max(0,(h+(168+110)*s*self.camera.zoom-y)/(s*self.camera.zoom))
+end
+local function queue_clear(self,level,matches)
+    self.phase='clearing';self.drag=nil;self.jar.visible=true;self.jar.x=level.config.centerX;self.jar.y=level.config.centerY+245
+    self.jar.hidden_offset=jar_hidden_offset(self);self.jar.offset=self.jar.hidden_offset
+    self.jar.appear_at=self.time;self.jar.exit_at=nil
+    local start=self.time+.43
+    local num=level.config.coinsPerRowSegment*level.config.rowSegmentCount
+    local serial=self.serial
+    for match,lane in ipairs(matches)do
+        for row=1,level.config.rowSegmentCount do
+            local source=R.source(level,row,lane)
+            level.clear_events[row][source]={start=start,serial=serial+match-1,lane=lane,batch=#matches}
+            go.set(mesh(level,row,false),'lanes',lane_value(self,level,row,source),{index=source+1})
+        end
+        for order=0,num-1 do
+            self.receipts[#self.receipts+1]={flight=start+order*.042+.13,arrival=start+order*.042+.56,serial=serial+match-1+order*#matches}
+        end
+    end
+    self.serial=self.serial+num*#matches
+    R.clear(level,matches)
+    self.clear_done=start+(num-1)*.042+.13+.43+.26
+    self.jar.last_incoming=start+(num-1)*.042+.56
+    self.jar.hide_at=self.clear_done
+end
+local function end_clear(self)
+    local level=self.levels[self.active]
+    if R.complete(level)then
+        P.event('CHALLENGE_SOLVED');level.locked=true;level.unlit=false;level.completed=true;level.dim=0
+        self.hint=false;self.tutorial='';self.phase='unlock_wait';self.unlock_at=self.time+.24
+    else self.phase='playing' end
+end
+local function setup(self)
+    self.time=0;self.phase='overview';self.active=0;self.camera={x=540,y=960,zoom=1.5};self.levels={};self.serial=0;self.received=0;self.receipts={}
+    self.jar={x=540,y=745,offset=0,visible=false,lid=0};self.hint=true;self.hint_time=0;self.tutorial='intro';self.ended=false;self.cta=false;self.end_fade=0;self.moves=0
+    for index=1,3 do
+        local level=R.new(index);self.levels[index]=level;level.clear_events={}
+        for row=1,level.config.rowSegmentCount do
+            level.clear_events[row]={}
+            for _,inner in ipairs({false,true})do
+                local target=mesh(level,row,inner)
+                local cfg=level.config;local radius=inner and 38.4 or 78;local depth=inner and 23.04 or 46.8
+                go.set(target,'shape',vmath.vector4(R.row_x(cfg,row),cfg.centerY,radius,depth))
+                go.set(target,'band',vmath.vector4(cfg.coinsPerRowSegment,inner and 6 or 12,row-1,cfg.rowSegmentCount))
+                for source=0,11 do
+                    local value
+                    if inner then
+                        local color=C.LEVEL_EDITOR_CONFIG.levels[index].innerCylinder.rowSegmentColors[row][source%6+1]
+                        local tile=0;for i,name in ipairs(R.colors)do if name==color then tile=i-1 end end
+                        value=vmath.vector4(tile,-10000,-1,0)
+                    else value=lane_value(self,level,row,source)end
+                    go.set(target,'lanes',value,{index=source+1})
+                end
+            end
+        end
+    end
+    P.life('gameReady');P.event('DISPLAYED')
+end
+function init(self)
+    msg.post('.','acquire_input_focus');self.audio=false;self.paused=false
+    setup(self)
+end
+local function update_materials(self)
+    for _,level in ipairs(self.levels)do
+        for row=1,level.config.rowSegmentCount do
+            go.set(mesh(level,row,false),'roll',vmath.vector4(level.offsets[row]+level.rotation[row],level.config.initialRowSegmentOffsets[row],level.dim,level.unlit and 1 or 0))
+            go.set(mesh(level,row,true),'roll',vmath.vector4(0,0,level.dim,level.unlit and 1 or 0))
+        end
+    end
+end
+local function publish(self)
+    local w,h=window.get_size()
+    local state={phase=self.phase,active=self.active,moves=self.moves,ended=self.ended,time=self.time,render_frames=self.render_frames or 0,camera=self.camera,jar=self.jar,viewport={w=w,h=h},levels={}}
+    for i,level in ipairs(self.levels)do state.levels[i]={offsets=level.offsets,rotations=level.rotation,cleared=level.count,locked=level.locked,rows=level.config.rowSegmentCount,objective=level.config.clearObjectiveLanes or 0}end
+    P.call('publish',state)
+end
+function update(self,dt)
+    local paused=P.paused()
+    if paused~=self.paused then
+        self.paused=paused;sound.pause('#bgm',paused)
+        if paused and self.drag then self.levels[self.active].rotation[self.drag.row]=0;self.drag=nil end
+    end
+    sound.set_group_gain(hash('master'),tonumber(P.call('volume'))or 1)
+    if paused then return end
+    dt=math.min(dt,.1);self.time=self.time+dt;self.hint_time=self.hint_time+dt
+    if self.camera_tween then
+        local t=self.camera_tween;t.time=t.time+dt;local a=sine(t.time/t.duration)
+        self.camera.x=t.x+(t.tox-t.x)*a;self.camera.y=t.y+(t.toy-t.y)*a;self.camera.zoom=t.z+(t.toz-t.z)*a
+        if t.time>=t.duration then self.camera_tween=nil;if t.done then t.done()end end
+    end
+    if self.settle then
+        local t=self.settle;t.time=t.time+dt;local k=math.sin(clamp(t.time/t.duration,0,1)*math.pi/2)
+        local level=self.levels[self.active];level.rotation[t.row]=t.from+(t.step-t.from)*k
+        if t.time>=t.duration then
+            R.rotate(level,t.row,t.step);self.settle=nil;self.moves=self.moves+1
+            if t.step~=0 and self.active==1 then self.row_gesture_completed=true;self.hint=false;self.tutorial=''end
+            local matches=R.matches(level)
+            if #matches>0 then queue_clear(self,level,matches)else self.phase='playing';if not self.row_gesture_completed and self.active==1 then self.hint_at=self.time+.22 end end
+        end
+    end
+    if self.hint_at and self.time>=self.hint_at then self.hint_at=nil;self.hint=true;self.hint_time=0 end
+    for _,receipt in ipairs(self.receipts)do
+        if not receipt.flew and self.time>=receipt.flight then receipt.flew=true;play(self,'coin');open_lid(self)end
+        if not receipt.arrived and self.time>=receipt.arrival then receipt.arrived=true;self.received=self.received+1;open_lid(self)end
+    end
+    if self.jar.visible then
+        if self.jar.exit_at then
+            self.jar.offset=self.jar.hidden_offset*sine((self.time-self.jar.exit_at)/.38)
+            if self.time>=self.jar.exit_at+.38 then self.jar.visible=false;self.jar.offset=0;self.jar.exit_at=nil;self.clear_wait=self.time+.09 end
+        else self.jar.offset=self.jar.hidden_offset*(1-sine((self.time-self.jar.appear_at)/.43))end
+        local jar=self.jar
+        if jar.lid_kind then
+            local t=clamp((self.time-jar.lid_start)/(jar.lid_kind=='open'and .13 or .17),0,1)
+            if jar.lid_kind=='open'then local k=t-1;jar.lid=jar.lid_from+(1-jar.lid_from)*(1+2.70158*k^3+1.70158*k^2)
+            else jar.lid=jar.lid_from*(1-sine(t))end
+            if t>=1 then jar.lid_kind=nil end
+        end
+        if jar.lid_hold_until and self.time>=jar.lid_hold_until then close_lid(self)end
+        if self.jar.hide_at and self.time>=self.jar.hide_at then
+            self.jar.hide_at=nil;close_lid(self);self.jar.exit_at=self.time+.17
+        end
+    end
+    if self.clear_wait and self.time>=self.clear_wait then self.clear_wait=nil;end_clear(self)end
+    if self.unlock_at and self.time>=self.unlock_at then
+        self.unlock_at=nil;self.active=self.active+1
+        if self.active>3 then finish(self)else
+            local level=self.levels[self.active];level.locked=false;level.unlit=false;level.unlock_time=self.time
+            play(self,'lock');self.phase='focus';focus(self,self.active,.72)
+        end
+    end
+    for _,level in ipairs(self.levels)do
+        if level.unlock_time then level.dim=.95*(1-sine((self.time-level.unlock_time)/.32))end
+    end
+    if self.end_at and self.time>=self.end_at then self.end_at=nil;self.phase='endcard';self.endcard_at=self.time;P.event('ENDCARD_SHOWN')end
+    if self.phase=='endcard'then
+        self.end_fade=math.sin(clamp((self.time-self.endcard_at)/.42,0,1)*math.pi/2)
+        if self.end_fade>=1 and not self.cta then self.cta=true;P.cta()end
+    end
+    update_materials(self)
+    local frame={x=self.camera.x,y=self.camera.y,zoom=self.camera.zoom,time=self.time,first_fill=math.max(0,self.received-220),jar_x=self.jar.x,jar_y=self.jar.y+self.jar.offset,jar_visible=self.jar.visible,
+        active=self.active,phase=self.phase,jar_lid=self.jar.lid,tutorial=self.tutorial,hint=self.hint,hint_time=self.hint_time,end_fade=self.end_fade}
+    frame.locks={};for i,level in ipairs(self.levels)do frame.locks[i]={locked=level.locked and not level.completed,unlock=level.unlock_time and self.time-level.unlock_time or -1}end
+    msg.post('@render:','frame',frame);msg.post('/hud#gui','frame',frame);msg.post('/jarbase#gui','frame',frame)
+    self.report=(self.report or 0)+dt;if self.report>=.1 then self.report=0;publish(self)end
+end
+function on_input(self,id,a)
+    if id==hash('restart')and a.pressed then sys.reboot();return true end
+    if id~=hash('touch')and id~=nil then return end
+    if self.paused then return true end
+    local w,h=window.get_size();local s=math.min(w/1080,h/1920)
+    local px=a.screen_x or a.x;local py=a.screen_y or a.y
+    if not px or not py then return end
+    local x=(((px-(w-1080*s)/2)/s)-540)/self.camera.zoom+self.camera.x
+    local y=(((h-py-(h-1920*s)/2)/s)-960)/self.camera.zoom+self.camera.y
+    if a.pressed then
+        if not self.audio then self.audio=true;P.call('unlock');sound.play('#bgm')end
+        if self.phase=='overview'then begin(self);return true end
+        if self.phase=='endcard'then if not self.cta then self.cta=true;P.cta()end;return true end
+        if self.phase~='playing'then return true end
+        local level=self.levels[self.active];local cfg=level.config
+        local width=(cfg.rowSegmentCount-1)*R.spacing(cfg)+R.row_width(cfg)+93.6
+        if math.abs(y-cfg.centerY)>112.5 then return true end
+        if not cfg.clearObjectiveLanes then if math.abs(x-cfg.centerX)<=width/2 then finish(self)end;return true end
+        for row=cfg.rowSegmentCount,1,-1 do
+            if math.abs(x-R.row_x(cfg,row))<=(R.row_width(cfg)+28)/2 then
+                self.drag={row=row,y=y,last=0};self.hint=false;break
+            end
+        end
+    elseif self.drag then
+        local drag=self.drag;local level=self.levels[self.active]
+        local rotation=clamp(-(y-drag.y)/46.8,-2.5,2.5)
+        level.rotation[drag.row]=rotation
+        local step=R.step(rotation)
+        if step~=drag.last then for _=1,math.abs(step-drag.last)do play(self,'coin')end;drag.last=step end
+        if a.released then self.drag=nil;self.phase='settling';self.settle={row=drag.row,from=rotation,step=step,time=0,duration=step==0 and .12 or .18}end
+    end
+    return true
+end
+function on_message(self,id,m)
+    if id==hash('frame_presented')then self.render_frames=m.frames end
+end
+@main/game.scriptmain.config
+main.rulesmain.platform/main/config.luac/main/rules.luac/main/platform.luac" 

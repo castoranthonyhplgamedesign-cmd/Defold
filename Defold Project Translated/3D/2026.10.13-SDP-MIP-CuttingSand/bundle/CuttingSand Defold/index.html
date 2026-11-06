@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, minimal-ui, shrink-to-fit=no, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<!-- The above 5 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<link rel="preload" as="fetch" crossorigin href="archive/archive_files.json">
+
+
+	<link rel="preload" as="fetch" crossorigin href="CuttingSandDefold_wasm.js">
+	<link rel="preload" as="fetch" crossorigin href="CuttingSandDefold.wasm">
+
+	<title>CuttingSand Defold 1.0</title>
+	<style type='text/css'>
+	/* Disable user selection to avoid strange bug in Chrome on Windows:
+	* Selecting a text outside the canvas, then clicking+draging would
+	* drag the selected text but block mouse down/up events to the engine.
+	*/
+	body {
+	
+		position: fixed; /* Prevent overscroll */
+	
+		margin:0;
+		padding:0;
+	}
+
+	.canvas-app-container {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		align-items: center;
+		justify-content: center;
+		overflow: hidden;
+	}
+
+	.canvas-app-container:-webkit-full-screen {
+		/* Auto width and height in Safari/Chrome fullscreen. */
+		width: auto;
+		height: auto;
+	}
+
+	#canvas {
+		outline: none;
+		border: 0;
+		width: 100%;
+		vertical-align: bottom;
+	}
+
+	#canvas-container {
+		position: relative;
+	}
+
+	canvas:focus, canvas:active {
+		outline: none;
+		border: 0;
+		ie-dummy: expression(this.hideFocus=true);
+		-moz-outline-style: none;
+	}
+
+	body, div {
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		-khtml-user-select: none;
+		-moz-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
+	}
+
+		.canvas-app-progress {
+		position: absolute;
+		background-color: #d1dbeb;
+		height: 6px;
+		margin-top: -6px;
+		width: 100%;
+	}
+
+	.canvas-app-progress-bar {
+		font-size: 12px;
+		height: 6px;
+		color: rgb(255, 255, 255);
+		background-color: #1a72eb;
+		text-align: center;
+		line-height: 20px;
+		transition: transform 1s ease;
+		transform-origin: left;
+		transform: scaleX(1.0);
+	}
+	.link, .button {
+		font-family: sans-serif;
+		font-size: 14px;
+		font-weight: normal;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: normal;
+		letter-spacing: 0px;
+		padding-top: 12px;
+	}
+
+	.buttons-background {
+		background-color: #ffffff;
+		width: 100%;
+		height: 42px;
+	}
+
+	body {
+		background-color: #ffffff;
+	}
+
+	.canvas-app-container {
+		background: rgba(250,252,255,1);
+		background: -moz-linear-gradient(-45deg, rgba(250,252,255,1) 0%, rgba(250,252,255,1) 50%, rgba(245,249,255,1) 50%, rgba(245,249,255,1) 100%);
+		background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(250,252,255,1)), color-stop(50%, rgba(250,252,255,1)), color-stop(50%, rgba(245,249,255,1)), color-stop(100%, rgba(245,249,255,1)));
+		background: -webkit-linear-gradient(-45deg, rgba(250,252,255,1) 0%, rgba(250,252,255,1) 50%, rgba(245,249,255,1) 50%, rgba(245,249,255,1) 100%);
+		background: -o-linear-gradient(-45deg, rgba(250,252,255,1) 0%, rgba(250,252,255,1) 50%, rgba(245,249,255,1) 50%, rgba(245,249,255,1) 100%);
+		background: -ms-linear-gradient(-45deg, rgba(250,252,255,1) 0%, rgba(250,252,255,1) 50%, rgba(245,249,255,1) 50%, rgba(245,249,255,1) 100%);
+		background: linear-gradient(135deg, rgba(250,252,255,1) 0%, rgba(250,252,255,1) 50%, rgba(245,249,255,1) 50%, rgba(245,249,255,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafcff', endColorstr='#f5f9ff', GradientType=1 );
+	}
+
+	.canvas-app-canvas {
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 70%;
+		background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='utf-8'%3F%3E%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='300px' height='64px' viewBox='-2467.5 2469 300 64' style='enable-background:new -2467.5 2469 300 64;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:%2315244A;%7D .st1%7Bfill:url(%23SVGID_1_);%7D .st2%7Bfill:url(%23SVGID_2_);%7D%0A%3C/style%3E%3Ctitle%3Edefold-logo-html5-splash%3C/title%3E%3Cpolygon class='st0' points='-2177,2482.9 -2175.5,2482.9 -2175.5,2486.7 -2174.4,2486.7 -2174.4,2482.9 -2173.2,2482.9 -2173.2,2481.9 -2177,2481.9 '/%3E%3Cpolygon class='st0' points='-2169.8,2484.1 -2171,2482.1 -2172.1,2482.1 -2172.1,2486.7 -2171,2486.7 -2171,2483.5 -2169.7,2485.6 -2169.7,2485.6 -2168.5,2483.5 -2168.5,2486.7 -2167.5,2486.7 -2167.5,2482.1 -2168.6,2482.1 '/%3E%3Cpath class='st0' d='M-2376,2482h-13.8v38h13.6c6.6,0,12.2-1.9,16.1-5.5c3.8-3.5,5.8-8.5,5.7-13.7v-0.1 C-2354.5,2489.3-2362.9,2482-2376,2482z M-2364,2501.2c0,6.7-4.5,10.9-11.8,10.9h-4.7v-22h4.7c7.3,0,11.8,4.2,11.8,10.9 L-2364,2501.2z'/%3E%3Cpolygon class='st0' points='-2340.9,2505 -2325.1,2505 -2325.1,2497.4 -2340.9,2497.4 -2340.9,2489.6 -2322.4,2489.6 -2322.4,2481.9 -2350.1,2481.9 -2350.1,2520 -2322.2,2520 -2322.2,2512.4 -2340.9,2512.4 '/%3E%3Cpolygon class='st0' points='-2317.1,2481.9 -2317.1,2520 -2307.9,2520 -2307.9,2505.9 -2293,2505.9 -2293,2498.4 -2307.9,2498.4 -2307.9,2489.9 -2289.6,2489.9 -2289.6,2481.9 '/%3E%3Cpolygon class='st0' points='-2233,2482.1 -2242.2,2482.1 -2242.2,2520 -2216.3,2520 -2216.3,2512.2 -2233,2512.2 '/%3E%3Cpath class='st0' d='M-2197.1,2482h-13.7v38h13.5c6.7,0,12.2-1.9,16.1-5.5c3.8-3.5,5.8-8.5,5.7-13.7v-0.1 C-2175.5,2489.3-2184,2482-2197.1,2482z M-2185.1,2501.2c0,6.7-4.5,10.9-11.8,10.9h-4.7v-22h4.7c7.3,0,11.8,4.2,11.8,10.9V2501.2z' /%3E%3Cpath class='st0' d='M-2267.5,2481.7c-10.8,0-19.6,8.8-19.6,19.7c0,10.8,8.8,19.6,19.7,19.6c10.8,0,19.6-8.8,19.6-19.6l0,0 C-2247.8,2490.5-2256.6,2481.7-2267.5,2481.7C-2267.5,2481.7-2267.5,2481.7-2267.5,2481.7z M-2258,2507.9l-8.8,5.1 c-0.5,0.3-1.2,0.3-1.8,0l-8.8-5.1c-0.5-0.3-0.9-0.9-0.9-1.5v-10.2c0-0.6,0.3-1.2,0.9-1.5l8.8-5.1c0.5-0.3,1.2-0.3,1.8,0l8.8,5.1 c0.5,0.3,0.9,0.9,0.9,1.5v10.2C-2257.1,2507-2257.4,2507.6-2258,2507.9z'/%3E%3Cpath class='st0' d='M-2423.2,2494.6l-11.1,6.4l-11.1-6.4l11.1-6.4L-2423.2,2494.6z M-2412.1,2501v12.8l11.1-6.4L-2412.1,2501z M-2467.5,2507.4l11.1,6.4V2501L-2467.5,2507.4z M-2434.3,2526.6l11.1,6.4l11.1-6.4l-11.1-6.4l11.1-6.4l-11.1-6.4l-11.1,6.4 l-11.1-6.4l-11.1,6.4l11.1,6.4l-11.1,6.4l11.1,6.4L-2434.3,2526.6z'/%3E%3ClinearGradient id='SVGID_1_' gradientUnits='userSpaceOnUse' x1='-2451.2178' y1='2525.4604' x2='-2406.2178' y2='2499.6304' gradientTransform='matrix(1 0 0 -1 0 5004)'%3E%3Cstop offset='0' style='stop-color:%231C68EC'/%3E%3Cstop offset='1' style='stop-color:%2300E9DF'/%3E%3C/linearGradient%3E%3Cpath class='st1' d='M-2412.1,2513.8v12.8l-11.1-6.4L-2412.1,2513.8z M-2434.3,2513.8V2501l-11.1-6.4v12.8L-2434.3,2513.8z M-2445.4,2469v12.8l11.1-6.4L-2445.4,2469z M-2412.1,2488.2L-2412.1,2488.2 M-2423.2,2507.4l11.1,6.4V2501l11.1,6.4v-12.8 l-11.1-6.4v-12.8l0,0l-11.1-6.4v12.8l-11.1-6.4v12.8l11.1,6.4V2507.4z'/%3E%3ClinearGradient id='SVGID_2_' gradientUnits='userSpaceOnUse' x1='-2465.9385' y1='2521.2493' x2='-2423.5085' y2='2496.7893' gradientTransform='matrix(1 0 0 -1 0 5004)'%3E%3Cstop offset='0' style='stop-color:%23FF3C2A'/%3E%3Cstop offset='1' style='stop-color:%23FFD215'/%3E%3C/linearGradient%3E%3Cpath class='st2' d='M-2434.3,2513.8V2501l11.1-6.4v12.8L-2434.3,2513.8z M-2434.3,2475.4l11.1,6.4V2469L-2434.3,2475.4z M-2456.5,2488.2L-2456.5,2488.2 M-2445.4,2494.6l11.1-6.4v-12.8l-11.1,6.4V2469l-11.1,6.4l0,0v12.8l-11.1,6.4v12.8l11.1-6.4v12.8 l11.1-6.4V2494.6z M-2456.5,2513.8v12.8l11.1-6.4L-2456.5,2513.8z'/%3E%3C/svg%3E%0A");
+	}
+	</style>
+<link rel="icon" href="data:,"><script>window.SAND_DEFAULTS={"APP_LINKS":{"app_store":"https://apps.apple.com/app/sand-drop-color-puzzle/id6786642612","google_play":"https://play.google.com/store/apps/details?id=com.fingersyoda.sanddrop&hl=en"},"MUTE":false,"AUDIO":{"flowHoldMs":120,"flowFadeInMs":100,"flowFadeMs":220,"loopCrossfadeMs":240,"endcardMusicFadeMs":500,"endcardSecondPopMs":233,"maxEffectVoices":4},"MECHANIC":"cut","GAME_LENGTH":{"timeLimit":9999,"clickLimit":9999},"GAME_BACKGROUND_TYPE":"Image","GAME_BACKGROUND_COLOR":[161,180,217],"GAME_BACKGROUND_COLOR_CONFIG":{"gradientDirection":"vertical","colors":[[174,197,225],[174,198,226],[169,192,223],[161,180,217],[153,170,211],[149,163,209],[147,161,208],[147,161,208],[147,161,208]]},"SHOW_PACKSHOT":true,"CHANGABLE_TEXTURES":[{"spriteName":"sand-picture","path":"","originalSize":{"width":189,"height":168},"format":"webp","uuid":"sand-picture","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"sand-picture-hd","path":"","originalSize":{"width":756,"height":672},"format":"webp","uuid":"sand-picture-hd","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"background","path":"","originalSize":{"width":1200,"height":1200},"format":"webp","uuid":"background","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"sand-container","path":"","originalSize":{"width":902,"height":1213},"format":"webp","uuid":"sand-container","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"conveyor-belt","path":"","originalSize":{"width":857,"height":259},"format":"webp","uuid":"conveyor-belt","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"belt-chevron","path":"","originalSize":{"width":47,"height":50},"format":"webp","uuid":"belt-chevron","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-purple","path":"","originalSize":{"width":145,"height":118},"format":"webp","uuid":"bucket-purple","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-purple-lid","path":"","originalSize":{"width":145,"height":68},"format":"webp","uuid":"bucket-purple-lid","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-blue-v2","path":"","originalSize":{"width":145,"height":118},"format":"webp","uuid":"bucket-blue-v2","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-blue-v2-lid","path":"","originalSize":{"width":145,"height":50},"format":"webp","uuid":"bucket-blue-v2-lid","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-cyan","path":"","originalSize":{"width":145,"height":118},"format":"webp","uuid":"bucket-cyan","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-cyan-lid","path":"","originalSize":{"width":145,"height":68},"format":"webp","uuid":"bucket-cyan-lid","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-green-v2","path":"","originalSize":{"width":145,"height":118},"format":"webp","uuid":"bucket-green-v2","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-green-v2-lid","path":"","originalSize":{"width":145,"height":50},"format":"webp","uuid":"bucket-green-v2-lid","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-green","path":"","originalSize":{"width":145,"height":118},"format":"webp","uuid":"bucket-green","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-green-lid","path":"","originalSize":{"width":145,"height":68},"format":"webp","uuid":"bucket-green-lid","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-yellow-v2","path":"","originalSize":{"width":145,"height":118},"format":"webp","uuid":"bucket-yellow-v2","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-yellow-v2-lid","path":"","originalSize":{"width":145,"height":50},"format":"webp","uuid":"bucket-yellow-v2-lid","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-orange","path":"","originalSize":{"width":145,"height":118},"format":"webp","uuid":"bucket-orange","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-orange-lid","path":"","originalSize":{"width":145,"height":68},"format":"webp","uuid":"bucket-orange-lid","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-red-v2","path":"","originalSize":{"width":145,"height":118},"format":"webp","uuid":"bucket-red-v2","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-red-v2-lid","path":"","originalSize":{"width":145,"height":50},"format":"webp","uuid":"bucket-red-v2-lid","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-pink","path":"","originalSize":{"width":145,"height":118},"format":"webp","uuid":"bucket-pink","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-pink-lid","path":"","originalSize":{"width":145,"height":68},"format":"webp","uuid":"bucket-pink-lid","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-black-v2","path":"","originalSize":{"width":145,"height":118},"format":"webp","uuid":"bucket-black-v2","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-black-v2-lid","path":"","originalSize":{"width":145,"height":50},"format":"webp","uuid":"bucket-black-v2-lid","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-white-v2","path":"","originalSize":{"width":145,"height":118},"format":"webp","uuid":"bucket-white-v2","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-white-v2-lid","path":"","originalSize":{"width":145,"height":50},"format":"webp","uuid":"bucket-white-v2-lid","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-shadow","path":"","originalSize":{"width":180,"height":85},"format":"webp","uuid":"bucket-shadow","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"bucket-glow","path":"","originalSize":{"width":292,"height":263},"format":"webp","uuid":"bucket-glow","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"sparkle","path":"","originalSize":{"width":22,"height":22},"format":"webp","uuid":"sparkle","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"fail-glow","path":"","originalSize":{"width":590,"height":1000},"format":"webp","uuid":"fail-glow","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"endcard-logo","path":"","originalSize":{"width":1000,"height":747},"format":"webp","uuid":"endcard-logo","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1},{"spriteName":"ui-hand","path":"","originalSize":{"width":341,"height":400},"format":"webp","uuid":"ui-hand","resizeBlocked":true,"anchorPoint":{"x":0.5,"y":0.5},"scale":1}],"CHANGABLE_SOUNDTRACKS":[{"id":"bgm","path":"","volume":0.8,"loop":true,"format":"mp3","uuid":"bgm"},{"id":"sfx-conveyor","path":"","volume":0.9,"loop":true,"format":"mp3","uuid":"sfx-conveyor"},{"id":"sfx-cut","path":"","volume":0.8,"loop":true,"format":"mp3","uuid":"sfx-cut"},{"id":"sfx-sand","path":"","volume":0.85,"loop":true,"format":"mp3","uuid":"sfx-sand"},{"id":"sfx-click","path":"","volume":0.8,"loop":false,"format":"mp3","uuid":"sfx-click"},{"id":"sfx-woosh","path":"","volume":0.55,"loop":false,"format":"mp3","uuid":"sfx-woosh"},{"id":"sfx-bells","path":"","volume":0.9,"loop":false,"format":"mp3","uuid":"sfx-bells"},{"id":"sfx-win","path":"","volume":1,"loop":false,"format":"mp3","uuid":"sfx-win"},{"id":"sfx-endcard","path":"","volume":1,"loop":false,"format":"mp3","uuid":"sfx-endcard"},{"id":"sfx-cta","path":"","volume":0.9,"loop":false,"format":"mp3","uuid":"sfx-cta"},{"id":"sfx-fail","path":"","volume":0.4,"loop":false,"format":"mp3","uuid":"sfx-fail"}],"HAND_TUTOR_MODE":true,"TUTORIAL_DELAY":10,"OPENING_GAMEPLAY_ANIMATION":true,"OPENING_STYLE":"reveal","SAND":{"columns":189,"palette":[[173,41,252],[33,92,249],[75,189,252],[59,165,48],[150,237,57],[253,238,48],[253,127,53],[247,27,18],[252,104,202],[13,13,12],[254,254,254]],"grainShade":0.085,"gravity":9000},"BELT":{"capacity":3000,"overflow":750,"speed":480,"stallSeconds":4,"stallPercent":5},"BUCKETS":{"capacity":800,"stacks":[[800,800,380],[800,800,380],[800,800,380],[800,800,380],[800,800,380],[800,800,380],[800,800,380],[800,800,380],[800,800,380],[1396],[1404]],"art":["bucket-purple","bucket-blue-v2","bucket-cyan","bucket-green-v2","bucket-green","bucket-yellow-v2","bucket-orange","bucket-red-v2","bucket-pink","bucket-black-v2","bucket-white-v2"],"start":[10,11,10,11,7,5,3,1,8,6,[9,800],[9,800,380],0,0,4,2],"waves":[[10,11],[1,3,5,7,9],[2,4,6,8]],"racks":[[1],[2],[3]]},"LAYOUT":{"picture":{"x":155,"y":188.5,"w":770},"container":{"x":124.5,"y":178.9,"w":826.5026,"h":1111.4719},"frame":{"sideBottom":1070,"mouthHalf":27,"mouthY":1248},"sandArea":{"x":122.57894736842105,"y":188.5,"w":822.6842105263158,"bottom":1600},"belt":{"cx":540,"cy":1394.2379269729092,"half":277.055359246172,"radius":56.39575971731449,"track":65,"rim":10,"artOffsetY":16.560659599528858,"label":44,"chevrons":25},"buckets":{"xs":[308,463,617,772],"ys":[1574,1681,1789,1896],"w":129.7997644287397,"h":105.6301531213192,"label":38,"labelY":0.265,"shadowY":0.32,"catchHalf":46},"hand":{"w":190,"h":222,"tipX":0.5,"tipY":0.035,"angle":-24},"hintRing":110,"impactRing":230,"impactGlow":200,"praise":{"x":540,"y":598,"w":720},"endcard":{"logoX":540,"logoY":960,"logoW":860},"dimColor":2894892,"dimAlpha":0.91},"TIMING":{"wrongShake":260,"wrongShakeIntensity":0.005,"vignettePeak":0.95,"vignetteHold":200,"tapRipple":1.6,"tapJitter":60,"dropJitter":40,"cutJitter":50,"cutReach":8,"cutEdgeSnap":10,"cutTopSnap":10,"leftoverShare":0.015,"leftoverGrains":40,"maxFallSpeed":540,"introRow":2.2,"introJitter":120,"introSpeed":260,"praiseShares":[0.03,0.1,0.25],"praiseWords":["GREAT!","AWESOME!","AMAZING!"],"bigDropShake":180,"bigDropShakeIntensity":0.0035,"lidDrop":230,"bucketHop":150,"bucketFly":450,"bucketSlide":160,"bucketRise":300,"bucketRiseFrom":460,"lidPop":150,"revealDelay":500,"revealMs":950,"revealFrom":{"x":0.5,"y":0.75},"revealBlock":7,"revealSquare":21,"revealHold":70,"lidPopAt":600,"fallingMoves":8,"soundWindow":400,"jamGrace":2500,"stallQuiet":300,"winEndcardDelay":900,"drainCap":15000,"fastForward":2,"failEndcardDelay":1000},"ART_SCALE":0.8951707891637221,"FX":{"WAVE 1":{"key":"praise-wave1","width":571,"height":200},"WAVE 2":{"key":"praise-wave2","width":571,"height":200},"WAVE 3":{"key":"praise-wave3","width":571,"height":200},"GREAT!":{"key":"praise-great","width":529,"height":200},"AWESOME!":{"key":"praise-awesome","width":776,"height":200},"AMAZING!":{"key":"praise-amazing","width":709,"height":200},"ring":{"key":"fx-ring","width":128,"height":128},"glow":{"key":"fx-glow","width":128,"height":128}}};</script><script>var SandAudio = (() => {
+  var __defProp = Object.defineProperty;
+  var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+  var __getOwnPropNames = Object.getOwnPropertyNames;
+  var __hasOwnProp = Object.prototype.hasOwnProperty;
+  var __export = (target, all) => {
+    for (var name in all)
+      __defProp(target, name, { get: all[name], enumerable: true });
+  };
+  var __copyProps = (to, from, except, desc) => {
+    if (from && typeof from === "object" || typeof from === "function") {
+      for (let key of __getOwnPropNames(from))
+        if (!__hasOwnProp.call(to, key) && key !== except)
+          __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+    }
+    return to;
+  };
+  var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+  var stdin_exports = {};
+  __export(stdin_exports, {
+    SustainedAudio: () => SustainedAudio
+  });
+  class SustainedAudio {
+    constructor(scene, slot, tuning, onStart) {
+      this.slot = slot;
+      this.tuning = tuning;
+      this.onStart = onStart;
+      this.baseVolume = Number.isFinite(slot.volume) ? Math.max(0, Math.min(1, slot.volume)) : 1;
+      this.voices = [];
+      for (let i = 0; i < 2; i++) {
+        const sound = scene.sound.add(slot.id, { volume: 0, loop: false });
+        sound.setVolume(0);
+        this.voices.push({ sound, weight: 0, config: { volume: 0, loop: false, seek: 0, rate: 1 } });
+      }
+      this.loopEnd = this.voices[0].sound.duration || 0;
+      this.findContentBounds(scene.cache.audio.get(slot.id));
+    }
+    voices;
+    baseVolume;
+    loopStart = 0;
+    loopEnd = 0;
+    active = -1;
+    incoming = -1;
+    crossElapsed = 0;
+    crossDuration = 0;
+    gain = 0;
+    target = 0;
+    fadeFrom = 0;
+    fadeElapsed = 0;
+    fadeDuration = 0;
+    previousRequested = false;
+    started = false;
+    complete = false;
+    replayPending = false;
+    destroyed = false;
+    /** Analyse once: repeating at a silent recording head would defeat the overlap. */
+    findContentBounds(cached) {
+      const buffer = cached;
+      if (!buffer || typeof buffer.getChannelData !== "function" || !buffer.length || !buffer.sampleRate) return;
+      const windowSize = Math.max(1, Math.round(buffer.sampleRate * 0.02));
+      const windows = new Float32Array(Math.ceil(buffer.length / windowSize));
+      const channels = buffer.numberOfChannels || 1;
+      for (let channel = 0; channel < channels; channel++) {
+        const data = buffer.getChannelData(channel);
+        for (let window = 0; window < windows.length; window++) {
+          const start = window * windowSize;
+          const end = Math.min(start + windowSize, data.length);
+          let energy = 0;
+          for (let sample = start; sample < end; sample++) energy += data[sample] * data[sample];
+          windows[window] += energy / Math.max(1, end - start) / channels;
+        }
+      }
+      let peak = 0;
+      for (let i = 0; i < windows.length; i++) peak = Math.max(peak, windows[i]);
+      if (!(peak > 0)) return;
+      const threshold = peak * 0.025 * 0.025;
+      let first = 0;
+      let last = windows.length - 1;
+      while (first < last && windows[first] < threshold) first++;
+      while (last > first && windows[last] < threshold) last--;
+      this.loopStart = Math.max(0, (first - 1) * windowSize / buffer.sampleRate);
+      this.loopEnd = Math.min(buffer.length / buffer.sampleRate, (last + 2) * windowSize / buffer.sampleRate);
+    }
+    start(index, seek) {
+      const voice = this.voices[index];
+      if (voice.sound.manager.locked) return false;
+      voice.config.seek = seek;
+      voice.config.volume = 0;
+      if (!voice.sound.play(voice.config)) return false;
+      voice.weight = 1;
+      this.started = true;
+      this.onStart();
+      return true;
+    }
+    fadeTo(target, duration) {
+      if (this.target === target) return;
+      this.target = target;
+      this.fadeFrom = this.gain;
+      this.fadeElapsed = 0;
+      this.fadeDuration = Number.isFinite(duration) ? Math.max(0, duration) : 0;
+      if (this.fadeDuration === 0) this.gain = target;
+    }
+    clearVoices() {
+      for (let i = 0; i < this.voices.length; i++) {
+        this.voices[i].sound.stop();
+        this.voices[i].weight = 0;
+      }
+      this.active = this.incoming = -1;
+      this.crossElapsed = this.crossDuration = 0;
+    }
+    /** The caller freezes updates while paused and gates all starts with `allowed`. */
+    update(deltaMs, requested, allowed, releaseMs = this.tuning.flowFadeMs) {
+      if (this.destroyed || !allowed) return;
+      for (let i = 0; i < this.voices.length; i++) if (this.voices[i].sound.isPaused) return;
+      const delta = Number.isFinite(deltaMs) ? Math.max(0, deltaMs) : 0;
+      if (requested && !this.previousRequested) {
+        if (this.complete && this.active >= 0) this.replayPending = true;
+        else this.complete = false;
+        if (this.active < 0) this.started = false;
+      }
+      if (!requested) this.replayPending = false;
+      this.previousRequested = requested;
+      if (this.active >= 0 && !this.voices[this.active].sound.isPlaying) {
+        if (this.incoming >= 0 && this.voices[this.incoming].sound.isPlaying) {
+          this.voices[this.active].weight = 0;
+          this.active = this.incoming;
+          this.voices[this.active].weight = 1;
+          this.incoming = -1;
+        } else {
+          this.active = this.incoming = -1;
+          if (!this.slot.loop && this.started) this.complete = true;
+        }
+      }
+      if (this.replayPending && this.active < 0) {
+        this.complete = this.started = this.replayPending = false;
+      }
+      let wanted = requested && !this.complete;
+      if (wanted && this.active < 0) {
+        this.gain = this.target = 0;
+        if (this.start(0, this.started ? this.loopStart : 0)) this.active = 0;
+      }
+      let justCrossed = false;
+      if (this.active >= 0) {
+        const voice = this.voices[this.active];
+        const duration = voice.sound.duration;
+        const end = this.loopEnd > 0 ? Math.min(this.loopEnd, duration) : duration;
+        const rate = voice.sound.totalRate > 0 ? voice.sound.totalRate : 1;
+        const remainingMs = (end - voice.sound.seek) * 1e3 / rate;
+        const clipMs = Math.max(0, end - this.loopStart) * 1e3 / rate;
+        const overlapMs = Math.max(0, Math.min(this.tuning.loopCrossfadeMs, clipMs * 0.4));
+        if (this.replayPending && this.incoming < 0 && remainingMs > 0 && overlapMs > 0) {
+          const next = 1 - this.active;
+          if (this.start(next, 0)) {
+            this.incoming = next;
+            this.voices[next].weight = 0;
+            this.crossElapsed = 0;
+            this.crossDuration = Math.min(remainingMs, overlapMs);
+            this.complete = this.replayPending = false;
+            wanted = justCrossed = true;
+          }
+        }
+        if ((wanted || this.gain > 0) && this.slot.loop && this.incoming < 0 && remainingMs <= overlapMs) {
+          if (remainingMs <= 0) {
+            this.clearVoices();
+            this.gain = this.target = 0;
+            if (this.start(0, this.loopStart)) this.active = 0;
+          } else {
+            const next = 1 - this.active;
+            if (this.start(next, this.loopStart)) {
+              this.incoming = next;
+              this.voices[next].weight = 0;
+              this.crossElapsed = 0;
+              this.crossDuration = remainingMs;
+              justCrossed = true;
+            }
+          }
+        } else if (wanted && !this.slot.loop && this.incoming < 0 && remainingMs <= Math.max(0, Math.min(this.tuning.flowFadeMs, clipMs * 0.4))) {
+          this.complete = true;
+          wanted = false;
+          this.fadeTo(0, Math.max(0, remainingMs));
+        }
+      }
+      this.fadeTo(wanted ? 1 : 0, wanted ? this.tuning.flowFadeInMs : releaseMs);
+      if (this.fadeElapsed < this.fadeDuration) {
+        this.fadeElapsed = Math.min(this.fadeDuration, this.fadeElapsed + delta);
+        this.gain = this.fadeFrom + (this.target - this.fadeFrom) * this.fadeElapsed / this.fadeDuration;
+      }
+      if (this.incoming >= 0) {
+        if (!justCrossed) this.crossElapsed += delta;
+        const progress = Math.min(1, this.crossElapsed / this.crossDuration);
+        this.voices[this.active].weight = 1 - progress;
+        this.voices[this.incoming].weight = progress;
+        if (progress === 1) {
+          this.voices[this.active].sound.stop();
+          this.active = this.incoming;
+          this.incoming = -1;
+        }
+      }
+      for (let i = 0; i < this.voices.length; i++) {
+        const voice = this.voices[i];
+        if (voice.sound.isPlaying) voice.sound.setVolume(this.baseVolume * this.gain * voice.weight);
+      }
+      if (this.target === 0 && this.gain === 0) this.clearVoices();
+    }
+    stop() {
+      if (this.destroyed) return;
+      this.clearVoices();
+      this.gain = this.target = this.fadeFrom = this.fadeElapsed = this.fadeDuration = 0;
+      this.previousRequested = this.started = this.complete = this.replayPending = false;
+    }
+    destroy() {
+      if (this.destroyed) return;
+      this.stop();
+      for (let i = 0; i < this.voices.length; i++) this.voices[i].sound.destroy();
+      this.destroyed = true;
+    }
+    snapshot() {
+      let playing = 0;
+      let paused = 0;
+      let volume = 0;
+      const voices = [];
+      for (let i = 0; i < this.voices.length; i++) {
+        const voice = this.voices[i];
+        const sound = voice.sound;
+        if (sound.isPlaying) playing++;
+        if (sound.isPaused) paused++;
+        if (sound.isPlaying || sound.isPaused) volume += sound.volume;
+        voices.push({
+          playing: sound.isPlaying,
+          paused: sound.isPaused,
+          volume: sound.volume,
+          seek: sound.seek,
+          duration: sound.duration,
+          weight: voice.weight
+        });
+      }
+      return {
+        playing,
+        paused,
+        capacity: 2,
+        volume,
+        baseVolume: this.baseVolume,
+        targetVolume: this.baseVolume * this.target,
+        logicalGain: this.gain,
+        crossfading: this.incoming >= 0,
+        loopStart: this.loopStart,
+        loopEnd: this.loopEnd,
+        voices
+      };
+    }
+  }
+  return __toCommonJS(stdin_exports);
+})();
+
+// Browser boundary only. Defold/Lua owns gameplay and rendering.
+(() => {
+ const params=new URLSearchParams(location.search),inputs=[],events=[],redirects=[],plays={};
+ const config=window.SAND_DEFAULTS;let pausedByHost=false,viewable=true,exposed=true,hostMuted=false,volume=1,unlocked=false,ctx,master,finished=false,active=null,layer,lastCTA=-Infinity;
+ const buffers={},loops=new Map(),effectPools=new Map();let snapshot={},audioClock=0,lastCut=-Infinity,lastSand=-Infinity;
+ const paused=()=>document.hidden||pausedByHost||!viewable||!exposed;
+ const muted=()=>!unlocked||hostMuted||config.MUTE||paused();
+ const event=name=>{events.push({name,time:performance.now()});if(typeof window.ALPlayableAnalytics?.trackEvent==='function')window.ALPlayableAnalytics.trackEvent(name);else if(typeof window.playableSDK?.reportEvent==='function')window.playableSDK.reportEvent(name);};
+ function life(name){window[name]?.();if(name==='gameStart')window.Luna?.Unity?.Playable?.LifeCycle?.GameStarted?.();if(name==='gameEnd')window.Luna?.Unity?.Playable?.LifeCycle?.GameEnded?.();}
+ for(const n of ['gameReady','gameStart','gameEnd','gameClose'])window[n]??=()=>{};
+ function sync(){if(master)master.gain.value=muted()?0:volume;if(ctx){if(paused())ctx.suspend().catch(()=>{});else if(unlocked)ctx.resume().catch(()=>{});}}
+ class Voice{
+  constructor(id){this.id=id;this.source=null;this.g=ctx.createGain();this.g.connect(master);this.volume=0;this.isPlaying=false;this.isPaused=false;this.totalRate=1;this.manager={get locked(){return !unlocked}};this.duration=buffers[id].duration;this.at=0;this.offset=0;}
+  get seek(){return this.isPlaying?Math.min(this.duration,this.offset+ctx.currentTime-this.at):0}
+  play(opts){this.stop();this.source=ctx.createBufferSource();this.source.buffer=buffers[this.id];this.offset=opts.seek||0;this.at=ctx.currentTime;this.setVolume(opts.volume??1);this.source.connect(this.g);this.source.onended=()=>{this.isPlaying=false};this.source.start(0,this.offset);this.isPlaying=true;return true;}
+  setVolume(value){this.volume=value;this.g.gain.value=value;return this}
+  stop(){if(this.source){this.source.onended=null;try{this.source.stop()}catch{}this.source.disconnect();this.source=null}this.isPlaying=false;return this}
+  destroy(){this.stop();this.g.disconnect()}
+ }
+ function sfx(id){if(!ctx||!buffers[id]||!unlocked||config.MUTE||paused())return;const pool=effectPools.get(id);if(!pool)return;const v=pool.find(v=>!v.isPlaying)||pool[0];const slot=config.CHANGABLE_SOUNDTRACKS.find(s=>s.id===id);v.play({volume:slot?.volume??1});plays[id]=(plays[id]??0)+1;}
+ function unlock(){if(!unlocked){unlocked=true;sync();for(const id of ['bgm','sfx-conveyor'])loops.get(id)?.update(0,true,!config.MUTE&&!finished)}else sync();}
+ function cta(){const now=performance.now();if(now-lastCTA<400)return;lastCTA=now;event('CTA_CLICKED');life('gameClose');const ios=/iphone|ipad|ipod/i.test(navigator.userAgent)||(/macintosh/i.test(navigator.userAgent)&&navigator.maxTouchPoints>1);const url=ios?config.APP_LINKS.app_store:config.APP_LINKS.google_play;redirects.push({url,time:now});
+  // Local review never opens external tabs or leaves the game.
+  if(['127.0.0.1','localhost','::1'].includes(location.hostname)){document.dispatchEvent(new CustomEvent('sand-local-cta',{detail:{url}}));return;}
+  if(typeof window.ExitApi?.exit==='function')window.ExitApi.exit();
+  else if(typeof window.FbPlayableAd?.onCTAClick==='function')window.FbPlayableAd.onCTAClick();
+  else if(typeof window.Luna?.Unity?.Playable?.InstallFullGame==='function')window.Luna.Unity.Playable.InstallFullGame();
+  else if(typeof window.playableSDK?.openAppStore==='function')window.playableSDK.openAppStore();
+  else if(typeof window.install==='function')window.install();
+  else if(typeof window.openAppStore==='function')window.openAppStore();
+  else if(typeof window.clickTag==='string')window.open(window.clickTag,'_blank');
+  else if(window.__VUNGLE__)window.parent.postMessage('download','*');
+  else if(typeof window.mraid?.open==='function'&&(typeof window.mraid.getState!=='function'||window.mraid.getState()!=='loading'))window.mraid.open(url);
+  else window.open(url,'_blank');
+ }
+ async function mraidReady(){const start=performance.now();while(!window.mraid&&performance.now()-start<500)await new Promise(r=>setTimeout(r,20));const m=window.mraid;if(!m)return;
+  if(m.getState?.()==='loading')await Promise.race([new Promise(r=>m.addEventListener?.('ready',r)),new Promise(r=>setTimeout(r,2000))]);
+  const on=(n,f)=>m.addEventListener?.(n,f);on('error',(message,action)=>console.warn('MRAID',message,action));on('stateChange',()=>{});on('exposureChange',v=>{exposed=v>0;sync()});on('viewableChange',v=>{viewable=!!v;sync()});on('audioVolumeChange',v=>{if(typeof v==='number'){volume=Math.max(0,Math.min(1,v/100));sync()}});if(m.isViewable)viewable=m.isViewable();
+ }
+ document.addEventListener('visibilitychange',()=>{inputs.length=0;active=null;sync()});
+ for(const [name,value]of [['luna:pause',true],['luna:resume',false],['ad-event-pause',true],['ad-event-resume',false]])window.addEventListener(name,()=>{pausedByHost=value;sync()});
+ for(const [name,value]of [['luna:mute',true],['luna:unmute',false]])window.addEventListener(name,()=>{hostMuted=value;sync()});
+ window.addEventListener('message',e=>{if(e.data==='onPause')pausedByHost=true;else if(e.data==='onResume')pausedByHost=false;sync()});
+ const variant=params.get('variant')||'full';const limits={'5clicks':[5,9999],'10clicks':[10,9999],'90seconds':[9999,90],full:[9999,9999]};const [click_limit,time_limit]=limits[variant]||limits.full;
+ window.SandHost={ready:false,event,life,sfx,cta,
+  fatal(message){console.error(message);window.SandQA.fatal=message;let p=document.getElementById('fatal');if(!p){p=document.createElement('pre');p.id='fatal';p.style.cssText='position:fixed;inset:0;color:white;background:#500;z-index:100;white-space:pre-wrap';document.body.append(p)}p.textContent=message},
+  options:()=>JSON.stringify({mechanic:params.get('mechanic')==='tap'?'tap':'cut',click_limit,time_limit}),
+  frame:()=>JSON.stringify({w:innerWidth,h:innerHeight,paused:paused(),inputs:inputs.splice(0)}),
+  publish(s){snapshot=s;window.__SDP_STATE__=s},
+  flow(s){audioClock+=s.delta;if(s.cut&&!finished)lastCut=audioClock;if(s.sand&&!finished)lastSand=audioClock;for(const [id,l]of loops){const request=!finished&&(id==='sfx-cut'?audioClock-lastCut<=config.AUDIO.flowHoldMs:id==='sfx-sand'?audioClock-lastSand<=config.AUDIO.flowHoldMs:unlocked);l.update(s.delta,request,unlocked&&!config.MUTE&&!paused(),finished&&id==='bgm'?config.AUDIO.endcardMusicFadeMs:config.AUDIO.flowFadeMs)}},
+  finish(){finished=true;for(const [id,l]of loops)l.update(0,false,unlocked&&!config.MUTE,id==='bgm'?config.AUDIO.endcardMusicFadeMs:config.AUDIO.flowFadeMs)},
+  endcard(){if(layer)return;layer=document.createElement('button');layer.setAttribute('aria-label','Play Sand Drop');layer.setAttribute('data-endcard-cta','');layer.style.cssText='position:fixed;inset:0;width:100%;height:100%;border:0;background:transparent;opacity:0;z-index:40;touch-action:manipulation';let armed=false;layer.addEventListener('pointerdown',()=>{armed=true;unlock()});layer.addEventListener('click',e=>{if(armed||e.detail===0){armed=false;sfx('sfx-cta');cta()}});document.body.append(layer)}
+ };
+ window.SandQA={state:()=>snapshot,events,redirects,plays,audio:()=>({unlocked,paused:paused(),muted:muted(),gain:master?.gain.value,context:ctx?.state})};
+ window.SandBoot=async()=>{
+  event('LOADING');ctx=new(window.AudioContext||window.webkitAudioContext)();master=ctx.createGain();master.gain.value=0;master.connect(ctx.destination);
+  await Promise.all([mraidReady(),...config.CHANGABLE_SOUNDTRACKS.map(async s=>{const r=await fetch('audio/'+s.uuid+'.'+s.format);if(!r.ok)throw Error('Missing audio '+s.uuid);buffers[s.id]=await ctx.decodeAudioData(await r.arrayBuffer())})]);
+  const canvas=document.getElementById('canvas');canvas.addEventListener('pointerdown',e=>{unlock();active=e.pointerId;canvas.setPointerCapture(e.pointerId);inputs.push({type:'down',x:e.clientX,y:e.clientY})});
+  canvas.addEventListener('pointermove',e=>{if(e.pointerId===active)inputs.push({type:'move',x:e.clientX,y:e.clientY})});
+  const end=e=>{if(e.pointerId!==active)return;inputs.push({type:e.type==='pointercancel'?'cancel':'up',x:e.clientX,y:e.clientY});active=null};canvas.addEventListener('pointerup',end);canvas.addEventListener('pointercancel',end);
+  window.addEventListener('blur',()=>{if(active!==null)inputs.push({type:'cancel',x:0,y:0});active=null});
+  const audioScene={sound:{add:id=>new Voice(id)},cache:{audio:{get:id=>buffers[id]}}};
+  for(const slot of config.CHANGABLE_SOUNDTRACKS){if(['bgm','sfx-conveyor','sfx-cut','sfx-sand'].includes(slot.id))loops.set(slot.id,new SandAudio.SustainedAudio(audioScene,slot,config.AUDIO,()=>{plays[slot.id]=(plays[slot.id]??0)+1}));else effectPools.set(slot.id,Array.from({length:config.AUDIO.maxEffectVoices},()=>new Voice(slot.id)));}
+  window.SandHost.ready=true;
+ };
+})();
+</script><style>html,body{width:100%;height:100%;overflow:hidden;touch-action:none}#app-container,#canvas-container{position:fixed;inset:0;width:100%;height:100%}#canvas{display:block;width:100%;height:100%}.buttons-background{display:none}</style></head>
+
+<body>
+
+	<div id="app-container" class="canvas-app-container">
+		<div id="running-from-file-warning" style="display: none; margin: 3em;">
+			<h1>Running from local file ⚠️</h1>
+			<p>It seems like you have opened this file by double-clicking on it. In order to test your build in a browser <b>you need to load this file from a web server</b>. You can either upload this file and the rest of the files from a Defold HTML5 bundle to a web hosting service OR host them using a local web server on your home network.</p>
+			<p><a href="https://defold.com/manuals/html5/#testing-html5-build" target="_blank">Learn more about running a local web server in the Defold HTML5 manual</a>.</p>
+		</div>
+		<div id="webgl-not-supported" style="display: none; margin: 3em;">
+			<h1>WebGL not supported ⚠️</h1>
+			<p>WebGL is not supported by your browser - visit <a href="https://get.webgl.org/">https://get.webgl.org/</a> to learn more.</p>
+		</div>
+		<div id="canvas-container" class="canvas-app-canvas-container">
+			<canvas id="canvas" class="canvas-app-canvas" tabindex="1" width="540" height="960"></canvas>
+		</div>
+		<div class="buttons-background">
+		</div>
+	</div>
+	<!-- -->
+	<script>
+		// Fallback to make sure globalThis is available when running in an old
+		// browser (available from Chome 71)
+		// https://github.com/defold/defold/issues/10503
+		if (typeof globalThis === 'undefined') {
+			window.globalThis = window;
+		}
+	</script>
+	<script id='engine-loader' type='text/javascript' src="dmloader.js"></script>
+	<script id='engine-setup' type='text/javascript'>
+CUSTOM_PARAMETERS.resize_window_callback=function(){const w=Math.round(innerWidth),h=Math.round(innerHeight),d=Math.min(devicePixelRatio||1,2),c=document.getElementById('canvas');c.width=Math.round(w*d);c.height=Math.round(h*d);c.style.width=w+'px';c.style.height=h+'px';};
+		// From here you can configure game startup parameters via the CUSTOM_PARAMETERS object,
+		// override ProgressView to create your own loader. See dmloader.js for more details.
+	</script>
+	<script id='engine-start' type='text/javascript'>
+		var runningFromFileWarning = document.getElementById("running-from-file-warning");
+		if (window.location.href.startsWith("file://")) {
+			runningFromFileWarning.style.display = "block";
+		}
+		else {
+			window.SandBoot().then(()=>EngineLoader.load("canvas", "CuttingSandDefold" )).catch(e=>{document.body.innerText=e.message;console.warn(e)});
+			runningFromFileWarning.parentNode.removeChild(runningFromFileWarning);
+		}
+	</script>
+</body>
+</html>

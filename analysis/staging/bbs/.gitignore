@@ -1,0 +1,7 @@
+/build/
+/publish/
+/.internal/
+/.editor_settings
+/.DS_Store
+/qa/artifacts/
+/tools/node_modules/

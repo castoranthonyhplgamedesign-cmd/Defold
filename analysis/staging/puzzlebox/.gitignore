@@ -1,0 +1,7 @@
+node_modules/
+tools/reference/
+build/
+local-publish/
+.internal/
+.lock-wscript
+*.log

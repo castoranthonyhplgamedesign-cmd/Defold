@@ -1,0 +1,12 @@
+{
+  "project_git" : {
+    "sha1" : "dbf147c6894e281716959009461baa3488a8501e",
+    "branch" : "reskin"
+  },
+  "bob_arguments" : {
+    "sha1" : "d295ed4edff2e49072719835713e625f409849f1",
+    "version" : "1.14.0",
+    "timestamp" : "2026-10-19 14:44:44"
+  },
+  "defold_sdk" : "d295ed4edff2e49072719835713e625f409849f1"
+}

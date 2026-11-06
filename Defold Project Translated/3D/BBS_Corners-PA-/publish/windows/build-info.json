@@ -1,0 +1,9 @@
+{
+  "name": "Brickshatter Corners",
+  "timestamp": "2026-11-06T15:42:47.665Z",
+  "platform": "x86_64-win32",
+  "variant": "release",
+  "sourceCommit": "cecc5c065cb16340f7da206b7e942f7abc252cb7",
+  "engine": "1.14.0",
+  "engineSha": "d295ed4edff2e49072719835713e625f409849f1"
+}

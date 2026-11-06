@@ -1,0 +1,6 @@
+material: "/render/floor.material"
+vertices: "/assets/models/floor.buffer"
+textures: "/assets/board.png"
+primitive_type: PRIMITIVE_TRIANGLES
+position_stream: "position"
+normal_stream: "normal"

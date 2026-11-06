@@ -1,0 +1,11 @@
+/build/
+/dist/
+/.internal/
+/tools/node_modules/
+/tools/*.jar
+/bundle/
+/tools/*.proto
+/tools/*.html
+/qa/reference-src/
+/qa/browser-profile/
+__pycache__/

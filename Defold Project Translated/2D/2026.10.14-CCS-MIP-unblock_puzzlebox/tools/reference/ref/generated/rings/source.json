@@ -1,0 +1,54 @@
+{
+  "tool": "built-in image_gen",
+  "input": "preview-source.png",
+  "initialPrompt": "Use case: stylized-concept. Create a clean game sprite asset preview sheet using the provided image ONLY as the style/material/lighting reference. Exactly FOUR separate single-ring torus sprites in a neat 2x2 grid: top-left saturated candy red, top-right saturated royal blue, bottom-left saturated bright green, bottom-right saturated lemon yellow. Each sprite is ONE smooth plump round tube, not concentric stacks. Perfect circular silhouette, orthographic straight top-down camera, no perspective tilt. Outer diameter identical for all four; hole diameter 60 percent of outer diameter. Match reference toy-like glossy plastic, softly rounded tube cross section, strong but soft narrow highlight on upper-right outer tube face and a secondary reflection on lower-left inner tube face. Rich colored midtones, smooth gentle shaded edges, no metallic hard white outlines. Genuine transparent alpha background AND transparent center holes. Very subtle soft contact shadow immediately under each ring only. All four completely separate with generous transparent gutters and padding. No text, no labels, no frame, no background scene, no checkerboard painted into image, no orange or cyan. This is a material preview for a Phaser ring-puzzle asset pipeline, keep geometry clean and consistent.",
+  "sourceOutput": "exec-c9e5baa8-271f-49e6-9d1f-bcf078d96f92.png",
+  "reference": "ref/mockup/Circle Sort Ring Puzzle Box.jpg, panel 1 lower half",
+  "prompt": "Clean this four-ring game sprite sheet for production. Keep the same red blue green yellow order, glossy plastic material, circular front-on shapes, opposing upper-right outer and lower-left inner white highlights. Exactly four isolated single torus sprites in an evenly spaced 2x2 grid. All four must have exactly the same size and round geometry. Remove ALL cast shadows and ALL stray pixels outside the ring silhouettes and inside the holes. The center holes and every space outside the four rings must be perfectly empty transparent alpha. No haze, noise, colored flecks, background, checkerboard, pedestal, text, outlines or additional rings. Orthographic front view of perfectly circular rings. Keep generous transparent gutters. Make each ring outer diameter 400 px and hole diameter 230 px in a square 1024px composition, centers at (256,256),(768,256),(256,768),(768,768). Shadows will be drawn separately by the game; do not include any cast shadow.",
+  "export": "node scripts/export-ring-atlas.mjs (uses existing Playwright via PLAYWRIGHT_MODULE, no project dependency)",
+  "processing": "Sample only the solid generated tube, excluding stray alpha and cast shadows. Radially remap the material into 20 fixed-pitch bands per color; analytic annular coverage ensures exact circular bounds and clean transparent holes. Pixel processing is offline only. Runtime clips and copies these real WebP bands without recoloring or procedural ring shading.",
+  "crops": [
+    {
+      "color": "red",
+      "cx": 353,
+      "cy": 307,
+      "innerX": 134,
+      "innerY": 132,
+      "outerX": 230,
+      "outerY": 224
+    },
+    {
+      "color": "blue",
+      "cx": 973,
+      "cy": 307,
+      "innerX": 134,
+      "innerY": 132,
+      "outerX": 230,
+      "outerY": 224
+    },
+    {
+      "color": "green",
+      "cx": 353,
+      "cy": 863,
+      "innerX": 134,
+      "innerY": 132,
+      "outerX": 230,
+      "outerY": 224
+    },
+    {
+      "color": "yellow",
+      "cx": 973,
+      "cy": 863,
+      "innerX": 134,
+      "innerY": 132,
+      "outerX": 230,
+      "outerY": 224
+    }
+  ],
+  "notes": [
+    "image_gen did not follow the requested 1024px / 256-768 layout: source.png is 1329x1183. The crops below were measured by hand on source.png (ellipse centers and solid-tube inner/outer radii).",
+    "sourceOutput is the image_gen temp filename and is not stored in the repo; source.png is that output.",
+    "source.png still has some stray semi-transparent pixels outside the rings and inside the holes. The exporter only samples the solid tube band and asserts source alpha >= 240, so they never reach the atlas.",
+    "The WebP is encoded by the installed Chrome (channel 'chrome'): geometry is reproducible, exact bytes may differ between Chrome versions."
+  ]
+}

@@ -1,0 +1,524 @@
+[
+  {
+    "drop": 1,
+    "timer": 49.535400000095365,
+    "canTimer": true,
+    "goals": 0,
+    "highest": -1.5436812981245427,
+    "above": 0,
+    "balls": 33
+  },
+  {
+    "drop": 2,
+    "timer": 49.08390000009535,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 34
+  },
+  {
+    "drop": 3,
+    "timer": 48.63249999999997,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 35
+  },
+  {
+    "drop": 4,
+    "timer": 48.16740000009533,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 36
+  },
+  {
+    "drop": 5,
+    "timer": 47.718600000143,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 37
+  },
+  {
+    "drop": 6,
+    "timer": 47.250600000142995,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 4.147950009914651,
+    "above": 0,
+    "balls": 36
+  },
+  {
+    "drop": 7,
+    "timer": 46.799300000190684,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 36
+  },
+  {
+    "drop": 8,
+    "timer": 46.34790000009531,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 37
+  },
+  {
+    "drop": 9,
+    "timer": 45.88220000004763,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 37
+  },
+  {
+    "drop": 10,
+    "timer": 45.417499999999954,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 37
+  },
+  {
+    "drop": 11,
+    "timer": 44.952100000142984,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 38
+  },
+  {
+    "drop": 12,
+    "timer": 44.500800000190665,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 39
+  },
+  {
+    "drop": 13,
+    "timer": 44.035499999999914,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.382948547396767,
+    "above": 0,
+    "balls": 40
+  },
+  {
+    "drop": 14,
+    "timer": 43.58410000014295,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 41
+  },
+  {
+    "drop": 15,
+    "timer": 43.13290000009526,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 8.303733200493514,
+    "above": 0,
+    "balls": 40
+  },
+  {
+    "drop": 16,
+    "timer": 42.53540000009526,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 40
+  },
+  {
+    "drop": 17,
+    "timer": 42.08410000014293,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 39
+  },
+  {
+    "drop": 18,
+    "timer": 41.61899999999987,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 36
+  },
+  {
+    "drop": 19,
+    "timer": 41.14680000019059,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 36
+  },
+  {
+    "drop": 20,
+    "timer": 40.702300000190576,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 35
+  },
+  {
+    "drop": 21,
+    "timer": 40.23010000014286,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 35
+  },
+  {
+    "drop": 22,
+    "timer": 39.78570000004749,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 36
+  },
+  {
+    "drop": 23,
+    "timer": 39.33430000019053,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 8.041649333316,
+    "above": 0,
+    "balls": 37
+  },
+  {
+    "drop": 24,
+    "timer": 38.86910000014282,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 1.6152963540514693,
+    "above": 0,
+    "balls": 36
+  },
+  {
+    "drop": 25,
+    "timer": 38.39690000009512,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 1.2078795240779854,
+    "above": 0,
+    "balls": 36
+  },
+  {
+    "drop": 26,
+    "timer": 37.95249999999973,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 37
+  },
+  {
+    "drop": 27,
+    "timer": 37.50099999999973,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 1.7747568078503495,
+    "above": 0,
+    "balls": 37
+  },
+  {
+    "drop": 28,
+    "timer": 37.049600000142775,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 37
+  },
+  {
+    "drop": 29,
+    "timer": 36.58440000009508,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 38
+  },
+  {
+    "drop": 30,
+    "timer": 36.11930000019043,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 39
+  },
+  {
+    "drop": 31,
+    "timer": 35.59830000019041,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 38
+  },
+  {
+    "drop": 32,
+    "timer": 35.145900000095025,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 38
+  },
+  {
+    "drop": 33,
+    "timer": 34.68170000004733,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 38
+  },
+  {
+    "drop": 34,
+    "timer": 34.23030000019036,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 36
+  },
+  {
+    "drop": 35,
+    "timer": 33.76490000009498,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 35
+  },
+  {
+    "drop": 36,
+    "timer": 33.313700000047305,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 33
+  },
+  {
+    "drop": 37,
+    "timer": 32.848400000094976,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 33
+  },
+  {
+    "drop": 38,
+    "timer": 32.39720000004728,
+    "canTimer": true,
+    "goals": 0,
+    "highest": -0.46754075026260744,
+    "above": 0,
+    "balls": 30
+  },
+  {
+    "drop": 39,
+    "timer": 31.952400000094958,
+    "canTimer": true,
+    "goals": 0,
+    "highest": -0.11302573647980352,
+    "above": 0,
+    "balls": 26
+  },
+  {
+    "drop": 40,
+    "timer": 31.48049999999959,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 25
+  },
+  {
+    "drop": 41,
+    "timer": 31.035999999999593,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 25
+  },
+  {
+    "drop": 42,
+    "timer": 30.584499999999597,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 26
+  },
+  {
+    "drop": 43,
+    "timer": 30.11940000009496,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 26
+  },
+  {
+    "drop": 44,
+    "timer": 29.667999999999594,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 26
+  },
+  {
+    "drop": 45,
+    "timer": 29.230499999999598,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 26
+  },
+  {
+    "drop": 46,
+    "timer": 28.681900000094977,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 26
+  },
+  {
+    "drop": 47,
+    "timer": 28.230499999999616,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 25
+  },
+  {
+    "drop": 48,
+    "timer": 27.786100000142667,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 25
+  },
+  {
+    "drop": 49,
+    "timer": 27.334600000142668,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 24
+  },
+  {
+    "drop": 50,
+    "timer": 26.882800000190354,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 24
+  },
+  {
+    "drop": 51,
+    "timer": 26.431999999999626,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 8.485762650835209,
+    "above": 1,
+    "balls": 24
+  },
+  {
+    "drop": 52,
+    "timer": 25.897200000047317,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 22
+  },
+  {
+    "drop": 53,
+    "timer": 25.431900000095002,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 21
+  },
+  {
+    "drop": 54,
+    "timer": 24.966700000047325,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 19
+  },
+  {
+    "drop": 55,
+    "timer": 24.50140000009501,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.33497983997984,
+    "above": 0,
+    "balls": 18
+  },
+  {
+    "drop": 56,
+    "timer": 24.04999999999965,
+    "canTimer": true,
+    "goals": 0,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 16
+  },
+  {
+    "drop": 57,
+    "timer": 23.59870000004733,
+    "canTimer": true,
+    "goals": 1,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 15
+  },
+  {
+    "drop": 58,
+    "timer": 23.397300000190384,
+    "canTimer": false,
+    "goals": 2,
+    "highest": 7.69498127998128,
+    "above": 0,
+    "balls": 14
+  }
+]

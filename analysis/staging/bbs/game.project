@@ -1,0 +1,39 @@
+[project]
+title = BBS Corners - Wide U
+version = 1.0
+
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /render/main.renderc
+
+[display]
+width = 540
+height = 960
+dynamic_orientation = 1
+high_dpi = 1
+vsync = 1
+samples = 4
+
+[input]
+game_binding = /input/game.input_bindingc
+
+[graphics]
+default_clear_color_red = 0.8039
+default_clear_color_green = 0.8824
+default_clear_color_blue = 0.9451
+default_clear_color_alpha = 1
+
+[sound]
+max_sound_instances = 32
+
+[collection]
+max_instances = 1024
+
+[html5]
+htmlfile = /web/template.html
+heap_size = 128
+scale_mode = stretch
+
+[bbs]
+iteration = full
+header = v1

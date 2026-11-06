@@ -1,0 +1,136 @@
+local G=require 'modules.constants'
+local Bridge=require 'modules.bridge'
+local Board=require 'modules.board'
+local View=require 'modules.view'
+local function event(name) Bridge.call('event',name) end
+local function clamp(x,a,b)return math.max(a,math.min(b,x))end
+local function sine(k)return (1-math.cos(math.pi*k))/2 end
+local function show_hand(self)
+ if self.hand_on then return end;self.hand_on=true;self.hand_t=0;self.hand_x=self.current and self.current.x or 540
+end
+local function pick(self,exclude)
+ local pool={};if Bridge.random()>=G.RANDOM_COLOR_CHANCE then for _,c in ipairs(self.board:top_colors()) do if c~=exclude then pool[#pool+1]=c end end end
+ if #pool>0 then return pool[math.floor(Bridge.random()*#pool)+1] end
+ local c=math.floor(Bridge.random()*(exclude>=0 and 3 or 4));return exclude>=0 and c>=exclude and c+1 or c
+end
+local function spawn(self,color,x,y,nextball,allowtwo)
+ local rings={}
+ if allowtwo and Bridge.random()<G.NEXT_TWO_CHANCE then
+  local inner=(color+1+math.floor(Bridge.random()*3))%4;for i=1,G.NEW_BALL_RINGS do rings[#rings+1]=inner end
+ end
+ for i=1,G.NEW_BALL_RINGS do rings[#rings+1]=color end
+ local id='b'..self.board.next_id;self.board.next_id=self.board.next_id+1;local b=self.board:create(id,rings,x,y)
+ b.scale=0;b.spawn_time=self.board.time;b.target_scale=nextball and G.NEXT_D/(2*Board.radius(#rings)) or 1;return b
+end
+local function launch(self)
+ local color=pick(self,-1);self.current=spawn(self,color,540,G.SPAWN_Y,false,false);self.next=spawn(self,pick(self,color),G.NEXT_X,G.NEXT_Y,true,true);self.ready=true
+end
+local function start_playing(self)
+ if self.playing then return end;self.playing=true;Bridge.call('life','gameStart');event('CHALLENGE_STARTED')
+end
+local function progress(self,p)
+ while self.passed<3 and p>=(self.passed+1)*.25 do self.passed=self.passed+1;event('CHALLENGE_PASS_'..(self.passed*25)) end
+end
+local function card(self)
+ if self.phase=='endcard' then return end
+ self.phase='endcard';self.card_time=0;Bridge.call('cta',true);event('ENDCARD_SHOWN');Bridge.call('sfx','win');Bridge.call('endcard')
+end
+local function ending(self,reason)
+ if self.ended then return end
+ self.ended=true;self.board.ended=true;self.hand_on=false;self.dragging=false;self.reason=reason;self.end_time=0;Bridge.call('life','gameEnd')
+ if reason=='win' then progress(self,1);event('CHALLENGE_SOLVED');self.win_start={x=self.board.gift.x,y=self.board.gift.y,a=self.board.gift.a or 0}
+ elseif reason=='fail' then event('CHALLENGE_FAILED') else card(self) end
+end
+local function restart(self)
+ if self.ended then return end
+ event('CHALLENGE_RETRY');Bridge.call('sfx','touch')
+ for id in pairs(self.view.ballnodes) do self.view:delete_ball(id) end
+ self.board=Board.new();self.current=nil;self.next=nil;self.ready=false;self.dragging=false;self.hand_on=false;self.idle=0
+end
+local function input(self,p)
+ local x,y=self.view:input(p.x or 0,p.y or 0)
+ if self.ended then if p.type=='down' and self.phase~='endcard' and self.end_time>=.3 then card(self) end;return end
+ if p.type=='down' then
+  if self.hud then local hy=self.view.oh+103.91*self.view.s;if math.abs((p.x or 0)-(self.view.ox+180*self.view.s))<85*self.view.s and math.abs((p.y or 0)-(hy+60*self.view.s))<85*self.view.s then restart(self);return end end
+  local b=self.current;if not self.ready or not b then return end
+  if ((x-b.x)^2+(y-b.y)^2)^.5>Board.radius(#b.rings)+G.GRAB_PAD then return end
+  self.dragging=true;b.x=clamp(x,G.BOARD_LEFT+Board.radius(#b.rings),G.BOARD_RIGHT-Board.radius(#b.rings));self.drag_vx=0;self.last_x=x;self.last_t=p.time;self.hand_on=false;self.idle=0
+  self.clicks=self.clicks+1;Bridge.call('sfx','touch');start_playing(self)
+  if self.clicks>=self.click_limit then ending(self,'limit') end
+ elseif p.type=='move' and self.dragging and self.current then
+  local b=self.current;b.x=clamp(x,G.BOARD_LEFT+Board.radius(#b.rings),G.BOARD_RIGHT-Board.radius(#b.rings));local dt=p.time-self.last_t
+  if dt>0 then self.drag_vx=self.drag_vx+((x-self.last_x)/dt*1000-self.drag_vx)*.5;self.last_x=x;self.last_t=p.time end
+ elseif p.type=='up' and self.dragging and self.current then
+  self.dragging=false;local b=self.current
+  local vx=p.time-self.last_t>G.THROW_IDLE_MS and 0 or self.drag_vx
+  self.board:drop_ball(b,clamp(vx/60*G.THROW_GAIN,-G.THROW_MAX,G.THROW_MAX));self.current=nil;self.ready=false;self.advance_at=self.board.time+250;start_playing(self)
+ elseif p.type=='cancel' then self.dragging=false end
+end
+local function fixture(self,c)
+ local b=self.board
+ if c.name=='win' then ending(self,'win') elseif c.name=='fail' then ending(self,'fail') elseif c.name=='limit' then ending(self,'limit')
+ elseif c.name=='danger' then for _,ball in ipairs(b.balls) do if ball.body and not ball.busy then b:command({op='position',id=ball.id,x=300,y=G.LINE_Y-70,static=true});ball.dropped=-1e9;break end end
+ elseif c.name=='gift-floor' then b:command({op='position',id='gift',x=540,y=G.FLOOR_Y-G.BOX_H/2-1})
+ elseif c.name=='restart' then restart(self)
+ elseif c.name=='merge-fixture' then
+  -- Deliberately controlled QA scene; never counted as an unassisted gameplay clear.
+  local old={};for _,ball in ipairs(b.balls) do if ball.body then old[#old+1]=ball end end;for _,ball in ipairs(old) do b:remove(ball) end
+  b.pairs={};local a=b:create('test_a',c.a or {0,0,0,0,0,0},440,1600);local d=b:create('test_b',c.b or {0,0,0},550,1600);b:add_body(a);b:add_body(d);b:try_merge(a,d)
+ end
+end
+function init(self)
+ self.view=View.new();self.started=false;self.clicks=0;self.elapsed=0;self.idle=0;self.passed=0;self.playing=false;self.displayed=false;self.phase='game';self.card_time=0
+ msg.post('.','acquire_input_focus')
+end
+function update(self,dt)
+ if not html5 then return end
+ if not self.started then
+  if html5.run('window.PuzzleHost&&window.PuzzleHost.ready?"yes":"no"')~='yes' then return end
+  local opts=json.decode(html5.run('JSON.stringify({variant:window.PuzzleHost.variant,hud:window.PuzzleHost.hud})'))
+  self.variant=opts.variant;self.hud=opts.hud;self.click_limit=self.variant=='3clk' and 3 or (self.variant=='10clk' and 10 or math.huge);self.time_limit=self.variant=='60sec' and 60 or math.huge
+  self.board=Board.new();self.started=true;event('LOADED')
+ end
+ local frame=json.decode(Bridge.call('frame'));self.view:layout(frame.w,frame.h)
+ if frame.paused then self.dragging=false;self.view:draw(self,0);return end
+ dt=math.min(dt,.1)
+ for _,c in ipairs(frame.commands or {}) do fixture(self,c) end
+ for _,p in ipairs(frame.inputs or {}) do input(self,p) end
+ if self.phase~='endcard' then
+  self.board:update(dt)
+  for _,name in ipairs(self.board.events) do
+   if name=='ready' then launch(self);if not self.displayed then event('DISPLAYED');self.displayed=true end;show_hand(self)
+   elseif name=='win' or name=='fail' then ending(self,name) end
+  end;self.board.events={}
+  if self.advance_at and self.board.time>=self.advance_at then
+   self.advance_at=nil;self.current=self.next;self.next=nil
+   if self.current then self.current.from_x=self.current.x;self.current.from_y=self.current.y;self.current.from_scale=self.current.scale;self.current.advance_start=self.board.time end
+  end
+  if self.current and self.current.advance_start then
+   local b=self.current;local k=clamp((self.board.time-b.advance_start)/300,0,1);local t=k-1;local ease=1+2.70158*t^3+1.70158*t^2
+   b.x=b.from_x+(540-b.from_x)*ease;b.y=b.from_y+(G.SPAWN_Y-b.from_y)*ease;b.scale=b.from_scale+(1-b.from_scale)*ease
+   if k==1 then b.advance_start=nil;self.next=spawn(self,pick(self,Board.outer(b)),G.NEXT_X,G.NEXT_Y,true,true);self.ready=true end
+  end
+  for _,b in ipairs({self.current,self.next}) do if b and b.spawn_time and not b.advance_start then
+   local k=clamp((self.board.time-b.spawn_time)/400,0,1);local t=k-1;b.scale=b.target_scale*(1+2.70158*t^3+1.70158*t^2);if k==1 then b.spawn_time=nil end
+  end end
+  if self.next then self.next.y=G.NEXT_Y+(self.view.oh-self.view.oy)/self.view.s end
+  if self.playing and not self.ended then
+   progress(self,self.board.progress);self.elapsed=self.elapsed+dt;if self.elapsed>=self.time_limit then ending(self,'limit') end
+   self.idle=self.dragging and 0 or self.idle+dt;if self.idle>=G.HAND_IDLE_SEC and self.ready then show_hand(self) end
+  end
+  if self.ended then
+   self.end_time=self.end_time+dt
+   if self.reason=='win' then
+    if self.end_time>=1.04+4/24 and not self.gift_sound then self.gift_sound=true;Bridge.call('sfx','gift');self.board:burst({x=540,y=900,rings={0}},3,48,'pop') end
+    if self.end_time>=2.69 then card(self) end
+   elseif self.reason=='fail' and self.end_time>=1.65 then card(self) end
+  end
+ else self.card_time=self.card_time+dt end
+ self.view:draw(self,dt)
+ self.qa_acc=(self.qa_acc or 0)+dt
+ if self.qa_acc>.08 then
+  self.qa_acc=0;local balls={};for _,b in ipairs(self.board.balls) do balls[#balls+1]={id=b.id,x=b.x,y=b.y,rings=b.rings,busy=b.busy,body=b.body or false,landed=b.landed,scale=b.scale} end
+  local count=0;for _ in pairs(self.view.nodes) do count=count+1 end
+  Bridge.call('publish',{variant=self.variant,phase=self.phase,reason=self.reason,clicks=self.clicks,elapsed=self.elapsed,progress=self.board.progress,danger=self.board.danger,ready=self.ready,dragging=self.dragging,hand=self.hand_on,balls=balls,gift=self.board.gift,current=self.current and self.current.id or '',next=self.next and self.next.id or '',nodes=count,viewport={w=frame.w,h=frame.h,s=self.view.s,ox=self.view.ox,oy=self.view.oy},time=self.board.time})
+ end
+end

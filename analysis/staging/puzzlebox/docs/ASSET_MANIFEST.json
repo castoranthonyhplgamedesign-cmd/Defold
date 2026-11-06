@@ -1,0 +1,1136 @@
+[
+  {
+    "output": "assets\\art\\bg.png",
+    "source": "Assets/images/bg.webp",
+    "size": [
+      2000,
+      2000
+    ],
+    "sha256": "74c8dd0740953745aa1627514a24f1f233e77d0f546713d4c35e473d40528ef5"
+  },
+  {
+    "output": "assets\\art\\board.png",
+    "source": "Assets/images/new/container.webp",
+    "size": [
+      1080,
+      2002
+    ],
+    "sha256": "7245610bace0db8025ad86ccc70dd6cfb7bb768f0d9cd103940170ade05cd3a1"
+  },
+  {
+    "output": "assets\\art\\hand.png",
+    "source": "Assets/images/new/hand-point.webp",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "f61c4a1e4323cdcffdb37c5a5b0eb7512ed4c6310459e013343dc7c3ce2de31e"
+  },
+  {
+    "output": "assets\\art\\restart.png",
+    "source": "Assets/images/new/restart-icon.webp",
+    "size": [
+      1254,
+      1254
+    ],
+    "sha256": "edc502680d7c36ff293e7ae726921c6e96d91160c0c2a668f0ce8b66a52a2a36"
+  },
+  {
+    "output": "assets\\art\\goal.png",
+    "source": "Assets/images/new/goall-board.webp",
+    "size": [
+      1459,
+      601
+    ],
+    "sha256": "a7665225fb6d29716ad97fa9918a727110f6c61310eba3bd739eae477cad6575"
+  },
+  {
+    "output": "assets\\art\\next.png",
+    "source": "Assets/images/new/next-board.webp",
+    "size": [
+      551,
+      598
+    ],
+    "sha256": "378704cf6818145b58f87c1d32985097bf9349e905de67812070c9acec9cf496"
+  },
+  {
+    "output": "assets\\art\\gift.png",
+    "source": "Assets/images/new/ui_gift.webp",
+    "size": [
+      373,
+      373
+    ],
+    "sha256": "9c2c051850820e491174a481e89b983fcb1029ab27069d6a27286c7bf578a46c"
+  },
+  {
+    "output": "assets\\art\\fail.png",
+    "source": "Assets/images/failBadge.webp",
+    "size": [
+      800,
+      803
+    ],
+    "sha256": "523a5ac9a28a5b9beadde67e03adf786d0af14ed6a39802227208d93bedc5688"
+  },
+  {
+    "output": "assets\\art\\logo.png",
+    "source": "Assets/images/ui_logo.webp",
+    "size": [
+      700,
+      353
+    ],
+    "sha256": "8a0efa1517677cca1d7c7641f8ffe6542328a8a629f9c37663868ec7f9727abc"
+  },
+  {
+    "output": "assets\\rings\\ring_0_1.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 1",
+    "size": [
+      76,
+      76
+    ],
+    "sha256": "7426571f4304c67cc353b2a3919f6d42608f83e2949f4881f7573f1471e021a7"
+  },
+  {
+    "output": "assets\\rings\\ring_1_1.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 1",
+    "size": [
+      76,
+      76
+    ],
+    "sha256": "2fb6acc1494bd8227e45ddff042d251f00874edb99fc4c49f0a334e0f17354b0"
+  },
+  {
+    "output": "assets\\rings\\ring_2_1.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 1",
+    "size": [
+      76,
+      76
+    ],
+    "sha256": "2ccd7187a23a32b5fba4c2002bfe4c745aea38981b35ce08ecbb32b364893e36"
+  },
+  {
+    "output": "assets\\rings\\ring_3_1.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 1",
+    "size": [
+      76,
+      76
+    ],
+    "sha256": "28e8b3b82c15b686fe099a3dd12e16094e187056b77c430040232ff019a53c69"
+  },
+  {
+    "output": "assets\\rings\\base_1.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      76,
+      76
+    ],
+    "sha256": "faa745227daee1d0fa9decaccd5edbebf893018a70464de555e30d4a7a12d459"
+  },
+  {
+    "output": "assets\\rings\\ring_0_2.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 2",
+    "size": [
+      98,
+      98
+    ],
+    "sha256": "3c66630b32483a1edc84dccd61e1cf506b73af36006d4e57d3ebc64e944d53f0"
+  },
+  {
+    "output": "assets\\rings\\ring_1_2.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 2",
+    "size": [
+      98,
+      98
+    ],
+    "sha256": "a617da6d4f9e1c33342f2c59faba5afa65b0e7a860bb487713e6df61d15e421c"
+  },
+  {
+    "output": "assets\\rings\\ring_2_2.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 2",
+    "size": [
+      98,
+      98
+    ],
+    "sha256": "5d5cbff37bb1ff118d035b9e25ea780ee98a3f4a7ff463f13b4f7465e0b3d635"
+  },
+  {
+    "output": "assets\\rings\\ring_3_2.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 2",
+    "size": [
+      98,
+      98
+    ],
+    "sha256": "9217f126afb46e7aeab063e0286a02bc982c949260e6d7b91b083c634f14a7d0"
+  },
+  {
+    "output": "assets\\rings\\base_2.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      98,
+      98
+    ],
+    "sha256": "d3678c2aa22cff6ab27794a79a1fbb91f92194381490760c1108c05cc7a4f0d4"
+  },
+  {
+    "output": "assets\\rings\\ring_0_3.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 3",
+    "size": [
+      120,
+      120
+    ],
+    "sha256": "6c6936fa22fcb33af7e0af57fa9762bd920fc0d445842cfb127a9097cbf894a5"
+  },
+  {
+    "output": "assets\\rings\\ring_1_3.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 3",
+    "size": [
+      120,
+      120
+    ],
+    "sha256": "ce82659a293e1f256d2237e516ad010cacde339ae06f435ab644804c3488453d"
+  },
+  {
+    "output": "assets\\rings\\ring_2_3.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 3",
+    "size": [
+      120,
+      120
+    ],
+    "sha256": "d6de39a63143a8e75f32cc76109261f78a11f247f4f3a6fea4981aa9a61f7667"
+  },
+  {
+    "output": "assets\\rings\\ring_3_3.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 3",
+    "size": [
+      120,
+      120
+    ],
+    "sha256": "ed1eb4098f3baa384f4abb5d314ea347d6d5d9498ad88a91f574da4c556d5edc"
+  },
+  {
+    "output": "assets\\rings\\base_3.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      120,
+      120
+    ],
+    "sha256": "70b603744d37daa511346e36d51363b457b10be03f035d97296aa7b2da51aa77"
+  },
+  {
+    "output": "assets\\rings\\ring_0_4.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 4",
+    "size": [
+      140,
+      140
+    ],
+    "sha256": "8e1cd3f64bd9fb0003cfdc645809d41174b538bfdbc7d6279f80bdb4800bd6fd"
+  },
+  {
+    "output": "assets\\rings\\ring_1_4.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 4",
+    "size": [
+      140,
+      140
+    ],
+    "sha256": "f084b69db2f5a78f43e5a906e00e26bce4c5626f63a16d6f8e9278ae9c811e65"
+  },
+  {
+    "output": "assets\\rings\\ring_2_4.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 4",
+    "size": [
+      140,
+      140
+    ],
+    "sha256": "e8faf3cad411724c71831413af2c7ad99eb95144a3d1e9faad7367e3da8b2143"
+  },
+  {
+    "output": "assets\\rings\\ring_3_4.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 4",
+    "size": [
+      140,
+      140
+    ],
+    "sha256": "f1fe7418e4ef6819d5449e196f5712fc884cec1d3d29f761a5d89a5913a79ef5"
+  },
+  {
+    "output": "assets\\rings\\base_4.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      140,
+      140
+    ],
+    "sha256": "f7b06096818a1bd38888e1ea7318d60835339fcc77f1b030183d1b3488e97479"
+  },
+  {
+    "output": "assets\\rings\\ring_0_5.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 5",
+    "size": [
+      162,
+      162
+    ],
+    "sha256": "e0e599c6e9c1de929ee788e94a40fc67041c4b9538a35ec411d9f05529ca9243"
+  },
+  {
+    "output": "assets\\rings\\ring_1_5.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 5",
+    "size": [
+      162,
+      162
+    ],
+    "sha256": "e46c14b417900554884100fe42d2b5db9ce93d80078c856b5342c451c7e53527"
+  },
+  {
+    "output": "assets\\rings\\ring_2_5.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 5",
+    "size": [
+      162,
+      162
+    ],
+    "sha256": "738ec0cc7338936a6d81e693f7a8749ab7b0fb35ec4b0aca6f99834d53b979b1"
+  },
+  {
+    "output": "assets\\rings\\ring_3_5.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 5",
+    "size": [
+      162,
+      162
+    ],
+    "sha256": "4e71e2946681215bf751ff2a80515c6eaa9329dc84589ee9e74c6017e05b31ec"
+  },
+  {
+    "output": "assets\\rings\\base_5.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      162,
+      162
+    ],
+    "sha256": "e50bc678eb7e47bc155264b759c6ac86eb658d1bd0bd639a216f84afc4e3d0e8"
+  },
+  {
+    "output": "assets\\rings\\ring_0_6.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 6",
+    "size": [
+      184,
+      184
+    ],
+    "sha256": "5d45b8e51d6591328d6813aff5e07c7b7fe82839e8d8e369472c7b3806f4edb1"
+  },
+  {
+    "output": "assets\\rings\\ring_1_6.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 6",
+    "size": [
+      184,
+      184
+    ],
+    "sha256": "78af5961387d626260518d5967ce8ea33f5f3371b1127280ce84af433f8c1313"
+  },
+  {
+    "output": "assets\\rings\\ring_2_6.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 6",
+    "size": [
+      184,
+      184
+    ],
+    "sha256": "e7537337ef305318e94a6576f32e8b963003650d7e431a383a5cf316c207ea77"
+  },
+  {
+    "output": "assets\\rings\\ring_3_6.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 6",
+    "size": [
+      184,
+      184
+    ],
+    "sha256": "554a12541dd4de6cff13b6a8ad669e2880b010ec4840c54c1ed1dd9a413b8c14"
+  },
+  {
+    "output": "assets\\rings\\base_6.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      184,
+      184
+    ],
+    "sha256": "70a2dc689e1e0844e973be95d6c774b308dc198a40bff4fa043d2ed40c3463ae"
+  },
+  {
+    "output": "assets\\rings\\ring_0_7.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 7",
+    "size": [
+      206,
+      206
+    ],
+    "sha256": "57be010b0ba55b44892792696c09c0ad351e38727804178643d0c0a31aab76d4"
+  },
+  {
+    "output": "assets\\rings\\ring_1_7.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 7",
+    "size": [
+      206,
+      206
+    ],
+    "sha256": "e491aaf9a0f16041cdce72e55422e8e37126d552069765b55e26e686ea1f6e09"
+  },
+  {
+    "output": "assets\\rings\\ring_2_7.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 7",
+    "size": [
+      206,
+      206
+    ],
+    "sha256": "18ec82eed56c7bade774a5c0ed67312e3a0e3af821ebe5be69f2c6f836b03a31"
+  },
+  {
+    "output": "assets\\rings\\ring_3_7.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 7",
+    "size": [
+      206,
+      206
+    ],
+    "sha256": "9fdf23643ad1dc22753a23c4b57542bb1c7edcb9afeda911a161461064ae8b1b"
+  },
+  {
+    "output": "assets\\rings\\base_7.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      206,
+      206
+    ],
+    "sha256": "69de4bfa48e496582a7a2b3e4243942375ec15d41c5d9f7d7ed645b3cc002b74"
+  },
+  {
+    "output": "assets\\rings\\ring_0_8.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 8",
+    "size": [
+      228,
+      228
+    ],
+    "sha256": "8b8c0337dbd8bd3d4bf031316811e88bad9f43b19fac8038ea77e0a91f3e425f"
+  },
+  {
+    "output": "assets\\rings\\ring_1_8.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 8",
+    "size": [
+      228,
+      228
+    ],
+    "sha256": "c06da590a5127b22afd77c319e6af4967716216f228eeea41fa1eea976690722"
+  },
+  {
+    "output": "assets\\rings\\ring_2_8.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 8",
+    "size": [
+      228,
+      228
+    ],
+    "sha256": "d8da23160a6dc5d6aa280b017654088b2fc6acc4a109a3bee28f6fc2e73cf5e7"
+  },
+  {
+    "output": "assets\\rings\\ring_3_8.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 8",
+    "size": [
+      228,
+      228
+    ],
+    "sha256": "02155c7bbe16e22652a4dc43f520e90ba0775b7fa74bc4cf91390c5e7181696e"
+  },
+  {
+    "output": "assets\\rings\\base_8.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      228,
+      228
+    ],
+    "sha256": "c7ac244071bd1879a9960bc03d1a198cc80c4962da402b81ba7bb20f6696b149"
+  },
+  {
+    "output": "assets\\rings\\ring_0_9.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 9",
+    "size": [
+      250,
+      250
+    ],
+    "sha256": "b24818b33b5d7eba00ff33b1eec096feb277b6551faebf44ab509a9a8da4301c"
+  },
+  {
+    "output": "assets\\rings\\ring_1_9.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 9",
+    "size": [
+      250,
+      250
+    ],
+    "sha256": "1e4ed367bf746bc7447b19b2f4535aa24dafe15c243f914826d90c304d27a783"
+  },
+  {
+    "output": "assets\\rings\\ring_2_9.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 9",
+    "size": [
+      250,
+      250
+    ],
+    "sha256": "4599d4795c66c6a84b6194fc24d23712bedfc513352d1443f2609aa4f7ff69fb"
+  },
+  {
+    "output": "assets\\rings\\ring_3_9.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 9",
+    "size": [
+      250,
+      250
+    ],
+    "sha256": "bda70446aa46b6a102a94580489c35c48eb3c82d175fba7aecc6be6f1d3ba725"
+  },
+  {
+    "output": "assets\\rings\\base_9.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      250,
+      250
+    ],
+    "sha256": "372bf168f14b7f0c28bdf30814d46d6dfed3ba7e83cc0ebddcef88982a698e78"
+  },
+  {
+    "output": "assets\\rings\\ring_0_10.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 10",
+    "size": [
+      272,
+      272
+    ],
+    "sha256": "c69216809996d6598ac5415c9e2f206759f63ce0286927ff12961e14755c0413"
+  },
+  {
+    "output": "assets\\rings\\ring_1_10.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 10",
+    "size": [
+      272,
+      272
+    ],
+    "sha256": "4a15f3bc3e21c5e5bb5c3f818070a2e1aafe05847a5a3a90adf934720c20aec7"
+  },
+  {
+    "output": "assets\\rings\\ring_2_10.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 10",
+    "size": [
+      272,
+      272
+    ],
+    "sha256": "115d3d0ba1b07d0a02c319416aa76e9d6f61cd1d2efc091cec1034aa21cf84cf"
+  },
+  {
+    "output": "assets\\rings\\ring_3_10.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 10",
+    "size": [
+      272,
+      272
+    ],
+    "sha256": "487c87d6ccefc56ff055c5f96d039185f507327ca317e5cd7c1eed608cbb7a25"
+  },
+  {
+    "output": "assets\\rings\\base_10.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      272,
+      272
+    ],
+    "sha256": "acf67921b013c5e79bc3d0fa45ac05d3d67ffe4a06b54153491def402e34f667"
+  },
+  {
+    "output": "assets\\rings\\ring_0_11.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 11",
+    "size": [
+      294,
+      294
+    ],
+    "sha256": "2319068e55c88a3eb7da0319e32767e7b653cfb4eab7b992b3ab2ce9ae413357"
+  },
+  {
+    "output": "assets\\rings\\ring_1_11.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 11",
+    "size": [
+      294,
+      294
+    ],
+    "sha256": "ff9f5da0d013c88fa42f5cde857b5686d550251de538c14eef5d02925741eb19"
+  },
+  {
+    "output": "assets\\rings\\ring_2_11.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 11",
+    "size": [
+      294,
+      294
+    ],
+    "sha256": "b9ad256072f3a222f0b56d0a5a727c6a8818788edde7a36983f0a70fe3c44a89"
+  },
+  {
+    "output": "assets\\rings\\ring_3_11.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 11",
+    "size": [
+      294,
+      294
+    ],
+    "sha256": "77242b89ffce25af0bc1cc6f0f5619ea8a5dd16ab5b1ced53990fc8ad052e689"
+  },
+  {
+    "output": "assets\\rings\\base_11.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      294,
+      294
+    ],
+    "sha256": "79c5dd05332c43b04ab493a6e71629ad5b495f4fb0ac9a0aa7ef75e25c2e2cad"
+  },
+  {
+    "output": "assets\\rings\\ring_0_12.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 12",
+    "size": [
+      316,
+      316
+    ],
+    "sha256": "c713005180be8b5a0a42d7d59acba6b36885e6ee15dbd92ac761e597945689ab"
+  },
+  {
+    "output": "assets\\rings\\ring_1_12.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 12",
+    "size": [
+      316,
+      316
+    ],
+    "sha256": "19f1e39dc8939e4d561195f472db38f6419cc895d92a3cda2b989a6652496874"
+  },
+  {
+    "output": "assets\\rings\\ring_2_12.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 12",
+    "size": [
+      316,
+      316
+    ],
+    "sha256": "de9bcd9c09299bfda62f74a2d7038c22bc89b5860932333089097d6320161195"
+  },
+  {
+    "output": "assets\\rings\\ring_3_12.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 12",
+    "size": [
+      316,
+      316
+    ],
+    "sha256": "c221c02299208c20f2dbb758a9581939bbec99032b8be7a97d3646ecb84506b0"
+  },
+  {
+    "output": "assets\\rings\\base_12.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      316,
+      316
+    ],
+    "sha256": "6cdc12515804c1c88f3e240de41bcc524fa29c0bdfd42c70b39578ae5156b8e7"
+  },
+  {
+    "output": "assets\\rings\\ring_0_13.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 13",
+    "size": [
+      338,
+      338
+    ],
+    "sha256": "e7e57bc82ce8e1dee1a73593677000e56758f4f3a50d0ffc319dcda30c810561"
+  },
+  {
+    "output": "assets\\rings\\ring_1_13.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 13",
+    "size": [
+      338,
+      338
+    ],
+    "sha256": "fd05056bb1c4cd3260895519de4ad0ad35f3491cde21257f2cba2493a28661a1"
+  },
+  {
+    "output": "assets\\rings\\ring_2_13.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 13",
+    "size": [
+      338,
+      338
+    ],
+    "sha256": "a0435670e81eae062c36edb73e764439a79551bdcab965ad36058c60ebb1c757"
+  },
+  {
+    "output": "assets\\rings\\ring_3_13.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 13",
+    "size": [
+      338,
+      338
+    ],
+    "sha256": "bd50c2eb4ca892ae5a43e2ac2b2bfe948d5a7e7df8f1f78e33ae7e767898ccdf"
+  },
+  {
+    "output": "assets\\rings\\base_13.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      338,
+      338
+    ],
+    "sha256": "88c278f4a5d3feba9c25b174c71e5131a1bc7607d83fad056037390d3e254062"
+  },
+  {
+    "output": "assets\\rings\\ring_0_14.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 14",
+    "size": [
+      360,
+      360
+    ],
+    "sha256": "643d949162ce7d00c597ac3d5693b1297bf30057c2062a4bffff7c8df3e8830b"
+  },
+  {
+    "output": "assets\\rings\\ring_1_14.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 14",
+    "size": [
+      360,
+      360
+    ],
+    "sha256": "72a0429d36659be3702dc60201a0e15f83cc747970d8d778ee7d0109804f8861"
+  },
+  {
+    "output": "assets\\rings\\ring_2_14.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 14",
+    "size": [
+      360,
+      360
+    ],
+    "sha256": "ea8627833c79d9770f5681cd5c0219e3de54002b6867dd86b44a89ea1afd6b00"
+  },
+  {
+    "output": "assets\\rings\\ring_3_14.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 14",
+    "size": [
+      360,
+      360
+    ],
+    "sha256": "20d36b33aa99f474850b3713bc99db4ce70e47df8efee50be295352941a3d4b2"
+  },
+  {
+    "output": "assets\\rings\\base_14.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      360,
+      360
+    ],
+    "sha256": "b143d1c2c4d4ad97dc8dccca8dd4f2f6ecf4bed72e0b291caf4e48f90358f8f8"
+  },
+  {
+    "output": "assets\\rings\\ring_0_15.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 15",
+    "size": [
+      382,
+      382
+    ],
+    "sha256": "50184eb91ca8577a8e02e790f1a6d2bef9d5c8b0855ffee1f9bc7391131fea53"
+  },
+  {
+    "output": "assets\\rings\\ring_1_15.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 15",
+    "size": [
+      382,
+      382
+    ],
+    "sha256": "84527db05cb367bc9883e3640ddd19774b585c7bcfeffd966e90b67b526a80b8"
+  },
+  {
+    "output": "assets\\rings\\ring_2_15.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 15",
+    "size": [
+      382,
+      382
+    ],
+    "sha256": "b89a5e924449a679c68d9a63bcddb490b320527b47de3c00dfd94c64c915ecfb"
+  },
+  {
+    "output": "assets\\rings\\ring_3_15.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 15",
+    "size": [
+      382,
+      382
+    ],
+    "sha256": "6e4ead53b6e4209b16f2f7bb90c918a6401c22fb7cd4adb0b19217aaf851b2d6"
+  },
+  {
+    "output": "assets\\rings\\base_15.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      382,
+      382
+    ],
+    "sha256": "ef4d5e705c91c5cdb706526d3e5dca1b1726905b14ddbfb6b5b684dad83725d7"
+  },
+  {
+    "output": "assets\\rings\\ring_0_16.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 16",
+    "size": [
+      402,
+      402
+    ],
+    "sha256": "fa2c74bd155636dc9b1caee38dc4351492b2a7e57aaaed28a50b6736e898054b"
+  },
+  {
+    "output": "assets\\rings\\ring_1_16.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 16",
+    "size": [
+      402,
+      402
+    ],
+    "sha256": "24bdcee3f485f26d107172c07445f9fb0e0f82ef13fbeca839ab3ffe06c3f248"
+  },
+  {
+    "output": "assets\\rings\\ring_2_16.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 16",
+    "size": [
+      402,
+      402
+    ],
+    "sha256": "d487906a1acc725a8dd080674207659b5e4392ad58e8f6946940d7807e7e9016"
+  },
+  {
+    "output": "assets\\rings\\ring_3_16.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 16",
+    "size": [
+      402,
+      402
+    ],
+    "sha256": "14385320afdaa3fda826ffc6444a1bf7ba1a2d60914c43e5e00d46d6cf272656"
+  },
+  {
+    "output": "assets\\rings\\base_16.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      402,
+      402
+    ],
+    "sha256": "1c5f3b7089a8b1938a12099a6d894745aff2cad943b6a19b772e2f92c1a34df4"
+  },
+  {
+    "output": "assets\\rings\\ring_0_17.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 17",
+    "size": [
+      424,
+      424
+    ],
+    "sha256": "d0c6a60c2a32815ad50d7826e59d4deb93ffe85dda0b4bbfa86e1b8c843440d5"
+  },
+  {
+    "output": "assets\\rings\\ring_1_17.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 17",
+    "size": [
+      424,
+      424
+    ],
+    "sha256": "a55620e10dc4549457771f62e6846cab35021efc94aafe03e7bc07809e79dba9"
+  },
+  {
+    "output": "assets\\rings\\ring_2_17.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 17",
+    "size": [
+      424,
+      424
+    ],
+    "sha256": "23a129054aed42b2ed6e265d5fd01bbe8dcaa71215dab91816ff671f244e9fe1"
+  },
+  {
+    "output": "assets\\rings\\ring_3_17.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 17",
+    "size": [
+      424,
+      424
+    ],
+    "sha256": "2884182850904da8f29bd260ab72e01d2217073264d6c8d61a3cdc21c6db2af4"
+  },
+  {
+    "output": "assets\\rings\\base_17.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      424,
+      424
+    ],
+    "sha256": "07e564fdaef69f7898515c00dc5f006e8b20bd5c0fdc655491fde6a7a3d98f8e"
+  },
+  {
+    "output": "assets\\rings\\ring_0_18.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 18",
+    "size": [
+      446,
+      446
+    ],
+    "sha256": "6c702a947997813247d4015626c53de64ceb0466161954386bd7bfbdfc710289"
+  },
+  {
+    "output": "assets\\rings\\ring_1_18.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 18",
+    "size": [
+      446,
+      446
+    ],
+    "sha256": "f7f0c3adc85f5ecb1d9caa8ebac0cf4f1bcc7f2fd7f7c2166039b7727f211b39"
+  },
+  {
+    "output": "assets\\rings\\ring_2_18.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 18",
+    "size": [
+      446,
+      446
+    ],
+    "sha256": "526c5a51931f9a23b51ca078b30bc070a90f1d9b4d67fa9afdf3ab128d9a1bc1"
+  },
+  {
+    "output": "assets\\rings\\ring_3_18.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 18",
+    "size": [
+      446,
+      446
+    ],
+    "sha256": "2f1be91e9dbcc4c3e6dc9f846255f5b8c1738d2f3a428d2a9cab4e798f1da213"
+  },
+  {
+    "output": "assets\\rings\\base_18.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      446,
+      446
+    ],
+    "sha256": "13c657cfd8f3977e2f2797836bbe77d9e00f5cfb67ab21de3dcee18ae3796ad1"
+  },
+  {
+    "output": "assets\\rings\\ring_0_19.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 19",
+    "size": [
+      468,
+      468
+    ],
+    "sha256": "d7ca8d0be67f1af44eee79007616414ed59e5443b248d260ecb6cc5f28b1268e"
+  },
+  {
+    "output": "assets\\rings\\ring_1_19.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 19",
+    "size": [
+      468,
+      468
+    ],
+    "sha256": "e73b8d398fd15966b5807ae713925d36fceeeee43626458d9a1f96bd24651024"
+  },
+  {
+    "output": "assets\\rings\\ring_2_19.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 19",
+    "size": [
+      468,
+      468
+    ],
+    "sha256": "69f2b3e3721755d788ce308c54558c5542be859d479331ae649d12d04eceeeac"
+  },
+  {
+    "output": "assets\\rings\\ring_3_19.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 19",
+    "size": [
+      468,
+      468
+    ],
+    "sha256": "72891c118a232782d4bf814381c1e343f0126e893a9104fb99741e83aeb9edad"
+  },
+  {
+    "output": "assets\\rings\\base_19.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      468,
+      468
+    ],
+    "sha256": "807bb5a6d415a8ef1fa451f8f7d277566d9dc5e83ccb9eb4d369b6650ab6aa5e"
+  },
+  {
+    "output": "assets\\rings\\ring_0_20.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 20",
+    "size": [
+      490,
+      490
+    ],
+    "sha256": "13d8230709f6bbeb35a3b36b940fb4e6a2fdd2136c5fae5090f334a5b31f390f"
+  },
+  {
+    "output": "assets\\rings\\ring_1_20.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 20",
+    "size": [
+      490,
+      490
+    ],
+    "sha256": "3cc458ca5fe0cb5b89070582e522b55be57dedb14cb1511db1abd8b88d94d23d"
+  },
+  {
+    "output": "assets\\rings\\ring_2_20.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 20",
+    "size": [
+      490,
+      490
+    ],
+    "sha256": "4b2c370bedf0ed93e1534a3453734e5b8625c5f4ddda481e7c630892d86e217b"
+  },
+  {
+    "output": "assets\\rings\\ring_3_20.png",
+    "source": "Assets/images/ring_atlas.webp; annulus 20",
+    "size": [
+      490,
+      490
+    ],
+    "sha256": "d27bcbb9a44b4b555d12e62c1126419bc5ab78ec81d5f68bb1c9421ce1f4cf1c"
+  },
+  {
+    "output": "assets\\rings\\base_20.png",
+    "source": "RingArt.ts underlay algorithm",
+    "size": [
+      490,
+      490
+    ],
+    "sha256": "ab32fed61f39d55365f2b1c98ca158624968e51eeb49bb534f6a3f79bd8d169a"
+  },
+  {
+    "output": "assets\\giftanim\\open_0.png",
+    "source": "Assets/images/new/gift_open_sheet.webp; frame 0",
+    "size": [
+      512,
+      768
+    ],
+    "sha256": "33418c9dff0a64b8d278950294771a2b74e9c8d5901aa133699ddf716c7679fd"
+  },
+  {
+    "output": "assets\\giftanim\\open_1.png",
+    "source": "Assets/images/new/gift_open_sheet.webp; frame 1",
+    "size": [
+      512,
+      768
+    ],
+    "sha256": "a5247a7fb45f8fc4f2637f0ccce4eb89c06fd96d0896f399d157344d9da2ccb7"
+  },
+  {
+    "output": "assets\\giftanim\\open_2.png",
+    "source": "Assets/images/new/gift_open_sheet.webp; frame 2",
+    "size": [
+      512,
+      768
+    ],
+    "sha256": "1a8ba5cf87a0cf04209ba65fc4f235417a46341cc721bc4ce5650eb6c957d9b0"
+  },
+  {
+    "output": "assets\\giftanim\\open_3.png",
+    "source": "Assets/images/new/gift_open_sheet.webp; frame 3",
+    "size": [
+      512,
+      768
+    ],
+    "sha256": "ae36618ab42a6d1a09d8b28d2c07b612989556c9c0c3937783b394b6abbee7dc"
+  },
+  {
+    "output": "assets\\giftanim\\open_4.png",
+    "source": "Assets/images/new/gift_open_sheet.webp; frame 4",
+    "size": [
+      512,
+      768
+    ],
+    "sha256": "17464ae36b296d9e5d8418c320686918e903b2ed19e8fbb9154184e566df7e04"
+  },
+  {
+    "output": "assets\\giftanim\\open_5.png",
+    "source": "Assets/images/new/gift_open_sheet.webp; frame 5",
+    "size": [
+      512,
+      768
+    ],
+    "sha256": "7ed508f8ab05afb53c1287d44fe50bbb135499a8888f901869a2fd00e3312a09"
+  },
+  {
+    "output": "assets\\giftanim\\open_6.png",
+    "source": "Assets/images/new/gift_open_sheet.webp; frame 6",
+    "size": [
+      512,
+      768
+    ],
+    "sha256": "179804b1863793f1f167785ea1a391e67938b8020794a83c9b05ded193c1b092"
+  },
+  {
+    "output": "assets\\giftanim\\open_7.png",
+    "source": "Assets/images/new/gift_open_sheet.webp; frame 7",
+    "size": [
+      512,
+      768
+    ],
+    "sha256": "76d0dfccdff4a982a3391f8d2fc192097dc5832331f85cd59743716d0a828f52"
+  },
+  {
+    "output": "assets\\giftanim\\open_8.png",
+    "source": "Assets/images/new/gift_open_sheet.webp; frame 8",
+    "size": [
+      512,
+      768
+    ],
+    "sha256": "aaa201d1a596db7f235bf95d73d05855e1f8d8622ae2694aa0782b7731da42be"
+  },
+  {
+    "output": "assets\\giftanim\\open_9.png",
+    "source": "Assets/images/new/gift_open_sheet.webp; frame 9",
+    "size": [
+      512,
+      768
+    ],
+    "sha256": "91cfa969baaca0a741ae5435a9c5741904256b2806700d47c6982ee1c98e68d1"
+  },
+  {
+    "output": "assets\\giftanim\\open_10.png",
+    "source": "Assets/images/new/gift_open_sheet.webp; frame 10",
+    "size": [
+      512,
+      768
+    ],
+    "sha256": "636ea7258bccacc5b0c9c81a23118c6ef8caf92278669eb6c476dfc60a779d1b"
+  },
+  {
+    "output": "assets\\giftanim\\open_11.png",
+    "source": "Assets/images/new/gift_open_sheet.webp; frame 11",
+    "size": [
+      512,
+      768
+    ],
+    "sha256": "8629ca98d5fd725e20045d1967cb6b3b82b5c0500c080ac8fcc618f7958b6300"
+  },
+  {
+    "output": "assets\\art\\rope.png",
+    "source": "Board.ts relayout() stripe geometry",
+    "size": [
+      864,
+      12
+    ],
+    "sha256": "209fd871b4beefa6f0819659ef778a36ab188ac66cdb0886a5acc29ceff38903"
+  },
+  {
+    "output": "assets\\art\\dot.png",
+    "source": "Board.ts makeTextures()",
+    "size": [
+      16,
+      16
+    ],
+    "sha256": "b81ac71d2b5de4ab9d43dc03956f23b52b94923a89a72fe0e448e5687c286809"
+  },
+  {
+    "output": "assets\\art\\pill.png",
+    "source": "Board.ts makeTextures()",
+    "size": [
+      32,
+      12
+    ],
+    "sha256": "1447cbf8800b5f16af04b80efef4669c2634bf81256c4fd2def0f595e6cf4214"
+  },
+  {
+    "output": "assets\\art\\arrow.png",
+    "source": "Hand.ts relayout()",
+    "size": [
+      100,
+      64
+    ],
+    "sha256": "5f0b1a1e239f1c4e41451ab9fd1589ba966bdb53bf5b5bd8285d5f6b178165e1"
+  },
+  {
+    "output": "assets\\art\\vignette.png",
+    "source": "Danger.ts radial gradient",
+    "size": [
+      256,
+      256
+    ],
+    "sha256": "9395c12821887c6c559392518e05bc9c98fcad0288f08500bed760cbb0ba5afd"
+  }
+]

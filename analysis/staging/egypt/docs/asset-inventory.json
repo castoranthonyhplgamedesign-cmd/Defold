@@ -1,0 +1,211 @@
+[
+  {
+    "key": "map-bg",
+    "source": "Assets\\MapBG.webp",
+    "destination": "assets\\images\\map-bg.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "source_sha256": "fb3f5db9d3d1c552607d97472323c5e6b563124c49003510acd4df8cb371a4a1"
+  },
+  {
+    "key": "character-bg",
+    "source": "Assets\\CharBG.webp",
+    "destination": "assets\\images\\character-bg.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      1080,
+      285
+    ],
+    "source_sha256": "d61c967e324343a9078c78f7697b670c1bfd38339f3788dc5468d707ae4d5cd0"
+  },
+  {
+    "key": "clue-bg",
+    "source": "Assets\\ClueBG.webp",
+    "destination": "assets\\images\\clue-bg.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      1080,
+      555
+    ],
+    "source_sha256": "6bbe1f0f808e5b97af926ba5ca2c2d5b4955c9a3aba368641ee1bb75c756b03b"
+  },
+  {
+    "key": "drop-circle",
+    "source": "Assets\\Dashed-Circle.webp",
+    "destination": "assets\\images\\drop-circle.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      101,
+      101
+    ],
+    "source_sha256": "aa31163c963f756ac83d467c11566184f51ce7d3fa630602a27133d4280f2fe6"
+  },
+  {
+    "key": "error",
+    "source": "Assets\\Error.webp",
+    "destination": "assets\\images\\error.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      2000,
+      2000
+    ],
+    "source_sha256": "839f898146cc25147e16ac8ed834422b5f684f5bd1e480685a57ce6f7287cd9b"
+  },
+  {
+    "key": "logo",
+    "source": "Assets\\Logo.webp",
+    "destination": "assets\\images\\logo.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      1347,
+      1167
+    ],
+    "source_sha256": "6d118dea5f027dc40e76e333a602785ed6fcc5cfd17fd8eb281d63be6fcf1df3"
+  },
+  {
+    "key": "tutorial-hand",
+    "source": "Assets\\hand-egypt.webp",
+    "destination": "assets\\images\\tutorial-hand.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      1534,
+      1534
+    ],
+    "source_sha256": "3bfb36e90fdaf58a5ddf6233b3993f46d6e3966f7768e7bd281641aa9b129a1e"
+  },
+  {
+    "key": "Aisha",
+    "source": "Assets\\Characters\\Aisha.webp",
+    "destination": "assets\\images\\Aisha.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      200,
+      286
+    ],
+    "source_sha256": "bb93c089b3fefa5f8791e10a4cd9624cff5c894a149418435ec24fc7075c55a4"
+  },
+  {
+    "key": "Maya",
+    "source": "Assets\\Characters\\Maya.webp",
+    "destination": "assets\\images\\Maya.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      200,
+      286
+    ],
+    "source_sha256": "a9a53e1cb20d1d518b2ea4f9b64c65a4448136e230d3d32c02b1cef1d173fa91"
+  },
+  {
+    "key": "Ahmose",
+    "source": "Assets\\Characters\\Ahmose.webp",
+    "destination": "assets\\images\\Ahmose.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      200,
+      286
+    ],
+    "source_sha256": "0e2e6a2bf1c22e66de57fe0ae3ac03bc9b27ebc57b25fcc8454a771ff434c57f"
+  },
+  {
+    "key": "Nefertiti",
+    "source": "Assets\\Characters\\Nefertiti.webp",
+    "destination": "assets\\images\\Nefertiti.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      200,
+      286
+    ],
+    "source_sha256": "a8569a6c8d5ab8835228c32708d98edbc93fa908bc013d4db3da08f23e4bb587"
+  },
+  {
+    "key": "Merneptah",
+    "source": "Assets\\Characters\\Merneptah.webp",
+    "destination": "assets\\images\\Merneptah.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      200,
+      286
+    ],
+    "source_sha256": "913732620a245b48122865ace1770bad8b6f4b59b714ce1e652c578f93d8c11d"
+  },
+  {
+    "key": "Khasekhemwy",
+    "source": "Assets\\Characters\\Khasekhemwy.webp",
+    "destination": "assets\\images\\Khasekhemwy.png",
+    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "dimensions": [
+      200,
+      286
+    ],
+    "source_sha256": "c4652bd0e6b1a7049fcc765b62efdc8dc53c2fe7f33866af217a10025242628a"
+  },
+  {
+    "source": "Assets\\Audio\\AhmoseSFX.mp3",
+    "destination": "web/audio/AhmoseSFX.mp3",
+    "conversion": "Unmodified original MP3, played by HTML5 bridge",
+    "source_sha256": "944b3605ae768a977665f461cbf9d49fd8f44d989b99677c26ade0ab78518d45"
+  },
+  {
+    "source": "Assets\\Audio\\BGM.mp3",
+    "destination": "web/audio/BGM.mp3",
+    "conversion": "Unmodified original MP3, played by HTML5 bridge",
+    "source_sha256": "94638b725a77db3eb37b89eb68c99e49c72381739dfd6b48a69fa5d1252c793b"
+  },
+  {
+    "source": "Assets\\Audio\\Correct.mp3",
+    "destination": "web/audio/Correct.mp3",
+    "conversion": "Unmodified original MP3, played by HTML5 bridge",
+    "source_sha256": "3881070bdbb87cc30f3272fd86bcd72b19e10db0902e0d54512ecbb7c05fce7f"
+  },
+  {
+    "source": "Assets\\Audio\\EndCard.mp3",
+    "destination": "web/audio/EndCard.mp3",
+    "conversion": "Unmodified original MP3, played by HTML5 bridge",
+    "source_sha256": "c1430c5af4d60e61afeb262c72ca228133240c960b8d6e7fcbf83455e0c6e578"
+  },
+  {
+    "source": "Assets\\Audio\\MayaSFX.mp3",
+    "destination": "web/audio/MayaSFX.mp3",
+    "conversion": "Unmodified original MP3, played by HTML5 bridge",
+    "source_sha256": "83197b38f2ff24fb4c50e042d8f1d0b77756a8311024be37868f67be4895c1cf"
+  },
+  {
+    "source": "Assets\\Audio\\MerneptahSFX.mp3",
+    "destination": "web/audio/MerneptahSFX.mp3",
+    "conversion": "Unmodified original MP3, played by HTML5 bridge",
+    "source_sha256": "ac6c42e6b2d65f196787015efa0e2fee4994267cb9f92365852be886f7a1023d"
+  },
+  {
+    "source": "Assets\\Audio\\NefertitiSFX.mp3",
+    "destination": "web/audio/NefertitiSFX.mp3",
+    "conversion": "Unmodified original MP3, played by HTML5 bridge",
+    "source_sha256": "a64fb7260c7653f83a0fc46b237221d1cff1b0b766c29fb9ae8548b6d2ca4458"
+  },
+  {
+    "source": "Assets\\Audio\\PickDropCharacter.mp3",
+    "destination": "web/audio/PickDropCharacter.mp3",
+    "conversion": "Unmodified original MP3, played by HTML5 bridge",
+    "source_sha256": "e1220d7b61ed36c19d538801be60debc251bf1e922f2e9caa684b9f8547700db"
+  },
+  {
+    "source": "Assets\\Audio\\RedStrike.mp3",
+    "destination": "web/audio/RedStrike.mp3",
+    "conversion": "Unmodified original MP3, played by HTML5 bridge",
+    "source_sha256": "9e84a0f4ef42cbb34ce15dc248159740fd2d0bfc6f199d1f0b042897c31ae165"
+  },
+  {
+    "source": "Assets\\Audio\\Return.mp3",
+    "destination": "web/audio/Return.mp3",
+    "conversion": "Unmodified original MP3, played by HTML5 bridge",
+    "source_sha256": "6f4b36f0c1b46806f0eed0bb8c0ed2ad6d2d4ceb24f7f3afef02da7a807f7719"
+  },
+  {
+    "source": "Assets\\Audio\\Wrong.mp3",
+    "destination": "web/audio/Wrong.mp3",
+    "conversion": "Unmodified original MP3, played by HTML5 bridge",
+    "source_sha256": "1249326cd944b5d1620e9680611c59600826c69d42e21432a196279541f3f013"
+  }
+]

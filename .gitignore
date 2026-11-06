@@ -1,24 +1,7 @@
-# Local tools and generated dependencies
-/.tools/
-**/node_modules/
-**/__pycache__/
-*.pyc
-**/bob*.jar
-
-# Defold build output and editor caches
-**/build/
-**/publish/
-**/.internal/
-**/.editor_settings
-**/.DS_Store
-/analysis/staging/
-/analysis/local-publish/
-
-# Local browser profiles and caches
-**/chrome-profile*/
-**/browser-profile*/
-
-# Local credentials
+# This repository includes the full workspace, including generated files,
+# downloaded tools, installed dependencies, reference files, and QA profiles.
+# Git metadata is managed by Git itself and is not tracked as project content.
+# Keep any future local credentials out of the repository.
 .env
 .env.*
 !.env.example

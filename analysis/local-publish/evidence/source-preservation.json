@@ -1,0 +1,36 @@
+{
+  "captured_utc": "2026-11-06T14:39:25.306589+00:00",
+  "originals": [
+    {
+      "key": "bbs",
+      "head": "cfd9f7b37c71ecbaf6aa70b68cebb11288633a8a",
+      "status": "",
+      "baseline": "cfd9f7b37c71ecbaf6aa70b68cebb11288633a8a"
+    },
+    {
+      "key": "ludios",
+      "head": "0a19ded147c48b0e167648eca735f846bca98abf",
+      "status": "",
+      "baseline": "0a19ded147c48b0e167648eca735f846bca98abf"
+    },
+    {
+      "key": "conveyor",
+      "head": "5d3e97c0cc063f3eb3fb8f572ab7d140fd22a00f",
+      "status": "",
+      "baseline": "5d3e97c0cc063f3eb3fb8f572ab7d140fd22a00f"
+    },
+    {
+      "key": "egypt",
+      "head": "d993837484f9f5e6ee2fe9530c704365eed376fc",
+      "status": "",
+      "baseline": "d993837484f9f5e6ee2fe9530c704365eed376fc"
+    },
+    {
+      "key": "puzzlebox",
+      "head": "be16ff7d7afada777f1160be16df37485adac21b",
+      "status": "",
+      "baseline": "be16ff7d7afada777f1160be16df37485adac21b"
+    }
+  ],
+  "all_clean_and_same_commit": true
+}

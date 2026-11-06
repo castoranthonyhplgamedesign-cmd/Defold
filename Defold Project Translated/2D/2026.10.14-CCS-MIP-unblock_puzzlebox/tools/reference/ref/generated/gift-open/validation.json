@@ -1,0 +1,16 @@
+{
+  "sheet": "Assets\\images\\new\\gift_open_sheet.webp",
+  "bytes": 399124,
+  "size": [
+    2048,
+    2304
+  ],
+  "frames": 12,
+  "fps": 24,
+  "encoding": "lossless WebP, exact RGBA",
+  "frame0_pixel_identical": true,
+  "body_fixed_frames_4_to_11": true,
+  "alpha": true,
+  "preview_animation_ms": 500,
+  "preview_hold_ms": 1100
+}

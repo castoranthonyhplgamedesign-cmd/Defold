@@ -1,0 +1,17 @@
+images { image: "/assets/art/arrow.png" }
+images { image: "/assets/art/bg.png" }
+images { image: "/assets/art/board.png" }
+images { image: "/assets/art/dot.png" }
+images { image: "/assets/art/fail.png" }
+images { image: "/assets/art/gift.png" }
+images { image: "/assets/art/goal.png" }
+images { image: "/assets/art/hand.png" }
+images { image: "/assets/art/logo.png" }
+images { image: "/assets/art/next.png" }
+images { image: "/assets/art/pill.png" }
+images { image: "/assets/art/restart.png" }
+images { image: "/assets/art/rope.png" }
+images { image: "/assets/art/vignette.png" }
+margin: 0
+extrude_borders: 2
+inner_padding: 0

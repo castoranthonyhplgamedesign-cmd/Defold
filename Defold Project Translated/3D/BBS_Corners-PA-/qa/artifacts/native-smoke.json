@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-11-06T15:42:53.018Z",
+  "executable": "D:\\allproject\\defold\\Defold Project Translated\\3D\\BBS_Corners-PA-\\publish\\windows\\Brickshatter Corners\\BrickshatterCorners.exe",
+  "exited": false,
+  "exitCode": null,
+  "output": "INFO:DLIB: Writing log to: D:/allproject/defold/Defold Project Translated/3D/BBS_Corners-PA-/qa/artifacts/native-log/log.txt\nINFO:ENGINE: Loading data from: archive:game.dmanifest\nINFO:SOUND: Mix format:\nINFO:SOUND:   wFormatTag:       fffe  IEEE_FLOAT/PCM/EXTENSIBLE: 3 / 1 / fffe\nINFO:SOUND:   nChannels:        2\nINFO:SOUND:   nSamplesPerSec:   48000\nINFO:SOUND:   nAvgBytesPerSec:  384000\nINFO:SOUND:   nBlockAlign:      8\nINFO:SOUND:   wBitsPerSample:   32\nINFO:SOUND:   -> Format:        3  IEEE_FLOAT/PCM/EXTENSIBLE: 3 / 1 / fffe\nINFO:SOUND:   DSP backend: SSE\nINFO:SOUND: Sound\nINFO:SOUND:   nSamplesPerSec:   48000\nINFO:SOUND:        useThread:   1\nINFO:ENGINE: Initialised sound device 'default'\nINFO:PHYSICS: Created physics context: Box2D v2.2.1\nDEBUG:SCRIPT: BBS_EVENT LOADED\nDEBUG:SCRIPT: BBS_EVENT DISPLAYED\n",
+  "passed": true
+}

@@ -1,0 +1,170 @@
+[
+  {
+    "variant": "2clicks",
+    "network": "applovin",
+    "path": "2clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_al.html",
+    "bytes": 4812531,
+    "sha256": "cc27cd18a0efd22042bff69340c3468c183633d6121c5b6d900fdc18b83404fc"
+  },
+  {
+    "variant": "2clicks",
+    "network": "google",
+    "path": "2clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_gg.html",
+    "bytes": 4812613,
+    "sha256": "3b6e05d76611e19874baddb455ce634f818a1c9505c6e3101c71f80679066cf1"
+  },
+  {
+    "variant": "2clicks",
+    "network": "ironsource",
+    "path": "2clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_is.html",
+    "bytes": 4812533,
+    "sha256": "f086755094241fb469fa90e77b7bde4b0b5e5369360e9daef087e676d8e3b646"
+  },
+  {
+    "variant": "2clicks",
+    "network": "mintegral",
+    "path": "2clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_mtg.html",
+    "bytes": 4812520,
+    "sha256": "1d50112d2c2be94c7756ec29eeb016cbabc838076b7ad5e73546dafef21629a2"
+  },
+  {
+    "variant": "2clicks",
+    "network": "facebook",
+    "path": "2clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_fb.html",
+    "bytes": 4812499,
+    "sha256": "f6f73f6f144242b3bc29a26c972ae41cd07721d5f9b86cf7917e311e484a49b3"
+  },
+  {
+    "variant": "2clicks",
+    "network": "unity",
+    "path": "2clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_un.html",
+    "bytes": 4812528,
+    "sha256": "37bbafda96026ac9255a06653763e4365779675d5601bfe1ea5b705037cc29b0"
+  },
+  {
+    "variant": "2clicks",
+    "network": "vungle",
+    "path": "2clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_vu.html",
+    "bytes": 4812537,
+    "sha256": "d22351b1d7b7933474951e0f76a7f55a1f06e99bed961e23687d15dca1caa32c"
+  },
+  {
+    "variant": "2clicks",
+    "network": "moloco",
+    "path": "2clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_mo.html",
+    "bytes": 4812497,
+    "sha256": "4a7c178e1b8d9a86a1cb89e92d4dcd6b54745c759aefc460a383eaef44657361"
+  },
+  {
+    "variant": "4clicks",
+    "network": "applovin",
+    "path": "4clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_al.html",
+    "bytes": 4812531,
+    "sha256": "888c5ce1b631ce6ac8b4adb529f124a1343abb926f484e54fa040072590aadf5"
+  },
+  {
+    "variant": "4clicks",
+    "network": "google",
+    "path": "4clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_gg.html",
+    "bytes": 4812613,
+    "sha256": "c6cc7080739730ce4b5f6fd342b4bd2b8b8dbe25f14a9b5a387bd7c406139689"
+  },
+  {
+    "variant": "4clicks",
+    "network": "ironsource",
+    "path": "4clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_is.html",
+    "bytes": 4812533,
+    "sha256": "7abf4a98896a803663b7af63c21a690d356cfc744c882a6007815c3d9ee94cfd"
+  },
+  {
+    "variant": "4clicks",
+    "network": "mintegral",
+    "path": "4clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_mtg.html",
+    "bytes": 4812520,
+    "sha256": "eedc024da483516ebe2a9a1bb35aa712f9e8c625f5aee1a84ad7b5c3ac6268db"
+  },
+  {
+    "variant": "4clicks",
+    "network": "facebook",
+    "path": "4clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_fb.html",
+    "bytes": 4812499,
+    "sha256": "02b12fab322e06afcf2a079c33aa70334cbcb194dbe3b7e6465c1be3c50cfca9"
+  },
+  {
+    "variant": "4clicks",
+    "network": "unity",
+    "path": "4clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_un.html",
+    "bytes": 4812528,
+    "sha256": "1f701820f1049728431999a90f71320657d7057c54691370f0b9362e70621a2b"
+  },
+  {
+    "variant": "4clicks",
+    "network": "vungle",
+    "path": "4clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_vu.html",
+    "bytes": 4812537,
+    "sha256": "9db90bba71baf2a7a2afeece3d5a1ed64d01c68331388b3694e7afcfc36e67aa"
+  },
+  {
+    "variant": "4clicks",
+    "network": "moloco",
+    "path": "4clicks\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_mo.html",
+    "bytes": 4812497,
+    "sha256": "bdaeb2bb8b76edf91fa8340010cc1f7699ca53d6975f0a4d364c3414db4cf365"
+  },
+  {
+    "variant": "full",
+    "network": "applovin",
+    "path": "full\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_al.html",
+    "bytes": 4812534,
+    "sha256": "b71de00413689807e22b040c73375be157467dee3d17f58740479c692c4f84bf"
+  },
+  {
+    "variant": "full",
+    "network": "google",
+    "path": "full\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_gg.html",
+    "bytes": 4812616,
+    "sha256": "60ab3db23d09504061cb40f343da898a018113a26fe34f0373db95234babdd2a"
+  },
+  {
+    "variant": "full",
+    "network": "ironsource",
+    "path": "full\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_is.html",
+    "bytes": 4812536,
+    "sha256": "1740b351a9f6905e6fa96df89dd55b2c3025e2191a4cba81c2dca763f8767c23"
+  },
+  {
+    "variant": "full",
+    "network": "mintegral",
+    "path": "full\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_mtg.html",
+    "bytes": 4812523,
+    "sha256": "9171e490b1d4a4c1df872f3d205d09ce3cfeff8a5626ec90249f6e616f052335"
+  },
+  {
+    "variant": "full",
+    "network": "facebook",
+    "path": "full\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_fb.html",
+    "bytes": 4812502,
+    "sha256": "0cc203fe214bff123ebb830790a51eb8a531d6dda9bfa2a0c891ac3be9ba825a"
+  },
+  {
+    "variant": "full",
+    "network": "unity",
+    "path": "full\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_un.html",
+    "bytes": 4812531,
+    "sha256": "85afc717f0dd83d2f7318b2269d85c3b5f7bb2a42e144bd4b6465ead2e0f8fdb"
+  },
+  {
+    "variant": "full",
+    "network": "vungle",
+    "path": "full\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_vu.html",
+    "bytes": 4812540,
+    "sha256": "cdc7d71b6a9fd9498d85092f739bb0d53596dd76629669f2b60c003fc91622bb"
+  },
+  {
+    "variant": "full",
+    "network": "moloco",
+    "path": "full\\cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_mo.html",
+    "bytes": 4812500,
+    "sha256": "5a89f4ca7080dae38799e3556980314c583129581d547588d3eae293fa790d09"
+  }
+]

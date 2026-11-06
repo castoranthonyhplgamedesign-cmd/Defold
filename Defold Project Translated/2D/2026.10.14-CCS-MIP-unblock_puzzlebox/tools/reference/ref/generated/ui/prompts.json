@@ -1,0 +1,31 @@
+{
+  "tool": "built-in image_gen",
+  "reference": "ref/mockup/Circle Sort Ring Puzzle Box.jpg",
+  "prompts": [
+    {
+      "key": "hud",
+      "ref": "reference-hud.png",
+      "prompt": "Recreate the UI chrome in this reference as ONE transparent game HUD strip asset, isolated without the blue full-screen backdrop. Keep three adjoining elements in ONE horizontal row: left glossy cyan rounded-square reset button with the white clockwise arrow icon; center wide ivory/light-lavender beveled rounded rectangular goal panel with small dark-blue tab centered above it; right ivory/light-lavender rounded-square next panel with dark-blue tab above it. Faithfully match reference bright polished casual mobile game style, clean bevels and very subtle navy shadows. IMPORTANT erase ALL colored rings, all numbers, and ALL text including GOAL and NEXT. Goal panel must be blank for four live game counters; next panel blank for live ball. Only the reset arrow icon remains. Proportions: reset width 120, center panel width 400, next panel width 130, small 12 unit gaps; common panel height 115; tabs extend 25 units above. Entire row straight-on, level, all panels share baseline, generous transparent padding. True transparent background outside the individual pieces, no checkerboard, no background scene, no rings, no text, no extra decorations."
+    },
+    {
+      "key": "gift",
+      "ref": "reference-gift.png",
+      "prompt": "Recreate the BLUE GIFT BOX with GOLDEN YELLOW RIBBON and big plump satin BOW from this reference as one isolated transparent 3D cartoon game sprite. Remove all rings and background. Square bright cyan/royal-blue gift body, thick golden ribbon vertically down the front, shiny blue lid and slightly visible right side, large lustrous golden bow with two loops and two ribbon tails. Match the reference closely in material, highlights, rich blue color and rounded silhouette. IMPORTANT rotate the gift into an upright standing pose: vertical ribbon vertical, base horizontal, no tilted or diagonal box; game applies its own rotation. Orthographic-ish front view, very slight top/right depth only. Fill canvas with this one centered gift with safe transparent padding; entirely visible bow and body. No ground plane, no floor shadow, no text, no circles/rings, no background. True transparent alpha."
+    },
+    {
+      "key": "hand",
+      "ref": "reference-tutorial.png",
+      "prompt": "Extract and faithfully recreate ONLY the white cartoon glove hand from this reference as an isolated transparent game tutorial sprite. Index finger points diagonally toward upper left, thumb on right, softly rounded white padded glove, cool pale blue shading and fine blue outline, oval open wrist cuff at bottom right. Match the soft puffy reference hand, no heavy black outline. Keep same pose and proportion. Remove every ring, arrow, red line and background entirely. The hand alone centered with safe transparent padding. No text, no background, no floor shadow, no extra fingers. Transparent alpha."
+    },
+    {
+      "key": "logo",
+      "ref": "reference-endcard.png",
+      "prompt": "Recreate ONLY the exact CIRCLE SORT logo from the provided mobile game endcard reference, isolated on genuine transparent alpha. Top line CIRCLE in chunky playful rounded uppercase golden-yellow letters with orange 3D extrusion/shadow, thin dark purple contour; lower line SORT with bold rounded white to very pale lavender S,R,T and the O as the purple and golden yellow donut emblem shown. Preserve the two-line layout and correct exact text: CIRCLE on first line, SORT on second. Faithfully match the reference rather than invent a different logo. High resolution clean game brand sprite, logo fills frame with small safe padding. No backdrop, no square plaque, no other ring balls, no button, no subtitle, no watermark. Background and letter counter holes transparent."
+    },
+    {
+      "key": "button",
+      "ref": "reference-endcard.png",
+      "prompt": "Recreate ONLY the green PLAY NOW button shape from the provided game endcard as an isolated horizontal transparent game UI sprite. IMPORTANT omit ALL text; center must be blank because live PLAY NOW text will be drawn in game. Match the reference: vivid lime green polished rounded rectangle, thick darker green beveled lower edge, small soft pale green highlight along top-left lip, gentle rounded corners, slightly raised 3D casual game button. Width to height ratio 3.7:1. Straight-on, horizontal, symmetric, safe transparent padding around subtle close shadow. No logo, no rings, no scene, no text, no checkerboard, no extra elements. Real transparent alpha outside silhouette."
+    }
+  ]
+}

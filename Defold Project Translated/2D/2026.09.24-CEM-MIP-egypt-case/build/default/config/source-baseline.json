@@ -1,0 +1,16 @@
+{
+  "branch": "reskin",
+  "commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5",
+  "commit_date": "2026-11-06T21:59:22+08:00",
+  "reference_path": "qa/reskin-src",
+  "repository": "https://github.com/HPL-PlayableAds/2026.09.24-CEM-MIP-egypt-case.git",
+  "character_order": [
+    "Tia",
+    "Nebet",
+    "Nakht",
+    "Merit",
+    "Huy",
+    "Senen"
+  ],
+  "preserved_brand": "Mystery Master"
+}

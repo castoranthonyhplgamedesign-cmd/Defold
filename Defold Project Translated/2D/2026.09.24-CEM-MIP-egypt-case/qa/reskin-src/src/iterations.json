@@ -1,0 +1,5 @@
+[
+  { "name": "2clicks", "clickLimit": 2 },
+  { "name": "4clicks", "clickLimit": 4 },
+  { "name": "full", "clickLimit": 9999 }
+]

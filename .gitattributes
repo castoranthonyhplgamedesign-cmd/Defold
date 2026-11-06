@@ -1,3 +1,591 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.jar filter=lfs diff=lfs merge=lfs -text
+
+# Full-workspace snapshot: large additional files
+"/.tools/bob.jar" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/build/default/assets/game.texturec" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/bundle/EgyptCase/EgyptCase.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/bundle/MysteryMaster/MysteryMaster.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/bundle/Sinonimus/Sinonimus.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_fb.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_gg.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_gg.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_is.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_mo.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_mtg.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_mtg.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_un.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_vu.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_vu.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_fb.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_gg.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_gg.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_is.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_mo.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_mtg.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_mtg.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_un.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_vu.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/2clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_2clicks_na_vu.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_fb.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_gg.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_gg.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_is.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_mo.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_mtg.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_mtg.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_un.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_vu.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_vu.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_fb.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_gg.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_gg.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_is.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_mo.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_mtg.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_mtg.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_un.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_vu.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/4clicks/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_4clicks_na_vu.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_fb.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_gg.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_gg.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_is.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_mo.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_mtg.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_mtg.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_un.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_vu.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_vu.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_fb.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_gg.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_gg.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_is.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_mo.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_mtg.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_mtg.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_un.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_vu.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/full/cem_mip_grhpl_mystery-master_real_nougc_noseason_en_full_na_vu.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/dist/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/evidence/history/output-before-copy.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/dist/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/dist/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/dist/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/.vite/deps/phaser.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/.vite/deps/phaser.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/@esbuild/win32-x64/esbuild.exe" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/@img/sharp-win32-x64/lib/libvips-42.dll" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/@rollup/rollup-win32-x64-gnu/rollup.win32-x64-gnu.node" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/@rollup/rollup-win32-x64-msvc/rollup.win32-x64-msvc.node" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/ffmpeg-static/ffmpeg.exe" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/dist/phaser-arcade-physics.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/dist/phaser-arcade-physics.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/dist/phaser-ie9.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/dist/phaser-ie9.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/dist/phaser.esm.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/dist/phaser.esm.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/dist/phaser.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/dist/phaser.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine/dist/SpineCanvasPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine/dist/SpineCanvasPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine/dist/SpineCanvasPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine/dist/SpinePlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine/dist/SpinePluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine/dist/SpinePluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine/dist/SpineWebGLPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine/dist/SpineWebGLPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine/dist/SpineWebGLPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine4.1/dist/SpinePlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine4.1/dist/SpinePluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine4.1/dist/SpinePluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/types/phaser.d.ts" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/phaser/types/phaser.json" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/typescript/lib/_tsc.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/typescript/lib/lib.dom.d.ts" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/typescript/lib/typescript.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reference-src/node_modules/vite/dist/node/chunks/config.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/dist/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/dist/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/dist/cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/.vite/deps/phaser.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/.vite/deps/phaser.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/@esbuild/win32-x64/esbuild.exe" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/@img/sharp-win32-x64/lib/libvips-42.dll" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/@rollup/rollup-win32-x64-gnu/rollup.win32-x64-gnu.node" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/@rollup/rollup-win32-x64-msvc/rollup.win32-x64-msvc.node" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/ffmpeg-static/ffmpeg.exe" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/dist/phaser-arcade-physics.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/dist/phaser-arcade-physics.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/dist/phaser-ie9.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/dist/phaser-ie9.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/dist/phaser.esm.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/dist/phaser.esm.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/dist/phaser.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/dist/phaser.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine/dist/SpineCanvasPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine/dist/SpineCanvasPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine/dist/SpineCanvasPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine/dist/SpinePlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine/dist/SpinePluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine/dist/SpinePluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine/dist/SpineWebGLPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine/dist/SpineWebGLPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine/dist/SpineWebGLPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine4.1/dist/SpinePlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine4.1/dist/SpinePluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine4.1/dist/SpinePluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/types/phaser.d.ts" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/phaser/types/phaser.json" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/typescript/lib/_tsc.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/typescript/lib/lib.dom.d.ts" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/typescript/lib/typescript.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/qa/reskin-src/node_modules/vite/dist/node/chunks/config.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/tools/bob-fast.jar" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/tools/bob.jar" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/tools/node_modules/playwright-core/lib/coreBundle.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/tools/node_modules/playwright-core/lib/utilsBundle.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/tools/node_modules/playwright-core/types/types.d.ts" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.09.24-CEM-MIP-egypt-case/tools/node_modules/playwright/lib/transform/babelBundle.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/build/default/assets/art.texturec" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/build/default/assets/balls.texturec" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/build/default/assets/giftanim.texturec" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/build/default/assets/rings.texturec" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/build/default/game.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Puzzlebox Defold/PuzzleboxDefold.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Puzzlebox Defold/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Puzzlebox Defold/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Puzzlebox Defold/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Puzzlebox Defold/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Puzzlebox Defold/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Ring Sort/RingSort.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Ring Sort/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Ring Sort/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Ring Sort/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Ring Sort/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Ring Sort/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Sinonimus/Sinonimus.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Sinonimus/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Sinonimus/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Sinonimus/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Sinonimus/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/local-publish/Sinonimus/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/@esbuild/win32-x64/esbuild.exe" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/@rollup/rollup-win32-x64-gnu/rollup.win32-x64-gnu.node" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/@rollup/rollup-win32-x64-msvc/rollup.win32-x64-msvc.node" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/dist/phaser-arcade-physics.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/dist/phaser-arcade-physics.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/dist/phaser-ie9.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/dist/phaser-ie9.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/dist/phaser.esm.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/dist/phaser.esm.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/dist/phaser.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/dist/phaser.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine/dist/SpineCanvasPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine/dist/SpineCanvasPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine/dist/SpineCanvasPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine/dist/SpinePlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine/dist/SpinePluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine/dist/SpinePluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine/dist/SpineWebGLPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine/dist/SpineWebGLPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine/dist/SpineWebGLPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine4.1/dist/SpinePlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine4.1/dist/SpinePluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine4.1/dist/SpinePluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/types/phaser.d.ts" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/phaser/types/phaser.json" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/playwright-core/lib/coreBundle.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/playwright-core/lib/utilsBundle.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/playwright/lib/transform/babelBundle.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/typescript/lib/_tsc.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/typescript/lib/lib.dom.d.ts" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/typescript/lib/typescript.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/vite/dist/node/chunks/config.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/node_modules/vite/node_modules/@esbuild/win32-x64/esbuild.exe" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/node_modules/.vite/deps/phaser.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/node_modules/.vite/deps/phaser.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/generated/gift-open/parts-source.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/generated/ui/gift-source.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/generated/ui/logo-source.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/html/ccs_mip_smmeemee_gameplay_01_real_nougc_noseason_en_60s_na_al.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/mockup/Circle Sort Ring Puzzle Box.jpg" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/review/rings/after.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/review/rings/before.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/review/rings/comparison.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/review/rings/landscape.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/review/rings/packaged.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/review/ui/after-endcard.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/review/ui/after-landscape.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/review/ui/after-portrait.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/review/ui/before-after.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/review/ui/before.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/screenshots/IMG_4145.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/2D/2026.10.14-CCS-MIP-unblock_puzzlebox/tools/reference/ref/screenshots/localhost_5173_(Surface Pro 10).png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/build/default/assets/art.texturec" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/build/default/assets/images/sand-picture-hd.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/build/default/game.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/build/wasm-web/manifests/web/template.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/bundle/CuttingSand Defold/CuttingSandDefold.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/bundle/CuttingSand Defold/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/bundle/CuttingSand Defold/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/bundle/Sand Slice/SandSlice.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/bundle/Sand Slice/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/bundle/Sand Slice/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/node_modules/@esbuild/win32-x64/esbuild.exe" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/node_modules/@img/sharp-win32-x64/lib/libvips-42.dll" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/node_modules/playwright-core/lib/coreBundle.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/node_modules/playwright-core/lib/utilsBundle.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/node_modules/playwright/lib/transform/babelBundle.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/BGM/Action-Spy-Urban/bgm-sneaky.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/BGM/Calm-Piano-Classical/bgm-prelude-full-ensemble.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/BGM/Calm-Piano-Classical/bgm-prelude-piano-contrabass.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/BGM/Calm-Piano-Classical/bgm-prelude-piano-solo.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/BGM/Casino-Lounge/bgm-casino.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/BGM/Chill-Jazz/bgm-chill.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/BGM/Relaxing-Garden/bgm-flowering-garden-full.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/BGM/Upbeat-Casual-Fun/Stems/bgm-bouncing-with-bessie-stem-01.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/BGM/Upbeat-Casual-Fun/Stems/bgm-bouncing-with-bessie-stem-02.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/BGM/Upbeat-Casual-Fun/Stems/bgm-bouncing-with-bessie-stem-03.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/BGM/Upbeat-Casual-Fun/bgm-bouncing-with-bessie-full.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/BGM/Word-Puzzle/bgm-bubble-word-jam.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Conveyor Audio Extracted.wav" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Relaxing Lo-Fi Audio Extracted.wav" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Source Prop Salt Pour Big Shaker Grains Sand Falling Heavy 01 Audio Extracted.wav" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Audio/SFX/Foley-Environment/sfx-footsteps-walk-loop.mp3" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Game Design Document/SDP, MIP, CuttingSand Supporting Document.docx" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/SandDropLogo.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/level-rainbow-checker-v2.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/sdp_mip-cutting-sand-assets/background/background-pink.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/sdp_mip-cutting-sand-assets/background/background.psb" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/sdp_mip-cutting-sand-assets/buckets/buckets.psd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/sdp_mip-cutting-sand-assets/buckets/cleared-buckets.psb" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/sdp_mip-cutting-sand-assets/cta-assets/SandDropLogo.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/sdp_mip-cutting-sand-assets/sandy-painting/Tactile Mid-Century Geometric Grid.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/sdp_mip-cutting-sand-assets/sandy-painting/sandy-painting-b.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/sdp_mip-cutting-sand-assets/sandy-painting/sandy-painting-c.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/sdp_mip-cutting-sand-assets/sandy-painting/sandy-painting-d.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/sdp_mip-cutting-sand-assets/sandy-painting/sandy-painting-f.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/sdp_mip-cutting-sand-assets/sandy-painting/sandy-painting.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Image/sdp_mip-cutting-sand-assets/sandy-painting/sandy-painting.psb" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Mock_Up/sdp_cantreach_sandshovel_59s_1080x1920.mp4" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/Assets/Mock_Up/sdp_mip-cutting-sand_presentation_01-consolidated.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/.vite/deps/phaser.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/.vite/deps/phaser.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/@esbuild/win32-x64/esbuild.exe" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/@img/sharp-win32-x64/lib/libvips-42.dll" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/@rollup/rollup-win32-x64-gnu/rollup.win32-x64-gnu.node" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/@rollup/rollup-win32-x64-msvc/rollup.win32-x64-msvc.node" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/dist/phaser-arcade-physics.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/dist/phaser-arcade-physics.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/dist/phaser-ie9.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/dist/phaser-ie9.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/dist/phaser.esm.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/dist/phaser.esm.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/dist/phaser.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/dist/phaser.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine/dist/SpineCanvasPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine/dist/SpineCanvasPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine/dist/SpineCanvasPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine/dist/SpinePlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine/dist/SpinePluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine/dist/SpinePluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine/dist/SpineWebGLPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine/dist/SpineWebGLPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine/dist/SpineWebGLPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpinePlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpinePluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpinePluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/types/phaser.d.ts" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/phaser/types/phaser.json" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/typescript/lib/_tsc.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/typescript/lib/lib.dom.d.ts" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/typescript/lib/typescript.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/2026.10.13-SDP-MIP-CuttingSand/tools/reference/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/.internal/cache/wasm_pthread-web/d295ed4edff2e49072719835713e625f409849f1/dmengine.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/build/default/assets/bgm.wavc" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/build/default/assets/board.texturec" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/build/default/assets/ui.texturec" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/build/default/game.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/BBS Corners - Wide U/BBSCornersWideU.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/BBS Corners - Wide U/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/BBS-Corners-Defold-HTML5.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/BBS-Corners-Defold-Windows.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/Block Breaker/BlockBreaker.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/Block Breaker/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/Brick Bender/BrickBender.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/Brick Bender/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/Brick-Bender-HTML5.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/Brick-Bender-Windows.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/Brickshatter Corners/BrickshatterCorners.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/Brickshatter Corners/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/Brickshatter-Corners-HTML5.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/Brickshatter-Corners-Windows.zip" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/windows/BBS Corners - Wide U/BBSCornersWideU.exe" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/windows/BBS Corners - Wide U/game.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/windows/Brick Bender/BrickBender.exe" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/windows/Brick Bender/game.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/windows/Brickshatter Corners/BrickshatterCorners.exe" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/BBS_Corners-PA-/publish/windows/Brickshatter Corners/game.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/.internal/cache/wasm_pthread-web/d295ed4edff2e49072719835713e625f409849f1/dmengine_release.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/CoinSort HorizontalRoll/CoinSortHorizontalRoll.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/CoinSort HorizontalRoll/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/CoinSort HorizontalRoll/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/CoinSort HorizontalRoll/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/CoinSort HorizontalRoll/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/CoinSort HorizontalRoll/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/CoinSort HorizontalRoll/archive/game5.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/CoinSort HorizontalRoll/archive/game6.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/Token Roll/TokenRoll.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/Token Roll/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/Token Roll/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/Token Roll/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/Token Roll/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/Token Roll/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/Token Roll/archive/game5.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/Token Roll/archive/game6.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/Token Roll/archive/game7.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/Token Roll/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/assets/audio/Lowkey-Trap.oggc" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/assets/background.texturec" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/assets/coin_atlas.texturec" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/assets/meshes/coin_batch.bufferc" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/assets/ui.texturec" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/default/game.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/build/wasm-web/manifests/web/template.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/083328aa01c2/TokenRoll.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/083328aa01c2/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/083328aa01c2/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/083328aa01c2/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/083328aa01c2/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/083328aa01c2/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/083328aa01c2/archive/game5.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/083328aa01c2/archive/game6.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/083328aa01c2/archive/game7.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/083328aa01c2/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/6348ffe7c022/CoinSortHorizontalRoll.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/6348ffe7c022/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/6348ffe7c022/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/6348ffe7c022/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/6348ffe7c022/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/6348ffe7c022/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/6348ffe7c022/archive/game5.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/6348ffe7c022/archive/game6.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/7b88617ba6a0/CoinSortHorizontalRoll.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/7b88617ba6a0/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/7b88617ba6a0/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/7b88617ba6a0/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/7b88617ba6a0/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/7b88617ba6a0/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/7b88617ba6a0/archive/game5.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/7b88617ba6a0/archive/game6.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9a2ba03fdbc4/CoinSortHorizontalRoll.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9a2ba03fdbc4/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9a2ba03fdbc4/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9a2ba03fdbc4/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9a2ba03fdbc4/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9a2ba03fdbc4/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9a2ba03fdbc4/archive/game5.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9a2ba03fdbc4/archive/game6.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9fbb71b49b64/TokenRoll.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9fbb71b49b64/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9fbb71b49b64/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9fbb71b49b64/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9fbb71b49b64/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9fbb71b49b64/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9fbb71b49b64/archive/game5.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9fbb71b49b64/archive/game6.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9fbb71b49b64/archive/game7.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/9fbb71b49b64/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/CoinSortHorizontalRoll.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/CoinSortHorizontalRoll_pthread.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/archive/game5.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/archive/game6.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/bf93e5a53942/CoinSortHorizontalRoll.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/bf93e5a53942/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/bf93e5a53942/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/bf93e5a53942/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/bf93e5a53942/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/bf93e5a53942/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/bf93e5a53942/archive/game5.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/bf93e5a53942/archive/game6.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/dd920a3f57a8/TokenRoll.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/dd920a3f57a8/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/dd920a3f57a8/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/dd920a3f57a8/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/dd920a3f57a8/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/dd920a3f57a8/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/dd920a3f57a8/archive/game5.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/dd920a3f57a8/archive/game6.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/dd920a3f57a8/archive/game7.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/dd920a3f57a8/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/f347ad2df75f/CoinSortHorizontalRoll.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/f347ad2df75f/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/f347ad2df75f/archive/game1.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/f347ad2df75f/archive/game2.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/f347ad2df75f/archive/game3.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/f347ad2df75f/archive/game4.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/f347ad2df75f/archive/game5.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/local-publish/f347ad2df75f/archive/game6.arcd" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/.tmp-presentation-cylinder.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/2026.06.23 - Coin Sort - Horizontal Roll (Playable) Presentation.png" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/.vite/deps/chunk-EYT2MMBI.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/.vite/deps/chunk-EYT2MMBI.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/.vite/deps/phaser.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/.vite/deps/phaser.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/@dimforge/rapier3d-compat/rapier.cjs.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/@dimforge/rapier3d-compat/rapier.es.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/@dimforge/rapier3d-compat/rapier_wasm3d_bg.wasm" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/@esbuild/win32-x64/esbuild.exe" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/@rollup/rollup-win32-x64-gnu/rollup.win32-x64-gnu.node" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/@rollup/rollup-win32-x64-msvc/rollup.win32-x64-msvc.node" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/dist/phaser-arcade-physics.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/dist/phaser-arcade-physics.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/dist/phaser-ie9.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/dist/phaser-ie9.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/dist/phaser.esm.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/dist/phaser.esm.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/dist/phaser.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/dist/phaser.min.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine/dist/SpineCanvasPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine/dist/SpineCanvasPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine/dist/SpineCanvasPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine/dist/SpinePlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine/dist/SpinePluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine/dist/SpinePluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine/dist/SpineWebGLPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine/dist/SpineWebGLPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine/dist/SpineWebGLPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpineCanvasPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpinePlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpinePluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpinePluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPlugin.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPluginDebug.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/plugins/spine4.1/dist/SpineWebGLPluginDebug.js.map" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/types/phaser.d.ts" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/phaser/types/phaser.json" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/three/build/three.cjs" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/three/build/three.core.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/three/build/three.webgpu.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/three/build/three.webgpu.nodes.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/typescript/lib/_tsc.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/typescript/lib/lib.dom.d.ts" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/typescript/lib/typescript.js" filter=lfs diff=lfs merge=lfs -text
+"/Defold Project Translated/3D/CoinSort-HorizontalRoll/tools/reference/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/60seconds/al/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/60seconds/fb/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/60seconds/gg/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/60seconds/is/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/60seconds/mo/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/60seconds/mtg/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/60seconds/un/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/60seconds/vu/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/al/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/editor-isolation/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/fb/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/full/al/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/full/fb/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/full/gg/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/full/is/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/full/mo/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/full/mtg/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/full/un/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/full/vu/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/gg/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/is/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/mo/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/mtg/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/rounded-default/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/un/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/ARF-Template-Three.js/analysis/build/vu/index.html" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full-test-f1d3578ba4b340909af49a4a0d407a01/BrowserMetrics-spare.pma" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full-test-f1d3578ba4b340909af49a4a0d407a01/CrashpadMetrics-active.pma" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full-test-f1d3578ba4b340909af49a4a0d407a01/Default/Cache/Cache_Data/data_3" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full-test-f1d3578ba4b340909af49a4a0d407a01/Default/GPUCache/data_3" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full-test-f1d3578ba4b340909af49a4a0d407a01/optimization_guide_model_store/13/E6DC4029A1E4B4C1/DD098F5DE142AFD0/model.tflite" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full-test-f1d3578ba4b340909af49a4a0d407a01/optimization_guide_model_store/15/E6DC4029A1E4B4C1/88B7F971452B0ADC/model.tflite" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full-test-f1d3578ba4b340909af49a4a0d407a01/optimization_guide_model_store/24/E6DC4029A1E4B4C1/A06CC174E0F3EBD0/model.tflite" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full-test-f1d3578ba4b340909af49a4a0d407a01/optimization_guide_model_store/25/E6DC4029A1E4B4C1/AF785413046DB369/visual_model_desktop.tflite" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full-test-f1d3578ba4b340909af49a4a0d407a01/optimization_guide_model_store/43/E6DC4029A1E4B4C1/320C96059DC8BF40/model.tflite" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full/BrowserMetrics-spare.pma" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full/CrashpadMetrics-active.pma" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full/Default/Cache/Cache_Data/data_3" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full/Default/GPUCache/data_3" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full/optimization_guide_model_store/13/E6DC4029A1E4B4C1/BED0500DD3104B0A/model.tflite" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full/optimization_guide_model_store/15/E6DC4029A1E4B4C1/9AA6A0CAFCA28AB7/model.tflite" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full/optimization_guide_model_store/24/E6DC4029A1E4B4C1/005B2C194391E874/model.tflite" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full/optimization_guide_model_store/25/E6DC4029A1E4B4C1/5739C7B5557031D5/visual_model_desktop.tflite" filter=lfs diff=lfs merge=lfs -text
+"/Original/3D/BBS_Corners-PA-/qa-screenshots/dist-open/chrome-profile-full/optimization_guide_model_store/43/E6DC4029A1E4B4C1/6F3476BAA24D0635/model.tflite" filter=lfs diff=lfs merge=lfs -text
+"/analysis/local-publish/games/bbs/BBSCornersWideU.wasm" filter=lfs diff=lfs merge=lfs -text
+"/analysis/local-publish/games/bbs/BBSCornersWideU_pthread.wasm" filter=lfs diff=lfs merge=lfs -text
+"/analysis/local-publish/games/bbs/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/analysis/local-publish/games/egypt/EgyptCase.wasm" filter=lfs diff=lfs merge=lfs -text
+"/analysis/local-publish/games/egypt/EgyptCase_pthread.wasm" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/bbs/.internal/cache/wasm_pthread-web/d295ed4edff2e49072719835713e625f409849f1/dmengine.wasm" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/bbs/assets/bgm.wav" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/bbs/build/default/BBS Corners - Wide U/BBSCornersWideU.wasm" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/bbs/build/default/BBS Corners - Wide U/BBSCornersWideU_pthread.wasm" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/bbs/build/default/BBS Corners - Wide U/archive/game0.arcd" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/bbs/build/default/assets/bgm.wavc" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/bbs/build/default/assets/board.texturec" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/bbs/build/default/assets/ui.texturec" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/bbs/build/default/game.arcd" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/egypt/.internal/cache/wasm_pthread-web/d295ed4edff2e49072719835713e625f409849f1/dmengine.wasm" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/egypt/assets/images/map-bg.png" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/egypt/assets/images/tutorial-hand.png" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/egypt/build/default/EgyptCase/EgyptCase.wasm" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/egypt/build/default/EgyptCase/EgyptCase_pthread.wasm" filter=lfs diff=lfs merge=lfs -text
+"/analysis/staging/egypt/bundle/EgyptCase/EgyptCase.wasm" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/@babylonjs/core/assets/twgsl/twgsl.wasm" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/@esbuild/win32-x64/esbuild.exe" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/@img/sharp-wasm32/lib/sharp-wasm32-0.35.0.node.wasm" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/@img/sharp-win32-x64/lib/libvips-42.dll" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/@rollup/rollup-win32-x64-gnu/rollup.win32-x64-gnu.node" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/@rollup/rollup-win32-x64-msvc/rollup.win32-x64-msvc.node" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/lamejs/testdata/Stereo44100.wav" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/playwright-core/lib/coreBundle.js" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/playwright-core/lib/utilsBundle.js" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/playwright/lib/transform/babelBundle.js" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/typescript/lib/_tsc.js" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/typescript/lib/lib.dom.d.ts" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/typescript/lib/typescript.js" filter=lfs diff=lfs merge=lfs -text
+"/reference/BBS-Corners/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js" filter=lfs diff=lfs merge=lfs -text

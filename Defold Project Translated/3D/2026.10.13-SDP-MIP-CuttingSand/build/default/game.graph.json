@@ -1,0 +1,97 @@
+[ {
+  "path" : "/<AnonymousRoot>",
+  "hexDigest" : null,
+  "children" : [ "/main/main.collectionc", "/main/game.renderc", "/main/input.input_bindingc", "/builtins/input/default.gamepadsc", "/builtins/render/default.display_profilesc" ]
+}, {
+  "path" : "/main/main.collectionc",
+  "hexDigest" : "fef8f71460776d0e9125b62257574e245971d376",
+  "children" : [ "/_generated_32a5077493643d43.goc" ]
+}, {
+  "path" : "/_generated_32a5077493643d43.goc",
+  "hexDigest" : "d621fa7d65468b30805737b01f13ee5bece529f0",
+  "children" : [ "/main/game.guic" ]
+}, {
+  "path" : "/main/game.guic",
+  "hexDigest" : "84b8760d93b68e288960497c6253f4b6aee62993",
+  "children" : [ "/main/game.gui_scriptc", "/assets/game.fontc", "/assets/art.a.texturesetc", "/builtins/materials/gui.materialc" ]
+}, {
+  "path" : "/main/game.gui_scriptc",
+  "hexDigest" : "fe5038f161ab0eda91bd8a1491377b84b52c0844",
+  "children" : [ "/modules/game.luac", "/modules/view.luac" ]
+}, {
+  "path" : "/modules/game.luac",
+  "hexDigest" : "eefce1a09b4769345a020ce5fa629c193d3054f7",
+  "children" : [ "/modules/grid.luac", "/modules/rack.luac", "/modules/belt.luac" ]
+}, {
+  "path" : "/modules/grid.luac",
+  "hexDigest" : "7c4e1c2c553d458cc6b288da77eeb76a28505257",
+  "children" : [ "/modules/rng.luac" ]
+}, {
+  "path" : "/modules/rng.luac",
+  "hexDigest" : "1eb8199c134f7a58bd218be8cc102516cafae971",
+  "children" : [ ]
+}, {
+  "path" : "/modules/rack.luac",
+  "hexDigest" : "9cbf84296c893cc2d6eece070fd5ea0ef1d50783",
+  "children" : [ ]
+}, {
+  "path" : "/modules/belt.luac",
+  "hexDigest" : "0838f56a3e07b7c8f682809b487987bc5a0f0050",
+  "children" : [ ]
+}, {
+  "path" : "/modules/view.luac",
+  "hexDigest" : "c45bd76f1e1df62078bdeeffeaa16c6e885283a0",
+  "children" : [ ]
+}, {
+  "path" : "/assets/game.fontc",
+  "hexDigest" : "2028d12cdc4404d82254818c432d12e978c5a2cd",
+  "children" : [ "/builtins/fonts/font.materialc", "/_generated_Nunito-Black_b11b84ab9c157f7.glyph_bankc" ]
+}, {
+  "path" : "/builtins/fonts/font.materialc",
+  "hexDigest" : "0c4f6c83816a92c7470199147a962f1651d9720d",
+  "children" : [ "/shader_4711226249295902305.spc" ]
+}, {
+  "path" : "/shader_4711226249295902305.spc",
+  "hexDigest" : "be05955122ceab1792707355f83a84dd98161f33",
+  "children" : [ ]
+}, {
+  "path" : "/_generated_Nunito-Black_b11b84ab9c157f7.glyph_bankc",
+  "hexDigest" : "03e9c16e0ff12abb7f681512c56295a96da3df58",
+  "children" : [ ]
+}, {
+  "path" : "/assets/art.a.texturesetc",
+  "hexDigest" : "6842b479741e9abf1cb7bb9f4e5865bb7e165e18",
+  "children" : [ "/assets/art.texturec" ]
+}, {
+  "path" : "/assets/art.texturec",
+  "hexDigest" : "bf371338e53633f3615624f4c3199e0eed364e52",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/materials/gui.materialc",
+  "hexDigest" : "ea4cbed1ddcc693822de188e07c6acc30e862c99",
+  "children" : [ "/shader_2713870051161532414.spc" ]
+}, {
+  "path" : "/shader_2713870051161532414.spc",
+  "hexDigest" : "25557c8a98c2faddac2fb2b562bd8d005a911639",
+  "children" : [ ]
+}, {
+  "path" : "/main/game.renderc",
+  "hexDigest" : "5baaac01125a47b3c042707663dd6522beb7d601",
+  "children" : [ "/main/game.render_scriptc" ]
+}, {
+  "path" : "/main/game.render_scriptc",
+  "hexDigest" : "fcd1e7cec9ba8276a5a964400278ecad4ed1546a",
+  "children" : [ ]
+}, {
+  "path" : "/main/input.input_bindingc",
+  "hexDigest" : "65e2ac424470b233c2417d0dcee54c4fc528ef6f",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/input/default.gamepadsc",
+  "hexDigest" : "2e53741aa7c7cd588b25b758a0461d0eb8bd0ba2",
+  "children" : [ ]
+}, {
+  "path" : "/builtins/render/default.display_profilesc",
+  "hexDigest" : "4187e11a10b0dd0d7f1b34d3ae3c0e9632dc69fd",
+  "children" : [ ]
+} ]

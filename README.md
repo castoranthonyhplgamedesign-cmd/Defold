@@ -15,7 +15,7 @@ cd Defold
 git lfs pull
 ```
 
-This repository includes the original source files, translated Defold projects, documentation, reference files, and comparison evidence. Local tools, installed dependencies, browser profiles, and generated build caches are excluded. The individual projects' local Git metadata is not part of this repository.
+This repository includes the full workspace: original source files, translated Defold projects, documentation, outputs, comparison evidence, reference files, downloaded tools, installed dependencies, builds, bundles, caches, logs, and QA browser profiles. Large files are stored with Git LFS. The individual projects' local Git metadata is preserved locally and is not tracked as project content. Local credentials must not be committed.
 
 ## Workspace and project mapping
 

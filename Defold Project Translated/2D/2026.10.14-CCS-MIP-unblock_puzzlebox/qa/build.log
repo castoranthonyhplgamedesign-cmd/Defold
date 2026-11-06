@@ -1,0 +1,431 @@
+ 33% Working
+100% Working
+2026-11-06 22:32:39 SEVERE  Platform js-web not supported 
+2026-11-06 22:32:39 SEVERE  com.dynamo.bob.Project.getPlatform(Project.java:1117) 
+2026-11-06 22:32:39 SEVERE  com.dynamo.bob.Bob.invoke(Bob.java:903) 
+2026-11-06 22:32:39 SEVERE  com.dynamo.bob.Bob.main(Bob.java:1067) 
+2026-11-06 22:32:39 SEVERE  Platform js-web not supported 
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\10432607114632445784'
+ 33% Working
+ 33% Reading classes
+2026-11-06 22:33:20 INFO     
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.ModelImporterJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 78% Reading tasks
+100% Reading tasks
+ERROR: game.project:0: 'com.dynamo.bob.CompileExceptionError: the bootstrap.main_collection '/main/main.collectio' can't be found'
+
+2026-11-06 22:33:25 SEVERE  the bootstrap.main_collection '/main/main.collectio' can't be found 
+2026-11-06 22:33:25 SEVERE  com.dynamo.bob.pipeline.BuilderUtil.checkResource(BuilderUtil.java:47) 
+2026-11-06 22:33:25 SEVERE  com.dynamo.bob.pipeline.GameProjectBuilder.create(GameProjectBuilder.java:198) 
+2026-11-06 22:33:25 SEVERE  com.dynamo.bob.Project.createTask(Project.java:560) 
+2026-11-06 22:33:25 SEVERE  com.dynamo.bob.Project.createTask(Project.java:532) 
+2026-11-06 22:33:25 SEVERE  com.dynamo.bob.Project.createTasks(Project.java:641) 
+2026-11-06 22:33:25 SEVERE  com.dynamo.bob.Project.createAndRunTasks(Project.java:1901) 
+2026-11-06 22:33:25 SEVERE  com.dynamo.bob.Project.doBuild(Project.java:2093) 
+2026-11-06 22:33:25 SEVERE  com.dynamo.bob.Project.build(Project.java:834) 
+2026-11-06 22:33:25 SEVERE  com.dynamo.bob.Bob.invoke(Bob.java:987) 
+2026-11-06 22:33:25 SEVERE  com.dynamo.bob.Bob.main(Bob.java:1067) 
+2026-11-06 22:33:25 SEVERE  the bootstrap.main_collection '/main/main.collectio' can't be found 
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\9691964813152657632'
+ 33% Working
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.TexcLibraryJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+ 33% Reading classes
+2026-11-06 22:34:53 INFO     
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 73% Building
+2026-11-06 22:34:55 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 22:34:55 INFO    Build tasks 
+ 75% Building
+2026-11-06 22:35:03 INFO    Generating the resource graph 
+2026-11-06 22:35:03 INFO    Generating the resource graph took 0.057000 s 
+2026-11-06 22:35:03 INFO    Creation of the excluded resources list. 
+2026-11-06 22:35:03 INFO    Creation of the excluded resources list took 0.000000 s 
+2026-11-06 22:35:03 INFO    GameProjectBuilder.createArchive 
+2026-11-06 22:35:03 INFO    Creating archive entries with a fixed thread pool executor using 10 threads 
+2026-11-06 22:35:05 INFO    GameProjectBuilder.createArchive took 2.334000 
+2026-11-06 22:35:05 INFO    buildManifestData begin 
+2026-11-06 22:35:05 INFO    ManifestBuilder.buildManifestData took 0.005000 
+2026-11-06 22:35:05 INFO    buildManifestData begin 
+2026-11-06 22:35:05 INFO    ManifestBuilder.buildManifestData took 0.000000 
+2026-11-06 22:35:05 INFO    Writing the resource graph to json 
+2026-11-06 22:35:05 INFO    Writing the resource graph to json took 0.008000 s 
+2026-11-06 22:35:05 INFO    Build tasks took 9.786000 s 
+ 78% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\15785443726116227026'
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.TexcLibraryJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+ 33% Working
+ 33% Reading classes
+2026-11-06 22:40:02 INFO     
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 73% Building
+2026-11-06 22:40:16 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 22:40:16 INFO    Build tasks 
+ 75% Building
+2026-11-06 22:40:16 INFO    Build tasks took 0.271000 s 
+ 78% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\5250458615160284657'
+ 33% Working
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.ModelImporterJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+ 33% Reading classes
+2026-11-06 22:59:26 INFO     
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 73% Building
+2026-11-06 22:59:29 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 22:59:29 INFO    Build tasks 
+ 75% Building
+2026-11-06 22:59:29 INFO    Build tasks took 0.047000 s 
+ 78% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\13133608677374272318'
+ 33% Working
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.ModelImporterJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+ 33% Reading classes
+2026-11-06 23:00:55 INFO     
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 73% Building
+2026-11-06 23:00:57 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 23:00:57 INFO    Build tasks 
+ 75% Building
+2026-11-06 23:00:57 INFO    Generating the resource graph 
+2026-11-06 23:00:58 INFO    Generating the resource graph took 0.131000 s 
+2026-11-06 23:00:58 INFO    Creation of the excluded resources list. 
+2026-11-06 23:00:58 INFO    Creation of the excluded resources list took 0.000000 s 
+2026-11-06 23:00:58 INFO    GameProjectBuilder.createArchive 
+2026-11-06 23:00:58 INFO    Creating archive entries with a fixed thread pool executor using 10 threads 
+2026-11-06 23:01:01 INFO    GameProjectBuilder.createArchive took 3.209000 
+2026-11-06 23:01:01 INFO    buildManifestData begin 
+2026-11-06 23:01:01 INFO    ManifestBuilder.buildManifestData took 0.005000 
+2026-11-06 23:01:01 INFO    buildManifestData begin 
+2026-11-06 23:01:01 INFO    ManifestBuilder.buildManifestData took 0.000000 
+2026-11-06 23:01:01 INFO    Writing the resource graph to json 
+2026-11-06 23:01:01 INFO    Writing the resource graph to json took 0.036000 s 
+2026-11-06 23:01:01 INFO    Build tasks took 3.991000 s 
+ 78% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\13336353539588861129'
+ 33% Working
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.ModelImporterJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+ 33% Reading classes
+2026-11-06 23:04:53 INFO     
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 73% Building
+2026-11-06 23:05:03 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 23:05:03 INFO    Build tasks 
+ 75% Building
+2026-11-06 23:05:04 INFO    Generating the resource graph 
+2026-11-06 23:05:05 INFO    Generating the resource graph took 0.223000 s 
+2026-11-06 23:05:05 INFO    Creation of the excluded resources list. 
+2026-11-06 23:05:05 INFO    Creation of the excluded resources list took 0.000000 s 
+2026-11-06 23:05:05 INFO    GameProjectBuilder.createArchive 
+2026-11-06 23:05:05 INFO    Creating archive entries with a fixed thread pool executor using 10 threads 
+2026-11-06 23:05:14 INFO    GameProjectBuilder.createArchive took 9.452000 
+2026-11-06 23:05:14 INFO    buildManifestData begin 
+2026-11-06 23:05:14 INFO    ManifestBuilder.buildManifestData took 0.010000 
+2026-11-06 23:05:14 INFO    buildManifestData begin 
+2026-11-06 23:05:14 INFO    ManifestBuilder.buildManifestData took 0.001000 
+2026-11-06 23:05:14 INFO    Writing the resource graph to json 
+2026-11-06 23:05:14 INFO    Writing the resource graph to json took 0.009000 s 
+2026-11-06 23:05:15 INFO    Build tasks took 11.120000 s 
+ 78% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\927492729341051183'
+ 33% Working
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.ModelImporterJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+ 33% Reading classes
+2026-11-06 23:06:46 INFO     
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 73% Building
+2026-11-06 23:06:50 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 23:06:50 INFO    Build tasks 
+ 75% Building
+2026-11-06 23:06:50 INFO    Generating the resource graph 
+2026-11-06 23:06:51 INFO    Generating the resource graph took 0.133000 s 
+2026-11-06 23:06:51 INFO    Creation of the excluded resources list. 
+2026-11-06 23:06:51 INFO    Creation of the excluded resources list took 0.000000 s 
+2026-11-06 23:06:51 INFO    GameProjectBuilder.createArchive 
+2026-11-06 23:06:51 INFO    Creating archive entries with a fixed thread pool executor using 10 threads 
+2026-11-06 23:06:53 INFO    GameProjectBuilder.createArchive took 2.233000 
+2026-11-06 23:06:53 INFO    buildManifestData begin 
+2026-11-06 23:06:53 INFO    ManifestBuilder.buildManifestData took 0.006000 
+2026-11-06 23:06:53 INFO    buildManifestData begin 
+2026-11-06 23:06:53 INFO    ManifestBuilder.buildManifestData took 0.000000 
+2026-11-06 23:06:53 INFO    Writing the resource graph to json 
+2026-11-06 23:06:53 INFO    Writing the resource graph to json took 0.011000 s 
+2026-11-06 23:06:53 INFO    Build tasks took 2.989000 s 
+ 78% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\5701497150657874620'
+ 33% Working
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.ModelImporterJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+ 33% Reading classes
+2026-11-06 23:11:11 INFO     
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 73% Building
+2026-11-06 23:11:36 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 23:11:36 INFO    Build tasks 
+ 75% Building
+2026-11-06 23:11:37 INFO    Generating the resource graph 
+2026-11-06 23:11:37 INFO    Generating the resource graph took 0.132000 s 
+2026-11-06 23:11:37 INFO    Creation of the excluded resources list. 
+2026-11-06 23:11:37 INFO    Creation of the excluded resources list took 0.000000 s 
+2026-11-06 23:11:37 INFO    GameProjectBuilder.createArchive 
+2026-11-06 23:11:37 INFO    Creating archive entries with a fixed thread pool executor using 10 threads 
+2026-11-06 23:11:39 INFO    GameProjectBuilder.createArchive took 2.081000 
+2026-11-06 23:11:39 INFO    buildManifestData begin 
+2026-11-06 23:11:39 INFO    ManifestBuilder.buildManifestData took 0.004000 
+2026-11-06 23:11:39 INFO    buildManifestData begin 
+2026-11-06 23:11:39 INFO    ManifestBuilder.buildManifestData took 0.000000 
+2026-11-06 23:11:39 INFO    Writing the resource graph to json 
+2026-11-06 23:11:39 INFO    Writing the resource graph to json took 0.008000 s 
+2026-11-06 23:11:39 INFO    Build tasks took 3.594000 s 
+ 78% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\8495612928284506290'
+ 33% Working
+ 33% Reading classes
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.ModelImporterJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+2026-11-06 23:11:51 INFO     
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 73% Building
+2026-11-06 23:11:54 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 23:11:54 INFO    Build tasks 
+ 75% Building
+2026-11-06 23:11:56 INFO    Generating the resource graph 
+2026-11-06 23:11:56 INFO    Generating the resource graph took 0.368000 s 
+2026-11-06 23:11:56 INFO    Creation of the excluded resources list. 
+2026-11-06 23:11:56 INFO    Creation of the excluded resources list took 0.000000 s 
+2026-11-06 23:11:56 INFO    GameProjectBuilder.createArchive 
+2026-11-06 23:11:56 INFO    Creating archive entries with a fixed thread pool executor using 10 threads 
+2026-11-06 23:12:02 INFO    GameProjectBuilder.createArchive took 6.077000 
+2026-11-06 23:12:02 INFO    buildManifestData begin 
+2026-11-06 23:12:02 INFO    ManifestBuilder.buildManifestData took 0.004000 
+2026-11-06 23:12:02 INFO    buildManifestData begin 
+2026-11-06 23:12:02 INFO    ManifestBuilder.buildManifestData took 0.000000 
+2026-11-06 23:12:02 INFO    Writing the resource graph to json 
+2026-11-06 23:12:02 INFO    Writing the resource graph to json took 0.055000 s 
+2026-11-06 23:12:02 INFO    Build tasks took 8.171000 s 
+ 78% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\1444613888289801895'
+ 33% Working
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.TexcLibraryJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+ 33% Reading classes
+2026-11-06 23:18:26 INFO     
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 73% Building
+2026-11-06 23:18:35 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 23:18:35 INFO    Build tasks 
+ 75% Building
+2026-11-06 23:18:36 INFO    Build tasks took 0.946000 s 
+ 78% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\15105887872817935891'
+Converted 146 assets without changing original files
+ 33% Working
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.ModelImporterJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+ 33% Reading classes
+2026-11-06 23:22:30 INFO     
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 73% Building
+2026-11-06 23:22:32 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 23:22:32 INFO    Build tasks 
+ 75% Building
+2026-11-06 23:22:33 INFO    Generating the resource graph 
+2026-11-06 23:22:33 INFO    Generating the resource graph took 0.088000 s 
+2026-11-06 23:22:33 INFO    Creation of the excluded resources list. 
+2026-11-06 23:22:33 INFO    Creation of the excluded resources list took 0.000000 s 
+2026-11-06 23:22:33 INFO    GameProjectBuilder.createArchive 
+2026-11-06 23:22:33 INFO    Creating archive entries with a fixed thread pool executor using 10 threads 
+2026-11-06 23:22:37 INFO    GameProjectBuilder.createArchive took 4.563000 
+2026-11-06 23:22:37 INFO    buildManifestData begin 
+2026-11-06 23:22:37 INFO    ManifestBuilder.buildManifestData took 0.004000 
+2026-11-06 23:22:37 INFO    buildManifestData begin 
+2026-11-06 23:22:37 INFO    ManifestBuilder.buildManifestData took 0.000000 
+2026-11-06 23:22:37 INFO    Writing the resource graph to json 
+2026-11-06 23:22:37 INFO    Writing the resource graph to json took 0.010000 s 
+2026-11-06 23:22:37 INFO    Build tasks took 5.545000 s 
+ 78% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\9299916223671624671'
+Converted 146 assets without changing original files
+ 33% Working
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.ModelImporterJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+ 33% Reading classes
+2026-11-06 23:33:55 INFO     
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 73% Building
+2026-11-06 23:33:57 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 23:33:57 INFO    Build tasks 
+ 75% Building
+2026-11-06 23:33:59 INFO    Generating the resource graph 
+2026-11-06 23:33:59 INFO    Generating the resource graph took 0.112000 s 
+2026-11-06 23:33:59 INFO    Creation of the excluded resources list. 
+2026-11-06 23:33:59 INFO    Creation of the excluded resources list took 0.000000 s 
+2026-11-06 23:33:59 INFO    GameProjectBuilder.createArchive 
+2026-11-06 23:33:59 INFO    Creating archive entries with a fixed thread pool executor using 10 threads 
+2026-11-06 23:34:01 INFO    GameProjectBuilder.createArchive took 1.878000 
+2026-11-06 23:34:01 INFO    buildManifestData begin 
+2026-11-06 23:34:01 INFO    ManifestBuilder.buildManifestData took 0.005000 
+2026-11-06 23:34:01 INFO    buildManifestData begin 
+2026-11-06 23:34:01 INFO    ManifestBuilder.buildManifestData took 0.001000 
+2026-11-06 23:34:01 INFO    Writing the resource graph to json 
+2026-11-06 23:34:01 INFO    Writing the resource graph to json took 0.012000 s 
+2026-11-06 23:34:01 INFO    Build tasks took 3.947000 s 
+ 78% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\13283633650247433218'
+Converted 146 assets without changing original files
+ 33% Working
+WARNING: A restricted method in java.lang.System has been called
+WARNING: java.lang.System::load has been called by com.dynamo.bob.pipeline.ModelImporterJni in an unnamed module (file:/C:/Users/Anthony%20Castor/Documents/Defold/packages/defold-d295ed4edff2e49072719835713e625f409849f1.jar)
+WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+
+ 33% Reading classes
+2026-11-06 23:42:33 INFO     
+ 56% Reading classes
+ 63% Reading classes
+ 63% Cleaning engine
+ 65% Cleaning engine
+ 70% Cleaning engine
+ 70% Reading tasks
+ 73% Building
+2026-11-06 23:42:35 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 23:42:35 INFO    Build tasks 
+ 75% Building
+2026-11-06 23:42:36 INFO    Generating the resource graph 
+2026-11-06 23:42:36 INFO    Generating the resource graph took 0.074000 s 
+2026-11-06 23:42:36 INFO    Creation of the excluded resources list. 
+2026-11-06 23:42:36 INFO    Creation of the excluded resources list took 0.000000 s 
+2026-11-06 23:42:36 INFO    GameProjectBuilder.createArchive 
+2026-11-06 23:42:36 INFO    Creating archive entries with a fixed thread pool executor using 10 threads 
+2026-11-06 23:42:38 INFO    GameProjectBuilder.createArchive took 1.615000 
+2026-11-06 23:42:38 INFO    buildManifestData begin 
+2026-11-06 23:42:38 INFO    ManifestBuilder.buildManifestData took 0.004000 
+2026-11-06 23:42:38 INFO    buildManifestData begin 
+2026-11-06 23:42:38 INFO    ManifestBuilder.buildManifestData took 0.000000 
+2026-11-06 23:42:38 INFO    Writing the resource graph to json 
+2026-11-06 23:42:38 INFO    Writing the resource graph to json took 0.008000 s 
+2026-11-06 23:42:38 INFO    Build tasks took 3.451000 s 
+ 78% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\14761130646710239852'
+{
+  "date": "2026-11-06T23:42:41.277684",
+  "file": "D:\\allproject\\defold\\output\\Ring Sort.html",
+  "bytes": 13472353,
+  "sha256": "ff62800d8a395e377fe76a20b7276153f3688dad60b3981f5555968a06e6dc72",
+  "embedded_assets": 20,
+  "format": "Single HTML: inline scripts, gzip/base64 wasm/archive/audio, data-URL icons and manifest"
+}

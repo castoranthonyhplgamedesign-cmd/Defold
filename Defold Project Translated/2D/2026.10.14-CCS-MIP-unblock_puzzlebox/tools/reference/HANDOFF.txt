@@ -1,0 +1,110 @@
+HANDOFF — Circle Sort "unblock puzzlebox" playable (branch: prototype-playable)
+Written 2026-10-16 (personal PC). Continue on work PC: git pull, npm install, then read this.
+
+=====================================================================
+1. RESOLVED 2026-10-16: iPhone performance during merge/clear chain reactions
+=====================================================================
+Cause: HTMLAudio SFX. Overlay showed sfx 393 ms/s over 18 plays (~22 ms per play()), worst frame 127 ms.
+Fix: merge/pop play as Web Audio one-shots (audio.ts initWebSfx) once decoded; touch/gift/win stay HTMLAudio.
+Device result (iPhone 15, AppLovin preview): no lag, every overlay field in the "good" range:
+  fps 58-60, >20ms 0-2, worst <25, cpu <12, other <10, render <4, phys <3/1st, sfx <1/play, redraw <2.
+History below kept for reference.
+
+Symptom (iPhone 15, AppLovin Playable Preview): FPS drops when rings merge/clear,
+worst during CHAIN REACTIONS (many balls transferring/popping every 80 ms).
+
+Device measurements so far (dist-perf overlay):
+  - Original canvas renderer ............ "fps drops" (no numbers)
+  - Attempt 1: GPU DynamicTexture balls . WORSE: 15 fps, worst frame 334 ms  -> REVERTED
+      (tile-based Apple GPU: ~15-20 render-target switches per ball redraw is costly)
+  - Attempt 2 (current code):
+      * ball canvases created with willReadFrequently:true (CPU-backed, no GPU->CPU readback before upload)
+      * Ball.redraw() only queues; Ball.flushRedraws(1) renders max 1 ball per frame (Board.update)
+      * shadow + dark base cached per ring count (RingArt.underlay)
+    Device result: lowest 9 fps, worst frame 298 ms, redraw avg 0-2.00 ms, up to 28 redraws/s
+    => BALL REDRAWS ARE NOT THE BOTTLENECK. Cause is elsewhere.
+
+Suspects (not yet measured on device):
+  a) Physics catch-up spiral: Matter positionIterations 20 / velocityIterations 10 (main.ts),
+     fixed 60 Hz runner steps several times per frame after a slow frame.
+  b) iOS <audio> SFX: merge/pop cue every 80 ms; HTMLAudio play()/currentTime in WKWebView
+     can block the main thread (media process IPC). Desktop can't show this.
+  c) WebGL upload / GC stalls outside game code ("other" time).
+  d) WebGL render submission.
+
+NEXT STEP: build dist-perf, play on iPhone, trigger a chain reaction, screenshot the overlay.
+  PERF=1 npm run build        -> dist-perf/<variant>/... (same names, overlay on)
+  npm run build               -> dist/ (shippable, overlay compiled out)
+Overlay (src/utils/perf.ts), worst frame of each second:
+  fps N  >20ms K
+  worst Xms = cpu A + other B        (cpu = Phaser step start -> render end)
+   render R  phys P/Sst              (physics ms / steps in that frame; >=3 steps = catch-up spiral)
+   sfx S/N  redraw D/M               (sfx ms / plays; redraw ms / count)
+  per s: phys ..ms  sfx ..ms/..
+   redraw ../s  avg ..ms
+Decision table:
+  high phys + many steps -> lower Matter iterations, cap steps per frame
+  high sfx               -> fewer pop/merge cues per chain, or move SFX to Web Audio
+  cpu small, other huge  -> GPU/IPC/GC stall: textures at screen resolution, fewer allocations
+  high render            -> fewer draw calls / particles
+Untried idea: render ball textures at display resolution (sd scale) instead of design px (~36% fewer px on iPhone).
+
+Perf hooks: Ball.render (perfFrame.redraw), audio.sfx (perfFrame.sfx), GameScene perfPhysics(matter.world),
+main.ts startPerfHud(game). All gated by __PERF__ (vite define, PERF env) -> dead code in normal builds.
+
+=====================================================================
+2. ALSO NEEDS DEVICE VERIFICATION
+=====================================================================
+- BGM silent until ringer on: fixed by navigator.audioSession.type='playback' (main.ts, iOS 16.4+)
+  + AudioContext resume on every gesture (audio.ts startBgm). Not yet confirmed on iPhone/AppLovin.
+  Fallback if still silent: play BGM through an <audio> element like the SFX (tiny loop gap).
+- BGM = Assets/audio/bgm_loop.mp3: 8 bars @90 BPM cut from bgm.mp3 (from 4.025 s, 940800 samples,
+  60 ms crossfade, +0.3 s tail). Native WebAudio loop with loopStart/loopEnd (audio.ts startBgm).
+  bgm.mp3 (original, 1 MB) is kept but NOT bundled.
+
+=====================================================================
+3. STATE OF THE PLAYABLE (done this session)
+=====================================================================
+- vite-plugin-singlefile 0.9.0 -> 2.3.3 (fixed Vite 7 build error).
+- HUD: restart / GOAL board / GOAL text ("CLEAR RINGS TO DROP THE GIFT!", Helvetica Rounded Bold,
+  base64 font) exist but are HIDDEN for now (one line in Hud.ts). Only NEXT board + next ball shown.
+- Layout: board bottom-anchored (pile on screen bottom); HUD halfway into spare height on tall
+  phones (syHud / hudDy in utils/responsive.ts). FIT = {x:50,y:30,w:980,h:1694}.
+- Container: Assets/images/new/container.webp between walls, BOARD_ALPHA 0.2.
+- Hand tutorial: single hand-point.webp; squash + tilt + tap ring; eased approach/lift.
+- Click variants (3clk/10clk): click = pointerdown on the player ball; last click ends immediately.
+- Every end: auto-redirect to store, then endcard (toEndcard). EXCEPT fail: endcard only, no redirect.
+  Board freezes under endcard (matter pause + scene.time.paused).
+  WARNING: auto-redirect without a tap may violate Facebook/Google/MRAID network review rules.
+- Win: WinFx.ts (gift flies to center, burst, sfx_gift) -> redirect -> endcard. sfx_gift no longer on ball clear.
+- Fail: practically unreachable in normal play (same as reference). Danger.ts: rope pulses red while a ball
+  rests above the line; red vignette last 0.5 s; then endcard. TryAgain.ts deleted.
+- Analytics (AppLovin spec): LOADING, LOADED, DISPLAYED (after intro), CHALLENGE_STARTED,
+  CHALLENGE_PASS_25/50/75 (gift sink progress), CHALLENGE_SOLVED, CHALLENGE_FAILED, ENDCARD_SHOWN, CTA_CLICKED.
+  Auto-redirects are not counted as CTA_CLICKED. Caveat: AppLovin says skip analytics if the HTML
+  redirects within 5 s of first interaction -> 3clk variant may qualify.
+- Endcard logo sized by screen short side (same in portrait/landscape).
+- Dev helpers (npm run dev): ?variant=3clk|10clk|60sec ; keys D (danger countdown), W (win), F (fail),
+  L (limit end), or window.debug.*() in console. Stripped from builds.
+
+=====================================================================
+4. OPEN ITEMS FROM AGENTS.md AUDIT
+=====================================================================
+- Liftoff (lf) network missing from NETWORKS in scripts/build-all.mjs (needs mraid.js, included).
+- Inline Game Configuration section not implemented at all (GAME_CONFIG_DEFAULTS, sentinels,
+  __CHANGEABLE_ASSETS__, projectDefaults.json, GAME_CONFIG.md, runtime consumption).
+- AGENTS.md Responsive section + Depth Map out of date (bottom anchor, HUD split, DEPTH.DANGER=10, win FX uses FAIL_UI).
+- Critical (first-frame) assets ~360 KB > 200 KB target (restart-icon 91 KB, ring_atlas 145 KB, hand-point 59 KB;
+  1254 px art shown at ~250 px -> resize when an image tool is available).
+
+=====================================================================
+5. WORKING NOTES
+=====================================================================
+- User preference: MUTE AUDIO when running the game for tests (Chrome --mute-audio).
+- Playtests/profiling were done with headless Chrome driven over CDP from a Node script
+  (Node 22+ has global WebSocket): launch chrome --headless=new --mute-audio --remote-debugging-port=9333,
+  open http://localhost:5179/?variant=60sec (npx vite --port 5179), use window.__game (dev only),
+  Input.dispatchMouseEvent to drag the ball, Emulation.setCPUThrottlingRate 4 for slow-CPU runs.
+  Desktop never reproduced the iPhone drops (redraw ~1.4 ms at 4x throttle, no >33 ms frames).
+- Image measurements: Windows decoders drop WebP alpha; measure in Chrome (canvas getImageData).
+- ffmpeg was a temporary scratch install (npm ffmpeg-static), not a project dependency.
