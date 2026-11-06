@@ -20,6 +20,4 @@ Current branding QA is recorded in qa/evidence/mystery-master-branding-report.js
 
 ## Verified delivery
 
-Six branding/delivery checks passed, zero failed. Full puzzle completion, both click-limited variants, new title/icon/heading/logo, landscape end card, and direct file opening were exercised against the copied HTML. There were no browser errors or external asset requests.
-
-Final file: MysteryMaster.html; 4558562 bytes. SHA-256: 7b21dd37be0c711d47e8cf4a6adf97ebbf596e4e595120bc5d96e352c69bfe94. The output folder contains exactly one MysteryMaster entry and no Sinonimus export. Other games were left unchanged.
+Current source: reskin at 4ed0abc. Fourteen targeted reskin/delivery checks passed, zero failed. Final file: MysteryMaster.html, 4812499 bytes. SHA-256: d7964648136798a59322098839911805358040aa15c2beb7d6a335521d18e873. Exactly one MysteryMaster output exists. See RESKIN.md and qa/evidence/reskin-qa-report.json for current evidence. Other games were left unchanged.
