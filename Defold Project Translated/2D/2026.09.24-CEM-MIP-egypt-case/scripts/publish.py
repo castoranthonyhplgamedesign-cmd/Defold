@@ -2,19 +2,20 @@
 from pathlib import Path
 import base64,gzip,json,re,zipfile,hashlib,sys,shutil
 ROOT=Path(__file__).resolve().parents[1]
-SOURCE=ROOT.parents[2]/'Original/2D/2026.09.24-CEM-MIP-egypt-case'
+SOURCE=ROOT/'qa/reskin-src'
 OUT=ROOT/'dist';OUT.mkdir(exist_ok=True)
 bundle=ROOT/'bundle/MysteryMaster'
 favicon='data:image/png;base64,'+base64.b64encode((ROOT/'assets/branding/mystery-master-icon.png').read_bytes()).decode()
 defaults=json.loads((ROOT/'config/defaults.json').read_text(encoding='utf8'))
+baseline=json.loads((ROOT/'config/source-baseline.json').read_text(encoding='utf8'))
 inventory=json.loads((ROOT/'docs/asset-inventory.json').read_text(encoding='utf8'))
 payloads={}
 payloads['font-grenze']='data:font/ttf;base64,'+base64.b64encode((ROOT/'assets/fonts/Grenze-VariableFont_wght.ttf').read_bytes()).decode()
 for entry in inventory:
-    src=ROOT/entry.get('local_source',entry['destination'])
+    src=ROOT/entry.get('runtime_source',entry.get('local_source',entry['destination']))
     if 'key' in entry: payloads[entry['key']]='data:image/webp;base64,'+base64.b64encode(src.read_bytes()).decode()
 for slot in defaults['CHANGABLE_SOUNDTRACKS']:
-    files={'bgm':'BGM','pick-drop-character':'PickDropCharacter','return':'Return','correct':'Correct','wrong':'Wrong','red-strike':'RedStrike','endcard':'EndCard','ahmose-sfx':'AhmoseSFX','maya-sfx':'MayaSFX','merneptah-sfx':'MerneptahSFX','nefertiti-sfx':'NefertitiSFX'}
+    files={'bgm':'BGM','pick-drop-character':'PickDropCharacter','return':'Return','correct':'Correct','wrong':'Wrong','red-strike':'RedStrike','endcard':'EndCard','nakht-sfx':'NakhtSFX','nebet-sfx':'NebetSFX','huy-sfx':'HuySFX','merit-sfx':'MeritSFX'}
     payloads[slot['id']]='data:audio/mpeg;base64,'+base64.b64encode((ROOT/'web/audio'/f"{files[slot['id']]}.mp3").read_bytes()).decode()
 # Inline compressed engine/archive files. FileLoader reads from this memory map,
 # retaining Defold's real engine, resource verification, GUI and Lua execution.
@@ -82,6 +83,7 @@ def html(network,variant,head='',body=''):
     cfg=json.loads(json.dumps(defaults));cfg['GAME_LENGTH']['clickLimit']={'2clicks':2,'4clicks':4,'full':9999}[variant]
     return '<!DOCTYPE html>\n<html><head>\n<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><meta name="network" content="'+network+'"><meta name="application-name" content="Mystery Master"><link rel="icon" type="image/png" href="'+favicon+'"><link rel="apple-touch-icon" href="'+favicon+'"><title>Mystery Master</title>\n'+head+'''
 <style>html,body,#canvas-container{width:100%;height:100%;margin:0;overflow:hidden;touch-action:none;background:#cf9862}#canvas{display:block;width:100%!important;height:100%!important;outline:0}#loading{position:fixed;inset:0;display:grid;place-items:center;font:18px sans-serif;color:#512e10;pointer-events:none}</style>
+<script>window.GAME_SOURCE_BASELINE='''+json.dumps(baseline,separators=(',',':'))+''';</script>
 <script>/*__INLINE_GAME_CONFIG_START__*/
 const GAME_CONFIG_DEFAULTS = '''+json.dumps(cfg,indent=2)+''';
 /*__INLINE_GAME_CONFIG_END__*/

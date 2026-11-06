@@ -1,5 +1,7 @@
 # Final local QA
 
+Historical main-branch translation QA. Current reskin validation is recorded in `RESKIN.md` and `qa/evidence/reskin-qa-report.json`.
+
 **27 checks passed; 0 failed.** Original repository remains clean and its asset hashes match the recorded baseline.
 
 Tested code commit: `760495f4831caf8fe8a1aae6cda170b896e3e213`. Defold HTML5 release build, engine revision `d295ed4edff2e49072719835713e625f409849f1`.

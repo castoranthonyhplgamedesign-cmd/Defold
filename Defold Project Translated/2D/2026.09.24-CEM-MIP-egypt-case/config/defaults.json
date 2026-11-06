@@ -18,7 +18,7 @@
   "HAND_TUTOR_MODE": true,
   "TUTORIAL_DELAY": 5,
   "TUTORIAL": {
-    "openingCharacter": "Khasekhemwy",
+    "openingCharacter": "Senen",
     "overlayAlpha": 0.68,
     "ghostAlpha": 0.5,
     "handWidth": 200,
@@ -57,27 +57,27 @@
   "DROP_CIRCLE_SIZE": 75,
   "DROP_RADIUS": 75,
   "DROP_POSITIONS": {
-    "Aisha": {
+    "Tia": {
       "x": 260,
       "y": 350
     },
-    "Maya": {
+    "Nebet": {
       "x": 305,
       "y": 940
     },
-    "Ahmose": {
+    "Nakht": {
       "x": 775,
       "y": 970
     },
-    "Nefertiti": {
+    "Merit": {
       "x": 735,
       "y": 190
     },
-    "Merneptah": {
+    "Huy": {
       "x": 845,
       "y": 380
     },
-    "Khasekhemwy": {
+    "Senen": {
       "x": 850,
       "y": 780
     }
@@ -98,28 +98,28 @@
   },
   "CLUES": [
     {
-      "character": "Khasekhemwy",
-      "text": "Khasekhemwy is deceased."
+      "character": "Senen",
+      "text": "Senen is deceased."
     },
     {
-      "character": "Ahmose",
-      "text": "Ahmose is near the body."
+      "character": "Nakht",
+      "text": "Nakht is near the body."
     },
     {
-      "character": "Nefertiti",
-      "text": "Nefertiti is crying on the couch."
+      "character": "Merit",
+      "text": "Merit is crying on the couch."
     },
     {
-      "character": "Maya",
-      "text": "Maya had too much date wine last night."
+      "character": "Nebet",
+      "text": "Nebet had too much date wine last night."
     },
     {
-      "character": "Aisha",
+      "character": "Tia",
       "text": "The traitor is escaping through the window."
     },
     {
-      "character": "Merneptah",
-      "text": "Merneptah is with his scrolls and toys."
+      "character": "Huy",
+      "text": "Huy is with his scrolls and toys."
     }
   ],
   "COLORS": {
@@ -240,8 +240,8 @@
       "spriteName": "tutorial-hand",
       "path": "",
       "originalSize": {
-        "width": 1534,
-        "height": 1534
+        "width": 512,
+        "height": 512
       },
       "format": "webp",
       "uuid": "tutorial-hand",
@@ -253,14 +253,14 @@
       "scale": 1
     },
     {
-      "spriteName": "Aisha",
+      "spriteName": "Tia",
       "path": "",
       "originalSize": {
         "width": 200,
         "height": 286
       },
       "format": "webp",
-      "uuid": "Aisha",
+      "uuid": "Tia",
       "resizeBlocked": true,
       "anchorPoint": {
         "x": 0.5,
@@ -269,14 +269,14 @@
       "scale": 1
     },
     {
-      "spriteName": "Maya",
+      "spriteName": "Nebet",
       "path": "",
       "originalSize": {
         "width": 200,
         "height": 286
       },
       "format": "webp",
-      "uuid": "Maya",
+      "uuid": "Nebet",
       "resizeBlocked": true,
       "anchorPoint": {
         "x": 0.5,
@@ -285,14 +285,14 @@
       "scale": 1
     },
     {
-      "spriteName": "Ahmose",
+      "spriteName": "Nakht",
       "path": "",
       "originalSize": {
         "width": 200,
         "height": 286
       },
       "format": "webp",
-      "uuid": "Ahmose",
+      "uuid": "Nakht",
       "resizeBlocked": true,
       "anchorPoint": {
         "x": 0.5,
@@ -301,14 +301,14 @@
       "scale": 1
     },
     {
-      "spriteName": "Nefertiti",
+      "spriteName": "Merit",
       "path": "",
       "originalSize": {
         "width": 200,
         "height": 286
       },
       "format": "webp",
-      "uuid": "Nefertiti",
+      "uuid": "Merit",
       "resizeBlocked": true,
       "anchorPoint": {
         "x": 0.5,
@@ -317,14 +317,14 @@
       "scale": 1
     },
     {
-      "spriteName": "Merneptah",
+      "spriteName": "Huy",
       "path": "",
       "originalSize": {
         "width": 200,
         "height": 286
       },
       "format": "webp",
-      "uuid": "Merneptah",
+      "uuid": "Huy",
       "resizeBlocked": true,
       "anchorPoint": {
         "x": 0.5,
@@ -333,14 +333,14 @@
       "scale": 1
     },
     {
-      "spriteName": "Khasekhemwy",
+      "spriteName": "Senen",
       "path": "",
       "originalSize": {
         "width": 200,
         "height": 286
       },
       "format": "webp",
-      "uuid": "Khasekhemwy",
+      "uuid": "Senen",
       "resizeBlocked": true,
       "anchorPoint": {
         "x": 0.5,
@@ -407,36 +407,36 @@
       "uuid": "endcard"
     },
     {
-      "id": "ahmose-sfx",
+      "id": "nakht-sfx",
       "path": "",
       "volume": 1,
       "loop": false,
       "format": "mp3",
-      "uuid": "ahmose-sfx"
+      "uuid": "nakht-sfx"
     },
     {
-      "id": "maya-sfx",
+      "id": "nebet-sfx",
       "path": "",
       "volume": 1,
       "loop": false,
       "format": "mp3",
-      "uuid": "maya-sfx"
+      "uuid": "nebet-sfx"
     },
     {
-      "id": "merneptah-sfx",
+      "id": "huy-sfx",
       "path": "",
       "volume": 1,
       "loop": false,
       "format": "mp3",
-      "uuid": "merneptah-sfx"
+      "uuid": "huy-sfx"
     },
     {
-      "id": "nefertiti-sfx",
+      "id": "merit-sfx",
       "path": "",
       "volume": 1,
       "loop": false,
       "format": "mp3",
-      "uuid": "nefertiti-sfx"
+      "uuid": "merit-sfx"
     }
   ]
 }

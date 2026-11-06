@@ -34,3 +34,5 @@ The original uses a 1080×1920 composition fitted and centered in the viewport. 
 Build success does not establish parity. See `docs/QA_CHECKLIST.md` and `docs/WORK_LOG.md` for verification status and remaining differences. Do not call this translation complete until behavior and output differences are resolved or explicitly accepted.
 
 The single-file local delivery is not certified for an ad network and does not port the external configuration-editor toolchain. Physical-device performance/audio and SDK submission acceptance remain unverified. The baseline reveal opening is implemented; alternative opening/configuration editor cases require separate comparison. Builds default to debug for local diagnostics; set `DEFOLD_VARIANT=release` for a release bundle. The delivered single HTML uses a release engine.
+
+Current local Defold working branch: `cantReach`, selected explicitly by the user. This branch retains the Sand Slice rename and already matches the source `cantReach` baseline above. The original and translated repositories have separate Git histories.

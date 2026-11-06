@@ -7,6 +7,7 @@
 /tools/*.proto
 /tools/*.html
 /qa/reference-src/
+/qa/reskin-src/
 /qa/browser-profile/
 __pycache__/
 /qa/evidence/history/output-before-copy.html

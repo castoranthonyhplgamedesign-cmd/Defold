@@ -5,12 +5,12 @@ images { image: "/assets/images/drop-circle.png" }
 images { image: "/assets/images/error.png" }
 images { image: "/assets/images/logo.png" }
 images { image: "/assets/images/tutorial-hand.png" }
-images { image: "/assets/images/Aisha.png" }
-images { image: "/assets/images/Maya.png" }
-images { image: "/assets/images/Ahmose.png" }
-images { image: "/assets/images/Nefertiti.png" }
-images { image: "/assets/images/Merneptah.png" }
-images { image: "/assets/images/Khasekhemwy.png" }
+images { image: "/assets/images/Tia.png" }
+images { image: "/assets/images/Nebet.png" }
+images { image: "/assets/images/Nakht.png" }
+images { image: "/assets/images/Merit.png" }
+images { image: "/assets/images/Huy.png" }
+images { image: "/assets/images/Senen.png" }
 margin: 0
 extrude_borders: 2
 inner_padding: 0

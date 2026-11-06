@@ -1,0 +1,10 @@
+{
+  "branch": "cantReach",
+  "source_branch": "cantReach",
+  "source_commit": "8a241d35af7e59acaa1aa092505dafab9db7ea40",
+  "original_clean": true,
+  "output_sha256": "6149ac6988f27739f52b01f92ccd557fd6221ab1a9e8bb354d25cd9256efc799",
+  "package_matches_output": true,
+  "offline_headed_qa": true,
+  "local_http_status": 200
+}

@@ -1,10 +1,14 @@
 {
   "delivered": "D:/allproject/defold/output/MysteryMaster.html",
-  "sha256": "7b21dd37be0c711d47e8cf4a6adf97ebbf596e4e595120bc5d96e352c69bfe94",
-  "bytes": 4558562,
-  "passed": 6,
+  "sha256": "d7964648136798a59322098839911805358040aa15c2beb7d6a335521d18e873",
+  "bytes": 4812499,
+  "passed": 7,
   "failed": 0,
   "results": [
+    {
+      "name": "Selected reskin commit, six new portraits and matching source artwork",
+      "status": "PASS"
+    },
     {
       "name": "Copied file has embedded resources, correct filename, matching hash and size under 5 MB",
       "status": "PASS"

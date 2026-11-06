@@ -2,9 +2,9 @@
 
 Current standalone delivery: `D:\allproject\defold\output\MysteryMaster.html`. See `docs/BRANDING.md` for the authorized rename, icon provenance and single-file publishing command. The original Egypt Case source mapping below is retained for traceability.
 
-Original baseline: `main` at `d993837484f9f5e6ee2fe9530c704365eed376fc`, from `../../../Original/2D/2026.09.24-CEM-MIP-egypt-case`. Original files remain unchanged. This folder is an independent Git repository. Publishing is local only; no remote deployment or push is configured.
+Current source baseline: `reskin` at `4ed0abc9fe3a3568e9d6557491a6029b47747ae5`, from the detached `qa/reskin-src` reference worktree. The original main-branch repository remains unchanged. The translated repository is on branch `reskin`. Publishing is local only; no remote deployment or push is configured. See `docs/RESKIN.md`.
 
-The game executes in Defold: Lua handles rules, input, tutorials, animations and GUI rendering. A browser boundary queues pointer events, decodes the original WebP assets and MP3 audio, rasterizes the original font, and calls ad SDKs. It does not run Phaser. The separate, ignored `qa/reference-src` copy runs the unmodified original for comparison.
+The game executes in Defold: Lua handles rules, input, tutorials, animations and GUI rendering. A browser boundary queues pointer events, decodes the source WebP assets and MP3 audio, rasterizes the original font, and calls ad SDKs. It does not run Phaser. The ignored `qa/reskin-src` worktree runs the selected reskin reference for comparison on port 8176.
 
 ## Build and run
 

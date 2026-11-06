@@ -1,8 +1,8 @@
 {
   "name": "Sand Slice",
   "file": "D:\\allproject\\defold\\output\\Sand-Slice.html",
-  "bytes": 8091556,
-  "sha256": "6149ac6988f27739f52b01f92ccd557fd6221ab1a9e8bb354d25cd9256efc799",
+  "bytes": 8091336,
+  "sha256": "666b72ccf83c9dc1e1af4d75c151872219f38be66da303dd3eb73c89cf0bc5f9",
   "embeddedAssets": [
     "archive/archive_files.json",
     "archive/game0.arcd",

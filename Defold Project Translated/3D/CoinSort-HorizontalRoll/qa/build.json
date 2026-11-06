@@ -1,5 +1,5 @@
 {
-  "captured_utc": "2026-11-06T16:16:38.822089+00:00",
+  "captured_utc": "2026-11-06T16:51:41.668737+00:00",
   "command": [
     "C:\\Users\\Anthony Castor\\Documents\\Defold\\packages\\jdk-25.0.4.1+1\\bin\\java.exe",
     "-jar",
@@ -83,6 +83,8 @@
   },
   "inputs_unchanged_during_build": true,
   "exit_code": 0,
-  "stdout": "  0% Downloading 0 archives\n 25% Downloading 0 archives\n 25% Working\n 25% Reading classes\n2026-11-07 00:16:34 INFO     \n 44% Reading classes\n 63% Reading classes\n 69% Reading classes\n 69% Cleaning engine\n 70% Cleaning engine\n 75% Cleaning engine\n 75% Reading tasks\n 77% Building\n2026-11-07 00:16:35 INFO    Creating task builder with a fixed thread pool executor using 3 threads \n2026-11-07 00:16:35 INFO    Build tasks \n2026-11-07 00:16:36 INFO    Generating the resource graph \n2026-11-07 00:16:36 INFO    Generating the resource graph took 0.057000 s \n2026-11-07 00:16:36 INFO    Creation of the excluded resources list. \n2026-11-07 00:16:36 INFO    Creation of the excluded resources list took 0.000000 s \n2026-11-07 00:16:36 INFO    GameProjectBuilder.createArchive \n2026-11-07 00:16:36 INFO    Creating archive entries with a fixed thread pool executor using 3 threads \n2026-11-07 00:16:37 INFO    GameProjectBuilder.createArchive took 1.496000 \n2026-11-07 00:16:37 INFO    buildManifestData begin \n2026-11-07 00:16:37 INFO    ManifestBuilder.buildManifestData took 0.003000 \n2026-11-07 00:16:37 INFO    buildManifestData begin \n2026-11-07 00:16:37 INFO    ManifestBuilder.buildManifestData took 0.001000 \n2026-11-07 00:16:37 INFO    Writing the resource graph to json \n2026-11-07 00:16:37 INFO    Writing the resource graph to json took 0.006000 s \n2026-11-07 00:16:37 INFO    Build tasks took 1.919000 s \n 81% Building\n 81% Bundling\n100% Bundling\nWarning: Failed to clean up temp directory 'C:\\Users\\ANTHON~1\\AppData\\Local\\Temp\\11741315638866436396'\n",
-  "stderr": ""
+  "stdout": "  0% Downloading 0 archives\n 25% Downloading 0 archives\n 25% Working\n 25% Reading classes\n2026-11-07 00:51:38 INFO     \n 44% Reading classes\n 63% Reading classes\n 69% Reading classes\n 69% Cleaning engine\n 70% Cleaning engine\n 75% Cleaning engine\n 75% Reading tasks\n 77% Building\n2026-11-07 00:51:40 INFO    Creating task builder with a fixed thread pool executor using 3 threads \n2026-11-07 00:51:40 INFO    Build tasks \n2026-11-07 00:51:40 INFO    Build tasks took 0.032000 s \n 81% Building\n 81% Bundling\n100% Bundling\nWarning: Failed to clean up temp directory 'C:\\Users\\ANTHON~1\\AppData\\Local\\Temp\\1746721398420658262'\n",
+  "stderr": "",
+  "git_branch": "cantReach",
+  "git_commit": "083328aa01c298402c05ad4f4d048b1e20232a24"
 }

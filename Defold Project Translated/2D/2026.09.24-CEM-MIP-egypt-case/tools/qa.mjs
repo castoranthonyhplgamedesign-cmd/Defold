@@ -8,7 +8,7 @@ const root=path.resolve(import.meta.dirname,'..');process.chdir(root);
 const base='http://127.0.0.1:8174/dist/';
 const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--mute-audio','--use-angle=swiftshader','--enable-unsafe-swiftshader','--disable-background-timer-throttling','--disable-renderer-backgrounding','--disable-backgrounding-occluded-windows']});
 const results=[];const errors=[];const requests=[];
-const order=['Aisha','Maya','Ahmose','Nefertiti','Merneptah','Khasekhemwy'];
+const order=['Tia','Nebet','Nakht','Merit','Huy','Senen'];
 const defaults=JSON.parse(await fs.readFile('config/defaults.json','utf8'));
 async function test(name,callback) {
   if(process.env.EGYPT_QA_FILTER && !new RegExp(process.env.EGYPT_QA_FILTER).test(name))return;
@@ -72,8 +72,8 @@ await test('Full gameplay: outside drop, wrong circle, six correct placements, a
     assert.equal(await page.evaluate(()=>window.EgyptBridge.audioState().decoded),11);
     assert.equal(await page.evaluate(()=>window.EgyptBridge.audioState().unlocked),false);
     await click(page,540,50);assert.equal((await state(page)).presses,0);
-    await drag(page,'Aisha',{x:540,y:600});await page.waitForTimeout(450);assert.equal((await state(page)).solved,0);assert.equal((await state(page)).presses,1);
-    await drag(page,'Aisha',defaults.DROP_POSITIONS.Maya);await page.waitForTimeout(450);assert.equal((await state(page)).solved,0);
+    await drag(page,'Tia',{x:540,y:600});await page.waitForTimeout(450);assert.equal((await state(page)).solved,0);assert.equal((await state(page)).presses,1);
+    await drag(page,'Tia',defaults.DROP_POSITIONS.Nebet);await page.waitForTimeout(450);assert.equal((await state(page)).solved,0);
     await page.screenshot({path:'qa/evidence/wrong-drop.png'});
     for(const name of order){await drag(page,name,defaults.DROP_POSITIONS[name]);await page.waitForTimeout(350);assert.equal((await state(page)).placed[name],true,name);}
     await page.waitForFunction(()=>window.__EGYPT_STATE__.endcard);
@@ -95,7 +95,7 @@ for(const [variant,count] of [['2clicks',2],['4clicks',4]])await test(variant+' 
   }finally{await page.close();}
 });
 await test('Solved portraits do not count or drag',async()=>{
-  const page=await open();try{await drag(page,'Aisha',defaults.DROP_POSITIONS.Aisha);await page.waitForTimeout(350);await click(page,260,350);assert.equal((await state(page)).presses,1);assert.equal((await state(page)).solved,1);}finally{await page.close();}
+  const page=await open();try{await drag(page,'Tia',defaults.DROP_POSITIONS.Tia);await page.waitForTimeout(350);await click(page,260,350);assert.equal((await state(page)).presses,1);assert.equal((await state(page)).solved,1);}finally{await page.close();}
 });
 for(const viewport of [{width:390,height:844},{width:844,height:390},{width:768,height:1024},{width:1024,height:768}])await test(`Visual reference and input ${viewport.width}x${viewport.height}`,async()=>{
   const page=await open({viewport});const reference=await browser.newPage({viewport,deviceScaleFactor:1});try{
@@ -106,9 +106,9 @@ for(const viewport of [{width:390,height:844},{width:844,height:390},{width:768,
       const timeout=setTimeout(()=>reject(new Error('Reference did not reach DISPLAYED')),60000);
       reference.on('console',message=>{if(message.text().includes('[Analytics] DISPLAYED')){clearTimeout(timeout);resolve();}});
     });
-    await reference.goto('http://127.0.0.1:8173/');await ready;await reference.waitForTimeout(250);
+    await reference.goto('http://127.0.0.1:8176/');await ready;await reference.waitForTimeout(250);
     await reference.screenshot({path:`qa/evidence/reference-${viewport.width}x${viewport.height}.png`});
-    await drag(page,'Khasekhemwy',defaults.DROP_POSITIONS.Khasekhemwy);await page.waitForTimeout(350);assert.equal((await state(page)).solved,1);
+    await drag(page,'Senen',defaults.DROP_POSITIONS.Senen);await page.waitForTimeout(350);assert.equal((await state(page)).solved,1);
     return {viewport,canvas:await page.locator('canvas').evaluate(n=>({width:n.width,height:n.height}))};
   }finally{await page.close();await reference.close();}
 });
@@ -126,9 +126,9 @@ await test('Opening and idle tutorials; pause/resume and mute',async()=>{
 });
 await test('Rotation preserves solved state and active motion',async()=>{
   const page=await open();try{
-    await drag(page,'Aisha',defaults.DROP_POSITIONS.Aisha);await page.setViewportSize({width:844,height:390});await page.waitForTimeout(350);
-    assert.equal((await state(page)).solved,1);assert.equal((await state(page)).placed.Aisha,true);assert.equal((await state(page)).positions.Aisha.x,260);
-    await drag(page,'Maya',{x:540,y:500});await page.setViewportSize({width:390,height:844});await page.waitForTimeout(450);assert.ok(Math.abs((await state(page)).positions.Maya.y-1222.5)<1);
+    await drag(page,'Tia',defaults.DROP_POSITIONS.Tia);await page.setViewportSize({width:844,height:390});await page.waitForTimeout(350);
+    assert.equal((await state(page)).solved,1);assert.equal((await state(page)).placed.Tia,true);assert.equal((await state(page)).positions.Tia.x,260);
+    await drag(page,'Nebet',{x:540,y:500});await page.setViewportSize({width:390,height:844});await page.waitForTimeout(450);assert.ok(Math.abs((await state(page)).positions.Nebet.y-1222.5)<1);
     await page.screenshot({path:'qa/evidence/rotation-preserved.png'});
   }finally{await page.close();}
 });
@@ -159,11 +159,11 @@ await test('Touch drag and high DPI input',async()=>{
   }finally{await page.close();}
 });
 await test('Keyed texture replacement loads and preserves gameplay identity',async()=>{
-  const bytes=await fs.readFile('qa/reference-src/Assets/Characters/Maya.webp');
+  const bytes=await fs.readFile('qa/reskin-src/Assets/Characters/Nebet.webp');
   const replacement='data:image/webp;base64,'+bytes.toString('base64');
-  const page=await open({overrides:{HAND_TUTOR_MODE:false,CHANGABLE_TEXTURES:[{uuid:'Aisha',path:replacement}]}});try{
-    const config=await page.evaluate(()=>window.EgyptBridge.config);assert.equal(config.CHANGABLE_TEXTURES.length,13);assert.equal(config.CHANGABLE_TEXTURES.find(x=>x.uuid==='Aisha').path,replacement);
-    await page.screenshot({path:'qa/evidence/asset-swap.png'});await drag(page,'Aisha',defaults.DROP_POSITIONS.Aisha);await page.waitForFunction(()=>window.__EGYPT_STATE__.placed.Aisha);assert.equal((await state(page)).solved,1);
+  const page=await open({overrides:{HAND_TUTOR_MODE:false,CHANGABLE_TEXTURES:[{uuid:'Tia',path:replacement}]}});try{
+    const config=await page.evaluate(()=>window.EgyptBridge.config);assert.equal(config.CHANGABLE_TEXTURES.length,13);assert.equal(config.CHANGABLE_TEXTURES.find(x=>x.uuid==='Tia').path,replacement);
+    await page.screenshot({path:'qa/evidence/asset-swap.png'});await drag(page,'Tia',defaults.DROP_POSITIONS.Tia);await page.waitForFunction(()=>window.__EGYPT_STATE__.placed.Tia);assert.equal((await state(page)).solved,1);
   }finally{await page.close();}
 });
 await test('Rotate during opening tutorial and end-card entrance',async()=>{

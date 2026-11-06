@@ -1,0 +1,136 @@
+{
+  "source": {
+    "branch": "reskin",
+    "commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5",
+    "commit_date": "2026-11-06T21:59:22+08:00",
+    "reference_path": "qa/reskin-src",
+    "repository": "https://github.com/HPL-PlayableAds/2026.09.24-CEM-MIP-egypt-case.git",
+    "character_order": [
+      "Tia",
+      "Nebet",
+      "Nakht",
+      "Merit",
+      "Huy",
+      "Senen"
+    ],
+    "preserved_brand": "Mystery Master"
+  },
+  "delivery": "D:/allproject/defold/output/MysteryMaster.html",
+  "bytes": 4812499,
+  "sha256": "d7964648136798a59322098839911805358040aa15c2beb7d6a335521d18e873",
+  "passed": 14,
+  "failed": 0,
+  "standalone_tests": [
+    {
+      "name": "Selected reskin commit, six new portraits and matching source artwork",
+      "status": "PASS"
+    },
+    {
+      "name": "Copied file has embedded resources, correct filename, matching hash and size under 5 MB",
+      "status": "PASS"
+    },
+    {
+      "name": "MysteryMaster title, icon, heading, new logo and full puzzle completion",
+      "status": "PASS"
+    },
+    {
+      "name": "Single-file 2clicks variant",
+      "status": "PASS"
+    },
+    {
+      "name": "Single-file 4clicks variant",
+      "status": "PASS"
+    },
+    {
+      "name": "Direct file opening works without a web server or companion files",
+      "status": "PASS"
+    },
+    {
+      "name": "No browser errors or external asset requests",
+      "status": "PASS"
+    }
+  ],
+  "reskin_regression_tests": [
+    {
+      "name": "Visual reference and input 390x844",
+      "status": "PASS",
+      "ms": 15689,
+      "detail": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "canvas": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "name": "Visual reference and input 844x390",
+      "status": "PASS",
+      "ms": 12900,
+      "detail": {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "canvas": {
+          "width": 844,
+          "height": 390
+        }
+      }
+    },
+    {
+      "name": "Visual reference and input 768x1024",
+      "status": "PASS",
+      "ms": 14863,
+      "detail": {
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "canvas": {
+          "width": 768,
+          "height": 1024
+        }
+      }
+    },
+    {
+      "name": "Visual reference and input 1024x768",
+      "status": "PASS",
+      "ms": 12949,
+      "detail": {
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "canvas": {
+          "width": 1024,
+          "height": 768
+        }
+      }
+    },
+    {
+      "name": "Opening and idle tutorials; pause/resume and mute",
+      "status": "PASS",
+      "ms": 15664
+    },
+    {
+      "name": "Rotation preserves solved state and active motion",
+      "status": "PASS",
+      "ms": 9160
+    },
+    {
+      "name": "Touch drag and high DPI input",
+      "status": "PASS",
+      "ms": 8453,
+      "detail": {
+        "width": 780,
+        "height": 1688
+      }
+    }
+  ],
+  "external_asset_requests": [],
+  "browser_errors": []
+}

@@ -1,5 +1,14 @@
 # Work log
 
+## 2026-11-07 — clean rebuild from cantReach
+
+- User explicitly requested rebuilding the project from the work branch, rather than only switching branches.
+- Verified active Defold branch `cantReach`, source commit `e256179ab2341abaf432dc7bef7bebfc3328e48d`, and a clean working tree before building.
+- Ran Bob `clean`, then rebuilt the WASM release engine/project and regenerated the single-file package from that checkout.
+- Replaced the existing `D:\allproject\defold\output\Sand-Slice.html` without creating an additional filename: 8,091,336 bytes, SHA-256 `666b72ccf83c9dc1e1af4d75c151872219f38be66da303dd3eb73c89cf0bc5f9`.
+- Tested the regenerated file directly with networking disabled. All eight standalone QA checks passed: branding/icon, offline boot, swipe/audio, click-limit end card and local CTA, rotation, tap mode, unique output name, and zero external/companion requests or runtime errors.
+- Evidence: `qa/rebuild-clean.log`, `qa/build.log`, `qa/rebuild-cantReach.json`, `qa/single-html-package.json`, `qa/single-html-results.json`, and refreshed `qa/single-html/` captures. No original source files were changed.
+
 ## Sand Slice rename and single-file delivery
 
 - User requested a similar game name, a new icon/title, and exactly one HTML in `D:\allproject\defold\output`, with no duplicate names/files. Chosen name: **Sand Slice**; output: **Sand-Slice.html**. Existing output names were checked and no collision existed. Other games' files are preserved.
@@ -37,3 +46,9 @@
 The deliverable is a local Defold HTML5 project and review bundle, with both mechanics and all source delivery-length choices. It is not an ad-network submission package. Physical-device performance/audio, official SDK previewers, single-file network packaging and the original external configuration-editor workflow have not been certified. The original optional `OPENING_STYLE=pour` and arbitrary replacement-image/editor configurations are not acceptance-tested; the checked-out default uses the reveal opening. Native builds are not supported by the browser-services backend. These limits must not be represented as approved parity exceptions.
 
 Relevant engine API references used while correcting the integration: [custom resources](https://defold.com/manuals/file-access/) and [dynamic GUI textures](https://defold.com/ref/gui-lua/). Asset/source provenance remains in `ASSET_MANIFEST.json`.
+
+## Confirmed cantReach working branch
+
+The user explicitly selected `cantReach` on 2026-11-07. The translated Defold repository now uses a local branch named `cantReach`; it retains the existing implementation and Sand Slice branding. The original repository was already on `cantReach` at `8a241d35af7e59acaa1aa092505dafab9db7ea40`, which matches the live remote branch. The asset manifest and README already identify that same source baseline, so no gameplay migration or replacement artwork was necessary.
+
+Reran gameplay tests: all 18 original-grid oracle snapshots passed, together with input, limits, timer, endings, conservation, reservations and the three-wave/31-bucket solve. Changed standalone browser QA to run visibly and reran it against the exact exported HTML with networking disabled. All eight assertions passed, including tap/swipe, audio unlock, endcard, rotation, local CTA safety and absence of companion requests/runtime errors. Startup and endcard captures were inspected. The stable export remains Sand-Slice.html, 8,091,556 bytes, SHA-256 6149ac6988f27739f52b01f92ccd557fd6221ab1a9e8bb354d25cd9256efc799. No duplicate export or runtime rebuild was needed. The existing local preview binds only 127.0.0.1:8182. Original remains unchanged; no remote publish or push was performed.

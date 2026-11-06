@@ -5,7 +5,7 @@ const viewport={width:390,height:844};const s=390/1080,oy=(844-1920*s)/2;
 const point=(x,y)=>({x:x*s,y:oy+y*s});
 async function drag(page,i,to){const a=point(32+1016/6*(i+.5),1222.5),b=point(to[0],to[1]);await page.mouse.move(a.x,a.y);await page.mouse.down();await page.waitForTimeout(100);await page.mouse.move(b.x,b.y,{steps:18});await page.waitForTimeout(100);await page.mouse.up();await page.waitForTimeout(800);}
 try{
-for(const [name,url] of [['reference','http://127.0.0.1:8173/'],['defold','http://127.0.0.1:8174/dist/']]){
+for(const [name,url] of [['reference','http://127.0.0.1:8176/'],['defold','http://127.0.0.1:8174/dist/']]){
   const page=await browser.newPage({viewport,deviceScaleFactor:1});
   await page.addInitScript(()=>{window.open=()=>{};window.GAME_CONFIG={MUTE:true};});
   let readyResolve;const ready=new Promise(resolve=>readyResolve=resolve);page.on('console',m=>{if(m.text().includes('[Analytics] DISPLAYED'))readyResolve();});

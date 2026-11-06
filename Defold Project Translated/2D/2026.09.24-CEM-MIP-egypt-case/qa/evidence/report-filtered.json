@@ -1,134 +1,87 @@
 {
-  "date": "2026-11-06T15:29:11.621Z",
+  "date": "2026-11-06T16:53:58.319Z",
   "environment": "Windows, headless Chrome with SwiftShader, audio muted",
-  "passed": 6,
+  "passed": 7,
   "failed": 0,
   "results": [
     {
-      "name": "2clicks counts only unsolved portrait presses",
+      "name": "Visual reference and input 390x844",
       "status": "PASS",
-      "ms": 10161,
+      "ms": 15689,
       "detail": {
-        "placed": {
-          "Merneptah": false,
-          "Maya": false,
-          "Nefertiti": false,
-          "Aisha": false,
-          "Ahmose": false,
-          "Khasekhemwy": false
+        "viewport": {
+          "width": 390,
+          "height": 844
         },
-        "finished": true,
-        "tutorial": "hidden",
-        "elapsed": 1.1033333688974,
-        "solved": 0,
-        "positions": {
-          "Merneptah": {
-            "y": 1222.5,
-            "x": 794,
-            "moving": false
-          },
-          "Maya": {
-            "y": 1222.5,
-            "x": 286,
-            "moving": false
-          },
-          "Nefertiti": {
-            "y": 1222.5,
-            "x": 624.66666666667,
-            "moving": false
-          },
-          "Aisha": {
-            "y": 1222.5,
-            "x": 116.66666666667,
-            "moving": false
-          },
-          "Ahmose": {
-            "y": 1222.5,
-            "x": 455.33333333333,
-            "moving": false
-          },
-          "Khasekhemwy": {
-            "y": 1222.5,
-            "x": 963.33333333333,
-            "moving": false
-          }
-        },
-        "presses": 2,
-        "endcard": true
+        "canvas": {
+          "width": 390,
+          "height": 844
+        }
       }
     },
     {
-      "name": "4clicks counts only unsolved portrait presses",
+      "name": "Visual reference and input 844x390",
       "status": "PASS",
-      "ms": 9549,
+      "ms": 12900,
       "detail": {
-        "placed": {
-          "Merneptah": false,
-          "Maya": false,
-          "Nefertiti": false,
-          "Aisha": false,
-          "Ahmose": false,
-          "Khasekhemwy": false
+        "viewport": {
+          "width": 844,
+          "height": 390
         },
-        "finished": true,
-        "tutorial": "hidden",
-        "elapsed": 2.0925334114581,
-        "solved": 0,
-        "positions": {
-          "Merneptah": {
-            "y": 1222.5,
-            "x": 794,
-            "moving": false
-          },
-          "Maya": {
-            "y": 1222.5,
-            "x": 286,
-            "moving": false
-          },
-          "Nefertiti": {
-            "y": 1222.5,
-            "x": 624.66666666667,
-            "moving": false
-          },
-          "Aisha": {
-            "y": 1222.5,
-            "x": 116.66666666667,
-            "moving": false
-          },
-          "Ahmose": {
-            "y": 1222.5,
-            "x": 455.33333333333,
-            "moving": false
-          },
-          "Khasekhemwy": {
-            "y": 1222.5,
-            "x": 963.33333333333,
-            "moving": false
-          }
-        },
-        "presses": 4,
-        "endcard": true
+        "canvas": {
+          "width": 844,
+          "height": 390
+        }
       }
     },
     {
-      "name": "Config: dotted keys, deep merge, keyed slots and mute",
+      "name": "Visual reference and input 768x1024",
       "status": "PASS",
-      "ms": 7140
+      "ms": 14863,
+      "detail": {
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "canvas": {
+          "width": 768,
+          "height": 1024
+        }
+      }
     },
     {
-      "name": "Rapid taps are preserved between rendered frames",
+      "name": "Visual reference and input 1024x768",
       "status": "PASS",
-      "ms": 7542
+      "ms": 12949,
+      "detail": {
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "canvas": {
+          "width": 1024,
+          "height": 768
+        }
+      }
     },
     {
-      "name": "GZip fallback starts without DecompressionStream",
+      "name": "Opening and idle tutorials; pause/resume and mute",
       "status": "PASS",
-      "ms": 8348
+      "ms": 15664
     },
     {
-      "name": "Rotate during opening tutorial and end-card entrance",
+      "name": "Rotation preserves solved state and active motion",
       "status": "PASS",
-      "ms": 10954
+      "ms": 9160
+    },
+    {
+      "name": "Touch drag and high DPI input",
+      "status": "PASS",
+      "ms": 8453,
+      "detail": {
+        "width": 780,
+        "height": 1688
+      }
     }
   ],
   "errors": [],

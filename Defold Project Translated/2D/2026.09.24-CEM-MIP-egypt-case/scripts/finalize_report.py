@@ -22,14 +22,15 @@ for name in ['reference-gameplay.webm','defold-gameplay.webm']:
     assert (evidence/name).stat().st_size>10000,name
 visual=json.loads((evidence/'visual-comparison.json').read_text(encoding='utf8'))
 assert len(visual)==4
-original=ROOT.parents[2]/'Original/2D/2026.09.24-CEM-MIP-egypt-case'
+baseline=json.loads((ROOT/'config/source-baseline.json').read_text(encoding='utf8'))
+original=ROOT/baseline['reference_path']
 status=subprocess.check_output(['git','-C',str(original),'status','--porcelain'],text=True)
 assert not status,'Original working tree must remain unchanged'
 for asset in json.loads((ROOT/'docs/asset-inventory.json').read_text(encoding='utf8')):
     source=ROOT/asset['source'] if asset.get('source_type')=='generated' else original/asset['source']
     assert hashlib.sha256(source.read_bytes()).hexdigest()==asset['source_sha256']
 commit=subprocess.check_output(['git','-C',str(ROOT),'rev-parse','HEAD'],text=True).strip()
-build_info={'tested_code_commit':commit,'original_branch':'main','original_commit':'d993837484f9f5e6ee2fe9530c704365eed376fc',
+build_info={'tested_code_commit':commit,'original_branch':baseline['branch'],'original_commit':baseline['commit'],
             'defold_engine_revision':'d295ed4edff2e49072719835713e625f409849f1','build_variant':'release','target':'wasm-web',
             'html_variants':24,'zip_packages':len(zips),'largest_html_bytes':max(x['bytes'] for x in manifest),
             'local_preview':'http://127.0.0.1:8174/dist/','qa_passed':report['passed'],'qa_failed':0}

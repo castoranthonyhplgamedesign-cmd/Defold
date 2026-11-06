@@ -2,6 +2,7 @@
   "name": "Sand Slice",
   "file": "D:\\allproject\\defold\\output\\Sand-Slice.html",
   "offline": true,
+  "headed": true,
   "tests": [
     "renamed title, application name and embedded replacement icon",
     "file opens directly with all networking disabled",

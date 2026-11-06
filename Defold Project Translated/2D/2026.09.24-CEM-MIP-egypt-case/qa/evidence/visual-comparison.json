@@ -5,14 +5,14 @@
       844
     ],
     "mean_absolute_rgb_difference_0_to_255": [
-      1.1443917851500789,
-      1.0482531291772998,
-      0.9237726333697898
+      1.0879633005225422,
+      1.212519747235387,
+      0.7958075100255195
     ],
     "map_mean_absolute_rgb_difference_0_to_255": [
-      0.2894674556213018,
-      0.2577120315581854,
-      0.38612097304404996
+      0.1197896120973044,
+      0.12421433267587113,
+      0.12756081525312293
     ],
     "note": "Rendering comparison, not a substitute for client acceptance. Diff is amplified 4x in the image."
   },
@@ -22,14 +22,14 @@
       390
     ],
     "mean_absolute_rgb_difference_0_to_255": [
-      0.4568750759509053,
-      0.3096518410499453,
-      0.20128812735447807
+      0.4408220925993438,
+      0.38880179851743835,
+      0.21442155790497022
     ],
     "map_mean_absolute_rgb_difference_0_to_255": [
-      0.36461187214611873,
-      0.33545039435450397,
-      0.4348069738480697
+      0.2292860107928601,
+      0.23225404732254049,
+      0.22816521378165214
     ],
     "note": "Rendering comparison, not a substitute for client acceptance. Diff is amplified 4x in the image."
   },
@@ -39,14 +39,14 @@
       1024
     ],
     "mean_absolute_rgb_difference_0_to_255": [
-      0.5384661356608073,
-      0.40706125895182294,
-      0.33534495035807294
+      0.6103426615397135,
+      0.758917490641276,
+      0.42641957600911456
     ],
     "map_mean_absolute_rgb_difference_0_to_255": [
-      0.2566430362654321,
-      0.2169867621527778,
-      0.35074266975308643
+      0.06950472608024691,
+      0.07588855131172839,
+      0.08980758101851852
     ],
     "note": "Rendering comparison, not a substitute for client acceptance. Diff is amplified 4x in the image."
   },
@@ -56,14 +56,14 @@
       768
     ],
     "mean_absolute_rgb_difference_0_to_255": [
-      0.3551890055338542,
-      0.2252349853515625,
-      0.17398834228515625
+      0.39768346150716144,
+      0.44704310099283856,
+      0.24261347452799478
     ],
     "map_mean_absolute_rgb_difference_0_to_255": [
-      0.24571330589849108,
-      0.19353888031550068,
-      0.32525291495198905
+      0.05254951131687243,
+      0.05515903635116598,
+      0.06368419924554183
     ],
     "note": "Rendering comparison, not a substitute for client acceptance. Diff is amplified 4x in the image."
   }

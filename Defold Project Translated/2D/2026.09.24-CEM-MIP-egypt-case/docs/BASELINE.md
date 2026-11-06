@@ -1,5 +1,7 @@
 # Source baseline and acceptance
 
+Historical main-branch baseline. The active reskin baseline is documented in `RESKIN.md` and `config/source-baseline.json`.
+
 - Source: Egypt Case, Phaser 3.90 / TypeScript / Vite.
 - Branch: `main`; commit: `d993837484f9f5e6ee2fe9530c704365eed376fc`.
 - Source working tree was clean before translation. No original files are modified.

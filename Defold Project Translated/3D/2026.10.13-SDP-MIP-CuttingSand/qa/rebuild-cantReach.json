@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-06T16:53:03.221Z",
+  "branch": "cantReach",
+  "builtSourceCommit": "e256179ab2341abaf432dc7bef7bebfc3328e48d",
+  "cleanBuild": true,
+  "variant": "release",
+  "file": "D:\\allproject\\defold\\output\\Sand-Slice.html",
+  "bytes": 8091336,
+  "sha256": "666b72ccf83c9dc1e1af4d75c151872219f38be66da303dd3eb73c89cf0bc5f9",
+  "offlineQA": true,
+  "checks": 8,
+  "errors": [],
+  "externalRequests": []
+}

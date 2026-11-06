@@ -1,9 +1,9 @@
 -- Egypt Case: original Phaser mechanics translated to Defold GUI/Lua.
 -- Positions and motion remain in top-left authored 1080x1920 coordinates.
-local ORDER = {"Aisha","Maya","Ahmose","Nefertiti","Merneptah","Khasekhemwy"}
+local ORDER = {"Tia","Nebet","Nakht","Merit","Huy","Senen"}
 local handle_input
 local ORIGINS,AUTHORED_POS={},{}
-local CHARACTER_SFX = {Ahmose="ahmose-sfx",Maya="maya-sfx",Merneptah="merneptah-sfx",Nefertiti="nefertiti-sfx"}
+local CHARACTER_SFX = {Nakht="nakht-sfx",Nebet="nebet-sfx",Huy="huy-sfx",Merit="merit-sfx"}
 local function js(code)
     if html5 then return html5.run(code) end
 end
@@ -144,7 +144,7 @@ local function activity(self)
 end
 local function choose_idle(self)
     local choices={}
-    for _,item in ipairs(self.items) do if not item.placed and item.name~="Aisha" then choices[#choices+1]=item end end
+    for _,item in ipairs(self.items) do if not item.placed and item.name~="Tia" then choices[#choices+1]=item end end
     if #choices==0 then for _,item in ipairs(self.items) do if not item.placed then choices[#choices+1]=item end end end
     if #choices==0 then return end
     self.hint=choices[self.idle_index % #choices+1]; self.idle_index=self.idle_index+1

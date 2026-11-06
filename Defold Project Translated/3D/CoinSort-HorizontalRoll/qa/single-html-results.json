@@ -1,11 +1,11 @@
 {
-  "started": "2026-11-06T16:16:52.245Z",
+  "started": "2026-11-06T16:51:46.636Z",
   "headed": true,
   "screenshots": true,
   "offline": true,
   "file": "D:\\allproject\\defold\\output\\Token Roll.html",
   "sha256": "44ebca4042568b01878ea8379c047d5943c0266a97ab1a0524b8e73eff8ddf65",
-  "isolated_directory": "C:\\Users\\ANTHON~1\\AppData\\Local\\Temp\\token-roll-standalone-d8To7o",
+  "isolated_directory": "C:\\Users\\ANTHON~1\\AppData\\Local\\Temp\\token-roll-standalone-luq5Sq",
   "runs": [
     {
       "viewport": {
@@ -57,7 +57,7 @@
         }
       ],
       "requests": [
-        "file:///C:/Users/ANTHON%7E1/AppData/Local/Temp/token-roll-standalone-d8To7o/Token%20Roll.html"
+        "file:///C:/Users/ANTHON%7E1/AppData/Local/Temp/token-roll-standalone-luq5Sq/Token%20Roll.html"
       ],
       "errors": [],
       "runtime_errors": [],
@@ -67,15 +67,15 @@
           "stage": "start",
           "file": "render-390-start.png",
           "pixels": 329160,
-          "lit": 327002,
-          "colored_foreground": 23760
+          "lit": 327000,
+          "colored_foreground": 23757
         },
         {
           "stage": "playing",
           "file": "render-390-playing.png",
           "pixels": 329160,
-          "lit": 327787,
-          "colored_foreground": 30363
+          "lit": 328041,
+          "colored_foreground": 31573
         },
         {
           "stage": "endcard",
@@ -95,7 +95,7 @@
           "x": 540,
           "zoom": 1.5
         },
-        "time": 0.3413329947507,
+        "time": 0.34903299482539,
         "viewport": {
           "w": 390,
           "h": 844
@@ -169,13 +169,13 @@
         "active": 3,
         "phase": "endcard",
         "ended": true,
-        "render_frames": 1594,
+        "render_frames": 1641,
         "camera": {
           "y": 960,
           "x": 540,
           "zoom": 0.74
         },
-        "time": 26.757332538604,
+        "time": 27.381532616913,
         "viewport": {
           "w": 390,
           "h": 844
@@ -237,16 +237,16 @@
           }
         ],
         "jar": {
-          "visible": false,
-          "appear_at": 21.140732643544,
           "offset": 0,
+          "appear_at": 21.698432688601,
+          "visible": false,
           "hidden_offset": 700.78021978022,
-          "lid": 0,
-          "last_incoming": 23.600732643544,
+          "lid_start": 24.431632662192,
+          "lid_from": 1,
           "y": 1200,
           "x": 540,
-          "lid_start": 23.874232595204,
-          "lid_from": 1
+          "lid": 0,
+          "last_incoming": 24.158432688601
         },
         "moves": 7
       },
@@ -311,7 +311,7 @@
         }
       ],
       "requests": [
-        "file:///C:/Users/ANTHON%7E1/AppData/Local/Temp/token-roll-standalone-d8To7o/Token%20Roll.html"
+        "file:///C:/Users/ANTHON%7E1/AppData/Local/Temp/token-roll-standalone-luq5Sq/Token%20Roll.html"
       ],
       "errors": [],
       "runtime_errors": [],
@@ -321,15 +321,15 @@
           "stage": "start",
           "file": "render-844-start.png",
           "pixels": 329160,
-          "lit": 328608,
-          "colored_foreground": 7154
+          "lit": 328611,
+          "colored_foreground": 7146
         },
         {
           "stage": "playing",
           "file": "render-844-playing.png",
           "pixels": 329160,
-          "lit": 328842,
-          "colored_foreground": 9723
+          "lit": 328760,
+          "colored_foreground": 9362
         },
         {
           "stage": "endcard",
@@ -349,7 +349,7 @@
           "x": 540,
           "zoom": 1.5
         },
-        "time": 0.33153299591504,
+        "time": 0.33463299472351,
         "viewport": {
           "w": 844,
           "h": 390
@@ -423,13 +423,13 @@
         "active": 3,
         "phase": "endcard",
         "ended": true,
-        "render_frames": 1585,
+        "render_frames": 1681,
         "camera": {
           "y": 960,
           "x": 540,
           "zoom": 0.74
         },
-        "time": 26.630932521774,
+        "time": 28.154332599253,
         "viewport": {
           "w": 844,
           "h": 390
@@ -492,14 +492,14 @@
         ],
         "jar": {
           "visible": false,
-          "offset": 0,
-          "appear_at": 20.997632615967,
+          "appear_at": 22.53393269761,
           "hidden_offset": 581.57142857143,
           "lid": 0,
-          "last_incoming": 23.457632615967,
+          "last_incoming": 24.99393269761,
           "y": 1200,
           "x": 540,
-          "lid_start": 23.73083257,
+          "offset": 0,
+          "lid_start": 25.267032654607,
           "lid_from": 1
         },
         "moves": 7

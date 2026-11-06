@@ -10,7 +10,9 @@
       1254,
       1254
     ],
-    "source_sha256": "fb3f5db9d3d1c552607d97472323c5e6b563124c49003510acd4df8cb371a4a1"
+    "source_sha256": "c59317daad78cc0bfc2bb81f516e36a1b463f21b55735f55ed30f016235ebc15",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "key": "character-bg",
@@ -23,7 +25,9 @@
       1080,
       285
     ],
-    "source_sha256": "d61c967e324343a9078c78f7697b670c1bfd38339f3788dc5468d707ae4d5cd0"
+    "source_sha256": "833eca15ad991fab2d6d799f7c40c4a757aff6f8f451fbb184ad1c1383f83e16",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "key": "clue-bg",
@@ -36,7 +40,9 @@
       1080,
       555
     ],
-    "source_sha256": "6bbe1f0f808e5b97af926ba5ca2c2d5b4955c9a3aba368641ee1bb75c756b03b"
+    "source_sha256": "6b0fb99ec2af2507e82d2c510a5586ce04915905c556b770cfe63468e01f931e",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "key": "drop-circle",
@@ -49,7 +55,9 @@
       101,
       101
     ],
-    "source_sha256": "aa31163c963f756ac83d467c11566184f51ce7d3fa630602a27133d4280f2fe6"
+    "source_sha256": "aa31163c963f756ac83d467c11566184f51ce7d3fa630602a27133d4280f2fe6",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "key": "error",
@@ -62,7 +70,9 @@
       2000,
       2000
     ],
-    "source_sha256": "839f898146cc25147e16ac8ed834422b5f684f5bd1e480685a57ce6f7287cd9b"
+    "source_sha256": "839f898146cc25147e16ac8ed834422b5f684f5bd1e480685a57ce6f7287cd9b",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "key": "logo",
@@ -83,169 +93,215 @@
     "source_type": "original",
     "local_source": "assets\\source\\tutorial-hand.webp",
     "destination": "assets\\images\\tutorial-hand.png",
-    "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
+    "conversion": "Hand resized from 1534 to 512 pixels; WebP quality 95 for 200-design-unit display width; original preserved",
     "dimensions": [
+      512,
+      512
+    ],
+    "source_sha256": "d65501f90ad60643df22b8d804b48a12025f2327e38fb44638d2dbb307db7221",
+    "runtime_source": "assets\\runtime\\tutorial-hand.webp",
+    "runtime_sha256": "857cc5f063d9d4110eae3be726a0e4abe663475598761c3539be6dddd9f32ab5",
+    "source_dimensions": [
       1534,
       1534
     ],
-    "source_sha256": "3bfb36e90fdaf58a5ddf6233b3993f46d6e3966f7768e7bd281641aa9b129a1e"
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
-    "key": "Aisha",
-    "source": "Assets/Characters/Aisha.webp",
+    "key": "Tia",
+    "source": "Assets/Characters/Tia.webp",
     "source_type": "original",
-    "local_source": "assets\\source\\Aisha.webp",
-    "destination": "assets\\images\\Aisha.png",
+    "local_source": "assets\\source\\Tia.webp",
+    "destination": "assets\\images\\Tia.png",
     "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
     "dimensions": [
       200,
       286
     ],
-    "source_sha256": "bb93c089b3fefa5f8791e10a4cd9624cff5c894a149418435ec24fc7075c55a4"
+    "source_sha256": "e684f57cf48ec329550bdfe088d608662c23e14399f7a652d3b325442ce4333b",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
-    "key": "Maya",
-    "source": "Assets/Characters/Maya.webp",
+    "key": "Nebet",
+    "source": "Assets/Characters/Nebet.webp",
     "source_type": "original",
-    "local_source": "assets\\source\\Maya.webp",
-    "destination": "assets\\images\\Maya.png",
+    "local_source": "assets\\source\\Nebet.webp",
+    "destination": "assets\\images\\Nebet.png",
     "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
     "dimensions": [
       200,
       286
     ],
-    "source_sha256": "a9a53e1cb20d1d518b2ea4f9b64c65a4448136e230d3d32c02b1cef1d173fa91"
+    "source_sha256": "fe70c6be313baff50a84fb651449388d8b5c9b30d15328844de2ad0aa278451b",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
-    "key": "Ahmose",
-    "source": "Assets/Characters/Ahmose.webp",
+    "key": "Nakht",
+    "source": "Assets/Characters/Nakht.webp",
     "source_type": "original",
-    "local_source": "assets\\source\\Ahmose.webp",
-    "destination": "assets\\images\\Ahmose.png",
+    "local_source": "assets\\source\\Nakht.webp",
+    "destination": "assets\\images\\Nakht.png",
     "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
     "dimensions": [
       200,
       286
     ],
-    "source_sha256": "0e2e6a2bf1c22e66de57fe0ae3ac03bc9b27ebc57b25fcc8454a771ff434c57f"
+    "source_sha256": "783af6ec0a4928790381227dd4a4d1c5ec3368fd6029afec6077652d89500448",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
-    "key": "Nefertiti",
-    "source": "Assets/Characters/Nefertiti.webp",
+    "key": "Merit",
+    "source": "Assets/Characters/Merit.webp",
     "source_type": "original",
-    "local_source": "assets\\source\\Nefertiti.webp",
-    "destination": "assets\\images\\Nefertiti.png",
+    "local_source": "assets\\source\\Merit.webp",
+    "destination": "assets\\images\\Merit.png",
     "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
     "dimensions": [
       200,
       286
     ],
-    "source_sha256": "a8569a6c8d5ab8835228c32708d98edbc93fa908bc013d4db3da08f23e4bb587"
+    "source_sha256": "9bcffef06ccefd3a5865a8038915f2fbb7f78c61d9a39f47c5853b71073b61e4",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
-    "key": "Merneptah",
-    "source": "Assets/Characters/Merneptah.webp",
+    "key": "Huy",
+    "source": "Assets/Characters/Huy.webp",
     "source_type": "original",
-    "local_source": "assets\\source\\Merneptah.webp",
-    "destination": "assets\\images\\Merneptah.png",
+    "local_source": "assets\\source\\Huy.webp",
+    "destination": "assets\\images\\Huy.png",
     "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
     "dimensions": [
       200,
       286
     ],
-    "source_sha256": "913732620a245b48122865ace1770bad8b6f4b59b714ce1e652c578f93d8c11d"
+    "source_sha256": "5568ad41d96f61ad33f5105a5a43f8e778c7d1fd58df30f195fcc067950874c8",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
-    "key": "Khasekhemwy",
-    "source": "Assets/Characters/Khasekhemwy.webp",
+    "key": "Senen",
+    "source": "Assets/Characters/Senen.webp",
     "source_type": "original",
-    "local_source": "assets\\source\\Khasekhemwy.webp",
-    "destination": "assets\\images\\Khasekhemwy.png",
+    "local_source": "assets\\source\\Senen.webp",
+    "destination": "assets\\images\\Senen.png",
     "conversion": "WebP decoded losslessly to RGBA PNG; dimensions unchanged",
     "dimensions": [
       200,
       286
     ],
-    "source_sha256": "c4652bd0e6b1a7049fcc765b62efdc8dc53c2fe7f33866af217a10025242628a"
+    "source_sha256": "51e6f652000c92677f14ea24bd178a674c62b48af88c0f1313af1f8b4e07a2c6",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "source": "Assets/Grenze-VariableFont_wght.ttf",
     "local_source": "assets\\fonts\\Grenze-VariableFont_wght.ttf",
     "destination": "assets/fonts/Grenze-600.ttf",
     "conversion": "Original variable font instantiated at weight 600 for native previews; HTML5 uses the unchanged variable font",
-    "source_sha256": "ad75f13f280d5cbe0c12fd929e88dcab9a90257cc62101c2c4ea1416049623a7"
+    "source_sha256": "ad75f13f280d5cbe0c12fd929e88dcab9a90257cc62101c2c4ea1416049623a7",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "source": "Assets/Grenze-VariableFont_wght.ttf",
     "local_source": "assets\\fonts\\Grenze-VariableFont_wght.ttf",
     "destination": "assets/fonts/Grenze-700.ttf",
     "conversion": "Original variable font instantiated at weight 700 for native previews; HTML5 uses the unchanged variable font",
-    "source_sha256": "ad75f13f280d5cbe0c12fd929e88dcab9a90257cc62101c2c4ea1416049623a7"
-  },
-  {
-    "source": "Assets/Audio/AhmoseSFX.mp3",
-    "destination": "web/audio/AhmoseSFX.mp3",
-    "conversion": "Unmodified original MP3, decoded to Web Audio buffers by HTML5 bridge",
-    "source_sha256": "944b3605ae768a977665f461cbf9d49fd8f44d989b99677c26ade0ab78518d45"
+    "source_sha256": "ad75f13f280d5cbe0c12fd929e88dcab9a90257cc62101c2c4ea1416049623a7",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "source": "Assets/Audio/BGM.mp3",
     "destination": "web/audio/BGM.mp3",
     "conversion": "Unmodified original MP3, decoded to Web Audio buffers by HTML5 bridge",
-    "source_sha256": "94638b725a77db3eb37b89eb68c99e49c72381739dfd6b48a69fa5d1252c793b"
+    "source_sha256": "94638b725a77db3eb37b89eb68c99e49c72381739dfd6b48a69fa5d1252c793b",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "source": "Assets/Audio/Correct.mp3",
     "destination": "web/audio/Correct.mp3",
     "conversion": "Unmodified original MP3, decoded to Web Audio buffers by HTML5 bridge",
-    "source_sha256": "3881070bdbb87cc30f3272fd86bcd72b19e10db0902e0d54512ecbb7c05fce7f"
+    "source_sha256": "3881070bdbb87cc30f3272fd86bcd72b19e10db0902e0d54512ecbb7c05fce7f",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "source": "Assets/Audio/EndCard.mp3",
     "destination": "web/audio/EndCard.mp3",
     "conversion": "Unmodified original MP3, decoded to Web Audio buffers by HTML5 bridge",
-    "source_sha256": "c1430c5af4d60e61afeb262c72ca228133240c960b8d6e7fcbf83455e0c6e578"
+    "source_sha256": "c1430c5af4d60e61afeb262c72ca228133240c960b8d6e7fcbf83455e0c6e578",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
-    "source": "Assets/Audio/MayaSFX.mp3",
-    "destination": "web/audio/MayaSFX.mp3",
+    "source": "Assets/Audio/HuySFX.mp3",
+    "destination": "web/audio/HuySFX.mp3",
     "conversion": "Unmodified original MP3, decoded to Web Audio buffers by HTML5 bridge",
-    "source_sha256": "83197b38f2ff24fb4c50e042d8f1d0b77756a8311024be37868f67be4895c1cf"
+    "source_sha256": "ac6c42e6b2d65f196787015efa0e2fee4994267cb9f92365852be886f7a1023d",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
-    "source": "Assets/Audio/MerneptahSFX.mp3",
-    "destination": "web/audio/MerneptahSFX.mp3",
+    "source": "Assets/Audio/MeritSFX.mp3",
+    "destination": "web/audio/MeritSFX.mp3",
     "conversion": "Unmodified original MP3, decoded to Web Audio buffers by HTML5 bridge",
-    "source_sha256": "ac6c42e6b2d65f196787015efa0e2fee4994267cb9f92365852be886f7a1023d"
+    "source_sha256": "a64fb7260c7653f83a0fc46b237221d1cff1b0b766c29fb9ae8548b6d2ca4458",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
-    "source": "Assets/Audio/NefertitiSFX.mp3",
-    "destination": "web/audio/NefertitiSFX.mp3",
+    "source": "Assets/Audio/NakhtSFX.mp3",
+    "destination": "web/audio/NakhtSFX.mp3",
     "conversion": "Unmodified original MP3, decoded to Web Audio buffers by HTML5 bridge",
-    "source_sha256": "a64fb7260c7653f83a0fc46b237221d1cff1b0b766c29fb9ae8548b6d2ca4458"
+    "source_sha256": "944b3605ae768a977665f461cbf9d49fd8f44d989b99677c26ade0ab78518d45",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
+  },
+  {
+    "source": "Assets/Audio/NebetSFX.mp3",
+    "destination": "web/audio/NebetSFX.mp3",
+    "conversion": "Unmodified original MP3, decoded to Web Audio buffers by HTML5 bridge",
+    "source_sha256": "83197b38f2ff24fb4c50e042d8f1d0b77756a8311024be37868f67be4895c1cf",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "source": "Assets/Audio/PickDropCharacter.mp3",
     "destination": "web/audio/PickDropCharacter.mp3",
     "conversion": "Unmodified original MP3, decoded to Web Audio buffers by HTML5 bridge",
-    "source_sha256": "e1220d7b61ed36c19d538801be60debc251bf1e922f2e9caa684b9f8547700db"
+    "source_sha256": "e1220d7b61ed36c19d538801be60debc251bf1e922f2e9caa684b9f8547700db",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "source": "Assets/Audio/RedStrike.mp3",
     "destination": "web/audio/RedStrike.mp3",
     "conversion": "Unmodified original MP3, decoded to Web Audio buffers by HTML5 bridge",
-    "source_sha256": "9e84a0f4ef42cbb34ce15dc248159740fd2d0bfc6f199d1f0b042897c31ae165"
+    "source_sha256": "9e84a0f4ef42cbb34ce15dc248159740fd2d0bfc6f199d1f0b042897c31ae165",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "source": "Assets/Audio/Return.mp3",
     "destination": "web/audio/Return.mp3",
     "conversion": "Unmodified original MP3, decoded to Web Audio buffers by HTML5 bridge",
-    "source_sha256": "6f4b36f0c1b46806f0eed0bb8c0ed2ad6d2d4ceb24f7f3afef02da7a807f7719"
+    "source_sha256": "6f4b36f0c1b46806f0eed0bb8c0ed2ad6d2d4ceb24f7f3afef02da7a807f7719",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   },
   {
     "source": "Assets/Audio/Wrong.mp3",
     "destination": "web/audio/Wrong.mp3",
     "conversion": "Unmodified original MP3, decoded to Web Audio buffers by HTML5 bridge",
-    "source_sha256": "1249326cd944b5d1620e9680611c59600826c69d42e21432a196279541f3f013"
+    "source_sha256": "1249326cd944b5d1620e9680611c59600826c69d42e21432a196279541f3f013",
+    "source_branch": "reskin",
+    "source_commit": "4ed0abc9fe3a3568e9d6557491a6029b47747ae5"
   }
 ]
