@@ -1,0 +1,23 @@
+images { image: "/assets/balls/ball_3_0_0.png" }
+images { image: "/assets/balls/ball_3_1_1.png" }
+images { image: "/assets/balls/ball_3_2_2.png" }
+images { image: "/assets/balls/ball_3_3_3.png" }
+images { image: "/assets/balls/ball_6_0_0.png" }
+images { image: "/assets/balls/ball_6_0_1.png" }
+images { image: "/assets/balls/ball_6_0_2.png" }
+images { image: "/assets/balls/ball_6_0_3.png" }
+images { image: "/assets/balls/ball_6_1_0.png" }
+images { image: "/assets/balls/ball_6_1_1.png" }
+images { image: "/assets/balls/ball_6_1_2.png" }
+images { image: "/assets/balls/ball_6_1_3.png" }
+images { image: "/assets/balls/ball_6_2_0.png" }
+images { image: "/assets/balls/ball_6_2_1.png" }
+images { image: "/assets/balls/ball_6_2_2.png" }
+images { image: "/assets/balls/ball_6_2_3.png" }
+images { image: "/assets/balls/ball_6_3_0.png" }
+images { image: "/assets/balls/ball_6_3_1.png" }
+images { image: "/assets/balls/ball_6_3_2.png" }
+images { image: "/assets/balls/ball_6_3_3.png" }
+margin: 0
+extrude_borders: 2
+inner_padding: 0

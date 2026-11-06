@@ -1,0 +1,103 @@
+{
+  "\"_near\"": [
+    {
+      "line": 6172,
+      "text": " [oh], (function () { return 10; })), vU = Fu(dU.prototype, \"_near\", [oh], (function () { return 1; })), yU = Fu(dU.prototype, \"_far\", [oh], (function () { return 1e3; })), bU = Fu(dU.prototype, \"_color\", [oh], (function () { return new hr(\"#333333\"); })), wU = Fu(dU.prototype, \"_depth\", [oh], (func"
+    }
+  ],
+  "_near =": [
+    {
+      "line": 6162,
+      "text": "(), e._fovAxis = mU && mU(), e._orthoHeight = gU && gU(), e._near = vU && vU(), e._far = yU && yU(), e._color = bU && bU(), e._depth = wU && wU(), e._stencil = SU && SU(), e._clearFlags = xU && xU(), e._rect = TU && TU(), e._aperture = IU && IU(), e._shutter = CU && CU(), e._iso = EU && EU(), e._scr"
+    },
+    {
+      "line": 6166,
+      "text": "unction () { return this._near; }, set: function (t) { this._near = t, this._camera && (this._camera.nearClip = t); } }, { key: \"far\", get: function () { return this._far; }, set: function (t) { this._far = t, this._camera && (this._camera.farClip = t); } }, { key: \"aperture\", get: function () { ret"
+    }
+  ],
+  "maxPixelRatio": [],
+  "ORTHO:": [
+    {
+      "line": 3869,
+      "text": "} }]), t; }()), gM = { VERTICAL: 0, HORIZONTAL: 1 }, vM = { ORTHO: 0, PERSPECTIVE: 1 }, yM = { F1_8: 0, F2_0: 1, F2_2: 2, F2_5: 3, F2_8: 4, F3_2: 5, F3_5: 6, F4_0: 7, F4_5: 8, F5_0: 9, F5_6: 10, F6_3: 11, F7_1: 12, F8_0: 13, F9_0: 14, F10_0: 15, F11_0: 16, F13_0: 17, F14_0: 18, F16_0: 19, F18_0: 20,"
+    }
+  ],
+  "_shadowEnabled =": [
+    {
+      "line": 4037,
+      "text": " e._illuminanceHDR = lb.SUN_ILLUM, e._illuminanceLDR = 1, e._shadowEnabled = !1, e._shadowPcf = kT.HARD, e._shadowBias = 1e-5, e._shadowNormalBias = 0, e._shadowSaturation = 1, e._shadowDistance = 50, e._shadowInvisibleOcclusionRange = 200, e._csmLevel = FT.LEVEL_4, e._csmNeedUpdate = !1, e._csmLaye"
+    },
+    {
+      "line": 4037,
+      "text": ") { return this._shadowEnabled; }, set: function (t) { this._shadowEnabled = t, this.activate(); } }, { key: \"shadowPcf\", get: function () { return this._shadowPcf; }, set: function (t) { this._shadowPcf = t, this.activate(); } }, { key: \"shadowBias\", get: function () { return this._shadowBias; }, s"
+    },
+    {
+      "line": 4041,
+      "text": " e._size = .15, e._luminanceHDR = 0, e._luminanceLDR = 0, e._shadowEnabled = !1, e._shadowPcf = kT.HARD, e._shadowBias = 1e-5, e._shadowNormalBias = 0, e._type = 2, e; } s(e, t); var i = e.prototype; return i.initialize = function () { t.prototype.initialize.call(this), this.size = .15, this.luminan"
+    },
+    {
+      "line": 4041,
+      "text": ") { return this._shadowEnabled; }, set: function (t) { this._shadowEnabled = t; } }, { key: \"shadowPcf\", get: function () { return this._shadowPcf; }, set: function (t) { this._shadowPcf = t; } }, { key: \"shadowBias\", get: function () { return this._shadowBias; }, set: function (t) { this._shadowBia"
+    },
+    {
+      "line": 7305,
+      "text": "uminanceHDR = pq && pq(), e._illuminanceLDR = fq && fq(), e._shadowEnabled = _q && _q(), e._shadowPcf = mq && mq(), e._shadowBias = gq && gq(), e._shadowNormalBias = vq && vq(), e._shadowSaturation = yq && yq(), e._shadowDistance = bq && bq(), e._shadowInvisibleOcclusionRange = wq && wq(), e._csmLev"
+    },
+    {
+      "line": 7319,
+      "text": ") { return this._shadowEnabled; }, set: function (t) { this._shadowEnabled = t, this._light && (this._light.shadowEnabled = this._shadowEnabled); } }, { key: \"shadowPcf\", get: function () { return this._shadowPcf; }, set: function (t) { this._shadowPcf = t, this._light && (this._light.shadowPcf = th"
+    }
+  ],
+  "_illuminanceLDR =": [
+    {
+      "line": 4037,
+      "text": "ir = new tr(1, -1, -1), e._illuminanceHDR = lb.SUN_ILLUM, e._illuminanceLDR = 1, e._shadowEnabled = !1, e._shadowPcf = kT.HARD, e._shadowBias = 1e-5, e._shadowNormalBias = 0, e._shadowSaturation = 1, e._shadowDistance = 50, e._shadowInvisibleOcclusionRange = 200, e._csmLevel = FT.LEVEL_4, e._csmNeed"
+    },
+    {
+      "line": 4037,
+      "text": " { return this._illuminanceLDR; }, set: function (t) { this._illuminanceLDR = t; } }, { key: \"shadowEnabled\", get: function () { return this._shadowEnabled; }, set: function (t) { this._shadowEnabled = t, this.activate(); } }, { key: \"shadowPcf\", get: function () { return this._shadowPcf; }, set: fu"
+    },
+    {
+      "line": 4045,
+      "text": "ight = new tr(1, 0, 0), e._illuminanceHDR = lb.SUN_ILLUM, e._illuminanceLDR = 1, e._type = 4, e; } s(e, t); var i = e.prototype; return i.initialize = function () { t.prototype.initialize.call(this), this.illuminance = lb.SUN_ILLUM; }, i.update = function () { this._node && this._node.hasChangedFlag"
+    },
+    {
+      "line": 4045,
+      "text": " { return this._illuminanceLDR; }, set: function (t) { this._illuminanceLDR = t; } }]), e; }(YM), hP = new If; hP.format = 35; var cP = new Cf; cP.format = 55; var lP = new Df([hP], cP), dP = { width: 1, height: 1, renderPassInfo: lP }, pP = t(\"RenderTexture\", Xu(\"cc.RenderTexture\")(jM = function (t"
+    },
+    {
+      "line": 7305,
+      "text": " (e = t.call(this) || this)._illuminanceHDR = pq && pq(), e._illuminanceLDR = fq && fq(), e._shadowEnabled = _q && _q(), e._shadowPcf = mq && mq(), e._shadowBias = gq && gq(), e._shadowNormalBias = vq && vq(), e._shadowSaturation = yq && yq(), e._shadowDistance = bq && bq(), e._shadowInvisibleOcclus"
+    },
+    {
+      "line": 7319,
+      "text": "this._light.illuminanceHDR = this._illuminanceHDR)) : (this._illuminanceLDR = t, this._light && (this._light.illuminanceLDR = this._illuminanceLDR)); } }, { key: \"shadowEnabled\", get: function () { return this._shadowEnabled; }, set: function (t) { this._shadowEnabled = t, this._light && (this._ligh"
+    }
+  ],
+  "_orthoHeight": [
+    {
+      "line": 3869,
+      "text": "this._enabled = !1, this._proj = -1, this._aspect = 1, this._orthoHeight = 10, this._fovAxis = 0, this._fov = tn(45), this._nearClip = 1, this._farClip = 1e3, this._clearColor = new $p(.2, .2, .2, 1), this._viewport = vs(0, 0, 1, 1), this._orientedViewport = vs(0, 0, 1, 1), this._curTransform = 0, t"
+    },
+    {
+      "line": 3885,
+      "text": "a);\n                else {\n                    var h = this._orthoHeight * this._aspect, c = this._orthoHeight;\n                    Xr.ortho(s, -h, h, -c, c, this._nearClip, this._farClip, this._device.capabilities.clipSpaceMinZ, u, a);\n                }\n                Xr.invert(this._matProjInv, s"
+    },
+    {
+      "line": 3885,
+      "text": "         var h = this._orthoHeight * this._aspect, c = this._orthoHeight;\n                    Xr.ortho(s, -h, h, -c, c, this._nearClip, this._farClip, this._device.capabilities.clipSpaceMinZ, u, a);\n                }\n                Xr.invert(this._matProjInv, s), i = !0, this._isProjDirty = !1;\n   "
+    },
+    {
+      "line": 3919,
+      "text": "; } }, { key: \"orthoHeight\", get: function () { return this._orthoHeight; }, set: function (t) { this._orthoHeight = t, this._isProjDirty = !0; } }, { key: \"fovAxis\", get: function () { return this._fovAxis; }, set: function (t) { this._fovAxis = t, this._isProjDirty = !0; } }, { key: \"fov\", get: fu"
+    },
+    {
+      "line": 3919,
+      "text": " () { return this._orthoHeight; }, set: function (t) { this._orthoHeight = t, this._isProjDirty = !0; } }, { key: \"fovAxis\", get: function () { return this._fovAxis; }, set: function (t) { this._fovAxis = t, this._isProjDirty = !0; } }, { key: \"fov\", get: function () { return this._fov; }, set: func"
+    },
+    {
+      "line": 6162,
+      "text": "fU && fU(), e._fov = _U && _U(), e._fovAxis = mU && mU(), e._orthoHeight = gU && gU(), e._near = vU && vU(), e._far = yU && yU(), e._color = bU && bU(), e._depth = wU && wU(), e._stencil = SU && SU(), e._clearFlags = xU && xU(), e._rect = TU && TU(), e._aperture = IU && IU(), e._shutter = CU && CU()"
+    }
+  ]
+}

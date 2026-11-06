@@ -1,0 +1,117 @@
+{
+  "portraitUnchanged": true,
+  "measurements": [
+    {
+      "width": 320,
+      "height": 568,
+      "logoWidth": 177.77777862548828,
+      "logoHeight": 177.77777099609375,
+      "titleWidth": 133.33332061767578,
+      "stackHeightRatio": 0.46708724868129675
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "logoWidth": 100.156494140625,
+      "logoHeight": 100.156494140625,
+      "titleWidth": 75.11737060546875,
+      "stackHeightRatio": 0.4670872688293457
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "logoWidth": 200,
+      "logoHeight": 200,
+      "titleWidth": 150,
+      "stackHeightRatio": 0.466357421875
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "logoWidth": 112.5,
+      "logoHeight": 112.5,
+      "titleWidth": 84.375,
+      "stackHeightRatio": 0.466357421875
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "logoWidth": 216.66667938232422,
+      "logoHeight": 216.66668701171875,
+      "titleWidth": 162.5,
+      "stackHeightRatio": 0.38310567123630035
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "logoWidth": 100.11846923828125,
+      "logoHeight": 100.11848449707031,
+      "titleWidth": 75.0888671875,
+      "stackHeightRatio": 0.38310562525040065
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "logoWidth": 238.88890075683594,
+      "logoHeight": 238.888916015625,
+      "titleWidth": 179.16664123535156,
+      "stackHeightRatio": 0.38251541203183675
+    },
+    {
+      "width": 932,
+      "height": 430,
+      "logoWidth": 110.21694946289062,
+      "logoHeight": 110.21697998046875,
+      "titleWidth": 82.6627197265625,
+      "stackHeightRatio": 0.3825154149255087
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "logoWidth": 426.6667175292969,
+      "logoHeight": 426.66668701171875,
+      "titleWidth": 320.00001525878906,
+      "stackHeightRatio": 0.6218099296092987
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "logoWidth": 320,
+      "logoHeight": 320.0000305175781,
+      "titleWidth": 240,
+      "stackHeightRatio": 0.6218099395434061
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "logoWidth": 455.5555419921875,
+      "logoHeight": 455.5555419921875,
+      "titleWidth": 341.66664123535156,
+      "stackHeightRatio": 0.5761402194782839
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "logoWidth": 316.572509765625,
+      "logoHeight": 316.5725402832031,
+      "titleWidth": 237.42935180664062,
+      "stackHeightRatio": 0.576140278141673
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "logoWidth": 568.888916015625,
+      "logoHeight": 568.888916015625,
+      "titleWidth": 426.6667175292969,
+      "stackHeightRatio": 0.6215064298705161
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "logoWidth": 426.45849609375,
+      "logoHeight": 426.45843505859375,
+      "titleWidth": 319.8438720703125,
+      "stackHeightRatio": 0.6215064525604248
+    }
+  ]
+}

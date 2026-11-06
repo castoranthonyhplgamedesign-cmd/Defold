@@ -1,0 +1,18 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Material",
+      "_name": "standard-material",
+      "_props": [
+        {
+          "roughness": 0.8,
+          "metallic": 0.6
+        }
+      ],
+      "_effectAsset": {
+        "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4"
+      }
+    }
+  ]
+}

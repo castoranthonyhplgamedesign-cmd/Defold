@@ -1,0 +1,11 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.AudioClip",
+      "_name": "[This is blast] shoot",
+      "_native": ".wav",
+      "_duration": 0.075261
+    }
+  ]
+}

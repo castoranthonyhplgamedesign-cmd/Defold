@@ -1,0 +1,93 @@
+[
+  {
+    "label": "danger alarm only on a real jam",
+    "pass": true,
+    "elapsedMs": 13006,
+    "endReason": "jam",
+    "audio": {
+      "unlocked": true,
+      "hostMuted": false,
+      "muted": false,
+      "gameplayFinished": true,
+      "channels": {
+        "bgm": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.004912000149488449,
+          "starts": 1
+        },
+        "sfx-conveyor": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.8999999761581421,
+          "starts": 1
+        },
+        "sfx-cut": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.03828571364283562,
+          "starts": 2
+        },
+        "sfx-sand": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.04067857190966606,
+          "starts": 2
+        },
+        "sfx-click": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.800000011920929,
+          "starts": 2
+        },
+        "sfx-woosh": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-bells": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-win": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 2
+        },
+        "sfx-endcard": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 1
+        },
+        "sfx-cta": {
+          "playing": 1,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.8999999761581421,
+          "starts": 2
+        },
+        "sfx-fail": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.4000000059604645,
+          "starts": 1
+        }
+      }
+    }
+  }
+]

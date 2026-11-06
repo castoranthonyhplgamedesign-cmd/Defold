@@ -1,0 +1,41 @@
+{
+  "fixture": "Paused browser; DOM-only meter values for visual inspection, not simulated gameplay.",
+  "checks": [
+    {
+      "value": 0,
+      "background": "linear-gradient(rgb(229, 233, 235) 0%, rgb(220, 225, 228) 36%, rgb(186, 194, 198) 46%, rgb(182, 191, 195) 100%)",
+      "width": "472px",
+      "height": "62.0469px",
+      "fillWidth": "0px",
+      "fillLayer": "1",
+      "borderLayer": "2"
+    },
+    {
+      "value": 50,
+      "background": "linear-gradient(rgb(229, 233, 235) 0%, rgb(220, 225, 228) 36%, rgb(186, 194, 198) 46%, rgb(182, 191, 195) 100%)",
+      "width": "472px",
+      "height": "62.0469px",
+      "fillWidth": "236px",
+      "fillLayer": "1",
+      "borderLayer": "2"
+    },
+    {
+      "value": 99,
+      "background": "linear-gradient(rgb(229, 233, 235) 0%, rgb(220, 225, 228) 36%, rgb(186, 194, 198) 46%, rgb(182, 191, 195) 100%)",
+      "width": "472px",
+      "height": "62.0469px",
+      "fillWidth": "467.28px",
+      "fillLayer": "1",
+      "borderLayer": "2"
+    },
+    {
+      "value": 100,
+      "background": "linear-gradient(rgb(229, 233, 235) 0%, rgb(220, 225, 228) 36%, rgb(186, 194, 198) 46%, rgb(182, 191, 195) 100%)",
+      "width": "472px",
+      "height": "62.0469px",
+      "fillWidth": "472px",
+      "fillLayer": "1",
+      "borderLayer": "2"
+    }
+  ]
+}

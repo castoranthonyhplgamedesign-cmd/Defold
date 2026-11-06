@@ -1,0 +1,70 @@
+[
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "mean_absolute_rgb_difference_0_to_255": [
+      1.1443917851500789,
+      1.0482531291772998,
+      0.9237726333697898
+    ],
+    "map_mean_absolute_rgb_difference_0_to_255": [
+      0.2894674556213018,
+      0.2577120315581854,
+      0.38612097304404996
+    ],
+    "note": "Rendering comparison, not a substitute for client acceptance. Diff is amplified 4x in the image."
+  },
+  {
+    "viewport": [
+      844,
+      390
+    ],
+    "mean_absolute_rgb_difference_0_to_255": [
+      0.4568750759509053,
+      0.3096518410499453,
+      0.20128812735447807
+    ],
+    "map_mean_absolute_rgb_difference_0_to_255": [
+      0.36461187214611873,
+      0.33545039435450397,
+      0.4348069738480697
+    ],
+    "note": "Rendering comparison, not a substitute for client acceptance. Diff is amplified 4x in the image."
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "mean_absolute_rgb_difference_0_to_255": [
+      0.5384661356608073,
+      0.40706125895182294,
+      0.33534495035807294
+    ],
+    "map_mean_absolute_rgb_difference_0_to_255": [
+      0.2566430362654321,
+      0.2169867621527778,
+      0.35074266975308643
+    ],
+    "note": "Rendering comparison, not a substitute for client acceptance. Diff is amplified 4x in the image."
+  },
+  {
+    "viewport": [
+      1024,
+      768
+    ],
+    "mean_absolute_rgb_difference_0_to_255": [
+      0.3551890055338542,
+      0.2252349853515625,
+      0.17398834228515625
+    ],
+    "map_mean_absolute_rgb_difference_0_to_255": [
+      0.24571330589849108,
+      0.19353888031550068,
+      0.32525291495198905
+    ],
+    "note": "Rendering comparison, not a substitute for client acceptance. Diff is amplified 4x in the image."
+  }
+]

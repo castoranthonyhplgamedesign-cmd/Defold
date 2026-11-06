@@ -1,0 +1,31 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Material",
+      "_name": "default-clear-stencil",
+      "_props": [
+        {}
+      ],
+      "_states": [
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        }
+      ],
+      "_defines": [
+        {
+          "USE_TEXTURE": false
+        }
+      ],
+      "_effectAsset": {
+        "__uuid__": "810e96e4-e456-4468-9b59-f4e8f39732c0"
+      }
+    }
+  ]
+}

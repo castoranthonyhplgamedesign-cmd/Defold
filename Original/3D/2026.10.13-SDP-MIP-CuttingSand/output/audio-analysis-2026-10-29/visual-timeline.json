@@ -1,0 +1,38 @@
+{
+  "source": "Assets/Mock_Up/sdp_cantreach_sandshovel_59s_1080x1920.mp4",
+  "method": "Visual inspection of 18 extracted still frames; this is a coarse visual timeline, not exact event onsets and not an audio identification.",
+  "contactSheet": "video-contact-sheet.jpg",
+  "observations": [
+    {"seconds": 0.1, "visual": "Grey rainbow/checker picture with a small colored reveal patch; four black/white buckets waiting below the belt."},
+    {"seconds": 1, "visual": "Full-color picture revealed. Shovel near lower-left funnel; black/white lids/buckets are in opening animation. No sand on belt."},
+    {"seconds": 2, "visual": "Shovel cutting the checker portion; black and white sand descending into funnel. Belt begins receiving sand."},
+    {"seconds": 4, "visual": "Checker sand continues falling; black and white grains on belt and buckets filling."},
+    {"seconds": 8, "visual": "Checker portion cleared; remaining black/white grains circulate and finish filling buckets."},
+    {"seconds": 12, "visual": "Second wave visible: purple/cyan/lime/orange/pink buckets. Shovel cuts purple strip."},
+    {"seconds": 16, "visual": "Purple removed; shovel cuts cyan strip; purple/cyan grains circulate and fill buckets."},
+    {"seconds": 20, "visual": "Shovel cuts lime strip; cyan and lime grains enter belt."},
+    {"seconds": 24, "visual": "Shovel cuts orange strip. Lime bucket label reaches 0 with detached lid immediately above it, showing a completion/closure animation."},
+    {"seconds": 28, "visual": "Shovel cuts pink strip; orange grains on belt; bucket stacks reduce as filled buckets leave."},
+    {"seconds": 32, "visual": "Pink strip is gone and its last grains drain along funnel/belt into remaining pink buckets."},
+    {"seconds": 36, "visual": "Third wave visible: red/yellow/green/blue bucket stacks. Shovel cuts blue strip."},
+    {"seconds": 40, "visual": "Blue gone; shovel cuts green strip; blue grains circulate below."},
+    {"seconds": 44, "visual": "Green gone; shovel cuts yellow strip; green/yellow grains fill remaining stacks."},
+    {"seconds": 48, "visual": "Only red strip remains, being cut; yellow completion visible below."},
+    {"seconds": 52, "visual": "Picture completely empty; last red sand drains into final red bucket stack."},
+    {"seconds": 56, "visual": "Dimmed gameplay with Sand Drop logo, app icon, and Play Now button (end card)."},
+    {"seconds": 58.5, "visual": "Same end card remains visible."}
+  ],
+  "coarseRanges": [
+    {"rangeSeconds": [0, 1], "event": "Opening reveal and bucket/lid opening."},
+    {"rangeSeconds": [2, 8], "event": "Black/white checker clearing and bucket fill; transition to next wave occurs between sampled frames 8 and 12."},
+    {"rangeSeconds": [12, 32], "event": "Purple, cyan, lime, orange, pink clearing; repeated bucket completion/closure."},
+    {"rangeSeconds": [36, 52], "event": "Blue, green, yellow, red clearing and final drain."},
+    {"rangeSeconds": [52, 56], "event": "Completion-to-end-card transition lies somewhere in this unsampled interval."},
+    {"rangeSeconds": [56, 58.5], "event": "End card."}
+  ],
+  "limits": [
+    "No failure overlay or fail event is visible in these stills.",
+    "Exact lid hits, bucket flings, shovel input onsets, and end-card onset require denser frame sampling.",
+    "No audio claims were made from the visuals."
+  ]
+}

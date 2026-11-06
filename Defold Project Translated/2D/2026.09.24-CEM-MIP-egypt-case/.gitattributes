@@ -1,0 +1,10 @@
+* text=auto
+*.py text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.gui_script text eol=lf
+*.render_script text eol=lf
+*.png binary
+*.webp binary
+*.mp3 binary
+*.ttf binary

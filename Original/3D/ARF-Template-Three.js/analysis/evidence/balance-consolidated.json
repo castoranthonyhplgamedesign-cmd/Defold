@@ -1,0 +1,84 @@
+[
+  [
+    {
+      "color": "blue",
+      "ammo": 4
+    },
+    {
+      "color": "white",
+      "ammo": 17
+    },
+    {
+      "color": "blue",
+      "ammo": 20
+    },
+    {
+      "color": "white",
+      "ammo": 17
+    },
+    {
+      "color": "pink",
+      "ammo": 15
+    },
+    {
+      "color": "black",
+      "ammo": 22
+    },
+    {
+      "color": "blue",
+      "ammo": 19
+    }
+  ],
+  [
+    {
+      "color": "purple",
+      "ammo": 5
+    },
+    {
+      "color": "white",
+      "ammo": 13
+    },
+    {
+      "color": "black",
+      "ammo": 19
+    },
+    {
+      "color": "white",
+      "ammo": 12
+    },
+    {
+      "color": "green",
+      "ammo": 12
+    },
+    {
+      "color": "pink",
+      "ammo": 15
+    },
+    {
+      "color": "yellow",
+      "ammo": 18
+    }
+  ],
+  [
+    {
+      "color": "purple",
+      "ammo": 9
+    },
+    {
+      "color": "white",
+      "ammo": 19
+    },
+    {
+      "color": "purple",
+      "ammo": 20
+    },
+    {
+      "color": "white",
+      "ammo": 19
+    },
+    {
+      "color": "purple",
+      "ammo": 17
+    }
+  ]
+]

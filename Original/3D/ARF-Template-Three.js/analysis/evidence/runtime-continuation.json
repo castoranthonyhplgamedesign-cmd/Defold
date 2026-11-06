@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-10-22T04:32:30.980Z",
+  "status": "Blocked before reference navigation",
+  "browser": "Installed Chromium revision 1217, full chrome-win64",
+  "sandbox": true,
+  "headless": true,
+  "outgoingRequests": "aborted via context route",
+  "audio": "muted",
+  "probe": "blank page only",
+  "error": "browserContext.newPage: Target page, context or browser has been closed",
+  "referenceExecuted": false,
+  "newScreenshots": 0,
+  "scope": "No sandbox bypass. Repository analysis continued independently."
+}

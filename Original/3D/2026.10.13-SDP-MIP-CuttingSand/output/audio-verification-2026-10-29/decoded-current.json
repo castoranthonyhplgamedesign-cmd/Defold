@@ -1,0 +1,114 @@
+{
+  "method": "Fresh muted Chrome OfflineAudioContext decode to mono 11025 Hz; hashes identify exact inputs. No listening-based claims.",
+  "files": [
+    {
+      "source": "Assets/Mock_Up/sdp_cantreach_sandshovel_59s_1080x1920.mp4",
+      "sha256": "8cc3f2e13c6398189616dd0df3023d295d92de72193abf0bc0984d8b9de92a03",
+      "pcm": "pcm/reference.f32",
+      "sampleRate": 11025,
+      "channels": 2,
+      "duration": 58.999909297052156,
+      "samples": 650474,
+      "priorDecodedPcmIdentical": true
+    },
+    {
+      "source": "Assets/Runtime/audio/bgm.mp3",
+      "sha256": "ebe04d9104627696f50a6317b802fa1fd370ce26c3164e8e8a1d70f5868ed1d5",
+      "pcm": "pcm/bgm.f32",
+      "sampleRate": 11025,
+      "channels": 1,
+      "duration": 53.02857142857143,
+      "samples": 584640
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-bells.mp3",
+      "sha256": "e3ff7f9a48c89ea57dec10c88e9521eeaa63cc476b5c806b78cd22551976c61d",
+      "pcm": "pcm/sfx-bells.f32",
+      "sampleRate": 11025,
+      "channels": 1,
+      "duration": 0.9142857142857143,
+      "samples": 10080
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-click.mp3",
+      "sha256": "82f75ba3ab659b02fdfcfe0a27c15b0b842fbe0041202e31c470084639caf67e",
+      "pcm": "pcm/sfx-click.f32",
+      "sampleRate": 11025,
+      "channels": 1,
+      "duration": 0.313469387755102,
+      "samples": 3456
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-conveyor.mp3",
+      "sha256": "a3697f266a502e38c32dbd266b2bdbda4120ea19ed69845554e7afab9982cf73",
+      "pcm": "pcm/sfx-conveyor.f32",
+      "sampleRate": 11025,
+      "channels": 1,
+      "duration": 49.08408163265306,
+      "samples": 541152
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-cta.mp3",
+      "sha256": "cc77a56618fef15896f988a8ecc0124eff09b2e3f8a8bec3d3644c38d64e6673",
+      "pcm": "pcm/sfx-cta.f32",
+      "sampleRate": 11025,
+      "channels": 1,
+      "duration": 0.5746938775510204,
+      "samples": 6336
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-cut.mp3",
+      "sha256": "9aacf7c817a84b2e31582c7bab5484727619d00729477e9c13fc266a6813ce14",
+      "pcm": "pcm/sfx-cut.f32",
+      "sampleRate": 11025,
+      "channels": 1,
+      "duration": 2.6644897959183673,
+      "samples": 29376
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-endcard.mp3",
+      "sha256": "78204669d4fddb16d982cc1e405912efd1c3474334b3d9eb225035aa1404718d",
+      "pcm": "pcm/sfx-endcard.f32",
+      "sampleRate": 11025,
+      "channels": 1,
+      "duration": 0.47020408163265304,
+      "samples": 5184
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-fail.mp3",
+      "sha256": "354d3a358c2584f6844ef3eafebddc497a252c05baab8906c72db8046b450d23",
+      "pcm": "pcm/sfx-fail.f32",
+      "sampleRate": 11025,
+      "channels": 1,
+      "duration": 0.7053061224489796,
+      "samples": 7776
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-sand.mp3",
+      "sha256": "b228868d10cb81a6a2d328ab6f21d6994478fb4cf217c7d622927fd5c4d1f4f2",
+      "pcm": "pcm/sfx-sand.f32",
+      "sampleRate": 11025,
+      "channels": 1,
+      "duration": 4.284081632653061,
+      "samples": 47232
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-win.mp3",
+      "sha256": "9e0e424cb7f82df947d37c00e99e2da721a135fce211fb815c584564253302aa",
+      "pcm": "pcm/sfx-win.f32",
+      "sampleRate": 11025,
+      "channels": 1,
+      "duration": 0.2612244897959184,
+      "samples": 2880
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-woosh.mp3",
+      "sha256": "419d7db9c4dd004e55bb1d0ba145b0c3dd7f87ab57c242d0a6184016708c36e5",
+      "pcm": "pcm/sfx-woosh.f32",
+      "sampleRate": 11025,
+      "channels": 1,
+      "duration": 0.8620408163265306,
+      "samples": 9504
+    }
+  ]
+}

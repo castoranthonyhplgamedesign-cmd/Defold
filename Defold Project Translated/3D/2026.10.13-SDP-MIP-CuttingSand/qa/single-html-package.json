@@ -1,0 +1,29 @@
+{
+  "name": "Sand Slice",
+  "file": "D:\\allproject\\defold\\output\\Sand-Slice.html",
+  "bytes": 8091556,
+  "sha256": "6149ac6988f27739f52b01f92ccd557fd6221ab1a9e8bb354d25cd9256efc799",
+  "embeddedAssets": [
+    "archive/archive_files.json",
+    "archive/game0.arcd",
+    "archive/game0.arci",
+    "archive/game0.dmanifest",
+    "archive/game0.projectc",
+    "archive/game1.arcd",
+    "audio/bgm.mp3",
+    "audio/sfx-bells.mp3",
+    "audio/sfx-click.mp3",
+    "audio/sfx-conveyor.mp3",
+    "audio/sfx-cta.mp3",
+    "audio/sfx-cut.mp3",
+    "audio/sfx-endcard.mp3",
+    "audio/sfx-fail.mp3",
+    "audio/sfx-sand.mp3",
+    "audio/sfx-win.mp3",
+    "audio/sfx-woosh.mp3",
+    "SandSlice.wasm",
+    "SandSlice_wasm.js"
+  ],
+  "companionFilesRequired": false,
+  "publicDeployment": false
+}

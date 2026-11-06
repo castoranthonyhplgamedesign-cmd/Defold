@@ -1,0 +1,146 @@
+{
+  "date": "2026-11-06T23:44:15.494205",
+  "local_url": "http://127.0.0.1:8171/Ring%20Sort/index.html?variant=60sec",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "archive/archive_files.json",
+      "bytes": 521,
+      "sha256": "abdbe3a7192d8246dedfbae9686ac3a7840976438a658aa2676934b84125c212"
+    },
+    {
+      "path": "archive/game0.arcd",
+      "bytes": 2097152,
+      "sha256": "43d0bbf361a220c0d3c65826afe3167ae60d4f0e1bdeaa55865bc8939214fa42"
+    },
+    {
+      "path": "archive/game0.arci",
+      "bytes": 2208,
+      "sha256": "781b68a0ac66be01e7c60dc7e8de138bdc447c8db176227525b35b780fae9c42"
+    },
+    {
+      "path": "archive/game0.dmanifest",
+      "bytes": 1389,
+      "sha256": "5ab3d0c8607f46735fcceead96100afd4666fa473e1cdf93b709039d0ade839d"
+    },
+    {
+      "path": "archive/game0.projectc",
+      "bytes": 4860,
+      "sha256": "5a1dbdee3d0e03c9e7bce49acd09ff6dd7d89f631769e8457d5048ad33e46e17"
+    },
+    {
+      "path": "archive/game1.arcd",
+      "bytes": 2097152,
+      "sha256": "9f391b61d823801d95a87658ec5fb5ccf790614064a12f1a670f92389f95d0d9"
+    },
+    {
+      "path": "archive/game2.arcd",
+      "bytes": 2097152,
+      "sha256": "152ec5946128a6cb58383a06513249d08f1de87987c7e64f7d645e17b3231ddb"
+    },
+    {
+      "path": "archive/game3.arcd",
+      "bytes": 2097152,
+      "sha256": "97e73be1ac7495e3845df5ae1546324684b38faa1ade3f55edb901c11100797c"
+    },
+    {
+      "path": "archive/game4.arcd",
+      "bytes": 1791140,
+      "sha256": "65efa4d6671fd89fb65d9563a19a2fcc900693c854f20f0b919af007fd91adf5"
+    },
+    {
+      "path": "audio/bgm_loop.mp3",
+      "bytes": 260537,
+      "sha256": "642b9fd7274d66e0ec3650c68399dae8264f56f5002a664ae32387d4d43cf422"
+    },
+    {
+      "path": "audio/sfx_gift.mp3",
+      "bytes": 18539,
+      "sha256": "c2e5f226a2f9953d525d344b6e014861c0cce3aa8bf7a97183b0ad7f748fe4f9"
+    },
+    {
+      "path": "audio/sfx_merge.mp3",
+      "bytes": 8508,
+      "sha256": "24718d0ea834e1dbc31e6faddbdd9b6b27da9e1cbed9242697f1929d3d54ab25"
+    },
+    {
+      "path": "audio/sfx_pop.mp3",
+      "bytes": 8508,
+      "sha256": "2a10c895c9517d6774e50c4b54ee84959bdff22e1a4eea3345b4be8e71198297"
+    },
+    {
+      "path": "audio/sfx_touch.mp3",
+      "bytes": 16345,
+      "sha256": "2d23e0c9439ac6aabb81930208025f217bdda16259b982c2be4a104ba134b9b8"
+    },
+    {
+      "path": "audio/sfx_warn.mp3",
+      "bytes": 2552,
+      "sha256": "5a05d1a88a2566ff6e1e3153013234cc3ca210ac91cd19be2edcd573bd8e7a1b"
+    },
+    {
+      "path": "audio/sfx_win.mp3",
+      "bytes": 22614,
+      "sha256": "705b275087973c08ca3387c323410ead82b4e9936fa28a5e0de04d6796989072"
+    },
+    {
+      "path": "branding/icon-180.png",
+      "bytes": 51282,
+      "sha256": "929b56c4cedeba0e736df4653981ac6a66466d85eba655d0cbcb7b7de94b0569"
+    },
+    {
+      "path": "branding/icon-192.png",
+      "bytes": 57212,
+      "sha256": "aef167e521f48599c6f95959738b7234a21e887e08397cca0d134770f099a95d"
+    },
+    {
+      "path": "branding/icon-32.png",
+      "bytes": 2948,
+      "sha256": "2ccb62e2091352fddb302d7b2a94f58205712a3565d596304d5d69d53551c7b0"
+    },
+    {
+      "path": "branding/icon-512.png",
+      "bytes": 324761,
+      "sha256": "0e5f31c07bcc1ecb1d02dedf545fa41c3fefe3542ce3eb469908871312edc9c2"
+    },
+    {
+      "path": "branding/manifest.webmanifest",
+      "bytes": 399,
+      "sha256": "d3933c4fdc00bb9426bfab5917957c0be051a0038657da740cb1cc0bbea67dda"
+    },
+    {
+      "path": "branding/ring-sort.ico",
+      "bytes": 151653,
+      "sha256": "8c5a806a6ebc7766a7cec5d24e8107c2a344ba714691c4d00c72ae63939a1aac"
+    },
+    {
+      "path": "dmloader.js",
+      "bytes": 53911,
+      "sha256": "a11b97f22f20ced4e36f7140a3b41d1fffaaec4c31427a92370894020e533a79"
+    },
+    {
+      "path": "index.html",
+      "bytes": 84317,
+      "sha256": "c607bff60fa8e6782ab015e24820d7924622bd802e691cb00caa5b9cea8008e5"
+    },
+    {
+      "path": "RingSort.wasm",
+      "bytes": 2889375,
+      "sha256": "96bd9eedfd6f213152b3420ea2eda58fed157b331e1224cc3a5e008d41a5a329"
+    },
+    {
+      "path": "RingSort_wasm.js",
+      "bytes": 283579,
+      "sha256": "d3580ac7e51c0739d55df69a8b2f994715518647c810cc1e5dc06ab3f7b6e38f"
+    },
+    {
+      "path": "THIRD_PARTY_LICENSES.txt",
+      "bytes": 2259,
+      "sha256": "c678c4ec644371ffb557ca625a6dddaf293d53a2a1c9c08a68307afaf32ce53d"
+    }
+  ]
+}

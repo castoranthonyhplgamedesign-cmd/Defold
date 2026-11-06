@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-06T15:29:11.621Z",
+  "environment": "Windows, headless Chrome with SwiftShader, audio muted",
+  "passed": 6,
+  "failed": 0,
+  "results": [
+    {
+      "name": "2clicks counts only unsolved portrait presses",
+      "status": "PASS",
+      "ms": 10161,
+      "detail": {
+        "placed": {
+          "Merneptah": false,
+          "Maya": false,
+          "Nefertiti": false,
+          "Aisha": false,
+          "Ahmose": false,
+          "Khasekhemwy": false
+        },
+        "finished": true,
+        "tutorial": "hidden",
+        "elapsed": 1.1033333688974,
+        "solved": 0,
+        "positions": {
+          "Merneptah": {
+            "y": 1222.5,
+            "x": 794,
+            "moving": false
+          },
+          "Maya": {
+            "y": 1222.5,
+            "x": 286,
+            "moving": false
+          },
+          "Nefertiti": {
+            "y": 1222.5,
+            "x": 624.66666666667,
+            "moving": false
+          },
+          "Aisha": {
+            "y": 1222.5,
+            "x": 116.66666666667,
+            "moving": false
+          },
+          "Ahmose": {
+            "y": 1222.5,
+            "x": 455.33333333333,
+            "moving": false
+          },
+          "Khasekhemwy": {
+            "y": 1222.5,
+            "x": 963.33333333333,
+            "moving": false
+          }
+        },
+        "presses": 2,
+        "endcard": true
+      }
+    },
+    {
+      "name": "4clicks counts only unsolved portrait presses",
+      "status": "PASS",
+      "ms": 9549,
+      "detail": {
+        "placed": {
+          "Merneptah": false,
+          "Maya": false,
+          "Nefertiti": false,
+          "Aisha": false,
+          "Ahmose": false,
+          "Khasekhemwy": false
+        },
+        "finished": true,
+        "tutorial": "hidden",
+        "elapsed": 2.0925334114581,
+        "solved": 0,
+        "positions": {
+          "Merneptah": {
+            "y": 1222.5,
+            "x": 794,
+            "moving": false
+          },
+          "Maya": {
+            "y": 1222.5,
+            "x": 286,
+            "moving": false
+          },
+          "Nefertiti": {
+            "y": 1222.5,
+            "x": 624.66666666667,
+            "moving": false
+          },
+          "Aisha": {
+            "y": 1222.5,
+            "x": 116.66666666667,
+            "moving": false
+          },
+          "Ahmose": {
+            "y": 1222.5,
+            "x": 455.33333333333,
+            "moving": false
+          },
+          "Khasekhemwy": {
+            "y": 1222.5,
+            "x": 963.33333333333,
+            "moving": false
+          }
+        },
+        "presses": 4,
+        "endcard": true
+      }
+    },
+    {
+      "name": "Config: dotted keys, deep merge, keyed slots and mute",
+      "status": "PASS",
+      "ms": 7140
+    },
+    {
+      "name": "Rapid taps are preserved between rendered frames",
+      "status": "PASS",
+      "ms": 7542
+    },
+    {
+      "name": "GZip fallback starts without DecompressionStream",
+      "status": "PASS",
+      "ms": 8348
+    },
+    {
+      "name": "Rotate during opening tutorial and end-card entrance",
+      "status": "PASS",
+      "ms": 10954
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

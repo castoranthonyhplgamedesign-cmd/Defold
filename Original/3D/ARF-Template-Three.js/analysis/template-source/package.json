@@ -1,0 +1,24 @@
+{
+  "name": "arrow-flow-babylon-playable",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc --noEmit && vite build && node scripts/finalize-html.mjs",
+    "convert:models": "node scripts/convert-models.mjs",
+    "convert:conveyor": "node scripts/convert-unity-mesh.mjs",
+    "convert:textures": "node scripts/convert-textures.mjs"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^9.31.0",
+    "@babylonjs/loaders": "^9.31.0"
+  },
+  "devDependencies": {
+    "fbx2gltf": "^0.9.7-p1",
+    "sharp": "^0.35.5",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12",
+    "vite-plugin-singlefile": "^2.3.0"
+  }
+}

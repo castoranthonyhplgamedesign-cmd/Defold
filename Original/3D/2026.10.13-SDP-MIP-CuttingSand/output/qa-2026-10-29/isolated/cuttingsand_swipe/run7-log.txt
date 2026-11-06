@@ -1,0 +1,12 @@
+resize → 412×915@2.625
+MRAID volume change
+random swipe (2 points)
+swipe hint (157, 789) → (273, 789)
+swipe hint (294, 789) → (444, 789)
+random swipe (2 points)
+burst ×6
+rotate → 915×412@2.625
+rotate → 412×915@2.625
+random swipe (4 points)
+rotate on end card → 915×412@2.625
+rotate on end card → 412×915@2.625

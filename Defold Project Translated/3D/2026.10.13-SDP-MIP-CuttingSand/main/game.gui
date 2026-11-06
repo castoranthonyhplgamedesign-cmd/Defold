@@ -1,0 +1,22 @@
+script: "/main/game.gui_script"
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_DISABLED
+max_nodes: 1024
+textures { name: "art" texture: "/assets/art.atlas" }
+fonts { name: "font" font: "/assets/game.font" }
+layers { name: "background" }
+layers { name: "belt" }
+layers { name: "arrows" }
+layers { name: "sand" }
+layers { name: "frame" }
+layers { name: "buckets" }
+layers { name: "lids" }
+layers { name: "fly" }
+layers { name: "text" }
+layers { name: "impact" }
+layers { name: "hand" }
+layers { name: "trail" }
+layers { name: "praise" }
+layers { name: "danger" }
+layers { name: "dim" }
+layers { name: "endcard" }

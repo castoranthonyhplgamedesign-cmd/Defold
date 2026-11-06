@@ -1,0 +1,38 @@
+{
+  "source": "reference/audio/BGM.wav",
+  "sourceSha256": "8d93e14547950a494d7c4f46332d5c6fb35c74ba96fa1662897f8cbc492fae4a",
+  "output": "src/assets/audio/bgm.mp3",
+  "excerptSeconds": 7.68,
+  "sourceStart": 3.72,
+  "crossfadeSeconds": 0.48,
+  "attenuationDb": -24,
+  "runtimeGain": 0.5,
+  "seam": [
+    {
+      "channel": 0,
+      "startRms": 0.006247254457426282,
+      "endRms": 0.016572493601005017,
+      "jump": 0.00046456092968583107
+    },
+    {
+      "channel": 1,
+      "startRms": 0.005118578969568356,
+      "endRms": 0.017013164069243438,
+      "jump": 0.00037278514355421066
+    }
+  ],
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_name": "mp3",
+      "sample_rate": "44100",
+      "channels": 2,
+      "bit_rate": "96000"
+    }
+  ],
+  "format": {
+    "duration": "7.680000",
+    "size": "92831"
+  }
+}

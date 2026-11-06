@@ -1,0 +1,68 @@
+local View=require "main.viewport"
+local Platform=require "main.platform"
+local function box(texture)
+    local n=gui.new_box_node(vmath.vector3(),vmath.vector3(1,1,0))
+    if texture then gui.set_texture(n,"ui");gui.play_flipbook(n,texture) end
+    return n
+end
+local function layout(n,x,y,w,h)
+    gui.set_position(n,vmath.vector3(x,y,0))
+    gui.set_size(n,vmath.vector3(w,h,0))
+end
+function init(self)
+    self.footer=box();gui.set_color(self.footer,vmath.vector4(0.34,0.37,0.39,1))
+    self.header=box();gui.set_color(self.header,vmath.vector4(0.1,0.22,0.51,1))
+    self.headerline=box();gui.set_color(self.headerline,vmath.vector4(1,0.78,0.22,1))
+    self.icon=box("app_icon");self.button=box("play_now")
+    self.copy=gui.new_text_node(vmath.vector3(),"I can't reach all the colors...")
+    gui.set_font(self.copy,"default");gui.set_color(self.copy,vmath.vector4(1))
+    self.hand=box("hand");gui.set_alpha(self.hand,0)
+    self.dim=box();gui.set_color(self.dim,vmath.vector4(0.04,0.04,0.04,0))
+    self.endicon=box("app_icon");self.endbutton=box("play_now")
+    gui.set_enabled(self.endicon,false);gui.set_enabled(self.endbutton,false)
+    self.endalpha=0;self.particles={}
+    for i=1,15 do local n=box();gui.set_enabled(n,false);self.particles[i]={node=n,life=0,index=i} end
+end
+function update(self,dt)
+    local w,h=window.get_size();local v=View.calculate(w,h);self.v=v
+    local short=math.min(w,h)
+    layout(self.footer,w/2,v.footer/2,w,v.footer)
+    layout(self.header,w/2,h-v.header*0.32,w,v.header*0.64)
+    layout(self.headerline,w/2,h-v.header*0.64,w,short*0.012)
+    layout(self.icon,short*0.172,v.footer/2,short*0.302,short*0.18875)
+    local bw=short*0.422;local bh=bw*470/1324
+    layout(self.button,w-bw/2-short*0.028,v.footer/2,bw,bh)
+    gui.set_position(self.copy,vmath.vector3(w/2,h-v.header*0.32,0))
+    gui.set_scale(self.copy,vmath.vector3(short/540*1.0))
+    if self.ending then
+        self.endalpha=math.min(1,self.endalpha+dt)
+        gui.set_alpha(self.dim,0.8*(1-(1-self.endalpha)^2))
+        gui.set_alpha(self.endicon,self.endalpha);gui.set_alpha(self.endbutton,self.endalpha)
+        gui.set_enabled(self.icon,false);gui.set_enabled(self.button,false)
+        layout(self.dim,w/2,h/2,w,h)
+        layout(self.endicon,w/2,h/2+short*0.13,short*0.56,short*0.35)
+        layout(self.endbutton,w/2,h/2-short*0.2,short*0.55,short*0.55*470/1324)
+    end
+    for _,p in ipairs(self.particles) do
+        if p.life>0 then
+            p.life=p.life-dt
+            local t=1-p.life/1.7
+            local x,y=View.project(v,p.x+p.dx*t*3+math.sin(p.index*4)*t*0.3,p.z+p.dz*t*3,0.4+math.sin(t*math.pi)*0.4)
+            layout(p.node,x,y,v.ppu*0.18*(1-t),v.ppu*0.28*(1-t))
+            gui.set_alpha(p.node,math.max(0,1-t));if p.life<=0 then gui.set_enabled(p.node,false) end
+        end
+    end
+end
+function on_message(self,id,m)
+    if id==hash("hand") then
+        gui.set_alpha(self.hand,m.alpha)
+        if m.x and self.v then layout(self.hand,m.x+self.v.ppu*0.5,m.y-self.v.ppu*0.55,self.v.ppu*1.1,self.v.ppu*1.1*87/76) end
+    elseif id==hash("endcard") then
+        self.ending=true;gui.set_enabled(self.endicon,true);gui.set_enabled(self.endbutton,true)
+    elseif id==hash("burst") then
+        for _,p in ipairs(self.particles) do
+            p.x=m.x;p.z=m.z;p.dx=m.dx;p.dz=m.dz;p.life=1.7-(p.index-1)*0.025
+            gui.set_enabled(p.node,true);gui.set_color(p.node,m.color)
+        end
+    end
+end

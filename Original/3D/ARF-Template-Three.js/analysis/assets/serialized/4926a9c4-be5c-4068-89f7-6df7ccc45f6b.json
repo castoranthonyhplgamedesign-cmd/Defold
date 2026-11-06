@@ -1,0 +1,93 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Material",
+      "_name": "Tunnel",
+      "_states": [
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        },
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        },
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        },
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        },
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        },
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        }
+      ],
+      "_defines": [
+        {
+          "USE_INSTANCING": true,
+          "USE_ALBEDO_MAP": true
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "_props": [
+        {
+          "roughness": 0.631,
+          "specularIntensity": 0,
+          "mainTexture": {
+            "__uuid__": "861de519-e294-42c3-b5b2-078cbbc1b8e3@6c48a"
+          }
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "_effectAsset": {
+        "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4"
+      }
+    }
+  ]
+}

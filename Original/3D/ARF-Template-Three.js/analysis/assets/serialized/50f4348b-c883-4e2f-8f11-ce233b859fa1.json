@@ -1,0 +1,34 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Material",
+      "_name": "ui-alpha-test-material",
+      "_props": [
+        {}
+      ],
+      "_states": [
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        }
+      ],
+      "_defines": [
+        {
+          "USE_ALPHA_TEST": true,
+          "USE_TEXTURE": true,
+          "IS_GRAY": false,
+          "CC_USE_EMBEDDED_ALPHA": false
+        }
+      ],
+      "_effectAsset": {
+        "__uuid__": "60f7195c-ec2a-45eb-ba94-8955f60e81d0"
+      }
+    }
+  ]
+}

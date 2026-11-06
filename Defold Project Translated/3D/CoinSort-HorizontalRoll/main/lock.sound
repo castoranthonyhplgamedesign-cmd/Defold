@@ -1,0 +1,4 @@
+sound: "/assets/audio/Lock.ogg"
+looping: 0
+gain: 0.72
+group: "master"

@@ -1,0 +1,123 @@
+local C=require 'main.config'
+local R=require 'main.rules'
+local Brand=require 'main.branding'
+local function image(key)
+    local n=gui.new_box_node(vmath.vector3(),vmath.vector3(1,1,0))
+    gui.set_texture(n,'ui');gui.play_flipbook(n,key)
+    return n
+end
+local function alpha(node,a)
+    local color=gui.get_color(node);color.w=a;gui.set_color(node,color)
+end
+local function pos(node,x,y,w,h,screen_h)
+    gui.set_position(node,vmath.vector3(x,screen_h-y,0));gui.set_size(node,vmath.vector3(w,h,0))
+end
+local function text_metrics(node)
+    return resource.get_text_metrics(gui.get_font_resource(gui.get_font(node)),gui.get_text(node),{width=gui.get_size(node).x,line_break=true})
+end
+local function hand_cycle(time,row)
+    local H=C.HAND_HINT_CONFIG
+    local period=(H.entryMs+H.tapRotateBackMs+H.tapBackPauseMs+H.tapRotateForwardMs+H.tapForwardPauseMs+H.exitMs+H.loopPauseMs+(row and H.rowGestureSlideMs+H.rowGestureSlidePauseMs or 0))/1000
+    local t=time%period;local a,scale,rotation,slide=H.alpha,H.activeScale,H.tapForwardRotationDegrees,0
+    local function portion(ms)local d=ms/1000;if t<d then return t/d end;t=t-d;return nil end
+    local k=portion(H.entryMs)
+    if k then local e=math.sin(k*math.pi/2);return H.alpha*e,H.entryScale+(H.activeScale-H.entryScale)*e,rotation,0 end
+    k=portion(H.tapRotateBackMs)
+    if k then return a,scale,rotation+(H.tapBackRotationDegrees-rotation)*(1-math.cos(k*math.pi))/2,0 end
+    k=portion(H.tapBackPauseMs);if k then return a,scale,H.tapBackRotationDegrees,0 end
+    k=portion(H.tapRotateForwardMs)
+    if k then return a,scale,H.tapBackRotationDegrees+(rotation-H.tapBackRotationDegrees)*(1-math.cos(k*math.pi))/2,0 end
+    k=portion(H.tapForwardPauseMs);if k then return a,scale,rotation,0 end
+    if row then
+        k=portion(H.rowGestureSlideMs);if k then return a,scale,rotation,H.rowGestureSlideOffsetY*(1-math.cos(k*math.pi))/2 end
+        slide=H.rowGestureSlideOffsetY;k=portion(H.rowGestureSlidePauseMs);if k then return a,scale,rotation,slide end
+    end
+    k=portion(H.exitMs)
+    if k then local e=1-math.cos(k*math.pi/2);return a*(1-e),scale+(H.exitScale-scale)*e,rotation,slide end
+    return 0,H.exitScale,rotation,slide
+end
+function init(self)
+    self.body=image('jar_body');self.lid=image('jar_lid')
+    self.locks={};for i=1,3 do self.locks[i]=image('lock')end
+    self.hand=image('hand')
+    self.text=gui.new_text_node(vmath.vector3(),'Collect coins and unlock all the towers')
+    gui.set_font(self.text,'tutorial');gui.set_outline(self.text,vmath.vector4(4/255,33/255,63/255,1));gui.set_line_break(self.text,true)
+    self.dim=gui.new_box_node(vmath.vector3(),vmath.vector3(1,1,0));gui.set_color(self.dim,vmath.vector4(3/255,20/255,37/255,0))
+    self.icon=image('app_icon')
+    gui.set_enabled(self.body,false);gui.set_enabled(self.lid,false);gui.set_enabled(self.icon,false)
+end
+function on_message(self,id,m)
+    if id~=hash('frame')then return end
+    local w,h=window.get_size();local s=math.min(w/1080,h/1920);local z=s*m.zoom
+    local function x(value)return w/2+(value-m.x)*z end
+    local function y(value)return h/2+(value-m.y)*z end
+    for i,node in ipairs(self.locks)do
+        local cfg=C.LEVEL_CONFIGS[i];local lock=m.locks[i];local scale,off,rotation,a=1,0,0,.5
+        if lock.unlock>=0 then
+            if lock.unlock<.18 then
+                local t=math.sin(lock.unlock/.18*math.pi/2);off=-78*t;rotation=-22*t;scale=1+.16*t
+            elseif lock.unlock<.5 then
+                local t=(lock.unlock-.18)/.32;off=-78+(160+78)*t*t;rotation=-22+94*t;scale=1.16-.28*t;a=.5*(1-t)
+            else a=0 end
+        elseif not lock.locked then a=0 end
+        gui.set_enabled(node,a>0);alpha(node,a)
+        pos(node,x(cfg.centerX),y(cfg.centerY+off),110*z*scale,110*z*scale,h)
+        gui.set_rotation(node,vmath.quat_rotation_z(-math.rad(rotation)))
+    end
+    gui.set_enabled(self.body,m.jar_visible);gui.set_enabled(self.lid,m.jar_visible)
+    pos(self.body,x(m.jar_x),y(m.jar_y),178*z,168*z,h)
+    local open=m.jar_lid
+    pos(self.lid,x(m.jar_x-12*open),y(m.jar_y-77-24*open),130*z,38*z,h)
+    gui.set_rotation(self.lid,vmath.quat_rotation_z(math.rad(48*open)))
+    if m.tutorial~=self.text_step then
+        self.text_alpha_from=self.text_step==nil and 1 or self.text_alpha or 0
+        self.text_alpha_to=m.tutorial~=''and 1 or 0;self.text_at=m.time;self.text_step=m.tutorial
+        if m.tutorial~=''then self.visible_text=m.tutorial;if m.tutorial=='rotate'then self.text_alpha_from=0 end end
+    end
+    local text_k=math.sin(math.min(1,(m.time-self.text_at)/.22)*math.pi/2)
+    self.text_alpha=self.text_alpha_from+(self.text_alpha_to-self.text_alpha_from)*text_k
+    gui.set_enabled(self.text,self.text_alpha>0);alpha(self.text,self.text_alpha)
+    if self.text_alpha>0 then
+        gui.set_text(self.text,self.visible_text=='intro' and 'Collect coins and unlock all the towers' or 'Line up the coins of the same color')
+        local wrap=math.min(1060*s,w-68*s);local level_top=y(500-112.5);local available=level_top-34*s
+        local size=55
+        while size>34 do
+            local scale=s*size/55
+            gui.set_size(self.text,vmath.vector3(wrap/scale,200,0))
+            local metrics=text_metrics(self.text)
+            if metrics.height*scale+30*s<=available then break end
+            size=size-1
+        end
+        local scale=s*size/55;gui.set_scale(self.text,vmath.vector3(scale,scale,1))
+        gui.set_size(self.text,vmath.vector3(wrap/scale,200,0))
+        local metrics=text_metrics(self.text);local height=metrics.height*scale+30*s
+        local minimum=20*s+height/2;local maximum=level_top-14*s-height/2
+        local preferred=y(330);local text_y=maximum>=minimum and math.max(minimum,math.min(maximum,preferred)) or minimum
+        gui.set_position(self.text,vmath.vector3(x(540),h-text_y,0))
+    end
+    if not m.hint and self.hand_active then self.hand_fade_at=m.time;self.hand_fade_from=self.hand_state end
+    self.hand_active=m.hint
+    if m.hint then
+        self.hand_fade_at=nil
+        local start=m.phase=='overview';local cfg=C.LEVEL_CONFIGS[1]
+        local hx=start and cfg.centerX+190 or R.row_x(cfg,1)+125
+        local hy=start and cfg.centerY+180 or cfg.centerY+98
+        local a,scale,rotation,slide=hand_cycle(m.hint_time,not start)
+        hy=hy+slide;self.hand_state={x=hx,y=hy,a=a,scale=scale,rotation=rotation}
+    end
+    local hand=self.hand_state
+    local show=m.hint or self.hand_fade_at and m.time-self.hand_fade_at<.22
+    gui.set_enabled(self.hand,show and hand~=nil)
+    if show and hand then
+        local hx,hy,a,scale,rotation=hand.x,hand.y,hand.a,hand.scale,hand.rotation
+        if self.hand_fade_at then local k=math.sin(math.min(1,(m.time-self.hand_fade_at)/.22)*math.pi/2);a=a*(1-k);scale=scale+(1.5-scale)*k end
+        alpha(self.hand,math.max(0,a))
+        pos(self.hand,x(hx),y(hy),180*z*scale,180*z*scale,h)
+        gui.set_rotation(self.hand,vmath.quat_rotation_z(-math.rad(rotation)))
+    end
+    local card=m.phase=='endcard'
+    gui.set_enabled(self.icon,card);gui.set_enabled(self.dim,card)
+    pos(self.dim,w/2,h/2,w,h,h);alpha(self.dim,card and .48 or 0)
+    local scale=math.min(math.min(940*s,w*.9)/Brand.icon_width,math.min(560*s,h*.36)/Brand.icon_height)
+    pos(self.icon,w/2,h/2,Brand.icon_width*scale,Brand.icon_height*scale,h);alpha(self.icon,m.end_fade)
+end

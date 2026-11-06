@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-29",
+  "scope": "Current CuttingSand working tree and freshly built production HTML. Production source was not edited.",
+  "runtimeFindings": [
+    {
+      "id": "lifecycle-composition",
+      "source": ["src/networks.ts:60", "src/networks.ts:180"],
+      "evidence": "targeted.json",
+      "reproduction": "luna:pause -> audioVolumeChange(50), and exposureChange(0) -> luna:resume",
+      "observed": "Paused frame 56 advanced to 114 after volume callback; unexposed frame 114 advanced to 173 after Luna resume. Two audio sources remained active during Luna pause.",
+      "recommendation": "Keep independent pause flags and derive one scene/audio pause decision from all active causes."
+    },
+    {
+      "id": "sdk-mute-persistence",
+      "source": ["src/audio.ts:39", "src/audio.ts:50", "src/networks.ts:182"],
+      "evidence": "targeted.json",
+      "reproduction": "luna:mute -> first pointerdown; repeat luna:mute -> document hidden/visible",
+      "observed": "muted changed from true to false in both sequences.",
+      "recommendation": "Combine SDK mute, config mute, document visibility, and gesture unlock in a shared audio state."
+    },
+    {
+      "id": "relative-asset-boot-failure",
+      "source": ["vite.config.ts:22", "src/config.ts:236"],
+      "evidence": "targeted.json",
+      "reproduction": "Override ui-hand.path with ../../../Assets/Runtime/images/ui-hand.webp in a built playable.",
+      "observed": "Uncaught Error: External asset loading is disabled; no gameplay state and blank page.",
+      "recommendation": "Reconcile the advertised relative-path override contract with production's disabled external loader and provide a graceful failure path."
+    },
+    {
+      "id": "duplicate-store-open",
+      "source": ["src/networks.ts:223", "src/scenes/cta.ts:144"],
+      "evidence": "targeted-popup.json",
+      "reproduction": "First automatic time-limit window.open returns null; tap endcard approximately 600 ms later.",
+      "observed": "One tap caused two additional intercepted window.open calls at 4513.2 ms and 4515.4 ms.",
+      "recommendation": "Bind retries to the initiating gesture; cancel stale retries before a fresh explicit CTA."
+    }
+  ],
+  "additionalSourceFindings": [
+    {
+      "id": "loading-split",
+      "source": "src/scenes/BootScene.ts:29",
+      "observed": "All 34 texture and 9 audio slots are loaded before GameScene; 1461272 source bytes. The documented critical/deferred split is absent.",
+      "limit": "Physical-device startup impact was not measured."
+    },
+    {
+      "id": "background-slot-tuning",
+      "source": "src/scenes/GameScene.ts:453",
+      "observed": "Background anchorPoint, scale and resizeBlocked are emitted but ignored by cover-fit drawing. Generated documentation acknowledges the exception.",
+      "limit": "Source-confirmed configuration contract mismatch; image replacement itself works."
+    }
+  ]
+}

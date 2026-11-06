@@ -1,0 +1,15 @@
+{
+  "ambientLightIntensity3D": 0.25,
+  "directionalLightIntensity3D": 5,
+  "directionalLightPosition3D": {
+    "x": -600,
+    "y": -600,
+    "z": 9000
+  },
+  "directionalLightTargetOffset3D": {
+    "x": 2272.389,
+    "y": 2352.55,
+    "z": -8480.669
+  },
+  "directionalLightShadowEnabled3D": true
+}

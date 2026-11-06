@@ -1,0 +1,175 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "Guide",
+      "data": {
+        "__ref__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Guide",
+      "_children": [
+        {
+          "__ref__": 2
+        },
+        {
+          "__ref__": 3
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "fileId": "82j7zYjhFDuKdYMCVYXY4s",
+        "instance": null,
+        "targetOverrides": null,
+        "nestedPrefabInstanceRoots": null,
+        "asset": {
+          "__ref__": 0
+        },
+        "root": {
+          "__ref__": 1
+        }
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Quad",
+      "_parent": {
+        "__ref__": 1
+      },
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "_name": "Quad<ModelComponent>",
+          "__prefab": {
+            "__type__": "cc.CompPrefabInfo",
+            "fileId": "f1/hC06wtMFr91Nvoihmbd"
+          },
+          "_materials": [
+            {
+              "__uuid__": "cee6149c-7d35-41fb-b686-3e689475510d"
+            }
+          ],
+          "bakeSettings": {
+            "__type__": "cc.ModelBakeSettings"
+          },
+          "node": {
+            "__ref__": 2
+          },
+          "_mesh": {
+            "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "fileId": "60LfbgoxtMeKjORchayhR+",
+        "instance": null,
+        "targetOverrides": null,
+        "nestedPrefabInstanceRoots": null,
+        "root": {
+          "__ref__": 1
+        },
+        "asset": {
+          "__ref__": 0
+        }
+      },
+      "_lpos": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -0.25
+      },
+      "_lrot": {
+        "__type__": "cc.Quat",
+        "x": -0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "_lscale": {
+        "__type__": "cc.Vec3",
+        "x": 0.7,
+        "y": 0.6,
+        "z": 1
+      },
+      "_euler": {
+        "__type__": "cc.Vec3",
+        "x": -89.99999999999999,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Quad-001",
+      "_parent": {
+        "__ref__": 1
+      },
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "_name": "Quad<ModelComponent>",
+          "__prefab": {
+            "__type__": "cc.CompPrefabInfo",
+            "fileId": "a4LQmBbfVEELyCypWdZqpN"
+          },
+          "_materials": [
+            {
+              "__uuid__": "cee6149c-7d35-41fb-b686-3e689475510d"
+            }
+          ],
+          "bakeSettings": {
+            "__type__": "cc.ModelBakeSettings"
+          },
+          "node": {
+            "__ref__": 3
+          },
+          "_mesh": {
+            "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@fc873"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "fileId": "9ds5cIpBpH0qrLOGuNq6iG",
+        "instance": null,
+        "targetOverrides": null,
+        "nestedPrefabInstanceRoots": null,
+        "root": {
+          "__ref__": 1
+        },
+        "asset": {
+          "__ref__": 0
+        }
+      },
+      "_lpos": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 0.25
+      },
+      "_lrot": {
+        "__type__": "cc.Quat",
+        "x": -0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "_lscale": {
+        "__type__": "cc.Vec3",
+        "x": 0.7,
+        "y": 0.6,
+        "z": 1
+      },
+      "_euler": {
+        "__type__": "cc.Vec3",
+        "x": -89.99999999999999,
+        "y": 0,
+        "z": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-27T10:25:16.050Z",
+  "result": "pass",
+  "errors": [],
+  "external": [],
+  "checks": [
+    "cell density and usable-cell count",
+    "cell centers align with visible grid",
+    "offset snapping and arrow drawing",
+    "existing arrows retain cell counts",
+    "center grid",
+    "undo/redo",
+    "invalid change preserves draft",
+    "export/import/reload",
+    "native input clear at .75 and 1.5 sizes",
+    "artist mesh preserved and clear at .5 size",
+    "four viewport layouts"
+  ],
+  "automated": {
+    "typecheck": "pass",
+    "playableTests": 91,
+    "legacyEditorTests": 23,
+    "defaultEditorBrowser": "pass"
+  }
+}

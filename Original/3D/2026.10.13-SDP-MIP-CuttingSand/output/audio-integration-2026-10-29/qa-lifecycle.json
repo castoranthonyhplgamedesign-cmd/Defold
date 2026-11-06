@@ -1,0 +1,92 @@
+[
+  {
+    "label": "host mute / overlapping pauses / audio overrides",
+    "pass": true,
+    "elapsedMs": 2394,
+    "audio": {
+      "unlocked": true,
+      "hostMuted": true,
+      "muted": true,
+      "gameplayFinished": false,
+      "channels": {
+        "bgm": {
+          "playing": 1,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.12300000339746475,
+          "starts": 1
+        },
+        "sfx-conveyor": {
+          "playing": 1,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.2199999988079071,
+          "starts": 1
+        },
+        "sfx-cut": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-sand": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-click": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-woosh": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-bells": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-win": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-endcard": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-cta": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-fail": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        }
+      }
+    }
+  }
+]

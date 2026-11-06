@@ -1,0 +1,51 @@
+{
+  "test": "Controlled diagnostic; five existing dropped balls moved and held above red line; no source changes",
+  "before": {
+    "timer": 47.77870000004766,
+    "canTimer": true,
+    "goals": 0
+  },
+  "moved": [
+    {
+      "name": "Circle",
+      "x": -7,
+      "y": 11,
+      "radius": 1.625
+    },
+    {
+      "name": "Circle",
+      "x": -3.5,
+      "y": 11,
+      "radius": 1.625
+    },
+    {
+      "name": "Circle",
+      "x": 0,
+      "y": 11,
+      "radius": 1.625
+    },
+    {
+      "name": "Circle",
+      "x": 3.5,
+      "y": 11,
+      "radius": 1.625
+    },
+    {
+      "name": "Circle",
+      "x": 7,
+      "y": 11,
+      "radius": 1.625
+    }
+  ],
+  "after": {
+    "timer": 41.31349999999978,
+    "canTimer": true,
+    "goals": 0,
+    "ctaScale": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "aboveLine": 5
+  }
+}

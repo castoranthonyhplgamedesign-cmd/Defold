@@ -1,0 +1,125 @@
+[
+  {
+    "label": "overlapping pause sources and audio",
+    "pauseFreezes": true,
+    "activeBefore": 2,
+    "activeWhilePaused": 2,
+    "volumeResumedPausedScene": true,
+    "frames": [
+      56,
+      56,
+      114,
+      114,
+      173
+    ],
+    "lunaResumeWhileUnexposed": true,
+    "errors": []
+  },
+  {
+    "label": "SDK mute persistence",
+    "mutedBeforeGesture": true,
+    "mutedAfterGesture": false,
+    "mutedBeforeVisibility": true,
+    "mutedAfterVisibility": false,
+    "errors": []
+  },
+  {
+    "label": "touch cancellation and DPR resize",
+    "afterCancelCount": 1,
+    "afterMoveCount": 1,
+    "newSwipeCount": 2,
+    "newSwipeCuts": 817,
+    "accounted": 31752,
+    "total": 31752,
+    "sizes": [
+      {
+        "expected": [
+          844,
+          390,
+          2.625
+        ],
+        "css": [
+          844,
+          390
+        ],
+        "bitmap": [
+          2215,
+          1023
+        ]
+      },
+      {
+        "expected": [
+          390,
+          844,
+          3
+        ],
+        "css": [
+          390,
+          844
+        ],
+        "bitmap": [
+          1170,
+          2532
+        ]
+      },
+      {
+        "expected": [
+          600,
+          600,
+          1
+        ],
+        "css": [
+          600,
+          600
+        ],
+        "bitmap": [
+          600,
+          600
+        ]
+      },
+      {
+        "expected": [
+          320,
+          568,
+          2
+        ],
+        "css": [
+          320,
+          568
+        ],
+        "bitmap": [
+          640,
+          1136
+        ]
+      },
+      {
+        "expected": [
+          390,
+          844,
+          1
+        ],
+        "css": [
+          390,
+          844
+        ],
+        "bitmap": [
+          390,
+          844
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "label": "blocked automatic popup then next endcard tap",
+    "harnessError": "Error: Timed out waiting for condition; last state {\"state\":\"play\",\"wave\":1,\"activeColors\":[10,11],\"counted\":0,\"clickLimit\":null,\"remaining\":31752,\"total\":31752,\"removedPct\":0,\"lastCut\":0,\"lastDrop\":0,\"loose\":0,\"funnel\":0,\"belt\":0,\"beltLoad\":0,\"fronts\":[10,11],\"bucketsDone\":0,\"speed\":1,\"accounted\":31752,\"integrity\":\"\",\"frame\":2218,\"muted\":true,\"sounds\":{},\"handVisible\":true,\"vignette\":0,\"ended\":false,\"endReason\":\"\",\"milestone\":\"play\",\"targets\":{\"right\":{\"x\":197.77777777777777,\"y\":858.6851851851852},\"wrong\":null,\"blocked\":{\"x\":197.77777777777777,\"y\":744.6111111111112},\"swipe\":{\"x1\":157.03703703703704,\"y1\":789.425925925926,\"x2\":272.77777777777777,\"y2\":789.425925925926}},\"mechanic\":\"cut\"}\n    at Object.waitFor (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/cdp.mjs:151:11)\n    at async file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/targeted.mjs:71:3\n    at async withPage (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/targeted.mjs:23:20)\n    at async file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/targeted.mjs:70:1"
+  },
+  {
+    "label": "relative texture override",
+    "state": null,
+    "bodyText": "",
+    "errors": [
+      "Error: External asset loading is disabled: ../../../Assets/Runtime/images/ui-hand.webp\n    at v (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/dist/cuttingsand_swipe/90seconds/sdp_mip_grhpl_cuttingsand_swipe_real_nougc_noseason_en_90seconds_na_fb.html:4405:308)\n    at i.load (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/dist/cuttingsand_swipe/90seconds/sdp_mip_grhpl_cuttingsand_swipe_real_nougc_noseason_en_90seconds_na_fb.html:4381:1556)\n    at initialize.<anonymous> (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/dist/cuttingsand_swipe/90seconds/sdp_mip_grhpl_cuttingsand_swipe_real_nougc_noseason_en_90seconds_na_fb.html:4393:5482)\n    at initialize.each (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/dist/cuttingsand_swipe/90seconds/sdp_mip_grhpl_cuttingsand_swipe_real_nougc_noseason_en_90seconds_na_fb.html:6276:667)\n    at initialize.checkLoadQueue (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/dist/cuttingsand_swipe/90seconds/sdp_mip_grhpl_cuttingsand_swipe_real_nougc_noseason_en_90seconds_na_fb.html:4393:5268)\n    at initialize.update (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/dist/cuttingsand_swipe/90seconds/sdp_mip_grhpl_cuttingsand_swipe_real_nougc_noseason_en_90seconds_na_fb.html:4393:5214)\n    at n.emit (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/dist/cuttingsand_swipe/90seconds/sdp_mip_grhpl_cuttingsand_swipe_real_nougc_noseason_en_90seconds_na_fb.html:972:2322)\n    at initialize.step (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/dist/cuttingsand_swipe/90seconds/sdp_mip_grhpl_cuttingsand_swipe_real_nougc_noseason_en_90seconds_na_fb.html:6005:786)\n    at initialize.update (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/dist/cuttingsand_swipe/90seconds/sdp_mip_grhpl_cuttingsand_swipe_real_nougc_noseason_en_90seconds_na_fb.html:5992:3225)\n    at initialize.step (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/dist/cuttingsand_swipe/90seconds/sdp_mip_grhpl_cuttingsand_swipe_real_nougc_noseason_en_90seconds_na_fb.html:1437:1768)"
+    ]
+  }
+]

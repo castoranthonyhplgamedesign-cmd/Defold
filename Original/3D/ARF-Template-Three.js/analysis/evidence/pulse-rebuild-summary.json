@@ -1,0 +1,13 @@
+{
+  "builtAt": "2026-11-03T06:40:08.343Z",
+  "outputs": 32,
+  "lengths": [
+    "3clicks",
+    "10clicks",
+    "60seconds",
+    "full"
+  ],
+  "largestHTMLBytes": 3896240,
+  "pulse": "100?104%, CSS, 1.6 seconds",
+  "color": "#FF4242"
+}

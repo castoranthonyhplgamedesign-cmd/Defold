@@ -1,0 +1,280 @@
+{
+  "testedAt": "2026-10-22T07:14:30.570Z",
+  "records": [
+    {
+      "mode": "congestion-timeout",
+      "fixture": "Original level, valid launches greedily favor colors not currently active; simulation clock advanced in chunks",
+      "timing": "Accelerated fixture recording; timestamps below are simulation time, not real-time playback",
+      "video": "analysis/recordings/congestion-timeout.webm",
+      "beats": [
+        {
+          "label": "load",
+          "time": 0.732,
+          "remaining": 60,
+          "fill": 0,
+          "ended": null,
+          "blocks": 0,
+          "file": "analysis/screenshots/delivery/congestion-timeout-load.png"
+        },
+        {
+          "label": "first-launch",
+          "time": 1.0040000000000002,
+          "remaining": 59.72800000000003,
+          "fill": 3.559900869920048,
+          "ended": null,
+          "blocks": 6,
+          "file": "analysis/screenshots/delivery/congestion-timeout-first-launch.png"
+        },
+        {
+          "label": "congestion",
+          "time": 6.586000000000005,
+          "remaining": 54.146000000000086,
+          "fill": 91.96410580626791,
+          "ended": null,
+          "blocks": 155,
+          "file": "analysis/screenshots/delivery/congestion-timeout-congestion.png"
+        },
+        {
+          "label": "timeout-endcard",
+          "time": 61.21200000000004,
+          "remaining": 0,
+          "fill": 47.46534493226731,
+          "ended": "timeout",
+          "blocks": 80,
+          "file": "analysis/screenshots/delivery/congestion-timeout-timeout-endcard.png"
+        },
+        {
+          "launches": [
+            {
+              "id": 140,
+              "result": "accepted",
+              "fill": 3.559900869920048
+            },
+            {
+              "id": 142,
+              "result": "accepted",
+              "fill": 5.933168116533413
+            },
+            {
+              "id": 144,
+              "result": "accepted",
+              "fill": 5.933168116533413
+            },
+            {
+              "id": 145,
+              "result": "accepted",
+              "fill": 9.49306898645346
+            },
+            {
+              "id": 147,
+              "result": "accepted",
+              "fill": 10.086385798106802
+            },
+            {
+              "id": 152,
+              "result": "accepted",
+              "fill": 14.832920291333533
+            },
+            {
+              "id": 155,
+              "result": "accepted",
+              "fill": 15.426237102986875
+            },
+            {
+              "id": 161,
+              "result": "accepted",
+              "fill": 17.2061875379469
+            },
+            {
+              "id": 173,
+              "result": "accepted",
+              "fill": 22.54603884282697
+            },
+            {
+              "id": 176,
+              "result": "accepted",
+              "fill": 23.139355654480312
+            },
+            {
+              "id": 177,
+              "result": "accepted",
+              "fill": 29.072523771013724
+            },
+            {
+              "id": 179,
+              "result": "accepted",
+              "fill": 30.259157394320408
+            },
+            {
+              "id": 181,
+              "result": "accepted",
+              "fill": 33.225741452587116
+            },
+            {
+              "id": 184,
+              "result": "accepted",
+              "fill": 35.59900869920048
+            },
+            {
+              "id": 189,
+              "result": "accepted",
+              "fill": 41.53217681573389
+            },
+            {
+              "id": 197,
+              "result": "accepted",
+              "fill": 42.718810439040574
+            },
+            {
+              "id": 143,
+              "result": "accepted",
+              "fill": 48.058661743920645
+            },
+            {
+              "id": 157,
+              "result": "accepted",
+              "fill": 48.65197855557399
+            },
+            {
+              "id": 146,
+              "result": "accepted",
+              "fill": 51.02524580218735
+            },
+            {
+              "id": 148,
+              "result": "accepted",
+              "fill": 54.5851466721074
+            },
+            {
+              "id": 149,
+              "result": "accepted",
+              "fill": 59.33168116533413
+            },
+            {
+              "id": 150,
+              "result": "accepted",
+              "fill": 63.48489884690752
+            },
+            {
+              "id": 156,
+              "result": "accepted",
+              "fill": 64.07821565856086
+            },
+            {
+              "id": 151,
+              "result": "accepted",
+              "fill": 65.85816609352088
+            },
+            {
+              "id": 153,
+              "result": "accepted",
+              "fill": 67.04479971682757
+            },
+            {
+              "id": 154,
+              "result": "accepted",
+              "fill": 72.38465102170764
+            },
+            {
+              "id": 158,
+              "result": "accepted",
+              "fill": 71.7913342100543
+            },
+            {
+              "id": 159,
+              "result": "accepted",
+              "fill": 68.23143334013425
+            },
+            {
+              "id": 160,
+              "result": "accepted",
+              "fill": 71.19801739840096
+            },
+            {
+              "id": 162,
+              "result": "accepted",
+              "fill": 74.16460145666767
+            },
+            {
+              "id": 164,
+              "result": "accepted",
+              "fill": 75.94455189162768
+            },
+            {
+              "id": 165,
+              "result": "accepted",
+              "fill": 77.13118551493437
+            },
+            {
+              "id": 163,
+              "result": "accepted",
+              "fill": 79.50445276154774
+            },
+            {
+              "id": 170,
+              "result": "accepted",
+              "fill": 80.69108638485442
+            },
+            {
+              "id": 169,
+              "result": "accepted",
+              "fill": 85.43762087808115
+            },
+            {
+              "id": 171,
+              "result": "accepted",
+              "fill": 86.62425450138784
+            },
+            {
+              "id": 168,
+              "result": "accepted",
+              "fill": 88.99752174800119
+            },
+            {
+              "id": 172,
+              "result": "full",
+              "fill": 90.18415537130788
+            }
+          ]
+        }
+      ],
+      "errors": []
+    },
+    {
+      "mode": "clear-fixture",
+      "fixture": "Only original arrow 141 retained; real cannon removal clears six segments",
+      "timing": "Accelerated fixture recording; timestamps below are simulation time, not real-time playback",
+      "video": "analysis/recordings/clear-fixture.webm",
+      "beats": [
+        {
+          "label": "load",
+          "time": 0.43200000000000005,
+          "remaining": 60,
+          "fill": 0,
+          "ended": null,
+          "blocks": 0,
+          "file": "analysis/screenshots/delivery/clear-fixture-load.png"
+        },
+        {
+          "label": "first-launch",
+          "time": 0.7040000000000003,
+          "remaining": 59.72800000000003,
+          "fill": 3.559900869920048,
+          "ended": null,
+          "blocks": 6,
+          "file": "analysis/screenshots/delivery/clear-fixture-first-launch.png"
+        },
+        {
+          "label": "clear-endcard",
+          "time": 3.1840000000000006,
+          "remaining": 57.72800000000003,
+          "fill": 0,
+          "ended": "clear",
+          "blocks": 0,
+          "file": "analysis/screenshots/delivery/clear-fixture-clear-endcard.png"
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

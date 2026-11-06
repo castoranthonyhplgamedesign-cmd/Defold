@@ -1,0 +1,638 @@
+{
+  "startedAt": "2026-10-29T01:45:30.173Z",
+  "context": "Headless desktop Chromium, D3D11 requested, muted; CPU throttling is synthetic and is not a device benchmark.",
+  "viewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 2
+  },
+  "durationPerPhaseMs": 5000,
+  "samples": [
+    {
+      "mechanic": "tap",
+      "concept": "cuttingsand_default",
+      "cpuThrottleRate": 1,
+      "file": "dist\\cuttingsand_default\\90seconds\\sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_fb.html",
+      "renderer": {
+        "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
+        "vendor": "WebKit",
+        "renderer": "WebKit WebGL",
+        "unmaskedVendor": "Google Inc. (NVIDIA)",
+        "unmaskedRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 SUPER (0x00001F06) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "bitmap": [
+          780,
+          1688
+        ]
+      },
+      "phases": [
+        {
+          "phase": "idle",
+          "actualInputActions": 0,
+          "elapsedMs": 5006,
+          "raf": {
+            "intervals": 826,
+            "meanFps": 165.01,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.06,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.2,
+            "maximumIntervalMs": 7.5,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "observedGameFrameIntervals": {
+            "intervals": 826,
+            "meanFps": 165.01,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.06,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.2,
+            "maximumIntervalMs": 7.5,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "gameFrameDelta": 826,
+          "gameFramesPerSecond": 165.01,
+          "longTasks": {
+            "count": 0,
+            "totalMs": 0,
+            "maximumMs": 0
+          },
+          "stateStart": {
+            "frame": 47,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 0,
+            "remaining": 31752,
+            "loose": 0,
+            "funnel": 0,
+            "beltLoad": 0,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "stateEnd": {
+            "frame": 873,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 0,
+            "remaining": 31752,
+            "loose": 0,
+            "funnel": 0,
+            "beltLoad": 0,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "heap": {
+            "usedSize": 13359316,
+            "totalSize": 24911872,
+            "embedderHeapUsedSize": 2848080,
+            "backingStorageSize": 20459123
+          }
+        },
+        {
+          "phase": "busy",
+          "actualInputActions": 16,
+          "elapsedMs": 5006,
+          "raf": {
+            "intervals": 826,
+            "meanFps": 165.01,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.06,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.1,
+            "maximumIntervalMs": 6.2,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "observedGameFrameIntervals": {
+            "intervals": 826,
+            "meanFps": 165.01,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.06,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.1,
+            "maximumIntervalMs": 6.2,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "gameFrameDelta": 826,
+          "gameFramesPerSecond": 165.01,
+          "longTasks": {
+            "count": 0,
+            "totalMs": 0,
+            "maximumMs": 0
+          },
+          "stateStart": {
+            "frame": 895,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 0,
+            "remaining": 31752,
+            "loose": 0,
+            "funnel": 0,
+            "beltLoad": 0,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "stateEnd": {
+            "frame": 1721,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 16,
+            "remaining": 24696,
+            "loose": 824,
+            "funnel": 824,
+            "beltLoad": 2461,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "heap": {
+            "usedSize": 14192428,
+            "totalSize": 25698304,
+            "embedderHeapUsedSize": 7927864,
+            "backingStorageSize": 20460213
+          }
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "mechanic": "tap",
+      "concept": "cuttingsand_default",
+      "cpuThrottleRate": 4,
+      "file": "dist\\cuttingsand_default\\90seconds\\sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_fb.html",
+      "renderer": {
+        "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
+        "vendor": "WebKit",
+        "renderer": "WebKit WebGL",
+        "unmaskedVendor": "Google Inc. (NVIDIA)",
+        "unmaskedRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 SUPER (0x00001F06) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "bitmap": [
+          780,
+          1688
+        ]
+      },
+      "phases": [
+        {
+          "phase": "idle",
+          "actualInputActions": 0,
+          "elapsedMs": 5006,
+          "raf": {
+            "intervals": 826,
+            "meanFps": 165.01,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.06,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.2,
+            "maximumIntervalMs": 6.3,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "observedGameFrameIntervals": {
+            "intervals": 826,
+            "meanFps": 165.01,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.06,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.2,
+            "maximumIntervalMs": 6.3,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "gameFrameDelta": 826,
+          "gameFramesPerSecond": 165.01,
+          "longTasks": {
+            "count": 0,
+            "totalMs": 0,
+            "maximumMs": 0
+          },
+          "stateStart": {
+            "frame": 44,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 0,
+            "remaining": 31752,
+            "loose": 0,
+            "funnel": 0,
+            "beltLoad": 0,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "stateEnd": {
+            "frame": 870,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 0,
+            "remaining": 31752,
+            "loose": 0,
+            "funnel": 0,
+            "beltLoad": 0,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "heap": {
+            "usedSize": 7874008,
+            "totalSize": 30154752,
+            "embedderHeapUsedSize": 2242400,
+            "backingStorageSize": 22904218
+          }
+        },
+        {
+          "phase": "busy",
+          "actualInputActions": 16,
+          "elapsedMs": 5006,
+          "raf": {
+            "intervals": 824,
+            "meanFps": 164.61,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.08,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.1,
+            "maximumIntervalMs": 18.2,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "observedGameFrameIntervals": {
+            "intervals": 824,
+            "meanFps": 164.61,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.08,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.1,
+            "maximumIntervalMs": 18.2,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "gameFrameDelta": 824,
+          "gameFramesPerSecond": 164.61,
+          "longTasks": {
+            "count": 0,
+            "totalMs": 0,
+            "maximumMs": 0
+          },
+          "stateStart": {
+            "frame": 889,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 0,
+            "remaining": 31752,
+            "loose": 0,
+            "funnel": 0,
+            "beltLoad": 0,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "stateEnd": {
+            "frame": 1713,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 16,
+            "remaining": 24696,
+            "loose": 929,
+            "funnel": 929,
+            "beltLoad": 2452,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "heap": {
+            "usedSize": 19637084,
+            "totalSize": 38543360,
+            "embedderHeapUsedSize": 7549632,
+            "backingStorageSize": 20462014
+          }
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "mechanic": "cut",
+      "concept": "cuttingsand_swipe",
+      "cpuThrottleRate": 1,
+      "file": "dist\\cuttingsand_swipe\\90seconds\\sdp_mip_grhpl_cuttingsand_swipe_real_nougc_noseason_en_90seconds_na_fb.html",
+      "renderer": {
+        "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
+        "vendor": "WebKit",
+        "renderer": "WebKit WebGL",
+        "unmaskedVendor": "Google Inc. (NVIDIA)",
+        "unmaskedRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 SUPER (0x00001F06) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "bitmap": [
+          780,
+          1688
+        ]
+      },
+      "phases": [
+        {
+          "phase": "idle",
+          "actualInputActions": 0,
+          "elapsedMs": 5001,
+          "raf": {
+            "intervals": 825,
+            "meanFps": 164.97,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.06,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.2,
+            "maximumIntervalMs": 10.2,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "observedGameFrameIntervals": {
+            "intervals": 825,
+            "meanFps": 164.97,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.06,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.2,
+            "maximumIntervalMs": 10.2,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "gameFrameDelta": 825,
+          "gameFramesPerSecond": 164.97,
+          "longTasks": {
+            "count": 0,
+            "totalMs": 0,
+            "maximumMs": 0
+          },
+          "stateStart": {
+            "frame": 46,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 0,
+            "remaining": 31752,
+            "loose": 0,
+            "funnel": 0,
+            "beltLoad": 0,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "stateEnd": {
+            "frame": 871,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 0,
+            "remaining": 31752,
+            "loose": 0,
+            "funnel": 0,
+            "beltLoad": 0,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "heap": {
+            "usedSize": 12173568,
+            "totalSize": 43524096,
+            "embedderHeapUsedSize": 2806960,
+            "backingStorageSize": 24178996
+          }
+        },
+        {
+          "phase": "busy",
+          "actualInputActions": 8,
+          "elapsedMs": 5006,
+          "raf": {
+            "intervals": 826,
+            "meanFps": 165.01,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.06,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.2,
+            "maximumIntervalMs": 6.4,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "observedGameFrameIntervals": {
+            "intervals": 826,
+            "meanFps": 165.01,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.06,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.2,
+            "maximumIntervalMs": 6.4,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "gameFrameDelta": 826,
+          "gameFramesPerSecond": 165.01,
+          "longTasks": {
+            "count": 0,
+            "totalMs": 0,
+            "maximumMs": 0
+          },
+          "stateStart": {
+            "frame": 893,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 0,
+            "remaining": 31752,
+            "loose": 0,
+            "funnel": 0,
+            "beltLoad": 0,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "stateEnd": {
+            "frame": 1719,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 8,
+            "remaining": 24687,
+            "loose": 1179,
+            "funnel": 1179,
+            "beltLoad": 2016,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "heap": {
+            "usedSize": 23622968,
+            "totalSize": 44572672,
+            "embedderHeapUsedSize": 8235208,
+            "backingStorageSize": 24603355
+          }
+        }
+      ],
+      "runtimeErrors": []
+    },
+    {
+      "mechanic": "cut",
+      "concept": "cuttingsand_swipe",
+      "cpuThrottleRate": 4,
+      "file": "dist\\cuttingsand_swipe\\90seconds\\sdp_mip_grhpl_cuttingsand_swipe_real_nougc_noseason_en_90seconds_na_fb.html",
+      "renderer": {
+        "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
+        "vendor": "WebKit",
+        "renderer": "WebKit WebGL",
+        "unmaskedVendor": "Google Inc. (NVIDIA)",
+        "unmaskedRenderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 SUPER (0x00001F06) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "bitmap": [
+          780,
+          1688
+        ]
+      },
+      "phases": [
+        {
+          "phase": "idle",
+          "actualInputActions": 0,
+          "elapsedMs": 5006,
+          "raf": {
+            "intervals": 826,
+            "meanFps": 165,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.06,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.1,
+            "maximumIntervalMs": 6.3,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "observedGameFrameIntervals": {
+            "intervals": 826,
+            "meanFps": 165,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.06,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.1,
+            "maximumIntervalMs": 6.3,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "gameFrameDelta": 826,
+          "gameFramesPerSecond": 165,
+          "longTasks": {
+            "count": 0,
+            "totalMs": 0,
+            "maximumMs": 0
+          },
+          "stateStart": {
+            "frame": 47,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 0,
+            "remaining": 31752,
+            "loose": 0,
+            "funnel": 0,
+            "beltLoad": 0,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "stateEnd": {
+            "frame": 873,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 0,
+            "remaining": 31752,
+            "loose": 0,
+            "funnel": 0,
+            "beltLoad": 0,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "heap": {
+            "usedSize": 12525312,
+            "totalSize": 49557504,
+            "embedderHeapUsedSize": 2434152,
+            "backingStorageSize": 43393544
+          }
+        },
+        {
+          "phase": "busy",
+          "actualInputActions": 7,
+          "elapsedMs": 5006,
+          "raf": {
+            "intervals": 794,
+            "meanFps": 158.61,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.3,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.2,
+            "maximumIntervalMs": 18.2,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "observedGameFrameIntervals": {
+            "intervals": 794,
+            "meanFps": 158.61,
+            "medianFps": 163.93,
+            "meanIntervalMs": 6.3,
+            "medianIntervalMs": 6.1,
+            "p95IntervalMs": 6.2,
+            "maximumIntervalMs": 18.2,
+            "intervalsOver33_4Ms": 0,
+            "intervalsOver50Ms": 0,
+            "intervalsOver100Ms": 0
+          },
+          "gameFrameDelta": 794,
+          "gameFramesPerSecond": 158.61,
+          "longTasks": {
+            "count": 0,
+            "totalMs": 0,
+            "maximumMs": 0
+          },
+          "stateStart": {
+            "frame": 895,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 0,
+            "remaining": 31752,
+            "loose": 0,
+            "funnel": 0,
+            "beltLoad": 0,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "stateEnd": {
+            "frame": 1689,
+            "state": "play",
+            "ended": false,
+            "endReason": "",
+            "counted": 7,
+            "remaining": 25407,
+            "loose": 809,
+            "funnel": 809,
+            "beltLoad": 1644,
+            "bucketsDone": 0,
+            "muted": true
+          },
+          "heap": {
+            "usedSize": 22796724,
+            "totalSize": 49557504,
+            "embedderHeapUsedSize": 7313104,
+            "backingStorageSize": 24880516
+          }
+        }
+      ],
+      "runtimeErrors": []
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-29T01:46:19.364Z"
+}

@@ -1,0 +1,273 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "Cannon",
+      "data": {
+        "__ref__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Cannon",
+      "_children": [
+        {
+          "__ref__": 3
+        },
+        {
+          "__ref__": 4
+        },
+        {
+          "__ref__": 2
+        }
+      ],
+      "_components": [
+        {
+          "__type__": "23711t3h+FBD6N09s+vYBi3",
+          "color": "green",
+          "__prefab": {
+            "__type__": "cc.CompPrefabInfo",
+            "fileId": "beHlRW/D1CE5f/YN9KjtAh"
+          },
+          "node": {
+            "__ref__": 1
+          },
+          "detectionBox": {
+            "__ref__": 5
+          },
+          "ammoLabel": {
+            "__ref__": 6
+          },
+          "projectilePrefab": {
+            "__uuid__": "20e2baef-fc53-4029-be6e-e2a84b2eda4b"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "fileId": "24QTSNsc1GqqG7jDM6MMyZ",
+        "instance": null,
+        "targetOverrides": null,
+        "nestedPrefabInstanceRoots": null,
+        "asset": {
+          "__ref__": 0
+        },
+        "root": {
+          "__ref__": 1
+        }
+      },
+      "_lpos": {
+        "__type__": "cc.Vec3",
+        "x": -0.051000000000000156,
+        "y": 0.428,
+        "z": 2.899000000000001
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "AmmoLabel",
+      "_layer": 8388608,
+      "_parent": {
+        "__ref__": 1
+      },
+      "_components": [
+        {
+          "__type__": "cc.UITransform",
+          "__prefab": {
+            "__type__": "cc.CompPrefabInfo",
+            "fileId": "7aS7i2lCtIo5phwvIayu4N"
+          },
+          "_contentSize": {
+            "__type__": "cc.Size",
+            "width": 161.08798217773438,
+            "height": 169.28
+          },
+          "node": {
+            "__ref__": 2
+          }
+        },
+        {
+          "__ref__": 6
+        },
+        {
+          "__type__": "cc.UIOpacity",
+          "__prefab": {
+            "__type__": "cc.CompPrefabInfo",
+            "fileId": "6aJm4lgDtEPYJzxtsNIb7S"
+          },
+          "node": {
+            "__ref__": 2
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "fileId": "b7uUQXcj5GD7J/jlYGcy/i",
+        "instance": null,
+        "targetOverrides": null,
+        "nestedPrefabInstanceRoots": null,
+        "root": {
+          "__ref__": 1
+        },
+        "asset": {
+          "__ref__": 0
+        }
+      },
+      "_lpos": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 1.863,
+        "z": 0.072
+      },
+      "_lrot": {
+        "__type__": "cc.Quat",
+        "x": -0.7071067811865475,
+        "y": 0,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "_lscale": {
+        "__type__": "cc.Vec3",
+        "x": 0.008,
+        "y": 0.008,
+        "z": 0.008
+      },
+      "_euler": {
+        "__type__": "cc.Vec3",
+        "x": -90,
+        "y": 0,
+        "z": 0
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Shooter1_",
+      "_parent": {
+        "__ref__": 1
+      },
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "__prefab": {
+            "__type__": "cc.CompPrefabInfo",
+            "fileId": "cbM2HAf2RO+6/ttjqcuvOy"
+          },
+          "_materials": [
+            {
+              "__uuid__": "cb03b242-3000-4196-9865-67614de71db6"
+            }
+          ],
+          "bakeSettings": {
+            "__type__": "cc.ModelBakeSettings"
+          },
+          "node": {
+            "__ref__": 3
+          },
+          "_mesh": {
+            "__uuid__": "69414c89-0d43-42e9-ace6-01ff0a340dd1@3d923"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "fileId": "9arAsFUIxO9owyK93N+joN",
+        "instance": null,
+        "targetOverrides": null,
+        "nestedPrefabInstanceRoots": null,
+        "root": {
+          "__ref__": 1
+        },
+        "asset": {
+          "__ref__": 0
+        }
+      },
+      "_lrot": {
+        "__type__": "cc.Quat",
+        "x": -6.162975822039155e-33,
+        "y": 0.7071067811865475,
+        "z": 8.659560940217344e-17,
+        "w": 0.7071067811865476
+      },
+      "_lscale": {
+        "__type__": "cc.Vec3",
+        "x": 1.2,
+        "y": 1.2,
+        "z": 1.2
+      },
+      "_euler": {
+        "__type__": "cc.Vec3",
+        "x": -7.0167096047110005e-15,
+        "y": 90,
+        "z": 7.0167096047110005e-15
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Detection",
+      "_parent": {
+        "__ref__": 1
+      },
+      "_components": [
+        {
+          "__ref__": 5
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "fileId": "32JGgBSjZCGKpwkrvnLhX9",
+        "instance": null,
+        "targetOverrides": null,
+        "nestedPrefabInstanceRoots": null,
+        "root": {
+          "__ref__": 1
+        },
+        "asset": {
+          "__ref__": 0
+        }
+      },
+      "_lpos": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0.515,
+        "z": 3.113
+      }
+    },
+    {
+      "__type__": "cc.BoxCollider",
+      "node": {
+        "__ref__": 4
+      },
+      "__prefab": {
+        "__type__": "cc.CompPrefabInfo",
+        "fileId": "88yt2qFnRGbYAF9aFJ1Y/h"
+      },
+      "_size": {
+        "__type__": "cc.Vec3",
+        "x": 1.489,
+        "y": 2.585,
+        "z": 1
+      }
+    },
+    {
+      "__type__": "cc.Label",
+      "_string": "44",
+      "_actualFontSize": 128,
+      "_fontSize": 128,
+      "_lineHeight": 0,
+      "_isSystemFontUsed": false,
+      "_enableOutline": true,
+      "_outlineWidth": 4,
+      "node": {
+        "__ref__": 2
+      },
+      "__prefab": {
+        "__type__": "cc.CompPrefabInfo",
+        "fileId": "08JsltcNFFxo2+N59uRfSc"
+      },
+      "_font": {
+        "__uuid__": "30d0c9c0-201c-40ca-9db8-71dbbad0eb7c"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+window.PLAYABLE_VARIANT={"clickLimit":9999,"timeLimit":60};

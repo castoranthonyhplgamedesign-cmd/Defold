@@ -1,0 +1,7 @@
+{
+  "testedAt": "2026-10-22T06:40:50.864Z",
+  "browser": "153.0.8010.12",
+  "fixture": "Only front green ammo reduced from 26 to 1 in in-memory test data; production level untouched",
+  "result": "Last shot removes green cannon, yellow cannon advances, hidden label becomes visible with 18 ammo",
+  "errors": []
+}

@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-27T06:36:41.941Z",
+  "result": "pass",
+  "errors": [],
+  "checks": [
+    "fractional diagonal points",
+    "point undo/redo buttons and keyboard",
+    "redo branch invalidation",
+    "one point per release instead of sampled drag",
+    "close using first-point hit circle",
+    "completed outline undo/redo",
+    "recoverable invalid draft",
+    "16-point concave wing outline",
+    "wing outline Three preview and native-input clear"
+  ]
+}

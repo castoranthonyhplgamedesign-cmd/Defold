@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-10-26T09:57:37.189Z",
+  "result": "pass",
+  "errors": [],
+  "external": [],
+  "viewports": [
+    "390x844",
+    "844x390",
+    "768x1024",
+    "360x640"
+  ],
+  "checks": [
+    "reference export round-trip",
+    "undo/redo conveyor",
+    "queue edits",
+    "save/reload project",
+    "invalid import retains state",
+    "drag conveyor corner",
+    "add/delete lane",
+    "cross-port Three preview handshake",
+    "native taps clear four-sided level",
+    "restart retains one canvas",
+    "old general export"
+  ]
+}

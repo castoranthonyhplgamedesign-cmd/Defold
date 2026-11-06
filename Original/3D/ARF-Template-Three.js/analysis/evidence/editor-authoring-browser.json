@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-27T09:29:04.054Z",
+  "result": "pass",
+  "errors": [],
+  "external": [],
+  "checks": [
+    "drawing color does not recolor completed or selected arrows",
+    "explicit recolor and history",
+    "live segment count and cancel",
+    "free placement",
+    "alignment snap",
+    "align row and distribute",
+    "target handle preserves base",
+    "invalid move and cancel preserve level",
+    "export/import/reload",
+    "GLB surface selection scale rotation and cancel",
+    "real artist GLB apply and undo/redo",
+    "invalid GLB preserves level",
+    "native input clear with imported mesh and free cannon",
+    "narrow viewport"
+  ]
+}

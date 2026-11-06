@@ -1,0 +1,133 @@
+[
+  {
+    "name": "real-browser-three-wave-solve",
+    "state": {
+      "handVisible": false,
+      "activeColors": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "clickLimit": 9999,
+      "belt": 0,
+      "remaining": 0,
+      "bucketsDone": 31,
+      "beltLoad": 0,
+      "counted": 18,
+      "fronts": {},
+      "time": 41001.45378476,
+      "total": 31752,
+      "mechanic": "cut",
+      "targets": {},
+      "endReason": "solved",
+      "loose": 0,
+      "lastCut": 0,
+      "ended": true,
+      "state": "endcard",
+      "wave": 3,
+      "accounted": 31752,
+      "integrity": "",
+      "funnel": 0,
+      "frame": 1658,
+      "lastDrop": 0,
+      "removedPct": 100
+    },
+    "errors": [],
+    "events": [
+      {
+        "name": "LOADING",
+        "time": 35.299999713897705
+      },
+      {
+        "name": "LOADED",
+        "time": 1023.1999998092651
+      },
+      {
+        "name": "DISPLAYED",
+        "time": 1023.2999997138977
+      },
+      {
+        "name": "CHALLENGE_STARTED",
+        "time": 7384.89999961853
+      },
+      {
+        "name": "CHALLENGE_PASS_25",
+        "time": 17157.199999809265
+      },
+      {
+        "name": "CHALLENGE_PASS_50",
+        "time": 30408.099999904633
+      },
+      {
+        "name": "CHALLENGE_PASS_75",
+        "time": 54640.39999961853
+      },
+      {
+        "name": "CHALLENGE_SOLVED",
+        "time": 73116
+      },
+      {
+        "name": "CTA_CLICKED",
+        "time": 74046.69999980927
+      },
+      {
+        "name": "ENDCARD_SHOWN",
+        "time": 74047.19999980927
+      }
+    ]
+  },
+  {
+    "name": "real-90-second-browser-timer",
+    "elapsedWallMs": 90157,
+    "state": {
+      "handVisible": false,
+      "activeColors": [
+        10,
+        11
+      ],
+      "clickLimit": 9999,
+      "belt": 0,
+      "remaining": 31752,
+      "bucketsDone": 0,
+      "beltLoad": 0,
+      "counted": 1,
+      "fronts": [
+        10,
+        11
+      ],
+      "time": 92789.602489909,
+      "total": 31752,
+      "mechanic": "cut",
+      "targets": {
+        "right": {
+          "y": 858.68518518519,
+          "x": 197.77777777778
+        },
+        "swipe": {
+          "x2": 272.77777777778,
+          "y2": 789.42592592593,
+          "y1": 789.42592592593,
+          "x1": 157.03703703704
+        },
+        "blocked": {
+          "y": 744.61111111111,
+          "x": 197.77777777778
+        }
+      },
+      "endReason": "time",
+      "loose": 0,
+      "lastCut": 0,
+      "ended": true,
+      "state": "endcard",
+      "wave": 1,
+      "accounted": 31752,
+      "integrity": "",
+      "funnel": 0,
+      "frame": 5418,
+      "lastDrop": 0,
+      "removedPct": 0
+    },
+    "errors": []
+  }
+]

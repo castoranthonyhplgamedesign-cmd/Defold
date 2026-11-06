@@ -1,0 +1,84 @@
+{
+  "ignores": [
+    "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleAudio.cs",
+    "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModulePhysics.cs",
+    "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModulePhysics2D.cs",
+    "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleSprite.cs",
+    "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUI.cs",
+    "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+  ],
+  "groups": [
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Audio/Scripts/AudioChannel.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Audio/Scripts/AudioLibrary.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Audio/Scripts/AudioManager.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/Brick.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/BoardManager.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/ControlManager.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/CameraManager.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/CTAManager.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/IterationVariantManagers.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/ClickCounter.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/ScoreManager.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/GameManager.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/ReadOnlyAttribute.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/Gate.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/GridSlot.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/BrickCell.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Core/Services/IAudioService.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Core/Services/ServicesLocator.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Core/Events/EventAggregator.cs",
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Core/Events/GameEvent.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Core/Services/IUIManager.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleAudio.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleEPOOutline.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModulePhysics.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModulePhysics2D.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleSprite.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUI.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUtils.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/AutoDestroy.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/CameraFitter.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/MeshCombiner.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/BBS/LunaTemp/stage3/processed-scripts/Assets/Scripts/TimerController.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/_Unity Packages/7.2.0/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/_Unity Packages/7.2.0/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+    ],
+    [
+      "C:/Users/Wcoronel 2/Desktop/Projects/_Unity Packages/7.2.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+    ]
+  ]
+}

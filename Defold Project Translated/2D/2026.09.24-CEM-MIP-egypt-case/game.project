@@ -1,0 +1,38 @@
+[project]
+title = MysteryMaster
+version = 1.0
+custom_resources = /config,/assets/images
+
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /main/game.renderc
+
+[display]
+width = 1080
+height = 1920
+dynamic_orientation = 1
+high_dpi = 1
+update_frequency = 60
+vsync = 1
+
+[input]
+game_binding = /input/game.input_bindingc
+
+[render]
+clear_color_red = 0.8117647
+clear_color_green = 0.5960784
+clear_color_blue = 0.3843137
+clear_color_alpha = 1
+
+[gui]
+max_count = 8
+max_texture_count = 32
+
+[html5]
+scale_mode = Fit
+heap_size = 128
+
+[graphics]
+texture_min_filter = linear
+texture_mag_filter = linear
+

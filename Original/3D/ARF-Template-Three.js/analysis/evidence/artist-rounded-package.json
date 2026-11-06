@@ -1,0 +1,27 @@
+{
+  "checkedAt": "2026-10-27T07:29:03.251Z",
+  "bytes": 3634762,
+  "result": "pass",
+  "viewports": [
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      360,
+      640
+    ]
+  ],
+  "errors": [],
+  "externalRequests": [],
+  "successfulRun": true,
+  "defaultBuildBytes": 2576705
+}

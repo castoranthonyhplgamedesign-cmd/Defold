@@ -1,0 +1,35 @@
+{
+  "delivered": "D:/allproject/defold/output/Sinonimus.html",
+  "sha256": "0ebdba6aa0066d47efcb86034505291d525ec013a2be41658f1d03f6a2cda92a",
+  "bytes": 4641263,
+  "passed": 6,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Copied file has embedded resources, correct filename, matching hash and size under 5 MB",
+      "status": "PASS"
+    },
+    {
+      "name": "Sinonimus title, icon, heading, new logo and full puzzle completion",
+      "status": "PASS"
+    },
+    {
+      "name": "Single-file 2clicks variant",
+      "status": "PASS"
+    },
+    {
+      "name": "Single-file 4clicks variant",
+      "status": "PASS"
+    },
+    {
+      "name": "Direct file opening works without a web server or companion files",
+      "status": "PASS"
+    },
+    {
+      "name": "No browser errors or external asset requests",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "unexpected": []
+}

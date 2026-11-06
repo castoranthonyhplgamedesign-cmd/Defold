@@ -1,0 +1,47 @@
+{
+  "captured_utc": "2026-11-06T16:18:19.277034+00:00",
+  "commit": "dd920a3f57a8abe9c93e34ab6a5796fdd755c6af",
+  "status": "PASS",
+  "checks": {
+    "successful_build": true,
+    "stable_build_inputs": true,
+    "runtime_inputs_match_build": true,
+    "published_files_match_manifest": true,
+    "http_serves_tested_revision": true,
+    "original_clean_and_pinned": true,
+    "headed_source_and_final_native_qa": true,
+    "loopback_only_listeners": true
+  },
+  "http": {
+    "status": 200,
+    "url": "http://127.0.0.1:18982/dd920a3f57a8/",
+    "correct_revision": true
+  },
+  "published_bytes": 23394040,
+  "original": {
+    "head": "ccb8e2b210a432272e0e4147a64b163484c4aa70",
+    "status": ""
+  },
+  "listeners": [
+    {
+      "LocalAddress": "127.0.0.1",
+      "LocalPort": 18982,
+      "OwningProcess": 64280
+    },
+    {
+      "LocalAddress": "127.0.0.1",
+      "LocalPort": 18981,
+      "OwningProcess": 64540
+    }
+  ],
+  "single_html": {
+    "file": "D:\\allproject\\defold\\output\\Token Roll.html",
+    "sha256": "44ebca4042568b01878ea8379c047d5943c0266a97ab1a0524b8e73eff8ddf65",
+    "bytes": 23240184,
+    "hash_matches_package_and_test": true,
+    "unique_output_name": true,
+    "no_companion_files": true,
+    "offline_qa": true,
+    "rendered_frames_and_pixels": true
+  }
+}

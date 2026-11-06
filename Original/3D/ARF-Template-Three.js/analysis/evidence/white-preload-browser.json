@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-28T17:01:05.252Z",
+  "url": "http://127.0.0.1:5173",
+  "sourceHash": "47806428b072f17ed29ddbcbc855b9ff138a85aa0f6bb449e3116497d38b0e50",
+  "errors": [],
+  "external": [],
+  "checks": [
+    "four viewports at the 99% preload",
+    "generated opening colored cannons; no active white starter",
+    "one renderer canvas",
+    "idle retains white preload",
+    "native tap launches the flowing arrow",
+    "hinted arrow is fully shot and the meter returns to the preload level",
+    "urgency vignette on at the 99% start",
+    "reload restores the preload level",
+    "source level unchanged"
+  ],
+  "audio": "muted"
+}

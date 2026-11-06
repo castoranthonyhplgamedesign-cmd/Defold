@@ -1,0 +1,9 @@
+images { image: "/assets/images/app_icon.png" }
+images { image: "/assets/images/hand.png" }
+images { image: "/assets/images/lock.png" }
+images { image: "/assets/images/jar_base.png" }
+images { image: "/assets/images/jar_body.png" }
+images { image: "/assets/images/jar_lid.png" }
+margin: 0
+extrude_borders: 2
+inner_padding: 2

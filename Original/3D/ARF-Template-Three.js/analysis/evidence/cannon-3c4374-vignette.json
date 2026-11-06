@@ -1,0 +1,114 @@
+{
+  "at": "2026-10-29T15:47:36.486Z",
+  "browser": "156.0.8078.49",
+  "audio": "muted",
+  "lightingInvariant": true,
+  "embedded": {
+    "x": 20,
+    "y": 30,
+    "width": 320,
+    "height": 480,
+    "top": 30,
+    "right": 340,
+    "bottom": 510,
+    "left": 20
+  },
+  "results": [
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "drawCalls": 41,
+      "samples": [
+        {
+          "hidden": false,
+          "centerHood": [
+            60,
+            67,
+            116
+          ],
+          "leftHood": [
+            60,
+            67,
+            116
+          ],
+          "centerEdge": [
+            60,
+            67,
+            116
+          ],
+          "warning": [
+            134,
+            43,
+            68
+          ]
+        },
+        {
+          "hidden": true,
+          "centerHood": [
+            60,
+            67,
+            116
+          ],
+          "leftHood": [
+            60,
+            67,
+            116
+          ],
+          "centerEdge": [
+            60,
+            67,
+            116
+          ],
+          "warning": [
+            59,
+            63,
+            104
+          ]
+        }
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "drawCalls": 41,
+      "fullViewport": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "drawCalls": 41,
+      "fullViewport": true
+    },
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "drawCalls": 41,
+      "fullViewport": true
+    },
+    {
+      "viewport": [
+        640,
+        360
+      ],
+      "drawCalls": 41,
+      "fullViewport": true
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "drawCalls": 41,
+      "fullViewport": true
+    }
+  ],
+  "errors": []
+}

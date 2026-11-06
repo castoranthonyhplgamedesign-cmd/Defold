@@ -1,0 +1,29 @@
+taps during pour
+tap off the sand
+tap hint (280, 853)
+tap picture
+tap hint (453, 853)
+tap picture
+rotate â†’ 568Ã—320@2
+burst Ã—6
+tap off the sand
+wait 197
+tap off the sand
+tap off the sand
+tap off the sand
+burst Ã—6
+tap off the sand
+tap off the sand
+tap picture
+tap hint (627, 853)
+idle 10 s
+wait 31
+wait 332
+tap picture
+rotate â†’ 320Ã—568@2
+tap hint (198, 859)
+tap hint (198, 859)
+tap off the sand
+tap hint (198, 859)
+rotate on end card â†’ 568Ã—320@2
+rotate on end card â†’ 320Ã—568@2

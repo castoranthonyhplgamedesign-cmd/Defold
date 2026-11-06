@@ -1,0 +1,52 @@
+// Start the playable Vite server on :5181 before running. Browser audio is muted.
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {chromium} from 'playwright';
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--mute-audio','--no-sandbox']});
+const context=await browser.newContext({viewport:{width:1440,height:1000},acceptDownloads:true}),page=await context.newPage(),errors=[];
+page.on('pageerror',e=>errors.push(e.message));
+fs.mkdirSync('analysis/screenshots/simple-editor',{recursive:true});
+const saved=()=>page.evaluate(()=>JSON.parse(localStorage.getItem('arrow-flow-simple-editor-v1')));
+const at=async(x,y)=>page.locator('#board').evaluate((svg,[x,y])=>{const p=new DOMPoint(x,-y).matrixTransform(svg.getScreenCTM());return [p.x,p.y];},[x,y]);
+async function drag(a,b){await page.mouse.move(...await at(...a));await page.mouse.down();await page.mouse.move(...await at(...b),{steps:12});await page.mouse.up();}
+try{
+ await page.goto('http://127.0.0.1:5181/level-editor.html');await page.locator('[data-corner="0"]').waitFor();
+ await page.screenshot({path:'analysis/screenshots/simple-editor/01-conveyor.png'});
+ assert(!await page.locator('#play-test').isDisabled());assert.equal(await page.locator('[data-step]').count(),3);
+ await page.locator('#new-level').click();assert.equal((await saved()).board.arrows.length,0);assert(await page.locator('#export-level').isDisabled());
+ await page.locator('#notch').click();assert.equal((await saved()).conveyor.points.length,8);await page.locator('#undo').click();assert.equal((await saved()).conveyor.points.length,4);await page.locator('#redo').click();
+ await page.locator('#rectangle').click();
+ await drag([7,-7],[8,-7]);assert.deepEqual((await saved()).conveyor.points[0],[8,-7]);await page.locator('#undo').click();
+ await page.locator('[data-mid="0"]').click();assert.equal((await saved()).conveyor.points.length,5);await page.locator('#undo').click();
+ const notch=[[7,-7],[-7,-7],[-7,7],[-2,7],[-2,2],[2,2],[2,7],[7,7]];
+ await page.locator('#draw-outline').click();for(const p of [...notch,notch[0]])await page.mouse.click(...await at(...p));assert.deepEqual((await saved()).conveyor.points,notch);
+ await page.locator('#undo').click();await page.locator('#draw-outline').click();await page.mouse.click(...await at(6,-6));await page.keyboard.press('Escape');assert.equal((await saved()).conveyor.points.length,4);
+ await page.locator('[data-step="1"]').click();
+ await page.mouse.move(...await at(-2,-2));await page.mouse.down();await page.mouse.move(...await at(0,-2),{steps:4});await page.keyboard.press('Escape');await page.mouse.up();assert.equal((await saved()).board.arrows.length,0);
+ await drag([-1,0],[1,0]);let doc=await saved();assert.equal(doc.board.arrows.length,1);assert.equal(doc.board.arrows[0].facing,'Right');assert.equal(doc.board.arrows[0].body.length,2);
+ await page.locator('[data-color="blue"]').click();assert.equal((await saved()).board.arrows[0].color,'green');await page.mouse.click(...await at(1,0));await page.locator('[data-selected-color="blue"]').click();
+ await drag([0,0],[0,2]);assert.deepEqual((await saved()).board.arrows[0].head,[1,2]);
+ await page.locator('#turn-arrow').click();assert.equal((await saved()).board.arrows[0].facing,'Bottom');
+ await page.locator('#turn-arrow').click();await page.locator('#turn-arrow').click();await page.locator('#turn-arrow').click();
+ await page.screenshot({path:'analysis/screenshots/simple-editor/02-arrows.png'});
+ await page.locator('[data-step="2"]').click();await page.mouse.click(...await at(0,-7));doc=await saved();assert.equal(doc.cannons.length,1);assert.equal(doc.cannons[0].queue[0].color,'blue');assert.equal(doc.cannons[0].queue[0].ammo,3);
+ await drag([0,-12],[4,-12]);assert((await saved()).cannons[0].position);assert.equal((await saved()).cannons[0].progress,doc.cannons[0].progress);await page.locator('#undo').click();
+ await page.locator('#add-replacement').click();assert.equal((await saved()).cannons[0].queue.length,2);
+ await page.locator('[data-queue-color="1"]').selectOption('pink');await page.locator('[data-queue-ammo="1"]').fill('5');await page.locator('[data-queue-ammo="1"]').press('Tab');
+ assert.deepEqual((await saved()).cannons[0].queue[1],{color:'pink',ammo:5});
+ await page.locator('[data-up="1"]').click();assert.equal((await saved()).cannons[0].queue[0].color,'pink');await page.locator('[data-remove="0"]').click();assert.equal((await saved()).cannons[0].queue.length,1);
+ await page.locator('[data-queue-ammo="0"]').fill('0');await page.locator('[data-queue-ammo="0"]').press('Tab');assert.equal((await saved()).cannons[0].queue[0].ammo,3);assert.equal(await page.locator('[data-queue-ammo="0"]').inputValue(),'3');
+ await page.locator('#message.visible').waitFor({state:'hidden'});await page.screenshot({path:'analysis/screenshots/simple-editor/03-cannons.png'});
+ const expected=await saved(),downloadPromise=page.waitForEvent('download');await page.locator('#export-level').click();const exported=JSON.parse(fs.readFileSync(await(await downloadPromise).path(),'utf8'));assert.deepEqual(exported,expected);
+ await page.reload();await page.locator('#board').waitFor();assert.equal(await page.locator('[data-arrow]').count(),1);assert.equal(await page.locator('[data-cannon]').count(),1);
+ await page.locator('#level-file').setInputFiles({name:'bad.json',mimeType:'application/json',buffer:Buffer.from('{"kind":"broken"}')});assert.deepEqual(await saved(),expected);
+ await page.locator('#play-test').click();const frame=page.frameLocator('#preview-frame iframe');await frame.locator('#game[data-level-ready="true"]').waitFor({timeout:30000});
+ await page.screenshot({path:'analysis/screenshots/simple-editor/04-play-test.png'});
+ const point=await frame.locator('.tutorial-hand').evaluate(el=>{const m=new DOMMatrix(getComputedStyle(el).transform),tap=el.style.height==='242px',p=new DOMPoint(29,tap?29:14).matrixTransform(m),r=el.parentElement.getBoundingClientRect();return [r.x+p.x,r.y+p.y+(tap?0:8*Math.hypot(m.a,m.b))];});
+ const box=await page.locator('#preview-frame iframe').boundingBox();await page.mouse.click(box.x+point[0],box.y+point[1]);await frame.locator('.endcard:not([hidden])').waitFor({timeout:15000});
+ await page.locator('#close-preview').click();await page.locator('#preview-frame iframe').waitFor({state:'detached'});assert.deepEqual(await saved(),expected);
+ await page.locator('#message.visible').waitFor({state:'hidden'});await page.setViewportSize({width:390,height:844});await page.screenshot({path:'analysis/screenshots/simple-editor/05-narrow.png'});
+ assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth));
+ assert.deepEqual(errors,[]);fs.writeFileSync('analysis/evidence/simple-editor-browser.json',JSON.stringify({checkedAt:new Date().toISOString(),result:'pass',errors,checks:['dedicated three-step UI','blank draft and presets','undo/redo','corner drag and insertion','concave outline drawing and cancellation','tail-to-tip draw, cancel and move','color and facing edits','click-to-place and drag cannon','queue forms and reorder/delete','invalid ammo preserves state','export round-trip','reload and bad import preservation','embedded preview handshake and successful native click clear','close preview preserves editor','narrow layout without horizontal overflow']},null,2));
+ console.log('Dedicated Arrow Flow editor browser checks passed.');
+}finally{await browser.close();}

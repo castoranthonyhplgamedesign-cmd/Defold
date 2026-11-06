@@ -1,0 +1,90 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "ArrowMesh_",
+      "data": {
+        "__ref__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "ArrowMesh_",
+      "_children": [
+        {
+          "__ref__": 2
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "fileId": "b2JKO605pa9oySYBCq4k0/",
+        "instance": null,
+        "targetOverrides": null,
+        "nestedPrefabInstanceRoots": null,
+        "asset": {
+          "__ref__": 0
+        },
+        "root": {
+          "__ref__": 1
+        }
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "HeadBlock1_.003",
+      "_parent": {
+        "__ref__": 1
+      },
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "__prefab": {
+            "__type__": "cc.CompPrefabInfo",
+            "fileId": "b1jBaIG0ZSkYrLpntFgbkx"
+          },
+          "_materials": [
+            {
+              "__uuid__": "7e0d00cd-e958-4d76-b418-a3e8130166a2@925cb"
+            }
+          ],
+          "bakeSettings": {
+            "__type__": "cc.ModelBakeSettings"
+          },
+          "node": {
+            "__ref__": 2
+          },
+          "_mesh": {
+            "__uuid__": "7e0d00cd-e958-4d76-b418-a3e8130166a2@2e7eb"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "fileId": "25wLfdiclUP7c3hRzlHC31",
+        "instance": null,
+        "targetOverrides": null,
+        "nestedPrefabInstanceRoots": null,
+        "root": {
+          "__ref__": 1
+        },
+        "asset": {
+          "__ref__": 0
+        }
+      },
+      "_lrot": {
+        "__type__": "cc.Quat",
+        "x": 6.123234262925839e-17,
+        "y": 1,
+        "z": 6.123234262925839e-17,
+        "w": 3.7493993930529855e-33
+      },
+      "_euler": {
+        "__type__": "cc.Vec3",
+        "x": -7.0167096047110005e-15,
+        "y": -180,
+        "z": 7.0167096047110005e-15
+      }
+    }
+  ]
+}

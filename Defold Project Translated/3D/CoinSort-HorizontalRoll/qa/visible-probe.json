@@ -1,0 +1,144 @@
+{
+  "state": {
+    "active": 1,
+    "phase": "playing",
+    "ended": false,
+    "render_frames": 190,
+    "camera": {
+      "y": 500,
+      "x": 540,
+      "zoom": 1.75
+    },
+    "time": 3.2511329450645,
+    "viewport": {
+      "w": 1280,
+      "h": 800
+    },
+    "levels": [
+      {
+        "rotations": [
+          0,
+          0,
+          0
+        ],
+        "offsets": [
+          0,
+          1,
+          2
+        ],
+        "locked": false,
+        "rows": 3,
+        "objective": 2,
+        "cleared": 0
+      },
+      {
+        "rotations": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "offsets": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "locked": true,
+        "rows": 4,
+        "objective": 3,
+        "cleared": 0
+      },
+      {
+        "rotations": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "offsets": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "locked": true,
+        "rows": 5,
+        "objective": 0,
+        "cleared": 0
+      }
+    ],
+    "jar": {
+      "y": 745,
+      "x": 540,
+      "visible": false,
+      "lid": 0,
+      "offset": 0
+    },
+    "moves": 0
+  },
+  "logs": [
+    {
+      "type": "log",
+      "text": "Running..."
+    },
+    {
+      "type": "log",
+      "text": ""
+    },
+    {
+      "type": "log",
+      "text": "INFO:DLIB: Log server started on port 0\n"
+    },
+    {
+      "type": "log",
+      "text": "INFO:GRAPHICS: Installed graphics device 'ADAPTER_FAMILY_OPENGL'\n"
+    },
+    {
+      "type": "log",
+      "text": "INFO:ENGINE: Defold Engine 1.14.0 (d295ed4)\n"
+    },
+    {
+      "type": "log",
+      "text": "%c    %c    Made with Defold    %c    %c    https://www.defold.com background: #fd6623; padding:5px 0; border: 5px; background: #272c31; color: #fafafa; padding:5px 0; background: #39a3e4; padding:5px 0; background: #ffffff; color: #000000; padding:5px 0;"
+    },
+    {
+      "type": "log",
+      "text": "INFO:PROFILER: Skipped ProfilerJS profiler due to setting profiler.performance_timeline_enabled\n"
+    },
+    {
+      "type": "log",
+      "text": "INFO:ENGINE: Loading data from: archive:game.dmanifest\n"
+    },
+    {
+      "type": "log",
+      "text": "INFO:SOUND: Info\n"
+    },
+    {
+      "type": "log",
+      "text": "INFO:SOUND:   nSamplesPerSec:   48000\n"
+    },
+    {
+      "type": "log",
+      "text": "INFO:SOUND:   DSP backend: Fallback\n"
+    },
+    {
+      "type": "log",
+      "text": "INFO:SOUND: Sound\n"
+    },
+    {
+      "type": "log",
+      "text": "INFO:SOUND:        useThread:   0\n"
+    },
+    {
+      "type": "log",
+      "text": "INFO:ENGINE: Initialised sound device 'default'\n"
+    },
+    {
+      "type": "log",
+      "text": "INFO:PHYSICS: Created physics context: Box2D v2.2.1\n"
+    }
+  ]
+}

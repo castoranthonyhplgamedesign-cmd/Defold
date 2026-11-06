@@ -1,0 +1,117 @@
+taps during pour
+rotate → 1080×1920@1
+rotate → 1920×1080@1
+swipe hint (160, 790) → (273, 790)
+tap picture (cut: counts, cuts nothing)
+swipe hint (297, 790) → (447, 790)
+random swipe (4 points)
+idle 10 s
+tap picture (cut: counts, cuts nothing)
+resize → 412×915@2.625
+wait 466
+swipe hint (547, 790) → (697, 790)
+rotate mid-swipe → 915×412@2.625
+swipe across a rotation
+rotate → 412×915@2.625
+tap picture (cut: counts, cuts nothing)
+swipe hint (720, 790) → (870, 790)
+swipe hint (422, 790) → (572, 790)
+swipe hint (807, 703) → (920, 703)
+wait 226
+random swipe (4 points)
+burst ×6
+swipe hint (210, 703) → (360, 703)
+swipe hint (633, 703) → (783, 703)
+swipe from outside
+wait 599
+swipe hint (383, 703) → (533, 703)
+hidden (state play)
+rotate mid-swipe → 915×412@2.625
+swipe across a rotation
+tap picture (cut: counts, cuts nothing)
+swipe hint (508, 703) → (658, 703)
+swipe below the picture
+rotate → 412×915@2.625
+random swipe (2 points)
+wait 353
+tap picture (cut: counts, cuts nothing)
+rotate → 915×412@2.625
+hidden (state play)
+wait 423
+wait 395
+burst ×6
+random swipe (2 points)
+burst ×7
+swipe hint (160, 193) → (273, 193)
+swipe hint (297, 193) → (447, 193)
+wait 171
+rotate → 412×915@2.625
+wait 251
+random swipe (2 points)
+swipe from outside
+resize → 1024×768@1
+random swipe (4 points)
+burst ×3
+swipe hint (633, 193) → (783, 193)
+swipe hint (465, 193) → (615, 193)
+swipe below the picture
+random swipe (3 points)
+wait 47
+random swipe (4 points)
+wait 558
+hidden (state play)
+rotate → 768×1024@1
+random swipe (4 points)
+random swipe (2 points)
+hidden (state play)
+resize → 844×390@3
+rotate → 390×844@3
+rotate mid-swipe → 844×390@3
+swipe across a rotation
+random swipe (4 points)
+wait 70
+random swipe (3 points)
+random swipe (3 points)
+resize → 360×640@2
+wait 25
+random swipe (2 points)
+random swipe (2 points)
+resize → 1280×720@1
+random swipe (4 points)
+random swipe (4 points)
+tap picture (cut: counts, cuts nothing)
+swipe below the picture
+wait 123
+wait 41
+hidden (state play)
+random swipe (3 points)
+random swipe (3 points)
+random swipe (3 points)
+wait 99
+random swipe (4 points)
+resize → 412×915@2.625
+rotate mid-swipe → 915×412@2.625
+swipe across a rotation
+rotate → 412×915@2.625
+swipe below the picture
+rotate mid-swipe → 915×412@2.625
+swipe across a rotation
+tap picture (cut: counts, cuts nothing)
+swipe below the picture
+tap picture (cut: counts, cuts nothing)
+swipe hint (720, 193) → (870, 193)
+random swipe (3 points)
+swipe hint (210, 193) → (360, 193)
+tap picture (cut: counts, cuts nothing)
+burst ×6
+swipe hint (547, 193) → (697, 193)
+hidden (state play)
+swipe hint (383, 193) → (533, 193)
+rotate mid-swipe → 412×915@2.625
+swipe across a rotation
+hidden (state play)
+resize → 960×540@2
+rotate → 540×960@2
+wait 437
+rotate on end card → 960×540@2
+rotate on end card → 540×960@2

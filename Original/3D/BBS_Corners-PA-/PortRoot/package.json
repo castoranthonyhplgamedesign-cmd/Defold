@@ -1,0 +1,41 @@
+{
+  "name": "wide-u-babylon-playable",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "Build:PLEC": "node scripts/build-all.mjs --dist-subdir PLEC --networks un",
+    "build:all": "node scripts/build-all.mjs",
+    "compress:audio": "node scripts/compress-audio.mjs",
+    "optimize:images": "node scripts/optimize-images.mjs",
+    "generate:models": "node scripts/extract-fbx-models.mjs",
+    "smoke:models": "node scripts/model-smoke.mjs",
+    "smoke:colors": "node scripts/color-smoke.mjs",
+    "smoke:drag": "node scripts/drag-smoke.mjs",
+    "smoke:framing": "node scripts/framing-smoke.mjs",
+    "smoke:responsive": "node scripts/responsive-smoke.mjs",
+    "smoke:full-clear": "node scripts/full-clear-smoke.mjs",
+    "smoke:hints": "node scripts/hint-smoke.mjs",
+    "smoke:iterations": "node scripts/iteration-smoke.mjs",
+    "smoke:submit": "node scripts/submit-smoke.mjs",
+    "qa:cta": "node scripts/cta-qa.mjs",
+    "qa:analytics": "node scripts/cta-qa.mjs",
+    "typecheck": "tsc --noEmit",
+    "validate:dist": "node scripts/validate-output.mjs"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^8.0.0",
+    "@babylonjs/loaders": "^8.0.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^24.0.0",
+    "lamejs": "^1.2.1",
+    "sharp": "^0.35.0",
+    "typescript": "^5.8.0",
+    "vite": "^6.0.0",
+    "vite-plugin-singlefile": "^2.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+images { image: "/assets/images/map-bg.png" }
+images { image: "/assets/images/character-bg.png" }
+images { image: "/assets/images/clue-bg.png" }
+images { image: "/assets/images/drop-circle.png" }
+images { image: "/assets/images/error.png" }
+images { image: "/assets/images/logo.png" }
+images { image: "/assets/images/tutorial-hand.png" }
+images { image: "/assets/images/Aisha.png" }
+images { image: "/assets/images/Maya.png" }
+images { image: "/assets/images/Ahmose.png" }
+images { image: "/assets/images/Nefertiti.png" }
+images { image: "/assets/images/Merneptah.png" }
+images { image: "/assets/images/Khasekhemwy.png" }
+margin: 0
+extrude_borders: 2
+inner_padding: 0

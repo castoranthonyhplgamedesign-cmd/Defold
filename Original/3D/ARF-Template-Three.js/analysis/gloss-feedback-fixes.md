@@ -1,0 +1,23 @@
+# Container texture, gloss, belt synchronization and blocked overlay
+
+## Changes
+
+- **Confirmed source asset:** the reference `Tunnel` material uses texture `861de519-e294-42c3-b5b2-078cbbc1b8e3`, with `USE_ALBEDO_MAP` enabled (`analysis/evidence/materials.json`, Tunnel entry; serialized material `4926a9c4-be5c-4068-89f7-6df7ccc45f6b.json`). The previous implementation discarded the model UVs and substituted a flat gray material.
+- **Confirmed implementation:** `scripts/prepare-assets.mjs` now retains both container meshes' original UVs and converts the 512 x 512 baked PNG to a 10,444-byte WebP. `src/render/geometry.ts` loads those attributes. `src/render/scene.ts` applies the embedded sRGB texture, with `flipY=false`, to the shell and base, waits for it before the first frame, and disposes it with the scene. No external asset request or decoder was added.
+- **Authored gloss adjustment:** all solid 3D surfaces share MeshPhysicalMaterial settings: roughness .22, metalness 0, clearcoat 1, clearcoat roughness .12. This includes arrow segments/insets, cannons, containers, conveyor rails/surface and projectiles. The faded chevrons remain transparent 2D decals. Existing bright lighting is retained. These gloss values implement the user's requested appearance; they are not measured Cocos shader equivalents.
+- **Confirmed implementation:** `src/render/conveyorGuides.ts` advances path progress using the same `motionTuning.conveyorSpeed` as the simulation: 15 units/s. Direction follows the existing corrected tangent. Guides use the paused gameplay visual clock. They match freely moving conveyor blocks; spacing constraints can still slow blocks independently while the belt continues moving.
+- **Authored blocked-feedback addition:** `src/render/board.ts` adds a red overlay to every head/body segment while its existing blocked feedback is active. The overlay uses the original mesh, position, yaw and scale; original colored meshes remain underneath. The red material is #ff2020 at .7 opacity, with depth testing and polygon offset to avoid coplanar flicker. It disappears when the existing animation returns. No obstruction rules, occupancy, feedback duration, sound or launch timing changed. At most two additional instanced draws are needed while feedback is visible.
+
+## Validation
+
+- 45 unit tests pass, including UV validity and a new blocked-overlay test covering every segment, pose following, retained underlying meshes, unchanged occupancy and complete removal after return.
+- TypeScript and preview build pass. Preview HTML is 2,574,626 bytes, 36,606 bytes larger than the previous preview (about 1.44%).
+- All eight network outputs rebuilt and passed package/static checks; raw HTML stays below 2.58 MB and the 4 MB common budget. Exact raw and ZIP sizes are in `analysis/evidence/network-builds.json`.
+- Muted Chromium native mouse and emulated touch gameplay checks pass: blocked return, accepted launch, six matching shots, unmatched circulation, rotation, context restoration and input ownership. Evidence: `analysis/evidence/milestone-4-gameplay-browser.json` and `analysis/screenshots/milestone-4/`.
+- Visual fixture: `node analysis/experiments/ui-audit-capture.mjs gloss-feedback`. Captures and measurements are in `analysis/screenshots/gloss-feedback/` and `analysis/evidence/gloss-feedback-browser.json`. It checks guide travel at .1, .5 and 6 seconds (including wraparound), forward orientation, world padding and endcard bounds across seven viewports. The blocked capture deliberately holds a real feedback pose; 75% fullness and endcard presentation are also fixture-forced. They are not recordings of those states reached through normal gameplay.
+- All seven viewport checks passed (720x1280, 390x844, 844x390, 768x1024, 360x640, 320x932, 430x932). Maximum guide-position error was 0.00000042 world units from float matrix storage; no page errors or external requests occurred.
+- All eight actual packaged builds passed muted Chromium checks with mocked host callbacks: boot, media events, portrait/landscape resize, deliberate CTA and host pause. Evidence: `analysis/evidence/delivery-browser.json`. These checks do not establish audibility or official host acceptance.
+
+## Limits
+
+Original-reference runtime equivalence remains **Unknown**. The texture's source is confirmed and its current mapping was visually inspected, but gloss and red feedback are user-requested adaptations. Physical iPhone/iPad/Android rendering, audibility and official host acceptance remain unverified. Clearcoat adds shading work; this pass does not establish device FPS or resolve the earlier software-renderer performance shortfall.

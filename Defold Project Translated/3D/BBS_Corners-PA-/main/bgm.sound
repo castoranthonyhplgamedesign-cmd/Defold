@@ -1,0 +1,6 @@
+sound: "/assets/bgm.wav"
+looping: 1
+group: "master"
+gain: 1
+pan: 0
+speed: 1

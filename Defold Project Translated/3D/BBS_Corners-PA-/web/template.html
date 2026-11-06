@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+<meta name="network" content="local">
+<link rel="icon" type="image/png" href="icon.png">
+<link rel="apple-touch-icon" href="icon.png">
+<meta name="application-name" content="{{project.title}}">
+<title>{{project.title}}</title>
+<style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#cde1f1;touch-action:none;user-select:none}
+#app-container,#canvas-container{position:absolute;inset:0;width:100%;height:100%}
+#canvas{display:block;width:100%;height:100%;outline:0}
+#loading{position:absolute;inset:0;display:grid;place-content:center;color:#303195;font:600 18px Arial,sans-serif;pointer-events:none}
+{{{DEFOLD_CUSTOM_CSS_INLINE}}}
+</style>
+<script>
+(function(){
+  const params=new URLSearchParams(location.search);
+  const valid=['full','4clicks','30seconds'];
+  const iteration=valid.includes(params.get('iteration'))?params.get('iteration'):'full';
+  let hidden=document.hidden,exposed=true,volume=100,ended=false,started=false,lastCTA=-Infinity;
+  const events=[],calls=[];
+  const local=/^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+  const network=params.get('network')||'dev';
+  const safe=(obj,key,...args)=>{if(obj&&typeof obj[key]==='function'){obj[key](...args);return true}return false};
+  for(const name of ['gameReady','gameStart','gameEnd','gameClose']) if(typeof window[name]!=='function')window[name]=function(){};
+  const bridge=window.BBSBridge={events,calls,
+    config:name=>name==='iteration'?iteration:(params.get(name)||''),
+    state:()=>hidden||!exposed?'paused':volume===0?'muted':'active',
+    volume:()=>Math.max(0,Math.min(1,volume/100)),
+    event:name=>{events.push(name);safe(window.ALPlayableAnalytics,'trackEvent',name)||safe(window.playableSDK,'reportEvent',name)},
+    start:()=>{if(!started){started=true;window.gameStart()}},
+    end:()=>{if(!ended){ended=true;window.gameEnd()}},
+    cta:()=>{
+      const now=performance.now();if(now-lastCTA<350)return;lastCTA=now;
+      calls.push({type:'cta',time:now});window.gameClose();
+      if(local&&params.get('sdk')!=='1')return;
+      const url=/iPad|iPhone|iPod/.test(navigator.userAgent)?'https://apps.apple.com/us/app/block-buster-no-timer/id6745272388':'https://play.google.com/store/apps/details?id=com.block.away';
+      if(typeof ExitApi!=='undefined'&&typeof ExitApi.exit==='function'){ExitApi.exit();return}
+      if(safe(window.FbPlayableAd,'onCTAClick'))return;
+      if(safe(window.Luna?.Unity?.Playable,'InstallFullGame','https://apps.apple.com/us/app/block-buster-no-timer/id6745272388','https://play.google.com/store/apps/details?id=com.block.away'))return;
+      if(safe(window.playableSDK,'openAppStore'))return;
+      if(safe(window,'install')||safe(window,'openAppStore'))return;
+      if(window.clickTag){window.open(window.clickTag);return}
+      if(window.__VUNGLE__){window.parent.postMessage('download','*');return}
+      if(window.mraid&&typeof mraid.open==='function'&&(typeof mraid.getState!=='function'||mraid.getState()!=='loading')){mraid.open(url);return}
+      window.open(url,'_blank');
+    },
+    ready:()=>new Promise(resolve=>{
+      const begin=()=>{document.getElementById('loading').textContent='Loading {{project.title}}…';resolve()};
+      let done=false;
+      const setup=()=>{
+        if(done)return;done=true;
+        const m=window.mraid;
+        if(m&&typeof m.addEventListener==='function'){
+          try{
+            if(typeof m.isViewable==='function')exposed=m.isViewable();
+            m.addEventListener('error',(message,action)=>console.warn('[MRAID]',message,action));
+            m.addEventListener('stateChange',()=>{});
+            m.addEventListener('exposureChange',pct=>exposed=pct>0);
+            m.addEventListener('viewableChange',value=>exposed=value);
+            m.addEventListener('audioVolumeChange',pct=>{if(typeof pct==='number')volume=pct});
+          }catch(e){console.warn('[MRAID setup]',e)}
+        }
+        begin();
+      };
+      const inspect=()=>{const m=window.mraid;if(!m)return false;if(typeof m.getState==='function'&&m.getState()==='loading'&&typeof m.addEventListener==='function')m.addEventListener('ready',setup);else setup();return true};
+      const startedAt=performance.now();
+      const poll=setInterval(()=>{if(inspect()||performance.now()-startedAt>500){clearInterval(poll);if(!window.mraid)setup()}},25);
+      setTimeout(()=>{clearInterval(poll);setup()},2000);
+    })
+  };
+  document.addEventListener('visibilitychange',()=>hidden=document.hidden);
+  for(const name of ['luna:pause','ad-event-pause'])window.addEventListener(name,()=>exposed=false);
+  for(const name of ['luna:resume','ad-event-resume'])window.addEventListener(name,()=>exposed=true);
+  window.addEventListener('luna:mute',()=>volume=0);window.addEventListener('luna:unmute',()=>volume=100);
+  window.addEventListener('message',e=>{if(e.data==='onPause')exposed=false;else if(e.data==='onResume')exposed=true});
+  document.querySelector('meta[name=network]').content=network;
+  if(['al','is','un'].includes(network)&&!local){const s=document.createElement('script');s.src='mraid.js';document.head.appendChild(s)}
+  if(network==='gg'&&!local){const s=document.createElement('script');s.src='https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js';document.head.appendChild(s)}
+  if(network==='vu')window.__VUNGLE__=true;
+})();
+</script>
+</head><body>
+<div id="app-container" class="canvas-app-container"><div id="canvas-container" class="canvas-app-canvas-container"><canvas id="canvas" tabindex="1" width="{{display.width}}" height="{{display.height}}"></canvas></div></div>
+<div id="loading">Loading {{project.title}}…</div>
+<script id="engine-loader" src="dmloader.js"></script>
+<script id="engine-setup">
+CUSTOM_PARAMETERS.start_success=function(){document.getElementById('loading').style.display='none'};
+CUSTOM_PARAMETERS.start_error=function(error){document.getElementById('loading').textContent='Unable to start: '+error};
+</script>
+<script id="engine-start">BBSBridge.ready().then(function(){EngineLoader.load('canvas','{{exe-name}}');window.gameReady();setTimeout(function(){document.getElementById('loading').style.display='none'},1000)});</script>
+</body></html>

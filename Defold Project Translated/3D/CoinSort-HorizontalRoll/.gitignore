@@ -1,0 +1,7 @@
+/tools/reference/
+/tools/constants.generated.mjs
+/build/
+/.internal/
+/local-publish/
+/qa/browser-profile/
+/__pycache__/

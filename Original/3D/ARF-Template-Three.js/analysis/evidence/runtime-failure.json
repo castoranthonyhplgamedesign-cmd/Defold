@@ -1,0 +1,34 @@
+{
+  "status": "Unknown: reference did not load",
+  "timestamp": "2026-10-22T02:59:13.905Z",
+  "error": "Error: browserContext.newPage: Target page, context or browser has been closed",
+  "attempts": [
+    "Playwright Chromium headless shell 1228 with chromiumSandbox:true: GPU exit -1073741515; browser exit 3221225477",
+    "Installed Chrome with chromiumSandbox:true: page creation failed",
+    "Installed Chrome with sandbox and in-process SwiftShader: browser exit 3221225477",
+    "Chromium 1243 with chromiumSandbox:true and disabled GPU: page creation failed",
+    "Firefox 1538 fallback: incompatible page creation, _page undefined"
+  ],
+  "screenshots": 0,
+  "referenceRequests": 0,
+  "metrics": null,
+  "requestedViewports": [
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      360,
+      640
+    ]
+  ],
+  "networkPolicy": "Only synthetic reference.invalid document fulfilled from copy; all other HTTP(S) aborted, WebSockets closed, service workers blocked, audio muted"
+}

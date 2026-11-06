@@ -1,0 +1,457 @@
+[
+  {
+    "label": "tap / full clear / bucket and end-card cues",
+    "pass": true,
+    "elapsedMs": 56637,
+    "taps": 26,
+    "buckets": 31,
+    "audio": {
+      "unlocked": true,
+      "hostMuted": false,
+      "muted": false,
+      "gameplayFinished": true,
+      "channels": {
+        "bgm": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.014576000161468983,
+          "starts": 1
+        },
+        "sfx-conveyor": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.8999999761581421,
+          "starts": 1
+        },
+        "sfx-cut": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.003485714318230748,
+          "starts": 14
+        },
+        "sfx-sand": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.0036428573075681925,
+          "starts": 13
+        },
+        "sfx-click": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.800000011920929,
+          "starts": 26
+        },
+        "sfx-woosh": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.550000011920929,
+          "starts": 31
+        },
+        "sfx-bells": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.8999999761581421,
+          "starts": 31
+        },
+        "sfx-win": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 2
+        },
+        "sfx-endcard": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 1
+        },
+        "sfx-cta": {
+          "playing": 1,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.8999999761581421,
+          "starts": 2
+        },
+        "sfx-fail": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        }
+      }
+    }
+  },
+  {
+    "label": "swipe / silent invalid input / held stroke / time end",
+    "pass": true,
+    "elapsedMs": 16544,
+    "heldSamples": 60,
+    "bucketsBeforeEnding": 1,
+    "audio": {
+      "unlocked": true,
+      "hostMuted": false,
+      "muted": false,
+      "gameplayFinished": true,
+      "channels": {
+        "bgm": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.014527999795973301,
+          "starts": 1
+        },
+        "sfx-conveyor": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.8999999761581421,
+          "starts": 1
+        },
+        "sfx-cut": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.00342857139185071,
+          "starts": 2
+        },
+        "sfx-sand": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.04049643129110336,
+          "starts": 2
+        },
+        "sfx-click": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.800000011920929,
+          "starts": 2
+        },
+        "sfx-woosh": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.550000011920929,
+          "starts": 4
+        },
+        "sfx-bells": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.8999999761581421,
+          "starts": 4
+        },
+        "sfx-win": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 2
+        },
+        "sfx-endcard": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 1
+        },
+        "sfx-cta": {
+          "playing": 1,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.8999999761581421,
+          "starts": 2
+        },
+        "sfx-fail": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        }
+      }
+    }
+  },
+  {
+    "label": "host mute / overlapping pauses / audio overrides",
+    "pass": true,
+    "elapsedMs": 2225,
+    "audio": {
+      "unlocked": true,
+      "hostMuted": true,
+      "muted": true,
+      "gameplayFinished": false,
+      "channels": {
+        "bgm": {
+          "playing": 1,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.12300000339746475,
+          "starts": 1
+        },
+        "sfx-conveyor": {
+          "playing": 1,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.2199999988079071,
+          "starts": 1
+        },
+        "sfx-cut": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-sand": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-click": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-woosh": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-bells": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-win": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-endcard": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-cta": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-fail": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 1,
+          "starts": 0
+        }
+      }
+    }
+  },
+  {
+    "label": "MUTE keeps gameplay and CTA silent",
+    "pass": true,
+    "elapsedMs": 3698,
+    "audio": {
+      "unlocked": true,
+      "hostMuted": false,
+      "muted": true,
+      "gameplayFinished": true,
+      "channels": {
+        "bgm": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-conveyor": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-cut": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.800000011920929,
+          "starts": 0
+        },
+        "sfx-sand": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.8500000238418579,
+          "starts": 0
+        },
+        "sfx-click": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-woosh": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-bells": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-win": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-endcard": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-cta": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-fail": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        }
+      }
+    }
+  },
+  {
+    "label": "danger alarm only on a real jam",
+    "pass": true,
+    "elapsedMs": 13363,
+    "endReason": "jam",
+    "audio": {
+      "unlocked": true,
+      "hostMuted": false,
+      "muted": false,
+      "gameplayFinished": true,
+      "channels": {
+        "bgm": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.004879999905824661,
+          "starts": 1
+        },
+        "sfx-conveyor": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.8999999761581421,
+          "starts": 1
+        },
+        "sfx-cut": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.0381714291870594,
+          "starts": 2
+        },
+        "sfx-sand": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.0405571423470974,
+          "starts": 2
+        },
+        "sfx-click": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.800000011920929,
+          "starts": 2
+        },
+        "sfx-woosh": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-bells": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        },
+        "sfx-win": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 2
+        },
+        "sfx-endcard": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 1
+        },
+        "sfx-cta": {
+          "playing": 1,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.8999999761581421,
+          "starts": 2
+        },
+        "sfx-fail": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.4000000059604645,
+          "starts": 1
+        }
+      }
+    }
+  }
+]

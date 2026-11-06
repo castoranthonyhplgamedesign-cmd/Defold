@@ -1,0 +1,45 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Material",
+      "_name": "ExplosionTexture",
+      "_techIdx": 1,
+      "_states": [
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        },
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        }
+      ],
+      "_defines": [
+        {},
+        {}
+      ],
+      "_props": [
+        {
+          "mainTexture": {
+            "__uuid__": "06a43fb3-29ec-448c-aa1c-459ab909d025@6c48a"
+          }
+        },
+        {}
+      ],
+      "_effectAsset": {
+        "__uuid__": "d1346436-ac96-4271-b863-1f4fdead95b0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-27T09:28:38.931Z",
+  "tests": {
+    "playable": 86,
+    "legacyEditor": 22,
+    "typecheck": "pass"
+  },
+  "browser": {
+    "rescue": "pass",
+    "longarrow": "pass",
+    "pageErrors": [],
+    "externalRequests": []
+  },
+  "sources": [
+    {
+      "file": "C:/Users/nobzunar/Downloads/New folder (3)/ARF, MIP, rescue mascot/Conveyor bridge.glb",
+      "sha256": "ea883eb48c630c7bb50a6160ac2f552bb25d8e241360ee3565a6f0a95b6f0d74",
+      "unchanged": true
+    },
+    {
+      "file": "C:/Users/nobzunar/Downloads/New folder (3)/Longarrow_Bigclear Assets/Conveyor.glb",
+      "sha256": "774c68e83f84c3ec0c06cc9ee919d1cea82d7453d74be2901d039e62b87320d8",
+      "unchanged": true
+    }
+  ],
+  "rescue": {
+    "vertices": 61680,
+    "triangles": 45112,
+    "conveyorJsonBytes": 2715936,
+    "htmlBytes": 5325040,
+    "packaging": "blocked by unchanged 4000000-byte cap"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-27T09:26:13.504Z",
+  "result": "pass",
+  "errors": [],
+  "external": [],
+  "checks": [
+    "actual supplied GLB automatic belt and same-node frame selection",
+    "whisker artwork included with separate belt and frame colors",
+    "default Advanced collapsed",
+    "apply and history",
+    "draw arrows and place cannon",
+    "export/reload",
+    "native-input Three preview clear"
+  ]
+}

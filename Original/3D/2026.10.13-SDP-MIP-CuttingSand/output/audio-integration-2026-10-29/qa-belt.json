@@ -1,0 +1,48 @@
+[
+  {
+    "label": "tap / belt-only sand / clip restart and natural release",
+    "pass": true,
+    "elapsedMs": 14875,
+    "firstBelt": {
+      "funnel": 0,
+      "loose": 0,
+      "transport": 441,
+      "starts": 1
+    },
+    "lastBelt": {
+      "elapsedMs": 10801,
+      "funnel": 0,
+      "loose": 0,
+      "transport": 6,
+      "starts": 4,
+      "playing": 1
+    },
+    "longestBeltMs": 10801,
+    "samples": 133,
+    "restartVerified": true,
+    "release": "naturally drained"
+  },
+  {
+    "label": "cut / belt-only sand / clip restart and natural release",
+    "pass": true,
+    "elapsedMs": 15678,
+    "firstBelt": {
+      "funnel": 0,
+      "loose": 0,
+      "transport": 817,
+      "starts": 1
+    },
+    "lastBelt": {
+      "elapsedMs": 10825,
+      "funnel": 0,
+      "loose": 0,
+      "transport": 5,
+      "starts": 4,
+      "playing": 1
+    },
+    "longestBeltMs": 10825,
+    "samples": 134,
+    "restartVerified": true,
+    "release": "naturally drained"
+  }
+]

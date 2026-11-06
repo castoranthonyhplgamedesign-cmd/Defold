@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-27T06:37:32.633Z",
+  "result": "pass",
+  "errors": [],
+  "checks": [
+    "automatic horizontal snapping",
+    "live modifier guides without pointer movement",
+    "Alt bypass",
+    "Shift diagonal constraint",
+    "point undo/redo",
+    "neighbor alignment during corner drag",
+    "release-time bypass",
+    "corner Shift constraint",
+    "cancel preserves level"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "at": "2026-10-29T15:25:37.575Z",
+  "browser": "156.0.8078.49",
+  "audio": "muted",
+  "lightingInvariant": true,
+  "results": [
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "drawCalls": 41,
+      "samples": [
+        {
+          "hidden": false,
+          "centerHood": [
+            18,
+            20,
+            32
+          ],
+          "leftHood": [
+            18,
+            20,
+            33
+          ],
+          "centerEdge": [
+            19,
+            20,
+            31
+          ],
+          "warning": [
+            134,
+            43,
+            68
+          ]
+        },
+        {
+          "hidden": true,
+          "centerHood": [
+            18,
+            20,
+            32
+          ],
+          "leftHood": [
+            18,
+            20,
+            33
+          ],
+          "centerEdge": [
+            19,
+            20,
+            31
+          ],
+          "warning": [
+            59,
+            63,
+            104
+          ]
+        }
+      ]
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "drawCalls": 41,
+      "mask": true
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "drawCalls": 41,
+      "mask": true
+    },
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "drawCalls": 41,
+      "mask": true
+    }
+  ],
+  "errors": []
+}

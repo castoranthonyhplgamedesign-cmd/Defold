@@ -1,0 +1,8 @@
+{
+  "name": "Sand Slice",
+  "packageName": "Sand-Slice",
+  "executable": "SandSlice",
+  "icon": "assets/branding/icon.png",
+  "logo": "assets/images/endcard-logo.png",
+  "description": "Slice colorful sand and fill matching buckets."
+}

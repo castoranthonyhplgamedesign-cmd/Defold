@@ -1,0 +1,37 @@
+{
+  "assets": [
+    {
+      "name": "select",
+      "source": "analysis/assets/native/15d47550-97fa-4cfd-a531-44b4408bfd88.wav",
+      "output": "src/assets/audio/select.wav",
+      "bytes": 28482,
+      "sha256": "b41f4f85651960c73bc02a7ed5d323310d4305c40dc72c54bf176ef6863f8328",
+      "conversion": "None; byte-identical supplied PCM WAV"
+    },
+    {
+      "name": "wrong",
+      "source": "analysis/assets/native/f7f2f9b5-b3a2-4066-96b7-f22e35c2815d.wav",
+      "output": "src/assets/audio/wrong.wav",
+      "bytes": 184398,
+      "sha256": "f6979fbcc2103c65905619ce61c9f0cb4af964edc8f1df7673f5af6b150705b5",
+      "conversion": "None; byte-identical supplied PCM WAV"
+    },
+    {
+      "name": "shoot",
+      "source": "analysis/assets/native/f971e4e6-90a4-4fd2-b90f-3411411a8a14.wav",
+      "output": "src/assets/audio/shoot.wav",
+      "bytes": 13354,
+      "sha256": "5e55cd0c7a331bad35309c7bb9068a95d98b13fea6256d5d2c58308e6a84cb6e",
+      "conversion": "None; byte-identical supplied PCM WAV"
+    },
+    {
+      "name": "slidey",
+      "source": "analysis/assets/native/e6060c36-4a3f-41eb-be39-82f3cde65b43.wav",
+      "output": "src/assets/audio/slidey.wav",
+      "bytes": 125168,
+      "sha256": "9b8612aec5e070337a7e0c38d35ddacce7df3be49f0739bba2b88b6226c22f2a",
+      "conversion": "None; byte-identical supplied PCM WAV"
+    }
+  ],
+  "totalBytes": 351402
+}

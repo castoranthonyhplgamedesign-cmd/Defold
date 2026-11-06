@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "loopback CTA suppression",
+    "SDK priority",
+    "loading MRAID fallback",
+    "ready MRAID open",
+    "null and numeric host volume",
+    "exposure pause",
+    "viewability resume",
+    "luna mute/unmute",
+    "message pause/resume"
+  ]
+}

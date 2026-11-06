@@ -1,0 +1,13 @@
+﻿{
+    "name":  "Sand Slice",
+    "icon":  {
+                 "path":  "assets/branding/icon.png",
+                 "source":  "assets/branding/icon-source.png",
+                 "method":  "Built-in image_gen; resized to 512x512 for the app icon",
+                 "prompt":  "Create one polished mobile puzzle game app icon for a game called Sand Slice, with NO text, NO letters, NO numbers. Square 1:1 composition. A large satisfying cube of kinetic sand with vivid layered rainbow stripes (purple, blue, cyan, green, yellow, orange and coral), a clean diagonal slice separating a small section, soft individual grain texture and rounded beveled edges. A small shiny white cutting spatula makes the slice, readable silhouette. Playful premium casual game 3D rendering, candy-colored coral-pink backdrop, subtle purple shadow, bright soft studio lighting. Rounded-square app tile filling the image, bold central composition, generous safe padding for small-size recognition. No logos or watermark. This is a new replacement app icon for the user\u0027s local game project."
+             },
+    "logo":  {
+                 "path":  "assets/images/endcard-logo.png",
+                 "method":  "New SAND / SLICE wordmark rendered with the original Nunito Black font, white border and purple shadow; replaces the original Sand Drop logo by user request."
+             }
+}

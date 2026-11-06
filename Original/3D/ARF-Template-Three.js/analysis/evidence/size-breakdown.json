@@ -1,0 +1,27 @@
+{
+  "htmlBytes": 2523475,
+  "categories": {
+    "application/octet-stream": {
+      "count": 1,
+      "decodedBytes": 933388,
+      "embeddedBytes": 1244557
+    },
+    "image/webp": {
+      "count": 7,
+      "decodedBytes": 165872,
+      "embeddedBytes": 221333
+    },
+    "audio/wav": {
+      "count": 4,
+      "decodedBytes": 351402,
+      "embeddedBytes": 468628
+    },
+    "font/ttf": {
+      "count": 1,
+      "decodedBytes": 26828,
+      "embeddedBytes": 35793
+    }
+  },
+  "engineGameMarkupStylesBytes": 553164,
+  "note": "Exact embedded URI bytes; remaining bytes combine minified Three.js, game code, data, markup and CSS, not an independently measured Three-only cost."
+}

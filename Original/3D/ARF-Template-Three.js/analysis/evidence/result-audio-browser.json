@@ -1,0 +1,79 @@
+{
+  "at": "2026-10-29T16:22:50.308Z",
+  "browser": "156.0.8078.49",
+  "muted": true,
+  "method": "Native press then controlled clear/timeout; actual overload failure; hide before completion; win ended before store opens; editor import and preview",
+  "results": [
+    {
+      "reason": "clear",
+      "win": {
+        "requests": 1,
+        "playing": 1,
+        "duration": 1.814308,
+        "volume": 0.15,
+        "paused": true
+      },
+      "fail": {
+        "requests": 0,
+        "playing": 0,
+        "duration": 1.417167,
+        "volume": 0.15,
+        "paused": true
+      },
+      "redirects": [
+        {
+          "at": 7016.899999976158,
+          "winRequestedAt": 4770.600000023842,
+          "winEndedAt": 6636
+        }
+      ]
+    },
+    {
+      "reason": "timeout",
+      "win": {
+        "requests": 0,
+        "playing": 0,
+        "duration": 1.814308,
+        "volume": 0.15,
+        "paused": true
+      },
+      "fail": {
+        "requests": 0,
+        "playing": 0,
+        "duration": 1.417167,
+        "volume": 0.15,
+        "paused": true
+      },
+      "redirects": [
+        {
+          "at": 2232.399999976158
+        }
+      ]
+    },
+    {
+      "reason": "fail",
+      "win": {
+        "requests": 0,
+        "playing": 0,
+        "duration": 1.814308,
+        "volume": 0.15,
+        "paused": true
+      },
+      "fail": {
+        "requests": 1,
+        "playing": 1,
+        "duration": 1.417167,
+        "volume": 0.15,
+        "paused": false,
+        "endcardAtRequest": false,
+        "reasonAtRequest": "fail"
+      },
+      "redirects": [
+        {
+          "at": 4154.399999976158
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

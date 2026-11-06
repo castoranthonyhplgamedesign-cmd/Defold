@@ -1,0 +1,4 @@
+sound: "/assets/audio/Jar.ogg"
+looping: 0
+gain: 0.68
+group: "master"

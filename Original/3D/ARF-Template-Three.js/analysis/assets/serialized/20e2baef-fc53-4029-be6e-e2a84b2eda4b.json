@@ -1,0 +1,65 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "Projectile",
+      "data": {
+        "__ref__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Projectile",
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "_name": "Sphere<ModelComponent>",
+          "__prefab": {
+            "__type__": "cc.CompPrefabInfo",
+            "fileId": "b4WU4UgHxAhodQefaWO2lg"
+          },
+          "_materials": [
+            {
+              "__uuid__": "33571c70-4717-43de-a8b9-ef588495362a"
+            }
+          ],
+          "bakeSettings": {
+            "__type__": "cc.ModelBakeSettings"
+          },
+          "node": {
+            "__ref__": 1
+          },
+          "_mesh": {
+            "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@17020"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "fileId": "35eWlgEPBOwKLZaw8MJyn0",
+        "instance": null,
+        "targetOverrides": null,
+        "nestedPrefabInstanceRoots": null,
+        "asset": {
+          "__ref__": 0
+        },
+        "root": {
+          "__ref__": 1
+        }
+      },
+      "_lpos": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0.75,
+        "z": 0.75
+      },
+      "_lscale": {
+        "__type__": "cc.Vec3",
+        "x": 0.75,
+        "y": 0.75,
+        "z": 0.75
+      }
+    }
+  ]
+}

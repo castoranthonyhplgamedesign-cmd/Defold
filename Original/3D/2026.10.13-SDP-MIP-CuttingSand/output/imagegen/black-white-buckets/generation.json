@@ -1,0 +1,50 @@
+{
+  "tool": "Built-in image_gen",
+  "notes": "New black and pure-white variants matching the current v2 bucket style, each with a separate lid-only sprite. Existing originals preserved.",
+  "assets": [
+    {
+      "key": "black-v2",
+      "kind": "open bucket",
+      "width": 145,
+      "height": 118,
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-55450767-da46-4a13-a5e8-0c38caed2463.png",
+      "masterFile": "bucket-black-v2-master.png",
+      "exportFile": "bucket-black-v2.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-black-v2.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: ONE transparent PNG open bucket game sprite for the Cutting Sand bucket family.\nInput image: the existing red open bucket v2 sprite. Use it as the exact geometry, silhouette, perspective and simple mobile-game shading reference.\nPrimary request: change ONLY its color to BLACK. Keep the same shape, view angle, corner roundness, proportions, smooth gradients and restrained highlights. This is a new sibling color variant in the same asset family.\nPalette: neutral near-black plastic with a slightly lighter charcoal rim; not navy, not brown, not gray overall. Inner cavity approximately #090909; outer front wall approximately #161616.\nSubject: a SINGLE OPEN bucket. Short squat rounded-square plastic tub with its visible shallow interior, thin smooth highlighted lip, short mildly tapered front wall and rounded bottom corners. Same width-to-height ratio145:118 as the reference. No lid. The inside of the cavity remains opaque colored plastic; it is not a transparent cutout. No handles.\nComposition: exactly one complete bucket centered, fully visible and uncropped, with a small even transparent margin around it. The front is blank.\nBackground: real transparent alpha zero outside the object, clean antialiased silhouette, no colored fringes or detached flecks.\nText: none. No numbers, no 800, no symbols.\nAvoid: additional objects, lids, closed buckets, handles, knobs, latches, floor, cast shadow, background glow, particles, checkerboard pattern, text, logo or watermark. Preserve the reference design exactly and change only the color."
+    },
+    {
+      "key": "white-v2",
+      "kind": "open bucket",
+      "width": 145,
+      "height": 118,
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-1c3d7b14-a7ed-40b6-9f40-5eb81785371a.png",
+      "masterFile": "bucket-white-v2-master.png",
+      "exportFile": "bucket-white-v2.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-white-v2.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: ONE transparent PNG open bucket game sprite for the Cutting Sand bucket family.\nInput image: the existing red open bucket v2 sprite. Use it as the exact geometry, silhouette, perspective and simple mobile-game shading reference.\nPrimary request: change ONLY its color to WHITE. Keep the same shape, view angle, corner roundness, proportions, smooth gradients and restrained highlights. This is a new sibling color variant in the same asset family.\nPalette: clean pure neutral white plastic with very subtle light gray shading (#E9E9E9) only to describe the rim and edges; not cream, ivory, beige or yellow. Inner cavity approximately #FAFAFA; outer front wall approximately #FFFFFF.\nSubject: a SINGLE OPEN bucket. Short squat rounded-square plastic tub with its visible shallow interior, thin smooth highlighted lip, short mildly tapered front wall and rounded bottom corners. Same width-to-height ratio145:118 as the reference. No lid. The inside of the cavity remains opaque colored plastic; it is not a transparent cutout. No handles.\nComposition: exactly one complete bucket centered, fully visible and uncropped, with a small even transparent margin around it. The front is blank.\nBackground: real transparent alpha zero outside the object, clean antialiased silhouette, no colored fringes or detached flecks.\nText: none. No numbers, no 800, no symbols.\nAvoid: additional objects, lids, closed buckets, handles, knobs, latches, floor, cast shadow, background glow, particles, checkerboard pattern, text, logo or watermark. Preserve the reference design exactly and change only the color."
+    },
+    {
+      "key": "black-v2-lid",
+      "kind": "lid only",
+      "width": 145,
+      "height": 50,
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-74e44eeb-6f4d-4eb7-93e1-e0181fd48bcb.png",
+      "masterFile": "bucket-black-v2-lid-master.png",
+      "exportFile": "bucket-black-v2-lid.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-black-v2-lid.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: ONE transparent PNG lid only game sprite for the Cutting Sand bucket family.\nInput image: the existing separate red lid-only v2 sprite. Use it as the exact geometry, silhouette, perspective and simple mobile-game shading reference.\nPrimary request: change ONLY its color to BLACK. Keep the same shape, view angle, corner roundness, proportions, smooth gradients and restrained highlights. This is a new sibling color variant in the same asset family.\nPalette: neutral black solid top with restrained slightly lighter charcoal edge highlights; not navy or brown. Solid top face approximately #181818; thin visible edge approximately #161616.\nSubject: a SINGLE SEPARATE LID ONLY. One thin solid rounded-rectangle plastic cap, seen slightly from above, broad smooth flat top, shallow thin front lip. Same wide squat silhouette as the reference. No bucket body underneath it, no container, no bowl, no open interior. Width-to-height about145:50.\nComposition: exactly one complete lid centered, fully visible and uncropped, with a small even transparent margin around it. The front is blank.\nBackground: real transparent alpha zero outside the object, clean antialiased silhouette, no colored fringes or detached flecks.\nText: none. No numbers, no 800, no symbols.\nAvoid: additional objects, bucket bodies, full closed buckets, storage boxes, deep walls, open cavities, handles, knobs, latches, floor, cast shadow, background glow, particles, checkerboard pattern, text, logo or watermark. Preserve the reference design exactly and change only the color."
+    },
+    {
+      "key": "white-v2-lid",
+      "kind": "lid only",
+      "width": 145,
+      "height": 50,
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-5c2b1ee0-387a-43bd-a1bd-e20f21f44c66.png",
+      "masterFile": "bucket-white-v2-lid-master.png",
+      "exportFile": "bucket-white-v2-lid.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-white-v2-lid.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: ONE transparent PNG lid only game sprite for the Cutting Sand bucket family.\nInput image: the existing separate red lid-only v2 sprite. Use it as the exact geometry, silhouette, perspective and simple mobile-game shading reference.\nPrimary request: change ONLY its color to WHITE. Keep the same shape, view angle, corner roundness, proportions, smooth gradients and restrained highlights. This is a new sibling color variant in the same asset family.\nPalette: pure neutral white solid top with subtle cool light-gray edge (#E9E9E9); not cream, ivory, beige or yellow. Solid top face approximately #FFFFFF; thin visible edge approximately #F3F3F3.\nSubject: a SINGLE SEPARATE LID ONLY. One thin solid rounded-rectangle plastic cap, seen slightly from above, broad smooth flat top, shallow thin front lip. Same wide squat silhouette as the reference. No bucket body underneath it, no container, no bowl, no open interior. Width-to-height about145:50.\nComposition: exactly one complete lid centered, fully visible and uncropped, with a small even transparent margin around it. The front is blank.\nBackground: real transparent alpha zero outside the object, clean antialiased silhouette, no colored fringes or detached flecks.\nText: none. No numbers, no 800, no symbols.\nAvoid: additional objects, bucket bodies, full closed buckets, storage boxes, deep walls, open cavities, handles, knobs, latches, floor, cast shadow, background glow, particles, checkerboard pattern, text, logo or watermark. Preserve the reference design exactly and change only the color."
+    }
+  ]
+}

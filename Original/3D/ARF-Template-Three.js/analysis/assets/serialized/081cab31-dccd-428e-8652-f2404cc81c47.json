@@ -1,0 +1,29 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Material",
+      "_name": "default-trail-material",
+      "_props": [
+        {}
+      ],
+      "_states": [
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        }
+      ],
+      "_defines": [
+        {}
+      ],
+      "_effectAsset": {
+        "__uuid__": "17debcc3-0a6b-4b8a-b00b-dc58b885581e"
+      }
+    }
+  ]
+}

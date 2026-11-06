@@ -1,0 +1,1163 @@
+{
+  "testedAt": "2026-10-30T02:54:33.243Z",
+  "browser": "153.0.8010.12",
+  "scope": "Actual packaged files with controlled host callbacks, blocked external requests and muted output. Not an official host validator.",
+  "results": [
+    {
+      "network": "applovin",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_al.html",
+      "loadMs": 1349,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    },
+    {
+      "network": "facebook",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_fb.html",
+      "loadMs": 4198,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "fb"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "google",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_gg.zip",
+      "loadMs": 4153,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "gg"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"
+      ]
+    },
+    {
+      "network": "ironsource",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_is.html",
+      "loadMs": 1276,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    },
+    {
+      "network": "mintegral",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_mtg.zip",
+      "loadMs": 3653,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mtg"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "moloco",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_mo.html",
+      "loadMs": 4313,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "fb"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "unity",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_un.html",
+      "loadMs": 1226,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    },
+    {
+      "network": "vungle",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_vu.zip",
+      "loadMs": 4903,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "post",
+          "download",
+          "*"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "applovin",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_al.html",
+      "loadMs": 1422,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    },
+    {
+      "network": "facebook",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_fb.html",
+      "loadMs": 4759,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "fb"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "google",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_gg.zip",
+      "loadMs": 4462,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "gg"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"
+      ]
+    },
+    {
+      "network": "ironsource",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_is.html",
+      "loadMs": 1225,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    },
+    {
+      "network": "mintegral",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_mtg.zip",
+      "loadMs": 3758,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mtg"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "moloco",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_mo.html",
+      "loadMs": 4266,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "fb"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "unity",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_un.html",
+      "loadMs": 1216,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    },
+    {
+      "network": "vungle",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_vu.zip",
+      "loadMs": 4319,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "post",
+          "download",
+          "*"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "applovin",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_al.html",
+      "loadMs": 1230,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    },
+    {
+      "network": "facebook",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_fb.html",
+      "loadMs": 4348,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "fb"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "google",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_gg.zip",
+      "loadMs": 4778,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "gg"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"
+      ]
+    },
+    {
+      "network": "ironsource",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_is.html",
+      "loadMs": 1272,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 8,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    },
+    {
+      "network": "mintegral",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_mtg.zip",
+      "loadMs": 3937,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mtg"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "moloco",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_mo.html",
+      "loadMs": 4656,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "fb"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "unity",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_un.html",
+      "loadMs": 1285,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    },
+    {
+      "network": "vungle",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_vu.zip",
+      "loadMs": 4670,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "post",
+          "download",
+          "*"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "applovin",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_al.html",
+      "loadMs": 1386,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    },
+    {
+      "network": "facebook",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_fb.html",
+      "loadMs": 4749,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "fb"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "google",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_gg.zip",
+      "loadMs": 5104,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "gg"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"
+      ]
+    },
+    {
+      "network": "ironsource",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_is.html",
+      "loadMs": 1336,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    },
+    {
+      "network": "mintegral",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_mtg.zip",
+      "loadMs": 3947,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mtg"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "moloco",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_mo.html",
+      "loadMs": 4149,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "fb"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    },
+    {
+      "network": "unity",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_un.html",
+      "loadMs": 1222,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    },
+    {
+      "network": "vungle",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_vu.zip",
+      "loadMs": 4256,
+      "media": {
+        "voices": 35,
+        "requests": 7,
+        "playing": 7,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167
+        ]
+      },
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "post",
+          "download",
+          "*"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/"
+      ]
+    }
+  ]
+}

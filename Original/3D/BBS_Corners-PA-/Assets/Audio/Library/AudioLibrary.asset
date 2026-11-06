@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 300ab585a29dd9044ac9e2dc4b1e6a3f, type: 3}
+  m_Name: AudioLibrary
+  m_EditorClassIdentifier: 
+  clips:
+  - key: BgMusic
+    channel: 0
+    clip: {fileID: 8300000, guid: 69218d4db68b77a4f9ee85bf91553663, type: 3}
+    volume: 0.2
+    loop: 1
+  - key: Drag
+    channel: 1
+    clip: {fileID: 8300000, guid: d21c2ff46c6b6a244b7c7760a5ae16cd, type: 3}
+    volume: 1
+    loop: 0
+  - key: Drop
+    channel: 1
+    clip: {fileID: 8300000, guid: a0eb4790d6d31ce478be60280dc72b5d, type: 3}
+    volume: 1
+    loop: 0
+  - key: Crumple
+    channel: 1
+    clip: {fileID: 8300000, guid: 0e8d9948b4da25446acc0162aa357db6, type: 3}
+    volume: 1
+    loop: 0
+  - key: Success
+    channel: 1
+    clip: {fileID: 8300000, guid: 49460361182435e479f90d3bccd6c65b, type: 3}
+    volume: 1
+    loop: 0

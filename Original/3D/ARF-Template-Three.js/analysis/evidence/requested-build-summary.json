@@ -1,0 +1,23 @@
+{
+  "builtAt": "2026-10-30T02:44:43.692Z",
+  "lengths": [
+    "3clicks",
+    "10clicks",
+    "60seconds",
+    "full"
+  ],
+  "packages": 32,
+  "htmlMax": 3884348,
+  "zipMin": 1528579,
+  "zipMax": 1528662,
+  "compiledLimitsVerified": true,
+  "includesIdleHintSeconds": 3.5,
+  "excluded": [
+    "90seconds"
+  ],
+  "standalonePreviewArchived": "analysis/build/standalone-before-2026-10-30-delivery.html",
+  "browserPackagesPassed": 32,
+  "browserScope": "Actual packaged files with controlled host callbacks, blocked external requests and muted output. Not an official host validator.",
+  "physicalDevices": "unverified",
+  "officialHosts": "unverified"
+}

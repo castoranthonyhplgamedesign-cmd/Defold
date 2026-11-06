@@ -1,0 +1,457 @@
+[
+  {
+    "idle": 0,
+    "id": 51,
+    "color": "blue",
+    "blocks": 4,
+    "launch": "accepted",
+    "joined": [
+      {
+        "index": 0,
+        "time": 0.25
+      },
+      {
+        "index": 1,
+        "time": 0.417
+      },
+      {
+        "index": 2,
+        "time": 0.683
+      },
+      {
+        "index": 3,
+        "time": 0.817
+      }
+    ],
+    "hits": [
+      {
+        "index": 0,
+        "time": 0.317
+      },
+      {
+        "index": 1,
+        "time": 0.483
+      },
+      {
+        "index": 2,
+        "time": 10.65
+      },
+      {
+        "index": 3,
+        "time": 10.783
+      }
+    ],
+    "ammo": [
+      {
+        "color": "purple",
+        "ammo": 11,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      },
+      {
+        "color": "purple",
+        "ammo": 5,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      },
+      {
+        "color": "purple",
+        "ammo": 9,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      }
+    ],
+    "ended": null,
+    "remaining": []
+  },
+  {
+    "idle": 0.25,
+    "id": 51,
+    "color": "blue",
+    "blocks": 4,
+    "launch": "accepted",
+    "joined": [
+      {
+        "index": 0,
+        "time": 0.3
+      },
+      {
+        "index": 1,
+        "time": 0.467
+      },
+      {
+        "index": 2,
+        "time": 0.733
+      },
+      {
+        "index": 3,
+        "time": 0.867
+      }
+    ],
+    "hits": [
+      {
+        "index": 0,
+        "time": 0.367
+      },
+      {
+        "index": 1,
+        "time": 0.533
+      },
+      {
+        "index": 2,
+        "time": 10.7
+      },
+      {
+        "index": 3,
+        "time": 10.833
+      }
+    ],
+    "ammo": [
+      {
+        "color": "purple",
+        "ammo": 11,
+        "reserved": 0,
+        "recoil": 11.833333333333304
+      },
+      {
+        "color": "purple",
+        "ammo": 5,
+        "reserved": 0,
+        "recoil": 11.833333333333304
+      },
+      {
+        "color": "purple",
+        "ammo": 9,
+        "reserved": 0,
+        "recoil": 11.833333333333304
+      }
+    ],
+    "ended": null,
+    "remaining": []
+  },
+  {
+    "idle": 0.5,
+    "id": 51,
+    "color": "blue",
+    "blocks": 4,
+    "launch": "accepted",
+    "joined": [
+      {
+        "index": 0,
+        "time": 0.25
+      },
+      {
+        "index": 1,
+        "time": 0.417
+      },
+      {
+        "index": 2,
+        "time": 0.683
+      },
+      {
+        "index": 3,
+        "time": 0.817
+      }
+    ],
+    "hits": [
+      {
+        "index": 0,
+        "time": 0.317
+      },
+      {
+        "index": 1,
+        "time": 0.483
+      },
+      {
+        "index": 2,
+        "time": 10.65
+      },
+      {
+        "index": 3,
+        "time": 10.783
+      }
+    ],
+    "ammo": [
+      {
+        "color": "purple",
+        "ammo": 11,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      },
+      {
+        "color": "purple",
+        "ammo": 5,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      },
+      {
+        "color": "purple",
+        "ammo": 9,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      }
+    ],
+    "ended": null,
+    "remaining": []
+  },
+  {
+    "idle": 1,
+    "id": 51,
+    "color": "blue",
+    "blocks": 4,
+    "launch": "accepted",
+    "joined": [
+      {
+        "index": 0,
+        "time": 0.25
+      },
+      {
+        "index": 1,
+        "time": 0.417
+      },
+      {
+        "index": 2,
+        "time": 0.683
+      },
+      {
+        "index": 3,
+        "time": 0.817
+      }
+    ],
+    "hits": [
+      {
+        "index": 0,
+        "time": 0.317
+      },
+      {
+        "index": 1,
+        "time": 0.483
+      },
+      {
+        "index": 2,
+        "time": 10.65
+      },
+      {
+        "index": 3,
+        "time": 10.783
+      }
+    ],
+    "ammo": [
+      {
+        "color": "purple",
+        "ammo": 11,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      },
+      {
+        "color": "purple",
+        "ammo": 5,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      },
+      {
+        "color": "purple",
+        "ammo": 9,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      }
+    ],
+    "ended": null,
+    "remaining": []
+  },
+  {
+    "idle": 2,
+    "id": 51,
+    "color": "blue",
+    "blocks": 4,
+    "launch": "accepted",
+    "joined": [
+      {
+        "index": 0,
+        "time": 0.25
+      },
+      {
+        "index": 1,
+        "time": 0.417
+      },
+      {
+        "index": 2,
+        "time": 0.683
+      },
+      {
+        "index": 3,
+        "time": 0.817
+      }
+    ],
+    "hits": [
+      {
+        "index": 0,
+        "time": 0.317
+      },
+      {
+        "index": 1,
+        "time": 0.483
+      },
+      {
+        "index": 2,
+        "time": 10.65
+      },
+      {
+        "index": 3,
+        "time": 10.783
+      }
+    ],
+    "ammo": [
+      {
+        "color": "purple",
+        "ammo": 11,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      },
+      {
+        "color": "purple",
+        "ammo": 5,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      },
+      {
+        "color": "purple",
+        "ammo": 9,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      }
+    ],
+    "ended": null,
+    "remaining": []
+  },
+  {
+    "idle": 3,
+    "id": 51,
+    "color": "blue",
+    "blocks": 4,
+    "launch": "accepted",
+    "joined": [
+      {
+        "index": 0,
+        "time": 0.25
+      },
+      {
+        "index": 1,
+        "time": 0.417
+      },
+      {
+        "index": 2,
+        "time": 0.683
+      },
+      {
+        "index": 3,
+        "time": 0.817
+      }
+    ],
+    "hits": [
+      {
+        "index": 0,
+        "time": 0.317
+      },
+      {
+        "index": 1,
+        "time": 0.483
+      },
+      {
+        "index": 2,
+        "time": 10.65
+      },
+      {
+        "index": 3,
+        "time": 10.783
+      }
+    ],
+    "ammo": [
+      {
+        "color": "purple",
+        "ammo": 11,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      },
+      {
+        "color": "purple",
+        "ammo": 5,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      },
+      {
+        "color": "purple",
+        "ammo": 9,
+        "reserved": 0,
+        "recoil": 11.783333333333307
+      }
+    ],
+    "ended": null,
+    "remaining": []
+  },
+  {
+    "idle": 5,
+    "id": 51,
+    "color": "blue",
+    "blocks": 4,
+    "launch": "accepted",
+    "joined": [
+      {
+        "index": 0,
+        "time": 0.3
+      },
+      {
+        "index": 1,
+        "time": 0.483
+      },
+      {
+        "index": 2,
+        "time": 0.75
+      },
+      {
+        "index": 3,
+        "time": 0.883
+      }
+    ],
+    "hits": [
+      {
+        "index": 0,
+        "time": 0.367
+      },
+      {
+        "index": 1,
+        "time": 0.55
+      },
+      {
+        "index": 2,
+        "time": 10.7
+      },
+      {
+        "index": 3,
+        "time": 10.833
+      }
+    ],
+    "ammo": [
+      {
+        "color": "purple",
+        "ammo": 11,
+        "reserved": 0,
+        "recoil": 11.833333333333304
+      },
+      {
+        "color": "purple",
+        "ammo": 5,
+        "reserved": 0,
+        "recoil": 11.833333333333304
+      },
+      {
+        "color": "purple",
+        "ammo": 9,
+        "reserved": 0,
+        "recoil": 11.833333333333304
+      }
+    ],
+    "ended": null,
+    "remaining": []
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "tool": "Built-in image_gen",
+  "reference": "User screenshot's plain blush-pink backdrop only",
+  "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-5d8784ec-aecf-4b43-bb90-ce1be7683f1b.png",
+  "masterFile": "background-pink-master.png",
+  "exportFile": "background-pink.png",
+  "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/background/background-pink.png",
+  "width": 2000,
+  "height": 2000,
+  "opaque": true,
+  "notes": "Added as a separate asset; exported to match the existing square background canvas. Generated master retained.",
+  "prompt": "Use case: stylized-concept.\nAsset type: a plain 2D background texture for a portrait mobile sand-sorting game.\nReference image: the user's latest screenshot showing a pink game background behind a white sand frame and buckets. Use ONLY its pink backdrop as the visual and color reference.\nPrimary request: recreate only the empty soft pastel blush-pink background from that screenshot as a separate full-bleed background image. The entire canvas must be uninterrupted pink background, with ALL game objects and UI removed.\nColor and shading: very pale warm blush pink toward the upper area (approximately #FFE1E9), gently transitioning to muted dusty rose-pink toward the bottom (approximately #EABCC8). Extremely soft subtle broad ambient light, slightly lighter at the upper center and a touch darker along lower edges. Keep the screenshot's restrained low-contrast smooth pink field. No strong glow or high-contrast vignette. Smooth gentle gradient, no visible gradient bands, no patterns or brush strokes.\nComposition: portrait 9:16, completely empty edge-to-edge background texture. Opaque RGB image, no transparency, no borders or margins.\nCritical exclusions: NO sand frame, white outlines, sand, stripes, sand picture, grains, shovel, conveyor, buckets, lids, shadows from objects, coin, score, number, level heading, reset/settings buttons, text, logos, watermark, UI, characters or recognizable objects. No floor/horizon, scenery, fabric, paper texture or decorations. Only the clean pink background."
+}

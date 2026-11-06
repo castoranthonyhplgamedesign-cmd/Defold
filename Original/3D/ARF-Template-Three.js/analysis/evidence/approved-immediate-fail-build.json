@@ -1,0 +1,20 @@
+{
+  "builtAt": "2026-10-30T03:37:00.325Z",
+  "packages": 32,
+  "variants": [
+    "3clicks",
+    "10clicks",
+    "60seconds",
+    "full"
+  ],
+  "excluded": [
+    "90seconds"
+  ],
+  "largestHTML": 3884221,
+  "zipRange": [
+    1528498,
+    1528546
+  ],
+  "immediateFailVerified": true,
+  "idleHint": 3.5
+}

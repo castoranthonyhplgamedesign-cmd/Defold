@@ -1,0 +1,64 @@
+{
+  "at": "2026-10-30T01:02:12.129Z",
+  "muted": true,
+  "productionSelectorRemoved": true,
+  "results": [
+    {
+      "variant": "(default)",
+      "duration": 60,
+      "tapLimit": "none",
+      "started": false,
+      "taps": 0
+    },
+    {
+      "variant": "3clicks",
+      "duration": "unlimited",
+      "tapLimit": 3,
+      "started": false,
+      "taps": 0
+    },
+    {
+      "variant": "10clicks",
+      "duration": "unlimited",
+      "tapLimit": 10,
+      "started": false,
+      "taps": 0
+    },
+    {
+      "variant": "60sec",
+      "duration": 60,
+      "tapLimit": "none",
+      "started": false,
+      "taps": 0
+    },
+    {
+      "variant": "90sec",
+      "duration": 90,
+      "tapLimit": "none",
+      "started": false,
+      "taps": 0
+    },
+    {
+      "variant": "60seconds",
+      "duration": 60,
+      "tapLimit": "none",
+      "started": false,
+      "taps": 0
+    },
+    {
+      "variant": "90seconds",
+      "duration": 90,
+      "tapLimit": "none",
+      "started": false,
+      "taps": 0
+    },
+    {
+      "variant": "invalid",
+      "duration": 60,
+      "tapLimit": "none",
+      "started": false,
+      "taps": 0
+    }
+  ],
+  "errors": []
+}

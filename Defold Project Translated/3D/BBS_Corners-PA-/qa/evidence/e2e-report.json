@@ -1,0 +1,54 @@
+{
+  "timestamp": "2026-11-06T14:50:48.762Z",
+  "tests": [
+    {
+      "name": "startup: 56 bricks and no automatic CTA",
+      "passed": true
+    },
+    {
+      "name": "background/header presses do not count",
+      "passed": true
+    },
+    {
+      "name": "matching gate submits during drag",
+      "passed": true
+    },
+    {
+      "name": "blocked drag cannot tunnel through occupied cells or bounds",
+      "passed": true
+    },
+    {
+      "name": "rotation preserves state and board fits four viewports",
+      "passed": true
+    },
+    {
+      "name": "four-click mode ends on fourth brick press and redirects once",
+      "passed": true
+    },
+    {
+      "name": "timer starts on first brick input and pauses with lifecycle",
+      "passed": true
+    },
+    {
+      "name": "30-second mode reaches its end card and redirects",
+      "passed": true
+    },
+    {
+      "name": "CTA prioritizes Google ExitApi over Facebook",
+      "passed": true
+    },
+    {
+      "name": "full-clear: all 56 bricks removed with real pointer input; win emits once and waits for CTA",
+      "passed": true,
+      "details": {
+        "drags": 88
+      }
+    },
+    {
+      "name": "no runtime errors or external requests",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "externalRequests": []
+}

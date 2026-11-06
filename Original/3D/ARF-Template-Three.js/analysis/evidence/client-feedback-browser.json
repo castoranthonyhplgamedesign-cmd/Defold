@@ -1,0 +1,2210 @@
+{
+  "at": "2026-11-03T05:12:58.929Z",
+  "audio": "muted",
+  "results": [
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "opening": {
+        "caption": {
+          "x": 16,
+          "y": 24,
+          "width": 288,
+          "height": 53.75,
+          "right": 304,
+          "bottom": 77.75,
+          "hidden": false,
+          "dismissed": false,
+          "opacity": 1,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 48.99372482299805,
+            "y": 126.6273193359375,
+            "width": 9.97030258178711,
+            "height": 19.09320068359375,
+            "right": 58.964027404785156,
+            "bottom": 145.72052001953125,
+            "hidden": false,
+            "text": "4",
+            "aria": "blue cannon: 4 shots remaining"
+          },
+          {
+            "x": 49.872161865234375,
+            "y": 90.5473861694336,
+            "width": 7.989467620849609,
+            "height": 15.910514831542969,
+            "right": 57.861629486083984,
+            "bottom": 106.45790100097656,
+            "hidden": false,
+            "text": "6",
+            "aria": "6 reserve cannons"
+          },
+          {
+            "x": 155.89297485351562,
+            "y": 126.62599182128906,
+            "width": 8.73736572265625,
+            "height": 19.09320068359375,
+            "right": 164.63034057617188,
+            "bottom": 145.7191925048828,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 156.1230010986328,
+            "y": 90.54863739013672,
+            "width": 7.28057861328125,
+            "height": 15.910507202148438,
+            "right": 163.40357971191406,
+            "bottom": 106.45914459228516,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 253.3921661376953,
+            "y": 126.62732696533203,
+            "width": 9.420822143554688,
+            "height": 19.09320831298828,
+            "right": 262.81298828125,
+            "bottom": 145.7205352783203,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 254.35760498046875,
+            "y": 90.54737854003906,
+            "width": 7.28057861328125,
+            "height": 15.910514831542969,
+            "right": 261.63818359375,
+            "bottom": 106.45789337158203,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0,
+        "ammo": 4
+      },
+      "loading": {
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "hidden": true,
+          "dismissed": true,
+          "opacity": 0,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 45.71693420410156,
+            "y": 100.77816009521484,
+            "width": 16.35543441772461,
+            "height": 19.09320831298828,
+            "right": 62.07236862182617,
+            "bottom": 119.87136840820312,
+            "hidden": false,
+            "text": "16",
+            "aria": "red cannon: 16 shots remaining"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0,
+            "hidden": true,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 155.89297485351562,
+            "y": 126.62599182128906,
+            "width": 8.73736572265625,
+            "height": 19.09320068359375,
+            "right": 164.63034057617188,
+            "bottom": 145.7191925048828,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 156.1230010986328,
+            "y": 90.54863739013672,
+            "width": 7.28057861328125,
+            "height": 15.910507202148438,
+            "right": 163.40357971191406,
+            "bottom": 106.45914459228516,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 253.3921661376953,
+            "y": 126.62732696533203,
+            "width": 9.420822143554688,
+            "height": 19.09320831298828,
+            "right": 262.81298828125,
+            "bottom": 145.7205352783203,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 254.35760498046875,
+            "y": 90.54737854003906,
+            "width": 7.28057861328125,
+            "height": 15.910514831542969,
+            "right": 261.63818359375,
+            "bottom": 106.45789337158203,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0.3,
+        "ammo": 16
+      },
+      "firingAmmo": 9
+    },
+    {
+      "viewport": [
+        568,
+        320
+      ],
+      "opening": {
+        "caption": {
+          "x": 24,
+          "y": 24,
+          "width": 520,
+          "height": 22.390625,
+          "right": 544,
+          "bottom": 46.390625,
+          "hidden": false,
+          "dismissed": false,
+          "opacity": 1,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 222.56671142578125,
+            "y": 77.01686096191406,
+            "width": 5.5177764892578125,
+            "height": 10.566596984863281,
+            "right": 228.08448791503906,
+            "bottom": 87.58345794677734,
+            "hidden": false,
+            "text": "4",
+            "aria": "blue cannon: 4 shots remaining"
+          },
+          {
+            "x": 223.0528564453125,
+            "y": 57.04944610595703,
+            "width": 4.421539306640625,
+            "height": 8.805221557617188,
+            "right": 227.47439575195312,
+            "bottom": 65.85466766357422,
+            "hidden": false,
+            "text": "6",
+            "aria": "6 reserve cannons"
+          },
+          {
+            "x": 281.7270812988281,
+            "y": 77.01612854003906,
+            "width": 4.83544921875,
+            "height": 10.566596984863281,
+            "right": 286.5625305175781,
+            "bottom": 87.58272552490234,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 281.8543701171875,
+            "y": 57.05013656616211,
+            "width": 4.02923583984375,
+            "height": 8.805225372314453,
+            "right": 285.88360595703125,
+            "bottom": 65.85536193847656,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 335.6852722167969,
+            "y": 77.0168685913086,
+            "width": 5.21368408203125,
+            "height": 10.566596984863281,
+            "right": 340.8989562988281,
+            "bottom": 87.58346557617188,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 336.21954345703125,
+            "y": 57.0494384765625,
+            "width": 4.02923583984375,
+            "height": 8.805229187011719,
+            "right": 340.248779296875,
+            "bottom": 65.85466766357422,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0,
+        "ammo": 4
+      },
+      "loading": {
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "hidden": true,
+          "dismissed": true,
+          "opacity": 0,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 220.75326538085938,
+            "y": 62.71138000488281,
+            "width": 9.05145263671875,
+            "height": 10.56658935546875,
+            "right": 229.80471801757812,
+            "bottom": 73.27796936035156,
+            "hidden": false,
+            "text": "16",
+            "aria": "red cannon: 16 shots remaining"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0,
+            "hidden": true,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 281.7270812988281,
+            "y": 77.01612854003906,
+            "width": 4.83544921875,
+            "height": 10.566596984863281,
+            "right": 286.5625305175781,
+            "bottom": 87.58272552490234,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 281.8543701171875,
+            "y": 57.05013656616211,
+            "width": 4.02923583984375,
+            "height": 8.805225372314453,
+            "right": 285.88360595703125,
+            "bottom": 65.85536193847656,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 335.6852722167969,
+            "y": 77.0168685913086,
+            "width": 5.21368408203125,
+            "height": 10.566596984863281,
+            "right": 340.8989562988281,
+            "bottom": 87.58346557617188,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 336.21954345703125,
+            "y": 57.0494384765625,
+            "width": 4.02923583984375,
+            "height": 8.805229187011719,
+            "right": 340.248779296875,
+            "bottom": 65.85466766357422,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0.3,
+        "ammo": 16
+      },
+      "firingAmmo": 9
+    },
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "opening": {
+        "caption": {
+          "x": 18,
+          "y": 24,
+          "width": 324,
+          "height": 53.75,
+          "right": 342,
+          "bottom": 77.75,
+          "hidden": false,
+          "dismissed": false,
+          "opacity": 1,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 51.55209732055664,
+            "y": 133.0485076904297,
+            "width": 11.536865234375,
+            "height": 22.093185424804688,
+            "right": 63.08896255493164,
+            "bottom": 155.14169311523438,
+            "hidden": false,
+            "text": "4",
+            "aria": "blue cannon: 4 shots remaining"
+          },
+          {
+            "x": 52.56855392456055,
+            "y": 91.29959869384766,
+            "width": 9.244796752929688,
+            "height": 18.410415649414062,
+            "right": 61.813350677490234,
+            "bottom": 109.71001434326172,
+            "hidden": false,
+            "text": "6",
+            "aria": "6 reserve cannons"
+          },
+          {
+            "x": 175.24766540527344,
+            "y": 133.04698181152344,
+            "width": 10.110214233398438,
+            "height": 22.093170166015625,
+            "right": 185.35787963867188,
+            "bottom": 155.14015197753906,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 175.5138397216797,
+            "y": 91.30104064941406,
+            "width": 8.424514770507812,
+            "height": 18.410415649414062,
+            "right": 183.9383544921875,
+            "bottom": 109.71145629882812,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 288.06622314453125,
+            "y": 133.04852294921875,
+            "width": 10.90106201171875,
+            "height": 22.093185424804688,
+            "right": 298.96728515625,
+            "bottom": 155.14170837402344,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 289.183349609375,
+            "y": 91.2995834350586,
+            "width": 8.424530029296875,
+            "height": 18.410423278808594,
+            "right": 297.6078796386719,
+            "bottom": 109.71000671386719,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0,
+        "ammo": 4
+      },
+      "loading": {
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "hidden": true,
+          "dismissed": true,
+          "opacity": 0,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 47.76044845581055,
+            "y": 103.13786315917969,
+            "width": 18.925243377685547,
+            "height": 22.093177795410156,
+            "right": 66.6856918334961,
+            "bottom": 125.23104095458984,
+            "hidden": false,
+            "text": "16",
+            "aria": "red cannon: 16 shots remaining"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0,
+            "hidden": true,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 175.24766540527344,
+            "y": 133.04698181152344,
+            "width": 10.110214233398438,
+            "height": 22.093170166015625,
+            "right": 185.35787963867188,
+            "bottom": 155.14015197753906,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 175.5138397216797,
+            "y": 91.30104064941406,
+            "width": 8.424514770507812,
+            "height": 18.410415649414062,
+            "right": 183.9383544921875,
+            "bottom": 109.71145629882812,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 288.06622314453125,
+            "y": 133.04852294921875,
+            "width": 10.90106201171875,
+            "height": 22.093185424804688,
+            "right": 298.96728515625,
+            "bottom": 155.14170837402344,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 289.183349609375,
+            "y": 91.2995834350586,
+            "width": 8.424530029296875,
+            "height": 18.410423278808594,
+            "right": 297.6078796386719,
+            "bottom": 109.71000671386719,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0.3,
+        "ammo": 16
+      },
+      "firingAmmo": 9
+    },
+    {
+      "viewport": [
+        640,
+        360
+      ],
+      "opening": {
+        "caption": {
+          "x": 24,
+          "y": 24,
+          "width": 592,
+          "height": 22.390625,
+          "right": 616,
+          "bottom": 46.390625,
+          "hidden": false,
+          "dismissed": false,
+          "opacity": 1,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 248.87692260742188,
+            "y": 80.58419036865234,
+            "width": 6.388092041015625,
+            "height": 12.233253479003906,
+            "right": 255.2650146484375,
+            "bottom": 92.81744384765625,
+            "hidden": false,
+            "text": "4",
+            "aria": "blue cannon: 4 shots remaining"
+          },
+          {
+            "x": 249.4397430419922,
+            "y": 57.46733856201172,
+            "width": 5.1189422607421875,
+            "height": 10.194061279296875,
+            "right": 254.55868530273438,
+            "bottom": 67.6613998413086,
+            "hidden": false,
+            "text": "6",
+            "aria": "6 reserve cannons"
+          },
+          {
+            "x": 317.36859130859375,
+            "y": 80.58334350585938,
+            "width": 5.598114013671875,
+            "height": 12.233253479003906,
+            "right": 322.9667053222656,
+            "bottom": 92.81659698486328,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 317.5159606933594,
+            "y": 57.468135833740234,
+            "width": 4.664764404296875,
+            "height": 10.19406509399414,
+            "right": 322.18072509765625,
+            "bottom": 67.66220092773438,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 379.8375244140625,
+            "y": 80.58419799804688,
+            "width": 6.0360107421875,
+            "height": 12.233253479003906,
+            "right": 385.87353515625,
+            "bottom": 92.81745147705078,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 380.4560852050781,
+            "y": 57.46733474731445,
+            "width": 4.664764404296875,
+            "height": 10.19405746459961,
+            "right": 385.120849609375,
+            "bottom": 67.66139221191406,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0,
+        "ammo": 4
+      },
+      "loading": {
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "hidden": true,
+          "dismissed": true,
+          "opacity": 0,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 246.77743530273438,
+            "y": 64.02232360839844,
+            "width": 10.4791259765625,
+            "height": 12.233245849609375,
+            "right": 257.2565612792969,
+            "bottom": 76.25556945800781,
+            "hidden": false,
+            "text": "16",
+            "aria": "red cannon: 16 shots remaining"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0,
+            "hidden": true,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 317.36859130859375,
+            "y": 80.58334350585938,
+            "width": 5.598114013671875,
+            "height": 12.233253479003906,
+            "right": 322.9667053222656,
+            "bottom": 92.81659698486328,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 317.5159606933594,
+            "y": 57.468135833740234,
+            "width": 4.664764404296875,
+            "height": 10.19406509399414,
+            "right": 322.18072509765625,
+            "bottom": 67.66220092773438,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 379.8375244140625,
+            "y": 80.58419799804688,
+            "width": 6.0360107421875,
+            "height": 12.233253479003906,
+            "right": 385.87353515625,
+            "bottom": 92.81745147705078,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 380.4560852050781,
+            "y": 57.46733474731445,
+            "width": 4.664764404296875,
+            "height": 10.19405746459961,
+            "right": 385.120849609375,
+            "bottom": 67.66139221191406,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0.3,
+        "ammo": 16
+      },
+      "firingAmmo": 9
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "opening": {
+        "caption": {
+          "x": 19.5,
+          "y": 68,
+          "width": 351,
+          "height": 56.75,
+          "right": 370.5,
+          "bottom": 124.75,
+          "hidden": false,
+          "dismissed": false,
+          "opacity": 1,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 49.29951477050781,
+            "y": 186.42410278320312,
+            "width": 13.086444854736328,
+            "height": 25.060653686523438,
+            "right": 62.38595962524414,
+            "bottom": 211.48475646972656,
+            "hidden": false,
+            "text": "4",
+            "aria": "blue cannon: 4 shots remaining"
+          },
+          {
+            "x": 50.45249557495117,
+            "y": 139.06765747070312,
+            "width": 10.486522674560547,
+            "height": 20.883224487304688,
+            "right": 60.93901824951172,
+            "bottom": 159.9508819580078,
+            "hidden": false,
+            "text": "6",
+            "aria": "6 reserve cannons"
+          },
+          {
+            "x": 189.60935974121094,
+            "y": 186.42236328125,
+            "width": 11.468170166015625,
+            "height": 25.060653686523438,
+            "right": 201.07752990722656,
+            "bottom": 211.48301696777344,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 189.91127014160156,
+            "y": 139.0692901611328,
+            "width": 9.556060791015625,
+            "height": 20.883224487304688,
+            "right": 199.4673309326172,
+            "bottom": 159.9525146484375,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 317.5812072753906,
+            "y": 186.4241180419922,
+            "width": 12.365234375,
+            "height": 25.060638427734375,
+            "right": 329.9464416503906,
+            "bottom": 211.48475646972656,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 318.848388671875,
+            "y": 139.06764221191406,
+            "width": 9.55609130859375,
+            "height": 20.883224487304688,
+            "right": 328.40447998046875,
+            "bottom": 159.95086669921875,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0,
+        "ammo": 4
+      },
+      "loading": {
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "hidden": true,
+          "dismissed": true,
+          "opacity": 0,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 44.99858474731445,
+            "y": 152.49598693847656,
+            "width": 21.467205047607422,
+            "height": 25.060638427734375,
+            "right": 66.46578979492188,
+            "bottom": 177.55662536621094,
+            "hidden": false,
+            "text": "16",
+            "aria": "red cannon: 16 shots remaining"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0,
+            "hidden": true,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 189.60935974121094,
+            "y": 186.42236328125,
+            "width": 11.468170166015625,
+            "height": 25.060653686523438,
+            "right": 201.07752990722656,
+            "bottom": 211.48301696777344,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 189.91127014160156,
+            "y": 139.0692901611328,
+            "width": 9.556060791015625,
+            "height": 20.883224487304688,
+            "right": 199.4673309326172,
+            "bottom": 159.9525146484375,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 317.5812072753906,
+            "y": 186.4241180419922,
+            "width": 12.365234375,
+            "height": 25.060638427734375,
+            "right": 329.9464416503906,
+            "bottom": 211.48475646972656,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 318.848388671875,
+            "y": 139.06764221191406,
+            "width": 9.55609130859375,
+            "height": 20.883224487304688,
+            "right": 328.40447998046875,
+            "bottom": 159.95086669921875,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0.3,
+        "ammo": 16
+      },
+      "firingAmmo": 9
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "opening": {
+        "caption": {
+          "x": 24,
+          "y": 24,
+          "width": 796,
+          "height": 22.390625,
+          "right": 820,
+          "bottom": 46.390625,
+          "hidden": false,
+          "dismissed": false,
+          "opacity": 1,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 343.60955810546875,
+            "y": 83.25968933105469,
+            "width": 7.04083251953125,
+            "height": 13.483238220214844,
+            "right": 350.650390625,
+            "bottom": 96.74292755126953,
+            "hidden": false,
+            "text": "4",
+            "aria": "blue cannon: 4 shots remaining"
+          },
+          {
+            "x": 344.2298889160156,
+            "y": 57.780757904052734,
+            "width": 5.64202880859375,
+            "height": 11.23569107055664,
+            "right": 349.8719177246094,
+            "bottom": 69.01644897460938,
+            "hidden": false,
+            "text": "6",
+            "aria": "6 reserve cannons"
+          },
+          {
+            "x": 419.0997009277344,
+            "y": 83.25875091552734,
+            "width": 6.170166015625,
+            "height": 13.483245849609375,
+            "right": 425.2698669433594,
+            "bottom": 96.74199676513672,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 419.26214599609375,
+            "y": 57.781639099121094,
+            "width": 5.141387939453125,
+            "height": 11.235687255859375,
+            "right": 424.4035339355469,
+            "bottom": 69.01732635498047,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 487.9516906738281,
+            "y": 83.25969696044922,
+            "width": 6.652801513671875,
+            "height": 13.483238220214844,
+            "right": 494.6044921875,
+            "bottom": 96.74293518066406,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 488.63348388671875,
+            "y": 57.78075408935547,
+            "width": 5.141387939453125,
+            "height": 11.235687255859375,
+            "right": 493.7748718261719,
+            "bottom": 69.01644134521484,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0,
+        "ammo": 4
+      },
+      "loading": {
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "hidden": true,
+          "dismissed": true,
+          "opacity": 0,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 341.2955627441406,
+            "y": 65.00553131103516,
+            "width": 11.549896240234375,
+            "height": 13.483238220214844,
+            "right": 352.845458984375,
+            "bottom": 78.48876953125,
+            "hidden": false,
+            "text": "16",
+            "aria": "red cannon: 16 shots remaining"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0,
+            "hidden": true,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 419.0997009277344,
+            "y": 83.25875091552734,
+            "width": 6.170166015625,
+            "height": 13.483245849609375,
+            "right": 425.2698669433594,
+            "bottom": 96.74199676513672,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 419.26214599609375,
+            "y": 57.781639099121094,
+            "width": 5.141387939453125,
+            "height": 11.235687255859375,
+            "right": 424.4035339355469,
+            "bottom": 69.01732635498047,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 487.9516906738281,
+            "y": 83.25969696044922,
+            "width": 6.652801513671875,
+            "height": 13.483238220214844,
+            "right": 494.6044921875,
+            "bottom": 96.74293518066406,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 488.63348388671875,
+            "y": 57.78075408935547,
+            "width": 5.141387939453125,
+            "height": 11.235687255859375,
+            "right": 493.7748718261719,
+            "bottom": 69.01644134521484,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0.3,
+        "ammo": 16
+      },
+      "firingAmmo": 9
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "opening": {
+        "caption": {
+          "x": 21.5,
+          "y": 68,
+          "width": 387,
+          "height": 62.59375,
+          "right": 408.5,
+          "bottom": 130.59375,
+          "hidden": false,
+          "dismissed": false,
+          "opacity": 1,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 52.82754898071289,
+            "y": 198.31231689453125,
+            "width": 14.565914154052734,
+            "height": 27.893844604492188,
+            "right": 67.39346313476562,
+            "bottom": 226.20616149902344,
+            "hidden": false,
+            "text": "4",
+            "aria": "blue cannon: 4 shots remaining"
+          },
+          {
+            "x": 54.110877990722656,
+            "y": 145.60203552246094,
+            "width": 11.67205810546875,
+            "height": 23.244155883789062,
+            "right": 65.7829360961914,
+            "bottom": 168.84619140625,
+            "hidden": false,
+            "text": "6",
+            "aria": "6 reserve cannons"
+          },
+          {
+            "x": 208.9999237060547,
+            "y": 198.3103790283203,
+            "width": 12.764694213867188,
+            "height": 27.893844604492188,
+            "right": 221.76461791992188,
+            "bottom": 226.2042236328125,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 209.33596801757812,
+            "y": 145.60386657714844,
+            "width": 10.63641357421875,
+            "height": 23.244155883789062,
+            "right": 219.97238159179688,
+            "bottom": 168.8480224609375,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 351.4394836425781,
+            "y": 198.3123321533203,
+            "width": 13.763153076171875,
+            "height": 27.893829345703125,
+            "right": 365.20263671875,
+            "bottom": 226.20616149902344,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 352.84991455078125,
+            "y": 145.60203552246094,
+            "width": 10.63641357421875,
+            "height": 23.244140625,
+            "right": 363.486328125,
+            "bottom": 168.84617614746094,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0,
+        "ammo": 4
+      },
+      "loading": {
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "hidden": true,
+          "dismissed": true,
+          "opacity": 0,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 48.04038619995117,
+            "y": 160.54849243164062,
+            "width": 23.894145965576172,
+            "height": 27.893844604492188,
+            "right": 71.93453216552734,
+            "bottom": 188.4423370361328,
+            "hidden": false,
+            "text": "16",
+            "aria": "red cannon: 16 shots remaining"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0,
+            "hidden": true,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 208.9999237060547,
+            "y": 198.3103790283203,
+            "width": 12.764694213867188,
+            "height": 27.893844604492188,
+            "right": 221.76461791992188,
+            "bottom": 226.2042236328125,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 209.33596801757812,
+            "y": 145.60386657714844,
+            "width": 10.63641357421875,
+            "height": 23.244155883789062,
+            "right": 219.97238159179688,
+            "bottom": 168.8480224609375,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 351.4394836425781,
+            "y": 198.3123321533203,
+            "width": 13.763153076171875,
+            "height": 27.893829345703125,
+            "right": 365.20263671875,
+            "bottom": 226.20616149902344,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 352.84991455078125,
+            "y": 145.60203552246094,
+            "width": 10.63641357421875,
+            "height": 23.244140625,
+            "right": 363.486328125,
+            "bottom": 168.84617614746094,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0.3,
+        "ammo": 16
+      },
+      "firingAmmo": 9
+    },
+    {
+      "viewport": [
+        932,
+        430
+      ],
+      "opening": {
+        "caption": {
+          "x": 24,
+          "y": 24,
+          "width": 884,
+          "height": 22.390625,
+          "right": 908,
+          "bottom": 46.390625,
+          "hidden": false,
+          "dismissed": false,
+          "opacity": 1,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 377.9197692871094,
+            "y": 86.82701873779297,
+            "width": 7.911163330078125,
+            "height": 15.149894714355469,
+            "right": 385.8309326171875,
+            "bottom": 101.97691345214844,
+            "hidden": false,
+            "text": "4",
+            "aria": "blue cannon: 4 shots remaining"
+          },
+          {
+            "x": 378.6167907714844,
+            "y": 58.19865036010742,
+            "width": 6.33941650390625,
+            "height": 12.624523162841797,
+            "right": 384.9562072753906,
+            "bottom": 70.82317352294922,
+            "hidden": false,
+            "text": "6",
+            "aria": "6 reserve cannons"
+          },
+          {
+            "x": 462.7412109375,
+            "y": 86.82596588134766,
+            "width": 6.932830810546875,
+            "height": 15.149894714355469,
+            "right": 469.6740417480469,
+            "bottom": 101.97586059570312,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 462.9237060546875,
+            "y": 58.199642181396484,
+            "width": 5.77691650390625,
+            "height": 12.624523162841797,
+            "right": 468.70062255859375,
+            "bottom": 70.82416534423828,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 540.1039428710938,
+            "y": 86.8270263671875,
+            "width": 7.47515869140625,
+            "height": 15.149894714355469,
+            "right": 547.5791015625,
+            "bottom": 101.97692108154297,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 540.8699951171875,
+            "y": 58.198646545410156,
+            "width": 5.77691650390625,
+            "height": 12.624526977539062,
+            "right": 546.6469116210938,
+            "bottom": 70.82317352294922,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0,
+        "ammo": 4
+      },
+      "loading": {
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "hidden": true,
+          "dismissed": true,
+          "opacity": 0,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 375.3197326660156,
+            "y": 66.31647491455078,
+            "width": 12.977569580078125,
+            "height": 15.149894714355469,
+            "right": 388.29730224609375,
+            "bottom": 81.46636962890625,
+            "hidden": false,
+            "text": "16",
+            "aria": "red cannon: 16 shots remaining"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0,
+            "hidden": true,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 462.7412109375,
+            "y": 86.82596588134766,
+            "width": 6.932830810546875,
+            "height": 15.149894714355469,
+            "right": 469.6740417480469,
+            "bottom": 101.97586059570312,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 462.9237060546875,
+            "y": 58.199642181396484,
+            "width": 5.77691650390625,
+            "height": 12.624523162841797,
+            "right": 468.70062255859375,
+            "bottom": 70.82416534423828,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 540.1039428710938,
+            "y": 86.8270263671875,
+            "width": 7.47515869140625,
+            "height": 15.149894714355469,
+            "right": 547.5791015625,
+            "bottom": 101.97692108154297,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 540.8699951171875,
+            "y": 58.198646545410156,
+            "width": 5.77691650390625,
+            "height": 12.624526977539062,
+            "right": 546.6469116210938,
+            "bottom": 70.82317352294922,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0.3,
+        "ammo": 16
+      },
+      "firingAmmo": 9
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "opening": {
+        "caption": {
+          "x": 38.40625,
+          "y": 24,
+          "width": 691.1875,
+          "height": 80.625,
+          "right": 729.59375,
+          "bottom": 104.625,
+          "hidden": false,
+          "dismissed": false,
+          "opacity": 1,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 169.0416259765625,
+            "y": 191.77761840820312,
+            "width": 19.3070068359375,
+            "height": 36.97308349609375,
+            "right": 188.3486328125,
+            "bottom": 228.75070190429688,
+            "hidden": false,
+            "text": "4",
+            "aria": "blue cannon: 4 shots remaining"
+          },
+          {
+            "x": 170.74267578125,
+            "y": 121.91055297851562,
+            "width": 15.471221923828125,
+            "height": 30.809951782226562,
+            "right": 186.21389770507812,
+            "bottom": 152.7205047607422,
+            "hidden": false,
+            "text": "6",
+            "aria": "6 reserve cannons"
+          },
+          {
+            "x": 376.04693603515625,
+            "y": 191.77505493164062,
+            "width": 16.919525146484375,
+            "height": 36.97308349609375,
+            "right": 392.9664611816406,
+            "bottom": 228.74813842773438,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 376.49237060546875,
+            "y": 121.9129638671875,
+            "width": 14.098480224609375,
+            "height": 30.809951782226562,
+            "right": 390.5908508300781,
+            "bottom": 152.72291564941406,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 564.8494873046875,
+            "y": 191.7776336669922,
+            "width": 18.24298095703125,
+            "height": 36.97308349609375,
+            "right": 583.0924682617188,
+            "bottom": 228.75071716308594,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 566.7190551757812,
+            "y": 121.91053009033203,
+            "width": 14.09844970703125,
+            "height": 30.809959411621094,
+            "right": 580.8175048828125,
+            "bottom": 152.72048950195312,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0,
+        "ammo": 4
+      },
+      "loading": {
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "hidden": true,
+          "dismissed": true,
+          "opacity": 0,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 162.69627380371094,
+            "y": 141.72195434570312,
+            "width": 31.6715087890625,
+            "height": 36.97308349609375,
+            "right": 194.36778259277344,
+            "bottom": 178.69503784179688,
+            "hidden": false,
+            "text": "16",
+            "aria": "red cannon: 16 shots remaining"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0,
+            "hidden": true,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 376.04693603515625,
+            "y": 191.77505493164062,
+            "width": 16.919525146484375,
+            "height": 36.97308349609375,
+            "right": 392.9664611816406,
+            "bottom": 228.74813842773438,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 376.49237060546875,
+            "y": 121.9129638671875,
+            "width": 14.098480224609375,
+            "height": 30.809951782226562,
+            "right": 390.5908508300781,
+            "bottom": 152.72291564941406,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 564.8494873046875,
+            "y": 191.7776336669922,
+            "width": 18.24298095703125,
+            "height": 36.97308349609375,
+            "right": 583.0924682617188,
+            "bottom": 228.75071716308594,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 566.7190551757812,
+            "y": 121.91053009033203,
+            "width": 14.09844970703125,
+            "height": 30.809959411621094,
+            "right": 580.8175048828125,
+            "bottom": 152.72048950195312,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0.3,
+        "ammo": 16
+      },
+      "firingAmmo": 9
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "opening": {
+        "caption": {
+          "x": 24,
+          "y": 24,
+          "width": 976,
+          "height": 33.59375,
+          "right": 1000,
+          "bottom": 57.59375,
+          "hidden": false,
+          "dismissed": false,
+          "opacity": 1,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 344.754150390625,
+            "y": 127.1720962524414,
+            "width": 15.0216064453125,
+            "height": 28.76647186279297,
+            "right": 359.7757568359375,
+            "bottom": 155.93856811523438,
+            "hidden": false,
+            "text": "4",
+            "aria": "blue cannon: 4 shots remaining"
+          },
+          {
+            "x": 346.07763671875,
+            "y": 72.8128433227539,
+            "width": 12.037200927734375,
+            "height": 23.97132110595703,
+            "right": 358.1148376464844,
+            "bottom": 96.78416442871094,
+            "hidden": false,
+            "text": "6",
+            "aria": "6 reserve cannons"
+          },
+          {
+            "x": 505.8122253417969,
+            "y": 127.17009735107422,
+            "width": 13.164031982421875,
+            "height": 28.76647186279297,
+            "right": 518.9762573242188,
+            "bottom": 155.9365692138672,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 506.1587829589844,
+            "y": 72.8147201538086,
+            "width": 10.969146728515625,
+            "height": 23.97132110595703,
+            "right": 517.1279296875,
+            "bottom": 96.78604125976562,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 652.7078247070312,
+            "y": 127.17211151123047,
+            "width": 14.1937255859375,
+            "height": 28.76647186279297,
+            "right": 666.9015502929688,
+            "bottom": 155.93858337402344,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 654.1624145507812,
+            "y": 72.81282806396484,
+            "width": 10.9691162109375,
+            "height": 23.97132110595703,
+            "right": 665.1315307617188,
+            "bottom": 96.78414916992188,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0,
+        "ammo": 4
+      },
+      "loading": {
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "hidden": true,
+          "dismissed": true,
+          "opacity": 0,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 339.8172302246094,
+            "y": 88.22687530517578,
+            "width": 24.64166259765625,
+            "height": 28.76647186279297,
+            "right": 364.4588928222656,
+            "bottom": 116.99334716796875,
+            "hidden": false,
+            "text": "16",
+            "aria": "red cannon: 16 shots remaining"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0,
+            "hidden": true,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 505.8122253417969,
+            "y": 127.17009735107422,
+            "width": 13.164031982421875,
+            "height": 28.76647186279297,
+            "right": 518.9762573242188,
+            "bottom": 155.9365692138672,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 506.1587829589844,
+            "y": 72.8147201538086,
+            "width": 10.969146728515625,
+            "height": 23.97132110595703,
+            "right": 517.1279296875,
+            "bottom": 96.78604125976562,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 652.7078247070312,
+            "y": 127.17211151123047,
+            "width": 14.1937255859375,
+            "height": 28.76647186279297,
+            "right": 666.9015502929688,
+            "bottom": 155.93858337402344,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 654.1624145507812,
+            "y": 72.81282806396484,
+            "width": 10.9691162109375,
+            "height": 23.97132110595703,
+            "right": 665.1315307617188,
+            "bottom": 96.78414916992188,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0.3,
+        "ammo": 16
+      },
+      "firingAmmo": 9
+    },
+    {
+      "viewport": [
+        820,
+        1180
+      ],
+      "opening": {
+        "caption": {
+          "x": 41,
+          "y": 24,
+          "width": 738,
+          "height": 80.625,
+          "right": 779,
+          "bottom": 104.625,
+          "hidden": false,
+          "dismissed": false,
+          "opacity": 1,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 157.25143432617188,
+            "y": 205.69020080566406,
+            "width": 22.70123291015625,
+            "height": 43.47303771972656,
+            "right": 179.95266723632812,
+            "bottom": 249.16323852539062,
+            "hidden": false,
+            "text": "4",
+            "aria": "blue cannon: 4 shots remaining"
+          },
+          {
+            "x": 159.25152587890625,
+            "y": 123.54033660888672,
+            "width": 18.19110107421875,
+            "height": 36.226417541503906,
+            "right": 177.442626953125,
+            "bottom": 159.76675415039062,
+            "hidden": false,
+            "text": "6",
+            "aria": "6 reserve cannons"
+          },
+          {
+            "x": 400.6487731933594,
+            "y": 205.6871795654297,
+            "width": 19.894012451171875,
+            "height": 43.47303771972656,
+            "right": 420.54278564453125,
+            "bottom": 249.16021728515625,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 401.1725158691406,
+            "y": 123.54317474365234,
+            "width": 16.5770263671875,
+            "height": 36.226417541503906,
+            "right": 417.7495422363281,
+            "bottom": 159.76959228515625,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 622.6432495117188,
+            "y": 205.6902313232422,
+            "width": 21.45013427734375,
+            "height": 43.4730224609375,
+            "right": 644.0933837890625,
+            "bottom": 249.1632537841797,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 624.8414916992188,
+            "y": 123.54031372070312,
+            "width": 16.5770263671875,
+            "height": 36.226409912109375,
+            "right": 641.4185180664062,
+            "bottom": 159.7667236328125,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0,
+        "ammo": 4
+      },
+      "loading": {
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "hidden": true,
+          "dismissed": true,
+          "opacity": 0,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 149.79055786132812,
+            "y": 146.8346405029297,
+            "width": 37.23944091796875,
+            "height": 43.47303771972656,
+            "right": 187.02999877929688,
+            "bottom": 190.30767822265625,
+            "hidden": false,
+            "text": "16",
+            "aria": "red cannon: 16 shots remaining"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0,
+            "hidden": true,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 400.6487731933594,
+            "y": 205.6871795654297,
+            "width": 19.894012451171875,
+            "height": 43.47303771972656,
+            "right": 420.54278564453125,
+            "bottom": 249.16021728515625,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 401.1725158691406,
+            "y": 123.54317474365234,
+            "width": 16.5770263671875,
+            "height": 36.226417541503906,
+            "right": 417.7495422363281,
+            "bottom": 159.76959228515625,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 622.6432495117188,
+            "y": 205.6902313232422,
+            "width": 21.45013427734375,
+            "height": 43.4730224609375,
+            "right": 644.0933837890625,
+            "bottom": 249.1632537841797,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 624.8414916992188,
+            "y": 123.54031372070312,
+            "width": 16.5770263671875,
+            "height": 36.226409912109375,
+            "right": 641.4185180664062,
+            "bottom": 159.7667236328125,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0.3,
+        "ammo": 16
+      },
+      "firingAmmo": 9
+    },
+    {
+      "viewport": [
+        1180,
+        820
+      ],
+      "opening": {
+        "caption": {
+          "x": 24,
+          "y": 24,
+          "width": 1132,
+          "height": 33.59375,
+          "right": 1156,
+          "bottom": 57.59375,
+          "hidden": false,
+          "dismissed": false,
+          "opacity": 1,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 410.1574401855469,
+            "y": 131.8096160888672,
+            "width": 16.152984619140625,
+            "height": 30.933120727539062,
+            "right": 426.3104248046875,
+            "bottom": 162.74273681640625,
+            "hidden": false,
+            "text": "4",
+            "aria": "blue cannon: 4 shots remaining"
+          },
+          {
+            "x": 411.5805969238281,
+            "y": 73.3561019897461,
+            "width": 12.943817138671875,
+            "height": 25.776809692382812,
+            "right": 424.5244140625,
+            "bottom": 99.1329116821289,
+            "hidden": false,
+            "text": "6",
+            "aria": "6 reserve cannons"
+          },
+          {
+            "x": 583.34619140625,
+            "y": 131.80747985839844,
+            "width": 14.155517578125,
+            "height": 30.933120727539062,
+            "right": 597.501708984375,
+            "bottom": 162.7406005859375,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 583.7188110351562,
+            "y": 73.35812377929688,
+            "width": 11.79534912109375,
+            "height": 25.776809692382812,
+            "right": 595.51416015625,
+            "bottom": 99.13493347167969,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 741.3057250976562,
+            "y": 131.80963134765625,
+            "width": 15.2628173828125,
+            "height": 30.933120727539062,
+            "right": 756.5685424804688,
+            "bottom": 162.7427520751953,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 742.869873046875,
+            "y": 73.35608673095703,
+            "width": 11.79534912109375,
+            "height": 25.776809692382812,
+            "right": 754.6652221679688,
+            "bottom": 99.13289642333984,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0,
+        "ammo": 4
+      },
+      "loading": {
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "right": 0,
+          "bottom": 0,
+          "hidden": true,
+          "dismissed": true,
+          "opacity": 0,
+          "font": "Lilita, Arial, sans-serif",
+          "overflow": false
+        },
+        "labels": [
+          {
+            "x": 404.8486633300781,
+            "y": 89.93109893798828,
+            "width": 26.49761962890625,
+            "height": 30.933120727539062,
+            "right": 431.3462829589844,
+            "bottom": 120.86421966552734,
+            "hidden": false,
+            "text": "16",
+            "aria": "red cannon: 16 shots remaining"
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "right": 0,
+            "bottom": 0,
+            "hidden": true,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 583.34619140625,
+            "y": 131.80747985839844,
+            "width": 14.155517578125,
+            "height": 30.933120727539062,
+            "right": 597.501708984375,
+            "bottom": 162.7406005859375,
+            "hidden": false,
+            "text": "5",
+            "aria": "purple cannon: 5 shots remaining"
+          },
+          {
+            "x": 583.7188110351562,
+            "y": 73.35812377929688,
+            "width": 11.79534912109375,
+            "height": 25.776809692382812,
+            "right": 595.51416015625,
+            "bottom": 99.13493347167969,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          },
+          {
+            "x": 741.3057250976562,
+            "y": 131.80963134765625,
+            "width": 15.2628173828125,
+            "height": 30.933120727539062,
+            "right": 756.5685424804688,
+            "bottom": 162.7427520751953,
+            "hidden": false,
+            "text": "9",
+            "aria": "purple cannon: 9 shots remaining"
+          },
+          {
+            "x": 742.869873046875,
+            "y": 73.35608673095703,
+            "width": 11.79534912109375,
+            "height": 25.776809692382812,
+            "right": 754.6652221679688,
+            "bottom": 99.13289642333984,
+            "hidden": false,
+            "text": "5",
+            "aria": "5 reserve cannons"
+          }
+        ],
+        "advancing": 0.3,
+        "ammo": 16
+      },
+      "firingAmmo": 9
+    }
+  ],
+  "safeAreas": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "insets": {
+        "top": 59,
+        "bottom": 34,
+        "left": 0,
+        "right": 0
+      },
+      "caption": {
+        "x": 19.5,
+        "y": 71,
+        "width": 351,
+        "height": 56.75,
+        "right": 370.5,
+        "bottom": 127.75,
+        "hidden": false,
+        "dismissed": false,
+        "opacity": 1,
+        "font": "Lilita, Arial, sans-serif",
+        "overflow": false
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "insets": {
+        "top": 72,
+        "bottom": 34,
+        "left": 0,
+        "right": 0
+      },
+      "caption": {
+        "x": 21.5,
+        "y": 84,
+        "width": 387,
+        "height": 62.59375,
+        "right": 408.5,
+        "bottom": 146.59375,
+        "hidden": false,
+        "dismissed": false,
+        "opacity": 1,
+        "font": "Lilita, Arial, sans-serif",
+        "overflow": false
+      }
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "insets": {
+        "top": 0,
+        "bottom": 21,
+        "left": 59,
+        "right": 0
+      },
+      "caption": {
+        "x": 59,
+        "y": 24,
+        "width": 726,
+        "height": 22.390625,
+        "right": 785,
+        "bottom": 46.390625,
+        "hidden": false,
+        "dismissed": false,
+        "opacity": 1,
+        "font": "Lilita, Arial, sans-serif",
+        "overflow": false
+      }
+    }
+  ],
+  "blockedCaption": true,
+  "rotation": true,
+  "errors": []
+}

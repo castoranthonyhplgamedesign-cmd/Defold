@@ -1,0 +1,2549 @@
+[
+  {
+    "id": "05df34ae-586f-458e-a1b4-9cb0c0e05872",
+    "name": "Scene",
+    "type": "cc.SceneAsset",
+    "bytes": 800614,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 0
+    }
+  },
+  {
+    "id": "097e4753-ec84-4b56-9ff0-7fec40869754",
+    "name": "Cannon",
+    "type": "cc.Prefab",
+    "bytes": 5956,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/097e4753-ec84-4b56-9ff0-7fec40869754.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 1
+    }
+  },
+  {
+    "id": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "name": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "type": "cc.Mesh",
+    "bytes": 1739,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/1263d74c-8167-4928-91a6-4e2672411f47@17020.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 2
+    }
+  },
+  {
+    "id": "1263d74c-8167-4928-91a6-4e2672411f47@fc873",
+    "name": "1263d74c-8167-4928-91a6-4e2672411f47@fc873",
+    "type": "cc.Mesh",
+    "bytes": 1659,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/1263d74c-8167-4928-91a6-4e2672411f47@fc873.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 3
+    }
+  },
+  {
+    "id": "15d47550-97fa-4cfd-a531-44b4408bfd88",
+    "name": "[this is blast] select",
+    "type": "cc.AudioClip",
+    "bytes": 174,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/15d47550-97fa-4cfd-a531-44b4408bfd88.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 4
+    }
+  },
+  {
+    "id": "20151941-7308-4abe-8df2-4f89514ea7c6",
+    "name": "ExplosionTexture",
+    "type": "cc.Material",
+    "bytes": 839,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/20151941-7308-4abe-8df2-4f89514ea7c6.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 5
+    }
+  },
+  {
+    "id": "20e2baef-fc53-4029-be6e-e2a84b2eda4b",
+    "name": "Projectile",
+    "type": "cc.Prefab",
+    "bytes": 1409,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/20e2baef-fc53-4029-be6e-e2a84b2eda4b.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 6
+    }
+  },
+  {
+    "id": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870",
+    "name": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870",
+    "type": "cc.Mesh",
+    "bytes": 1629,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 7
+    }
+  },
+  {
+    "id": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33",
+    "name": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33",
+    "type": "cc.Mesh",
+    "bytes": 1627,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 8
+    }
+  },
+  {
+    "id": "30d0c9c0-201c-40ca-9db8-71dbbad0eb7c",
+    "name": "LilitaOne-Regular",
+    "type": "cc.TTFFont",
+    "bytes": 156,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/30d0c9c0-201c-40ca-9db8-71dbbad0eb7c.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 9
+    }
+  },
+  {
+    "id": "33571c70-4717-43de-a8b9-ef588495362a",
+    "name": "Projectile",
+    "type": "cc.Material",
+    "bytes": 1637,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/33571c70-4717-43de-a8b9-ef588495362a.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 10
+    }
+  },
+  {
+    "id": "3ffeb513-16e6-4f2b-8751-42451929cbe2",
+    "name": "Arrow",
+    "type": "cc.Prefab",
+    "bytes": 4753,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/3ffeb513-16e6-4f2b-8751-42451929cbe2.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 11
+    }
+  },
+  {
+    "id": "4926a9c4-be5c-4068-89f7-6df7ccc45f6b",
+    "name": "Tunnel",
+    "type": "cc.Material",
+    "bytes": 1776,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/4926a9c4-be5c-4068-89f7-6df7ccc45f6b.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 12
+    }
+  },
+  {
+    "id": "4c87c9d4-936f-4788-b917-41762c20a8d8",
+    "name": "yellow",
+    "type": "cc.Material",
+    "bytes": 2026,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/4c87c9d4-936f-4788-b917-41762c20a8d8.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 13
+    }
+  },
+  {
+    "id": "528f68ce-2db3-42c2-8f63-8a6bee6b4b89",
+    "name": "BlockExplosion",
+    "type": "cc.Prefab",
+    "bytes": 6732,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/528f68ce-2db3-42c2-8f63-8a6bee6b4b89.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 14
+    }
+  },
+  {
+    "id": "5c5fdb01-d084-4e88-9d80-cc4a7392b75d",
+    "name": "Inner",
+    "type": "cc.Material",
+    "bytes": 1790,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/5c5fdb01-d084-4e88-9d80-cc4a7392b75d.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 15
+    }
+  },
+  {
+    "id": "620b6bf3-0369-4560-837f-2a2c00b73c26",
+    "name": "standard-material",
+    "type": "cc.Material",
+    "bytes": 308,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/620b6bf3-0369-4560-837f-2a2c00b73c26.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 16
+    }
+  },
+  {
+    "id": "69414c89-0d43-42e9-ace6-01ff0a340dd1@3d923",
+    "name": "69414c89-0d43-42e9-ace6-01ff0a340dd1@3d923",
+    "type": "cc.Mesh",
+    "bytes": 1580,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/69414c89-0d43-42e9-ace6-01ff0a340dd1@3d923.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 17
+    }
+  },
+  {
+    "id": "6df3381d-185f-4eaa-abbd-556744d82f44@f9941",
+    "name": "handSpriteClick_",
+    "type": "cc.SpriteFrame",
+    "bytes": 1739,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/6df3381d-185f-4eaa-abbd-556744d82f44@f9941.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 18
+    }
+  },
+  {
+    "id": "716d7457-32e8-483b-b6fe-c528a6798a00@a62fe",
+    "name": "716d7457-32e8-483b-b6fe-c528a6798a00@a62fe",
+    "type": "cc.Mesh",
+    "bytes": 3804,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/716d7457-32e8-483b-b6fe-c528a6798a00@a62fe.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 19
+    }
+  },
+  {
+    "id": "748aa730-f10e-4897-9e4a-6963194fe2e2@925cb",
+    "name": "Main",
+    "type": "cc.Material",
+    "bytes": 1060,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/748aa730-f10e-4897-9e4a-6963194fe2e2@925cb.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 20
+    }
+  },
+  {
+    "id": "748aa730-f10e-4897-9e4a-6963194fe2e2@db054",
+    "name": "748aa730-f10e-4897-9e4a-6963194fe2e2@db054",
+    "type": "cc.Mesh",
+    "bytes": 1628,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/748aa730-f10e-4897-9e4a-6963194fe2e2@db054.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 21
+    }
+  },
+  {
+    "id": "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+    "name": "default_sprite_splash",
+    "type": "cc.SpriteFrame",
+    "bytes": 1635,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 22
+    }
+  },
+  {
+    "id": "7d9879b2-c46d-4447-ad18-2c7a71f658cf@f9941",
+    "name": "Border_",
+    "type": "cc.SpriteFrame",
+    "bytes": 1728,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/7d9879b2-c46d-4447-ad18-2c7a71f658cf@f9941.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 23
+    }
+  },
+  {
+    "id": "7e0d00cd-e958-4d76-b418-a3e8130166a2@2e7eb",
+    "name": "7e0d00cd-e958-4d76-b418-a3e8130166a2@2e7eb",
+    "type": "cc.Mesh",
+    "bytes": 1624,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/7e0d00cd-e958-4d76-b418-a3e8130166a2@2e7eb.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 24
+    }
+  },
+  {
+    "id": "7e0d00cd-e958-4d76-b418-a3e8130166a2@925cb",
+    "name": "Main",
+    "type": "cc.Material",
+    "bytes": 1060,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/7e0d00cd-e958-4d76-b418-a3e8130166a2@925cb.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 25
+    }
+  },
+  {
+    "id": "7e0d00cd-e958-4d76-b418-a3e8130166a2@c09bd",
+    "name": "ArrowMesh_",
+    "type": "cc.Prefab",
+    "bytes": 1989,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/7e0d00cd-e958-4d76-b418-a3e8130166a2@c09bd.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 26
+    }
+  },
+  {
+    "id": "7ee7c69f-f28a-4986-8d93-f51a03f19e78@f9941",
+    "name": "button",
+    "type": "cc.SpriteFrame",
+    "bytes": 1766,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/7ee7c69f-f28a-4986-8d93-f51a03f19e78@f9941.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 27
+    }
+  },
+  {
+    "id": "86d12828-46bd-455d-835d-7c862ff23aec",
+    "name": "orange",
+    "type": "cc.Material",
+    "bytes": 1947,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/86d12828-46bd-455d-835d-7c862ff23aec.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 28
+    }
+  },
+  {
+    "id": "88a4c534-c147-45fb-abfd-94d8b2134dc6",
+    "name": "pink",
+    "type": "cc.Material",
+    "bytes": 1946,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/88a4c534-c147-45fb-abfd-94d8b2134dc6.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 29
+    }
+  },
+  {
+    "id": "9e896dbe-96ba-4321-b8c8-f55cd9da5258",
+    "name": "Head",
+    "type": "cc.Prefab",
+    "bytes": 11525,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/9e896dbe-96ba-4321-b8c8-f55cd9da5258.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 30
+    }
+  },
+  {
+    "id": "a45e711c-c946-4632-a215-f8c994fa9f4a@01e27",
+    "name": "Main.002",
+    "type": "cc.Material",
+    "bytes": 1064,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/a45e711c-c946-4632-a215-f8c994fa9f4a@01e27.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 31
+    }
+  },
+  {
+    "id": "a45e711c-c946-4632-a215-f8c994fa9f4a@41ac8",
+    "name": "a45e711c-c946-4632-a215-f8c994fa9f4a@41ac8",
+    "type": "cc.Mesh",
+    "bytes": 1626,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/a45e711c-c946-4632-a215-f8c994fa9f4a@41ac8.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 32
+    }
+  },
+  {
+    "id": "a5ccd0c5-9c58-4213-8787-ea68a5cd2797",
+    "name": "Outer",
+    "type": "cc.Material",
+    "bytes": 1792,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/a5ccd0c5-9c58-4213-8787-ea68a5cd2797.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 33
+    }
+  },
+  {
+    "id": "b810efd9-2734-4029-ba0e-c0f8cce6ae4d",
+    "name": "purple",
+    "type": "cc.Material",
+    "bytes": 1948,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/b810efd9-2734-4029-ba0e-c0f8cce6ae4d.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 34
+    }
+  },
+  {
+    "id": "bd1a28b0-6cb5-4a8e-b3b0-526df3e782bf",
+    "name": "Block",
+    "type": "cc.Prefab",
+    "bytes": 4268,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/bd1a28b0-6cb5-4a8e-b3b0-526df3e782bf.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 35
+    }
+  },
+  {
+    "id": "c25ecc7a-5291-441f-be5d-8845567f2c92@f9941",
+    "name": "borderFill",
+    "type": "cc.SpriteFrame",
+    "bytes": 1761,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/c25ecc7a-5291-441f-be5d-8845567f2c92@f9941.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 36
+    }
+  },
+  {
+    "id": "c5667e8c-3883-4911-9848-4ed892ec7186",
+    "name": "blue",
+    "type": "cc.Material",
+    "bytes": 1946,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/c5667e8c-3883-4911-9848-4ed892ec7186.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 37
+    }
+  },
+  {
+    "id": "c6eea205-ec83-4098-8759-1c5862dbe22a@0a48a",
+    "name": "c6eea205-ec83-4098-8759-1c5862dbe22a@0a48a",
+    "type": "cc.Mesh",
+    "bytes": 1606,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/c6eea205-ec83-4098-8759-1c5862dbe22a@0a48a.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 38
+    }
+  },
+  {
+    "id": "c8f66d17-351a-48da-a12c-0212d28575c4",
+    "name": "builtin-standard",
+    "type": "cc.EffectAsset",
+    "bytes": 709151,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/c8f66d17-351a-48da-a12c-0212d28575c4.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 39
+    }
+  },
+  {
+    "id": "cb03b242-3000-4196-9865-67614de71db6",
+    "name": "green",
+    "type": "cc.Material",
+    "bytes": 1945,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/cb03b242-3000-4196-9865-67614de71db6.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 40
+    }
+  },
+  {
+    "id": "cba89305-ee4f-4a3f-b932-394f3e7c8a08",
+    "name": "Sphere",
+    "type": "cc.Prefab",
+    "bytes": 1281,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/cba89305-ee4f-4a3f-b932-394f3e7c8a08.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 41
+    }
+  },
+  {
+    "id": "ceaedc83-4edf-4fe2-a242-8dab3ea41ca8",
+    "name": "Guide",
+    "type": "cc.Prefab",
+    "bytes": 3783,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/ceaedc83-4edf-4fe2-a242-8dab3ea41ca8.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 42
+    }
+  },
+  {
+    "id": "cee6149c-7d35-41fb-b686-3e689475510d",
+    "name": "Guide",
+    "type": "cc.Material",
+    "bytes": 1748,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/cee6149c-7d35-41fb-b686-3e689475510d.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 43
+    }
+  },
+  {
+    "id": "d3ca048d-bf8a-4dba-b2cb-c658f10ec0df",
+    "name": "win-2",
+    "type": "cc.AudioClip",
+    "bytes": 158,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/d3ca048d-bf8a-4dba-b2cb-c658f10ec0df.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 44
+    }
+  },
+  {
+    "id": "e6060c36-4a3f-41eb-be39-82f3cde65b43",
+    "name": "slidey",
+    "type": "cc.AudioClip",
+    "bytes": 159,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/e6060c36-4a3f-41eb-be39-82f3cde65b43.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 45
+    }
+  },
+  {
+    "id": "e9ba55d5-a84e-4356-9314-6c3d429c78c3@f9941",
+    "name": "title (2)",
+    "type": "cc.SpriteFrame",
+    "bytes": 1756,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/e9ba55d5-a84e-4356-9314-6c3d429c78c3@f9941.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 46
+    }
+  },
+  {
+    "id": "ebadcded-6f27-4491-afaf-84fc212b18a4@f9941",
+    "name": "AppIcon_",
+    "type": "cc.SpriteFrame",
+    "bytes": 1734,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/ebadcded-6f27-4491-afaf-84fc212b18a4@f9941.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 47
+    }
+  },
+  {
+    "id": "f571e731-662a-47d5-97ac-a8a7f089bf7d@f9941",
+    "name": "handSprite_",
+    "type": "cc.SpriteFrame",
+    "bytes": 1730,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/f571e731-662a-47d5-97ac-a8a7f089bf7d@f9941.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 48
+    }
+  },
+  {
+    "id": "f648964e-8d32-41fc-9ac9-7a1e714dd17b",
+    "name": "util/dcc/imported-specular-glossiness",
+    "type": "cc.EffectAsset",
+    "bytes": 387875,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/f648964e-8d32-41fc-9ac9-7a1e714dd17b.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 49
+    }
+  },
+  {
+    "id": "f72c69ac-d3c2-440e-9f26-f27a6c77cf5a",
+    "name": "black",
+    "type": "cc.Material",
+    "bytes": 1792,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/f72c69ac-d3c2-440e-9f26-f27a6c77cf5a.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 50
+    }
+  },
+  {
+    "id": "f7f2f9b5-b3a2-4066-96b7-f22e35c2815d",
+    "name": "[Ts]wrong",
+    "type": "cc.AudioClip",
+    "bytes": 162,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/f7f2f9b5-b3a2-4066-96b7-f22e35c2815d.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 51
+    }
+  },
+  {
+    "id": "f971e4e6-90a4-4fd2-b90f-3411411a8a14",
+    "name": "[This is blast] shoot",
+    "type": "cc.AudioClip",
+    "bytes": 174,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/f971e4e6-90a4-4fd2-b90f-3411411a8a14.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 52
+    }
+  },
+  {
+    "id": "fc3e740b-4e2e-4eba-b541-8dc9bd1defec",
+    "name": "white",
+    "type": "cc.Material",
+    "bytes": 1631,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/fc3e740b-4e2e-4eba-b541-8dc9bd1defec.json",
+    "usage": "Scene/prefab/asset metadata",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/main/import/0b/0b740ec14.json",
+      "packIndex": 53
+    }
+  },
+  {
+    "id": "081cab31-dccd-428e-8652-f2404cc81c47",
+    "name": "default-trail-material",
+    "type": "cc.Material",
+    "bytes": 500,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/081cab31-dccd-428e-8652-f2404cc81c47.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 0
+    }
+  },
+  {
+    "id": "14da1725-c4c2-42b4-ab08-ee0aeb6898b3",
+    "name": "default-particle-gpu-material",
+    "type": "cc.Material",
+    "bytes": 507,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/14da1725-c4c2-42b4-ab08-ee0aeb6898b3.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 1
+    }
+  },
+  {
+    "id": "17debcc3-0a6b-4b8a-b00b-dc58b885581e",
+    "name": "particles/builtin-particle-trail",
+    "type": "cc.EffectAsset",
+    "bytes": 80116,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/17debcc3-0a6b-4b8a-b00b-dc58b885581e.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 2
+    }
+  },
+  {
+    "id": "1c02ae6f-4492-4915-b8f8-7492a3b1e4cd",
+    "name": "internal/builtin-graphics",
+    "type": "cc.EffectAsset",
+    "bytes": 13725,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/1c02ae6f-4492-4915-b8f8-7492a3b1e4cd.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 3
+    }
+  },
+  {
+    "id": "50f4348b-c883-4e2f-8f11-ce233b859fa1",
+    "name": "ui-alpha-test-material",
+    "type": "cc.Material",
+    "bytes": 643,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/50f4348b-c883-4e2f-8f11-ce233b859fa1.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 4
+    }
+  },
+  {
+    "id": "511d2633-09a7-4bdd-ac42-f778032124b3",
+    "name": "pipeline/skybox",
+    "type": "cc.EffectAsset",
+    "bytes": 24506,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/511d2633-09a7-4bdd-ac42-f778032124b3.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 5
+    }
+  },
+  {
+    "id": "5c601d96-e4c7-4698-991b-7ee674b11079",
+    "name": "pipeline/copy-pass",
+    "type": "cc.EffectAsset",
+    "bytes": 12206,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/5c601d96-e4c7-4698-991b-7ee674b11079.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 6
+    }
+  },
+  {
+    "id": "5d45aa00-e064-4938-b314-4265f0c2258c",
+    "name": "pipeline/deferred-lighting",
+    "type": "cc.EffectAsset",
+    "bytes": 112968,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/5d45aa00-e064-4938-b314-4265f0c2258c.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 7
+    }
+  },
+  {
+    "id": "60f7195c-ec2a-45eb-ba94-8955f60e81d0",
+    "name": "for2d/builtin-sprite",
+    "type": "cc.EffectAsset",
+    "bytes": 19366,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/60f7195c-ec2a-45eb-ba94-8955f60e81d0.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 8
+    }
+  },
+  {
+    "id": "6a2d0734-bd9e-4ddf-946e-caa52498cb75",
+    "name": "pipeline/post-process/tone-mapping",
+    "type": "cc.EffectAsset",
+    "bytes": 25489,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/6a2d0734-bd9e-4ddf-946e-caa52498cb75.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 9
+    }
+  },
+  {
+    "id": "711ebe11-f673-4cd9-9a83-63c60ba54c5b",
+    "name": "particles/builtin-billboard",
+    "type": "cc.EffectAsset",
+    "bytes": 89806,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/711ebe11-f673-4cd9-9a83-63c60ba54c5b.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 10
+    }
+  },
+  {
+    "id": "78e0584a-4343-4727-8f37-e14e65c2a2db",
+    "name": "default-billboard-material",
+    "type": "cc.Material",
+    "bytes": 504,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/78e0584a-4343-4727-8f37-e14e65c2a2db.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 11
+    }
+  },
+  {
+    "id": "810e96e4-e456-4468-9b59-f4e8f39732c0",
+    "name": "internal/builtin-clear-stencil",
+    "type": "cc.EffectAsset",
+    "bytes": 3589,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/810e96e4-e456-4468-9b59-f4e8f39732c0.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 12
+    }
+  },
+  {
+    "id": "871c3b6c-7379-419d-bda3-794b239ab90d",
+    "name": "util/profiler",
+    "type": "cc.EffectAsset",
+    "bytes": 13224,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/871c3b6c-7379-419d-bda3-794b239ab90d.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 13
+    }
+  },
+  {
+    "id": "8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107",
+    "name": "default-clear-stencil",
+    "type": "cc.Material",
+    "bytes": 539,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 14
+    }
+  },
+  {
+    "id": "9361fd90-ba52-4f84-aa93-6e878fd576ca",
+    "name": "pipeline/planar-shadow",
+    "type": "cc.EffectAsset",
+    "bytes": 44926,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/9361fd90-ba52-4f84-aa93-6e878fd576ca.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 15
+    }
+  },
+  {
+    "id": "970b0598-bcb0-4714-91fb-2e81440dccd8",
+    "name": "util/splash-screen",
+    "type": "cc.EffectAsset",
+    "bytes": 8857,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/970b0598-bcb0-4714-91fb-2e81440dccd8.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 16
+    }
+  },
+  {
+    "id": "971bdb23-3ff6-43eb-b422-1c30165a3663",
+    "name": "particles/builtin-particle-gpu",
+    "type": "cc.EffectAsset",
+    "bytes": 201798,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/971bdb23-3ff6-43eb-b422-1c30165a3663.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 17
+    }
+  },
+  {
+    "id": "a3cd009f-0ab0-420d-9278-b9fdab939bbc",
+    "name": "builtin-unlit",
+    "type": "cc.EffectAsset",
+    "bytes": 110152,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/a3cd009f-0ab0-420d-9278-b9fdab939bbc.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 18
+    }
+  },
+  {
+    "id": "ba21476f-2866-4f81-9c4d-6e359316e448",
+    "name": "default-physics-material",
+    "type": "cc.PhysicsMaterial",
+    "bytes": 243,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/ba21476f-2866-4f81-9c4d-6e359316e448.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 19
+    }
+  },
+  {
+    "id": "bcd64cc6-2dd9-43f6-abbe-66318d332032",
+    "name": "missing-effect-material",
+    "type": "cc.Material",
+    "bytes": 705,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/bcd64cc6-2dd9-43f6-abbe-66318d332032.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 20
+    }
+  },
+  {
+    "id": "c0143906-9aed-447e-9436-2ae8512d1b6e",
+    "name": "default-particle-material",
+    "type": "cc.Material",
+    "bytes": 503,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/c0143906-9aed-447e-9436-2ae8512d1b6e.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 21
+    }
+  },
+  {
+    "id": "d1346436-ac96-4271-b863-1f4fdead95b0",
+    "name": "particles/builtin-particle",
+    "type": "cc.EffectAsset",
+    "bytes": 122261,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/d1346436-ac96-4271-b863-1f4fdead95b0.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 22
+    }
+  },
+  {
+    "id": "d930590d-bb92-4cc8-8bd1-23cd027f9edf",
+    "name": "missing-material",
+    "type": "cc.Material",
+    "bytes": 698,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/d930590d-bb92-4cc8-8bd1-23cd027f9edf.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 23
+    }
+  },
+  {
+    "id": "dd3a144d-ab7f-41f0-82b8-2e43a090d496",
+    "name": "ui-sprite-gray-alpha-sep-material",
+    "type": "cc.Material",
+    "bytes": 618,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/dd3a144d-ab7f-41f0-82b8-2e43a090d496.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 24
+    }
+  },
+  {
+    "id": "e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f",
+    "name": "ui-base-material",
+    "type": "cc.Material",
+    "bytes": 534,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 25
+    }
+  },
+  {
+    "id": "efe8e2a3-eace-427b-b4f1-cb8a937ec77d",
+    "name": "ui-sprite-gray-material",
+    "type": "cc.Material",
+    "bytes": 609,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/efe8e2a3-eace-427b-b4f1-cb8a937ec77d.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 26
+    }
+  },
+  {
+    "id": "f0416e68-0200-4b77-a926-4f9d16e494da",
+    "name": "ui-graphics-material",
+    "type": "cc.Material",
+    "bytes": 498,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/f0416e68-0200-4b77-a926-4f9d16e494da.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 27
+    }
+  },
+  {
+    "id": "f92806d7-1768-443f-afe8-12bcde84d0f0",
+    "name": "ui-sprite-alpha-sep-material",
+    "type": "cc.Material",
+    "bytes": 614,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/f92806d7-1768-443f-afe8-12bcde84d0f0.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 28
+    }
+  },
+  {
+    "id": "fda095cb-831d-4601-ad94-846013963de8",
+    "name": "ui-sprite-material",
+    "type": "cc.Material",
+    "bytes": 605,
+    "format": "decoded Cocos JSON",
+    "file": "analysis/assets/serialized/fda095cb-831d-4601-ad94-846013963de8.json",
+    "usage": "Engine built-in; presence does not prove usage",
+    "status": "Confirmed: exported data-only decode",
+    "details": {
+      "source": "extracted/bundle/assets/internal/import/05/05a6ba422.json",
+      "packIndex": 29
+    }
+  },
+  {
+    "id": "06a43fb3-29ec-448c-aa1c-459ab909d025",
+    "name": "06a43fb3-29ec-448c-aa1c-459ab909d025",
+    "type": "texture",
+    "bytes": 22189,
+    "format": "png",
+    "file": "analysis/assets/native/06a43fb3-29ec-448c-aa1c-459ab909d025.png",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "ebab63e21e18aa548dfb58543c9156533ff0e5240c0d65a252cb936fb79dfb5b",
+      "width": 1024,
+      "height": 1024,
+      "alpha": true,
+      "space": "srgb",
+      "mipmaps": "No native PNG mipmaps; sampler metadata in serialized texture pack",
+      "palette": [
+        "#ffffff",
+        "#fefefe"
+      ]
+    },
+    "dimensions": "1024x1024"
+  },
+  {
+    "id": "111e5ae7-b6bd-44cf-bd61-943063308bd6",
+    "name": "111e5ae7-b6bd-44cf-bd61-943063308bd6",
+    "type": "texture",
+    "bytes": 11584,
+    "format": "png",
+    "file": "analysis/assets/native/111e5ae7-b6bd-44cf-bd61-943063308bd6.png",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "8f7475a61d8678e35711d916c9dc5ed0342c02a5a44fdfa45818fb09df1d7800",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "space": "srgb",
+      "mipmaps": "No native PNG mipmaps; sampler metadata in serialized texture pack",
+      "palette": [
+        "#ffffff",
+        "#fbfbfb",
+        "#fdfdfd",
+        "#fcfcfc",
+        "#fefefe",
+        "#ebebeb",
+        "#eaeaea",
+        "#f5f5f5"
+      ]
+    },
+    "dimensions": "512x512"
+  },
+  {
+    "id": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "name": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "type": "mesh buffer",
+    "bytes": 86744,
+    "format": "bin",
+    "file": "analysis/assets/native/1263d74c-8167-4928-91a6-4e2672411f47@17020.bin",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "2c5520a0c27113096c9333d92b78d33d09dc7ab4d47af8d4e7e0974523eaaa12",
+      "mesh": {
+        "primitives": [
+          {
+            "primitiveMode": 7,
+            "vertexBundelIndices": [
+              0
+            ],
+            "indexView": {
+              "offset": 72464,
+              "length": 14280,
+              "count": 7140,
+              "stride": 2
+            }
+          }
+        ],
+        "vertexBundles": [
+          {
+            "view": {
+              "offset": 0,
+              "length": 72464,
+              "count": 1294,
+              "stride": 56
+            },
+            "attributes": [
+              {
+                "name": "a_position",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_normal",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_tangent",
+                "format": 44,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord1",
+                "format": 21,
+                "isNormalized": false
+              }
+            ]
+          }
+        ],
+        "minPosition": {
+          "__type__": "cc.Vec3",
+          "x": -0.49748557806015015,
+          "y": -0.5,
+          "z": -0.4989933371543884
+        },
+        "maxPosition": {
+          "__type__": "cc.Vec3",
+          "x": 0.49949654936790466,
+          "y": 0.5,
+          "z": 0.49899348616600037
+        }
+      },
+      "vertices": 1294,
+      "triangles": 2380,
+      "gltf": "analysis/assets/models/1263d74c-8167-4928-91a6-4e2672411f47@17020.gltf",
+      "materials": "Reapply serialized Cocos materials; glTF export contains geometry only"
+    }
+  },
+  {
+    "id": "1263d74c-8167-4928-91a6-4e2672411f47@fc873",
+    "name": "1263d74c-8167-4928-91a6-4e2672411f47@fc873",
+    "type": "mesh buffer",
+    "bytes": 236,
+    "format": "bin",
+    "file": "analysis/assets/native/1263d74c-8167-4928-91a6-4e2672411f47@fc873.bin",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "567661b5195638332d40c69df730a5b9949f59ca6f530ae55826f9535d887df5",
+      "mesh": {
+        "primitives": [
+          {
+            "primitiveMode": 7,
+            "vertexBundelIndices": [
+              0
+            ],
+            "indexView": {
+              "offset": 224,
+              "length": 12,
+              "count": 6,
+              "stride": 2
+            }
+          }
+        ],
+        "vertexBundles": [
+          {
+            "view": {
+              "offset": 0,
+              "length": 224,
+              "count": 4,
+              "stride": 56
+            },
+            "attributes": [
+              {
+                "name": "a_position",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_normal",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_tangent",
+                "format": 44,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord1",
+                "format": 21,
+                "isNormalized": false
+              }
+            ]
+          }
+        ],
+        "minPosition": {
+          "__type__": "cc.Vec3",
+          "x": -0.5,
+          "y": -0.5,
+          "z": 0
+        },
+        "maxPosition": {
+          "__type__": "cc.Vec3",
+          "x": 0.5,
+          "y": 0.5,
+          "z": 0
+        }
+      },
+      "vertices": 4,
+      "triangles": 2,
+      "gltf": "analysis/assets/models/1263d74c-8167-4928-91a6-4e2672411f47@fc873.gltf",
+      "materials": "Reapply serialized Cocos materials; glTF export contains geometry only"
+    }
+  },
+  {
+    "id": "15d47550-97fa-4cfd-a531-44b4408bfd88",
+    "name": "[this is blast] select",
+    "type": "audio",
+    "bytes": 28482,
+    "format": "wav",
+    "file": "analysis/assets/native/15d47550-97fa-4cfd-a531-44b4408bfd88.wav",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "b41f4f85651960c73bc02a7ed5d323310d4305c40dc72c54bf176ef6863f8328",
+      "encoding": 1,
+      "channels": 2,
+      "sampleRate": 44100,
+      "byteRate": 176400,
+      "bits": 16,
+      "bitrate": 1411200,
+      "loop": false
+    },
+    "duration": 0.1610204081632653
+  },
+  {
+    "id": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870",
+    "name": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870",
+    "type": "mesh buffer",
+    "bytes": 83070,
+    "format": "bin",
+    "file": "analysis/assets/native/2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870.bin",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "8a02fb82b18ab7975ed1abefb8ba0f6b1c8e7246102bed2e34e8ba01e92d27af",
+      "mesh": {
+        "primitives": [
+          {
+            "primitiveMode": 7,
+            "vertexBundelIndices": [
+              0
+            ],
+            "indexView": {
+              "offset": 70080,
+              "length": 12990,
+              "count": 6495,
+              "stride": 2
+            }
+          }
+        ],
+        "vertexBundles": [
+          {
+            "view": {
+              "offset": 0,
+              "length": 70080,
+              "count": 1460,
+              "stride": 48
+            },
+            "attributes": [
+              {
+                "name": "a_position",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_normal",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_tangent",
+                "format": 44,
+                "isNormalized": false
+              }
+            ]
+          }
+        ],
+        "minPosition": {
+          "__type__": "cc.Vec3",
+          "x": -0.9868918657302856,
+          "y": -0.001420049462467432,
+          "z": -1.3109502792358398
+        },
+        "maxPosition": {
+          "__type__": "cc.Vec3",
+          "x": 0.9956200122833252,
+          "y": 2.5439035892486572,
+          "z": 1.3109502792358398
+        }
+      },
+      "vertices": 1460,
+      "triangles": 2165,
+      "gltf": "analysis/assets/models/2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870.gltf",
+      "materials": "Reapply serialized Cocos materials; glTF export contains geometry only"
+    }
+  },
+  {
+    "id": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33",
+    "name": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33",
+    "type": "mesh buffer",
+    "bytes": 16224,
+    "format": "bin",
+    "file": "analysis/assets/native/2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33.bin",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "08731e0c0e6a726b3483c1bb622eae6db8820f337c87c7cc381e7be1384df788",
+      "mesh": {
+        "primitives": [
+          {
+            "primitiveMode": 7,
+            "vertexBundelIndices": [
+              0
+            ],
+            "indexView": {
+              "offset": 14592,
+              "length": 1632,
+              "count": 816,
+              "stride": 2
+            }
+          }
+        ],
+        "vertexBundles": [
+          {
+            "view": {
+              "offset": 0,
+              "length": 14592,
+              "count": 304,
+              "stride": 48
+            },
+            "attributes": [
+              {
+                "name": "a_position",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_normal",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_tangent",
+                "format": 44,
+                "isNormalized": false
+              }
+            ]
+          }
+        ],
+        "minPosition": {
+          "__type__": "cc.Vec3",
+          "x": -3.199720859527588,
+          "y": -0.28992611169815063,
+          "z": -1.0299218893051147
+        },
+        "maxPosition": {
+          "__type__": "cc.Vec3",
+          "x": 0.015000591985881329,
+          "y": 0.32070913910865784,
+          "z": 1.0299235582351685
+        }
+      },
+      "vertices": 304,
+      "triangles": 272,
+      "gltf": "analysis/assets/models/2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33.gltf",
+      "materials": "Reapply serialized Cocos materials; glTF export contains geometry only"
+    }
+  },
+  {
+    "id": "30d0c9c0-201c-40ca-9db8-71dbbad0eb7c",
+    "name": "LilitaOne-Regular",
+    "type": "font",
+    "bytes": 26828,
+    "format": "ttf",
+    "file": "analysis/assets/native/LilitaOne-Regular.ttf",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "4444c23631884f411aa7f2fee35061b1756a9927940c62d2a5572acf470b3ffa",
+      "glyphCount": 228,
+      "family": "Lilita One",
+      "weight": "Regular",
+      "tables": {
+        "GDEF": {
+          "offset": 268,
+          "length": 22
+        },
+        "GPOS": {
+          "offset": 1752,
+          "length": 594
+        },
+        "GSUB": {
+          "offset": 292,
+          "length": 24
+        },
+        "OS/2": {
+          "offset": 440,
+          "length": 96
+        },
+        "cmap": {
+          "offset": 536,
+          "length": 244
+        },
+        "gasp": {
+          "offset": 260,
+          "length": 8
+        },
+        "glyf": {
+          "offset": 4240,
+          "length": 22586
+        },
+        "head": {
+          "offset": 384,
+          "length": 54
+        },
+        "hhea": {
+          "offset": 348,
+          "length": 36
+        },
+        "hmtx": {
+          "offset": 2348,
+          "length": 912
+        },
+        "loca": {
+          "offset": 780,
+          "length": 458
+        },
+        "maxp": {
+          "offset": 316,
+          "length": 32
+        },
+        "name": {
+          "offset": 3260,
+          "length": 978
+        },
+        "post": {
+          "offset": 1240,
+          "length": 511
+        },
+        "prep": {
+          "offset": 252,
+          "length": 7
+        }
+      }
+    }
+  },
+  {
+    "id": "69414c89-0d43-42e9-ace6-01ff0a340dd1@3d923",
+    "name": "69414c89-0d43-42e9-ace6-01ff0a340dd1@3d923",
+    "type": "mesh buffer",
+    "bytes": 99936,
+    "format": "bin",
+    "file": "analysis/assets/native/69414c89-0d43-42e9-ace6-01ff0a340dd1@3d923.bin",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "6a069224d7efbb9e876d7de67f987f726cf3aab737bc16d8ea35fa4b04785fc0",
+      "mesh": {
+        "primitives": [
+          {
+            "primitiveMode": 7,
+            "vertexBundelIndices": [
+              0
+            ],
+            "indexView": {
+              "offset": 81648,
+              "length": 18288,
+              "count": 9144,
+              "stride": 2
+            }
+          }
+        ],
+        "vertexBundles": [
+          {
+            "view": {
+              "offset": 0,
+              "length": 81648,
+              "count": 1701,
+              "stride": 48
+            },
+            "attributes": [
+              {
+                "name": "a_position",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_normal",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_tangent",
+                "format": 44,
+                "isNormalized": false
+              }
+            ]
+          }
+        ],
+        "minPosition": {
+          "__type__": "cc.Vec3",
+          "x": -1.0891129970550537,
+          "y": 0,
+          "z": -0.75
+        },
+        "maxPosition": {
+          "__type__": "cc.Vec3",
+          "x": 0.7499997615814209,
+          "y": 1.233267068862915,
+          "z": 0.75
+        }
+      },
+      "vertices": 1701,
+      "triangles": 3048,
+      "gltf": "analysis/assets/models/69414c89-0d43-42e9-ace6-01ff0a340dd1@3d923.gltf",
+      "materials": "Reapply serialized Cocos materials; glTF export contains geometry only"
+    }
+  },
+  {
+    "id": "6df3381d-185f-4eaa-abbd-556744d82f44",
+    "name": "handSpriteClick_",
+    "type": "texture",
+    "bytes": 11377,
+    "format": "png",
+    "file": "analysis/assets/native/6df3381d-185f-4eaa-abbd-556744d82f44.png",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "03147d3b2e1d8ee424eb636fc81a9158833bcd65d8218d97fa95d5d23ee0b0f0",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "space": "srgb",
+      "mipmaps": "No native PNG mipmaps; sampler metadata in serialized texture pack",
+      "palette": [
+        "#ffffff",
+        "#fec892",
+        "#feca95",
+        "#fec791",
+        "#fecb97",
+        "#fdc088",
+        "#fcc08a",
+        "#fcbe87"
+      ]
+    },
+    "dimensions": "256x256"
+  },
+  {
+    "id": "716d7457-32e8-483b-b6fe-c528a6798a00@a62fe",
+    "name": "716d7457-32e8-483b-b6fe-c528a6798a00@a62fe",
+    "type": "mesh buffer",
+    "bytes": 2328888,
+    "format": "bin",
+    "file": "analysis/assets/native/716d7457-32e8-483b-b6fe-c528a6798a00@a62fe.bin",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "06271eba5cbc5ce83e993d273a7dae2f793bab351970c7e72131eb5083125ebc",
+      "mesh": {
+        "primitives": [
+          {
+            "primitiveMode": 7,
+            "vertexBundelIndices": [
+              0
+            ],
+            "indexView": {
+              "offset": 2040192,
+              "length": 198720,
+              "count": 99360,
+              "stride": 2
+            }
+          },
+          {
+            "primitiveMode": 7,
+            "vertexBundelIndices": [
+              1
+            ],
+            "indexView": {
+              "offset": 2323920,
+              "length": 4968,
+              "count": 2484,
+              "stride": 2
+            }
+          }
+        ],
+        "vertexBundles": [
+          {
+            "view": {
+              "offset": 0,
+              "length": 2040192,
+              "count": 23184,
+              "stride": 88
+            },
+            "attributes": [
+              {
+                "name": "a_position",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_normal",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_tangent",
+                "format": 44,
+                "isNormalized": false
+              },
+              {
+                "name": "a_color",
+                "format": 44,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord1",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord2",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord3",
+                "format": 21,
+                "isNormalized": false
+              }
+            ]
+          },
+          {
+            "view": {
+              "offset": 2238912,
+              "length": 85008,
+              "count": 966,
+              "stride": 88
+            },
+            "attributes": [
+              {
+                "name": "a_position",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_normal",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_tangent",
+                "format": 44,
+                "isNormalized": false
+              },
+              {
+                "name": "a_color",
+                "format": 44,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord1",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord2",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord3",
+                "format": 21,
+                "isNormalized": false
+              }
+            ]
+          }
+        ],
+        "minPosition": {
+          "__type__": "cc.Vec3",
+          "x": -10.203624725341797,
+          "y": -0.8780719637870789,
+          "z": -15.204018592834473
+        },
+        "maxPosition": {
+          "__type__": "cc.Vec3",
+          "x": 10.203624725341797,
+          "y": 0.21161428093910217,
+          "z": 15.20362663269043
+        }
+      },
+      "vertices": 24150,
+      "triangles": 33948,
+      "gltf": "analysis/assets/models/716d7457-32e8-483b-b6fe-c528a6798a00@a62fe.gltf",
+      "materials": "Reapply serialized Cocos materials; glTF export contains geometry only"
+    }
+  },
+  {
+    "id": "748aa730-f10e-4897-9e4a-6963194fe2e2@db054",
+    "name": "748aa730-f10e-4897-9e4a-6963194fe2e2@db054",
+    "type": "mesh buffer",
+    "bytes": 15006,
+    "format": "bin",
+    "file": "analysis/assets/native/748aa730-f10e-4897-9e4a-6963194fe2e2@db054.bin",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "7419ec9b7756de6f9881be33133c710594293fe659cbb86c423f637440826a3c",
+      "mesh": {
+        "primitives": [
+          {
+            "primitiveMode": 7,
+            "vertexBundelIndices": [
+              0
+            ],
+            "indexView": {
+              "offset": 12576,
+              "length": 2430,
+              "count": 1215,
+              "stride": 2
+            }
+          }
+        ],
+        "vertexBundles": [
+          {
+            "view": {
+              "offset": 0,
+              "length": 12576,
+              "count": 262,
+              "stride": 48
+            },
+            "attributes": [
+              {
+                "name": "a_position",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_normal",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_tangent",
+                "format": 44,
+                "isNormalized": false
+              }
+            ]
+          }
+        ],
+        "minPosition": {
+          "__type__": "cc.Vec3",
+          "x": -0.5504639744758606,
+          "y": -6.280885145315551e-9,
+          "z": -0.45889294147491455
+        },
+        "maxPosition": {
+          "__type__": "cc.Vec3",
+          "x": 0.5504632592201233,
+          "y": 1.2378740310668945,
+          "z": 0.4363401532173157
+        }
+      },
+      "vertices": 262,
+      "triangles": 405,
+      "gltf": "analysis/assets/models/748aa730-f10e-4897-9e4a-6963194fe2e2@db054.gltf",
+      "materials": "Reapply serialized Cocos materials; glTF export contains geometry only"
+    }
+  },
+  {
+    "id": "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca",
+    "name": "default_sprite_splash",
+    "type": "texture",
+    "bytes": 82,
+    "format": "png",
+    "file": "analysis/assets/native/7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca.png",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "83c9b8ce1937570a40bcedde29457a4ab7865ca1db23a46d2d68e6b1949f3c28",
+      "width": 2,
+      "height": 2,
+      "alpha": false,
+      "space": "srgb",
+      "mipmaps": "No native PNG mipmaps; sampler metadata in serialized texture pack",
+      "palette": [
+        "#ffffff"
+      ]
+    },
+    "dimensions": "2x2"
+  },
+  {
+    "id": "7d9879b2-c46d-4447-ad18-2c7a71f658cf",
+    "name": "Border_",
+    "type": "texture",
+    "bytes": 10725,
+    "format": "png",
+    "file": "analysis/assets/native/7d9879b2-c46d-4447-ad18-2c7a71f658cf.png",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "7e01b0c3e4f09c86ac38094da68de279a3177479da32b577150ea2701741fbea",
+      "width": 512,
+      "height": 114,
+      "alpha": true,
+      "space": "srgb",
+      "mipmaps": "No native PNG mipmaps; sampler metadata in serialized texture pack",
+      "palette": [
+        "#828cb1",
+        "#8d98b8",
+        "#afb6d2",
+        "#b2c3de",
+        "#818bb1",
+        "#b7c7e5",
+        "#abb5d0",
+        "#7c86a8"
+      ]
+    },
+    "dimensions": "512x114"
+  },
+  {
+    "id": "7e0d00cd-e958-4d76-b418-a3e8130166a2@2e7eb",
+    "name": "7e0d00cd-e958-4d76-b418-a3e8130166a2@2e7eb",
+    "type": "mesh buffer",
+    "bytes": 17292,
+    "format": "bin",
+    "file": "analysis/assets/native/7e0d00cd-e958-4d76-b418-a3e8130166a2@2e7eb.bin",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "f23363e862ffe28d417977d0bc5f0a75e303fb6a7e34675cf4efbea572d29c65",
+      "mesh": {
+        "primitives": [
+          {
+            "primitiveMode": 7,
+            "vertexBundelIndices": [
+              0
+            ],
+            "indexView": {
+              "offset": 14208,
+              "length": 3084,
+              "count": 1542,
+              "stride": 2
+            }
+          }
+        ],
+        "vertexBundles": [
+          {
+            "view": {
+              "offset": 0,
+              "length": 14208,
+              "count": 296,
+              "stride": 48
+            },
+            "attributes": [
+              {
+                "name": "a_position",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_normal",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_tangent",
+                "format": 44,
+                "isNormalized": false
+              }
+            ]
+          }
+        ],
+        "minPosition": {
+          "__type__": "cc.Vec3",
+          "x": -0.295468807220459,
+          "y": 1.122222661972046,
+          "z": -0.17490911483764648
+        },
+        "maxPosition": {
+          "__type__": "cc.Vec3",
+          "x": 0.2954690754413605,
+          "y": 1.3267741203308105,
+          "z": 0.36738288402557373
+        }
+      },
+      "vertices": 296,
+      "triangles": 514,
+      "gltf": "analysis/assets/models/7e0d00cd-e958-4d76-b418-a3e8130166a2@2e7eb.gltf",
+      "materials": "Reapply serialized Cocos materials; glTF export contains geometry only"
+    }
+  },
+  {
+    "id": "7ee7c69f-f28a-4986-8d93-f51a03f19e78",
+    "name": "button",
+    "type": "texture",
+    "bytes": 14596,
+    "format": "png",
+    "file": "analysis/assets/native/7ee7c69f-f28a-4986-8d93-f51a03f19e78.png",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "3921393f97d274c44b9084ad321870126eddbf473aefbe05f72f1d3887c9a823",
+      "width": 512,
+      "height": 174,
+      "alpha": true,
+      "space": "srgb",
+      "mipmaps": "No native PNG mipmaps; sampler metadata in serialized texture pack",
+      "palette": [
+        "#277fea",
+        "#2884f2",
+        "#2065bb",
+        "#358dfa",
+        "#247ce9",
+        "#277ee8",
+        "#0b213d",
+        "#7aaef1"
+      ]
+    },
+    "dimensions": "512x174"
+  },
+  {
+    "id": "861de519-e294-42c3-b5b2-078cbbc1b8e3",
+    "name": "861de519-e294-42c3-b5b2-078cbbc1b8e3",
+    "type": "texture",
+    "bytes": 98617,
+    "format": "png",
+    "file": "analysis/assets/native/861de519-e294-42c3-b5b2-078cbbc1b8e3.png",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "f618a95bc52f2dd941d0be94e8037641f425963d1bc88684d72554e0535e286f",
+      "width": 512,
+      "height": 512,
+      "alpha": false,
+      "space": "srgb",
+      "mipmaps": "No native PNG mipmaps; sampler metadata in serialized texture pack",
+      "palette": [
+        "#9099b7",
+        "#9ea7c5",
+        "#939cba",
+        "#919ab8",
+        "#929bb9",
+        "#9da6c4",
+        "#9ca5c3",
+        "#949dbb"
+      ]
+    },
+    "dimensions": "512x512"
+  },
+  {
+    "id": "a45e711c-c946-4632-a215-f8c994fa9f4a@41ac8",
+    "name": "a45e711c-c946-4632-a215-f8c994fa9f4a@41ac8",
+    "type": "mesh buffer",
+    "bytes": 13044,
+    "format": "bin",
+    "file": "analysis/assets/native/a45e711c-c946-4632-a215-f8c994fa9f4a@41ac8.bin",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "99c48d1716f776a927cdb2457fc9197f3e3b9e4c4f1fc0c017b35a28a75437f3",
+      "mesh": {
+        "primitives": [
+          {
+            "primitiveMode": 7,
+            "vertexBundelIndices": [
+              0
+            ],
+            "indexView": {
+              "offset": 10944,
+              "length": 2100,
+              "count": 1050,
+              "stride": 2
+            }
+          }
+        ],
+        "vertexBundles": [
+          {
+            "view": {
+              "offset": 0,
+              "length": 10944,
+              "count": 228,
+              "stride": 48
+            },
+            "attributes": [
+              {
+                "name": "a_position",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_normal",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_tangent",
+                "format": 44,
+                "isNormalized": false
+              }
+            ]
+          }
+        ],
+        "minPosition": {
+          "__type__": "cc.Vec3",
+          "x": -0.4468344748020172,
+          "y": 5.9604641222676946e-8,
+          "z": -0.4981429874897003
+        },
+        "maxPosition": {
+          "__type__": "cc.Vec3",
+          "x": 0.4468344748020172,
+          "y": 1.237874150276184,
+          "z": 0.4981432259082794
+        }
+      },
+      "vertices": 228,
+      "triangles": 350,
+      "gltf": "analysis/assets/models/a45e711c-c946-4632-a215-f8c994fa9f4a@41ac8.gltf",
+      "materials": "Reapply serialized Cocos materials; glTF export contains geometry only"
+    }
+  },
+  {
+    "id": "c25ecc7a-5291-441f-be5d-8845567f2c92",
+    "name": "borderFill",
+    "type": "texture",
+    "bytes": 1843,
+    "format": "png",
+    "file": "analysis/assets/native/c25ecc7a-5291-441f-be5d-8845567f2c92.png",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "929a9a03692d43c354888ceba31509a24c490acdb84042268d76ab19c1605ea7",
+      "width": 512,
+      "height": 114,
+      "alpha": true,
+      "space": "srgb",
+      "mipmaps": "No native PNG mipmaps; sampler metadata in serialized texture pack",
+      "palette": [
+        "#e4e4e4",
+        "#e3e3e3",
+        "#d5d5d5",
+        "#e2e2e2",
+        "#e5e5e5",
+        "#dddddd",
+        "#f6f6f6",
+        "#e6e6e6"
+      ]
+    },
+    "dimensions": "512x114"
+  },
+  {
+    "id": "c6eea205-ec83-4098-8759-1c5862dbe22a@0a48a",
+    "name": "c6eea205-ec83-4098-8759-1c5862dbe22a@0a48a",
+    "type": "mesh buffer",
+    "bytes": 12996,
+    "format": "bin",
+    "file": "analysis/assets/native/c6eea205-ec83-4098-8759-1c5862dbe22a@0a48a.bin",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "f570fab4f682b068e449d6ed504651385d46205ddce0468ad82686304127d6b2",
+      "mesh": {
+        "primitives": [
+          {
+            "primitiveMode": 7,
+            "vertexBundelIndices": [
+              0
+            ],
+            "indexView": {
+              "offset": 10896,
+              "length": 2100,
+              "count": 1050,
+              "stride": 2
+            }
+          }
+        ],
+        "vertexBundles": [
+          {
+            "view": {
+              "offset": 0,
+              "length": 10896,
+              "count": 227,
+              "stride": 48
+            },
+            "attributes": [
+              {
+                "name": "a_position",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_normal",
+                "format": 32,
+                "isNormalized": false
+              },
+              {
+                "name": "a_texCoord",
+                "format": 21,
+                "isNormalized": false
+              },
+              {
+                "name": "a_tangent",
+                "format": 44,
+                "isNormalized": false
+              }
+            ]
+          }
+        ],
+        "minPosition": {
+          "__type__": "cc.Vec3",
+          "x": -0.49760276079177856,
+          "y": 0,
+          "z": -0.4983817934989929
+        },
+        "maxPosition": {
+          "__type__": "cc.Vec3",
+          "x": 0.4526355564594269,
+          "y": 1.237874150276184,
+          "z": 0.451860249042511
+        }
+      },
+      "vertices": 227,
+      "triangles": 350,
+      "gltf": "analysis/assets/models/c6eea205-ec83-4098-8759-1c5862dbe22a@0a48a.gltf",
+      "materials": "Reapply serialized Cocos materials; glTF export contains geometry only"
+    }
+  },
+  {
+    "id": "d3ca048d-bf8a-4dba-b2cb-c658f10ec0df",
+    "name": "win-2",
+    "type": "audio",
+    "bytes": 301106,
+    "format": "wav",
+    "file": "analysis/assets/native/d3ca048d-bf8a-4dba-b2cb-c658f10ec0df.wav",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "1bc7e36340b6ba0d32b93f94a82fab93c7a4c0da78ed9ae6575a44234bc95c9b",
+      "encoding": 1,
+      "channels": 2,
+      "sampleRate": 44100,
+      "byteRate": 176400,
+      "bits": 16,
+      "bitrate": 1411200,
+      "loop": false
+    },
+    "duration": 1.7065079365079365
+  },
+  {
+    "id": "e6060c36-4a3f-41eb-be39-82f3cde65b43",
+    "name": "slidey",
+    "type": "audio",
+    "bytes": 125168,
+    "format": "wav",
+    "file": "analysis/assets/native/e6060c36-4a3f-41eb-be39-82f3cde65b43.wav",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "9b8612aec5e070337a7e0c38d35ddacce7df3be49f0739bba2b88b6226c22f2a",
+      "encoding": 1,
+      "channels": 2,
+      "sampleRate": 44100,
+      "byteRate": 176400,
+      "bits": 16,
+      "bitrate": 1411200,
+      "loop": false
+    },
+    "duration": 0.6863492063492064
+  },
+  {
+    "id": "e9ba55d5-a84e-4356-9314-6c3d429c78c3",
+    "name": "title (2)",
+    "type": "texture",
+    "bytes": 28576,
+    "format": "png",
+    "file": "analysis/assets/native/e9ba55d5-a84e-4356-9314-6c3d429c78c3.png",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "65123612678dee330d596b2a14f7df445872ae0ca267b18bec98932b4b216df6",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "space": "srgb",
+      "mipmaps": "No native PNG mipmaps; sampler metadata in serialized texture pack",
+      "palette": [
+        "#ffc800",
+        "#16114a",
+        "#15124b",
+        "#ffc900",
+        "#ffc300",
+        "#ffc000",
+        "#1a1552",
+        "#364069"
+      ]
+    },
+    "dimensions": "512x512"
+  },
+  {
+    "id": "ebadcded-6f27-4491-afaf-84fc212b18a4",
+    "name": "AppIcon_",
+    "type": "texture",
+    "bytes": 115761,
+    "format": "png",
+    "file": "analysis/assets/native/ebadcded-6f27-4491-afaf-84fc212b18a4.png",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "ad59f43a74688e2209fb769ba6fc825ea906d15c4ad19992f2fba137e9fe0116",
+      "width": 512,
+      "height": 512,
+      "alpha": true,
+      "space": "srgb",
+      "mipmaps": "No native PNG mipmaps; sampler metadata in serialized texture pack",
+      "palette": [
+        "#f9bf07",
+        "#5d9cf3",
+        "#60a0f7",
+        "#fac40a",
+        "#fbc90d",
+        "#5f9ef5",
+        "#fbc80c",
+        "#518fe7"
+      ]
+    },
+    "dimensions": "512x512"
+  },
+  {
+    "id": "f571e731-662a-47d5-97ac-a8a7f089bf7d",
+    "name": "handSprite_",
+    "type": "texture",
+    "bytes": 11488,
+    "format": "png",
+    "file": "analysis/assets/native/f571e731-662a-47d5-97ac-a8a7f089bf7d.png",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "1cbdd892297a27776a018d8930d9c56f9e228d23a17177b9d6906a8a4ad1033d",
+      "width": 256,
+      "height": 256,
+      "alpha": true,
+      "space": "srgb",
+      "mipmaps": "No native PNG mipmaps; sampler metadata in serialized texture pack",
+      "palette": [
+        "#fcc18b",
+        "#fec892",
+        "#fcbf89",
+        "#fec791",
+        "#f7b079",
+        "#feca95",
+        "#fec087",
+        "#fec893"
+      ]
+    },
+    "dimensions": "256x256"
+  },
+  {
+    "id": "f7f2f9b5-b3a2-4066-96b7-f22e35c2815d",
+    "name": "[Ts]wrong",
+    "type": "audio",
+    "bytes": 184398,
+    "format": "wav",
+    "file": "analysis/assets/native/f7f2f9b5-b3a2-4066-96b7-f22e35c2815d.wav",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "f6979fbcc2103c65905619ce61c9f0cb4af964edc8f1df7673f5af6b150705b5",
+      "encoding": 1,
+      "channels": 2,
+      "sampleRate": 44100,
+      "byteRate": 176400,
+      "bits": 16,
+      "bitrate": 1411200,
+      "loop": false
+    },
+    "duration": 1.0448979591836736
+  },
+  {
+    "id": "f971e4e6-90a4-4fd2-b90f-3411411a8a14",
+    "name": "[This is blast] shoot",
+    "type": "audio",
+    "bytes": 13354,
+    "format": "wav",
+    "file": "analysis/assets/native/f971e4e6-90a4-4fd2-b90f-3411411a8a14.wav",
+    "usage": "See UUID references in serialized assets",
+    "status": "Confirmed: extracted",
+    "details": {
+      "sha256": "5e55cd0c7a331bad35309c7bb9068a95d98b13fea6256d5d2c58308e6a84cb6e",
+      "encoding": 1,
+      "channels": 2,
+      "sampleRate": 44100,
+      "byteRate": 176400,
+      "bits": 16,
+      "bitrate": 1411200,
+      "loop": false
+    },
+    "duration": 0.07526077097505669
+  },
+  {
+    "id": "612b568c-6e7e-4b82-a194-d0cb5b2656f1",
+    "name": "pulsate",
+    "type": "animation",
+    "bytes": 1424,
+    "format": "CCON MessagePack",
+    "file": "analysis/assets/native/612b568c-6e7e-4b82-a194-d0cb5b2656f1.ccon",
+    "status": "Confirmed: extracted",
+    "usage": "CTA animation"
+  },
+  {
+    "id": "effect.bin",
+    "name": "effect cache",
+    "type": "shader cache",
+    "bytes": 5755,
+    "format": "Cocos binary",
+    "file": "analysis/assets/native/effect.bin",
+    "status": "Confirmed: extracted",
+    "usage": "Engine pipeline"
+  }
+]

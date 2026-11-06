@@ -1,0 +1,395 @@
+[
+  {
+    "label": "HTML5 / held cut, repeated EOF overlaps, SDK pause and end card",
+    "pass": true,
+    "elapsedMs": 17552,
+    "firstSwipeLockedTags": 36,
+    "firstSwipeStarts": {
+      "bgm": 0,
+      "sfx-conveyor": 0,
+      "sfx-cut": 0,
+      "sfx-sand": 0
+    },
+    "proofs": {
+      "bgm": {
+        "minimumGain": 1,
+        "maximumGain": 1,
+        "minimumActualGain": 1,
+        "overlapSamples": 8,
+        "handovers": [
+          {
+            "starts": 2,
+            "gain": 1,
+            "actualGain": 1,
+            "tags": [
+              {
+                "name": "bgm00",
+                "time": 2.474739,
+                "volume": 0.10155266350222114
+              },
+              {
+                "name": "bgm01",
+                "time": 0.016934,
+                "volume": 0.018447336497778848
+              }
+            ]
+          },
+          {
+            "starts": 3,
+            "gain": 1,
+            "actualGain": 1,
+            "tags": [
+              {
+                "name": "bgm00",
+                "time": 0.01525,
+                "volume": 0.015656935249197205
+              },
+              {
+                "name": "bgm01",
+                "time": 2.467816,
+                "volume": 0.1043430647508028
+              }
+            ]
+          },
+          {
+            "starts": 4,
+            "gain": 1,
+            "actualGain": 1,
+            "tags": [
+              {
+                "name": "bgm00",
+                "time": 2.5225,
+                "volume": 0.0770825219392529
+              },
+              {
+                "name": "bgm01",
+                "time": 0.061183,
+                "volume": 0.042917478060747104
+              }
+            ]
+          }
+        ]
+      },
+      "sfx-conveyor": {
+        "minimumGain": 1,
+        "maximumGain": 1.0000000000000002,
+        "minimumActualGain": 1,
+        "overlapSamples": 8,
+        "handovers": [
+          {
+            "starts": 2,
+            "gain": 1,
+            "actualGain": 1,
+            "tags": [
+              {
+                "name": "sfx-conveyor00",
+                "time": 2.474759,
+                "volume": 0.06770177566814743
+              },
+              {
+                "name": "sfx-conveyor01",
+                "time": 0.016935,
+                "volume": 0.012298224331852566
+              }
+            ]
+          },
+          {
+            "starts": 3,
+            "gain": 1.0000000000000002,
+            "actualGain": 1.0000000000000002,
+            "tags": [
+              {
+                "name": "sfx-conveyor00",
+                "time": 0.015253,
+                "volume": 0.010437687248183496
+              },
+              {
+                "name": "sfx-conveyor01",
+                "time": 2.467819,
+                "volume": 0.06956231275181651
+              }
+            ]
+          },
+          {
+            "starts": 4,
+            "gain": 1,
+            "actualGain": 1,
+            "tags": [
+              {
+                "name": "sfx-conveyor00",
+                "time": 2.522504,
+                "volume": 0.05138834795950193
+              },
+              {
+                "name": "sfx-conveyor01",
+                "time": 0.061185,
+                "volume": 0.02861165204049807
+              }
+            ]
+          }
+        ]
+      },
+      "sfx-cut": {
+        "minimumGain": 0.9743968181818181,
+        "maximumGain": 1,
+        "minimumActualGain": 0.9743968181818181,
+        "overlapSamples": 8,
+        "handovers": [
+          {
+            "starts": 2,
+            "gain": 1,
+            "actualGain": 1,
+            "tags": [
+              {
+                "name": "sfx-cut00",
+                "time": 2.474762,
+                "volume": 0.6770172368610147
+              },
+              {
+                "name": "sfx-cut01",
+                "time": 0.007369,
+                "volume": 0.12298276313898537
+              }
+            ]
+          },
+          {
+            "starts": 3,
+            "gain": 1,
+            "actualGain": 1,
+            "tags": [
+              {
+                "name": "sfx-cut00",
+                "time": 0.013189,
+                "volume": 0.0415323840461545
+              },
+              {
+                "name": "sfx-cut01",
+                "time": 2.4446,
+                "volume": 0.7584676159538456
+              }
+            ]
+          },
+          {
+            "starts": 4,
+            "gain": 1,
+            "actualGain": 1,
+            "tags": [
+              {
+                "name": "sfx-cut00",
+                "time": 2.499286,
+                "volume": 0.5769626807305765
+              },
+              {
+                "name": "sfx-cut01",
+                "time": 0.037968,
+                "volume": 0.2230373192694235
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "pauseVerified": true,
+    "release": [
+      {
+        "ms": 1,
+        "gain": 1
+      },
+      {
+        "ms": 44,
+        "gain": 1
+      },
+      {
+        "ms": 76,
+        "gain": 0.9779454545454543
+      },
+      {
+        "ms": 122,
+        "gain": 0.8897272727272724
+      },
+      {
+        "ms": 168,
+        "gain": 0.8015999999999999
+      },
+      {
+        "ms": 200,
+        "gain": 0.7465090909090906
+      },
+      {
+        "ms": 246,
+        "gain": 0.6583636363636358
+      },
+      {
+        "ms": 278,
+        "gain": 0.6032545454545455
+      },
+      {
+        "ms": 309,
+        "gain": 0.5481454545454546
+      },
+      {
+        "ms": 355,
+        "gain": 0.46003636363636347
+      },
+      {
+        "ms": 402,
+        "gain": 0.3828363636363631
+      },
+      {
+        "ms": 434,
+        "gain": 0.32774545454545434
+      },
+      {
+        "ms": 465,
+        "gain": 0.2616545454545455
+      },
+      {
+        "ms": 511,
+        "gain": 0.18452727272727254
+      },
+      {
+        "ms": 558,
+        "gain": 0.09639999999999949
+      },
+      {
+        "ms": 589,
+        "gain": 0.04129090909090848
+      },
+      {
+        "ms": 634,
+        "gain": 0
+      }
+    ],
+    "endcardStopped": true
+  },
+  {
+    "label": "HTML5 / belt sand repeated EOF overlaps and natural release",
+    "pass": true,
+    "elapsedMs": 15273,
+    "proof": {
+      "minimumGain": 0.9999999999999999,
+      "maximumGain": 1.0000000000000002,
+      "minimumActualGain": 0.9999999999999999,
+      "overlapSamples": 15,
+      "handovers": [
+        {
+          "starts": 2,
+          "gain": 0.9999999999999999,
+          "actualGain": 0.9999999999999999,
+          "tags": [
+            {
+              "name": "sfx-sand00",
+              "time": 4.065339,
+              "volume": 0.762608439530261
+            },
+            {
+              "name": "sfx-sand01",
+              "time": 0.007374,
+              "volume": 0.0873915604697389
+            }
+          ]
+        },
+        {
+          "starts": 3,
+          "gain": 1.0000000000000002,
+          "actualGain": 1.0000000000000002,
+          "tags": [
+            {
+              "name": "sfx-sand00",
+              "time": 0.005641,
+              "volume": 0.02149707446142563
+            },
+            {
+              "name": "sfx-sand01",
+              "time": 4.058995,
+              "volume": 0.8285029255385744
+            }
+          ]
+        },
+        {
+          "starts": 4,
+          "gain": 1,
+          "actualGain": 1,
+          "tags": [
+            {
+              "name": "sfx-sand00",
+              "time": 4.062322,
+              "volume": 0.8062239200455527
+            },
+            {
+              "name": "sfx-sand01",
+              "time": 0.012847,
+              "volume": 0.043776079954447336
+            }
+          ]
+        }
+      ]
+    },
+    "release": [
+      {
+        "ms": 0,
+        "gain": 1
+      },
+      {
+        "ms": 46,
+        "gain": 1
+      },
+      {
+        "ms": 94,
+        "gain": 1
+      },
+      {
+        "ms": 139,
+        "gain": 0.9889818181818181
+      },
+      {
+        "ms": 187,
+        "gain": 0.9008545454545456
+      },
+      {
+        "ms": 234,
+        "gain": 0.8127272727272727
+      },
+      {
+        "ms": 283,
+        "gain": 0.7245454545454547
+      },
+      {
+        "ms": 328,
+        "gain": 0.6364000000000001
+      },
+      {
+        "ms": 376,
+        "gain": 0.559309090909091
+      },
+      {
+        "ms": 422,
+        "gain": 0.471163636363636
+      },
+      {
+        "ms": 468,
+        "gain": 0.38296363636363595
+      },
+      {
+        "ms": 513,
+        "gain": 0.3058545454545457
+      },
+      {
+        "ms": 558,
+        "gain": 0.2176909090909089
+      },
+      {
+        "ms": 606,
+        "gain": 0.140563636363636
+      },
+      {
+        "ms": 652,
+        "gain": 0.05243636363636284
+      },
+      {
+        "ms": 699,
+        "gain": 0
+      }
+    ]
+  }
+]

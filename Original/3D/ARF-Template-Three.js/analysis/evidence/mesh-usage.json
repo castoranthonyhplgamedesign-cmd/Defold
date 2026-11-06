@@ -1,0 +1,265 @@
+[
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Spline_Node_1",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json"
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Spline_Node_2",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json"
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Spline_Node_9",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json"
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Spline_Node_3",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json"
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Spline_Node_4",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json"
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Spline_Node_11",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json"
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Spline_Node_5",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json"
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Spline_Node_6",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json"
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Spline_Node_12",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json"
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Spline_Node_7",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json"
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Spline_Node_8",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json"
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Spline_Node_10",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json"
+  },
+  {
+    "mesh": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33",
+    "node": "Tunnel_v2_.002",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json",
+    "materials": [
+      {
+        "__uuid__": "4926a9c4-be5c-4068-89f7-6df7ccc45f6b"
+      }
+    ]
+  },
+  {
+    "mesh": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870",
+    "node": "Tunnel_v3_",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json",
+    "materials": [
+      {
+        "__uuid__": "4926a9c4-be5c-4068-89f7-6df7ccc45f6b"
+      }
+    ]
+  },
+  {
+    "mesh": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33",
+    "node": "Tunnel_v2_.002",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json",
+    "materials": [
+      {
+        "__uuid__": "4926a9c4-be5c-4068-89f7-6df7ccc45f6b"
+      }
+    ]
+  },
+  {
+    "mesh": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870",
+    "node": "Tunnel_v3_",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json",
+    "materials": [
+      {
+        "__uuid__": "4926a9c4-be5c-4068-89f7-6df7ccc45f6b"
+      }
+    ]
+  },
+  {
+    "mesh": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33",
+    "node": "Tunnel_v2_.002",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json",
+    "materials": [
+      {
+        "__uuid__": "4926a9c4-be5c-4068-89f7-6df7ccc45f6b"
+      }
+    ]
+  },
+  {
+    "mesh": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870",
+    "node": "Tunnel_v3_",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json",
+    "materials": [
+      {
+        "__uuid__": "4926a9c4-be5c-4068-89f7-6df7ccc45f6b"
+      }
+    ]
+  },
+  {
+    "mesh": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33",
+    "node": "Tunnel_v2_.002",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json",
+    "materials": [
+      {
+        "__uuid__": "4926a9c4-be5c-4068-89f7-6df7ccc45f6b"
+      }
+    ]
+  },
+  {
+    "mesh": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870",
+    "node": "Tunnel_v3_",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json",
+    "materials": [
+      {
+        "__uuid__": "4926a9c4-be5c-4068-89f7-6df7ccc45f6b"
+      }
+    ]
+  },
+  {
+    "mesh": "716d7457-32e8-483b-b6fe-c528a6798a00@a62fe",
+    "node": "Spline",
+    "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json",
+    "materials": [
+      {
+        "__uuid__": "a5ccd0c5-9c58-4213-8787-ea68a5cd2797"
+      },
+      {
+        "__uuid__": "5c5fdb01-d084-4e88-9d80-cc4a7392b75d"
+      }
+    ]
+  },
+  {
+    "mesh": "69414c89-0d43-42e9-ace6-01ff0a340dd1@3d923",
+    "node": "Shooter1_",
+    "source": "assets/serialized/097e4753-ec84-4b56-9ff0-7fec40869754.json",
+    "materials": [
+      {
+        "__uuid__": "cb03b242-3000-4196-9865-67614de71db6"
+      }
+    ]
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Projectile",
+    "source": "assets/serialized/20e2baef-fc53-4029-be6e-e2a84b2eda4b.json",
+    "materials": [
+      {
+        "__uuid__": "33571c70-4717-43de-a8b9-ef588495362a"
+      }
+    ]
+  },
+  {
+    "mesh": "7e0d00cd-e958-4d76-b418-a3e8130166a2@2e7eb",
+    "node": "HeadBlock1_.003",
+    "source": "assets/serialized/7e0d00cd-e958-4d76-b418-a3e8130166a2@c09bd.json",
+    "materials": [
+      {
+        "__uuid__": "7e0d00cd-e958-4d76-b418-a3e8130166a2@925cb"
+      }
+    ]
+  },
+  {
+    "mesh": "748aa730-f10e-4897-9e4a-6963194fe2e2@db054",
+    "node": "Head",
+    "source": "assets/serialized/9e896dbe-96ba-4321-b8c8-f55cd9da5258.json",
+    "materials": [
+      {
+        "__uuid__": "748aa730-f10e-4897-9e4a-6963194fe2e2@925cb"
+      }
+    ]
+  },
+  {
+    "mesh": "7e0d00cd-e958-4d76-b418-a3e8130166a2@2e7eb",
+    "node": "Inner",
+    "source": "assets/serialized/9e896dbe-96ba-4321-b8c8-f55cd9da5258.json",
+    "materials": [
+      {
+        "__uuid__": "4c87c9d4-936f-4788-b917-41762c20a8d8"
+      }
+    ]
+  },
+  {
+    "mesh": "a45e711c-c946-4632-a215-f8c994fa9f4a@41ac8",
+    "node": "Default",
+    "source": "assets/serialized/9e896dbe-96ba-4321-b8c8-f55cd9da5258.json",
+    "materials": [
+      {
+        "__uuid__": "748aa730-f10e-4897-9e4a-6963194fe2e2@925cb"
+      }
+    ]
+  },
+  {
+    "mesh": "a45e711c-c946-4632-a215-f8c994fa9f4a@41ac8",
+    "node": "Default",
+    "source": "assets/serialized/bd1a28b0-6cb5-4a8e-b3b0-526df3e782bf.json",
+    "materials": [
+      {
+        "__uuid__": "a45e711c-c946-4632-a215-f8c994fa9f4a@01e27"
+      }
+    ]
+  },
+  {
+    "mesh": "c6eea205-ec83-4098-8759-1c5862dbe22a@0a48a",
+    "node": "Corner",
+    "source": "assets/serialized/bd1a28b0-6cb5-4a8e-b3b0-526df3e782bf.json",
+    "materials": [
+      {
+        "__uuid__": "a45e711c-c946-4632-a215-f8c994fa9f4a@01e27"
+      }
+    ]
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@17020",
+    "node": "Sphere",
+    "source": "assets/serialized/cba89305-ee4f-4a3f-b932-394f3e7c8a08.json",
+    "materials": [
+      {
+        "__uuid__": "620b6bf3-0369-4560-837f-2a2c00b73c26"
+      }
+    ]
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@fc873",
+    "node": "Quad",
+    "source": "assets/serialized/ceaedc83-4edf-4fe2-a242-8dab3ea41ca8.json",
+    "materials": [
+      {
+        "__uuid__": "cee6149c-7d35-41fb-b686-3e689475510d"
+      }
+    ]
+  },
+  {
+    "mesh": "1263d74c-8167-4928-91a6-4e2672411f47@fc873",
+    "node": "Quad-001",
+    "source": "assets/serialized/ceaedc83-4edf-4fe2-a242-8dab3ea41ca8.json",
+    "materials": [
+      {
+        "__uuid__": "cee6149c-7d35-41fb-b686-3e689475510d"
+      }
+    ]
+  }
+]

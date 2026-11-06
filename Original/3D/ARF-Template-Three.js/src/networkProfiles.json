@@ -1,0 +1,10 @@
+[
+  {"tag":"al","name":"applovin","bridge":"mraid","zip":false,"maxBytes":4000000},
+  {"tag":"fb","name":"facebook","bridge":null,"zip":false,"maxBytes":4000000},
+  {"tag":"gg","name":"google","bridge":"exitapi","zip":true,"maxBytes":4000000},
+  {"tag":"is","name":"ironsource","bridge":"mraid","zip":false,"maxBytes":4000000},
+  {"tag":"mtg","name":"mintegral","bridge":null,"zip":true,"maxBytes":4000000},
+  {"tag":"mo","name":"moloco","bridge":null,"zip":false,"maxBytes":4000000},
+  {"tag":"un","name":"unity","bridge":"mraid","zip":false,"maxBytes":4000000},
+  {"tag":"vu","name":"vungle","bridge":null,"zip":true,"maxBytes":4000000}
+]

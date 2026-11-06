@@ -1,0 +1,19 @@
+{
+  "status": "Corrected documentation scope validated; no game implementation",
+  "networks": [
+    "Applovin",
+    "Facebook",
+    "Google",
+    "Ironsource",
+    "Mintegral",
+    "Moloco",
+    "Unity",
+    "Vungle"
+  ],
+  "networkCount": 8,
+  "externalConfigEditor": false,
+  "tuning": "Source-controlled TypeScript/JSON",
+  "rulesSha256": "3d2ebe724751ebaa1fa68876ae0465082de6795e65b2082b16a171e677b1fb9d",
+  "audioGuideUnchanged": true,
+  "historicalGeneratorRetired": true
+}

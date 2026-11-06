@@ -1,0 +1,13 @@
+/build/
+/dist/
+/.internal/
+/tools/node_modules/
+/tools/*.jar
+/bundle/
+/tools/*.proto
+/tools/*.html
+/qa/reference-src/
+/qa/browser-profile/
+__pycache__/
+/qa/evidence/history/output-before-copy.html
+/qa/evidence/history/superseded-Sinonimus.html

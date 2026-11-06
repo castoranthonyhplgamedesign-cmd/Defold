@@ -1,0 +1,28 @@
+{
+  "builtAt": "2026-10-30T05:09:42.191Z",
+  "packages": 32,
+  "variants": [
+    "3clicks",
+    "10clicks",
+    "60seconds",
+    "full"
+  ],
+  "excluded": [
+    "90seconds"
+  ],
+  "largestHTML": 3893484,
+  "zipRange": [
+    1533635,
+    1533767
+  ],
+  "embeddedWarningSha256": "f8f4dcfc7639569c6d339e13a880208583cecbc15c3e5dd2820643b8917332d7",
+  "warningBytes": 6314,
+  "immediateFailVerified": true,
+  "idleHintSeconds": 3.5,
+  "browserSmoke": {
+    "variant": "60seconds",
+    "network": "applovin",
+    "passed": true,
+    "scope": "Mocked host, actual packaged file, muted browser; not official-host certification"
+  }
+}

@@ -1,0 +1,43 @@
+images { image: "/assets/images/background.png" }
+images { image: "/assets/images/sand-container.png" }
+images { image: "/assets/images/conveyor-belt.png" }
+images { image: "/assets/images/belt-chevron.png" }
+images { image: "/assets/images/bucket-purple.png" }
+images { image: "/assets/images/bucket-purple-lid.png" }
+images { image: "/assets/images/bucket-blue-v2.png" }
+images { image: "/assets/images/bucket-blue-v2-lid.png" }
+images { image: "/assets/images/bucket-cyan.png" }
+images { image: "/assets/images/bucket-cyan-lid.png" }
+images { image: "/assets/images/bucket-green-v2.png" }
+images { image: "/assets/images/bucket-green-v2-lid.png" }
+images { image: "/assets/images/bucket-green.png" }
+images { image: "/assets/images/bucket-green-lid.png" }
+images { image: "/assets/images/bucket-yellow-v2.png" }
+images { image: "/assets/images/bucket-yellow-v2-lid.png" }
+images { image: "/assets/images/bucket-orange.png" }
+images { image: "/assets/images/bucket-orange-lid.png" }
+images { image: "/assets/images/bucket-red-v2.png" }
+images { image: "/assets/images/bucket-red-v2-lid.png" }
+images { image: "/assets/images/bucket-pink.png" }
+images { image: "/assets/images/bucket-pink-lid.png" }
+images { image: "/assets/images/bucket-black-v2.png" }
+images { image: "/assets/images/bucket-black-v2-lid.png" }
+images { image: "/assets/images/bucket-white-v2.png" }
+images { image: "/assets/images/bucket-white-v2-lid.png" }
+images { image: "/assets/images/bucket-shadow.png" }
+images { image: "/assets/images/bucket-glow.png" }
+images { image: "/assets/images/sparkle.png" }
+images { image: "/assets/images/fail-glow.png" }
+images { image: "/assets/images/endcard-logo.png" }
+images { image: "/assets/images/ui-hand.png" }
+margin: 0
+extrude_borders: 2
+inner_padding: 0
+images { image: "/assets/images/praise-wave1.png" }
+images { image: "/assets/images/praise-wave2.png" }
+images { image: "/assets/images/praise-wave3.png" }
+images { image: "/assets/images/praise-great.png" }
+images { image: "/assets/images/praise-awesome.png" }
+images { image: "/assets/images/praise-amazing.png" }
+images { image: "/assets/images/fx-ring.png" }
+images { image: "/assets/images/fx-glow.png" }

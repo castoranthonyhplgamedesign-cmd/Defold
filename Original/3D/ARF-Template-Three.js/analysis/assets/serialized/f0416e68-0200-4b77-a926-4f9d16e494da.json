@@ -1,0 +1,29 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Material",
+      "_name": "ui-graphics-material",
+      "_props": [
+        {}
+      ],
+      "_states": [
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        }
+      ],
+      "_defines": [
+        {}
+      ],
+      "_effectAsset": {
+        "__uuid__": "1c02ae6f-4492-4915-b8f8-7492a3b1e4cd"
+      }
+    }
+  ]
+}

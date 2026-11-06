@@ -1,0 +1,6 @@
+material: "/render/coin.material"
+vertices: "/assets/meshes/coin_batch.buffer"
+primitive_type: PRIMITIVE_TRIANGLES
+position_stream: "position"
+normal_stream: "normal"
+textures: "/assets/coin_atlas.png"

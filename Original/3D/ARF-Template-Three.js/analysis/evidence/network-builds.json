@@ -1,0 +1,421 @@
+{
+  "builtAt": "2026-11-03T06:40:08.343Z",
+  "profiles": [
+    {
+      "tag": "al",
+      "name": "applovin",
+      "bridge": "mraid",
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "3clicks",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_al.html",
+      "htmlBytes": 3896107,
+      "packageBytes": 3896107,
+      "bridges": [
+        "mraid.js"
+      ]
+    },
+    {
+      "tag": "fb",
+      "name": "facebook",
+      "bridge": null,
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "3clicks",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_fb.html",
+      "htmlBytes": 3894957,
+      "packageBytes": 3894957,
+      "bridges": []
+    },
+    {
+      "tag": "gg",
+      "name": "google",
+      "bridge": "exitapi",
+      "zip": true,
+      "maxBytes": 4000000,
+      "length": "3clicks",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_gg.zip",
+      "htmlBytes": 3895026,
+      "packageBytes": 1534725,
+      "bridges": [
+        "https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"
+      ]
+    },
+    {
+      "tag": "is",
+      "name": "ironsource",
+      "bridge": "mraid",
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "3clicks",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_is.html",
+      "htmlBytes": 3896076,
+      "packageBytes": 3896076,
+      "bridges": [
+        "mraid.js"
+      ]
+    },
+    {
+      "tag": "mtg",
+      "name": "mintegral",
+      "bridge": null,
+      "zip": true,
+      "maxBytes": 4000000,
+      "length": "3clicks",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_mtg.zip",
+      "htmlBytes": 3895053,
+      "packageBytes": 1534721,
+      "bridges": []
+    },
+    {
+      "tag": "mo",
+      "name": "moloco",
+      "bridge": null,
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "3clicks",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_mo.html",
+      "htmlBytes": 3894955,
+      "packageBytes": 3894955,
+      "bridges": []
+    },
+    {
+      "tag": "un",
+      "name": "unity",
+      "bridge": "mraid",
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "3clicks",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_un.html",
+      "htmlBytes": 3896238,
+      "packageBytes": 3896238,
+      "bridges": [
+        "mraid.js"
+      ]
+    },
+    {
+      "tag": "vu",
+      "name": "vungle",
+      "bridge": null,
+      "zip": true,
+      "maxBytes": 4000000,
+      "length": "3clicks",
+      "file": "dist/3clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_3clicks_na_vu.zip",
+      "htmlBytes": 3895073,
+      "packageBytes": 1534714,
+      "bridges": []
+    },
+    {
+      "tag": "al",
+      "name": "applovin",
+      "bridge": "mraid",
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "10clicks",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_al.html",
+      "htmlBytes": 3896108,
+      "packageBytes": 3896108,
+      "bridges": [
+        "mraid.js"
+      ]
+    },
+    {
+      "tag": "fb",
+      "name": "facebook",
+      "bridge": null,
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "10clicks",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_fb.html",
+      "htmlBytes": 3894958,
+      "packageBytes": 3894958,
+      "bridges": []
+    },
+    {
+      "tag": "gg",
+      "name": "google",
+      "bridge": "exitapi",
+      "zip": true,
+      "maxBytes": 4000000,
+      "length": "10clicks",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_gg.zip",
+      "htmlBytes": 3895027,
+      "packageBytes": 1534725,
+      "bridges": [
+        "https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"
+      ]
+    },
+    {
+      "tag": "is",
+      "name": "ironsource",
+      "bridge": "mraid",
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "10clicks",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_is.html",
+      "htmlBytes": 3896077,
+      "packageBytes": 3896077,
+      "bridges": [
+        "mraid.js"
+      ]
+    },
+    {
+      "tag": "mtg",
+      "name": "mintegral",
+      "bridge": null,
+      "zip": true,
+      "maxBytes": 4000000,
+      "length": "10clicks",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_mtg.zip",
+      "htmlBytes": 3895054,
+      "packageBytes": 1534721,
+      "bridges": []
+    },
+    {
+      "tag": "mo",
+      "name": "moloco",
+      "bridge": null,
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "10clicks",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_mo.html",
+      "htmlBytes": 3894956,
+      "packageBytes": 3894956,
+      "bridges": []
+    },
+    {
+      "tag": "un",
+      "name": "unity",
+      "bridge": "mraid",
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "10clicks",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_un.html",
+      "htmlBytes": 3896239,
+      "packageBytes": 3896239,
+      "bridges": [
+        "mraid.js"
+      ]
+    },
+    {
+      "tag": "vu",
+      "name": "vungle",
+      "bridge": null,
+      "zip": true,
+      "maxBytes": 4000000,
+      "length": "10clicks",
+      "file": "dist/10clicks/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_10clicks_na_vu.zip",
+      "htmlBytes": 3895074,
+      "packageBytes": 1534715,
+      "bridges": []
+    },
+    {
+      "tag": "al",
+      "name": "applovin",
+      "bridge": "mraid",
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "60seconds",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_al.html",
+      "htmlBytes": 3896105,
+      "packageBytes": 3896105,
+      "bridges": [
+        "mraid.js"
+      ]
+    },
+    {
+      "tag": "fb",
+      "name": "facebook",
+      "bridge": null,
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "60seconds",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_fb.html",
+      "htmlBytes": 3894955,
+      "packageBytes": 3894955,
+      "bridges": []
+    },
+    {
+      "tag": "gg",
+      "name": "google",
+      "bridge": "exitapi",
+      "zip": true,
+      "maxBytes": 4000000,
+      "length": "60seconds",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_gg.zip",
+      "htmlBytes": 3895024,
+      "packageBytes": 1534721,
+      "bridges": [
+        "https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"
+      ]
+    },
+    {
+      "tag": "is",
+      "name": "ironsource",
+      "bridge": "mraid",
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "60seconds",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_is.html",
+      "htmlBytes": 3896074,
+      "packageBytes": 3896074,
+      "bridges": [
+        "mraid.js"
+      ]
+    },
+    {
+      "tag": "mtg",
+      "name": "mintegral",
+      "bridge": null,
+      "zip": true,
+      "maxBytes": 4000000,
+      "length": "60seconds",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_mtg.zip",
+      "htmlBytes": 3895051,
+      "packageBytes": 1534717,
+      "bridges": []
+    },
+    {
+      "tag": "mo",
+      "name": "moloco",
+      "bridge": null,
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "60seconds",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_mo.html",
+      "htmlBytes": 3894953,
+      "packageBytes": 3894953,
+      "bridges": []
+    },
+    {
+      "tag": "un",
+      "name": "unity",
+      "bridge": "mraid",
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "60seconds",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_un.html",
+      "htmlBytes": 3896236,
+      "packageBytes": 3896236,
+      "bridges": [
+        "mraid.js"
+      ]
+    },
+    {
+      "tag": "vu",
+      "name": "vungle",
+      "bridge": null,
+      "zip": true,
+      "maxBytes": 4000000,
+      "length": "60seconds",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_vu.zip",
+      "htmlBytes": 3895071,
+      "packageBytes": 1534711,
+      "bridges": []
+    },
+    {
+      "tag": "al",
+      "name": "applovin",
+      "bridge": "mraid",
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "full",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_al.html",
+      "htmlBytes": 3896109,
+      "packageBytes": 3896109,
+      "bridges": [
+        "mraid.js"
+      ]
+    },
+    {
+      "tag": "fb",
+      "name": "facebook",
+      "bridge": null,
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "full",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_fb.html",
+      "htmlBytes": 3894959,
+      "packageBytes": 3894959,
+      "bridges": []
+    },
+    {
+      "tag": "gg",
+      "name": "google",
+      "bridge": "exitapi",
+      "zip": true,
+      "maxBytes": 4000000,
+      "length": "full",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_gg.zip",
+      "htmlBytes": 3895028,
+      "packageBytes": 1534724,
+      "bridges": [
+        "https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"
+      ]
+    },
+    {
+      "tag": "is",
+      "name": "ironsource",
+      "bridge": "mraid",
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "full",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_is.html",
+      "htmlBytes": 3896078,
+      "packageBytes": 3896078,
+      "bridges": [
+        "mraid.js"
+      ]
+    },
+    {
+      "tag": "mtg",
+      "name": "mintegral",
+      "bridge": null,
+      "zip": true,
+      "maxBytes": 4000000,
+      "length": "full",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_mtg.zip",
+      "htmlBytes": 3895055,
+      "packageBytes": 1534720,
+      "bridges": []
+    },
+    {
+      "tag": "mo",
+      "name": "moloco",
+      "bridge": null,
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "full",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_mo.html",
+      "htmlBytes": 3894957,
+      "packageBytes": 3894957,
+      "bridges": []
+    },
+    {
+      "tag": "un",
+      "name": "unity",
+      "bridge": "mraid",
+      "zip": false,
+      "maxBytes": 4000000,
+      "length": "full",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_un.html",
+      "htmlBytes": 3896240,
+      "packageBytes": 3896240,
+      "bridges": [
+        "mraid.js"
+      ]
+    },
+    {
+      "tag": "vu",
+      "name": "vungle",
+      "bridge": null,
+      "zip": true,
+      "maxBytes": 4000000,
+      "length": "full",
+      "file": "dist/full/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_full_na_vu.zip",
+      "htmlBytes": 3895075,
+      "packageBytes": 1534714,
+      "bridges": []
+    }
+  ]
+}

@@ -1,0 +1,670 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Asia/Manila",
+  "sourceEdits": false,
+  "chaos": {
+    "tap": {
+      "completed": 10,
+      "passed": 9,
+      "failed": 1,
+      "actions": 945,
+      "rotations": 119,
+      "pauses": 40,
+      "records": [
+        {
+          "pass": true,
+          "run": 1,
+          "seed": 20261029,
+          "variant": "cuttingsand_default/5clicks/al+mraid touch {}",
+          "actions": 25,
+          "rotations": 5,
+          "pauses": 0,
+          "endReason": "limit",
+          "counted": 5,
+          "buckets": 0,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 2,
+          "seed": 20268948,
+          "variant": "cuttingsand_default/10clicks/is touch {}",
+          "actions": 39,
+          "rotations": 6,
+          "pauses": 3,
+          "endReason": "limit",
+          "counted": 10,
+          "buckets": 0,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 3,
+          "seed": 20276867,
+          "variant": "cuttingsand_default/90seconds/fb touch {\"GAME_LENGTH\":{\"timeLimit\":20}}",
+          "actions": 144,
+          "rotations": 12,
+          "pauses": 4,
+          "endReason": "time",
+          "counted": 23,
+          "buckets": 7,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CHALLENGE_PASS_25",
+            "CHALLENGE_PASS_50",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 4,
+          "seed": 20284786,
+          "variant": "cuttingsand_default/90seconds/al+mraid mouse {\"BELT\":{\"capacity\":300},\"GAME_LENGTH\":{\"timeLimit\":60}}",
+          "actions": 163,
+          "rotations": 21,
+          "pauses": 11,
+          "endReason": "time",
+          "counted": 23,
+          "buckets": 8,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CHALLENGE_PASS_25",
+            "CHALLENGE_PASS_50",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": false,
+          "run": 5,
+          "seed": 20292705,
+          "variant": "cuttingsand_default/90seconds/mo mouse {\"SAND\":{\"columns\":40},\"GAME_LENGTH\":{\"timeLimit\":9999}}",
+          "actions": 163,
+          "rotations": 25,
+          "pauses": 3,
+          "endReason": "solved",
+          "counted": 26,
+          "buckets": 31,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CHALLENGE_PASS_25",
+            "CHALLENGE_PASS_50",
+            "CHALLENGE_PASS_75",
+            "CHALLENGE_SOLVED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 6,
+          "seed": 20300624,
+          "variant": "cuttingsand_default/10clicks/un+mraid touch {}",
+          "actions": 32,
+          "rotations": 6,
+          "pauses": 0,
+          "endReason": "limit",
+          "counted": 10,
+          "buckets": 1,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 7,
+          "seed": 20308543,
+          "variant": "cuttingsand_default/5clicks/lf+mraid touch {\"OPENING_GAMEPLAY_ANIMATION\":false}",
+          "actions": 19,
+          "rotations": 5,
+          "pauses": 1,
+          "endReason": "limit",
+          "counted": 5,
+          "buckets": 0,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 8,
+          "seed": 20316462,
+          "variant": "cuttingsand_default/90seconds/al mouse {\"SAND\":{\"columns\":80},\"GAME_LENGTH\":{\"timeLimit\":45}}",
+          "actions": 163,
+          "rotations": 19,
+          "pauses": 11,
+          "endReason": "solved",
+          "counted": 27,
+          "buckets": 31,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CHALLENGE_PASS_25",
+            "CHALLENGE_PASS_50",
+            "CHALLENGE_PASS_75",
+            "CHALLENGE_SOLVED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 9,
+          "seed": 20324381,
+          "variant": "cuttingsand_default/10clicks/fb mouse {\"HAND_TUTOR_MODE\":false}",
+          "actions": 40,
+          "rotations": 5,
+          "pauses": 0,
+          "endReason": "limit",
+          "counted": 10,
+          "buckets": 1,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 10,
+          "seed": 20332300,
+          "variant": "cuttingsand_default/90seconds/is+mraid touch {\"GAME_LENGTH\":{\"timeLimit\":30},\"MUTE\":true}",
+          "actions": 157,
+          "rotations": 15,
+          "pauses": 7,
+          "endReason": "time",
+          "counted": 23,
+          "buckets": 8,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CHALLENGE_PASS_25",
+            "CHALLENGE_PASS_50",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        }
+      ]
+    },
+    "swipe": {
+      "completed": 10,
+      "passed": 10,
+      "failed": 0,
+      "actions": 617,
+      "rotations": 112,
+      "pauses": 33,
+      "records": [
+        {
+          "pass": true,
+          "run": 1,
+          "seed": 20261029,
+          "variant": "cuttingsand_swipe/5clicks/al+mraid touch {}",
+          "actions": 20,
+          "rotations": 5,
+          "pauses": 1,
+          "endReason": "limit",
+          "counted": 5,
+          "buckets": 0,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 2,
+          "seed": 20268948,
+          "variant": "cuttingsand_swipe/10clicks/is touch {}",
+          "actions": 37,
+          "rotations": 10,
+          "pauses": 5,
+          "endReason": "limit",
+          "counted": 10,
+          "buckets": 2,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 3,
+          "seed": 20276867,
+          "variant": "cuttingsand_swipe/90seconds/fb touch {\"GAME_LENGTH\":{\"timeLimit\":20}}",
+          "actions": 32,
+          "rotations": 4,
+          "pauses": 2,
+          "endReason": "time",
+          "counted": 16,
+          "buckets": 2,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 4,
+          "seed": 20284786,
+          "variant": "cuttingsand_swipe/90seconds/al+mraid mouse {\"BELT\":{\"capacity\":300},\"GAME_LENGTH\":{\"timeLimit\":60}}",
+          "actions": 157,
+          "rotations": 27,
+          "pauses": 8,
+          "endReason": "time",
+          "counted": 78,
+          "buckets": 10,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CHALLENGE_PASS_25",
+            "CHALLENGE_PASS_50",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 5,
+          "seed": 20292705,
+          "variant": "cuttingsand_swipe/90seconds/mo mouse {\"SAND\":{\"columns\":40},\"GAME_LENGTH\":{\"timeLimit\":9999}}",
+          "actions": 111,
+          "rotations": 26,
+          "pauses": 2,
+          "endReason": "solved",
+          "counted": 58,
+          "buckets": 31,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CHALLENGE_PASS_25",
+            "CHALLENGE_PASS_50",
+            "CHALLENGE_PASS_75",
+            "CHALLENGE_SOLVED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 6,
+          "seed": 20300624,
+          "variant": "cuttingsand_swipe/10clicks/un+mraid touch {}",
+          "actions": 31,
+          "rotations": 6,
+          "pauses": 4,
+          "endReason": "limit",
+          "counted": 10,
+          "buckets": 2,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 7,
+          "seed": 20308543,
+          "variant": "cuttingsand_swipe/5clicks/lf+mraid touch {\"OPENING_GAMEPLAY_ANIMATION\":false}",
+          "actions": 12,
+          "rotations": 4,
+          "pauses": 0,
+          "endReason": "limit",
+          "counted": 5,
+          "buckets": 0,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 8,
+          "seed": 20316462,
+          "variant": "cuttingsand_swipe/90seconds/al mouse {\"SAND\":{\"columns\":80},\"GAME_LENGTH\":{\"timeLimit\":45}}",
+          "actions": 117,
+          "rotations": 18,
+          "pauses": 7,
+          "endReason": "time",
+          "counted": 55,
+          "buckets": 28,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CHALLENGE_PASS_25",
+            "CHALLENGE_PASS_50",
+            "CHALLENGE_PASS_75",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 9,
+          "seed": 20324381,
+          "variant": "cuttingsand_swipe/10clicks/fb mouse {\"HAND_TUTOR_MODE\":false}",
+          "actions": 21,
+          "rotations": 3,
+          "pauses": 0,
+          "endReason": "limit",
+          "counted": 10,
+          "buckets": 2,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        },
+        {
+          "pass": true,
+          "run": 10,
+          "seed": 20332300,
+          "variant": "cuttingsand_swipe/90seconds/is+mraid touch {\"GAME_LENGTH\":{\"timeLimit\":30},\"MUTE\":true}",
+          "actions": 79,
+          "rotations": 9,
+          "pauses": 4,
+          "endReason": "time",
+          "counted": 40,
+          "buckets": 11,
+          "events": [
+            "LOADING",
+            "LOADED",
+            "DISPLAYED",
+            "CHALLENGE_STARTED",
+            "CHALLENGE_PASS_25",
+            "CHALLENGE_PASS_50",
+            "CTA_CLICKED",
+            "ENDCARD_SHOWN",
+            "CTA_CLICKED",
+            "CTA_CLICKED",
+            "CTA_CLICKED"
+          ]
+        }
+      ]
+    }
+  },
+  "fullGameplay": true,
+  "build": {
+    "outputs": 54,
+    "expectedOutputs": 54,
+    "versionCounts": {
+      "v1": 27,
+      "v2": 27
+    },
+    "mechanicCounts": {
+      "tap": 27,
+      "cut": 27
+    },
+    "lengthCounts": {
+      "5clicks": 18,
+      "10clicks": 18,
+      "90seconds": 18
+    },
+    "networkCounts": {
+      "applovin": 6,
+      "facebook": 6,
+      "google": 6,
+      "ironsource": 6,
+      "liftoff": 6,
+      "moloco": 6,
+      "mintegral": 6,
+      "unity": 6,
+      "vungle": 6
+    },
+    "htmlBytes": {
+      "min": 3718648,
+      "max": 3718766
+    },
+    "containerBytes": {
+      "min": 1889173,
+      "max": 3718688
+    },
+    "configBlockBytes": {
+      "min": 15545,
+      "max": 15546
+    },
+    "zipOutputs": 18,
+    "handoffCopies": 6,
+    "googleOutputs": 6,
+    "textureCount": 34,
+    "textureSourceBytes": 501078,
+    "audioCount": 9,
+    "audioSourceBytes": 960194,
+    "totalAssetSourceBytes": 1461272,
+    "dimensionMismatches": 0,
+    "failureCount": 0
+  },
+  "performance": {
+    "errors": [],
+    "samples": [
+      {
+        "mechanic": "tap",
+        "cpuThrottle": 1,
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 SUPER (0x00001F06) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "phases": [
+          {
+            "phase": "idle",
+            "gameFps": 165.01,
+            "p95FrameMs": 6.2,
+            "maxFrameMs": 7.5,
+            "longTasks": 0
+          },
+          {
+            "phase": "busy",
+            "gameFps": 165.01,
+            "p95FrameMs": 6.1,
+            "maxFrameMs": 6.2,
+            "longTasks": 0
+          }
+        ]
+      },
+      {
+        "mechanic": "tap",
+        "cpuThrottle": 4,
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 SUPER (0x00001F06) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "phases": [
+          {
+            "phase": "idle",
+            "gameFps": 165.01,
+            "p95FrameMs": 6.2,
+            "maxFrameMs": 6.3,
+            "longTasks": 0
+          },
+          {
+            "phase": "busy",
+            "gameFps": 164.61,
+            "p95FrameMs": 6.1,
+            "maxFrameMs": 18.2,
+            "longTasks": 0
+          }
+        ]
+      },
+      {
+        "mechanic": "cut",
+        "cpuThrottle": 1,
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 SUPER (0x00001F06) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "phases": [
+          {
+            "phase": "idle",
+            "gameFps": 164.97,
+            "p95FrameMs": 6.2,
+            "maxFrameMs": 10.2,
+            "longTasks": 0
+          },
+          {
+            "phase": "busy",
+            "gameFps": 165.01,
+            "p95FrameMs": 6.2,
+            "maxFrameMs": 6.4,
+            "longTasks": 0
+          }
+        ]
+      },
+      {
+        "mechanic": "cut",
+        "cpuThrottle": 4,
+        "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 2060 SUPER (0x00001F06) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "phases": [
+          {
+            "phase": "idle",
+            "gameFps": 165,
+            "p95FrameMs": 6.1,
+            "maxFrameMs": 6.3,
+            "longTasks": 0
+          },
+          {
+            "phase": "busy",
+            "gameFps": 158.61,
+            "p95FrameMs": 6.2,
+            "maxFrameMs": 18.2,
+            "longTasks": 0
+          }
+        ]
+      }
+    ]
+  },
+  "tap5CounterProof": {
+    "belowPictureProbes": 15,
+    "publishedFlags": 1,
+    "actualCountChanges": 0,
+    "staleSnapshotProof": [
+      {
+        "action": 15,
+        "beforePublished": 7,
+        "beforeActual": 8,
+        "afterPublished": 8,
+        "afterActual": 8,
+        "design": {
+          "x": 225.32497957348824,
+          "y": 1560.6286656437442
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,409 @@
+{
+  "date": "2026-11-06T15:27:02.127Z",
+  "environment": "Windows, headless Chrome with SwiftShader, audio muted",
+  "passed": 26,
+  "failed": 1,
+  "results": [
+    {
+      "name": "Static export contract: all 24 variants",
+      "status": "PASS",
+      "ms": 754,
+      "detail": {
+        "largest": 4349049
+      }
+    },
+    {
+      "name": "Full gameplay: outside drop, wrong circle, six correct placements, analytics and CTA",
+      "status": "PASS",
+      "ms": 33933,
+      "detail": {
+        "state": {
+          "placed": {
+            "Merneptah": true,
+            "Maya": true,
+            "Nefertiti": true,
+            "Aisha": true,
+            "Ahmose": true,
+            "Khasekhemwy": true
+          },
+          "finished": true,
+          "tutorial": "hidden",
+          "elapsed": 14.858757063746,
+          "solved": 6,
+          "positions": {
+            "Merneptah": {
+              "y": 380,
+              "x": 845,
+              "moving": false
+            },
+            "Maya": {
+              "y": 940,
+              "x": 305,
+              "moving": false
+            },
+            "Nefertiti": {
+              "y": 190,
+              "x": 735,
+              "moving": false
+            },
+            "Aisha": {
+              "y": 350,
+              "x": 260,
+              "moving": false
+            },
+            "Ahmose": {
+              "y": 970,
+              "x": 775,
+              "moving": false
+            },
+            "Khasekhemwy": {
+              "y": 780,
+              "x": 850,
+              "moving": false
+            }
+          },
+          "presses": 8,
+          "endcard": true
+        },
+        "events": [
+          "LOADING",
+          "LOADED",
+          "DISPLAYED",
+          "CHALLENGE_STARTED",
+          "CHALLENGE_PASS_25",
+          "CHALLENGE_PASS_50",
+          "CHALLENGE_PASS_75",
+          "CHALLENGE_SOLVED",
+          "ENDCARD_SHOWN",
+          "CTA_CLICKED"
+        ]
+      }
+    },
+    {
+      "name": "2clicks counts only unsolved portrait presses",
+      "status": "PASS",
+      "ms": 21966,
+      "detail": {
+        "placed": {
+          "Merneptah": false,
+          "Maya": false,
+          "Nefertiti": false,
+          "Aisha": false,
+          "Ahmose": false,
+          "Khasekhemwy": false
+        },
+        "finished": true,
+        "tutorial": "hidden",
+        "elapsed": 1.8781313654035,
+        "solved": 0,
+        "positions": {
+          "Merneptah": {
+            "y": 1222.5,
+            "x": 794,
+            "moving": false
+          },
+          "Maya": {
+            "y": 1222.5,
+            "x": 286,
+            "moving": false
+          },
+          "Nefertiti": {
+            "y": 1222.5,
+            "x": 624.66666666667,
+            "moving": false
+          },
+          "Aisha": {
+            "y": 1222.5,
+            "x": 116.66666666667,
+            "moving": false
+          },
+          "Ahmose": {
+            "y": 1222.5,
+            "x": 455.33333333333,
+            "moving": false
+          },
+          "Khasekhemwy": {
+            "y": 1222.5,
+            "x": 963.33333333333,
+            "moving": false
+          }
+        },
+        "presses": 2,
+        "endcard": true
+      }
+    },
+    {
+      "name": "4clicks counts only unsolved portrait presses",
+      "status": "PASS",
+      "ms": 25408,
+      "detail": {
+        "placed": {
+          "Merneptah": false,
+          "Maya": false,
+          "Nefertiti": false,
+          "Aisha": false,
+          "Ahmose": false,
+          "Khasekhemwy": false
+        },
+        "finished": true,
+        "tutorial": "hidden",
+        "elapsed": 2.1174000706524,
+        "solved": 0,
+        "positions": {
+          "Merneptah": {
+            "y": 1222.5,
+            "x": 794,
+            "moving": false
+          },
+          "Maya": {
+            "y": 1222.5,
+            "x": 286,
+            "moving": false
+          },
+          "Nefertiti": {
+            "y": 1222.5,
+            "x": 624.66666666667,
+            "moving": false
+          },
+          "Aisha": {
+            "y": 1222.5,
+            "x": 116.66666666667,
+            "moving": false
+          },
+          "Ahmose": {
+            "y": 1222.5,
+            "x": 455.33333333333,
+            "moving": false
+          },
+          "Khasekhemwy": {
+            "y": 1222.5,
+            "x": 963.33333333333,
+            "moving": false
+          }
+        },
+        "presses": 4,
+        "endcard": true
+      }
+    },
+    {
+      "name": "Solved portraits do not count or drag",
+      "status": "PASS",
+      "ms": 13784
+    },
+    {
+      "name": "Visual reference and input 390x844",
+      "status": "PASS",
+      "ms": 18791,
+      "detail": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "canvas": {
+          "width": 390,
+          "height": 844
+        }
+      }
+    },
+    {
+      "name": "Visual reference and input 844x390",
+      "status": "PASS",
+      "ms": 24845,
+      "detail": {
+        "viewport": {
+          "width": 844,
+          "height": 390
+        },
+        "canvas": {
+          "width": 844,
+          "height": 390
+        }
+      }
+    },
+    {
+      "name": "Visual reference and input 768x1024",
+      "status": "PASS",
+      "ms": 15206,
+      "detail": {
+        "viewport": {
+          "width": 768,
+          "height": 1024
+        },
+        "canvas": {
+          "width": 768,
+          "height": 1024
+        }
+      }
+    },
+    {
+      "name": "Visual reference and input 1024x768",
+      "status": "PASS",
+      "ms": 14344,
+      "detail": {
+        "viewport": {
+          "width": 1024,
+          "height": 768
+        },
+        "canvas": {
+          "width": 1024,
+          "height": 768
+        }
+      }
+    },
+    {
+      "name": "Opening and idle tutorials; pause/resume and mute",
+      "status": "PASS",
+      "ms": 15413
+    },
+    {
+      "name": "Rotation preserves solved state and active motion",
+      "status": "PASS",
+      "ms": 10412
+    },
+    {
+      "name": "Config: dotted keys, deep merge, keyed slots and mute",
+      "status": "PASS",
+      "ms": 8587
+    },
+    {
+      "name": "Rapid taps are preserved between rendered frames",
+      "status": "PASS",
+      "ms": 8824
+    },
+    {
+      "name": "GZip fallback starts without DecompressionStream",
+      "status": "PASS",
+      "ms": 8781
+    },
+    {
+      "name": "Touch drag and high DPI input",
+      "status": "PASS",
+      "ms": 9471,
+      "detail": {
+        "width": 780,
+        "height": 1688
+      }
+    },
+    {
+      "name": "Keyed texture replacement loads and preserves gameplay identity",
+      "status": "PASS",
+      "ms": 9281
+    },
+    {
+      "name": "Rotate during opening tutorial and end-card entrance",
+      "status": "FAIL",
+      "ms": 39130,
+      "error": "TimeoutError: page.waitForFunction: Timeout 30000ms exceeded.",
+      "stack": "page.waitForFunction: Timeout 30000ms exceeded.\n    at D:\\allproject\\defold\\Defold Project Translated\\2D\\2026.09.24-CEM-MIP-egypt-case\\tools\\qa.mjs:173:79\n    at async test (D:\\allproject\\defold\\Defold Project Translated\\2D\\2026.09.24-CEM-MIP-egypt-case\\tools\\qa.mjs:15:44)\n    at async file:///D:/allproject/defold/Defold%20Project%20Translated/2D/2026.09.24-CEM-MIP-egypt-case/tools/qa.mjs:169:1"
+    },
+    {
+      "name": "Desktop frame timing observation",
+      "status": "PASS",
+      "ms": 9825,
+      "detail": {
+        "frames": 120,
+        "meanMs": 16.666666666666668,
+        "p95Ms": 16.700000000000728,
+        "maxMs": 16.80000000000109,
+        "note": "Headless SwiftShader observation; not a physical-device performance certification"
+      }
+    },
+    {
+      "name": "Published applovin SDK route",
+      "status": "PASS",
+      "ms": 8576,
+      "detail": [
+        {
+          "route": "mraid",
+          "url": "https://play.google.com/store/apps/details?id=com.luwukmeliana.lexicard&hl=en"
+        }
+      ]
+    },
+    {
+      "name": "Published google SDK route",
+      "status": "PASS",
+      "ms": 8333,
+      "detail": [
+        {
+          "route": "google"
+        }
+      ]
+    },
+    {
+      "name": "Published ironsource SDK route",
+      "status": "PASS",
+      "ms": 9317,
+      "detail": [
+        {
+          "route": "mraid",
+          "url": "https://play.google.com/store/apps/details?id=com.luwukmeliana.lexicard&hl=en"
+        }
+      ]
+    },
+    {
+      "name": "Published mintegral SDK route",
+      "status": "PASS",
+      "ms": 8733,
+      "detail": [
+        {
+          "route": "mintegral"
+        }
+      ]
+    },
+    {
+      "name": "Published facebook SDK route",
+      "status": "PASS",
+      "ms": 8551,
+      "detail": [
+        {
+          "route": "facebook"
+        }
+      ]
+    },
+    {
+      "name": "Published unity SDK route",
+      "status": "PASS",
+      "ms": 8342,
+      "detail": [
+        {
+          "route": "unity"
+        }
+      ]
+    },
+    {
+      "name": "Published vungle SDK route",
+      "status": "PASS",
+      "ms": 8317,
+      "detail": [
+        {
+          "route": "vungle"
+        }
+      ]
+    },
+    {
+      "name": "Published moloco SDK route",
+      "status": "PASS",
+      "ms": 8417,
+      "detail": [
+        {
+          "route": "moloco"
+        }
+      ]
+    },
+    {
+      "name": "No browser errors or unexpected external asset requests",
+      "status": "PASS",
+      "ms": 1,
+      "detail": {
+        "errors": [],
+        "requests": [
+          "https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"
+  ]
+}

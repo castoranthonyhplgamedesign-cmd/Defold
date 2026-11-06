@@ -1,0 +1,190 @@
+{
+  "generatedAt": "2026-11-03T04:49:47.032Z",
+  "files": [
+    {
+      "file": "UI/Branding/title.webp",
+      "source": "src/assets/ui/title.webp",
+      "use": "Gameplay bottom-left title and endcard title",
+      "bytes": 24610,
+      "sha256": "097cb1bac4b8d6ed156afb6b5035d2d183d623340659dddeeee0d6beb3344877"
+    },
+    {
+      "file": "UI/Branding/icon.webp",
+      "source": "src/assets/ui/icon.webp",
+      "use": "Endcard app icon",
+      "bytes": 100078,
+      "sha256": "e704c69ec618839ef99eebc217ed13a5704539bf91d609ee2012528f7c216d32"
+    },
+    {
+      "file": "UI/Tutorial/hand-idle.webp",
+      "source": "src/assets/ui/hand-idle.webp",
+      "use": "Tutorial hand idle frame",
+      "bytes": 8936,
+      "sha256": "74a40137e11b8e49976b9f2b83587e439fc5dc412801e0cba57121f96102ad68"
+    },
+    {
+      "file": "UI/Tutorial/hand-tap.webp",
+      "source": "src/assets/ui/hand-tap.webp",
+      "use": "Tutorial hand tap frame",
+      "bytes": 8906,
+      "sha256": "820d0d9636a882a47ff27d2e2b75750ef6cc3601c2b172037bf6a932003b2edd"
+    },
+    {
+      "file": "UI/Progress_Bar/meter-border.webp",
+      "source": "src/assets/ui/meter-border.webp",
+      "use": "Fullness meter border",
+      "bytes": 9248,
+      "sha256": "f201dbb4ea257f7f7ce757c6b6b850422c895289c6494d55857af0f49cbe268c"
+    },
+    {
+      "file": "UI/Progress_Bar/meter-fill.webp",
+      "source": "src/assets/ui/meter-fill.webp",
+      "use": "Fullness meter fill mask",
+      "bytes": 966,
+      "sha256": "92a8ad9e728589c8398d0ce008307f34d77cce248953f594bb8a43d33d391a90"
+    },
+    {
+      "file": "UI/Fallback/play.webp",
+      "source": "src/assets/ui/play.webp",
+      "use": "Play button used only by unsupported-renderer fallback",
+      "bytes": 12770,
+      "sha256": "7f9c128ee01067a57a7c7cee9163117e9fab9435adff3cbb440af12519a5c8ab"
+    },
+    {
+      "file": "Fonts/LilitaOne-Regular.ttf",
+      "source": "src/assets/ui/LilitaOne-Regular.ttf",
+      "use": "Ammo counts, opening caption and other text",
+      "bytes": 26828,
+      "sha256": "4444c23631884f411aa7f2fee35061b1756a9927940c62d2a5572acf470b3ffa"
+    },
+    {
+      "file": "Textures/Cannon_Tray/tunnel-3c4374-exact.webp",
+      "source": "src/assets/textures/tunnel-3c4374-exact.webp",
+      "use": "Active unlit cannon hood/tray atlas; no tint",
+      "bytes": 49250,
+      "sha256": "8dbba0cfb909eaef3397b3eb3f3b63f5a7cabcdb884fa632ae7e293469203476"
+    },
+    {
+      "file": "Models/Runtime_Data/geometry.bin",
+      "source": "src/assets/geometry.bin",
+      "use": "Original packed geometry imported by the runtime",
+      "bytes": 947500,
+      "sha256": "ddf988dc0e1280fc8b47c8feaed6454b3257c4b5393119b26bd539d70d319d9c"
+    },
+    {
+      "file": "Models/Runtime_Data/geometry.json",
+      "source": "src/assets/geometry.json",
+      "use": "Byte offsets and attribute types for geometry.bin",
+      "bytes": 2345,
+      "sha256": "2923a0b63adc4a151e8a72f3a78abe433534432a057b7d17baa08216f5b59eef"
+    },
+    {
+      "file": "Layout/overload-level.arrow-flow.json",
+      "source": "levels/overload-level.arrow-flow.json",
+      "use": "Exact shipped board, embedded conveyor mesh and layout authoring data",
+      "bytes": 1033290,
+      "sha256": "47806428b072f17ed29ddbcbc855b9ff138a85aa0f6bb449e3116497d38b0e50"
+    },
+    {
+      "file": "Models/Arrows/body.glb",
+      "source": "src/assets/geometry.bin + geometry.json",
+      "use": "Unposed reusable geometry; runtime transforms and colors are applied in code",
+      "bytes": 8964,
+      "sha256": "28613fa9a8bbd86f2352b6e5683db000d5b00f10133f876392ce347f6f0f0758"
+    },
+    {
+      "file": "Models/Arrows/head.glb",
+      "source": "src/assets/geometry.bin + geometry.json",
+      "use": "Unposed reusable geometry; runtime transforms and colors are applied in code",
+      "bytes": 10116,
+      "sha256": "79d65aaa37c50edb12c35a02a5d9f023bd222c66e06eb0919f725c0d4372c0a2"
+    },
+    {
+      "file": "Models/Arrows/corner.glb",
+      "source": "src/assets/geometry.bin + geometry.json",
+      "use": "Unposed reusable geometry; runtime transforms and colors are applied in code",
+      "bytes": 8924,
+      "sha256": "1e952e6ce08cc14332a051f0ecb7d0142a6c0f5f8153992a38e4c31a23457314"
+    },
+    {
+      "file": "Models/Arrows/head-inset-and-highlight.glb",
+      "source": "src/assets/geometry.bin + geometry.json",
+      "use": "Unposed reusable geometry; runtime transforms and colors are applied in code",
+      "bytes": 11596,
+      "sha256": "12a63caacdc77c854048dc96e4db076bbe0a3a1e94c22f7033d9ca9bbc9c0ee2"
+    },
+    {
+      "file": "Models/Cannons/cannon.glb",
+      "source": "src/assets/geometry.bin + geometry.json",
+      "use": "Unposed reusable geometry; runtime transforms and colors are applied in code",
+      "bytes": 60468,
+      "sha256": "a7712638d4c1db10391be23f833cd5941d5011dcb28ff77a6bbf4dc55a90ab6b"
+    },
+    {
+      "file": "Models/Cannons/hood.glb",
+      "source": "src/assets/geometry.bin + geometry.json",
+      "use": "Geometry and UVs; apply the separately supplied cannon tray texture",
+      "bytes": 12776,
+      "sha256": "2bc459c329ef3dd903f37806e853ccf1ac5013f09e3be8b649211a948062f709"
+    },
+    {
+      "file": "Models/Cannons/tray-base.glb",
+      "source": "src/assets/geometry.bin + geometry.json",
+      "use": "Geometry and UVs; apply the separately supplied cannon tray texture",
+      "bytes": 61204,
+      "sha256": "fdf272e80ee33db785fb6ea9cc009b0e0b940d7a953b361a8d581d6ddcd3a156"
+    },
+    {
+      "file": "Models/Conveyor/overload-conveyor.glb",
+      "source": "level embedded mesh + src/render/track.ts",
+      "use": "Active imported conveyor with its runtime origin translation and outer/inner materials",
+      "bytes": 716956,
+      "sha256": "fe83994121b0ded5967c2d08fa2055b3404b882bf94b9fe6f406feb415ec1de3"
+    },
+    {
+      "file": "Models/Procedural/projectile.glb",
+      "source": "src/render/cannons.ts or scene.ts",
+      "use": "Base sphere for projectiles and impact flashes",
+      "bytes": 3880,
+      "sha256": "4fa9670fe6ad71466330fa09868e2d333742e9f39dad30f8d154a086c6bd8d50"
+    },
+    {
+      "file": "Models/Procedural/particle-cube.glb",
+      "source": "src/render/cannons.ts or scene.ts",
+      "use": "Base cube for colored shards and stretched white sparks",
+      "bytes": 2204,
+      "sha256": "d25a7c147a0bf7d6277b7f279544b978316382f38f3430df5c39db9318df7c9a"
+    },
+    {
+      "file": "Models/Procedural/lane-door.glb",
+      "source": "src/render/cannons.ts or scene.ts",
+      "use": "Top-anchored shutter; runtime scales to 2.6 x 2.4 x .14 times lane scale",
+      "bytes": 2192,
+      "sha256": "a5602e52c6a553ca4cf1dfcb7f416bd05be5008d9e7112d0eb9c0fd6f65a279a"
+    },
+    {
+      "file": "Models/Procedural/grid-dot.glb",
+      "source": "src/render/cannons.ts or scene.ts",
+      "use": "Floor dot; runtime scales with cell size",
+      "bytes": 2012,
+      "sha256": "54fbac0da9cc2b4d3b89724e26873d6cbd525add250080578b275587d8410774"
+    },
+    {
+      "file": "Models/Procedural/conveyor-chevron.glb",
+      "source": "src/render/conveyorGuides.ts",
+      "use": "Single broad chevron; runtime pairs, places and animates instances along the belt",
+      "bytes": 1680,
+      "sha256": "59af5bab2280ad474fca6bd1f3af904befc145c67fbdcff6982730ae2885566d"
+    },
+    {
+      "file": "Materials/materials.json",
+      "source": "src/render/scene.ts, board.ts, cannonTray.ts, arrowStyle.ts",
+      "use": "Current runtime palette and surface settings",
+      "bytes": 1035,
+      "sha256": "fd982ac170905ac9c5371806e6746ea91c42ebe80547d29b322d86d93165643d"
+    }
+  ],
+  "assetCount": 26,
+  "totalAssetBytes": 3128734,
+  "validation": "Copies byte-identical; every exported GLB parsed by Three GLTFLoader"
+}

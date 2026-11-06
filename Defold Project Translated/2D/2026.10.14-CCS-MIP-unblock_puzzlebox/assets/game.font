@@ -1,0 +1,8 @@
+font: "/assets/HelveticaRoundedBold.otf"
+material: "/builtins/fonts/font.material"
+size: 44
+antialias: 1
+alpha: 1
+outline_alpha: 0
+shadow_alpha: 0
+characters: "CLEAR RINGS TO GET THE GIFT!0123456789"

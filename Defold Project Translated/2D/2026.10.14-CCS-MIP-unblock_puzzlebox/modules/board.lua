@@ -1,0 +1,143 @@
+-- Port of baseline Board.ts. Matter owns geometry; Lua owns every merge/clear rule.
+local G=require 'modules.constants'
+local B=require 'modules.bridge'
+local M={};M.__index=M
+local function radius(n) return G.RING_HOLE+G.RING_PITCH*math.max(1,n) end
+local function outer(b) return b.rings[#b.rings] end
+local function run(b) local n=0;local c=outer(b);for i=#b.rings,1,-1 do if b.rings[i]~=c then break end;n=n+1 end;return n end
+M.radius=radius;M.outer=outer;M.run=run
+function M.new()
+ local self=setmetatable({balls={},byid={},commands={},events={},flights={},bursts={},tasks={},time=0,intro=true,ended=false,next_id=50,pairs={},progress=0,danger=0},M)
+ local initial=B.prepare(G);self.drop=initial.drop;self.gift=initial.gift;self.gift.y=self.gift.y-self.drop;self.gift.target_y=self.gift.y+self.drop
+ for _,v in ipairs(initial.balls) do self:create(v.id,v.rings,v.x,v.y-self.drop);self.byid[v.id].target_y=v.y end
+ return self
+end
+function M:create(id,rings,x,y)
+ local b={id=id,rings=rings,x=x,y=y,busy=false,clear_color=-1,incoming=0,over=0,dropped=-1e9,landed=false,scale=1,alive=true,view_version=0}
+ self.balls[#self.balls+1]=b;self.byid[id]=b;return b
+end
+function M:command(c) self.commands[#self.commands+1]=c end
+function M:delay(ms,fn) self.tasks[#self.tasks+1]={at=self.time+ms,fn=fn} end
+function M:add_body(b,restitution)
+ b.body=true;local r=radius(#b.rings)
+ self:command({op='circle',id=b.id,x=b.x,y=b.y,r=r,mass=(r/radius(3))^3,restitution=restitution or G.PILE_RESTITUTION})
+end
+function M:redraw(b)
+ b.view_version=b.view_version+1
+ if b.body then local r=radius(#b.rings);self:command({op='resize',id=b.id,r=r,mass=(r/radius(3))^3}) end
+end
+function M:remove(b)
+ if not b.alive then return end
+ b.alive=false;b.body=false;self.byid[b.id]=nil;self:command({op='remove',id=b.id})
+ for i=#self.balls,1,-1 do if self.balls[i]==b then table.remove(self.balls,i);break end end
+end
+function M:drop_ball(b,vx)
+ b.dropped=self.time;b.landing=true;b.still=0;self:add_body(b,G.BALL_RESTITUTION)
+ self:command({op='velocity',id=b.id,x=vx,y=0});self:command({op='friction',id=b.id,value=0})
+end
+function M:top_colors()
+ local list={};for _,b in ipairs(self.balls) do if b.body and #b.rings>0 and self.time-b.dropped>=G.DROP_GRACE_MS then list[#list+1]=b end end
+ table.sort(list,function(a,b)return a.y<b.y end)
+ local colors={};for i=1,math.min(6,#list) do colors[#colors+1]=outer(list[i]) end;return colors
+end
+function M:recheck(ball)
+ for _,p in ipairs(self.pairs) do if p[1]==ball.id or p[2]==ball.id then self:try_merge(self.byid[p[1]],self.byid[p[2]]) end end
+end
+function M:release(b) b.busy=false;self:recheck(b) end
+function M:pulse(b) b.pulse_at=self.time end
+function M:try_merge(a,b)
+ if self.intro or not a or not b or not a.alive or not b.alive or #a.rings==0 or #b.rings==0 or outer(a)~=outer(b) then return end
+ if a.clear_color>=0 or b.clear_color>=0 then
+  local rec=a.clear_color>=0 and a or b;local don=rec==a and b or a
+  if outer(rec)==rec.clear_color and not don.busy and don.clear_color<0 then self:transfer(rec,don) end;return
+ end
+ if a.busy or b.busy then return end
+ local ar,br=run(a),run(b);local receive
+ if ar~=br then receive=ar>br else receive=ar==#a.rings or br~=#b.rings end
+ self:transfer(receive and a or b,receive and b or a)
+end
+function M:burst(b,color,count,kind)
+ self.bursts[#self.bursts+1]={x=b.x,y=b.y,r=radius(#b.rings),color=color,count=count,kind=kind or 'pop',time=self.time}
+end
+function M:transfer(rec,don)
+ local n=run(don)
+ if n>G.MAX_RINGS-#rec.rings-rec.incoming then
+  if rec.clear_color<0 and don.clear_color<0 and run(rec)<=G.MAX_RINGS-#don.rings-don.incoming then self:transfer(don,rec) end;return
+ end
+ rec.busy=true;don.busy=true;rec.incoming=rec.incoming+n;local color=outer(don);local landed=0
+ for i=0,n-1 do self:delay(G.STEP_MS*i,function()
+  if not rec.alive or not don.alive then return end
+  local r0=G.RING_HOLE+G.RING_PITCH*(#don.rings-.5);table.remove(don.rings);self:redraw(don)
+  local f={from=don,to=rec,color=color,r0=r0,start=self.time,active=true};self.flights[#self.flights+1]=f
+  self:delay(G.RING_FLIGHT_MS,function()
+   f.active=false;if not rec.alive then return end
+   rec.incoming=rec.incoming-1;rec.rings[#rec.rings+1]=color;self:redraw(rec);B.call('sfx','merge');landed=landed+1
+   if landed==n then
+    self:burst(rec,color,G.MERGE_FX_COUNT,'merge')
+    if #don.rings==0 then self:remove(don) else don.busy=false end
+    if rec.clear_color<0 then self:pulse(rec);if run(rec)>=G.CLEAR_RUN then self:clear(rec) else self:release(rec) end end
+   end
+  end)
+ end) end
+end
+function M:clear(b)
+ local color=outer(b);b.busy=true;b.clear_color=color;local gap
+ local step;step=function()
+  if not b.alive then return end
+  if b.incoming>0 then self:delay(G.STEP_MS,step);return end
+  if #b.rings>0 and outer(b)==color then
+   gap=gap or math.max(G.CLEAR_POP_MIN_MS,G.CLEAR_POP_MS*math.sqrt(G.CLEAR_RUN/run(b)))
+   self:burst(b,color,G.CLEAR_FX_COUNT);B.call('sfx','pop');table.remove(b.rings);self:redraw(b);self:recheck(b)
+   self:delay(gap,step)
+  else b.clear_color=-1;if #b.rings==0 then self:remove(b) else self:release(b) end end
+ end
+ self:recheck(b);self:delay(G.CLEAR_DELAY_MS,step)
+end
+function M:update(dt)
+ self.time=self.time+dt*1000
+ if self.intro then
+  local k=math.min(1,self.time/G.INTRO_FALL_MS);local off=self.drop*(1-k*k)
+  for _,b in ipairs(self.balls) do b.y=b.target_y-off end;self.gift.y=self.gift.target_y-off
+  if k==1 then
+   for _,b in ipairs(self.balls) do self:add_body(b) end
+   self:command({op='rect',id='gift',x=self.gift.x,y=self.gift.y,w=G.BOX_W,h=G.BOX_H,mass=G.BOX_MASS,angle=self.gift.a})
+   self.gift_start=self.gift.y;self.intro=false;self.events[#self.events+1]='ready'
+  end
+ else
+  -- A task created during this tick runs on the next tick, as with Phaser Clock.
+  local tasks=self.tasks;self.tasks={};for _,t in ipairs(tasks) do if t.at<=self.time then t.fn() else self.tasks[#self.tasks+1]=t end end
+  self.acc=(self.acc or 0)+dt;local steps=math.min(5,math.floor(self.acc*60));self.acc=self.acc-steps/60
+  local result=B.physics(self.commands,steps);self.commands={};self.pairs=result.pairs or {}
+  local alpha=math.min(1,math.max(0,self.acc*60))
+  for _,v in ipairs(result.bodies or {}) do
+   local b=self.byid[v.id]
+   if b then b.x=v.x;b.y=v.y;b.rx=v.px+(v.x-v.px)*alpha;b.ry=v.py+(v.y-v.py)*alpha;b.speed=v.speed
+    if b.landing then b.still=v.speed<G.LAND_SPEED and (b.still+dt*1000) or 0
+     if b.still>=G.LAND_STILL_MS or self.time-b.dropped>=G.LAND_MAX_MS then b.landing=false;self:command({op='friction',id=b.id,value=G.BALL_FRICTION}) end
+    end
+   elseif v.id=='gift' then self.gift.x=v.x;self.gift.y=v.y;self.gift.a=v.a;self.gift.rx=v.px+(v.x-v.px)*alpha;self.gift.ry=v.py+(v.y-v.py)*alpha;self.gift.ra=v.pa+(v.a-v.pa)*alpha end
+  end
+  for _,p in ipairs(result.contacts or {}) do
+   if not self.ended and ((p[1]=='gift' and p[2]=='floor') or (p[2]=='gift' and p[1]=='floor')) then self.ended=true;self.events[#self.events+1]='win' end
+   local a,b=self.byid[p[1]],self.byid[p[2]]
+   if p[1]~='left' and p[1]~='right' and p[2]~='left' and p[2]~='right' then if a then a.landed=true end;if b then b.landed=true end end
+   self:try_merge(a,b)
+  end
+  self.progress=math.max(0,math.min(1,(self.gift.y-self.gift_start)/(G.FLOOR_Y-G.BOX_H/2-self.gift_start)))
+  self.danger=0
+  if not self.ended then for _,b in ipairs(self.balls) do if b.body then
+   local over=b.y-radius(#b.rings)<G.LINE_Y and (b.landed or self.time-b.dropped>=G.DROP_GRACE_MS)
+   if not b.busy then b.over=over and (b.over+dt) or 0 end
+   self.danger=math.max(self.danger,over and G.DANGER_WARN_LEVEL or 0,b.over/G.FAIL_HOLD_SEC)
+   if b.over>=G.FAIL_HOLD_SEC and not b.busy then self.ended=true;self.events[#self.events+1]='fail';break end
+  end end end
+ end
+ for _,b in ipairs(self.balls) do
+  if b.body or self.intro then b.scale=1 end;if b.pulse_at then local t=self.time-b.pulse_at
+   if t<G.PULSE_UP_MS then local k=t/G.PULSE_UP_MS;b.scale=1+.15*(1-(1-k)^2)
+   elseif t<G.PULSE_UP_MS+G.PULSE_SETTLE_MS then local k=(t-G.PULSE_UP_MS)/G.PULSE_SETTLE_MS-1;b.scale=1+.15*((4*k+3)*k*k)
+   else b.pulse_at=nil end
+  end
+ end
+end
+return M

@@ -1,0 +1,194 @@
+{
+  "original": "arf_mip_smmeemee_gameplay_01_real_nougc_noseason_en_60s_na_al.html",
+  "bytes": 3817619,
+  "sha256": "31166b29c782babc3ccbcb7b52168cda8701c08abccbaf1c010660a0aaba4c66",
+  "zipBytes": 2785998,
+  "files": [
+    {
+      "name": "application.js",
+      "size": 3302,
+      "compressed": 1133,
+      "sha256": "359f85dd922e2568aa991af95a5c356a0102042c8918252987bfbd37f2153eb2"
+    },
+    {
+      "name": "assets/internal/config.json",
+      "size": 3046,
+      "compressed": 1259,
+      "sha256": "7319227a56d46c7df07d15fe80b1c89a6e783b6066bc365adac211308a30c287"
+    },
+    {
+      "name": "assets/internal/import/05/05a6ba422.json",
+      "size": 523565,
+      "compressed": 50491,
+      "sha256": "cf3e1dd2b7cdf784a884440024742c90e5cfcd019a390858c69216e03fe77e96"
+    },
+    {
+      "name": "assets/internal/index.js",
+      "size": 56579,
+      "compressed": 16585,
+      "sha256": "89d7131b2eef9c64597082c51efb263ca8c8fba7e5880b49bb0a2d5b7c6c4a31"
+    },
+    {
+      "name": "assets/main/config.json",
+      "size": 2988,
+      "compressed": 1654,
+      "sha256": "87c78463e2f29442fb42caf5872a49acd55ef6ad38f8283126b173debcf3c2af"
+    },
+    {
+      "name": "assets/main/import/0b/0b740ec14.json",
+      "size": 1016733,
+      "compressed": 147839,
+      "sha256": "10c7b5663e8014d954bca003ab3a88df7a9b03f52df58dddd376feff444fd1dd"
+    },
+    {
+      "name": "assets/main/index.js",
+      "size": 57102,
+      "compressed": 18797,
+      "sha256": "c7be72cee20bfdd96e9394c10f560cc35234bb88559dd62378752ffcf6d3a43f"
+    },
+    {
+      "name": "assets/main/native/11/111e5ae7-b6bd-44cf-bd61-943063308bd6.png",
+      "size": 15471,
+      "compressed": 10393,
+      "sha256": "ba4a117465383f16f04ffe228e3a67c4a279e0681d666159871ed7309c2a0c66"
+    },
+    {
+      "name": "assets/main/native/12/1263d74c-8167-4928-91a6-4e2672411f47@17020.bin",
+      "size": 115698,
+      "compressed": 60880,
+      "sha256": "7881513296207f0f3dc8f5d90bd2f1a724e0c67dbafeb75409dd66fe208e5521"
+    },
+    {
+      "name": "assets/main/native/15/15d47550-97fa-4cfd-a531-44b4408bfd88.wav",
+      "size": 38000,
+      "compressed": 11092,
+      "sha256": "2b18180a01aaf83873aeea098a040051d9dde3e0f5d0c7286c5a3fa170c17a68"
+    },
+    {
+      "name": "assets/main/native/2d/2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870.bin",
+      "size": 110798,
+      "compressed": 66955,
+      "sha256": "730890a5c2ebd9a6d3048c967541dd355072ae83a808f109ce26f3a747536e0a"
+    },
+    {
+      "name": "assets/main/native/2d/2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33.bin",
+      "size": 21670,
+      "compressed": 10446,
+      "sha256": "65d635592785e1ff586d3bbc46f21b495660224436783279562b0a019fe2e9f4"
+    },
+    {
+      "name": "assets/main/native/30/30d0c9c0-201c-40ca-9db8-71dbbad0eb7c/LilitaOne-Regular.ttf",
+      "size": 35794,
+      "compressed": 18722,
+      "sha256": "7c09ca14eb96867668fd3d058ea776e28f108d53147dafb22ea9652d78c20ca4"
+    },
+    {
+      "name": "assets/main/native/69/69414c89-0d43-42e9-ace6-01ff0a340dd1@3d923.bin",
+      "size": 133286,
+      "compressed": 77680,
+      "sha256": "aaa09540d91457504a9951f72663cc7c97bf26c8181c0dfcb2d9bcb562cd38b0"
+    },
+    {
+      "name": "assets/main/native/71/716d7457-32e8-483b-b6fe-c528a6798a00@a62fe.bin",
+      "size": 3105222,
+      "compressed": 985397,
+      "sha256": "5e7d9dd7ddfc890ec3de5acb9e173e46ce9eda224367128bb4782a29d4fd87bf"
+    },
+    {
+      "name": "assets/main/native/74/748aa730-f10e-4897-9e4a-6963194fe2e2@db054.bin",
+      "size": 20046,
+      "compressed": 12505,
+      "sha256": "5220c4494785e56bfa46975c1a6df636da962457c36f382180f2ecdadacc677d"
+    },
+    {
+      "name": "assets/main/native/7e/7e0d00cd-e958-4d76-b418-a3e8130166a2@2e7eb.bin",
+      "size": 23094,
+      "compressed": 13874,
+      "sha256": "73739b1f20b4a0babc9ea242b0318ee6a4cc18285e448a45f790e38114e60fce"
+    },
+    {
+      "name": "assets/main/native/a4/a45e711c-c946-4632-a215-f8c994fa9f4a@41ac8.bin",
+      "size": 17430,
+      "compressed": 9989,
+      "sha256": "5d60987b1c937e6d04f1042eaa26652087aae7ee5d4028579643669b25b1b5e4"
+    },
+    {
+      "name": "assets/main/native/c6/c6eea205-ec83-4098-8759-1c5862dbe22a@0a48a.bin",
+      "size": 17366,
+      "compressed": 10237,
+      "sha256": "f33b31ff08617ff97de7e5ae16e1cb7318b5b2c08f3e2df172ab96863b681863"
+    },
+    {
+      "name": "assets/main/native/d3/d3ca048d-bf8a-4dba-b2cb-c658f10ec0df.wav",
+      "size": 401500,
+      "compressed": 205849,
+      "sha256": "c8014b41135fcf51b5efa04729f953e4a36c72a3ede4c1a8c0e9662eef63f036"
+    },
+    {
+      "name": "assets/main/native/e6/e6060c36-4a3f-41eb-be39-82f3cde65b43.wav",
+      "size": 166916,
+      "compressed": 79391,
+      "sha256": "5b6083211d7c4e15cfd42517ec82d77810f34424842404445ac690cebb58e4fe"
+    },
+    {
+      "name": "assets/main/native/f7/f7f2f9b5-b3a2-4066-96b7-f22e35c2815d.wav",
+      "size": 245888,
+      "compressed": 80895,
+      "sha256": "e197434c976441bc2c3932d77233332404ea81d37ba2c4e0a1b46b5d169462a8"
+    },
+    {
+      "name": "assets/main/native/f9/f971e4e6-90a4-4fd2-b90f-3411411a8a14.wav",
+      "size": 17832,
+      "compressed": 4827,
+      "sha256": "ecd2290e0633ef540554d5d3dd2b4481f89badc4d8abbf519c90fa16aa042310"
+    },
+    {
+      "name": "cocos-js/cc.js",
+      "size": 2128284,
+      "compressed": 540964,
+      "sha256": "86cf1ca9298d338bedf8c8977d80cc1ceb36780e18277d4e0f991da98e026020"
+    },
+    {
+      "name": "index.js",
+      "size": 1226,
+      "compressed": 646,
+      "sha256": "59786bb9156caabc2fdfeac671ad350f98a06cf8e33b2d1a90af2446b135a9b9"
+    },
+    {
+      "name": "src/chunks/bundle.js",
+      "size": 4027,
+      "compressed": 1850,
+      "sha256": "85171aafc55e0df4147c1adac02a4251d7f6b41144f46af03f41ac35a978bfcb"
+    },
+    {
+      "name": "src/settings.json",
+      "size": 2263,
+      "compressed": 1322,
+      "sha256": "c0b292660322ccdd5ba22bea88faf5e126ecdc83f7f273b229d7d67b4bb45aa7"
+    },
+    {
+      "name": "@src/polyfills.bundle.js",
+      "size": 14750,
+      "compressed": 5119,
+      "sha256": "f1e4ced3322168d6b9915e782e4c1cf1055d75f66f2b38e7fcd60f48cf89082b"
+    },
+    {
+      "name": "@src/system.bundle.js",
+      "size": 12250,
+      "compressed": 4426,
+      "sha256": "19d9fcec0f45372af0a3df2cd0b3278314f125268a935d80e05b2f2ce2525a77"
+    },
+    {
+      "name": "@src/cc.adapter.js",
+      "size": 5985,
+      "compressed": 2640,
+      "sha256": "c1a8632e289b57eab2567143227ff365c0d8461a36f6203f475d48487a364142"
+    },
+    {
+      "name": "__res",
+      "size": 433846,
+      "compressed": 323761,
+      "sha256": "78d03b8e97be5df3b355c60bd2553e584623c47d0f2c20061940d415f53e96d9"
+    }
+  ]
+}

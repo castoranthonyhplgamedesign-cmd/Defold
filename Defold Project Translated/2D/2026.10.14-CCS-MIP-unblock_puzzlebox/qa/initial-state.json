@@ -1,0 +1,825 @@
+{
+  "current": "b50",
+  "danger": 0,
+  "elapsed": 0,
+  "gift": {
+    "a": 0.48346284394871,
+    "ra": 0.48343728390391,
+    "id": "gift",
+    "py": 880.25136887745,
+    "ry": 880.79576076883,
+    "target_y": 880.26623537508,
+    "y": 880.78844187127,
+    "x": 710.09048541682,
+    "rx": 710.06966184211,
+    "pa": 0.47793334531816,
+    "speed": 0.031193092720066,
+    "px": 708.66273672361,
+    "vx": 0.016240329545099,
+    "vy": 0.026631949416242
+  },
+  "balls": [
+    {
+      "y": 1674.9667843786,
+      "x": 157.03982312531,
+      "scale": 1,
+      "busy": false,
+      "id": "b1",
+      "landed": true,
+      "rings": [
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 1643.6201432407,
+      "x": 290.26154601675,
+      "scale": 1,
+      "busy": false,
+      "id": "b2",
+      "landed": true,
+      "rings": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "body": true
+    },
+    {
+      "y": 1643.0360129767,
+      "x": 451.84393946466,
+      "scale": 1,
+      "busy": false,
+      "id": "b3",
+      "landed": true,
+      "rings": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "body": true
+    },
+    {
+      "y": 1643.6308285976,
+      "x": 702.51157327197,
+      "scale": 1,
+      "busy": false,
+      "id": "b4",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "body": true
+    },
+    {
+      "y": 1675.2605435403,
+      "x": 827.57647226656,
+      "scale": 1,
+      "busy": false,
+      "id": "b5",
+      "landed": true,
+      "rings": [
+        3,
+        3,
+        3
+      ],
+      "body": true
+    },
+    {
+      "y": 1518.7857833502,
+      "x": 188.19307614049,
+      "scale": 1,
+      "busy": false,
+      "id": "b6",
+      "landed": true,
+      "rings": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "body": true
+    },
+    {
+      "y": 1517.3254465055,
+      "x": 317.24384265059,
+      "scale": 1,
+      "busy": false,
+      "id": "b7",
+      "landed": true,
+      "rings": [
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 1519.4483771402,
+      "x": 414.07694276267,
+      "scale": 1,
+      "busy": false,
+      "id": "b8",
+      "landed": true,
+      "rings": [
+        2,
+        2,
+        2
+      ],
+      "body": true
+    },
+    {
+      "y": 1613.0979429104,
+      "x": 577.16826495757,
+      "scale": 1,
+      "busy": false,
+      "id": "b9",
+      "landed": true,
+      "rings": [
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 1550.1185564703,
+      "x": 791.87648543809,
+      "scale": 1,
+      "busy": false,
+      "id": "b10",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 1592.2849639181,
+      "x": 878.3143610313,
+      "scale": 1,
+      "busy": false,
+      "id": "b11",
+      "landed": true,
+      "rings": [
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 1675.97801598,
+      "x": 924.30127775424,
+      "scale": 1,
+      "busy": false,
+      "id": "b12",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 1356.6794565354,
+      "x": 188.97860887357,
+      "scale": 1,
+      "busy": false,
+      "id": "b13",
+      "landed": true,
+      "rings": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "body": true
+    },
+    {
+      "y": 1398.8203134184,
+      "x": 367.89647074226,
+      "scale": 1,
+      "busy": false,
+      "id": "b14",
+      "landed": true,
+      "rings": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 1526.8728634389,
+      "x": 511.00951830599,
+      "scale": 1,
+      "busy": false,
+      "id": "b15",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 1497.0908829174,
+      "x": 636.76172383389,
+      "scale": 1,
+      "busy": false,
+      "id": "b16",
+      "landed": true,
+      "rings": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3
+      ],
+      "body": true
+    },
+    {
+      "y": 1464.392492301,
+      "x": 890.82871971922,
+      "scale": 1,
+      "busy": false,
+      "id": "b17",
+      "landed": true,
+      "rings": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "body": true
+    },
+    {
+      "y": 1193.7515210459,
+      "x": 188.9716452615,
+      "scale": 1,
+      "busy": false,
+      "id": "b18",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 1289.5920381709,
+      "x": 299.45035721525,
+      "scale": 1,
+      "busy": false,
+      "id": "b19",
+      "landed": true,
+      "rings": [
+        3,
+        3,
+        3
+      ],
+      "body": true
+    },
+    {
+      "y": 1375.5982745698,
+      "x": 528.81691852537,
+      "scale": 1,
+      "busy": false,
+      "id": "b20",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 1351.7896926956,
+      "x": 825.49033165317,
+      "scale": 1,
+      "busy": false,
+      "id": "b21",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 1458.8734805648,
+      "x": 761.1112872924,
+      "scale": 1,
+      "busy": false,
+      "id": "b22",
+      "landed": true,
+      "rings": [
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 1068.2811891738,
+      "x": 292.52892753925,
+      "scale": 1,
+      "busy": false,
+      "id": "b23",
+      "landed": true,
+      "rings": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "body": true
+    },
+    {
+      "y": 1195.2084159556,
+      "x": 318.53973065781,
+      "scale": 1,
+      "busy": false,
+      "id": "b24",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 1287.2124652804,
+      "x": 433.9077004096,
+      "scale": 1,
+      "busy": false,
+      "id": "b25",
+      "landed": true,
+      "rings": [
+        2,
+        2,
+        2
+      ],
+      "body": true
+    },
+    {
+      "y": 1347.5500823745,
+      "x": 695.67955351392,
+      "scale": 1,
+      "busy": false,
+      "id": "b26",
+      "landed": true,
+      "rings": [
+        3,
+        3,
+        3,
+        2,
+        2,
+        2
+      ],
+      "body": true
+    },
+    {
+      "y": 1339.1094904219,
+      "x": 923.46561669583,
+      "scale": 1,
+      "busy": false,
+      "id": "b27",
+      "landed": true,
+      "rings": [
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 943.07885145338,
+      "x": 189.0005492349,
+      "scale": 1,
+      "busy": false,
+      "id": "b28",
+      "landed": true,
+      "rings": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "body": true
+    },
+    {
+      "y": 1157.9579586245,
+      "x": 442.52652401017,
+      "scale": 1,
+      "busy": false,
+      "id": "b29",
+      "landed": true,
+      "rings": [
+        3,
+        3,
+        3,
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 1225.0955411928,
+      "x": 589.88026231958,
+      "scale": 1,
+      "busy": false,
+      "id": "b30",
+      "landed": true,
+      "rings": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "body": true
+    },
+    {
+      "y": 1220.8815828131,
+      "x": 795.89010128824,
+      "scale": 1,
+      "busy": false,
+      "id": "b31",
+      "landed": true,
+      "rings": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 1242.0528015077,
+      "x": 923.6821725952,
+      "scale": 1,
+      "busy": false,
+      "id": "b32",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 792.36394335926,
+      "x": 248.90295793182,
+      "scale": 1,
+      "busy": false,
+      "id": "b33",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 1030.8018218292,
+      "x": 416.86063904771,
+      "scale": 1,
+      "busy": false,
+      "id": "b34",
+      "landed": true,
+      "rings": [
+        3,
+        3,
+        3
+      ],
+      "body": true
+    },
+    {
+      "y": 1099.1149757775,
+      "x": 558.36425064686,
+      "scale": 1,
+      "busy": false,
+      "id": "b35",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 1143.3691178436,
+      "x": 690.96238747408,
+      "scale": 1,
+      "busy": false,
+      "id": "b36",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 1058.3800972636,
+      "x": 793.83416097437,
+      "scale": 1,
+      "busy": false,
+      "id": "b37",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "body": true
+    },
+    {
+      "y": 1146.7547727642,
+      "x": 904.0628702134,
+      "scale": 1,
+      "busy": false,
+      "id": "b38",
+      "landed": true,
+      "rings": [
+        3,
+        3,
+        3
+      ],
+      "body": true
+    },
+    {
+      "y": 681.56622281773,
+      "x": 316.91796922568,
+      "scale": 1,
+      "busy": false,
+      "id": "b39",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 917.71806943775,
+      "x": 352.74341381934,
+      "scale": 1,
+      "busy": false,
+      "id": "b40",
+      "landed": true,
+      "rings": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 1013.2371913217,
+      "x": 512.40257279361,
+      "scale": 1,
+      "busy": false,
+      "id": "b41",
+      "landed": true,
+      "rings": [
+        2,
+        2,
+        2
+      ],
+      "body": true
+    },
+    {
+      "y": 999.5166203732,
+      "x": 642.14248297983,
+      "scale": 1,
+      "busy": false,
+      "id": "b42",
+      "landed": true,
+      "rings": [
+        3,
+        3,
+        3,
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 932.98789859252,
+      "x": 828.06507523184,
+      "scale": 1,
+      "busy": false,
+      "id": "b43",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 1051.2687735882,
+      "x": 923.39554010796,
+      "scale": 1,
+      "busy": false,
+      "id": "b44",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0
+      ],
+      "body": true
+    },
+    {
+      "y": 700.68211095038,
+      "x": 156.70729068283,
+      "scale": 1,
+      "busy": false,
+      "id": "b45",
+      "landed": true,
+      "rings": [
+        3,
+        3,
+        3
+      ],
+      "body": true
+    },
+    {
+      "y": 767.51477960848,
+      "x": 414.23838002739,
+      "scale": 1,
+      "busy": false,
+      "id": "b46",
+      "landed": true,
+      "rings": [
+        0,
+        0,
+        0,
+        2,
+        2,
+        2
+      ],
+      "body": true
+    },
+    {
+      "y": 884.36658367277,
+      "x": 527.38472489716,
+      "scale": 1,
+      "busy": false,
+      "id": "b47",
+      "landed": true,
+      "rings": [
+        1,
+        1,
+        1,
+        3,
+        3,
+        3
+      ],
+      "body": true
+    },
+    {
+      "y": 818.74524388003,
+      "x": 890.71093358369,
+      "scale": 1,
+      "busy": false,
+      "id": "b48",
+      "landed": true,
+      "rings": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "body": true
+    },
+    {
+      "y": 953.42141661099,
+      "x": 923.27492810152,
+      "scale": 1,
+      "busy": false,
+      "id": "b49",
+      "landed": true,
+      "rings": [
+        1,
+        1,
+        1
+      ],
+      "body": true
+    },
+    {
+      "y": 422,
+      "x": 540,
+      "scale": 1,
+      "busy": false,
+      "id": "b50",
+      "landed": false,
+      "rings": [
+        2,
+        2,
+        2
+      ],
+      "body": false
+    },
+    {
+      "y": -37.453957575438,
+      "x": 890.52433173406,
+      "scale": 0.62135425244301,
+      "busy": false,
+      "id": "b51",
+      "landed": false,
+      "rings": [
+        0,
+        0,
+        0,
+        3,
+        3,
+        3
+      ],
+      "body": false
+    }
+  ],
+  "time": 1259.5,
+  "variant": "60sec",
+  "hand": true,
+  "ready": true,
+  "clicks": 0,
+  "next": "b51",
+  "phase": "game",
+  "nodes": 66,
+  "viewport": {
+    "h": 844,
+    "s": 0.39795918367347,
+    "oy": 157.91836734694,
+    "w": 390,
+    "ox": -19.897959183673
+  },
+  "progress": 0.0006620820860205
+}

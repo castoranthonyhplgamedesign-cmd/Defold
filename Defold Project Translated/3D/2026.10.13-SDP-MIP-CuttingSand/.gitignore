@@ -1,0 +1,8 @@
+/tools/reference/
+/node_modules/
+/build/
+/bundle/
+/local-publish/
+/.internal/
+/.DS_Store
+/qa/browser-profile/

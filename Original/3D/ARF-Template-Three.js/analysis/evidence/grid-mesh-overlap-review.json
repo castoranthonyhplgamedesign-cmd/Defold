@@ -1,0 +1,195 @@
+[
+  {
+    "asset": "longarrow",
+    "size": 0.5,
+    "usable": 1498,
+    "squaresOverMesh": 62,
+    "centersOverMesh": 0,
+    "examples": [
+      [
+        -8,
+        -24
+      ],
+      [
+        -7,
+        -24
+      ],
+      [
+        -6,
+        -24
+      ],
+      [
+        -5,
+        -24
+      ],
+      [
+        -4,
+        -24
+      ]
+    ],
+    "centerExamples": []
+  },
+  {
+    "asset": "longarrow",
+    "size": 1,
+    "usable": 358,
+    "squaresOverMesh": 28,
+    "centersOverMesh": 0,
+    "examples": [
+      [
+        -5,
+        -10
+      ],
+      [
+        6,
+        -10
+      ],
+      [
+        -9,
+        -6
+      ],
+      [
+        9,
+        -6
+      ],
+      [
+        -10,
+        -5
+      ]
+    ],
+    "centerExamples": []
+  },
+  {
+    "asset": "longarrow",
+    "size": 1.5,
+    "usable": 148,
+    "squaresOverMesh": 9,
+    "centersOverMesh": 0,
+    "examples": [
+      [
+        3,
+        -7
+      ],
+      [
+        -4,
+        -6
+      ],
+      [
+        4,
+        -6
+      ],
+      [
+        -6,
+        -4
+      ],
+      [
+        -6,
+        2
+      ]
+    ],
+    "centerExamples": []
+  },
+  {
+    "asset": "rescue",
+    "size": 0.5,
+    "usable": 2735,
+    "squaresOverMesh": 118,
+    "centersOverMesh": 3,
+    "examples": [
+      [
+        -8,
+        -30
+      ],
+      [
+        -7,
+        -30
+      ],
+      [
+        7,
+        -30
+      ],
+      [
+        8,
+        -30
+      ],
+      [
+        -11,
+        -29
+      ]
+    ],
+    "centerExamples": [
+      [
+        -8,
+        22
+      ],
+      [
+        -7,
+        22
+      ],
+      [
+        8,
+        22
+      ]
+    ]
+  },
+  {
+    "asset": "rescue",
+    "size": 1,
+    "usable": 662,
+    "squaresOverMesh": 39,
+    "centersOverMesh": 0,
+    "examples": [
+      [
+        -3,
+        -15
+      ],
+      [
+        -2,
+        -15
+      ],
+      [
+        -1,
+        -15
+      ],
+      [
+        1,
+        -15
+      ],
+      [
+        2,
+        -15
+      ]
+    ],
+    "centerExamples": []
+  },
+  {
+    "asset": "rescue",
+    "size": 1.5,
+    "usable": 288,
+    "squaresOverMesh": 29,
+    "centersOverMesh": 0,
+    "examples": [
+      [
+        0,
+        -10
+      ],
+      [
+        -4,
+        -9
+      ],
+      [
+        4,
+        -9
+      ],
+      [
+        -6,
+        -8
+      ],
+      [
+        6,
+        -8
+      ]
+    ],
+    "centerExamples": []
+  }
+]

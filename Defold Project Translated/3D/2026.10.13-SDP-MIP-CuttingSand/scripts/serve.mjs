@@ -1,0 +1,5 @@
+// Bind loopback explicitly. No public listener or hosting service is used.
+import http from 'node:http';import fs from 'node:fs';import path from 'node:path';
+const brand=JSON.parse(fs.readFileSync('branding.json','utf8'));
+const root=path.resolve('bundle',brand.name);const mime={'.html':'text/html','.js':'application/javascript','.wasm':'application/wasm','.json':'application/json','.mp3':'audio/mpeg','.png':'image/png'};
+http.createServer((req,res)=>{let url=new URL(req.url,'http://127.0.0.1');let file=path.resolve(root,'.'+decodeURIComponent(url.pathname));if(!file.startsWith(root+path.sep)&&file!==root){res.writeHead(403).end();return}if(file===root||url.pathname.endsWith('/'))file=path.join(file,'index.html');fs.stat(file,(err,stat)=>{if(err||!stat.isFile()){res.writeHead(404).end();return}res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream','Cache-Control':'no-store'});fs.createReadStream(file).pipe(res)});}).listen(8182,'127.0.0.1',()=>console.log('Local only: http://127.0.0.1:8182/'));

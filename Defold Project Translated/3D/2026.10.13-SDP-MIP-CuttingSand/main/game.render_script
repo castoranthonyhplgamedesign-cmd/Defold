@@ -1,0 +1,9 @@
+function init(self)self.gui=render.predicate({'gui'});self.text=render.predicate({'text'})end
+function update(self)
+ local w,h=render.get_window_width(),render.get_window_height();if w<1 or h<1 then return end
+ local s=math.min(w/1080,h/1920);local vw,vh=w/s,h/s
+ render.set_viewport(0,0,w,h);render.clear({[graphics.BUFFER_TYPE_COLOR0_BIT]=vmath.vector4(1,.8,.85,1),[graphics.BUFFER_TYPE_STENCIL_BIT]=0})
+ render.set_view(vmath.matrix4());render.set_projection(vmath.matrix4_orthographic((1080-vw)/2,(1080+vw)/2,(1920-vh)/2,(1920+vh)/2,-1,1))
+ render.enable_state(graphics.STATE_BLEND);render.set_blend_func(graphics.BLEND_FACTOR_SRC_ALPHA,graphics.BLEND_FACTOR_ONE_MINUS_SRC_ALPHA)
+ render.enable_state(graphics.STATE_STENCIL_TEST);render.draw(self.gui);render.draw(self.text);render.disable_state(graphics.STATE_STENCIL_TEST);render.disable_state(graphics.STATE_BLEND)
+end

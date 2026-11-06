@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-28T01:43:48.309Z",
+  "result": "pass",
+  "sourceHash": "ea15bc1e4a7d3fde229be4e8bb638b83603e45005897afb4d15e87750c9920d8",
+  "originalConflicts": 38,
+  "fixedConflicts": 0,
+  "errors": [],
+  "external": [],
+  "checks": [
+    "original layout retained on import and reload",
+    "conflict footprints and safe-cell guidance",
+    "draft download preserves original data",
+    "unsafe grid adjustment rejected atomically",
+    "undo and redo",
+    "corrected export round trip",
+    "59 arrow shapes and 199 blocks preserved",
+    "mesh and cannons byte-equivalent as parsed data",
+    "four preview viewports",
+    "native arrow launch"
+  ]
+}

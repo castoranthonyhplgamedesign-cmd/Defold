@@ -1,0 +1,27 @@
+{
+  "status": "Passed static integrity checks; runtime unavailable",
+  "originalSha256": "31166b29c782babc3ccbcb7b52168cda8701c08abccbaf1c010660a0aaba4c66",
+  "jsonFilesParsed": 171,
+  "catalogIds": 109,
+  "assetFiles": 206,
+  "assetBytes": 7613592,
+  "serializedReferencesChecked": 1535,
+  "meshPrimitivesChecked": 11,
+  "meshNumericComponentsChecked": 540310,
+  "namedTuningEntries": 109,
+  "requiredDeliverables": [
+    "REPORT.md",
+    "assets.md",
+    "assets.csv",
+    "tuning.json",
+    "beat-sheet.md",
+    "state-machine.md",
+    "rebuild-spec.md",
+    "screenshots/README.md"
+  ],
+  "runtime": {
+    "executed": false,
+    "screenshots": 0,
+    "reason": "Browser failed before navigation; see runtime-failure.json"
+  }
+}

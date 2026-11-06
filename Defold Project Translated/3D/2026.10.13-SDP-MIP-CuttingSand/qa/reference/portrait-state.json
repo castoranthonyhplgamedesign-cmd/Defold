@@ -1,0 +1,56 @@
+{
+  "state": {
+    "state": "play",
+    "wave": 1,
+    "activeColors": [
+      10,
+      11
+    ],
+    "counted": 0,
+    "clickLimit": null,
+    "remaining": 31752,
+    "total": 31752,
+    "removedPct": 0,
+    "lastCut": 0,
+    "lastDrop": 0,
+    "loose": 0,
+    "funnel": 0,
+    "belt": 0,
+    "beltLoad": 0,
+    "fronts": [
+      10,
+      11
+    ],
+    "bucketsDone": 0,
+    "speed": 1,
+    "accounted": 31752,
+    "integrity": "",
+    "frame": 126,
+    "muted": false,
+    "sounds": {},
+    "handVisible": true,
+    "vignette": 0,
+    "ended": false,
+    "endReason": "",
+    "milestone": "play",
+    "targets": {
+      "right": {
+        "x": 197.77777777777777,
+        "y": 858.6851851851852
+      },
+      "wrong": null,
+      "blocked": {
+        "x": 197.77777777777777,
+        "y": 744.6111111111112
+      },
+      "swipe": {
+        "x1": 157.03703703703704,
+        "y1": 789.425925925926,
+        "x2": 272.77777777777777,
+        "y2": 789.425925925926
+      }
+    },
+    "mechanic": "cut"
+  },
+  "errors": []
+}

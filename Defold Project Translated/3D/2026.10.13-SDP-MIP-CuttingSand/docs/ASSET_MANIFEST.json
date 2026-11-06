@@ -1,0 +1,331 @@
+{
+  "branch": "cantReach",
+  "commit": "8a241d35af7e59acaa1aa092505dafab9db7ea40",
+  "assets": [
+    {
+      "source": "Assets/Runtime/images/sand-picture.webp",
+      "destination": "assets/images/sand-picture.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "4777dc058078afe27ee92de172bc8cc29e1cdd2baac3c8162cab2bfd9a18083b"
+    },
+    {
+      "source": "Assets/Runtime/images/sand-picture-hd.webp",
+      "destination": "assets/images/sand-picture-hd.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "b695705f2a6ae7990d9dbbdf6ccb7f2096cc8adf23052890b8ad0276e101d05a"
+    },
+    {
+      "source": "Assets/Runtime/images/background.webp",
+      "destination": "assets/images/background.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "0129405e85c924c99e002873c1f1299b05557e2358e230998fd3a74694b1dcf2"
+    },
+    {
+      "source": "Assets/Runtime/images/sand-container.webp",
+      "destination": "assets/images/sand-container.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "e99d114d952016eeac6bee9323c8674ab4ebd0d917df8e9b671ff613f8c37208"
+    },
+    {
+      "source": "Assets/Runtime/images/conveyor-belt.webp",
+      "destination": "assets/images/conveyor-belt.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "7d8b755636b1406bd6e53d1d0775d7a783ccf0367a6fad39591d499b7e9bac1f"
+    },
+    {
+      "source": "Assets/Runtime/images/belt-chevron.webp",
+      "destination": "assets/images/belt-chevron.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "136c435911b8910a40c34d979748b480d90992262bf2dd5fa857ae7c2a14d58a"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-purple.webp",
+      "destination": "assets/images/bucket-purple.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "08d9a65140faccc9664e7bca82db0a3a77295c3dea2645ae4062ea2d43a604ed"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-purple-lid.webp",
+      "destination": "assets/images/bucket-purple-lid.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "d210a27771ed3b1ec4d578e2ffbeae641be66432454bc678e1f8f954b22b8d0a"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-blue-v2.webp",
+      "destination": "assets/images/bucket-blue-v2.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "ae98b26cda9faf9d6af05b084031958cd191d62beed7fee3ed4e9bd391cc2bc9"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-blue-v2-lid.webp",
+      "destination": "assets/images/bucket-blue-v2-lid.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "52fd28b48c9bceac8126b5eef77ff34d26fd2ccc986a32d968aeba3048b471bc"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-cyan.webp",
+      "destination": "assets/images/bucket-cyan.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "83c471e819d40f838478ed5d8d9f58198e35974e1458b2a6b83a991fd7329eea"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-cyan-lid.webp",
+      "destination": "assets/images/bucket-cyan-lid.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "87e21ea430ba0a2dc2f08e8945cd7f7376f420dd6da1ac08946c3f4112f4034f"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-green-v2.webp",
+      "destination": "assets/images/bucket-green-v2.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "a27badef1b50042868d457f3c87e63e38251fb37be57c3fc162f6495c6f7bd16"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-green-v2-lid.webp",
+      "destination": "assets/images/bucket-green-v2-lid.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "0f7a2025f9b54aef477dd42642183fbeda82fabaa973b78f705ff2d677db370e"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-green.webp",
+      "destination": "assets/images/bucket-green.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "8690df4ecd08733249cc4e4559086f8cecaa01a54f77e09e7c97d3d85fea0c1f"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-green-lid.webp",
+      "destination": "assets/images/bucket-green-lid.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "2c0c500e1631be15e231a6d5b36330950d6a0513b26b8dc674f4d2bb5fef004c"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-yellow-v2.webp",
+      "destination": "assets/images/bucket-yellow-v2.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "9f2a743d273fa18bb666e27da42286e085d63323d4a44ec06479446029706646"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-yellow-v2-lid.webp",
+      "destination": "assets/images/bucket-yellow-v2-lid.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "32fd614839a7f4ff4defd15a9db687db8aa22a56e5f021ae5a863d7cbc067452"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-orange.webp",
+      "destination": "assets/images/bucket-orange.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "1ca7e9afce209aa83aebd3c6f5bf35b56e0077bf2474082a5f33994a247fcb6e"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-orange-lid.webp",
+      "destination": "assets/images/bucket-orange-lid.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "10d2b16c4b73838a9207b0b7f2223d28d3917fa67270111672bd93d58b556e1a"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-red-v2.webp",
+      "destination": "assets/images/bucket-red-v2.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "ef4bd85b0e2b20b4acf00615f26d76ad2a7268a4a7b3f3c22a303a4b864fc99f"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-red-v2-lid.webp",
+      "destination": "assets/images/bucket-red-v2-lid.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "4506cac1e41556b313f089afcc14893d9f3f38f6e319b7492d0804575e3b7a3b"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-pink.webp",
+      "destination": "assets/images/bucket-pink.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "17e6a144a52f030b47f1425a004d29ac98d61206eb86919f49cbfdcd2de1a7d2"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-pink-lid.webp",
+      "destination": "assets/images/bucket-pink-lid.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "2eaca700356fe0f930ed54af4e7f3594501d2375c55599df6cb49d3d2f0907c5"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-black-v2.webp",
+      "destination": "assets/images/bucket-black-v2.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "31757fba33217b7bae091949bb655a5b55a06714beae38fd5ca914ad9ffce884"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-black-v2-lid.webp",
+      "destination": "assets/images/bucket-black-v2-lid.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "5d9a4b0b6bee6789fbfc09d7df1566aa6a5818baf89615807093a2bc422f1904"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-white-v2.webp",
+      "destination": "assets/images/bucket-white-v2.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "0851144c045952db784e6f5951678795b2fb6dd9a272c1b92af6ea6aadfc91fa"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-white-v2-lid.webp",
+      "destination": "assets/images/bucket-white-v2-lid.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "da8bbb31e162364dc0f56cc51ac00b89f437ad1c046dce377651657e6d4266dc"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-shadow.webp",
+      "destination": "assets/images/bucket-shadow.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "a83fd8c11c70fcc29744a43f7bed4cc6e8c173abc73471075838864110523acc"
+    },
+    {
+      "source": "Assets/Runtime/images/bucket-glow.webp",
+      "destination": "assets/images/bucket-glow.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "8e3fcb734ca7c791f86b6eeb83fe99e78bbcff67ee1215749281d7b5766bbd43"
+    },
+    {
+      "source": "Assets/Runtime/images/sparkle.webp",
+      "destination": "assets/images/sparkle.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "7429764e33535ced8e7c4d719136cd4019834dc72c6ab7e641604431924c4d96"
+    },
+    {
+      "source": "Assets/Runtime/images/fail-glow.webp",
+      "destination": "assets/images/fail-glow.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "89656ef555a983ddab4affaaececa8311757b9708d64c251966710dea428692e"
+    },
+    {
+      "source": "Assets/Runtime/images/endcard-logo.webp",
+      "destination": "assets/images/endcard-logo.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "8d22bc8cf3a3533f223eab5d2bbb43a7f10e97e82ff9b015acf688065b986be3"
+    },
+    {
+      "source": "Assets/Runtime/images/ui-hand.webp",
+      "destination": "assets/images/ui-hand.png",
+      "conversion": "WebP decoded to PNG, dimensions preserved",
+      "sha256": "db2d6ed30393c87e4e4de1aaeb7564581d8da6468ff73055f9a8b6025862564a"
+    },
+    {
+      "source": "Assets/Runtime/audio/bgm.mp3",
+      "destination": "web/audio/bgm.mp3",
+      "conversion": "Unmodified",
+      "sha256": "ebe04d9104627696f50a6317b802fa1fd370ce26c3164e8e8a1d70f5868ed1d5"
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-conveyor.mp3",
+      "destination": "web/audio/sfx-conveyor.mp3",
+      "conversion": "Unmodified",
+      "sha256": "a3697f266a502e38c32dbd266b2bdbda4120ea19ed69845554e7afab9982cf73"
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-cut.mp3",
+      "destination": "web/audio/sfx-cut.mp3",
+      "conversion": "Unmodified",
+      "sha256": "9aacf7c817a84b2e31582c7bab5484727619d00729477e9c13fc266a6813ce14"
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-sand.mp3",
+      "destination": "web/audio/sfx-sand.mp3",
+      "conversion": "Unmodified",
+      "sha256": "b228868d10cb81a6a2d328ab6f21d6994478fb4cf217c7d622927fd5c4d1f4f2"
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-click.mp3",
+      "destination": "web/audio/sfx-click.mp3",
+      "conversion": "Unmodified",
+      "sha256": "82f75ba3ab659b02fdfcfe0a27c15b0b842fbe0041202e31c470084639caf67e"
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-woosh.mp3",
+      "destination": "web/audio/sfx-woosh.mp3",
+      "conversion": "Unmodified",
+      "sha256": "419d7db9c4dd004e55bb1d0ba145b0c3dd7f87ab57c242d0a6184016708c36e5"
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-bells.mp3",
+      "destination": "web/audio/sfx-bells.mp3",
+      "conversion": "Unmodified",
+      "sha256": "e3ff7f9a48c89ea57dec10c88e9521eeaa63cc476b5c806b78cd22551976c61d"
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-win.mp3",
+      "destination": "web/audio/sfx-win.mp3",
+      "conversion": "Unmodified",
+      "sha256": "9e0e424cb7f82df947d37c00e99e2da721a135fce211fb815c584564253302aa"
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-endcard.mp3",
+      "destination": "web/audio/sfx-endcard.mp3",
+      "conversion": "Unmodified",
+      "sha256": "78204669d4fddb16d982cc1e405912efd1c3474334b3d9eb225035aa1404718d"
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-cta.mp3",
+      "destination": "web/audio/sfx-cta.mp3",
+      "conversion": "Unmodified",
+      "sha256": "cc77a56618fef15896f988a8ecc0124eff09b2e3f8a8bec3d3644c38d64e6673"
+    },
+    {
+      "source": "Assets/Runtime/audio/sfx-fail.mp3",
+      "destination": "web/audio/sfx-fail.mp3",
+      "conversion": "Unmodified",
+      "sha256": "354d3a358c2584f6844ef3eafebddc497a252c05baab8906c72db8046b450d23"
+    }
+  ],
+  "offlineData": "cells/shades/regions from original SandGrid; owners from original PictureHd. No original runtime is embedded.",
+  "proceduralEffects": {
+    "source": "src/game/Praise.ts: texture and src/scenes/BootScene.ts: generateEffectTextures",
+    "conversion": "Original Nunito font and canvas paint instructions rasterized offline in Chrome; runtime animation is Lua",
+    "outputs": [
+      {
+        "word": "WAVE 1",
+        "key": "praise-wave1",
+        "width": 571,
+        "height": 200
+      },
+      {
+        "word": "WAVE 2",
+        "key": "praise-wave2",
+        "width": 571,
+        "height": 200
+      },
+      {
+        "word": "WAVE 3",
+        "key": "praise-wave3",
+        "width": 571,
+        "height": 200
+      },
+      {
+        "word": "GREAT!",
+        "key": "praise-great",
+        "width": 529,
+        "height": 200
+      },
+      {
+        "word": "AWESOME!",
+        "key": "praise-awesome",
+        "width": 776,
+        "height": 200
+      },
+      {
+        "word": "AMAZING!",
+        "key": "praise-amazing",
+        "width": 709,
+        "height": 200
+      },
+      {
+        "word": "ring",
+        "key": "fx-ring",
+        "width": 128,
+        "height": 128
+      },
+      {
+        "word": "glow",
+        "key": "fx-glow",
+        "width": 128,
+        "height": 128
+      }
+    ]
+  }
+}

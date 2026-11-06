@@ -1,0 +1,5 @@
+[
+  { "length": "5clicks", "clickLimit": 5, "timeLimit": 9999 },
+  { "length": "10clicks", "clickLimit": 10, "timeLimit": 9999 },
+  { "length": "90seconds", "clickLimit": 9999, "timeLimit": 90 }
+]

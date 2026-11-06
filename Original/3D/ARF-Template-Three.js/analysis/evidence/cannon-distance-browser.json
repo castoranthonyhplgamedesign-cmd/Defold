@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-27T07:46:41.923Z",
+  "result": "pass",
+  "errors": [],
+  "checks": [
+    "numeric distance",
+    "ordinary drag retains distance",
+    "Shift drag preserves track anchor",
+    "minimum and maximum clamp",
+    "undo/redo",
+    "invalid input preserves state",
+    "reset default",
+    "export/import/reload",
+    "native input preview clear at maximum distance",
+    "narrow layout"
+  ]
+}

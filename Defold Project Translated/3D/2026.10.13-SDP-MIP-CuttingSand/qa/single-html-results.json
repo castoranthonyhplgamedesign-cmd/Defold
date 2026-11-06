@@ -1,0 +1,18 @@
+{
+  "name": "Sand Slice",
+  "file": "D:\\allproject\\defold\\output\\Sand-Slice.html",
+  "offline": true,
+  "tests": [
+    "renamed title, application name and embedded replacement icon",
+    "file opens directly with all networking disabled",
+    "embedded gameplay, sand simulation and audio unlock work",
+    "renamed end card, click limit and safe local CTA work offline",
+    "standalone file supports portrait and landscape",
+    "tap version also runs from the single file",
+    "exactly one uniquely named game HTML in output",
+    "zero companion-file requests and zero runtime errors"
+  ],
+  "errors": [],
+  "extraRequests": [],
+  "passed": true
+}

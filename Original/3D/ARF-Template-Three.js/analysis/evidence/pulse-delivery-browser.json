@@ -1,0 +1,51 @@
+{
+  "testedAt": "2026-11-03T06:40:48.817Z",
+  "browser": "153.0.8010.12",
+  "scope": "Actual packaged files with controlled host callbacks, blocked external requests and muted output. Not an official host validator.",
+  "results": [
+    {
+      "network": "applovin",
+      "file": "dist/60seconds/arf_mip_grhpl_conveyor_overload_real_nougc_noseason_en_60seconds_na_al.html",
+      "loadMs": 1505,
+      "media": {
+        "voices": 37,
+        "requests": 2,
+        "playing": 2,
+        "durations": [
+          0.16102,
+          1.044898,
+          0.075261,
+          0.686349,
+          7.68,
+          1.814308,
+          1.417167,
+          0.46
+        ]
+      },
+      "gameplayCTA": [
+        [
+          "analytics",
+          "CTA_CLICKED"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "cta": [
+        [
+          "close"
+        ],
+        [
+          "mraid",
+          "https://play.google.com/store/apps/details?id=com.zobbogames.arrow.shooter"
+        ]
+      ],
+      "errors": [],
+      "requests": [
+        "https://preview.invalid/",
+        "https://preview.invalid/mraid.js"
+      ]
+    }
+  ]
+}

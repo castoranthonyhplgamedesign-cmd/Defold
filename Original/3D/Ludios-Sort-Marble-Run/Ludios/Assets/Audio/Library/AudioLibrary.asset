@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 300ab585a29dd9044ac9e2dc4b1e6a3f, type: 3}
+  m_Name: AudioLibrary
+  m_EditorClassIdentifier: 
+  clips:
+  - key: BGM
+    channel: 0
+    clip: {fileID: 8300000, guid: a5315fde8b8d8bb45920c09402d83a1b, type: 3}
+    volume: 0.25
+    loop: 1
+  - key: MarbleClick
+    channel: 1
+    clip: {fileID: 8300000, guid: 0dbd1f8fc328eda4bb5a5472d6652e5f, type: 3}
+    volume: 0.25
+    loop: 0
+  - key: MarbleRampDrop
+    channel: 1
+    clip: {fileID: 8300000, guid: ec778ba43a19b6a40bedadd0ea4e0697, type: 3}
+    volume: 1
+    loop: 0
+  - key: MarbleTrayDrop
+    channel: 1
+    clip: {fileID: 8300000, guid: 54738bde7642b17478c44355eb144f53, type: 3}
+    volume: 0.5
+    loop: 0
+  - key: MarbleWaterDrop
+    channel: 1
+    clip: {fileID: 8300000, guid: fc0ff61464c55724fadb1bde2053f506, type: 3}
+    volume: 0.5
+    loop: 0
+  - key: MarbleIntroRolling
+    channel: 1
+    clip: {fileID: 8300000, guid: 6710ea83493a6a84a9caea108d9f5a87, type: 3}
+    volume: 0.5
+    loop: 0
+  - key: MarbleIntroCollision
+    channel: 1
+    clip: {fileID: 8300000, guid: 073cff3659bbe114b8165f78e16ab5ca, type: 3}
+    volume: 0.5
+    loop: 0
+  - key: GameOver
+    channel: 1
+    clip: {fileID: 8300000, guid: f630d6be0172d8e42afe434969eac939, type: 3}
+    volume: 0.5
+    loop: 0

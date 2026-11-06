@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-29T04:50:41.413Z",
+  "shortcut": "Shift+E",
+  "checks": [
+    "dev shortcut shows endcard before first launch",
+    "typing ignored",
+    "Shift required",
+    "no automatic store open",
+    "repeat is harmless",
+    "deliberate CTA works",
+    "production shortcut removed and inactive"
+  ],
+  "errors": []
+}

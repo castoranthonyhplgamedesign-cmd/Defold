@@ -1,0 +1,38 @@
+{
+  "name": "arrow-flow-three-playable",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:90": "vite --host 127.0.0.1 --mode 90seconds",
+    "editor": "vite --host 127.0.0.1 --port 5181 --strictPort --open /level-editor.html",
+    "prepare:assets": "node scripts/prepare-assets.mjs",
+    "typecheck": "tsc --noEmit",
+    "build": "npm run typecheck && vite build && node scripts/verify-build.mjs",
+    "build:all": "npm run typecheck && node scripts/build-all.mjs",
+    "build:level": "npm run typecheck && node scripts/build-level.mjs",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test tests/*.test.mjs",
+    "validate:browser": "node tools/browser-smoke.mjs",
+    "validate:gameplay": "node tools/gameplay-smoke.mjs",
+    "validate:cannons": "node tools/cannon-queue-smoke.mjs",
+    "validate:session": "node tools/session-smoke.mjs",
+    "validate:delivery": "node tools/delivery-smoke.mjs",
+    "prepare:ui": "node scripts/prepare-ui-assets.mjs",
+    "prepare:audio": "node scripts/prepare-audio.mjs",
+    "validate:showcase": "node tools/showcase.mjs",
+    "validate:performance": "node tools/performance-smoke.mjs"
+  },
+  "dependencies": {
+    "three": "0.184.0"
+  },
+  "devDependencies": {
+    "@types/three": "0.184.1",
+    "fflate": "0.8.2",
+    "playwright": "1.63.0",
+    "typescript": "5.9.3",
+    "vite": "7.3.6",
+    "vite-plugin-singlefile": "2.3.4"
+  }
+}

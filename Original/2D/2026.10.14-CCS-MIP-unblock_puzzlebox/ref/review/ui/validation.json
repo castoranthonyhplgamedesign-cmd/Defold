@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "initial": {
+    "counts": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "labels": [
+      30,
+      30,
+      30,
+      30
+    ],
+    "drops": 0,
+    "textures": 51,
+    "ready": true,
+    "pointerListeners": 1
+  },
+  "checks": [
+    "live counts",
+    "HUD input isolation",
+    "3 restarts during next-ball transition without texture or listener growth",
+    "landscape restart",
+    "endcard CTA"
+  ],
+  "errors": []
+}

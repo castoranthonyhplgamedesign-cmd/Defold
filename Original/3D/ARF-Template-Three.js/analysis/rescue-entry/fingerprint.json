@@ -1,0 +1,19 @@
+{
+  "source": "reference/playable/arf_mip_grhpl_rescuemascot_real_nougc_noseason_en_60seconds_na_al.html",
+  "bytes": 3966652,
+  "sha256": "5df0fb852878b9659514b12ff73487fd5fb1616e546c259127937d4c5c310bb2",
+  "scripts": [
+    {
+      "index": 0,
+      "attributes": "",
+      "length": 3914103,
+      "start": "(function(){\"use strict\";const EA={camera:{halfHeight:21,near:1,far:1e4,position:[0,204.788,143.394],quaternion:[-.4617486132350339,0,0,.8870108331782217]},game"
+    },
+    {
+      "index": 1,
+      "attributes": " src=\"mraid.js\"",
+      "length": 0,
+      "start": ""
+    }
+  ]
+}

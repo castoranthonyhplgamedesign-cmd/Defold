@@ -1,0 +1,116 @@
+{
+  "tool": "Built-in image_gen",
+  "artifactType": "Separate lid-only sprites; no bucket bodies",
+  "reference": "User supplied orange bucket with a fitted lid; standalone caps matched to the nine added bucket colors.",
+  "exportMethod": "Trim to visible lid bounds with 3 source pixels of antialiased padding; export with one transparent pixel around the edge at native bucket-opening dimensions.",
+  "assets": [
+    {
+      "key": "orange",
+      "bucketFile": "bucket-orange.png",
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-df0a2849-5639-4a4d-b7ae-93b9181f4cd7.png",
+      "masterFile": "bucket-orange-lid-master.png",
+      "exportFile": "bucket-orange-lid.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-orange-lid.png",
+      "width": 145,
+      "height": 68,
+      "placement": "Top-left aligned over the corresponding native 145x118 open bucket.",
+      "prompt": "Use case: precise-object-edit / background-extraction.\nAsset type: ONE SEPARATE LID ONLY, transparent PNG sprite.\nInput image: an orange closed bucket. The previous result mistakenly contained a whole bucket. Correct that now: DELETE THE ENTIRE LOWER ORANGE BUCKET BODY and keep ONLY THE FLAT PEACH-ORANGE LID from the very top. The object must be a thin cap/cover with no container underneath it.\nSubject: a single standalone solid rounded-rectangle plastic lid, seen slightly from above, matching the lid in the source exactly: broad smooth pastel peach-orange top, rounded corners, gentle pale edge highlight and a very shallow darker orange front lip. Its total silhouette should be wide and shallow, width roughly 2.2 times its height. The thin visible edge/lip must be no more than 4 percent of its width. It is one flat top cover, not a tub, tray, bowl or closed storage box.\nColor: smooth peach orange upper face (#FFCC8D) with a slightly stronger orange edge (#FFAF62), matching the orange bucket family.\nComposition: show the complete lid floating alone on transparency, centered with even empty transparent margin around all four sides. No thick walls below the cap; all pixels where the bucket body used to be must be transparent.\nBackground: true alpha transparency. No bucket body, no container, no open cavity, no floor, no shadow, no pedestal, no support object.\nText: none.\nPreserve: the top lid's rounded-rectangular shape, view angle, palette, and simple mobile game shading. Remove every other part of the source."
+    },
+    {
+      "key": "green",
+      "bucketFile": "bucket-green.png",
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-1dd6ddbd-2e69-46ea-8f51-8c0f6f058034.png",
+      "masterFile": "bucket-green-lid-master.png",
+      "exportFile": "bucket-green-lid.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-green-lid.png",
+      "width": 145,
+      "height": 68,
+      "placement": "Top-left aligned over the corresponding native 145x118 open bucket.",
+      "prompt": "Use case: precise-object-edit.\nAsset type: ONE SEPARATE LID ONLY for a mobile-game bucket, transparent PNG.\nInput 1: an orange standalone lid WITHOUT a bucket body. This is the correct type of output and exact reference for the thin cap design.\nInput 2: a lime green closed bucket, used ONLY as a color reference for its top lid. Do NOT include the lower body from this second image.\nPrimary request: make the lime green variant of the standalone lid in input 1. Render ONLY ONE flat solid rounded-rectangle lid by itself, no bucket underneath it. Use the smooth pastel lime green top and thin slightly stronger colored front lip from input 2.\nPalette: top approximately #D4FF9D, edge approximately #A9E960; match input 2's lid colors. Keep lime green and grass green distinct.\nShape: a broad flat squat rounded-rectangle cap, slightly top-down, smooth pastel upper face with pale edge highlight, shallow front lip no thicker than four percent of its width. Outer width-to-height ratio approximately 2.1:1 so it fits its bucket opening. No tall side walls, no vessel, no tray, no rim around a hollow interior. This is a SOLID FLAT TOP COVER.\nComposition: one entire standalone lid, centered with even empty alpha-transparent margin on all sides. The entire area below the thin lid must be transparent; absolutely NO lower bucket body.\nStyle: same simple smooth mobile-game shading as input 1. No knob, latch, clasp, handle, decorations, text, digit, number, logo or watermark.\nBackground: true transparent alpha zero, clean antialiased contour. No floor, ground, cast shadow, glow, particles, other objects or extra lids.\nCritical: preserve ONLY the standalone lid format of input 1. Do not recreate a closed bucket or container."
+    },
+    {
+      "key": "cyan",
+      "bucketFile": "bucket-cyan.png",
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-2e9c4977-435e-4e7d-8708-3314d4a2904d.png",
+      "masterFile": "bucket-cyan-lid-master.png",
+      "exportFile": "bucket-cyan-lid.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-cyan-lid.png",
+      "width": 145,
+      "height": 68,
+      "placement": "Top-left aligned over the corresponding native 145x118 open bucket.",
+      "prompt": "Use case: precise-object-edit.\nAsset type: ONE SEPARATE LID ONLY for a mobile-game bucket, transparent PNG.\nInput 1: an orange standalone lid WITHOUT a bucket body. This is the correct type of output and exact reference for the thin cap design.\nInput 2: a cyan closed bucket, used ONLY as a color reference for its top lid. Do NOT include the lower body from this second image.\nPrimary request: make the cyan variant of the standalone lid in input 1. Render ONLY ONE flat solid rounded-rectangle lid by itself, no bucket underneath it. Use the smooth pastel cyan top and thin slightly stronger colored front lip from input 2.\nPalette: top approximately #A1F4FF, edge approximately #51DDF5; match input 2's lid colors. Keep lime green and grass green distinct.\nShape: a broad flat squat rounded-rectangle cap, slightly top-down, smooth pastel upper face with pale edge highlight, shallow front lip no thicker than four percent of its width. Outer width-to-height ratio approximately 2.1:1 so it fits its bucket opening. No tall side walls, no vessel, no tray, no rim around a hollow interior. This is a SOLID FLAT TOP COVER.\nComposition: one entire standalone lid, centered with even empty alpha-transparent margin on all sides. The entire area below the thin lid must be transparent; absolutely NO lower bucket body.\nStyle: same simple smooth mobile-game shading as input 1. No knob, latch, clasp, handle, decorations, text, digit, number, logo or watermark.\nBackground: true transparent alpha zero, clean antialiased contour. No floor, ground, cast shadow, glow, particles, other objects or extra lids.\nCritical: preserve ONLY the standalone lid format of input 1. Do not recreate a closed bucket or container."
+    },
+    {
+      "key": "purple",
+      "bucketFile": "bucket-purple.png",
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-a4859590-9bd5-4f7b-8256-d71f5ec7a479.png",
+      "masterFile": "bucket-purple-lid-master.png",
+      "exportFile": "bucket-purple-lid.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-purple-lid.png",
+      "width": 145,
+      "height": 68,
+      "placement": "Top-left aligned over the corresponding native 145x118 open bucket.",
+      "prompt": "Use case: precise-object-edit.\nAsset type: ONE SEPARATE LID ONLY for a mobile-game bucket, transparent PNG.\nInput 1: an orange standalone lid WITHOUT a bucket body. This is the correct type of output and exact reference for the thin cap design.\nInput 2: a purple closed bucket, used ONLY as a color reference for its top lid. Do NOT include the lower body from this second image.\nPrimary request: make the purple variant of the standalone lid in input 1. Render ONLY ONE flat solid rounded-rectangle lid by itself, no bucket underneath it. Use the smooth pastel purple top and thin slightly stronger colored front lip from input 2.\nPalette: top approximately #DD8BFA, edge approximately #BB4CEB; match input 2's lid colors. Keep lime green and grass green distinct.\nShape: a broad flat squat rounded-rectangle cap, slightly top-down, smooth pastel upper face with pale edge highlight, shallow front lip no thicker than four percent of its width. Outer width-to-height ratio approximately 2.1:1 so it fits its bucket opening. No tall side walls, no vessel, no tray, no rim around a hollow interior. This is a SOLID FLAT TOP COVER.\nComposition: one entire standalone lid, centered with even empty alpha-transparent margin on all sides. The entire area below the thin lid must be transparent; absolutely NO lower bucket body.\nStyle: same simple smooth mobile-game shading as input 1. No knob, latch, clasp, handle, decorations, text, digit, number, logo or watermark.\nBackground: true transparent alpha zero, clean antialiased contour. No floor, ground, cast shadow, glow, particles, other objects or extra lids.\nCritical: preserve ONLY the standalone lid format of input 1. Do not recreate a closed bucket or container."
+    },
+    {
+      "key": "pink",
+      "bucketFile": "bucket-pink.png",
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-acef0f6f-bc6c-462b-9f63-dafd9feea039.png",
+      "masterFile": "bucket-pink-lid-master.png",
+      "exportFile": "bucket-pink-lid.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-pink-lid.png",
+      "width": 145,
+      "height": 68,
+      "placement": "Top-left aligned over the corresponding native 145x118 open bucket.",
+      "prompt": "Use case: precise-object-edit.\nAsset type: ONE SEPARATE LID ONLY for a mobile-game bucket, transparent PNG.\nInput 1: an orange standalone lid WITHOUT a bucket body. This is the correct type of output and exact reference for the thin cap design.\nInput 2: a pink closed bucket, used ONLY as a color reference for its top lid. Do NOT include the lower body from this second image.\nPrimary request: make the pink variant of the standalone lid in input 1. Render ONLY ONE flat solid rounded-rectangle lid by itself, no bucket underneath it. Use the smooth pastel pink top and thin slightly stronger colored front lip from input 2.\nPalette: top approximately #FF89D6, edge approximately #F865C5; match input 2's lid colors. Keep lime green and grass green distinct.\nShape: a broad flat squat rounded-rectangle cap, slightly top-down, smooth pastel upper face with pale edge highlight, shallow front lip no thicker than four percent of its width. Outer width-to-height ratio approximately 2.1:1 so it fits its bucket opening. No tall side walls, no vessel, no tray, no rim around a hollow interior. This is a SOLID FLAT TOP COVER.\nComposition: one entire standalone lid, centered with even empty alpha-transparent margin on all sides. The entire area below the thin lid must be transparent; absolutely NO lower bucket body.\nStyle: same simple smooth mobile-game shading as input 1. No knob, latch, clasp, handle, decorations, text, digit, number, logo or watermark.\nBackground: true transparent alpha zero, clean antialiased contour. No floor, ground, cast shadow, glow, particles, other objects or extra lids.\nCritical: preserve ONLY the standalone lid format of input 1. Do not recreate a closed bucket or container."
+    },
+    {
+      "key": "red-v2",
+      "bucketFile": "bucket-red-v2.png",
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-7f1bfced-c109-4994-b46b-d21f2f5d4d09.png",
+      "masterFile": "bucket-red-v2-lid-master.png",
+      "exportFile": "bucket-red-v2-lid.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-red-v2-lid.png",
+      "width": 145,
+      "height": 50,
+      "placement": "Top-left aligned over the corresponding native 145x118 open bucket.",
+      "prompt": "Use case: precise-object-edit.\nAsset type: ONE SEPARATE LID ONLY for a mobile-game bucket, transparent PNG.\nInput 1: an orange standalone lid WITHOUT a bucket body. This is the correct type of output and exact reference for the thin cap design.\nInput 2: a coral red closed bucket, used ONLY as a color reference for its top lid. Do NOT include the lower body from this second image.\nPrimary request: make the coral red variant of the standalone lid in input 1. Render ONLY ONE flat solid rounded-rectangle lid by itself, no bucket underneath it. Use the smooth pastel coral red top and thin slightly stronger colored front lip from input 2.\nPalette: top approximately #FF7D74, edge approximately #FF534A; match input 2's lid colors. Keep lime green and grass green distinct.\nShape: a broad flat squat rounded-rectangle cap, slightly top-down, smooth pastel upper face with pale edge highlight, shallow front lip no thicker than four percent of its width. Outer width-to-height ratio approximately 2.7:1 so it fits its bucket opening. No tall side walls, no vessel, no tray, no rim around a hollow interior. This is a SOLID FLAT TOP COVER.\nComposition: one entire standalone lid, centered with even empty alpha-transparent margin on all sides. The entire area below the thin lid must be transparent; absolutely NO lower bucket body.\nStyle: same simple smooth mobile-game shading as input 1. No knob, latch, clasp, handle, decorations, text, digit, number, logo or watermark.\nBackground: true transparent alpha zero, clean antialiased contour. No floor, ground, cast shadow, glow, particles, other objects or extra lids.\nCritical: preserve ONLY the standalone lid format of input 1. Do not recreate a closed bucket or container."
+    },
+    {
+      "key": "yellow-v2",
+      "bucketFile": "bucket-yellow-v2.png",
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-145e230c-12da-49eb-8d59-264471218995.png",
+      "masterFile": "bucket-yellow-v2-lid-master.png",
+      "exportFile": "bucket-yellow-v2-lid.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-yellow-v2-lid.png",
+      "width": 145,
+      "height": 50,
+      "placement": "Top-left aligned over the corresponding native 145x118 open bucket.",
+      "prompt": "Use case: precise-object-edit.\nAsset type: ONE SEPARATE LID ONLY for a mobile-game bucket, transparent PNG.\nInput 1: an orange standalone lid WITHOUT a bucket body. This is the correct type of output and exact reference for the thin cap design.\nInput 2: a lemon yellow closed bucket, used ONLY as a color reference for its top lid. Do NOT include the lower body from this second image.\nPrimary request: make the lemon yellow variant of the standalone lid in input 1. Render ONLY ONE flat solid rounded-rectangle lid by itself, no bucket underneath it. Use the smooth pastel lemon yellow top and thin slightly stronger colored front lip from input 2.\nPalette: top approximately #FFFCA1, edge approximately #FFEF67; match input 2's lid colors. Keep lime green and grass green distinct.\nShape: a broad flat squat rounded-rectangle cap, slightly top-down, smooth pastel upper face with pale edge highlight, shallow front lip no thicker than four percent of its width. Outer width-to-height ratio approximately 2.7:1 so it fits its bucket opening. No tall side walls, no vessel, no tray, no rim around a hollow interior. This is a SOLID FLAT TOP COVER.\nComposition: one entire standalone lid, centered with even empty alpha-transparent margin on all sides. The entire area below the thin lid must be transparent; absolutely NO lower bucket body.\nStyle: same simple smooth mobile-game shading as input 1. No knob, latch, clasp, handle, decorations, text, digit, number, logo or watermark.\nBackground: true transparent alpha zero, clean antialiased contour. No floor, ground, cast shadow, glow, particles, other objects or extra lids.\nCritical: preserve ONLY the standalone lid format of input 1. Do not recreate a closed bucket or container."
+    },
+    {
+      "key": "green-v2",
+      "bucketFile": "bucket-green-v2.png",
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-67cfa3ac-9dfe-4ffd-8d92-7b6ee898af21.png",
+      "masterFile": "bucket-green-v2-lid-master.png",
+      "exportFile": "bucket-green-v2-lid.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-green-v2-lid.png",
+      "width": 145,
+      "height": 50,
+      "placement": "Top-left aligned over the corresponding native 145x118 open bucket.",
+      "prompt": "Use case: precise-object-edit.\nAsset type: ONE SEPARATE LID ONLY for a mobile-game bucket, transparent PNG.\nInput 1: an orange standalone lid WITHOUT a bucket body. This is the correct type of output and exact reference for the thin cap design.\nInput 2: a grass green closed bucket, used ONLY as a color reference for its top lid. Do NOT include the lower body from this second image.\nPrimary request: make the grass green variant of the standalone lid in input 1. Render ONLY ONE flat solid rounded-rectangle lid by itself, no bucket underneath it. Use the smooth pastel grass green top and thin slightly stronger colored front lip from input 2.\nPalette: top approximately #A2E88B, edge approximately #77CF68; match input 2's lid colors. Keep lime green and grass green distinct.\nShape: a broad flat squat rounded-rectangle cap, slightly top-down, smooth pastel upper face with pale edge highlight, shallow front lip no thicker than four percent of its width. Outer width-to-height ratio approximately 2.7:1 so it fits its bucket opening. No tall side walls, no vessel, no tray, no rim around a hollow interior. This is a SOLID FLAT TOP COVER.\nComposition: one entire standalone lid, centered with even empty alpha-transparent margin on all sides. The entire area below the thin lid must be transparent; absolutely NO lower bucket body.\nStyle: same simple smooth mobile-game shading as input 1. No knob, latch, clasp, handle, decorations, text, digit, number, logo or watermark.\nBackground: true transparent alpha zero, clean antialiased contour. No floor, ground, cast shadow, glow, particles, other objects or extra lids.\nCritical: preserve ONLY the standalone lid format of input 1. Do not recreate a closed bucket or container."
+    },
+    {
+      "key": "blue-v2",
+      "bucketFile": "bucket-blue-v2.png",
+      "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-29004ea4-8e20-4b9f-96f5-48a01a11d3d0.png",
+      "masterFile": "bucket-blue-v2-lid-master.png",
+      "exportFile": "bucket-blue-v2-lid.png",
+      "targetFile": "../../../Assets/Image/sdp_mip-cutting-sand-assets/buckets/bucket-blue-v2-lid.png",
+      "width": 145,
+      "height": 50,
+      "placement": "Top-left aligned over the corresponding native 145x118 open bucket.",
+      "prompt": "Use case: precise-object-edit.\nAsset type: ONE SEPARATE LID ONLY for a mobile-game bucket, transparent PNG.\nInput 1: an orange standalone lid WITHOUT a bucket body. This is the correct type of output and exact reference for the thin cap design.\nInput 2: a royal blue closed bucket, used ONLY as a color reference for its top lid. Do NOT include the lower body from this second image.\nPrimary request: make the royal blue variant of the standalone lid in input 1. Render ONLY ONE flat solid rounded-rectangle lid by itself, no bucket underneath it. Use the smooth pastel royal blue top and thin slightly stronger colored front lip from input 2.\nPalette: top approximately #88A7FF, edge approximately #5883EE; match input 2's lid colors. Keep lime green and grass green distinct.\nShape: a broad flat squat rounded-rectangle cap, slightly top-down, smooth pastel upper face with pale edge highlight, shallow front lip no thicker than four percent of its width. Outer width-to-height ratio approximately 2.7:1 so it fits its bucket opening. No tall side walls, no vessel, no tray, no rim around a hollow interior. This is a SOLID FLAT TOP COVER.\nComposition: one entire standalone lid, centered with even empty alpha-transparent margin on all sides. The entire area below the thin lid must be transparent; absolutely NO lower bucket body.\nStyle: same simple smooth mobile-game shading as input 1. No knob, latch, clasp, handle, decorations, text, digit, number, logo or watermark.\nBackground: true transparent alpha zero, clean antialiased contour. No floor, ground, cast shadow, glow, particles, other objects or extra lids.\nCritical: preserve ONLY the standalone lid format of input 1. Do not recreate a closed bucket or container."
+    }
+  ]
+}

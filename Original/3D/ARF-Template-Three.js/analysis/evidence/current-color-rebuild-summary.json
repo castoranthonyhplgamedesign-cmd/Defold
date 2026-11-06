@@ -1,0 +1,13 @@
+{
+  "builtAt": "2026-11-03T04:37:38.995Z",
+  "color": "#FF4242",
+  "outputs": 32,
+  "lengths": [
+    "3clicks",
+    "10clicks",
+    "60seconds",
+    "full"
+  ],
+  "largestHTMLBytes": 3895387,
+  "allPackagesContainCurrentColor": true
+}

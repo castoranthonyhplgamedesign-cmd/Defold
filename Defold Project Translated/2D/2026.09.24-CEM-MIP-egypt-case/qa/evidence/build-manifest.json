@@ -1,0 +1,170 @@
+[
+  {
+    "variant": "2clicks",
+    "network": "applovin",
+    "path": "2clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_al.html",
+    "bytes": 4349056,
+    "sha256": "68d540b375710fcffeb2626d1145d127c6a6f5266d10f9f58ad0b5dd41cf10a5"
+  },
+  {
+    "variant": "2clicks",
+    "network": "google",
+    "path": "2clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_gg.html",
+    "bytes": 4349138,
+    "sha256": "7ac93a67c8b2a9f15592a0e5b1923d06a79c573dda988bc92cb8cf5481243301"
+  },
+  {
+    "variant": "2clicks",
+    "network": "ironsource",
+    "path": "2clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_is.html",
+    "bytes": 4349058,
+    "sha256": "fff5290d294e92cf5790e4a91306b50db9491902159b2f4a2a98fe8e32eace4d"
+  },
+  {
+    "variant": "2clicks",
+    "network": "mintegral",
+    "path": "2clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_mtg.html",
+    "bytes": 4349045,
+    "sha256": "7e10dd864c192f30f29e1a4286b9ac5ecdc083f789cc239e4e60b2116b3ee669"
+  },
+  {
+    "variant": "2clicks",
+    "network": "facebook",
+    "path": "2clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_fb.html",
+    "bytes": 4349024,
+    "sha256": "d37fcec360a10457b7c669dd7dad9d0870975ecba8890ae3defab1c64d657008"
+  },
+  {
+    "variant": "2clicks",
+    "network": "unity",
+    "path": "2clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_un.html",
+    "bytes": 4349053,
+    "sha256": "21ae5753a8a3d5bb5117b5228985c304b678f335ad933feabb7439183e34b2aa"
+  },
+  {
+    "variant": "2clicks",
+    "network": "vungle",
+    "path": "2clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_vu.html",
+    "bytes": 4349062,
+    "sha256": "77375b35c11c1499ce65c63f2ffd28e5022b7aed0fefbe535a7b3bbef39f2264"
+  },
+  {
+    "variant": "2clicks",
+    "network": "moloco",
+    "path": "2clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_2clicks_na_mo.html",
+    "bytes": 4349022,
+    "sha256": "8f0077da84a123dfe92465f831455f5aa4e2e0b303d7a81cd004dfb704cb457e"
+  },
+  {
+    "variant": "4clicks",
+    "network": "applovin",
+    "path": "4clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_al.html",
+    "bytes": 4349056,
+    "sha256": "49fbcb2630c8e0bd1a7a9a3ab72fd6c396f0c27c1c532c9b874dd58e4b04794b"
+  },
+  {
+    "variant": "4clicks",
+    "network": "google",
+    "path": "4clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_gg.html",
+    "bytes": 4349138,
+    "sha256": "f5b7accc243436658f9e3bd71db8665101a8e3addc12c3d3ab36d2a35d4211e7"
+  },
+  {
+    "variant": "4clicks",
+    "network": "ironsource",
+    "path": "4clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_is.html",
+    "bytes": 4349058,
+    "sha256": "91888dd2a75845454be42aa574717a6b9cbb0d5435b9550589b46007933e7f80"
+  },
+  {
+    "variant": "4clicks",
+    "network": "mintegral",
+    "path": "4clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_mtg.html",
+    "bytes": 4349045,
+    "sha256": "6cf6ae0a16c738f1e0c984ec37fb91c31bac3db2b318db6977f4c854dac0b438"
+  },
+  {
+    "variant": "4clicks",
+    "network": "facebook",
+    "path": "4clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_fb.html",
+    "bytes": 4349024,
+    "sha256": "da192252d1346a8a432d98c1bc0ce0792ad3e18ac2e1aaf99a16b563b7b31ff2"
+  },
+  {
+    "variant": "4clicks",
+    "network": "unity",
+    "path": "4clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_un.html",
+    "bytes": 4349053,
+    "sha256": "67275326c311fc630ffacc14068da304e57499128310317eaa5ea62eb64af8a6"
+  },
+  {
+    "variant": "4clicks",
+    "network": "vungle",
+    "path": "4clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_vu.html",
+    "bytes": 4349062,
+    "sha256": "0b30a75393b23a07e24a1585601fb73a0710fad30627fab48fd2551f3e500b0a"
+  },
+  {
+    "variant": "4clicks",
+    "network": "moloco",
+    "path": "4clicks\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_4clicks_na_mo.html",
+    "bytes": 4349022,
+    "sha256": "b0821d0bb5862d28d342e1f3ad9f3921c96135493cd996e1ce63f3fe2422c865"
+  },
+  {
+    "variant": "full",
+    "network": "applovin",
+    "path": "full\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_al.html",
+    "bytes": 4349059,
+    "sha256": "df9743b9ab1660b19bed22500885a8d97996fc57d1150cb7b932c4df5ed9e7e1"
+  },
+  {
+    "variant": "full",
+    "network": "google",
+    "path": "full\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_gg.html",
+    "bytes": 4349141,
+    "sha256": "9ee334f3aa4d8038058c0741c7de5a8cedc38dfe2c65d72aa7997127c75f04b4"
+  },
+  {
+    "variant": "full",
+    "network": "ironsource",
+    "path": "full\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_is.html",
+    "bytes": 4349061,
+    "sha256": "b9b46352cc119e8e3b62782e47736d1d25267c66b60e99e13691c4b66c7f3f76"
+  },
+  {
+    "variant": "full",
+    "network": "mintegral",
+    "path": "full\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_mtg.html",
+    "bytes": 4349048,
+    "sha256": "a3435c469221c211cf00372ca0a930509aa0a0d3fa3638259507b3a013a2475d"
+  },
+  {
+    "variant": "full",
+    "network": "facebook",
+    "path": "full\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_fb.html",
+    "bytes": 4349027,
+    "sha256": "9ad8753c29897ce3bb9f717d385ade40289f2e329d78dac986dee85f76cf1aab"
+  },
+  {
+    "variant": "full",
+    "network": "unity",
+    "path": "full\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_un.html",
+    "bytes": 4349056,
+    "sha256": "2053cd7e6d6006145472429e8b0bf4bd22b339129281446490932034b02308d5"
+  },
+  {
+    "variant": "full",
+    "network": "vungle",
+    "path": "full\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_vu.html",
+    "bytes": 4349065,
+    "sha256": "8d7d685767690df2032cecf7d918c0b5eaa89c391ded8fdb90d983759eded36e"
+  },
+  {
+    "variant": "full",
+    "network": "moloco",
+    "path": "full\\cem_mip_grhpl_egypt_case_real_nougc_noseason_en_full_na_mo.html",
+    "bytes": 4349025,
+    "sha256": "53d01c4560aca6671fe81245761fc11f2e576582c49d7e30abab1d48a7ea51f9"
+  }
+]

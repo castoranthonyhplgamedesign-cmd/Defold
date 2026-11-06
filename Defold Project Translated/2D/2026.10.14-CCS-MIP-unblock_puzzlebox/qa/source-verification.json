@@ -1,0 +1,38 @@
+{
+  "reference_typecheck": {
+    "pass": true,
+    "output": ""
+  },
+  "original_unchanged": {
+    "pass": true,
+    "output": ""
+  },
+  "baseline_commit": {
+    "pass": true,
+    "output": "be16ff7d7afada777f1160be16df37485adac21b"
+  },
+  "asset_checksums": {
+    "pass": true,
+    "count": 146
+  },
+  "original_audio_reused": {
+    "pass": true,
+    "count": 7
+  },
+  "syntax:web/host.js": {
+    "pass": true,
+    "output": ""
+  },
+  "syntax:web/physics.js": {
+    "pass": true,
+    "output": ""
+  },
+  "syntax:scripts/qa.mjs": {
+    "pass": true,
+    "output": ""
+  },
+  "syntax:scripts/viewport_qa.mjs": {
+    "pass": true,
+    "output": ""
+  }
+}

@@ -1,0 +1,33 @@
+  0% Downloading 0 archives
+ 25% Downloading 0 archives
+ 25% Working
+ 25% Reading classes
+2026-11-06 23:55:06 INFO     
+ 44% Reading classes
+ 63% Reading classes
+ 69% Reading classes
+ 69% Cleaning engine
+ 70% Cleaning engine
+ 75% Cleaning engine
+ 75% Reading tasks
+ 77% Building
+2026-11-06 23:55:07 INFO    Creating task builder with a fixed thread pool executor using 10 threads 
+2026-11-06 23:55:07 INFO    Build tasks 
+2026-11-06 23:55:08 INFO    Generating the resource graph 
+2026-11-06 23:55:09 INFO    Generating the resource graph took 0.144000 s 
+2026-11-06 23:55:09 INFO    Creation of the excluded resources list. 
+2026-11-06 23:55:09 INFO    Creation of the excluded resources list took 0.000000 s 
+2026-11-06 23:55:09 INFO    GameProjectBuilder.createArchive 
+2026-11-06 23:55:09 INFO    Creating archive entries with a fixed thread pool executor using 10 threads 
+2026-11-06 23:55:09 INFO    GameProjectBuilder.createArchive took 0.449000 
+2026-11-06 23:55:09 INFO    buildManifestData begin 
+2026-11-06 23:55:09 INFO    ManifestBuilder.buildManifestData took 0.004000 
+2026-11-06 23:55:09 INFO    buildManifestData begin 
+2026-11-06 23:55:09 INFO    ManifestBuilder.buildManifestData took 0.001000 
+2026-11-06 23:55:09 INFO    Writing the resource graph to json 
+2026-11-06 23:55:09 INFO    Writing the resource graph to json took 0.005000 s 
+2026-11-06 23:55:09 INFO    Build tasks took 1.867000 s 
+ 81% Building
+ 81% Bundling
+100% Bundling
+Warning: Failed to clean up temp directory 'C:\Users\ANTHON~1\AppData\Local\Temp\7725516843025964859'

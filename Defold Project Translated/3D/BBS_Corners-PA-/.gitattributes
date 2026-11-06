@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.lua text eol=lf
+*.script text eol=lf
+*.render_script text eol=lf
+*.gui_script text eol=lf
+*.mjs text eol=lf
+*.png binary
+*.wav binary
+*.ttf binary

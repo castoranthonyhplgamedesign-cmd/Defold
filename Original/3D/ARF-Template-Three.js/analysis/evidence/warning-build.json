@@ -1,0 +1,12 @@
+{
+  "reference": "OnWarning.wav",
+  "asset": "src/assets/audio/warning-pulse.mp3",
+  "bytes": 6314,
+  "decodedSeconds": 0.46,
+  "peakDbFS": -8.405809252813631,
+  "rmsDbFS": -15.031957561503543,
+  "runtimeGain": 0.22,
+  "peakAfterRuntimeGainDbFS": -21.557355636369504,
+  "standaloneHTMLBytes": 3892204,
+  "networkPackagesRebuilt": false
+}

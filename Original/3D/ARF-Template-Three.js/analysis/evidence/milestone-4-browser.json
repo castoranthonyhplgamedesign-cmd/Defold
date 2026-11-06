@@ -1,0 +1,59 @@
+{
+  "testedAt": "2026-10-22T07:15:03.296Z",
+  "browser": "153.0.8010.12",
+  "scope": "Current Three preview viewport checks, not untrusted reference",
+  "errors": [],
+  "requests": [
+    "https://preview.invalid/"
+  ],
+  "captures": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "width": 780,
+      "height": 1688,
+      "calls": 47,
+      "triangles": 272607,
+      "canvases": 1,
+      "file": "analysis/screenshots/milestone-4/390x844.png"
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "width": 1688,
+      "height": 780,
+      "calls": 47,
+      "triangles": 272607,
+      "canvases": 1,
+      "file": "analysis/screenshots/milestone-4/844x390.png"
+    },
+    {
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "width": 1536,
+      "height": 2048,
+      "calls": 47,
+      "triangles": 272607,
+      "canvases": 1,
+      "file": "analysis/screenshots/milestone-4/768x1024.png"
+    },
+    {
+      "viewport": {
+        "width": 360,
+        "height": 640
+      },
+      "width": 720,
+      "height": 1280,
+      "calls": 47,
+      "triangles": 272607,
+      "canvases": 1,
+      "file": "analysis/screenshots/milestone-4/360x640.png"
+    }
+  ]
+}

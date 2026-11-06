@@ -1,0 +1,20 @@
+[
+  {
+    "label": "swipe / immediate Falling Sand / no gravity threshold delay",
+    "pass": true,
+    "elapsedMs": 7389,
+    "initialRemaining": 31752,
+    "firstRemaining": 30704,
+    "firstLoose": 1048,
+    "firstCutStarts": 1,
+    "heldSamples": 50,
+    "heldMs": 4670,
+    "lastRemaining": 23814,
+    "finalCutStarts": 2,
+    "maxCutVoices": 2,
+    "removedPct": 0,
+    "funnel": 0,
+    "transport": 0,
+    "stoppedAfterRelease": true
+  }
+]

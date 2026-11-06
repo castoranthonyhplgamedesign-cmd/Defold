@@ -1,0 +1,585 @@
+{
+  "scope": "Read-only current source and both built AppLovin 90seconds variants; hashes validate built payload identity, not reference-video identity.",
+  "generatedAt": "2026-10-29T07:22:42.146Z",
+  "sourceMapping": "scripts/prepare-assets.mjs:92-106",
+  "assets": [
+    {
+      "id": "bgm",
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Relaxing Lo-Fi Audio Extracted.wav",
+      "sourceAudio": {
+        "format": 3,
+        "channels": 2,
+        "sampleRate": 44100,
+        "bits": 32,
+        "duration": 53,
+        "bytes": 18707284,
+        "sha256": "a47b912d8da3658fd974859b281f42f9b3e249cb39a3360b52942c8395ba9f20"
+      },
+      "runtime": "Assets/Runtime/audio/bgm.mp3",
+      "runtimeAudio": {
+        "frames": 2030,
+        "duration": 53.02857142857201,
+        "sampleRate": 44100,
+        "bitrateKbps": 96,
+        "channels": 1,
+        "bytes": 636343,
+        "sha256": "ebe04d9104627696f50a6317b802fa1fd370ce26c3164e8e8a1d70f5868ed1d5"
+      },
+      "volume": 0.8,
+      "loop": true,
+      "rate": 1
+    },
+    {
+      "id": "sfx-conveyor",
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Conveyor Audio Extracted.wav",
+      "sourceAudio": {
+        "format": 3,
+        "channels": 2,
+        "sampleRate": 44100,
+        "bits": 32,
+        "duration": 49.03333333333333,
+        "bytes": 17307772,
+        "sha256": "b7398710e549c6e796e58822f0a8159faa048a53cd12d8f1bc58c633744e94f0"
+      },
+      "runtime": "Assets/Runtime/audio/sfx-conveyor.mp3",
+      "runtimeAudio": {
+        "frames": 1879,
+        "duration": 49.08408163265359,
+        "sampleRate": 44100,
+        "bitrateKbps": 96,
+        "channels": 1,
+        "bytes": 589009,
+        "sha256": "a3697f266a502e38c32dbd266b2bdbda4120ea19ed69845554e7afab9982cf73"
+      },
+      "volume": 0.9,
+      "loop": true,
+      "rate": 1
+    },
+    {
+      "id": "sfx-cut",
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Falling Sand Audio Extracted.wav",
+      "sourceAudio": {
+        "format": 3,
+        "channels": 2,
+        "sampleRate": 44100,
+        "bits": 32,
+        "duration": 2.6166666666666667,
+        "bytes": 931978,
+        "sha256": "2005374d3e2e97fa31586f1e7cc66467b7106c3eb4cb8ba764c3086b24bb950e"
+      },
+      "runtime": "Assets/Runtime/audio/sfx-cut.mp3",
+      "runtimeAudio": {
+        "frames": 102,
+        "duration": 2.664489795918367,
+        "sampleRate": 44100,
+        "bitrateKbps": 96,
+        "channels": 1,
+        "bytes": 31974,
+        "sha256": "9aacf7c817a84b2e31582c7bab5484727619d00729477e9c13fc266a6813ce14"
+      },
+      "volume": 0.8,
+      "loop": true,
+      "rate": 1
+    },
+    {
+      "id": "sfx-sand",
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Source Prop Salt Pour Big Shaker Grains Sand Falling Heavy 01 Audio Extracted.wav",
+      "sourceAudio": {
+        "format": 3,
+        "channels": 2,
+        "sampleRate": 44100,
+        "bits": 32,
+        "duration": 4.233333333333333,
+        "bytes": 1504602,
+        "sha256": "555cd77057b7cbac8ce660a0d9d70b2b8f9311159c530b73290702018a3e9959"
+      },
+      "runtime": "Assets/Runtime/audio/sfx-sand.mp3",
+      "runtimeAudio": {
+        "frames": 164,
+        "duration": 4.2840816326530575,
+        "sampleRate": 44100,
+        "bitrateKbps": 96,
+        "channels": 1,
+        "bytes": 51409,
+        "sha256": "b228868d10cb81a6a2d328ab6f21d6994478fb4cf217c7d622927fd5c4d1f4f2"
+      },
+      "volume": 0.85,
+      "loop": true,
+      "rate": 1
+    },
+    {
+      "id": "sfx-click",
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/click_128kbps Audio Extracted.wav",
+      "sourceAudio": {
+        "format": 3,
+        "channels": 2,
+        "sampleRate": 44100,
+        "bits": 32,
+        "duration": 0.26666666666666666,
+        "bytes": 102890,
+        "sha256": "811add846587d3fbc828d9f9d52e57e4e44df404f4003b39bf3929d5fc128044"
+      },
+      "runtime": "Assets/Runtime/audio/sfx-click.mp3",
+      "runtimeAudio": {
+        "frames": 12,
+        "duration": 0.313469387755102,
+        "sampleRate": 44100,
+        "bitrateKbps": 96,
+        "channels": 1,
+        "bytes": 3762,
+        "sha256": "82f75ba3ab659b02fdfcfe0a27c15b0b842fbe0041202e31c470084639caf67e"
+      },
+      "volume": 0.8,
+      "loop": false,
+      "rate": 1
+    },
+    {
+      "id": "sfx-woosh",
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/StoneSlide01 Audio Extracted.wav",
+      "sourceAudio": {
+        "format": 3,
+        "channels": 1,
+        "sampleRate": 44100,
+        "bits": 32,
+        "duration": 0.8333333333333334,
+        "bytes": 155816,
+        "sha256": "040272103778eccb6248db9cd1cc6748b105d79029b021fbc15b762109770441"
+      },
+      "runtime": "Assets/Runtime/audio/sfx-woosh.mp3",
+      "runtimeAudio": {
+        "frames": 33,
+        "duration": 0.8620408163265302,
+        "sampleRate": 44100,
+        "bitrateKbps": 96,
+        "channels": 1,
+        "bytes": 10345,
+        "sha256": "419d7db9c4dd004e55bb1d0ba145b0c3dd7f87ab57c242d0a6184016708c36e5"
+      },
+      "volume": 0.55,
+      "loop": false,
+      "rate": 1
+    },
+    {
+      "id": "sfx-bells",
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/star Audio Extracted.wav",
+      "sourceAudio": {
+        "format": 3,
+        "channels": 2,
+        "sampleRate": 44100,
+        "bits": 32,
+        "duration": 0.8666666666666667,
+        "bytes": 314570,
+        "sha256": "3a055defc4f271f0cbcbadae051a00f32bd41d24cd8884d2f40cc30d9e6827fd"
+      },
+      "runtime": "Assets/Runtime/audio/sfx-bells.mp3",
+      "runtimeAudio": {
+        "frames": 35,
+        "duration": 0.9142857142857138,
+        "sampleRate": 44100,
+        "bitrateKbps": 96,
+        "channels": 1,
+        "bytes": 10971,
+        "sha256": "e3ff7f9a48c89ea57dec10c88e9521eeaa63cc476b5c806b78cd22551976c61d"
+      },
+      "volume": 0.9,
+      "loop": false,
+      "rate": 1
+    },
+    {
+      "id": "sfx-win",
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/OhmLab_Bubble-Pop Audio Extracted.wav",
+      "sourceAudio": {
+        "format": 3,
+        "channels": 2,
+        "sampleRate": 44100,
+        "bits": 32,
+        "duration": 0.23333333333333334,
+        "bytes": 91300,
+        "sha256": "c8e631bac69316ae1c1c7f4b3cec520f75656231fdf4d3b2fa93a2b2c0eb0eda"
+      },
+      "runtime": "Assets/Runtime/audio/sfx-win.mp3",
+      "runtimeAudio": {
+        "frames": 10,
+        "duration": 0.2612244897959184,
+        "sampleRate": 44100,
+        "bitrateKbps": 96,
+        "channels": 1,
+        "bytes": 3135,
+        "sha256": "9e0e424cb7f82df947d37c00e99e2da721a135fce211fb815c584564253302aa"
+      },
+      "volume": 1,
+      "loop": false,
+      "rate": 1
+    },
+    {
+      "id": "sfx-endcard",
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/bubble-pop Audio Extracted.wav",
+      "sourceAudio": {
+        "format": 3,
+        "channels": 2,
+        "sampleRate": 44100,
+        "bits": 32,
+        "duration": 0.43333333333333335,
+        "bytes": 161696,
+        "sha256": "48ce230f2da75b00e169f444733673438a0ca1bc6d43680a55cf187944b1b2fa"
+      },
+      "runtime": "Assets/Runtime/audio/sfx-endcard.mp3",
+      "runtimeAudio": {
+        "frames": 18,
+        "duration": 0.4702040816326529,
+        "sampleRate": 44100,
+        "bitrateKbps": 96,
+        "channels": 1,
+        "bytes": 5642,
+        "sha256": "78204669d4fddb16d982cc1e405912efd1c3474334b3d9eb225035aa1404718d"
+      },
+      "volume": 1,
+      "loop": false,
+      "rate": 1
+    },
+    {
+      "id": "sfx-cta",
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Digital Click 1 Audio Extracted.wav",
+      "sourceAudio": {
+        "format": 3,
+        "channels": 2,
+        "sampleRate": 44100,
+        "bits": 32,
+        "duration": 0.5333333333333333,
+        "bytes": 197026,
+        "sha256": "c0287f0a516bd2dbf3d2a6139e24656a1935f2fa710a54a96497d0b6d94e50de"
+      },
+      "runtime": "Assets/Runtime/audio/sfx-cta.mp3",
+      "runtimeAudio": {
+        "frames": 22,
+        "duration": 0.5746938775510202,
+        "sampleRate": 44100,
+        "bitrateKbps": 96,
+        "channels": 1,
+        "bytes": 6896,
+        "sha256": "cc77a56618fef15896f988a8ecc0124eff09b2e3f8a8bec3d3644c38d64e6673"
+      },
+      "volume": 0.9,
+      "loop": false,
+      "rate": 1
+    },
+    {
+      "id": "sfx-fail",
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Danger Alarm Audio Extracted.wav",
+      "sourceAudio": {
+        "format": 3,
+        "channels": 2,
+        "sampleRate": 44100,
+        "bits": 32,
+        "duration": 0.6666666666666666,
+        "bytes": 244088,
+        "sha256": "8c0cc6a4e9615b8acbb68ebc5c22f64cccf471cd873e06c841ac127a837e0842"
+      },
+      "runtime": "Assets/Runtime/audio/sfx-fail.mp3",
+      "runtimeAudio": {
+        "frames": 27,
+        "duration": 0.7053061224489793,
+        "sampleRate": 44100,
+        "bitrateKbps": 96,
+        "channels": 1,
+        "bytes": 8464,
+        "sha256": "354d3a358c2584f6844ef3eafebddc497a252c05baab8906c72db8046b450d23"
+      },
+      "volume": 0.4,
+      "loop": false,
+      "rate": 1
+    }
+  ],
+  "built": [
+    {
+      "file": "dist\\cantreach_default\\90seconds\\sdp_mip_grhpl_cantreach_default_real_nougc_noseason_en_90seconds_na_al.html",
+      "bytes": 4258892,
+      "sha256": "bbbe719954895956bf58bfbda93cbb367791defd55106448efdc72c86b776d6e",
+      "mechanic": "tap",
+      "gameLength": {
+        "timeLimit": 90,
+        "clickLimit": 9999
+      },
+      "mute": false,
+      "audioTuning": {
+        "flowHoldMs": 120,
+        "flowFadeInMs": 100,
+        "flowFadeMs": 220,
+        "loopCrossfadeMs": 240,
+        "endcardMusicFadeMs": 500,
+        "endcardSecondPopMs": 233,
+        "maxEffectVoices": 4
+      },
+      "tuningMatchesSource": true,
+      "tracksMatchSource": true,
+      "tracks": [
+        {
+          "id": "bgm",
+          "path": "",
+          "volume": 0.8,
+          "loop": true,
+          "format": "mp3",
+          "uuid": "bgm",
+          "payloadBytes": 636343,
+          "payloadSha256": "ebe04d9104627696f50a6317b802fa1fd370ce26c3164e8e8a1d70f5868ed1d5",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-conveyor",
+          "path": "",
+          "volume": 0.9,
+          "loop": true,
+          "format": "mp3",
+          "uuid": "sfx-conveyor",
+          "payloadBytes": 589009,
+          "payloadSha256": "a3697f266a502e38c32dbd266b2bdbda4120ea19ed69845554e7afab9982cf73",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-cut",
+          "path": "",
+          "volume": 0.8,
+          "loop": true,
+          "format": "mp3",
+          "uuid": "sfx-cut",
+          "payloadBytes": 31974,
+          "payloadSha256": "9aacf7c817a84b2e31582c7bab5484727619d00729477e9c13fc266a6813ce14",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-sand",
+          "path": "",
+          "volume": 0.85,
+          "loop": true,
+          "format": "mp3",
+          "uuid": "sfx-sand",
+          "payloadBytes": 51409,
+          "payloadSha256": "b228868d10cb81a6a2d328ab6f21d6994478fb4cf217c7d622927fd5c4d1f4f2",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-click",
+          "path": "",
+          "volume": 0.8,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-click",
+          "payloadBytes": 3762,
+          "payloadSha256": "82f75ba3ab659b02fdfcfe0a27c15b0b842fbe0041202e31c470084639caf67e",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-woosh",
+          "path": "",
+          "volume": 0.55,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-woosh",
+          "payloadBytes": 10345,
+          "payloadSha256": "419d7db9c4dd004e55bb1d0ba145b0c3dd7f87ab57c242d0a6184016708c36e5",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-bells",
+          "path": "",
+          "volume": 0.9,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-bells",
+          "payloadBytes": 10971,
+          "payloadSha256": "e3ff7f9a48c89ea57dec10c88e9521eeaa63cc476b5c806b78cd22551976c61d",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-win",
+          "path": "",
+          "volume": 1,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-win",
+          "payloadBytes": 3135,
+          "payloadSha256": "9e0e424cb7f82df947d37c00e99e2da721a135fce211fb815c584564253302aa",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-endcard",
+          "path": "",
+          "volume": 1,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-endcard",
+          "payloadBytes": 5642,
+          "payloadSha256": "78204669d4fddb16d982cc1e405912efd1c3474334b3d9eb225035aa1404718d",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-cta",
+          "path": "",
+          "volume": 0.9,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-cta",
+          "payloadBytes": 6896,
+          "payloadSha256": "cc77a56618fef15896f988a8ecc0124eff09b2e3f8a8bec3d3644c38d64e6673",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-fail",
+          "path": "",
+          "volume": 0.4,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-fail",
+          "payloadBytes": 8464,
+          "payloadSha256": "354d3a358c2584f6844ef3eafebddc497a252c05baab8906c72db8046b450d23",
+          "matchesRuntimeBytes": true
+        }
+      ]
+    },
+    {
+      "file": "dist\\cantreach_swipe\\90seconds\\sdp_mip_grhpl_cantreach_swipe_real_nougc_noseason_en_90seconds_na_al.html",
+      "bytes": 4258892,
+      "sha256": "d0636b43c1176f9c3cb882a58965174d52224fa27f9413c319057aef3c34ff90",
+      "mechanic": "cut",
+      "gameLength": {
+        "timeLimit": 90,
+        "clickLimit": 9999
+      },
+      "mute": false,
+      "audioTuning": {
+        "flowHoldMs": 120,
+        "flowFadeInMs": 100,
+        "flowFadeMs": 220,
+        "loopCrossfadeMs": 240,
+        "endcardMusicFadeMs": 500,
+        "endcardSecondPopMs": 233,
+        "maxEffectVoices": 4
+      },
+      "tuningMatchesSource": true,
+      "tracksMatchSource": true,
+      "tracks": [
+        {
+          "id": "bgm",
+          "path": "",
+          "volume": 0.8,
+          "loop": true,
+          "format": "mp3",
+          "uuid": "bgm",
+          "payloadBytes": 636343,
+          "payloadSha256": "ebe04d9104627696f50a6317b802fa1fd370ce26c3164e8e8a1d70f5868ed1d5",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-conveyor",
+          "path": "",
+          "volume": 0.9,
+          "loop": true,
+          "format": "mp3",
+          "uuid": "sfx-conveyor",
+          "payloadBytes": 589009,
+          "payloadSha256": "a3697f266a502e38c32dbd266b2bdbda4120ea19ed69845554e7afab9982cf73",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-cut",
+          "path": "",
+          "volume": 0.8,
+          "loop": true,
+          "format": "mp3",
+          "uuid": "sfx-cut",
+          "payloadBytes": 31974,
+          "payloadSha256": "9aacf7c817a84b2e31582c7bab5484727619d00729477e9c13fc266a6813ce14",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-sand",
+          "path": "",
+          "volume": 0.85,
+          "loop": true,
+          "format": "mp3",
+          "uuid": "sfx-sand",
+          "payloadBytes": 51409,
+          "payloadSha256": "b228868d10cb81a6a2d328ab6f21d6994478fb4cf217c7d622927fd5c4d1f4f2",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-click",
+          "path": "",
+          "volume": 0.8,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-click",
+          "payloadBytes": 3762,
+          "payloadSha256": "82f75ba3ab659b02fdfcfe0a27c15b0b842fbe0041202e31c470084639caf67e",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-woosh",
+          "path": "",
+          "volume": 0.55,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-woosh",
+          "payloadBytes": 10345,
+          "payloadSha256": "419d7db9c4dd004e55bb1d0ba145b0c3dd7f87ab57c242d0a6184016708c36e5",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-bells",
+          "path": "",
+          "volume": 0.9,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-bells",
+          "payloadBytes": 10971,
+          "payloadSha256": "e3ff7f9a48c89ea57dec10c88e9521eeaa63cc476b5c806b78cd22551976c61d",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-win",
+          "path": "",
+          "volume": 1,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-win",
+          "payloadBytes": 3135,
+          "payloadSha256": "9e0e424cb7f82df947d37c00e99e2da721a135fce211fb815c584564253302aa",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-endcard",
+          "path": "",
+          "volume": 1,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-endcard",
+          "payloadBytes": 5642,
+          "payloadSha256": "78204669d4fddb16d982cc1e405912efd1c3474334b3d9eb225035aa1404718d",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-cta",
+          "path": "",
+          "volume": 0.9,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-cta",
+          "payloadBytes": 6896,
+          "payloadSha256": "cc77a56618fef15896f988a8ecc0124eff09b2e3f8a8bec3d3644c38d64e6673",
+          "matchesRuntimeBytes": true
+        },
+        {
+          "id": "sfx-fail",
+          "path": "",
+          "volume": 0.4,
+          "loop": false,
+          "format": "mp3",
+          "uuid": "sfx-fail",
+          "payloadBytes": 8464,
+          "payloadSha256": "354d3a358c2584f6844ef3eafebddc497a252c05baab8906c72db8046b450d23",
+          "matchesRuntimeBytes": true
+        }
+      ]
+    }
+  ]
+}

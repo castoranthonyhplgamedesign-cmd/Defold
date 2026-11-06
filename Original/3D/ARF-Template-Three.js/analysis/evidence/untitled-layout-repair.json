@@ -1,0 +1,718 @@
+{
+  "size": 1,
+  "offsetY": -0.5,
+  "safe": 338,
+  "nodes": 60,
+  "arrows": 59,
+  "blocks": 199,
+  "moves": [
+    {
+      "id": "79a58850-4916-4dbb-ad6b-ae03a82e43f5",
+      "before": [
+        -7,
+        -12
+      ],
+      "after": [
+        -9,
+        -13
+      ],
+      "worldDistance": 1.5206906325745548
+    },
+    {
+      "id": "f0d1234f-3e97-408b-b9f8-43cd588f92fa",
+      "before": [
+        -6,
+        -6
+      ],
+      "after": [
+        -8,
+        -7
+      ],
+      "worldDistance": 0.5
+    },
+    {
+      "id": "fbf6e37b-ef59-49cf-b5b2-c1307900c132",
+      "before": [
+        -8,
+        -4
+      ],
+      "after": [
+        -9,
+        -5
+      ],
+      "worldDistance": 1.118033988749895
+    },
+    {
+      "id": "7b5e6f35-9be9-4e99-8e23-44f577f9298a",
+      "before": [
+        -6,
+        -3
+      ],
+      "after": [
+        -8,
+        -3
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "669aab9f-db3a-4cdf-a6fc-0e00dd1de14b",
+      "before": [
+        -5,
+        -3
+      ],
+      "after": [
+        -6,
+        -3
+      ],
+      "worldDistance": 0.3535533905932738
+    },
+    {
+      "id": "af8bf3c5-90f6-485c-a014-2b472ed754e4",
+      "before": [
+        -8,
+        3
+      ],
+      "after": [
+        -10,
+        4
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "8d047689-6740-44b5-a25b-059f84119067",
+      "before": [
+        -7,
+        0
+      ],
+      "after": [
+        -9,
+        0
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "37881280-1feb-41d6-8543-7362c0e3279c",
+      "before": [
+        -4,
+        -5
+      ],
+      "after": [
+        -5,
+        -6
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "31f50f5d-1214-491d-8219-adad9c23c1c5",
+      "before": [
+        -5,
+        -6
+      ],
+      "after": [
+        -6,
+        -7
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "f7ad03f6-89c2-484f-8f11-a4196168b224",
+      "before": [
+        -3,
+        -7
+      ],
+      "after": [
+        -4,
+        -8
+      ],
+      "worldDistance": 0.3535533905932738
+    },
+    {
+      "id": "aaef8c18-81c9-471f-be6a-03042118eb26",
+      "before": [
+        -3,
+        -8
+      ],
+      "after": [
+        -3,
+        -9
+      ],
+      "worldDistance": 0.9013878188659973
+    },
+    {
+      "id": "523132bd-61f9-4a52-80f7-9d11f6f1dedf",
+      "before": [
+        1,
+        -9
+      ],
+      "after": [
+        1,
+        -10
+      ],
+      "worldDistance": 0.7905694150420949
+    },
+    {
+      "id": "6623d138-8b90-4fbf-adf3-1a3feeb095d8",
+      "before": [
+        4,
+        -7
+      ],
+      "after": [
+        5,
+        -8
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "a8e35e9d-de56-491f-b6c7-3ebb570f1644",
+      "before": [
+        6,
+        -8
+      ],
+      "after": [
+        8,
+        -9
+      ],
+      "worldDistance": 0.7071067811865476
+    },
+    {
+      "id": "137f87fd-21f1-4436-917b-e82693b07c30",
+      "before": [
+        7,
+        -7
+      ],
+      "after": [
+        9,
+        -8
+      ],
+      "worldDistance": 0.3535533905932738
+    },
+    {
+      "id": "52405564-71d5-4ce2-a9cb-cc3d6a3a25e5",
+      "before": [
+        8,
+        -6
+      ],
+      "after": [
+        9,
+        -7
+      ],
+      "worldDistance": 1
+    },
+    {
+      "id": "8ffaf1d2-22df-4feb-ae4d-dbe3a324ad23",
+      "before": [
+        7,
+        -4
+      ],
+      "after": [
+        9,
+        -4
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "bfc36e97-8fc6-47b7-b251-5d174e0b721c",
+      "before": [
+        5,
+        -3
+      ],
+      "after": [
+        6,
+        -3
+      ],
+      "worldDistance": 0.3535533905932738
+    },
+    {
+      "id": "f671622c-929e-453b-bae6-48465f7ef959",
+      "before": [
+        4,
+        -4
+      ],
+      "after": [
+        5,
+        -5
+      ],
+      "worldDistance": 0.5
+    },
+    {
+      "id": "82755747-90a3-42ec-94af-f93ae7d23a14",
+      "before": [
+        3,
+        -6
+      ],
+      "after": [
+        4,
+        -7
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "dd64f974-62d7-48a3-8084-b1934fa856a9",
+      "before": [
+        3,
+        -3
+      ],
+      "after": [
+        4,
+        -3
+      ],
+      "worldDistance": 0.3535533905932738
+    },
+    {
+      "id": "41383945-3148-4206-8156-3b70ccfb3623",
+      "before": [
+        2,
+        -3
+      ],
+      "after": [
+        2,
+        -3
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "c01e05a9-9939-4435-b9f7-8aa92df613cc",
+      "before": [
+        2,
+        -2
+      ],
+      "after": [
+        2,
+        -2
+      ],
+      "worldDistance": 0.5
+    },
+    {
+      "id": "0206b7fb-53c4-4818-9b3b-d833cd11f185",
+      "before": [
+        1,
+        0
+      ],
+      "after": [
+        1,
+        0
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "29698ce7-4588-4b25-8559-d46dfbba87ff",
+      "before": [
+        -1,
+        -8
+      ],
+      "after": [
+        -1,
+        -9
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "70da50d8-ef3e-4f69-85bc-1c778c8359db",
+      "before": [
+        -3,
+        -1
+      ],
+      "after": [
+        -4,
+        -1
+      ],
+      "worldDistance": 0.3535533905932738
+    },
+    {
+      "id": "6b179724-548b-453e-b20e-af3b64089788",
+      "before": [
+        -1,
+        -6
+      ],
+      "after": [
+        -1,
+        -7
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "4dc4a713-4c9e-4c5a-bc2a-bf9dfd721586",
+      "before": [
+        -1,
+        0
+      ],
+      "after": [
+        -1,
+        0
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "ceb6362f-de86-4a4c-aab0-ed218481fdee",
+      "before": [
+        0,
+        -8
+      ],
+      "after": [
+        0,
+        -9
+      ],
+      "worldDistance": 0.5
+    },
+    {
+      "id": "3271b805-08e9-43c3-a38b-289f282b500d",
+      "before": [
+        0,
+        -1
+      ],
+      "after": [
+        0,
+        -1
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "c7239bf8-4a14-49a2-9c2d-739e44b960a6",
+      "before": [
+        2,
+        1
+      ],
+      "after": [
+        2,
+        2
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "0463afcd-03d1-4806-8ac7-9c3a49479a43",
+      "before": [
+        3,
+        0
+      ],
+      "after": [
+        4,
+        0
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "036e363f-145c-4295-81bc-61b665332c0b",
+      "before": [
+        -3,
+        0
+      ],
+      "after": [
+        -4,
+        0
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "f8f442c3-c183-4405-9f95-0812c1e5a124",
+      "before": [
+        -3,
+        2
+      ],
+      "after": [
+        -4,
+        3
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "45535089-3363-4ac3-b992-98c9d56e9b90",
+      "before": [
+        -3,
+        3
+      ],
+      "after": [
+        -4,
+        4
+      ],
+      "worldDistance": 0.3535533905932738
+    },
+    {
+      "id": "610058fd-acc1-40fe-b249-b74166e42b52",
+      "before": [
+        3,
+        2
+      ],
+      "after": [
+        4,
+        3
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "32f32f40-9663-4004-94f4-bb99c070348b",
+      "before": [
+        -2,
+        -6
+      ],
+      "after": [
+        -3,
+        -7
+      ],
+      "worldDistance": 0.5
+    },
+    {
+      "id": "1e3a6ffb-5542-474f-9abd-f04c57bd1070",
+      "before": [
+        -3,
+        -2
+      ],
+      "after": [
+        -4,
+        -2
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "5265bd73-75c4-4256-835a-e9363389b903",
+      "before": [
+        -3,
+        -4
+      ],
+      "after": [
+        -4,
+        -5
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "1caeac30-e016-43da-a29b-5000f46178b8",
+      "before": [
+        6,
+        -1
+      ],
+      "after": [
+        7,
+        -1
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "fdecac77-26ce-4e9f-8020-480c67ff8f5c",
+      "before": [
+        7,
+        0
+      ],
+      "after": [
+        9,
+        0
+      ],
+      "worldDistance": 0.5590169943749475
+    },
+    {
+      "id": "ef873a83-c913-4718-bd0f-b20082ebf1d0",
+      "before": [
+        8,
+        3
+      ],
+      "after": [
+        10,
+        4
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "4a9fcb3c-9667-4960-a279-6201f7e5678a",
+      "before": [
+        -1,
+        3
+      ],
+      "after": [
+        -1,
+        4
+      ],
+      "worldDistance": 0.3535533905932738
+    },
+    {
+      "id": "ae7138b3-0beb-4a21-a126-c02594d14909",
+      "before": [
+        0,
+        2
+      ],
+      "after": [
+        0,
+        3
+      ],
+      "worldDistance": 0
+    },
+    {
+      "id": "28fbaa3a-1135-4bd9-9fe6-a4073acbae3c",
+      "before": [
+        3,
+        3
+      ],
+      "after": [
+        4,
+        4
+      ],
+      "worldDistance": 0.3535533905932738
+    },
+    {
+      "id": "293b331b-71e3-4013-986e-1127a70ed579",
+      "before": [
+        4,
+        3
+      ],
+      "after": [
+        5,
+        4
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "f80d25ed-0600-443c-a56c-a2a334d2b5b6",
+      "before": [
+        4,
+        4
+      ],
+      "after": [
+        5,
+        5
+      ],
+      "worldDistance": 0.5
+    },
+    {
+      "id": "48646bb6-e305-4aed-acc0-8859c5e1ab2a",
+      "before": [
+        2,
+        4
+      ],
+      "after": [
+        2,
+        5
+      ],
+      "worldDistance": 0.7071067811865476
+    },
+    {
+      "id": "07c7b5d5-cfe5-4452-be60-a43fb5a9eb33",
+      "before": [
+        0,
+        5
+      ],
+      "after": [
+        0,
+        7
+      ],
+      "worldDistance": 0.25
+    },
+    {
+      "id": "c90e9396-a936-473f-b7cd-c3be808e0c9c",
+      "before": [
+        4,
+        5
+      ],
+      "after": [
+        4,
+        6
+      ],
+      "worldDistance": 1.25
+    },
+    {
+      "id": "663ecd33-eac3-4c4e-b00b-61668b7740d8",
+      "before": [
+        3,
+        7
+      ],
+      "after": [
+        4,
+        9
+      ],
+      "worldDistance": 0.3535533905932738
+    },
+    {
+      "id": "f05aec2e-8d43-4fdf-9f57-a4606b2aca54",
+      "before": [
+        -3,
+        7
+      ],
+      "after": [
+        -4,
+        9
+      ],
+      "worldDistance": 0.3535533905932738
+    },
+    {
+      "id": "9fc89003-a010-4537-9869-c8527c8fac29",
+      "before": [
+        -2,
+        9
+      ],
+      "after": [
+        -2,
+        11
+      ],
+      "worldDistance": 0.9013878188659973
+    },
+    {
+      "id": "3ea476cf-d2fc-424f-ac5b-fc4ad6f2cad5",
+      "before": [
+        -1,
+        12
+      ],
+      "after": [
+        -1,
+        14
+      ],
+      "worldDistance": 1.5206906325745548
+    },
+    {
+      "id": "f931cbbe-04aa-436f-a774-a719a1beaddc",
+      "before": [
+        2,
+        8
+      ],
+      "after": [
+        2,
+        10
+      ],
+      "worldDistance": 0.7071067811865476
+    },
+    {
+      "id": "77940d37-98b5-4229-bafd-b0f5ec0b6842",
+      "before": [
+        2,
+        12
+      ],
+      "after": [
+        2,
+        14
+      ],
+      "worldDistance": 1.5811388300841898
+    },
+    {
+      "id": "0169922e-6982-4a5a-9485-648ca1915e19",
+      "before": [
+        2,
+        11
+      ],
+      "after": [
+        2,
+        13
+      ],
+      "worldDistance": 1.346291201783626
+    },
+    {
+      "id": "c2f5a393-746d-461c-8873-50565d4c30eb",
+      "before": [
+        -4,
+        5
+      ],
+      "after": [
+        -4,
+        6
+      ],
+      "worldDistance": 1.25
+    },
+    {
+      "id": "7db6ccce-3c41-4ae1-b7ed-90b8383ef6c5",
+      "before": [
+        -3,
+        4
+      ],
+      "after": [
+        -4,
+        5
+      ],
+      "worldDistance": 0.5590169943749475
+    }
+  ]
+}

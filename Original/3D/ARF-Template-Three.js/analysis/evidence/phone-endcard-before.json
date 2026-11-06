@@ -1,0 +1,156 @@
+{
+  "testedAt": "2026-10-29T16:32:23.747Z",
+  "browser": "156.0.8078.49",
+  "fixture": "Real modules; remaining time shortened to 0.2 seconds after verifying start, idle hint and pause. Store window stubbed; no external request.",
+  "checks": [
+    "blocked tap does not start",
+    "accepted tap hides hint",
+    "5-second idle hint",
+    "hidden time pauses",
+    "timeout endcard",
+    "static logo and no idle 3D draws",
+    "board locked",
+    "14 viewport bounds and centering",
+    "tablet portrait-height proportions match landscape; phone pixel sizes unchanged",
+    "full-screen corners and title CTA in 14 viewports",
+    "repeated touch taps remain enabled",
+    "one redirect per click including logo",
+    "logo click CTA",
+    "keyboard CTA",
+    "known loading host does not fall back"
+  ],
+  "logoSizes": [
+    {
+      "width": 320,
+      "height": 568,
+      "logoWidth": 177.77777862548828,
+      "logoHeight": 177.77777099609375,
+      "titleWidth": 133.33332061767578,
+      "stackHeightRatio": 0.46708724868129675
+    },
+    {
+      "width": 568,
+      "height": 320,
+      "logoWidth": 177.77777099609375,
+      "logoHeight": 177.77777099609375,
+      "titleWidth": 133.33331298828125,
+      "stackHeightRatio": 0.8290798664093018
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "logoWidth": 200,
+      "logoHeight": 200,
+      "titleWidth": 150,
+      "stackHeightRatio": 0.466357421875
+    },
+    {
+      "width": 640,
+      "height": 360,
+      "logoWidth": 200,
+      "logoHeight": 200,
+      "titleWidth": 150,
+      "stackHeightRatio": 0.8290798611111111
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "logoWidth": 216.66667938232422,
+      "logoHeight": 216.66668701171875,
+      "titleWidth": 162.5,
+      "stackHeightRatio": 0.38310567123630035
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "logoWidth": 216.66665649414062,
+      "logoHeight": 216.66668701171875,
+      "titleWidth": 162.5,
+      "stackHeightRatio": 0.8290799263196114
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "logoWidth": 238.88890075683594,
+      "logoHeight": 238.888916015625,
+      "titleWidth": 179.16664123535156,
+      "stackHeightRatio": 0.38251541203183675
+    },
+    {
+      "width": 932,
+      "height": 430,
+      "logoWidth": 238.888916015625,
+      "logoHeight": 238.88888549804688,
+      "titleWidth": 179.1666259765625,
+      "stackHeightRatio": 0.8290798453397529
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "logoWidth": 426.6667175292969,
+      "logoHeight": 426.66668701171875,
+      "titleWidth": 320.00001525878906,
+      "stackHeightRatio": 0.6218099296092987
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "logoWidth": 320,
+      "logoHeight": 320.0000305175781,
+      "titleWidth": 240,
+      "stackHeightRatio": 0.6218099395434061
+    },
+    {
+      "width": 820,
+      "height": 1180,
+      "logoWidth": 455.5555419921875,
+      "logoHeight": 455.5555419921875,
+      "titleWidth": 341.66664123535156,
+      "stackHeightRatio": 0.5761402194782839
+    },
+    {
+      "width": 1180,
+      "height": 820,
+      "logoWidth": 316.572509765625,
+      "logoHeight": 316.5725402832031,
+      "titleWidth": 237.42935180664062,
+      "stackHeightRatio": 0.576140278141673
+    },
+    {
+      "width": 1024,
+      "height": 1366,
+      "logoWidth": 568.888916015625,
+      "logoHeight": 568.888916015625,
+      "titleWidth": 426.6667175292969,
+      "stackHeightRatio": 0.6215064298705161
+    },
+    {
+      "width": 1366,
+      "height": 1024,
+      "logoWidth": 426.45849609375,
+      "logoHeight": 426.45843505859375,
+      "titleWidth": 319.8438720703125,
+      "stackHeightRatio": 0.6215064525604248
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "https://fixture.invalid/"
+  ],
+  "captures": [
+    "analysis/screenshots/milestone-4/endcard-320x568.png",
+    "analysis/screenshots/milestone-4/endcard-568x320.png",
+    "analysis/screenshots/milestone-4/endcard-360x640.png",
+    "analysis/screenshots/milestone-4/endcard-640x360.png",
+    "analysis/screenshots/milestone-4/endcard-390x844.png",
+    "analysis/screenshots/milestone-4/endcard-844x390.png",
+    "analysis/screenshots/milestone-4/endcard-430x932.png",
+    "analysis/screenshots/milestone-4/endcard-932x430.png",
+    "analysis/screenshots/milestone-4/endcard-768x1024.png",
+    "analysis/screenshots/milestone-4/endcard-1024x768.png",
+    "analysis/screenshots/milestone-4/endcard-820x1180.png",
+    "analysis/screenshots/milestone-4/endcard-1180x820.png",
+    "analysis/screenshots/milestone-4/endcard-1024x1366.png",
+    "analysis/screenshots/milestone-4/endcard-1366x1024.png"
+  ]
+}

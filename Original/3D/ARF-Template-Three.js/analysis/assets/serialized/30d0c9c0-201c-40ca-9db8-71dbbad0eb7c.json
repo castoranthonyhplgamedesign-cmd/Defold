@@ -1,0 +1,10 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.TTFFont",
+      "_name": "LilitaOne-Regular",
+      "_native": "LilitaOne-Regular.ttf"
+    }
+  ]
+}

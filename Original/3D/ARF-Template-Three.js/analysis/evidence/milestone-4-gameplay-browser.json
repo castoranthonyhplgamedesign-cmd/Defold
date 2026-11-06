@@ -1,0 +1,34 @@
+{
+  "testedAt": "2026-10-22T10:44:48.460Z",
+  "browser": "153.0.8010.12",
+  "outcomes": [
+    {
+      "input": "native mouse pointer",
+      "blockedNudgeAndReturn": true,
+      "blockedCueAfterReleaseMs": 40,
+      "blockedCueCount": 1,
+      "launchAndMotion": true,
+      "ammo26To20": true,
+      "unmatchedBlocksCirculate": true,
+      "rapidLaunchCapture": true,
+      "rotation": true,
+      "contextRestoreEvent": true,
+      "inputOwnership": true
+    },
+    {
+      "input": "native touch emulation",
+      "blockedNudgeAndReturn": true,
+      "blockedCueAfterReleaseMs": 40,
+      "blockedCueCount": 1,
+      "launchAndMotion": true,
+      "ammo26To20": true,
+      "unmatchedBlocksCirculate": true,
+      "rapidLaunchCapture": true,
+      "rotation": true,
+      "contextRestoreEvent": true,
+      "inputOwnership": true
+    }
+  ],
+  "errors": [],
+  "limits": "Pixel changes confirm visible response/motion, not exact reference timing. Touch emulation is not physical iOS."
+}

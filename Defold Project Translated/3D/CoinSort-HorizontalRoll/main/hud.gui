@@ -1,0 +1,6 @@
+script: "/main/hud.gui_script"
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_DISABLED
+max_nodes: 64
+textures { name: "ui" texture: "/assets/ui.atlas" }
+fonts { name: "tutorial" font: "/assets/tutorial.font" }

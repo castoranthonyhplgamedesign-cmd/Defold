@@ -1,0 +1,12 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+globalThis.window={};
+(0,eval)(readFileSync('web/physics.bundle.js','utf8'));
+const g=JSON.parse(readFileSync('docs/source-constants.json','utf8')).GAME;
+const baseline=JSON.parse(readFileSync('qa/reference-settled.json','utf8'));
+const candidate=JSON.parse(window.PuzzlePhysics.prepare(g));
+writeFileSync('qa/candidate-pre.json',JSON.stringify(window.PuzzlePhysics.pre,null,2));
+writeFileSync('qa/candidate-steps.json',JSON.stringify(window.PuzzlePhysics.steps,null,2));
+const distances=baseline.balls.map((b,i)=>Math.hypot(b.x-candidate.balls[i].x,b.y-candidate.balls[i].y));
+const report={maxDistance:Math.max(...distances),meanDistance:distances.reduce((a,b)=>a+b,0)/distances.length,colorMatches:baseline.balls.filter((b,i)=>JSON.stringify(b.rings)===JSON.stringify(candidate.balls[i].rings)).length,count:baseline.balls.length,giftDistance:Math.hypot(baseline.gift.x-candidate.gift.x,baseline.gift.y-candidate.gift.y)};
+writeFileSync('qa/solver-parity.json',JSON.stringify(report,null,2));writeFileSync('qa/solver-candidate.json',JSON.stringify(candidate,null,2));console.log(JSON.stringify(report));
+if(report.maxDistance>1e-6||report.colorMatches!==report.count)process.exitCode=1;

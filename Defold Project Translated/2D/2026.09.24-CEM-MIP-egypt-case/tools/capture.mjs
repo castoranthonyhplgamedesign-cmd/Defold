@@ -1,0 +1,15 @@
+import { chromium } from 'playwright';
+import fs from 'node:fs/promises';
+const browser=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true,args:['--mute-audio','--use-angle=swiftshader','--enable-unsafe-swiftshader']});
+const page=await browser.newPage({viewport:{width:390,height:844},deviceScaleFactor:1});
+const logs=[];page.on('console',m=>{logs.push(m.type()+': '+m.text());if(/ERROR|Analytics/.test(m.text()))console.log(m.text());});page.on('pageerror',e=>{logs.push('ERROR: '+e);console.log(e);});
+await page.addInitScript(()=>{window.open=(...args)=>{(window.__redirects ??=[]).push(args);};});
+await page.goto(process.argv[2] || 'http://127.0.0.1:8173/',{waitUntil:'domcontentloaded',timeout:120000});
+if ((process.argv[2] || '').includes(':8174')) await page.waitForFunction(()=>window.__EGYPT_STATE__,{},{timeout:45000}).catch(()=>{});
+else await page.waitForTimeout(5000);
+await page.screenshot({path:'qa/evidence/'+(process.argv[3] || 'reference-opening')+'.png'});
+await page.mouse.click(5,5,{delay:80});await page.waitForTimeout(400);
+await page.screenshot({path:'qa/evidence/'+(process.argv[3] || 'reference')+'-gameplay.png'});
+console.log(JSON.stringify({logs,state:await page.evaluate(()=>window.__EGYPT_STATE__),canvas:await page.locator('canvas').evaluateAll(ns=>ns.map(n=>({width:n.width,height:n.height,rect:n.getBoundingClientRect().toJSON()})))},null,2));
+await fs.writeFile('qa/evidence/'+(process.argv[3] || 'reference')+'-console.json',JSON.stringify(logs,null,2));
+await browser.close();

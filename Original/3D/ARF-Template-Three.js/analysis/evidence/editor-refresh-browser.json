@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-27T02:08:05.380Z",
+  "result": "pass",
+  "errors": [],
+  "viewports": [
+    [
+      1440,
+      900
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      360,
+      640
+    ]
+  ],
+  "checks": [
+    "no horizontal overflow",
+    "toolbar buttons within viewport",
+    "selected arrow retains thin shaft",
+    "three inspector modes captured"
+  ]
+}

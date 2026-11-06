@@ -1,0 +1,156 @@
+[
+  {
+    "idle": 0,
+    "arrow": 51,
+    "times": [
+      {
+        "joined": 0.2417,
+        "removed": 0.3083
+      },
+      {
+        "joined": 0.35,
+        "removed": 0.4167
+      },
+      {
+        "joined": 0.4583,
+        "removed": 0.525
+      },
+      {
+        "joined": 0.5583,
+        "removed": 0.625
+      }
+    ]
+  },
+  {
+    "idle": 0.25,
+    "arrow": 51,
+    "times": [
+      {
+        "joined": 0.2917,
+        "removed": 0.3583
+      },
+      {
+        "joined": 0.4,
+        "removed": 0.4667
+      },
+      {
+        "joined": 0.5083,
+        "removed": 0.575
+      },
+      {
+        "joined": 0.6083,
+        "removed": 0.675
+      }
+    ]
+  },
+  {
+    "idle": 0.5,
+    "arrow": 51,
+    "times": [
+      {
+        "joined": 0.2417,
+        "removed": 0.3083
+      },
+      {
+        "joined": 0.35,
+        "removed": 0.4167
+      },
+      {
+        "joined": 0.4583,
+        "removed": 0.525
+      },
+      {
+        "joined": 0.5583,
+        "removed": 0.625
+      }
+    ]
+  },
+  {
+    "idle": 1,
+    "arrow": 51,
+    "times": [
+      {
+        "joined": 0.2417,
+        "removed": 0.3083
+      },
+      {
+        "joined": 0.35,
+        "removed": 0.4167
+      },
+      {
+        "joined": 0.4583,
+        "removed": 0.525
+      },
+      {
+        "joined": 0.5583,
+        "removed": 0.625
+      }
+    ]
+  },
+  {
+    "idle": 2,
+    "arrow": 51,
+    "times": [
+      {
+        "joined": 0.2417,
+        "removed": 0.3083
+      },
+      {
+        "joined": 0.35,
+        "removed": 0.4167
+      },
+      {
+        "joined": 0.4583,
+        "removed": 0.525
+      },
+      {
+        "joined": 0.5583,
+        "removed": 0.625
+      }
+    ]
+  },
+  {
+    "idle": 3,
+    "arrow": 51,
+    "times": [
+      {
+        "joined": 0.2417,
+        "removed": 0.3083
+      },
+      {
+        "joined": 0.35,
+        "removed": 0.4167
+      },
+      {
+        "joined": 0.4583,
+        "removed": 0.525
+      },
+      {
+        "joined": 0.5583,
+        "removed": 0.625
+      }
+    ]
+  },
+  {
+    "idle": 5,
+    "arrow": 51,
+    "times": [
+      {
+        "joined": 0.3,
+        "removed": 0.3667
+      },
+      {
+        "joined": 0.4083,
+        "removed": 0.475
+      },
+      {
+        "joined": 0.5167,
+        "removed": 0.5833
+      },
+      {
+        "joined": 0.6167,
+        "removed": 0.6833
+      }
+    ]
+  }
+]

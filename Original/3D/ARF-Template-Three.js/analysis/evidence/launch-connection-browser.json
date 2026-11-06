@@ -1,0 +1,26 @@
+{
+  "checkedAt": "2026-10-27T11:01:34.818Z",
+  "result": "pass",
+  "errors": [],
+  "external": [],
+  "measurements": [
+    {
+      "size": 0.5,
+      "maxBoardGapInCells": 1.0400000000000418
+    },
+    {
+      "size": 1,
+      "maxBoardGapInCells": 1.040000000000017
+    },
+    {
+      "size": 1.5,
+      "maxBoardGapInCells": 1.040000000000011
+    }
+  ],
+  "checks": [
+    "native click on scaled arrow",
+    "timestamped eased launch frame sequences",
+    "six-block bent arrow reaches belt and clears at each grid size",
+    "head and body links stay within 1.04 cells during pre-belt travel"
+  ]
+}

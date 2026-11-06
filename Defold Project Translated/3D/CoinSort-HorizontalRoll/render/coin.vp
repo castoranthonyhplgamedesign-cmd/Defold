@@ -1,0 +1,109 @@
+#version 140
+in vec4 position;
+in vec3 normal;
+in vec2 texcoord0;
+in vec4 coin;
+out vec2 var_uv;
+out vec3 var_normal;
+out vec3 var_tint;
+out float var_alpha;
+out float var_unlit;
+out vec4 var_shadow;
+
+uniform vs_uniforms {
+    vec4 shape;
+    vec4 band;
+    vec4 roll;
+    vec4 lanes[12];
+    vec4 camera;
+    vec4 viewport;
+    vec4 clock;
+    vec4 jar;
+    mat4 light_view_proj;
+};
+
+const float PI=3.141592653589793;
+float clamp01(float x){return clamp(x,0.0,1.0);}
+vec3 rx(vec3 p,float a){float c=cos(a),s=sin(a);return vec3(p.x,c*p.y-s*p.z,s*p.y+c*p.z);}
+vec3 ry(vec3 p,float a){float c=cos(a),s=sin(a);return vec3(c*p.x+s*p.z,p.y,-s*p.x+c*p.z);}
+vec3 rz(vec3 p,float a){float c=cos(a),s=sin(a);return vec3(c*p.x-s*p.y,s*p.x+c*p.y,p.z);}
+
+// Match JarMeter's integer hash and coprime slot shuffle.
+float stable(int seed){uint v=uint(seed)^uint(2654435769u);v*=uint(2246822507u);v^=v>>13;v*=uint(3266489909u);v^=v>>16;return float(v)/4294967295.0;}
+int gcd(int a,int b){for(int i=0;i<16;i++){if(b==0)break;int n=a%b;a=b;b=n;}return a;}
+float signedHash(int seed,float amount){return (stable(seed)*2.0-1.0)*amount;}
+
+void main(){
+    int lane=int(coin.x+0.5);
+    vec4 info=lanes[lane];
+    float stack=coin.y;
+    float angle=(coin.x+roll.x+0.5)/band.y*2.0*PI-PI/2.0;
+    float spin=(-30.0+(roll.x-roll.y)*360.0/band.y)*PI/180.0;
+    float screenSpin=0.0;
+    vec2 center=shape.xy+vec2(cos(angle)*shape.w+(stack-(band.x-1.0)*0.5)*11.0,sin(angle)*shape.z);
+    float front=(-cos(angle)+1.0)*0.5;
+    if(band.y<7.0)front=0.5+(front-0.5)*(shape.w/46.8)*0.64;
+    float depth=3.0+band.z*0.01+front*0.45+stack*0.0001;
+    float size=1.0;
+    float alpha=1.0;
+    float order=(band.w-1.0-band.z)*band.x+(band.x-1.0-stack);
+    float elapsed=clock.x-info.y-order*0.042;
+    bool cleared=info.y>=0.0;
+    bool flightPass=clock.y>0.5;
+    bool visible=stack<band.x&&coin.x<band.y;
+    float serial=info.z+order*floor(fract(info.w)*100.0+0.5);
+    float displayLane=floor(info.w+0.001);
+    if(!flightPass){
+        if(cleared&&elapsed>=0.0){
+            center.x+=(34.0+mod(order,band.x)*1.2)*sin(clamp01(elapsed/0.13)*PI/2.0)/camera.z;
+            alpha=1.0-clamp01((elapsed-0.13)/0.09);
+            if(elapsed>=0.22)visible=false;
+        }
+    }else{
+        visible=visible&&cleared&&elapsed>=0.13;
+        if(elapsed<0.56){
+            float t=clamp01((elapsed-0.13)/0.43);
+            float p=t*t*t;
+            center.x+=(34.0+mod(order,band.x)*1.2)/camera.z;
+            vec2 target=jar.xy+vec2((mod(serial,7.0)-3.0)*(58.0/7.0)/camera.z,-60.0+(mod(floor(serial/7.0),3.0)-1.0)*24.0/camera.z);
+            center=mix(center,target,p);
+            size=max(0.001,cos(clamp01((p-(1.0-0.12/0.43))/(0.12/0.43))*PI/2.0));
+            spin+=420.0*p*PI/180.0;
+            depth=displayLane>=6.0?21.65+stack*0.0001:1.1+stack*0.0001;
+        }else{
+            int seed=int(serial+0.5);
+            float index=serial-clock.z;
+            int row=int(floor(index/30.0));
+            int slot=int(mod(index,30.0));
+            int step=max(1,int(floor(stable(row*769+53)*29.0))+1);
+            for(int i=0;i<30;i++){if(gcd(step,30)==1)break;step=step%30+1;}
+            int shuffle=(int(floor(stable(row*431+17)*30.0))+slot*step)%30;
+            float fx=clamp(-60.5+float(shuffle)*121.0/29.0+signedHash(row*977+31,8.0)+signedHash(seed*233+11,8.0),-60.5,60.5);
+            float fy=50.0-float(row)*11.0+signedHash(seed*283+19,3.0);
+            vec2 mouth=vec2(signedHash(seed*337+23,16.0),-60.0);
+            float t=clamp01((elapsed-0.56)/0.26);
+            center=jar.xy+mix(mouth,vec2(fx,fy),t*t);
+            size=50.0/60.0;
+            float rotation=218.0+26.0*floor(stable(seed*191+7)*6.0);
+            spin=(-30.0+rotation)*PI/180.0;
+            screenSpin=rotation*PI/180.0;
+            depth=21.58+index*0.0001;
+            visible=visible&&jar.z>0.5&&index>=0.0;
+        }
+    }
+    vec3 local=rz(ry(rx(position.xyz*size,spin),-PI/6.0),screenSpin);
+    var_normal=normalize(rz(ry(rx(normal,spin),-PI/6.0),screenSpin));
+    vec2 screen=(vec2(540.0,960.0)+(center-camera.xy+local.xy)*camera.z)*viewport.z+(viewport.xy-vec2(1080.0,1920.0)*viewport.z)*0.5;
+    float worldZ=depth*400.0+local.z*camera.z*viewport.z;
+    gl_Position=vec4(screen.x/viewport.x*2.0-1.0,1.0-screen.y/viewport.y*2.0,-worldZ/9999.95-0.000005,1.0);
+    vec3 world=vec3(screen,depth*400.0+local.z*camera.z*viewport.z);
+    var_shadow=light_view_proj*vec4(world+var_normal*0.02,1.0);
+    if(clock.w>0.5)gl_Position=light_view_proj*vec4(world,1.0);
+    if(!visible)gl_Position=vec4(2.0,2.0,2.0,1.0);
+    float tile=info.x;
+    var_uv=vec2((mod(tile,3.0)+texcoord0.x)*0.25,(floor(tile/3.0)+texcoord0.y)*0.5);
+    var_tint=mix(vec3(1.0),vec3(0.008023,0.01096,0.01764),roll.z);
+    // The original coin material stays opaque until its alpha visibility cutoff.
+    var_alpha=alpha>0.001?1.0:0.0;
+    var_unlit=roll.w;
+}

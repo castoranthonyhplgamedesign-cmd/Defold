@@ -1,0 +1,79 @@
+taps during pour
+burst ×5
+swipe hint (157, 789) → (273, 789)
+swipe hint (294, 789) → (444, 789)
+burst ×7
+random swipe (4 points)
+swipe below the picture
+swipe from outside
+hidden (state play)
+swipe hint (465, 789) → (615, 789)
+swipe hint (636, 789) → (786, 789)
+swipe hint (817, 789) → (923, 789)
+swipe hint (709, 704) → (859, 704)
+swipe below the picture
+rotate mid-swipe → 915×412@2.625
+swipe across a rotation
+swipe from outside
+random swipe (4 points)
+swipe hint (363, 704) → (513, 704)
+MRAID volume change
+MRAID exposure 0 (state play)
+swipe below the picture
+MRAID volume change
+resize → 320×568@2
+swipe below the picture
+swipe hint (157, 704) → (259, 704)
+wait 456
+random swipe (2 points)
+swipe hint (826, 704) → (923, 704)
+swipe hint (606, 704) → (756, 704)
+MRAID volume change
+rotate → 568×320@2
+wait 579
+burst ×5
+resize → 390×844@3
+swipe from outside
+wait 148
+swipe hint (261, 704) → (411, 704)
+tap picture (cut: counts, cuts nothing)
+random swipe (3 points)
+random swipe (3 points)
+swipe from outside
+resize → 1280×720@1
+rotate → 720×1280@1
+burst ×5
+resize → 1024×768@1
+rotate → 768×1024@1
+random swipe (3 points)
+wait 512
+rotate mid-swipe → 1024×768@1
+swipe across a rotation
+tap picture (cut: counts, cuts nothing)
+rotate mid-swipe → 768×1024@1
+swipe across a rotation
+swipe hint (157, 191) → (273, 191)
+tap picture (cut: counts, cuts nothing)
+tap picture (cut: counts, cuts nothing)
+wait 155
+random swipe (3 points)
+two-finger tap
+wait 388
+swipe hint (465, 191) → (615, 191)
+hidden (state play)
+wait 386
+swipe from outside
+MRAID volume change
+random swipe (4 points)
+MRAID exposure 0 (state play)
+swipe hint (636, 191) → (786, 191)
+random swipe (4 points)
+swipe below the picture
+burst ×6
+swipe from outside
+swipe below the picture
+random swipe (3 points)
+rotate mid-swipe → 1024×768@1
+swipe across a rotation
+rotate on end card → 768×1024@1
+rotate on end card → 1024×768@1

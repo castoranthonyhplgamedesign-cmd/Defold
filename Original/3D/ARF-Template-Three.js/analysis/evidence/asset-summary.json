@@ -1,0 +1,24 @@
+{
+  "cataloguedAssets": 109,
+  "cataloguedRepresentationBytes": 6580284,
+  "nativeFiles": 29,
+  "nativeBytes": 3686789,
+  "types": {
+    "cc.SceneAsset": 1,
+    "cc.Prefab": 9,
+    "mesh buffer": 10,
+    "audio": 5,
+    "cc.Material": 32,
+    "font": 1,
+    "cc.SpriteFrame": 8,
+    "cc.EffectAsset": 17,
+    "cc.PhysicsMaterial": 1,
+    "texture": 11,
+    "animation": 1,
+    "shader cache": 1,
+    "cc.Texture2D": 11,
+    "cc.RenderPipeline": 1
+  },
+  "exportedFiles": 206,
+  "exportedBytes": 7613592
+}

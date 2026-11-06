@@ -1,0 +1,10 @@
+{
+  "command": [
+    "D:\\allproject\\defold\\.tools\\libexec\\x86_64-win32\\luajit-64.exe",
+    "qa/board_test.lua"
+  ],
+  "test_sha256": "da9a61d82f150eb9f5c02776b6a0e4220e29d565d6782d332fed40e1c2e2ad0b",
+  "exit_code": 0,
+  "stdout": "PASS: 63 slots, 56 bricks, 9 exits; occupancy, collision, bounds, idempotence, full-clear route (508 moves).\n",
+  "stderr": ""
+}

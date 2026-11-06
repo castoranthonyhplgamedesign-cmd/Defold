@@ -1,0 +1,29 @@
+[project]
+title = Sand Slice
+version = 1.0
+custom_resources = /assets/data,/assets/images/sand-picture-hd.png
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /main/game.renderc
+[display]
+width = 540
+height = 960
+dynamic_orientation = 1
+high_dpi = 1
+vsync = 1
+[input]
+game_binding = /main/input.input_bindingc
+[html5]
+htmlfile = /web/template.html
+scale_mode = 2
+show_fullscreen_button = 0
+show_made_with_defold = 0
+heap_size = 256
+[resource]
+max_resources = 2048
+[gui]
+max_texture_count = 64
+max_count = 4
+[graphics]
+texture_min_filter = linear
+texture_mag_filter = linear

@@ -1,0 +1,22 @@
+{
+  "checkedAt": "2026-10-27T10:28:41.172Z",
+  "result": "pass",
+  "errors": [],
+  "checks": [
+    "dedicated three-step UI",
+    "blank draft and presets",
+    "undo/redo",
+    "corner drag and insertion",
+    "concave outline drawing and cancellation",
+    "tail-to-tip draw, cancel and move",
+    "color and facing edits",
+    "click-to-place and drag cannon",
+    "queue forms and reorder/delete",
+    "invalid ammo preserves state",
+    "export round-trip",
+    "reload and bad import preservation",
+    "embedded preview handshake and successful native click clear",
+    "close preview preserves editor",
+    "narrow layout without horizontal overflow"
+  ]
+}

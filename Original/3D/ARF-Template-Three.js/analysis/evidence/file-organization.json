@@ -1,0 +1,157 @@
+[
+    {
+        "from":  "overload-level.arrow-flow.json",
+        "to":  "levels/overload-level.arrow-flow.json",
+        "sha256":  "47806428B072F17ED29DDBCBC855B9FF138A85AA0F6BB449E3116497D38B0E50"
+    },
+    {
+        "from":  "conveyor_overload_v2.arrow-flow.json",
+        "to":  "levels/conveyor_overload_v2.arrow-flow.json",
+        "sha256":  "B113D0F909107352B7A43E421DE5DDBFA541E594E2FE86FA38794748756E13CB"
+    },
+    {
+        "from":  "untitled-level.arrow-flow.json",
+        "to":  "levels/untitled-level.arrow-flow.json",
+        "sha256":  "58A6D8793F015452353A39D863A517CB9ABA56D02F967D4D6C9F101C4C9729E3"
+    },
+    {
+        "from":  "untitled-level.fixed.arrow-flow.json",
+        "to":  "levels/untitled-level.fixed.arrow-flow.json",
+        "sha256":  "551534295F1BCD2C158B68B25090EA1691FE0DC001A42B50CD27EC74D5A56E4F"
+    },
+    {
+        "from":  "BGM.wav",
+        "to":  "reference/audio/BGM.wav",
+        "sha256":  "8D93E14547950A494D7C4F46332D5C6FB35C74BA96FA1662897F8CBC492FAE4A"
+    },
+    {
+        "from":  "sfx_win.mp3",
+        "to":  "src/assets/audio/sfx_win.mp3",
+        "sha256":  "705B275087973C08CA3387C323410EAD82B4E9936FA28A5E0DE04D6796989072"
+    },
+    {
+        "from":  "arf_conveyor_overload_mockuppresentation.png",
+        "to":  "reference/mockups/arf_conveyor_overload_mockuppresentation.png",
+        "sha256":  "5BA355DF0A2097E585C9020123A5F7000D36097F9A6553A88F10441D7C80AA36"
+    },
+    {
+        "from":  "arf_mip_smmeemee_gameplay_01_real_nougc_noseason_en_60s_na_al.html",
+        "to":  "reference/playable/arf_mip_smmeemee_gameplay_01_real_nougc_noseason_en_60s_na_al.html",
+        "sha256":  "31166B29C782BABC3CCBCB7B52168CDA8701C08ABCCBAF1C010660A0AABA4C66"
+    },
+    {
+        "from":  "Arrow Flow - Shooter Puzzle Video_ Conveyor Overload (Iteration 4).pdf",
+        "to":  "reference/briefs/Arrow Flow - Shooter Puzzle Video_ Conveyor Overload (Iteration 4).pdf",
+        "sha256":  "B964D7F8CEB814886C567839D4225BB1831D67B9F8AE21539742F3FC9AB2D55A"
+    },
+    {
+        "from":  "arrow-flow-game-mobile-gameplay-android-1080-ytshorts.savetube.me.mp4",
+        "to":  "reference/video/arrow-flow-game-mobile-gameplay-android-1080-ytshorts.savetube.me.mp4",
+        "sha256":  "39EEC3A82907AF7441A9506F11B2CFADA7C86EB787B7CD00CED7ABADFBE037CC"
+    },
+    {
+        "from":  "Screenshot 2026-10-28 092705.png",
+        "to":  "reference/screenshots/Screenshot 2026-10-28 092705.png",
+        "sha256":  "93C6C62FDED935B534D6A109890C77E74B47BC362FEE74AAEFFA4BE891BF5D0F"
+    },
+    {
+        "from":  "Screenshot 2026-10-29 123546.png",
+        "to":  "reference/screenshots/Screenshot 2026-10-29 123546.png",
+        "sha256":  "D7C83239BA74B87C3F6A58DDDC9BA3B65E94567C93D57B4C3B683DA227FAAFD8"
+    },
+    {
+        "from":  "Screenshot 2026-10-29 164336.png",
+        "to":  "reference/screenshots/Screenshot 2026-10-29 164336.png",
+        "sha256":  "38726562B98F7597C80C9C3F1CCA0306D7C55DFBB71D2EB8C13F1A4D4D81E06D"
+    },
+    {
+        "from":  "analysis/balance-guided-refine.mjs",
+        "to":  "analysis/experiments/balance-guided-refine.mjs",
+        "sha256":  "1C04352E05639AC80F20ACE5A2080B777F620C290F396E86435539E571D64CB7"
+    },
+    {
+        "from":  "analysis/balance-guided.mjs",
+        "to":  "analysis/experiments/balance-guided.mjs",
+        "sha256":  "8CDA86FA1C27FA4E0D28B879CA6D3D56C708D450A3BB91EA8217A79F3111857A"
+    },
+    {
+        "from":  "analysis/balance-handoff.mjs",
+        "to":  "analysis/experiments/balance-handoff.mjs",
+        "sha256":  "5978E9E243FA996048C59791B576258E87B976DBAA368F371BC1FD0AC0896EE4"
+    },
+    {
+        "from":  "analysis/balance-plan-v2.mjs",
+        "to":  "analysis/experiments/balance-plan-v2.mjs",
+        "sha256":  "61B5D6F6E1ED30881E07FE32F7A8325B4995047C8CE3EC3396A39E1579EE6A67"
+    },
+    {
+        "from":  "analysis/balance-plan.mjs",
+        "to":  "analysis/experiments/balance-plan.mjs",
+        "sha256":  "0B5C2D44E504425BB2FA3B4ED48A077463747552575538020E49A5F12AA884B3"
+    },
+    {
+        "from":  "analysis/balance-range.mjs",
+        "to":  "analysis/experiments/balance-range.mjs",
+        "sha256":  "92809C3C06E79687C7FB1BE7751AAFB65D95BA39AA6E79820C29085809D804AA"
+    },
+    {
+        "from":  "analysis/balance-refine.mjs",
+        "to":  "analysis/experiments/balance-refine.mjs",
+        "sha256":  "D66EBA430DF27EC2AFF7AB0BEA98329C4BDBF62BDD038A823474275D77F9C347"
+    },
+    {
+        "from":  "analysis/balance-search.mjs",
+        "to":  "analysis/experiments/balance-search.mjs",
+        "sha256":  "A11FABF54ECCEDDD4C0E7F33956B68808828387099CBCE287A611687D19821CA"
+    },
+    {
+        "from":  "analysis/balance-tail.mjs",
+        "to":  "analysis/experiments/balance-tail.mjs",
+        "sha256":  "ACC77985FB6030C7E78B6EA109862DC19AE5D362E1D662DC3BB6996BE585F50D"
+    },
+    {
+        "from":  "analysis/fixed-guide-probe.mjs",
+        "to":  "analysis/experiments/fixed-guide-probe.mjs",
+        "sha256":  "C3D1625C499F64AA7EC800E291DAFFB77DD4BB1E0029DD951DB3DD00D4B0525B"
+    },
+    {
+        "from":  "analysis/guidance-probe.mjs",
+        "to":  "analysis/experiments/guidance-probe.mjs",
+        "sha256":  "7AA3E7D5C758F9DCFBCCA68CCDC599967DB90202F5F9D8CBF77D441D6EF86716"
+    },
+    {
+        "from":  "analysis/overload-admission-probe.mjs",
+        "to":  "analysis/experiments/overload-admission-probe.mjs",
+        "sha256":  "C761B934DB2520B816C8077C431B877202C23E092699B080C670425545B4B883"
+    },
+    {
+        "from":  "analysis/ui-audit-capture.mjs",
+        "to":  "analysis/experiments/ui-audit-capture.mjs",
+        "sha256":  "3B610CC1FFF49B5728FACD6D92CC526956670ABE393209FF4AEBE47B22AC2F3B"
+    },
+    {
+        "from":  "analysis/bgm-build",
+        "to":  "analysis/build/bgm-build",
+        "sha256":  null
+    },
+    {
+        "from":  "analysis/debug-shortcut-build",
+        "to":  "analysis/build/debug-shortcut-build",
+        "sha256":  null
+    },
+    {
+        "from":  "analysis/mockup-look-build",
+        "to":  "analysis/build/mockup-look-build",
+        "sha256":  null
+    },
+    {
+        "from":  "analysis/overload-build-check",
+        "to":  "analysis/build/overload-build-check",
+        "sha256":  null
+    },
+    {
+        "from":  "analysis/playable-look-build",
+        "to":  "analysis/build/playable-look-build",
+        "sha256":  null
+    }
+]

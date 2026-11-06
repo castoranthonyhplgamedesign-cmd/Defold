@@ -1,0 +1,4 @@
+sound: "/assets/audio/Lowkey-Trap.ogg"
+looping: 1
+gain: 0.34
+group: "master"

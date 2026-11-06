@@ -1,0 +1,1192 @@
+{
+  "testedAt": "2026-10-22T08:49:56.618Z",
+  "browser": "153.0.8010.12",
+  "scope": "Real current source modules. Endcard and 75% fullness forced in isolated fixture. DPR 1; all external requests blocked. Not reference runtime.",
+  "errors": [],
+  "requests": [
+    "https://audit.invalid/",
+    "https://audit.invalid/",
+    "https://audit.invalid/",
+    "https://audit.invalid/",
+    "https://audit.invalid/"
+  ],
+  "results": [
+    {
+      "width": 720,
+      "height": 1280,
+      "state": "gameplay",
+      "elements": {
+        ".hud-logo": {
+          "x": 16,
+          "y": 1161.5390625,
+          "width": 169.5,
+          "height": 102.453125,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -84.75, -51.2266)"
+        },
+        ".hud-play": {
+          "x": 438.2113037109375,
+          "y": 1178.6063232421875,
+          "width": 270.046142578125,
+          "height": 86.7562255859375,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1.03262, 0, 0, 1.03262, -130.758, -42.0078)"
+        },
+        ".meter": {
+          "x": 163.2109375,
+          "y": 1064.265625,
+          "width": 393.578125,
+          "height": 87.625,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -196.789, -43.8125)"
+        },
+        ".meter-fill": {
+          "x": 178.5546875,
+          "y": 1083.53125,
+          "width": 0,
+          "height": 48.1875,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter span": {
+          "x": 163.2109375,
+          "y": 1064.265625,
+          "width": 393.578125,
+          "height": 87.625,
+          "fontSize": "70.1063px",
+          "visible": true,
+          "transform": "none"
+        },
+        ".tutorial-hand": {
+          "x": 136.96875,
+          "y": 502.015625,
+          "width": 180,
+          "height": 180,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1)"
+        },
+        ".cannon-ammo": {
+          "x": 438.1308898925781,
+          "y": 149.66676330566406,
+          "width": 14.5625,
+          "height": 13.234375,
+          "fontSize": "13.2355px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 438.131, 149.667)"
+        },
+        ".cannon-reserve": {
+          "x": 441.9355773925781,
+          "y": 68.33263397216797,
+          "width": 6.953125,
+          "height": 13.234375,
+          "fontSize": "13.2355px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 441.936, 68.3326)"
+        },
+        ".end-title": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".end-icon": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".end-play": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        }
+      },
+      "file": "analysis/screenshots/ui-audit/gameplay-720x1280.png"
+    },
+    {
+      "width": 720,
+      "height": 1280,
+      "state": "endcard",
+      "elements": {
+        ".hud-logo": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".hud-play": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter-fill": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter span": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "70.1063px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".tutorial-hand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".cannon-ammo": {
+          "x": 438.1308898925781,
+          "y": 149.66676330566406,
+          "width": 14.5625,
+          "height": 13.234375,
+          "fontSize": "13.2355px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 438.131, 149.667)"
+        },
+        ".cannon-reserve": {
+          "x": 441.9355773925781,
+          "y": 68.33263397216797,
+          "width": 6.953125,
+          "height": 13.234375,
+          "fontSize": "13.2355px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 441.936, 68.3326)"
+        },
+        ".end-title": {
+          "x": 207.265625,
+          "y": 267.2734375,
+          "width": 305.28125,
+          "height": 184.515625,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -152.641, -92.2578)"
+        },
+        ".end-icon": {
+          "x": 160,
+          "y": 453.953125,
+          "width": 400,
+          "height": 400,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -200, -200)"
+        },
+        ".end-play": {
+          "x": 175.632568359375,
+          "y": 886.8329467773438,
+          "width": 368.73486328125,
+          "height": 118.4591064453125,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1.09321, 0, 0, 1.09321, -168.648, -54.1797)"
+        }
+      },
+      "file": "analysis/screenshots/ui-audit/endcard-720x1280.png"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "gameplay",
+      "elements": {
+        ".hud-logo": {
+          "x": 8.65625,
+          "y": 779.8359375,
+          "width": 91.8125,
+          "height": 55.484375,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -45.9062, -27.7422)"
+        },
+        ".hud-play": {
+          "x": 236.95518493652344,
+          "y": 788.9555053710938,
+          "width": 147.08961486816406,
+          "height": 47.24517822265625,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1.03836, 0, 0, 1.03836, -70.8281, -22.75)"
+        },
+        ".meter": {
+          "x": 66.3984375,
+          "y": 699.2578125,
+          "width": 257.203125,
+          "height": 57.265625,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -128.602, -28.6328)"
+        },
+        ".meter-fill": {
+          "x": 76.4140625,
+          "y": 711.8515625,
+          "width": 0,
+          "height": 31.484375,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter span": {
+          "x": 66.3984375,
+          "y": 699.2578125,
+          "width": 257.203125,
+          "height": 57.265625,
+          "fontSize": "45.815px",
+          "visible": true,
+          "transform": "none"
+        },
+        ".tutorial-hand": {
+          "x": 53.484375,
+          "y": 333.390625,
+          "width": 97.5,
+          "height": 97.5,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1)"
+        },
+        ".cannon-ammo": {
+          "x": 245.8644256591797,
+          "y": 101.38744354248047,
+          "width": 9.90625,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 245.864, 101.387)"
+        },
+        ".cannon-reserve": {
+          "x": 248.4503631591797,
+          "y": 48.23489761352539,
+          "width": 4.734375,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 248.45, 48.2349)"
+        },
+        ".end-title": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".end-icon": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".end-play": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        }
+      },
+      "file": "analysis/screenshots/ui-audit/gameplay-390x844.png"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "meter75",
+      "elements": {
+        ".hud-logo": {
+          "x": 8.65625,
+          "y": 779.8359375,
+          "width": 91.8125,
+          "height": 55.484375,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -45.9062, -27.7422)"
+        },
+        ".hud-play": {
+          "x": 232.79412841796875,
+          "y": 787.6190185546875,
+          "width": 155.4117431640625,
+          "height": 49.91827392578125,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1.0971, 0, 0, 1.0971, -70.8281, -22.75)"
+        },
+        ".meter": {
+          "x": 66.3984375,
+          "y": 699.2578125,
+          "width": 257.203125,
+          "height": 57.265625,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -128.602, -28.6328)"
+        },
+        ".meter-fill": {
+          "x": 76.4140625,
+          "y": 711.8515625,
+          "width": 177.84375,
+          "height": 31.484375,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "none"
+        },
+        ".meter span": {
+          "x": 66.3984375,
+          "y": 699.2578125,
+          "width": 257.203125,
+          "height": 57.265625,
+          "fontSize": "45.815px",
+          "visible": true,
+          "transform": "none"
+        },
+        ".tutorial-hand": {
+          "x": 53.38051223754883,
+          "y": 332.9150695800781,
+          "width": 97.99458312988281,
+          "height": 89.46304321289062,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "matrix3d(1, 0, 0, 0, 0, 0.965926, -0.258819, 0.000647048, 0, 0.258819, 0.965926, -0.00241481, 0, 0, 0, 1)"
+        },
+        ".cannon-ammo": {
+          "x": 245.8644256591797,
+          "y": 101.38744354248047,
+          "width": 9.90625,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 245.864, 101.387)"
+        },
+        ".cannon-reserve": {
+          "x": 248.4503631591797,
+          "y": 48.23489761352539,
+          "width": 4.734375,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 248.45, 48.2349)"
+        },
+        ".end-title": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".end-icon": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".end-play": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        }
+      },
+      "file": "analysis/screenshots/ui-audit/meter75-390x844.png"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "state": "endcard",
+      "elements": {
+        ".hud-logo": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".hud-play": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter-fill": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter span": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "45.815px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".tutorial-hand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".cannon-ammo": {
+          "x": 245.8644256591797,
+          "y": 101.38744354248047,
+          "width": 9.90625,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 245.864, 101.387)"
+        },
+        ".cannon-reserve": {
+          "x": 248.4503631591797,
+          "y": 48.23489761352539,
+          "width": 4.734375,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 248.45, 48.2349)"
+        },
+        ".end-title": {
+          "x": 112.26887512207031,
+          "y": 220.10122680664062,
+          "width": 165.36070251464844,
+          "height": 99.94595336914062,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -152.641, -92.2578)"
+        },
+        ".end-icon": {
+          "x": 86.66666412353516,
+          "y": 321.2193908691406,
+          "width": 216.66668701171875,
+          "height": 216.66665649414062,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -200, -200)"
+        },
+        ".end-play": {
+          "x": 99.61457061767578,
+          "y": 557.1353149414062,
+          "width": 190.7708740234375,
+          "height": 61.28668212890625,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1.04416, 0, 0, 1.04416, -168.648, -54.1797)"
+        }
+      },
+      "file": "analysis/screenshots/ui-audit/endcard-390x844.png"
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "state": "gameplay",
+      "elements": {
+        ".hud-logo": {
+          "x": 8.796875,
+          "y": 324.84375,
+          "width": 93.21875,
+          "height": 56.34375,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -46.6094, -28.1719)"
+        },
+        ".hud-play": {
+          "x": 688.5932006835938,
+          "y": 334.1061096191406,
+          "width": 149.34478759765625,
+          "height": 47.975311279296875,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1.03836, 0, 0, 1.03836, -71.9141, -23.1016)"
+        },
+        ".meter": {
+          "x": 362.046875,
+          "y": 324.265625,
+          "width": 119.90625,
+          "height": 26.6875,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -59.9531, -13.3438)"
+        },
+        ".meter-fill": {
+          "x": 366.71875,
+          "y": 330.125,
+          "width": 0,
+          "height": 14.671875,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter span": {
+          "x": 362.046875,
+          "y": 324.265625,
+          "width": 119.90625,
+          "height": 26.6875,
+          "fontSize": "21.3605px",
+          "visible": true,
+          "transform": "none"
+        },
+        ".tutorial-hand": {
+          "x": 354.03125,
+          "y": 152.953125,
+          "width": 54.84375,
+          "height": 54.84375,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1)"
+        },
+        ".cannon-ammo": {
+          "x": 443.0708923339844,
+          "y": 43.117767333984375,
+          "width": 9.90625,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 443.071, 43.1178)"
+        },
+        ".cannon-reserve": {
+          "x": 445.6568298339844,
+          "y": 18.336273193359375,
+          "width": 4.734375,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 445.657, 18.3363)"
+        },
+        ".end-title": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".end-icon": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".end-play": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        }
+      },
+      "file": "analysis/screenshots/ui-audit/gameplay-844x390.png"
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "state": "endcard",
+      "elements": {
+        ".hud-logo": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".hud-play": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter-fill": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter span": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "21.3605px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".tutorial-hand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".cannon-ammo": {
+          "x": 443.0708923339844,
+          "y": 43.117767333984375,
+          "width": 9.90625,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 443.071, 43.1178)"
+        },
+        ".cannon-reserve": {
+          "x": 445.6568298339844,
+          "y": 18.336273193359375,
+          "width": 4.734375,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 445.657, 18.3363)"
+        },
+        ".end-title": {
+          "x": 347.5419921875,
+          "y": 13.295791625976562,
+          "width": 148.82461547851562,
+          "height": 89.95137023925781,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -152.641, -92.2578)"
+        },
+        ".end-icon": {
+          "x": 324.5,
+          "y": 104.30213928222656,
+          "width": 195,
+          "height": 195.00001525878906,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -200, -200)"
+        },
+        ".end-play": {
+          "x": 331.562255859375,
+          "y": 315.151611328125,
+          "width": 180.87548828125,
+          "height": 58.10772705078125,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1.1, 0, 0, 1.1, -168.648, -54.1797)"
+        }
+      },
+      "file": "analysis/screenshots/ui-audit/endcard-844x390.png"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "gameplay",
+      "elements": {
+        ".hud-logo": {
+          "x": 12.7890625,
+          "y": 929.2265625,
+          "width": 135.609375,
+          "height": 81.953125,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -67.8047, -40.9766)"
+        },
+        ".hud-play": {
+          "x": 542.5564575195312,
+          "y": 942.8804931640625,
+          "width": 216.04339599609375,
+          "height": 69.395263671875,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1.03262, 0, 0, 1.03262, -104.609, -33.6016)"
+        },
+        ".meter": {
+          "x": 226.5703125,
+          "y": 851.40625,
+          "width": 314.859375,
+          "height": 70.09375,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -157.43, -35.0469)"
+        },
+        ".meter-fill": {
+          "x": 238.8359375,
+          "y": 866.8125,
+          "width": 0,
+          "height": 38.546875,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter span": {
+          "x": 226.5703125,
+          "y": 851.40625,
+          "width": 314.859375,
+          "height": 70.09375,
+          "fontSize": "56.085px",
+          "visible": true,
+          "transform": "none"
+        },
+        ".tutorial-hand": {
+          "x": 205.5625,
+          "y": 401.609375,
+          "width": 144,
+          "height": 144,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1)"
+        },
+        ".cannon-ammo": {
+          "x": 446.5093994140625,
+          "y": 119.73029327392578,
+          "width": 11.640625,
+          "height": 10.593742370605469,
+          "fontSize": "10.5884px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 446.509, 119.73)"
+        },
+        ".cannon-reserve": {
+          "x": 449.5484619140625,
+          "y": 54.66298294067383,
+          "width": 5.5625,
+          "height": 10.593746185302734,
+          "fontSize": "10.5884px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 449.548, 54.663)"
+        },
+        ".end-title": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".end-icon": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".end-play": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        }
+      },
+      "file": "analysis/screenshots/ui-audit/gameplay-768x1024.png"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "state": "endcard",
+      "elements": {
+        ".hud-logo": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".hud-play": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter-fill": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter span": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "56.085px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".tutorial-hand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".cannon-ammo": {
+          "x": 446.5093994140625,
+          "y": 119.73029327392578,
+          "width": 11.640625,
+          "height": 10.593742370605469,
+          "fontSize": "10.5884px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 446.509, 119.73)"
+        },
+        ".cannon-reserve": {
+          "x": 449.5484619140625,
+          "y": 54.66298294067383,
+          "width": 5.5625,
+          "height": 10.593746185302734,
+          "fontSize": "10.5884px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 449.548, 54.663)"
+        },
+        ".end-title": {
+          "x": 221.0833282470703,
+          "y": 114.41976928710938,
+          "width": 325.63336181640625,
+          "height": 196.81668090820312,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -152.641, -92.2578)"
+        },
+        ".end-icon": {
+          "x": 170.66665649414062,
+          "y": 313.5447692871094,
+          "width": 426.6667175292969,
+          "height": 426.6667175292969,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -200, -200)"
+        },
+        ".end-play": {
+          "x": 186.119140625,
+          "y": 774.890625,
+          "width": 395.76171875,
+          "height": 127.1417236328125,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1.1, 0, 0, 1.1, -168.648, -54.1797)"
+        }
+      },
+      "file": "analysis/screenshots/ui-audit/endcard-768x1024.png"
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "state": "gameplay",
+      "elements": {
+        ".hud-logo": {
+          "x": 8,
+          "y": 580.765625,
+          "width": 84.75,
+          "height": 51.21875,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -42.375, -25.6094)"
+        },
+        ".hud-play": {
+          "x": 218.72683715820312,
+          "y": 589.1788940429688,
+          "width": 135.76504516601562,
+          "height": 43.6109619140625,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1.03836, 0, 0, 1.03836, -65.375, -21)"
+        },
+        ".meter": {
+          "x": 81.609375,
+          "y": 532.125,
+          "width": 196.78125,
+          "height": 43.8125,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -98.3906, -21.9062)"
+        },
+        ".meter-fill": {
+          "x": 89.28125,
+          "y": 541.75,
+          "width": 0,
+          "height": 24.09375,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter span": {
+          "x": 81.609375,
+          "y": 532.125,
+          "width": 196.78125,
+          "height": 43.8125,
+          "fontSize": "35.0531px",
+          "visible": true,
+          "transform": "none"
+        },
+        ".tutorial-hand": {
+          "x": 68.484375,
+          "y": 251,
+          "width": 90,
+          "height": 90,
+          "fontSize": "16px",
+          "visible": true,
+          "transform": "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.0025, 0, 0, 0, 1)"
+        },
+        ".cannon-ammo": {
+          "x": 217.75294494628906,
+          "y": 73.64197540283203,
+          "width": 9.90625,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 217.753, 73.642)"
+        },
+        ".cannon-reserve": {
+          "x": 220.33888244628906,
+          "y": 32.974910736083984,
+          "width": 4.734375,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 220.339, 32.9749)"
+        },
+        ".end-title": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".end-icon": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".end-play": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        }
+      },
+      "file": "analysis/screenshots/ui-audit/gameplay-360x640.png"
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "state": "endcard",
+      "elements": {
+        ".hud-logo": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".hud-play": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "13.3333px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter-fill": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".meter span": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "35.0531px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".tutorial-hand": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "fontSize": "16px",
+          "visible": false,
+          "transform": "none"
+        },
+        ".cannon-ammo": {
+          "x": 217.75294494628906,
+          "y": 73.64197540283203,
+          "width": 9.90625,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 217.753, 73.642)"
+        },
+        ".cannon-reserve": {
+          "x": 220.33888244628906,
+          "y": 32.974910736083984,
+          "width": 4.734375,
+          "height": 9,
+          "fontSize": "9px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, 220.339, 32.9749)"
+        },
+        ".end-title": {
+          "x": 103.6328125,
+          "y": 133.63671875,
+          "width": 152.640625,
+          "height": 92.2578125,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -152.641, -92.2578)"
+        },
+        ".end-icon": {
+          "x": 80,
+          "y": 226.9765625,
+          "width": 200,
+          "height": 200,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1, 0, 0, 1, -200, -200)"
+        },
+        ".end-play": {
+          "x": 87.48750305175781,
+          "y": 443.31085205078125,
+          "width": 185.02500915527344,
+          "height": 59.4407958984375,
+          "fontSize": "13.3333px",
+          "visible": true,
+          "transform": "matrix(1.0971, 0, 0, 1.0971, -168.648, -54.1797)"
+        }
+      },
+      "file": "analysis/screenshots/ui-audit/endcard-360x640.png"
+    }
+  ]
+}

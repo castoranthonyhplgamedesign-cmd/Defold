@@ -1,0 +1,5 @@
+script: "/main/jarbase.gui_script"
+material: "/render/jarbase.material"
+adjust_reference: ADJUST_REFERENCE_DISABLED
+max_nodes: 4
+textures { name: "ui" texture: "/assets/ui.atlas" }

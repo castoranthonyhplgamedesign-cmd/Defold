@@ -1,0 +1,96 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.SpriteFrame",
+      "content": {
+        "name": "handSprite_",
+        "rect": {
+          "x": 32,
+          "y": 16,
+          "width": 195,
+          "height": 228
+        },
+        "offset": {
+          "x": 1.5,
+          "y": -2
+        },
+        "originalSize": {
+          "width": 256,
+          "height": 256
+        },
+        "rotated": false,
+        "capInsets": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "vertices": {
+          "rawPosition": [
+            -97.5,
+            -114,
+            0,
+            97.5,
+            -114,
+            0,
+            -97.5,
+            114,
+            0,
+            97.5,
+            114,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            32,
+            240,
+            227,
+            240,
+            32,
+            12,
+            227,
+            12
+          ],
+          "nuv": [
+            0.125,
+            0.046875,
+            0.88671875,
+            0.046875,
+            0.125,
+            0.9375,
+            0.88671875,
+            0.9375
+          ],
+          "minPos": {
+            "x": -97.5,
+            "y": -114,
+            "z": 0
+          },
+          "maxPos": {
+            "x": 97.5,
+            "y": 114,
+            "z": 0
+          }
+        },
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivot": {
+          "x": 0.5,
+          "y": 0.5
+        },
+        "meshType": 0
+      },
+      "_textureSource": {
+        "__uuid__": "f571e731-662a-47d5-97ac-a8a7f089bf7d@6c48a"
+      }
+    }
+  ]
+}

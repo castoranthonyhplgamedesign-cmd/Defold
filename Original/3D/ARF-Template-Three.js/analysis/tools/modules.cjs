@@ -1,0 +1,6 @@
+const fs=require('fs'),ts=require('D:/Projects/Phaser/Bubble-Cash--Template/node_modules/typescript');
+const src=fs.readFileSync('analysis/extracted/bundle/assets/main/index.js.pretty.js','utf8'),ast=ts.createSourceFile('main.js',src,99,true);
+fs.mkdirSync('analysis/extracted/modules',{recursive:true});
+function format(s){const scan=ts.createScanner(99,false,0,s);let out='',depth=0,line=true;for(let t=scan.scan();t!==ts.SyntaxKind.EndOfFileToken;t=scan.scan()){let x=scan.getTokenText();if(t===ts.SyntaxKind.WhitespaceTrivia||t===ts.SyntaxKind.NewLineTrivia){if(!line)out+=' ';continue;}if(x==='}')depth=Math.max(0,depth-1);if(line){out+='  '.repeat(depth);line=false;}out+=x;if(x==='{')depth++;if(['{','}',';'].includes(x)){out+='\n';line=true;}}return out+'\n';}
+function visit(n){if(ts.isCallExpression(n)&&n.arguments.length>=3&&ts.isStringLiteral(n.arguments[0])&&n.arguments[0].text.startsWith('chunks:///_virtual/')){const name=n.arguments[0].text.split('/').pop();fs.writeFileSync('analysis/extracted/modules/'+name+'.js',format(n.getText(ast)));}ts.forEachChild(n,visit);}visit(ast);
+fs.writeFileSync('analysis/extracted/outer-wrapper.js',format(fs.readFileSync('analysis/extracted/inline-1.js','utf8').replace(/window\.__zip\s*=\s*"[A-Za-z0-9+/=]+"/,'window.__zip = "[see payload.zip]"')));

@@ -1,0 +1,151 @@
+{
+  "manifest": [
+    {
+      "output": "src/assets/ui/title.webp",
+      "source": "analysis/assets/native/e9ba55d5-a84e-4356-9314-6c3d429c78c3.png",
+      "crop": {
+        "left": 103,
+        "top": 142,
+        "width": 315,
+        "height": 190
+      },
+      "format": "webp",
+      "width": 315,
+      "height": 190,
+      "channels": 4,
+      "premultiplied": false,
+      "size": 24610
+    },
+    {
+      "output": "src/assets/ui/play.webp",
+      "source": "analysis/assets/native/7ee7c69f-f28a-4986-8d93-f51a03f19e78.png",
+      "crop": {
+        "left": 7,
+        "top": 6,
+        "width": 498,
+        "height": 162
+      },
+      "format": "webp",
+      "width": 498,
+      "height": 162,
+      "channels": 4,
+      "premultiplied": false,
+      "size": 12770
+    },
+    {
+      "output": "src/assets/ui/icon.webp",
+      "source": "analysis/assets/native/ebadcded-6f27-4491-afaf-84fc212b18a4.png",
+      "crop": {
+        "left": 2,
+        "top": 2,
+        "width": 508,
+        "height": 508
+      },
+      "format": "webp",
+      "width": 508,
+      "height": 508,
+      "channels": 4,
+      "premultiplied": false,
+      "size": 100078
+    },
+    {
+      "output": "src/assets/ui/hand-idle.webp",
+      "source": "analysis/assets/native/f571e731-662a-47d5-97ac-a8a7f089bf7d.png",
+      "crop": {
+        "left": 32,
+        "top": 16,
+        "width": 195,
+        "height": 228
+      },
+      "format": "webp",
+      "width": 195,
+      "height": 228,
+      "channels": 4,
+      "premultiplied": false,
+      "size": 8936
+    },
+    {
+      "output": "src/assets/ui/hand-tap.webp",
+      "source": "analysis/assets/native/6df3381d-185f-4eaa-abbd-556744d82f44.png",
+      "crop": {
+        "left": 32,
+        "top": 2,
+        "width": 195,
+        "height": 242
+      },
+      "format": "webp",
+      "width": 195,
+      "height": 242,
+      "channels": 4,
+      "premultiplied": false,
+      "size": 8906
+    },
+    {
+      "output": "src/assets/ui/meter-border.webp",
+      "source": "analysis/assets/native/7d9879b2-c46d-4447-ad18-2c7a71f658cf.png",
+      "crop": {
+        "left": 0,
+        "top": 4,
+        "width": 512,
+        "height": 108
+      },
+      "format": "webp",
+      "width": 512,
+      "height": 108,
+      "channels": 4,
+      "premultiplied": false,
+      "size": 9248
+    },
+    {
+      "output": "src/assets/ui/meter-fill.webp",
+      "source": "analysis/assets/native/c25ecc7a-5291-441f-be5d-8845567f2c92.png",
+      "crop": {
+        "left": 20,
+        "top": 26,
+        "width": 472,
+        "height": 56
+      },
+      "format": "webp",
+      "width": 472,
+      "height": 56,
+      "channels": 4,
+      "premultiplied": false,
+      "size": 966
+    }
+  ],
+  "font": "analysis/assets/native/LilitaOne-Regular.ttf",
+  "pulse": {
+    "source": "analysis/assets/native/612b568c-6e7e-4b82-a194-d0cb5b2656f1.ccon",
+    "times": [
+      0,
+      2
+    ],
+    "keys": [
+      {
+        "value": 1,
+        "interpolation": 2,
+        "weightMode": 2,
+        "leftTangent": 0,
+        "leftWeight": 1,
+        "rightTangent": 0.021739130839705467,
+        "rightWeight": 0.4601086974143982
+      },
+      {
+        "value": 1.100000023841858,
+        "interpolation": 2,
+        "weightMode": 1,
+        "leftTangent": 0.021739130839705467,
+        "leftWeight": 0.4601086974143982,
+        "rightTangent": 0,
+        "rightWeight": 1
+      }
+    ],
+    "controls": [
+      0.23000000729690415,
+      1.0100000005035212,
+      0.7699999927030958,
+      1.0900000233383367
+    ],
+    "wrap": "PingPong (22)"
+  }
+}

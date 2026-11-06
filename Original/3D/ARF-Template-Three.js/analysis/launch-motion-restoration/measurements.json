@@ -1,0 +1,5805 @@
+{
+  "at": "2026-10-30T02:29:03.413Z",
+  "runs": [
+    {
+      "id": 0,
+      "fixture": "Single original arrow, 60 whites, no cannons; unchanged movement code",
+      "cellSize": 1.29,
+      "launchSpeed": 21.504691791179678,
+      "plannedRouteLength": 2.1494415138571314,
+      "takeoverDistance": 0.8499999999999996,
+      "remainingPlannedCurve": 1.2994415138571318,
+      "peakBefore": 21.503161879176872,
+      "peakDuring": null,
+      "events": [
+        {
+          "time": 0.15,
+          "index": 0,
+          "entry": 0.14956583570681703,
+          "entryPosition": [
+            -9.43120767506529,
+            0,
+            15.900485732856984
+          ],
+          "plannedEntryDistance": 0
+        },
+        {
+          "time": 0.24166666666666664,
+          "index": 1,
+          "entry": 0.14870536789774627,
+          "entryPosition": [
+            -9.313698557004088,
+            0,
+            15.900485732856984
+          ],
+          "plannedEntryDistance": 0.11750911806120179
+        },
+        {
+          "time": 0.3416666666666669,
+          "index": 2,
+          "entry": 0.14870536789774672,
+          "entryPosition": [
+            -9.313698557004146,
+            0,
+            15.900485732856984
+          ],
+          "plannedEntryDistance": 0.11750911806114317
+        },
+        {
+          "time": 0.4416666666666672,
+          "index": 3,
+          "entry": 0.14870536789774716,
+          "entryPosition": [
+            -9.313698557004207,
+            0,
+            15.900485732856984
+          ],
+          "plannedEntryDistance": 0.11750911806108277
+        },
+        {
+          "time": 0.5333333333333339,
+          "index": 4,
+          "entry": 0.1478673685586576,
+          "entryPosition": [
+            -9.199257828095758,
+            0,
+            15.900485732856984
+          ],
+          "plannedEntryDistance": 0.23194984696953114
+        },
+        {
+          "time": 0.6250000000000002,
+          "index": 5,
+          "entry": 0.14703952545095544,
+          "entryPosition": [
+            -9.086204077038905,
+            0,
+            15.900485732856984
+          ],
+          "plannedEntryDistance": 0.34500359802638414
+        }
+      ],
+      "frames": [
+        {
+          "time": 0.008333333333333333,
+          "headPosition": [
+            -9.030000000000001,
+            0,
+            13.898667267179844
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 2.240072061581202,
+          "headTailDistance": 1.3056794818210182,
+          "headY": -1.9077407115841971,
+          "scale": 0.9954108883012852
+        },
+        {
+          "time": 0.016666666666666666,
+          "headPosition": [
+            -9.030000000000001,
+            0,
+            13.93600180153953
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 4.480144123162404,
+          "headTailDistance": 1.3345288694352657,
+          "headY": -1.9082328782337232,
+          "scale": 0.995435502787383
+        },
+        {
+          "time": 0.025,
+          "headPosition": [
+            -9.030000000000001,
+            0,
+            13.99200360307906
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 6.720216184743606,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9077040203642561,
+          "scale": 0.9954090532815332
+        },
+        {
+          "time": 0.03333333333333333,
+          "headPosition": [
+            -9.03,
+            0,
+            14.066672671798436
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 8.960288246325021,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.9077590619090499,
+          "scale": 0.9954118060469642
+        },
+        {
+          "time": 0.041666666666666664,
+          "headPosition": [
+            -9.03,
+            0,
+            14.160009007697653
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.20036030790601,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.9078248378050222,
+          "scale": 0.9954150956641672
+        },
+        {
+          "time": 0.049999999999999996,
+          "headPosition": [
+            -9.03,
+            0,
+            14.272012610776713
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.440432369487212,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.90772255431301,
+          "scale": 0.9954099802107031
+        },
+        {
+          "time": 0.05833333333333333,
+          "headPosition": [
+            -9.029999999999998,
+            0,
+            14.402683481035618
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.680504431068627,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.8447528802954596,
+          "scale": 0.992260709192071
+        },
+        {
+          "time": 0.06666666666666667,
+          "headPosition": [
+            -9.029999999999998,
+            0,
+            14.552021618474365
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 17.920576492649616,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.679627870531737,
+          "scale": 0.9840023941251181
+        },
+        {
+          "time": 0.075,
+          "headPosition": [
+            -9.029999999999996,
+            0,
+            14.720027023092957
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 20.16064855423103,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.4461669002715702,
+          "scale": 0.9723264266202336
+        },
+        {
+          "time": 0.08333333333333333,
+          "headPosition": [
+            -9.033240568417394,
+            0,
+            14.899190734757982
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.503161879176872,
+          "headTailDistance": 1.3415746098013313,
+          "headY": -1.1626096041246978,
+          "scale": 0.95814501646035
+        },
+        {
+          "time": 0.09166666666666666,
+          "headPosition": [
+            -9.043780373097588,
+            0,
+            15.069296758088395
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 20.451868174965533,
+          "headTailDistance": 1.3413152746476438,
+          "headY": -0.8815501873459707,
+          "scale": 0.9440885315001736
+        },
+        {
+          "time": 0.09999999999999999,
+          "headPosition": [
+            -9.06257753836919,
+            0,
+            15.229807674978272
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 19.392938540311647,
+          "headTailDistance": 1.340543484149608,
+          "headY": -0.6250272949955631,
+          "scale": 0.9312591795446643
+        },
+        {
+          "time": 0.10833333333333332,
+          "headPosition": [
+            -9.09088501277164,
+            0,
+            15.380402838687075
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 18.38790680662662,
+          "headTailDistance": 1.3388952482485308,
+          "headY": -0.4027323884267984,
+          "scale": 0.9201416548350487
+        },
+        {
+          "time": 0.11666666666666665,
+          "headPosition": [
+            -9.13039121391189,
+            0,
+            15.520206334214885
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 17.433384782672757,
+          "headTailDistance": 1.3358132002038163,
+          "headY": -0.22895327803644644,
+          "scale": 0.9114505265334557
+        },
+        {
+          "time": 0.12499999999999999,
+          "headPosition": [
+            -9.183427529666492,
+            0,
+            15.647295128518964
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.52536047841024,
+          "headTailDistance": 1.3302902491550357,
+          "headY": -0.10849024477189531,
+          "scale": 0.9054258687057712
+        },
+        {
+          "time": 0.13333333333333333,
+          "headPosition": [
+            -9.25269312719017,
+            0,
+            15.75790247351655
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.660670223693218,
+          "headTailDistance": 1.3204289928279085,
+          "headY": -0.03777739978219613,
+          "scale": 0.901889342324691
+        },
+        {
+          "time": 0.14166666666666666,
+          "headPosition": [
+            -9.33959415516811,
+            0,
+            15.845823797757033
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.83442112269458,
+          "headTailDistance": 1.3031263503197632,
+          "headY": -0.006425212353621672,
+          "scale": 0.9003213409529193
+        },
+        {
+          "time": 0.15,
+          "headPosition": [
+            -9.43120767506529,
+            0,
+            15.900485732856984
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.801792223991148,
+          "headTailDistance": 1.4181380553427994,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.15833333333333333,
+          "headPosition": [
+            -9.549116020085522,
+            0,
+            15.900485732856984
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.149001402427928,
+          "headTailDistance": 1.3463927975436059,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.16666666666666666,
+          "headPosition": [
+            -9.67621073934795,
+            0,
+            15.898715188254835
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.252846157134082,
+          "headTailDistance": 1.2867719161928688,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.175,
+          "headPosition": [
+            -9.802709390167344,
+            0,
+            15.888105350172152
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.233137347738234,
+          "headTailDistance": 1.242279235806103,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.18333333333333332,
+          "headPosition": [
+            -9.932439869585929,
+            0,
+            15.859590858873263
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.93926781444585,
+          "headTailDistance": 1.2068003931480777,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.19166666666666665,
+          "headPosition": [
+            -10.057268463625443,
+            0,
+            15.81312590898424
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.983517766631458,
+          "headTailDistance": 1.1858105284901452,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.19999999999999998,
+          "headPosition": [
+            -10.169509929304798,
+            0,
+            15.75359122906865
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.246388297535399,
+          "headTailDistance": 1.1826235250592094,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.20833333333333331,
+          "headPosition": [
+            -10.271998583880109,
+            0,
+            15.679051686449165
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.207398703274093,
+          "headTailDistance": 1.1952406548750056,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.21666666666666665,
+          "headPosition": [
+            -10.358629642021576,
+            0,
+            15.593584174439624
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.60338166832892,
+          "headTailDistance": 1.2200835514383357,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.22499999999999998,
+          "headPosition": [
+            -10.433115479547725,
+            0,
+            15.498620235112664
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.482906221070209,
+          "headTailDistance": 1.25554915370759,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.2333333333333333,
+          "headPosition": [
+            -10.493961684595307,
+            0,
+            15.39707488482742
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.205546494194904,
+          "headTailDistance": 1.2940728543249702,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.24166666666666664,
+          "headPosition": [
+            -10.541379828096307,
+            0,
+            15.289985343531082
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.054172430607105,
+          "headTailDistance": 1.3710988398936397,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.24999999999999997,
+          "headPosition": [
+            -10.574993306370903,
+            0,
+            15.17862017929759
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.959288895253888,
+          "headTailDistance": 1.352529277981337,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.2583333333333333,
+          "headPosition": [
+            -10.593956090981079,
+            0,
+            15.065286792564441
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.789061968803988,
+          "headTailDistance": 1.3376277672113002,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.26666666666666666,
+          "headPosition": [
+            -10.601162044589566,
+            0,
+            14.950611485935227
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.788178441619237,
+          "headTailDistance": 1.3245510739190638,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.275,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            14.83685769623208
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.651086337395519,
+          "headTailDistance": 1.3207561897493083,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.2833333333333334,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            14.723077753015135
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.653593186033461,
+          "headTailDistance": 1.3192104110120388,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.29166666666666674,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            14.610497861340585
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.509587000945942,
+          "headTailDistance": 1.3203507025221755,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3000000000000001,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            14.498416737900673
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.449734812789487,
+          "headTailDistance": 1.3276793424770887,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.30833333333333346,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            14.386932868124942
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.37806437308764,
+          "headTailDistance": 1.3336570806390116,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3166666666666668,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            14.276680245361105
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.230314731660542,
+          "headTailDistance": 1.3392497577187803,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3250000000000002,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            14.166427622597267
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.230314731660542,
+          "headTailDistance": 1.3428871056795473,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.33333333333333354,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            14.06143923249507
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.598606812263569,
+          "headTailDistance": 1.3400187769067324,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3416666666666669,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            13.95698805134779
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.534141737673536,
+          "headTailDistance": 1.3343866484122646,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.35000000000000026,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            13.853670065346734
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.398158320126882,
+          "headTailDistance": 1.3252305746638937,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3583333333333336,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            13.752421843001683
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.149786681406098,
+          "headTailDistance": 1.312891187222498,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.366666666666667,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            13.651173620656634
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.149786681405885,
+          "headTailDistance": 1.2994383260256703,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.37500000000000033,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            13.550135128605852
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.12461904609377,
+          "headTailDistance": 1.2867225676261693,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3833333333333337,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            13.449178437483413
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.114802934692719,
+          "headTailDistance": 1.2738993155316596,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.39166666666666705,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            13.348226239214036
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.114263792325275,
+          "headTailDistance": 1.2622716221264874,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.4000000000000004,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            13.24732758395838
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.1078386306786,
+          "headTailDistance": 1.25108915394223,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.40833333333333377,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            13.146428928702724
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.107838630678813,
+          "headTailDistance": 1.2405039394221582,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.41666666666666713,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            13.045679801707953
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.089895239372481,
+          "headTailDistance": 1.2310004436530928,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.4250000000000005,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            12.94512576006647
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.066484996978062,
+          "headTailDistance": 1.221301862530737,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.43333333333333385,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            12.844571718424982
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.066484996978488,
+          "headTailDistance": 1.216867514070028,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.4416666666666672,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            12.744459893646843
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.013418973376702,
+          "headTailDistance": 1.2125281577008877,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.45000000000000057,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            12.644471833390302
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.9985672307849,
+          "headTailDistance": 1.2091982319563694,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.4583333333333339,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            12.54451725293683
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.994549654416673,
+          "headTailDistance": 1.2079045900647625,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.4666666666666673,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            12.444823548864093
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488728364,
+          "headTailDistance": 1.2063500717924498,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.47500000000000064,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            12.345129844791355
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488728577,
+          "headTailDistance": 1.2050052838144065,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.483333333333334,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            12.245436140718615
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.96324448872879,
+          "headTailDistance": 1.2037422967647053,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.49166666666666736,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            12.145742436645843
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488732627,
+          "headTailDistance": 1.2024838025681017,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.5000000000000007,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            12.04604873257311
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488727938,
+          "headTailDistance": 1.2012788513851795,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.508333333333334,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            11.946355028500372
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488728577,
+          "headTailDistance": 1.200073900202261,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.5166666666666673,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            11.846661324427636
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488728364,
+          "headTailDistance": 1.1990184772802248,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.5250000000000006,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            11.746967620354896
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.96324448872879,
+          "headTailDistance": 1.1981581397114809,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.5333333333333339,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            11.647273916282156
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.96324448872879,
+          "headTailDistance": 1.1972978021427352,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.5416666666666672,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            11.547580212209418
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488728577,
+          "headTailDistance": 1.1968796814373341,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.5500000000000005,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            11.447886508136682
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488728364,
+          "headTailDistance": 1.1965853252535297,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.5583333333333338,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            11.348192804063943
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488728577,
+          "headTailDistance": 1.1963244488727938,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.5666666666666671,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            11.248499099991204
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.96324448872879,
+          "headTailDistance": 1.196324448872799,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.5750000000000004,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            11.148805395918464
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.96324448872879,
+          "headTailDistance": 1.1963244488728009,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.5833333333333337,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            11.049111691845727
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488728364,
+          "headTailDistance": 1.1963244488727973,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.591666666666667,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            10.94941798777299
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488728577,
+          "headTailDistance": 1.1963244488727938,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.6000000000000003,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            10.849724283700251
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488728577,
+          "headTailDistance": 1.1963244488727973,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.6083333333333336,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            10.750030579627513
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488728577,
+          "headTailDistance": 1.1963244488727973,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.6166666666666669,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            10.650336875554778
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.96324448872815,
+          "headTailDistance": 1.1963244488727938,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.6250000000000002,
+          "headPosition": [
+            -10.602256313647617,
+            0,
+            10.55064317148204
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.963244488728577,
+          "headTailDistance": 1.1963244488727938,
+          "headY": 0,
+          "scale": 0.9
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "fixture": "Single original arrow, 60 whites, no cannons; unchanged movement code",
+      "cellSize": 1.29,
+      "launchSpeed": 21.504691791179678,
+      "plannedRouteLength": 2.6063117006596066,
+      "takeoverDistance": 0.7000000000000002,
+      "remainingPlannedCurve": 1.9063117006596064,
+      "peakBefore": 20.909470494486182,
+      "peakDuring": null,
+      "events": [
+        {
+          "time": 0.18333333333333332,
+          "index": 0,
+          "entry": 0.2781457170276196,
+          "entryPosition": [
+            -10.600435549886592,
+            0,
+            0.9771683859693368
+          ],
+          "plannedEntryDistance": 0
+        },
+        {
+          "time": 0.24999999999999997,
+          "index": 1,
+          "entry": 0.2746570682968763,
+          "entryPosition": [
+            -10.635346550255305,
+            0,
+            1.450159009370493
+          ],
+          "plannedEntryDistance": 0.47427724779095043
+        },
+        {
+          "time": 0.35000000000000026,
+          "index": 2,
+          "entry": 0.2746570682968763,
+          "entryPosition": [
+            -10.635346550255305,
+            0,
+            1.450159009370493
+          ],
+          "plannedEntryDistance": 0.47427724779095043
+        }
+      ],
+      "frames": [
+        {
+          "time": 0.008333333333333333,
+          "headPosition": [
+            -10.32,
+            0,
+            3.5413327328201567
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 2.240072061581202,
+          "headTailDistance": 1.305679481821017,
+          "headY": -1.996012539759584,
+          "scale": 0.9998255833838251
+        },
+        {
+          "time": 0.016666666666666666,
+          "headPosition": [
+            -10.32,
+            0,
+            3.5039981984604696
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 4.480144123162457,
+          "headTailDistance": 1.3345288694352648,
+          "headY": -1.988761690824459,
+          "scale": 0.9994629502787926
+        },
+        {
+          "time": 0.025,
+          "headPosition": [
+            -10.32,
+            0,
+            3.447996396920939
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 6.720216184743659,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.970933480530658,
+          "scale": 0.9985713168557468
+        },
+        {
+          "time": 0.03333333333333333,
+          "headPosition": [
+            -10.32,
+            0,
+            3.3733273282015652
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 8.960288246324861,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.9352804308767848,
+          "scale": 0.9967882185984889
+        },
+        {
+          "time": 0.041666666666666664,
+          "headPosition": [
+            -10.32,
+            0,
+            3.279990992302348
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.200360307906063,
+          "headTailDistance": 1.3415999999999992,
+          "headY": -1.872808780903498,
+          "scale": 0.9936638550089272
+        },
+        {
+          "time": 0.049999999999999996,
+          "headPosition": [
+            -10.32,
+            0,
+            3.167987389223287
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.440432369487318,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.774626951800058,
+          "scale": 0.9887535359739964
+        },
+        {
+          "time": 0.05833333333333333,
+          "headPosition": [
+            -10.32,
+            0,
+            3.037316518964383
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.680504431068467,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.6366126503755727,
+          "scale": 0.9818510952926018
+        },
+        {
+          "time": 0.06666666666666667,
+          "headPosition": [
+            -10.32,
+            0,
+            2.8879783815256355
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 17.920576492649722,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.4587929948051832,
+          "scale": 0.9729578892125623
+        },
+        {
+          "time": 0.075,
+          "headPosition": [
+            -10.325933271770543,
+            0,
+            2.7201329932828955
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 20.154026996680663,
+          "headTailDistance": 1.3415082842799675,
+          "headY": -1.236035286625099,
+          "scale": 0.961817218635914
+        },
+        {
+          "time": 0.08333333333333333,
+          "headPosition": [
+            -10.344815210240714,
+            0,
+            2.5469134876063806
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 20.909470494486182,
+          "headTailDistance": 1.3406987555366845,
+          "headY": -0.9872915710545503,
+          "scale": 0.9493769227834233
+        },
+        {
+          "time": 0.09166666666666666,
+          "headPosition": [
+            -10.370302169011923,
+            0,
+            2.380738243524191
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 20.17420814083666,
+          "headTailDistance": 1.3394707755311304,
+          "headY": -0.7548401675177873,
+          "scale": 0.9377514462374488
+        },
+        {
+          "time": 0.09999999999999999,
+          "headPosition": [
+            -10.398979783829754,
+            0,
+            2.221096789856022
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 19.46361503475996,
+          "headTailDistance": 1.338303109618138,
+          "headY": -0.5374560677680823,
+          "scale": 0.9268795232692214
+        },
+        {
+          "time": 0.10833333333333332,
+          "headPosition": [
+            -10.428855999102629,
+            0,
+            2.0674947762036453
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 18.77766765213891,
+          "headTailDistance": 1.3375290669669209,
+          "headY": -0.36468827260227676,
+          "scale": 0.9182389733734572
+        },
+        {
+          "time": 0.11666666666666665,
+          "headPosition": [
+            -10.458644831675908,
+            0,
+            1.9194981344774649
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 18.115779842988008,
+          "headTailDistance": 1.3373301141632012,
+          "headY": -0.22057655809336427,
+          "scale": 0.9110315858011184
+        },
+        {
+          "time": 0.12499999999999999,
+          "headPosition": [
+            -10.48745255629789,
+            0,
+            1.776732606248055
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 17.47715901108257,
+          "headTailDistance": 1.3377680357941921,
+          "headY": -0.1203265641984155,
+          "scale": 0.9060178326680878
+        },
+        {
+          "time": 0.13333333333333333,
+          "headPosition": [
+            -10.514554024602981,
+            0,
+            1.6388627112946224
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.861002469312986,
+          "headTailDistance": 1.33881941229022,
+          "headY": -0.057071311906961984,
+          "scale": 0.9028542791651394
+        },
+        {
+          "time": 0.14166666666666666,
+          "headPosition": [
+            -10.539316533672187,
+            0,
+            1.505589309019593
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.26652191388329,
+          "headTailDistance": 1.3399840971575647,
+          "headY": -0.02250537875064932,
+          "scale": 0.9011255503251138
+        },
+        {
+          "time": 0.15,
+          "headPosition": [
+            -10.561098758144132,
+            0,
+            1.3766415103004355
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.692953877567513,
+          "headTailDistance": 1.3408639763292058,
+          "headY": -0.006519793970903579,
+          "scale": 0.9003260712163492
+        },
+        {
+          "time": 0.15833333333333333,
+          "headPosition": [
+            -10.579114491351449,
+            0,
+            1.2517721765961478
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.139471815608355,
+          "headTailDistance": 1.3412186202604777,
+          "headY": -0.0010597891388429894,
+          "scale": 0.900053002707619
+        },
+        {
+          "time": 0.16666666666666666,
+          "headPosition": [
+            -10.592413117753402,
+            0,
+            1.1307910194479542
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.605185087049145,
+          "headTailDistance": 1.341091163642678,
+          "headY": -0.0004433873873946169,
+          "scale": 0.900022174913098
+        },
+        {
+          "time": 0.175,
+          "headPosition": [
+            -10.599691640674578,
+            0,
+            1.0136061260300948
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.089285873821847,
+          "headTailDistance": 1.3404443760350626,
+          "headY": -0.0016908162214739981,
+          "scale": 0.9000845619515616
+        },
+        {
+          "time": 0.18333333333333332,
+          "headPosition": [
+            -10.600435549886592,
+            0,
+            0.9771683859693368
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 4.373439966865412,
+          "headTailDistance": 1.432773436655222,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.19166666666666665,
+          "headPosition": [
+            -10.600435549886592,
+            0,
+            0.8556512638435622
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.58205465509295,
+          "headTailDistance": 1.4313449275785615,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.19999999999999998,
+          "headPosition": [
+            -10.602316834992912,
+            0,
+            0.7334888146056305
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.661232097591435,
+          "headTailDistance": 1.4305237490799585,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.20833333333333331,
+          "headPosition": [
+            -10.616308005318393,
+            0,
+            0.6120564832025328
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.668282823213646,
+          "headTailDistance": 1.4307640454532053,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.21666666666666665,
+          "headPosition": [
+            -10.646402742691532,
+            0,
+            0.4949476232393266
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.509671516334762,
+          "headTailDistance": 1.430147404514146,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.22499999999999998,
+          "headPosition": [
+            -10.693101962189667,
+            0,
+            0.38469468307351995
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.368228909783411,
+          "headTailDistance": 1.4262893535074834,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.2333333333333333,
+          "headPosition": [
+            -10.75545107904077,
+            0,
+            0.28337117233396764
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.276402673295834,
+          "headTailDistance": 1.4174317922206772,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.24166666666666664,
+          "headPosition": [
+            -10.831399421250994,
+            0,
+            0.1942460390311329
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.051503016350413,
+          "headTailDistance": 1.4026082362269572,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.24999999999999997,
+          "headPosition": [
+            -10.920362262654972,
+            0,
+            0.11820849667832915
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.04363798904053,
+          "headTailDistance": 1.3621035660241143,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.2583333333333333,
+          "headPosition": [
+            -11.019364367256433,
+            0,
+            0.05645070939285343
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.002226625976268,
+          "headTailDistance": 1.3427532454307913,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.26666666666666666,
+          "headPosition": [
+            -11.125919250468177,
+            0,
+            0.008887693502304707
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.002608474244116,
+          "headTailDistance": 1.3171886728644604,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.275,
+          "headPosition": [
+            -11.240475410509118,
+            0,
+            -0.022991356756291607
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.269098855271375,
+          "headTailDistance": 1.2912058444145738,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.2833333333333334,
+          "headPosition": [
+            -11.359208112343788,
+            0,
+            -0.03838568899722783
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.367182579807066,
+          "headTailDistance": 1.2677089100889825,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.29166666666666674,
+          "headPosition": [
+            -11.481044173454272,
+            0,
+            -0.045684214361014795
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.646536701056974,
+          "headTailDistance": 1.260109992092748,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3000000000000001,
+          "headPosition": [
+            -11.603237754887378,
+            0,
+            -0.06483675951557094
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.842254382087194,
+          "headTailDistance": 1.2802993439732289,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.30833333333333346,
+          "headPosition": [
+            -11.721982150977263,
+            0,
+            -0.10222424740462227
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.93894254253095,
+          "headTailDistance": 1.316325293571146,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3166666666666668,
+          "headPosition": [
+            -11.835151170026139,
+            0,
+            -0.15756304291367687
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.116956436949827,
+          "headTailDistance": 1.3560578870143922,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3250000000000002,
+          "headPosition": [
+            -11.935930280117306,
+            0,
+            -0.2301064653090648
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.900780890808637,
+          "headTailDistance": 1.3865794892091077,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.33333333333333354,
+          "headPosition": [
+            -12.020653226027312,
+            0,
+            -0.31411177128690676
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.317196427508021,
+          "headTailDistance": 1.3991863137756961,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3416666666666669,
+          "headPosition": [
+            -12.09194894644611,
+            0,
+            -0.40957360257941294
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.297656806835919,
+          "headTailDistance": 1.3977064302149855,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.35000000000000026,
+          "headPosition": [
+            -12.147187063314247,
+            0,
+            -0.5105742582014416
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.814278869109827,
+          "headTailDistance": 1.3785742070512064,
+          "headY": 0,
+          "scale": 0.9
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "fixture": "Single original arrow, 60 whites, no cannons; unchanged movement code",
+      "cellSize": 1.29,
+      "launchSpeed": 21.504691791179678,
+      "plannedRouteLength": 19.842482735702895,
+      "takeoverDistance": 18.60000000000013,
+      "remainingPlannedCurve": 1.2424827357027652,
+      "peakBefore": 21.504691791179837,
+      "peakDuring": null,
+      "events": [
+        {
+          "time": 0.974999999999999,
+          "index": 0,
+          "entry": 0.5619689931340486,
+          "entryPosition": [
+            2.8916394319603125,
+            0,
+            -17.49629557036357
+          ],
+          "plannedEntryDistance": 0
+        },
+        {
+          "time": 1.0666666666666653,
+          "index": 1,
+          "entry": 0.5611371693552123,
+          "entryPosition": [
+            2.7780420636416108,
+            0,
+            -17.49629557036357
+          ],
+          "plannedEntryDistance": 0.11359736831870171
+        },
+        {
+          "time": 1.166666666666665,
+          "index": 2,
+          "entry": 0.5611371693552129,
+          "entryPosition": [
+            2.778042063641702,
+            0,
+            -17.49629557036357
+          ],
+          "plannedEntryDistance": 0.11359736831861067
+        },
+        {
+          "time": 1.2666666666666646,
+          "index": 3,
+          "entry": 0.5611371693552137,
+          "entryPosition": [
+            2.7780420636418155,
+            0,
+            -17.49629557036357
+          ],
+          "plannedEntryDistance": 0.11359736831849698
+        },
+        {
+          "time": 1.358333333333331,
+          "index": 4,
+          "entry": 0.5603203601432019,
+          "entryPosition": [
+            2.666495147980373,
+            0,
+            -17.49629557036357
+          ],
+          "plannedEntryDistance": 0.22514428397993935
+        }
+      ],
+      "frames": [
+        {
+          "time": 0.008333333333333333,
+          "headPosition": [
+            2.58,
+            0,
+            2.2513327328201567
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 2.240072061581202,
+          "headTailDistance": 1.305679481821017,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.016666666666666666,
+          "headPosition": [
+            2.58,
+            0,
+            2.2139981984604695
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 4.480144123162457,
+          "headTailDistance": 1.3345288694352648,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.025,
+          "headPosition": [
+            2.58,
+            0,
+            2.157996396920939
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 6.720216184743659,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.03333333333333333,
+          "headPosition": [
+            2.58,
+            0,
+            2.083327328201565
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 8.960288246324861,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.041666666666666664,
+          "headPosition": [
+            2.58,
+            0,
+            1.989990992302348
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.200360307906063,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.049999999999999996,
+          "headPosition": [
+            2.58,
+            0,
+            1.8779873892232872
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.440432369487292,
+          "headTailDistance": 1.3416000000000003,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.05833333333333333,
+          "headPosition": [
+            2.58,
+            0,
+            1.747316518964383
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.68050443106852,
+          "headTailDistance": 1.3416000000000003,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.06666666666666667,
+          "headPosition": [
+            2.5799999999999996,
+            0,
+            1.5979783815256352
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 17.920576492649722,
+          "headTailDistance": 1.3416000000000003,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.075,
+          "headPosition": [
+            2.5799999999999996,
+            0,
+            1.429972976907044
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 20.160648554230953,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.08333333333333333,
+          "headPosition": [
+            2.5799999999999996,
+            0,
+            1.2507672119805466
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.09166666666666666,
+          "headPosition": [
+            2.5799999999999996,
+            0,
+            1.0715614470540493
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.09999999999999999,
+          "headPosition": [
+            2.5799999999999996,
+            0,
+            0.892355682127552
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.10833333333333332,
+          "headPosition": [
+            2.5799999999999996,
+            0,
+            0.7131499172010549
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179653,
+          "headTailDistance": 1.3416000000000003,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.11666666666666665,
+          "headPosition": [
+            2.5799999999999996,
+            0,
+            0.5339441522745574
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179702,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.12499999999999999,
+          "headPosition": [
+            2.5799999999999996,
+            0,
+            0.35473838734806007
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.13333333333333333,
+          "headPosition": [
+            2.579999999999999,
+            0,
+            0.17553262242156276
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.14166666666666666,
+          "headPosition": [
+            2.579999999999999,
+            0,
+            -0.0036731425049345567
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.15,
+          "headPosition": [
+            2.579999999999999,
+            0,
+            -0.18287890743143187
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.15833333333333333,
+          "headPosition": [
+            2.579999999999999,
+            0,
+            -0.3620846723579292
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.16666666666666666,
+          "headPosition": [
+            2.579999999999999,
+            0,
+            -0.5412904372844269
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.50469179117973,
+          "headTailDistance": 1.341600000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.175,
+          "headPosition": [
+            2.579999999999999,
+            0,
+            -0.7204962022109238
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.18333333333333332,
+          "headPosition": [
+            2.579999999999999,
+            0,
+            -0.8997019671374211
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.19166666666666665,
+          "headPosition": [
+            2.5799999999999987,
+            0,
+            -1.0789077320639184
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.19999999999999998,
+          "headPosition": [
+            2.5799999999999987,
+            0,
+            -1.2581134969904157
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.20833333333333331,
+          "headPosition": [
+            2.5799999999999987,
+            0,
+            -1.4373192619169135
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.50469179117973,
+          "headTailDistance": 1.341600000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.21666666666666665,
+          "headPosition": [
+            2.5799999999999987,
+            0,
+            -1.6165250268434104
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.22499999999999998,
+          "headPosition": [
+            2.5799999999999987,
+            0,
+            -1.7957307917699077
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.2333333333333333,
+          "headPosition": [
+            2.5799999999999987,
+            0,
+            -1.9749365566964054
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.50469179117973,
+          "headTailDistance": 1.341600000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.24166666666666664,
+          "headPosition": [
+            2.5799999999999987,
+            0,
+            -2.1541423216229023
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.24999999999999997,
+          "headPosition": [
+            2.5799999999999987,
+            0,
+            -2.333348086549399
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.2583333333333333,
+          "headPosition": [
+            2.5799999999999983,
+            0,
+            -2.512553851475896
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.26666666666666666,
+          "headPosition": [
+            2.5799999999999983,
+            0,
+            -2.691759616402393
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.275,
+          "headPosition": [
+            2.5799999999999983,
+            0,
+            -2.87096538132889
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.2833333333333334,
+          "headPosition": [
+            2.5799999999999983,
+            0,
+            -3.0501711462553867
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.29166666666666674,
+          "headPosition": [
+            2.5799999999999983,
+            0,
+            -3.2293769111818835
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.3000000000000001,
+          "headPosition": [
+            2.5799999999999983,
+            0,
+            -3.4085826761083795
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179518,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.30833333333333346,
+          "headPosition": [
+            2.5799999999999983,
+            0,
+            -3.5877884410348773
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.50469179117973,
+          "headTailDistance": 1.3416000000000006,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.3166666666666668,
+          "headPosition": [
+            2.579999999999998,
+            0,
+            -3.766994205961374
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.3250000000000002,
+          "headPosition": [
+            2.579999999999998,
+            0,
+            -3.946199970887871
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.33333333333333354,
+          "headPosition": [
+            2.579999999999998,
+            0,
+            -4.125405735814368
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179678,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.3416666666666669,
+          "headPosition": [
+            2.579999999999998,
+            0,
+            -4.304611500740865
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.35000000000000026,
+          "headPosition": [
+            2.579999999999998,
+            0,
+            -4.483817265667362
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.3583333333333336,
+          "headPosition": [
+            2.579999999999998,
+            0,
+            -4.663023030593859
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.366666666666667,
+          "headPosition": [
+            2.579999999999998,
+            0,
+            -4.842228795520356
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.37500000000000033,
+          "headPosition": [
+            2.579999999999998,
+            0,
+            -5.021434560446851
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.50469179117941,
+          "headTailDistance": 1.3416000000000001,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.3833333333333337,
+          "headPosition": [
+            2.5799999999999974,
+            0,
+            -5.2006403253733495
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179837,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.39166666666666705,
+          "headPosition": [
+            2.5799999999999974,
+            0,
+            -5.379846090299846
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.4000000000000004,
+          "headPosition": [
+            2.5799999999999974,
+            0,
+            -5.559051855226343
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.40833333333333377,
+          "headPosition": [
+            2.5799999999999974,
+            0,
+            -5.73825762015284
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.41666666666666713,
+          "headPosition": [
+            2.5799999999999974,
+            0,
+            -5.917463385079337
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.4250000000000005,
+          "headPosition": [
+            2.5799999999999974,
+            0,
+            -6.096669150005834
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.43333333333333385,
+          "headPosition": [
+            2.5799999999999974,
+            0,
+            -6.275874914932331
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.4416666666666672,
+          "headPosition": [
+            2.579999999999997,
+            0,
+            -6.455080679858828
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.45000000000000057,
+          "headPosition": [
+            2.579999999999997,
+            0,
+            -6.6342864447853245
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.4583333333333339,
+          "headPosition": [
+            2.579999999999997,
+            0,
+            -6.813492209711821
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.4666666666666673,
+          "headPosition": [
+            2.579999999999997,
+            0,
+            -6.992697974638318
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.47500000000000064,
+          "headPosition": [
+            2.579999999999997,
+            0,
+            -7.171903739564815
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.483333333333334,
+          "headPosition": [
+            2.579999999999997,
+            0,
+            -7.351109504491312
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.49166666666666736,
+          "headPosition": [
+            2.579999999999997,
+            0,
+            -7.530315269417809
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.5000000000000007,
+          "headPosition": [
+            2.5799999999999965,
+            0,
+            -7.7095210343443075
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179837,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.508333333333334,
+          "headPosition": [
+            2.5799999999999965,
+            0,
+            -7.888726799270803
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.50469179117941,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.5166666666666673,
+          "headPosition": [
+            2.5799999999999965,
+            0,
+            -8.0679325641973
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.5250000000000006,
+          "headPosition": [
+            2.5799999999999965,
+            0,
+            -8.247138329123796
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.5333333333333339,
+          "headPosition": [
+            2.5799999999999965,
+            0,
+            -8.426344094050293
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.5416666666666672,
+          "headPosition": [
+            2.5799999999999965,
+            0,
+            -8.605549858976788
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.50469179117941,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.5500000000000005,
+          "headPosition": [
+            2.5799999999999965,
+            0,
+            -8.784755623903287
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179837,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.5583333333333338,
+          "headPosition": [
+            2.5799999999999965,
+            0,
+            -8.963961388829784
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.5666666666666671,
+          "headPosition": [
+            2.579999999999996,
+            0,
+            -9.14316715375628
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.5750000000000004,
+          "headPosition": [
+            2.579999999999996,
+            0,
+            -9.322372918682778
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.5833333333333337,
+          "headPosition": [
+            2.579999999999996,
+            0,
+            -9.501578683609274
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.591666666666667,
+          "headPosition": [
+            2.579999999999996,
+            0,
+            -9.680784448535771
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.6000000000000003,
+          "headPosition": [
+            2.579999999999996,
+            0,
+            -9.859990213462268
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.6083333333333336,
+          "headPosition": [
+            2.579999999999996,
+            0,
+            -10.039195978388767
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179837,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.6166666666666669,
+          "headPosition": [
+            2.579999999999996,
+            0,
+            -10.218401743315262
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.50469179117941,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.6250000000000002,
+          "headPosition": [
+            2.5799999999999956,
+            0,
+            -10.397607508241759
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.6333333333333335,
+          "headPosition": [
+            2.5799999999999956,
+            0,
+            -10.576813273168256
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.6416666666666668,
+          "headPosition": [
+            2.5799999999999956,
+            0,
+            -10.756019038094752
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.6500000000000001,
+          "headPosition": [
+            2.5799999999999956,
+            0,
+            -10.935224803021248
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.50469179117941,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.6583333333333334,
+          "headPosition": [
+            2.5799999999999956,
+            0,
+            -11.114430567947746
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179837,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.6666666666666667,
+          "headPosition": [
+            2.5799999999999956,
+            0,
+            -11.293636332874243
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.675,
+          "headPosition": [
+            2.5799999999999956,
+            0,
+            -11.47284209780074
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.9995,
+          "scale": 1
+        },
+        {
+          "time": 0.6833333333333333,
+          "headPosition": [
+            2.5799999999999956,
+            0,
+            -11.652047862727237
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.9956931463621028,
+          "scale": 0.9998096097205352
+        },
+        {
+          "time": 0.6916666666666667,
+          "headPosition": [
+            2.579999999999995,
+            0,
+            -11.831253627653734
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.9742264603026731,
+          "scale": 0.9987360070168879
+        },
+        {
+          "time": 0.7,
+          "headPosition": [
+            2.579999999999995,
+            0,
+            -12.01045939258023
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.9432609056760377,
+          "scale": 0.9971873421193317
+        },
+        {
+          "time": 0.7083333333333333,
+          "headPosition": [
+            2.579999999999995,
+            0,
+            -12.189665157506727
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.9096534563436045,
+          "scale": 0.9955065494545439
+        },
+        {
+          "time": 0.7166666666666666,
+          "headPosition": [
+            2.579999999999995,
+            0,
+            -12.368870922433226
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179837,
+          "headTailDistance": 1.341600000000005,
+          "headY": -1.8765662825044571,
+          "scale": 0.9938517770694902
+        },
+        {
+          "time": 0.7249999999999999,
+          "headPosition": [
+            2.579999999999995,
+            0,
+            -12.548076687359721
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.50469179117941,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8573906132842402,
+          "scale": 0.9928927538526752
+        },
+        {
+          "time": 0.7333333333333332,
+          "headPosition": [
+            2.579999999999995,
+            0,
+            -12.727282452286218
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8451897583765757,
+          "scale": 0.9922825585584684
+        },
+        {
+          "time": 0.7416666666666665,
+          "headPosition": [
+            2.579999999999995,
+            0,
+            -12.906488217212715
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8413743308507757,
+          "scale": 0.9920917394774081
+        },
+        {
+          "time": 0.7499999999999998,
+          "headPosition": [
+            2.5799999999999947,
+            0,
+            -13.085693982139212
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8415118939427886,
+          "scale": 0.9920986193519774
+        },
+        {
+          "time": 0.7583333333333331,
+          "headPosition": [
+            2.5799999999999947,
+            0,
+            -13.264899747065707
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.50469179117941,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.8410891288255578,
+          "scale": 0.9920774758102304
+        },
+        {
+          "time": 0.7666666666666664,
+          "headPosition": [
+            2.5799999999999947,
+            0,
+            -13.444105511992205
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179837,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8409432854496057,
+          "scale": 0.9920701818179348
+        },
+        {
+          "time": 0.7749999999999997,
+          "headPosition": [
+            2.5799999999999947,
+            0,
+            -13.623311276918702
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8410747732372774,
+          "scale": 0.9920767578513267
+        },
+        {
+          "time": 0.783333333333333,
+          "headPosition": [
+            2.5799999999999947,
+            0,
+            -13.8025170418452
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8414832230721294,
+          "scale": 0.9920971854499689
+        },
+        {
+          "time": 0.7916666666666663,
+          "headPosition": [
+            2.5799999999999947,
+            0,
+            -13.981722806771696
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8413999953217235,
+          "scale": 0.9920930230218417
+        },
+        {
+          "time": 0.7999999999999996,
+          "headPosition": [
+            2.5799999999999947,
+            0,
+            -14.160928571698193
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8410354182542308,
+          "scale": 0.9920747896101141
+        },
+        {
+          "time": 0.8083333333333329,
+          "headPosition": [
+            2.5799999999999943,
+            0,
+            -14.34013433662469
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8409479137235998,
+          "scale": 0.9920704132895024
+        },
+        {
+          "time": 0.8166666666666662,
+          "headPosition": [
+            2.5799999999999943,
+            0,
+            -14.519340101551187
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.841137727365775,
+          "scale": 0.992079906344875
+        },
+        {
+          "time": 0.8249999999999995,
+          "headPosition": [
+            2.5799999999999943,
+            0,
+            -14.698545866477684
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.841604326290608,
+          "scale": 0.9921032421250616
+        },
+        {
+          "time": 0.8333333333333328,
+          "headPosition": [
+            2.5799999999999943,
+            0,
+            -14.87775163140418
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8413003180499226,
+          "scale": 0.9920880379119741
+        },
+        {
+          "time": 0.8416666666666661,
+          "headPosition": [
+            2.5799999999999943,
+            0,
+            -15.056957396330677
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8409939743570698,
+          "scale": 0.9920727168970778
+        },
+        {
+          "time": 0.8499999999999994,
+          "headPosition": [
+            2.5799999999999943,
+            0,
+            -15.236163161257174
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.840964819545072,
+          "scale": 0.9920712587919516
+        },
+        {
+          "time": 0.8583333333333327,
+          "headPosition": [
+            2.5799999999999943,
+            0,
+            -15.415368926183671
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8412129354528524,
+          "scale": 0.992083667689565
+        },
+        {
+          "time": 0.866666666666666,
+          "headPosition": [
+            2.5799999999999943,
+            0,
+            -15.594574691110168
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8417375210120663,
+          "scale": 0.992109903526485
+        },
+        {
+          "time": 0.8749999999999993,
+          "headPosition": [
+            2.579999999999994,
+            0,
+            -15.773780456036665
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8412128745230671,
+          "scale": 0.9920836646423139
+        },
+        {
+          "time": 0.8833333333333326,
+          "headPosition": [
+            2.579999999999994,
+            0,
+            -15.952986220963162
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8409648022841543,
+          "scale": 0.9920712579286899
+        },
+        {
+          "time": 0.8916666666666659,
+          "headPosition": [
+            2.579999999999994,
+            0,
+            -16.13219198588966
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.6989576671667053,
+          "scale": 0.9849691256397451
+        },
+        {
+          "time": 0.8999999999999992,
+          "headPosition": [
+            2.579999999999994,
+            0,
+            -16.311397750816155
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.4526983956858217,
+          "scale": 0.9726530830550548
+        },
+        {
+          "time": 0.9083333333333325,
+          "headPosition": [
+            2.5826027595765124,
+            0,
+            -16.490574921252296
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.503528821706837,
+          "headTailDistance": 1.341583621685815,
+          "headY": -1.1696038421792088,
+          "scale": 0.9584948158129136
+        },
+        {
+          "time": 0.9166666666666659,
+          "headPosition": [
+            2.591573338584706,
+            0,
+            -16.660843739680086
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 20.4605953519966,
+          "headTailDistance": 1.341394881461126,
+          "headY": -0.8878583779344598,
+          "scale": 0.9444040199016984
+        },
+        {
+          "time": 0.9249999999999992,
+          "headPosition": [
+            2.6078077597065503,
+            0,
+            -16.82129865712312
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 19.352892606421722,
+          "headTailDistance": 1.3408141564276597,
+          "headY": -0.6298731315298912,
+          "scale": 0.9315015319594844
+        },
+        {
+          "time": 0.9333333333333325,
+          "headPosition": [
+            2.6319996072841634,
+            0,
+            -16.971905600007588
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 18.30450307910127,
+          "headTailDistance": 1.3396048017892697,
+          "headY": -0.41099728588471746,
+          "scale": 0.9205550030449972
+        },
+        {
+          "time": 0.9416666666666658,
+          "headPosition": [
+            2.665546166122886,
+            0,
+            -17.112219774791523
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 17.312236287525593,
+          "headTailDistance": 1.3373795292913173,
+          "headY": -0.23326070615311711,
+          "scale": 0.9116659517956047
+        },
+        {
+          "time": 0.9499999999999991,
+          "headPosition": [
+            2.7103562488832513,
+            0,
+            -17.241078687109535
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.37134399892436,
+          "headTailDistance": 1.3334587470713295,
+          "headY": -0.10970673557180755,
+          "scale": 0.9054867084557043
+        },
+        {
+          "time": 0.9583333333333324,
+          "headPosition": [
+            2.7687312711789085,
+            0,
+            -17.356090167428682
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.477341089423867,
+          "headTailDistance": 1.326599148510088,
+          "headY": -0.03461795179791279,
+          "scale": 0.9017313304225013
+        },
+        {
+          "time": 0.9666666666666657,
+          "headPosition": [
+            2.842958227635473,
+            0,
+            -17.452763042133576
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.625871429305782,
+          "headTailDistance": 1.314466882629979,
+          "headY": -0.006274691717445547,
+          "scale": 0.900313813039132
+        },
+        {
+          "time": 0.974999999999999,
+          "headPosition": [
+            2.8916394319603467,
+            0,
+            -17.49629557036357
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 7.836781586088942,
+          "headTailDistance": 1.5107517963686996,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.9833333333333323,
+          "headPosition": [
+            3.0118723318698644,
+            0,
+            -17.49629557036357
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.427947989142123,
+          "headTailDistance": 1.4250440714442512,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.9916666666666656,
+          "headPosition": [
+            3.1438183791556735,
+            0,
+            -17.49629557036357
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.8335256742971,
+          "headTailDistance": 1.3495055656250712,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.9999999999999989,
+          "headPosition": [
+            3.2801744162305493,
+            0,
+            -17.495590544121768
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.36294316699285,
+          "headTailDistance": 1.2939444243114122,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.0083333333333322,
+          "headPosition": [
+            3.4239024433109475,
+            0,
+            -17.479742585231293
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 17.351893596942595,
+          "headTailDistance": 1.250946599761384,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.0166666666666655,
+          "headPosition": [
+            3.558940544192959,
+            0,
+            -17.44360218263826
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.77487437829145,
+          "headTailDistance": 1.2235486515083986,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.0249999999999988,
+          "headPosition": [
+            3.6810458041324075,
+            0,
+            -17.3861290193616
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.194603101880627,
+          "headTailDistance": 1.2106716146286882,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.033333333333332,
+          "headPosition": [
+            3.7874718341751668,
+            0,
+            -17.310714151089087
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.652481978012618,
+          "headTailDistance": 1.2122156949292155,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.0416666666666654,
+          "headPosition": [
+            3.878412666389796,
+            0,
+            -17.222980783422017
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.163451263870098,
+          "headTailDistance": 1.2300670727045913,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.0499999999999987,
+          "headPosition": [
+            3.9526627941590853,
+            0,
+            -17.123157949036816
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.929118802986782,
+          "headTailDistance": 1.2602959409482382,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.058333333333332,
+          "headPosition": [
+            4.007713928000501,
+            0,
+            -17.014577327801206
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.608677301178457,
+          "headTailDistance": 1.2974465614070212,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.0666666666666653,
+          "headPosition": [
+            4.046182694210707,
+            0,
+            -16.899784156196922
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.528089426286062,
+          "headTailDistance": 1.4014301716929316,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.0749999999999986,
+          "headPosition": [
+            4.066890049571846,
+            0,
+            -16.782390654962846
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.304698992005575,
+          "headTailDistance": 1.3750906306237836,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.083333333333332,
+          "headPosition": [
+            4.073371073312732,
+            0,
+            -16.663198990860113
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.324128351437073,
+          "headTailDistance": 1.3493811503296465,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.0916666666666652,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -16.545048457254897
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.178176951717534,
+          "headTailDistance": 1.3303443775735533,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.0999999999999985,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -16.426886598926444
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.1794229994143,
+          "headTailDistance": 1.3311789300176244,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.1083333333333318,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -16.310025878340397
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.023286470325615,
+          "headTailDistance": 1.3381552266383345,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.1166666666666651,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -16.193596000150503
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.97158538278731,
+          "headTailDistance": 1.3519022177085918,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.1249999999999984,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -16.07812416324358
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.856620428830837,
+          "headTailDistance": 1.3657108200317452,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.1333333333333317,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -15.963775346460395
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.721858013982171,
+          "headTailDistance": 1.3770447965397743,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.141666666666665,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -15.850513831034327
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.59138185112812,
+          "headTailDistance": 1.3863110772996492,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.1499999999999984,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -15.744673612840192
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.700826183296243,
+          "headTailDistance": 1.3838004248718232,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.1583333333333317,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -15.638833394646092
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.70082618329198,
+          "headTailDistance": 1.3773323396392305,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.166666666666665,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -15.535166687516346
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.440004855569455,
+          "headTailDistance": 1.364897764467034,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.1749999999999983,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -15.432903103295784
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.271630106467484,
+          "headTailDistance": 1.349505461408386,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.1833333333333316,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -15.330639519075234
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.271630106465992,
+          "headTailDistance": 1.3325595552176337,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.1916666666666649,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -15.229643676646704
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.119501091423572,
+          "headTailDistance": 1.3154047806081248,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.1999999999999982,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -15.128648510439614
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.119419944850804,
+          "headTailDistance": 1.298238088486773,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.2083333333333315,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -15.027662800495548
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.118285193287903,
+          "headTailDistance": 1.282363077844849,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.2166666666666648,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -14.926694013128495
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.116254484046394,
+          "headTailDistance": 1.266901987022008,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.224999999999998,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -14.825725225761444
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.11625448404618,
+          "headTailDistance": 1.2523989374821358,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.2333333333333314,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -14.724971615448398
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.090433237565463,
+          "headTailDistance": 1.2388037310119966,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.2416666666666647,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -14.624303018713645
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.080231608170351,
+          "headTailDistance": 1.2262108123206819,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.249999999999998,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -14.523590957806507
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.08544730885663,
+          "headTailDistance": 1.221082655033685,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.2583333333333313,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -14.422276017284355
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.157792862658141,
+          "headTailDistance": 1.2165573773617364,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.2666666666666646,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -14.320961076762204
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.157792862658141,
+          "headTailDistance": 1.2142056107541421,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.274999999999998,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -14.218948503246093
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.241508821933351,
+          "headTailDistance": 1.213954600049691,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.2833333333333312,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -14.1160283106148
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.350423115755191,
+          "headTailDistance": 1.2146112084604344,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.2916666666666645,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -14.013108117983531
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.350423115752207,
+          "headTailDistance": 1.216535558663173,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.2999999999999978,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -13.909142099836517
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.47592217764172,
+          "headTailDistance": 1.2195064106030973,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.3083333333333311,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -13.80498131267214
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.499294459725192,
+          "headTailDistance": 1.222681487823408,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.3166666666666644,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -13.70051035303255
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.53651515675081,
+          "headTailDistance": 1.2261836600959448,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.3249999999999977,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -13.595250753567463
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.631151935810507,
+          "headTailDistance": 1.2304744721939809,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.333333333333331,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -13.48999115410234
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 12.63115193581477,
+          "headTailDistance": 1.2349804613460584,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.3416666666666643,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -13.379495062687653
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.259530969762423,
+          "headTailDistance": 1.2448079560259924,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.3499999999999976,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -13.267237496317184
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.470907964456202,
+          "headTailDistance": 1.2563534614893221,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 1.358333333333331,
+          "headPosition": [
+            4.073842622250522,
+            0,
+            -13.152418969599145
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.77822320616474,
+          "headTailDistance": 1.2698570476852105,
+          "headY": 0,
+          "scale": 0.9
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "fixture": "Single original arrow, 60 whites, no cannons; unchanged movement code",
+      "cellSize": 1.29,
+      "launchSpeed": 21.504691791179678,
+      "plannedRouteLength": 1.7206763084786316,
+      "takeoverDistance": 0.4500000000000002,
+      "remainingPlannedCurve": 1.2706763084786314,
+      "peakBefore": 20.095149343871554,
+      "peakDuring": null,
+      "events": [
+        {
+          "time": 0.13333333333333333,
+          "index": 0,
+          "entry": 0.3553113553113554,
+          "entryPosition": [
+            -10.305493858666752,
+            0,
+            -7.105328379292837
+          ],
+          "plannedEntryDistance": 0
+        },
+        {
+          "time": 0.2333333333333333,
+          "index": 1,
+          "entry": 0.35531135531135594,
+          "entryPosition": [
+            -10.305493858666695,
+            0,
+            -7.105328379292836
+          ],
+          "plannedEntryDistance": 5.685035733124713e-14
+        },
+        {
+          "time": 0.33333333333333354,
+          "index": 2,
+          "entry": 0.35531135531135594,
+          "entryPosition": [
+            -10.305493858666695,
+            0,
+            -7.105328379292836
+          ],
+          "plannedEntryDistance": 5.685035733124713e-14
+        },
+        {
+          "time": 0.43333333333333385,
+          "index": 3,
+          "entry": 0.35531135531135594,
+          "entryPosition": [
+            -10.305493858666695,
+            0,
+            -7.105328379292836
+          ],
+          "plannedEntryDistance": 5.685035733124713e-14
+        }
+      ],
+      "frames": [
+        {
+          "time": 0.008333333333333333,
+          "headPosition": [
+            -10.32,
+            0,
+            -5.488667267179844
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 2.240072061581202,
+          "headTailDistance": 1.3056794818210173,
+          "headY": -1.9382180527536277,
+          "scale": 0.9969351364217869
+        },
+        {
+          "time": 0.016666666666666666,
+          "headPosition": [
+            -10.32,
+            0,
+            -5.526001801539531
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 4.480144123162404,
+          "headTailDistance": 1.3345288694352648,
+          "headY": -1.9129604505063305,
+          "scale": 0.9956719405104442
+        },
+        {
+          "time": 0.025,
+          "headPosition": [
+            -10.32,
+            0,
+            -5.582003603079062
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 6.7202161847437125,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.8679403530937115,
+          "scale": 0.9934203727478725
+        },
+        {
+          "time": 0.03333333333333333,
+          "headPosition": [
+            -10.32,
+            0,
+            -5.656672671798435
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 8.960288246324808,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.7957101886995663,
+          "scale": 0.9898079614253347
+        },
+        {
+          "time": 0.041666666666666664,
+          "headPosition": [
+            -10.320000000000002,
+            0,
+            -5.750009007697653
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.200360307906116,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.6881946299572637,
+          "scale": 0.984430839207665
+        },
+        {
+          "time": 0.049999999999999996,
+          "headPosition": [
+            -10.320000000000002,
+            0,
+            -5.862012610776714
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.440432369487318,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.538280395421781,
+          "scale": 0.9769332530843601
+        },
+        {
+          "time": 0.05833333333333333,
+          "headPosition": [
+            -10.315574739234261,
+            0,
+            -5.992515905462671
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.669396195673242,
+          "headTailDistance": 1.341532291793602,
+          "headY": -1.3419899519599043,
+          "scale": 0.967116276667162
+        },
+        {
+          "time": 0.06666666666666667,
+          "headPosition": [
+            -10.292770801780122,
+            0,
+            -6.140061943899515
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 17.91574401229804,
+          "headTailDistance": 1.3400498356955568,
+          "headY": -1.1031314485871921,
+          "scale": 0.9551703650206148
+        },
+        {
+          "time": 0.075,
+          "headPosition": [
+            -10.259403717067691,
+            0,
+            -6.3041635827600615
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 20.095149343871554,
+          "headTailDistance": 1.337788310995458,
+          "headY": -0.8328345427732545,
+          "scale": 0.9416521401737061
+        },
+        {
+          "time": 0.08333333333333333,
+          "headPosition": [
+            -10.226656920837101,
+            0,
+            -6.459352959365677
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 19.032807779052057,
+          "headTailDistance": 1.3362620454345542,
+          "headY": -0.5835759588175914,
+          "scale": 0.9291860944644957
+        },
+        {
+          "time": 0.09166666666666666,
+          "headPosition": [
+            -10.198243843045061,
+            0,
+            -6.606854411024528
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 18.025574324487565,
+          "headTailDistance": 1.3358465271006514,
+          "headY": -0.37175025284169516,
+          "scale": 0.9185921606822554
+        },
+        {
+          "time": 0.09999999999999999,
+          "headPosition": [
+            -10.17730648645688,
+            0,
+            -6.7475579995347985
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 17.070341741634234,
+          "headTailDistance": 1.336376932074526,
+          "headY": -0.20452492848331957,
+          "scale": 0.9102288036250723
+        },
+        {
+          "time": 0.10833333333333332,
+          "headPosition": [
+            -10.168780417345689,
+            0,
+            -6.881954706140252
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.160025614233724,
+          "headTailDistance": 1.337045744127394,
+          "headY": -0.08570962588839137,
+          "scale": 0.9042865529326527
+        },
+        {
+          "time": 0.11666666666666665,
+          "headPosition": [
+            -10.184730453648596,
+            0,
+            -7.008082796753885
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.255912432844811,
+          "headTailDistance": 1.3343364997868457,
+          "headY": -0.017207966040149715,
+          "scale": 0.9008606134553713
+        },
+        {
+          "time": 0.12499999999999999,
+          "headPosition": [
+            -10.25962344718964,
+            0,
+            -7.097158554119682
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.965160036975556,
+          "headTailDistance": 1.3015628009711477,
+          "headY": -0.00392374417257516,
+          "scale": 0.9001962362676956
+        },
+        {
+          "time": 0.13333333333333333,
+          "headPosition": [
+            -10.305493858666752,
+            0,
+            -7.105328379292837
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 5.591073776219515,
+          "headTailDistance": 1.3739558522339461,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.14166666666666666,
+          "headPosition": [
+            -10.195995563045269,
+            0,
+            -7.104332386539449
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.140339034297142,
+          "headTailDistance": 1.2694515640293575,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.15,
+          "headPosition": [
+            -10.086900615987508,
+            0,
+            -7.1033400626308065
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.0919352043907,
+          "headTailDistance": 1.1760717142764001,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.15833333333333333,
+          "headPosition": [
+            -9.976673311404571,
+            0,
+            -7.1023374388368286
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.227823728539827,
+          "headTailDistance": 1.0934543322810673,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.16666666666666666,
+          "headPosition": [
+            -9.864449216147467,
+            0,
+            -7.1013166523031455
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.467448521694532,
+          "headTailDistance": 1.022490989085605,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.175,
+          "headPosition": [
+            -9.752225120890365,
+            0,
+            -7.100295865769463
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.467448521694102,
+          "headTailDistance": 0.9669705369272056,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.18333333333333332,
+          "headPosition": [
+            -9.627622659221966,
+            0,
+            -7.099162486038101
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.952913938411477,
+          "headTailDistance": 0.927096779184428,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.19166666666666665,
+          "headPosition": [
+            -9.50289498778771,
+            0,
+            -7.096150749881645
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.971683308688567,
+          "headTailDistance": 0.9126165527032725,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.19999999999999998,
+          "headPosition": [
+            -9.370809193510995,
+            0,
+            -7.0804863076283775
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.961367671091397,
+          "headTailDistance": 0.9238933973454924,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.20833333333333331,
+          "headPosition": [
+            -9.240369719737545,
+            0,
+            -7.047749008780882
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.138187431660217,
+          "headTailDistance": 0.9695856891463813,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.21666666666666665,
+          "headPosition": [
+            -9.119666450096805,
+            0,
+            -6.999964546470679
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.578123494807217,
+          "headTailDistance": 1.056855690879557,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.22499999999999998,
+          "headPosition": [
+            -9.008391152832024,
+            0,
+            -6.934448077352208
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.495619797300238,
+          "headTailDistance": 1.2054167852562618,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.2333333333333333,
+          "headPosition": [
+            -8.910779266301804,
+            0,
+            -6.858384332158218
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.84985998718228,
+          "headTailDistance": 1.4164074825313762,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.24166666666666664,
+          "headPosition": [
+            -8.82511546279026,
+            0,
+            -6.770847773803994
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.697397131470701,
+          "headTailDistance": 1.41085939632782,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.24999999999999997,
+          "headPosition": [
+            -8.753357818057598,
+            0,
+            -6.674891260366024
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.378389809085094,
+          "headTailDistance": 1.4006801098298138,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.2583333333333333,
+          "headPosition": [
+            -8.696405825725265,
+            0,
+            -6.571274914749577
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.188383337689336,
+          "headTailDistance": 1.386041932763052,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.26666666666666666,
+          "headPosition": [
+            -8.653353886728837,
+            0,
+            -6.462364894617926
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.053256273354346,
+          "headTailDistance": 1.3693105000651422,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.275,
+          "headPosition": [
+            -8.624069115126245,
+            0,
+            -6.350795101870699
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.841892848206967,
+          "headTailDistance": 1.3544324894310846,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.2833333333333334,
+          "headPosition": [
+            -8.607965009549824,
+            0,
+            -6.236711008057179
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.825813775631033,
+          "headTailDistance": 1.3354865309715387,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.29166666666666674,
+          "headPosition": [
+            -8.602780025785375,
+            0,
+            -6.123137322162972
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.643037530292274,
+          "headTailDistance": 1.3255044607021544,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3000000000000001,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -6.009327312280855
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.65734165091353,
+          "headTailDistance": 1.3183487939291052,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.30833333333333346,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -5.897388470365658
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.432661029823691,
+          "headTailDistance": 1.3154879219313407,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3166666666666668,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -5.786134689447527
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.350453710175678,
+          "headTailDistance": 1.319503078872257,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3250000000000002,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -5.675033394662628
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.332155374187913,
+          "headTailDistance": 1.3232780249254181,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.33333333333333354,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -5.564233666341806
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.295967398498583,
+          "headTailDistance": 1.3304163669986906,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3416666666666669,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -5.453433938021019
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.295967398494533,
+          "headTailDistance": 1.3361295061582932,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.35000000000000026,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -5.342907260555166
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.263201295902292,
+          "headTailDistance": 1.3405263010262576,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3583333333333336,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -5.2324015955771594
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.260679797360808,
+          "headTailDistance": 1.3421790032959182,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.366666666666667,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -5.122841265084174
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.14723965915821,
+          "headTailDistance": 1.3404975741139233,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.37500000000000033,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -5.014171739063359
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.04034312249783,
+          "headTailDistance": 1.3368012132348548,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.3833333333333337,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -4.905454397667485
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.04608096750485,
+          "headTailDistance": 1.3312688180667873,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.39166666666666705,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -4.795992842798377
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.135386584293016,
+          "headTailDistance": 1.3271445797455987,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.4000000000000004,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -4.686531287929234
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.135386584297173,
+          "headTailDistance": 1.3227960243516215,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.40833333333333377,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -4.5715342209312855
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.799648039753798,
+          "headTailDistance": 1.3258542494343724,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.41666666666666713,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -4.453196706145424
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.200501774303369,
+          "headTailDistance": 1.3329379833021031,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.4250000000000005,
+          "headPosition": [
+            -8.602263847327432,
+            0,
+            -4.330659027281948
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.70452146361712,
+          "headTailDistance": 1.3443743673806798,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.43333333333333385,
+          "headPosition": [
+            -8.601542332433649,
+            0,
+            -4.20097773811744
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.561995557793805,
+          "headTailDistance": 1.3632561191583263,
+          "headY": 0,
+          "scale": 0.9
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "fixture": "Single original arrow, 60 whites, no cannons; unchanged movement code",
+      "cellSize": 1.29,
+      "launchSpeed": 21.504691791179678,
+      "plannedRouteLength": 3.075366149291504,
+      "takeoverDistance": 1.8000000000000007,
+      "remainingPlannedCurve": 1.2753661492915032,
+      "peakBefore": 21.504691791179837,
+      "peakDuring": null,
+      "events": [
+        {
+          "time": 0.19999999999999998,
+          "index": 0,
+          "entry": 0.5620335811384569,
+          "entryPosition": [
+            2.9004598426198975,
+            0,
+            -17.49629557036357
+          ],
+          "plannedEntryDistance": 0
+        },
+        {
+          "time": 0.29166666666666674,
+          "index": 1,
+          "entry": 0.5612017573596203,
+          "entryPosition": [
+            2.786862474301162,
+            0,
+            -17.49629557036357
+          ],
+          "plannedEntryDistance": 0.11359736831873546
+        }
+      ],
+      "frames": [
+        {
+          "time": 0.008333333333333333,
+          "headPosition": [
+            2.58,
+            0,
+            -14.518667267179843
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 2.240072061581202,
+          "headTailDistance": 1.3056794818210165,
+          "headY": -1.8411484477893856,
+          "scale": 0.9920804425000943
+        },
+        {
+          "time": 0.016666666666666666,
+          "headPosition": [
+            2.58,
+            0,
+            -14.55600180153953
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 4.480144123162404,
+          "headTailDistance": 1.334528869435264,
+          "headY": -1.840988351599398,
+          "scale": 0.9920724356888921
+        },
+        {
+          "time": 0.025,
+          "headPosition": [
+            2.5799999999999996,
+            0,
+            -14.61200360307906
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 6.720216184743606,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.8412710834733483,
+          "scale": 0.9920865758176218
+        },
+        {
+          "time": 0.03333333333333333,
+          "headPosition": [
+            2.5799999999999996,
+            0,
+            -14.686672671798435
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 8.960288246325021,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.841517975642198,
+          "scale": 0.9920989235129881
+        },
+        {
+          "time": 0.041666666666666664,
+          "headPosition": [
+            2.5799999999999996,
+            0,
+            -14.780009007697652
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 11.20036030790601,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.8413510613568067,
+          "scale": 0.9920905757117683
+        },
+        {
+          "time": 0.049999999999999996,
+          "headPosition": [
+            2.579999999999999,
+            0,
+            -14.892012610776712
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 13.440432369487212,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.841668278701017,
+          "scale": 0.9921064405451872
+        },
+        {
+          "time": 0.05833333333333333,
+          "headPosition": [
+            2.5799999999999987,
+            0,
+            -15.022683481035617
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.680504431068627,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.8410919335822276,
+          "scale": 0.9920776160831322
+        },
+        {
+          "time": 0.06666666666666667,
+          "headPosition": [
+            2.5799999999999987,
+            0,
+            -15.172021618474364
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 17.920576492649616,
+          "headTailDistance": 1.3415999999999997,
+          "headY": -1.8411862422869782,
+          "scale": 0.9920823326975233
+        },
+        {
+          "time": 0.075,
+          "headPosition": [
+            2.5799999999999983,
+            0,
+            -15.340027023092956
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 20.16064855423103,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.8409494355506868,
+          "scale": 0.9920704893998843
+        },
+        {
+          "time": 0.08333333333333333,
+          "headPosition": [
+            2.579999999999998,
+            0,
+            -15.519232788019453
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000015,
+          "headY": -1.841146916394697,
+          "scale": 0.9920803659112126
+        },
+        {
+          "time": 0.09166666666666666,
+          "headPosition": [
+            2.5799999999999974,
+            0,
+            -15.698438552945952
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179837,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8416211567180796,
+          "scale": 0.9921040838568682
+        },
+        {
+          "time": 0.09999999999999999,
+          "headPosition": [
+            2.579999999999997,
+            0,
+            -15.877644317872448
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.8412881220369743,
+          "scale": 0.9920874279588384
+        },
+        {
+          "time": 0.10833333333333332,
+          "headPosition": [
+            2.5799999999999965,
+            0,
+            -16.056850082798945
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.7858321602432687,
+          "scale": 0.9893139364962875
+        },
+        {
+          "time": 0.11666666666666665,
+          "headPosition": [
+            2.579999999999996,
+            0,
+            -16.236055847725442
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504691791179624,
+          "headTailDistance": 1.3416000000000032,
+          "headY": -1.5620760492923154,
+          "scale": 0.9781233332979402
+        },
+        {
+          "time": 0.12499999999999999,
+          "headPosition": [
+            2.581344160218618,
+            0,
+            -16.415251209186717
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 21.504048326708094,
+          "headTailDistance": 1.3415956321037312,
+          "headY": -1.2916006013929793,
+          "scale": 0.9645961791144275
+        },
+        {
+          "time": 0.13333333333333333,
+          "headPosition": [
+            2.588293757384046,
+            0,
+            -16.588230855155132
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 20.77430310286544,
+          "headTailDistance": 1.34148105066276,
+          "headY": -1.0081892965999832,
+          "scale": 0.9504220703475861
+        },
+        {
+          "time": 0.14166666666666666,
+          "headPosition": [
+            2.6020959982514444,
+            0,
+            -16.75164163427637
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 19.67911629210009,
+          "headTailDistance": 1.3410556010386447,
+          "headY": -0.7398832502477951,
+          "scale": 0.9370034133657312
+        },
+        {
+          "time": 0.15,
+          "headPosition": [
+            2.6233440124136496,
+            0,
+            -16.90552042401984
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 18.640662664133778,
+          "headTailDistance": 1.340114621935633,
+          "headY": -0.5039374961367034,
+          "scale": 0.9252031756007354
+        },
+        {
+          "time": 0.15833333333333333,
+          "headPosition": [
+            2.653121318809797,
+            0,
+            -17.04961450214799
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 17.656641671633867,
+          "headTailDistance": 1.3383678605476874,
+          "headY": -0.30765781870300496,
+          "scale": 0.9153867376195551
+        },
+        {
+          "time": 0.16666666666666666,
+          "headPosition": [
+            2.693120246048321,
+            0,
+            -17.183111258449472
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.723238112722168,
+          "headTailDistance": 1.3353054379083718,
+          "headY": -0.1596961103509665,
+          "scale": 0.9079868022181028
+        },
+        {
+          "time": 0.175,
+          "headPosition": [
+            2.7455313350369406,
+            0,
+            -17.304219496939975
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.835511945659903,
+          "headTailDistance": 1.329992215045958,
+          "headY": -0.06532254361854294,
+          "scale": 0.9032669439169063
+        },
+        {
+          "time": 0.18333333333333332,
+          "headPosition": [
+            2.8126604460334463,
+            0,
+            -17.409569994606038
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.990418492624645,
+          "headTailDistance": 1.320735511674989,
+          "headY": -0.01494633615394525,
+          "scale": 0.9007475036836181
+        },
+        {
+          "time": 0.19166666666666665,
+          "headPosition": [
+            2.8962766169383656,
+            0,
+            -17.49309984782579
+          ],
+          "reserved": false,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.182812344040919,
+          "headTailDistance": 1.3042934830109527,
+          "headY": -0.0003476716745040501,
+          "scale": 0.9000173879307078
+        },
+        {
+          "time": 0.19999999999999998,
+          "headPosition": [
+            2.9004598426198975,
+            0,
+            -17.49629557036357
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 0.6317064847158886,
+          "headTailDistance": 1.4828580360663839,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.20833333333333331,
+          "headPosition": [
+            3.0221174488051856,
+            0,
+            -17.49629557036357
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.598912742234571,
+          "headTailDistance": 1.4246335678738622,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.21666666666666665,
+          "headPosition": [
+            3.1540634960909366,
+            0,
+            -17.49629557036357
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.833525674290119,
+          "headTailDistance": 1.350318642666843,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.22499999999999998,
+          "headPosition": [
+            3.2913956588736295,
+            0,
+            -17.494917007709976
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.480689807216567,
+          "headTailDistance": 1.2955621666927712,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.2333333333333333,
+          "headPosition": [
+            3.434936506030346,
+            0,
+            -17.4775892844536
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 17.349952076542763,
+          "headTailDistance": 1.2525178975270512,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.24166666666666664,
+          "headPosition": [
+            3.5689422802362514,
+            0,
+            -17.440398209561657
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.688511600464793,
+          "headTailDistance": 1.2250095281825244,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.24999999999999997,
+          "headPosition": [
+            3.689877838160794,
+            0,
+            -17.380446942540242
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 16.19758363667572,
+          "headTailDistance": 1.210366836704578,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.2583333333333333,
+          "headPosition": [
+            3.7950325939003586,
+            0,
+            -17.30443329817227
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.570247066131317,
+          "headTailDistance": 1.2122048003809782,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.26666666666666666,
+          "headPosition": [
+            3.885128629499207,
+            0,
+            -17.215801405664234
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 15.166076460398898,
+          "headTailDistance": 1.2306195396607529,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.275,
+          "headPosition": [
+            3.9571599804275537,
+            0,
+            -17.1148356914661
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.883188832554076,
+          "headTailDistance": 1.260459573875146,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.2833333333333334,
+          "headPosition": [
+            4.011133524316856,
+            0,
+            -17.005752005200854
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.604741500905407,
+          "headTailDistance": 1.2984790465747154,
+          "headY": 0,
+          "scale": 0.9
+        },
+        {
+          "time": 0.29166666666666674,
+          "headPosition": [
+            4.048374349499768,
+            0,
+            -16.890773302631203
+          ],
+          "reserved": true,
+          "transferring": false,
+          "handoff": 0,
+          "headSpeed": 14.503121316138293,
+          "headTailDistance": 1.399310340127183,
+          "headY": 0,
+          "scale": 0.9
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2150 @@
+[
+  {
+    "actionIndex": 2,
+    "design": {
+      "x": 260.8074374124408,
+      "y": 1344.3285057181492
+    },
+    "css": {
+      "x": 77.40553356784706,
+      "y": 397.69718294161913
+    },
+    "viewport": {
+      "vw": 320,
+      "vh": 568,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 1832,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 0,
+        "clickLimit": null,
+        "remaining": 1440,
+        "total": 1440,
+        "removedPct": 0,
+        "lastCut": 0,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 0,
+        "beltLoad": 0,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 64,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": true,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "play",
+        "targets": {
+          "right": {
+            "x": 280.125,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 0,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "taps during pour"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 0,
+        "clickLimit": null,
+        "remaining": 1440,
+        "total": 1440,
+        "removedPct": 0,
+        "lastCut": 0,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 0,
+        "beltLoad": 0,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 79,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": true,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "play",
+        "targets": {
+          "right": {
+            "x": 280.125,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 0,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 1924,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 9,
+    "design": {
+      "x": 319.03668340295553,
+      "y": 1781.2006070045754
+    },
+    "css": {
+      "x": 247.17278056715924,
+      "y": 296.86676783409587
+    },
+    "viewport": {
+      "vw": 568,
+      "vh": 320,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 318,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 3,
+        "clickLimit": null,
+        "remaining": 1375,
+        "total": 1440,
+        "removedPct": 2.8,
+        "lastCut": 20,
+        "lastDrop": 0,
+        "loose": 25,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 40,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 207,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-3",
+        "targets": {
+          "right": {
+            "x": 626.625,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 3,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "taps during pour",
+      "tap off the sand",
+      "tap hint (280, 853)",
+      "tap picture",
+      "tap hint (453, 853)",
+      "tap picture",
+      "rotate → 568×320@2",
+      "burst ×6"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 3,
+        "clickLimit": null,
+        "remaining": 1375,
+        "total": 1440,
+        "removedPct": 2.8,
+        "lastCut": 20,
+        "lastDrop": 0,
+        "loose": 25,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 40,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 222,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-3",
+        "targets": {
+          "right": {
+            "x": 626.625,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 3,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 411,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 11,
+    "design": {
+      "x": 852.8976622596383,
+      "y": 1725.8962601376697
+    },
+    "css": {
+      "x": 336.14961037660635,
+      "y": 287.6493766896116
+    },
+    "viewport": {
+      "vw": 568,
+      "vh": 320,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 613,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 3,
+        "clickLimit": null,
+        "remaining": 1375,
+        "total": 1440,
+        "removedPct": 2.8,
+        "lastCut": 20,
+        "lastDrop": 0,
+        "loose": 25,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 40,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 256,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-3",
+        "targets": {
+          "right": {
+            "x": 626.625,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 3,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "tap hint (280, 853)",
+      "tap picture",
+      "tap hint (453, 853)",
+      "tap picture",
+      "rotate → 568×320@2",
+      "burst ×6",
+      "tap off the sand",
+      "wait 197"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 3,
+        "clickLimit": null,
+        "remaining": 1375,
+        "total": 1440,
+        "removedPct": 2.8,
+        "lastCut": 20,
+        "lastDrop": 0,
+        "loose": 25,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 40,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 271,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-3",
+        "targets": {
+          "right": {
+            "x": 626.625,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 3,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 704,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 12,
+    "design": {
+      "x": 201.48594301193953,
+      "y": 1527.8702144743875
+    },
+    "css": {
+      "x": 227.5809905019899,
+      "y": 254.64503574573124
+    },
+    "viewport": {
+      "vw": 568,
+      "vh": 320,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 713,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 3,
+        "clickLimit": null,
+        "remaining": 1375,
+        "total": 1440,
+        "removedPct": 2.8,
+        "lastCut": 20,
+        "lastDrop": 0,
+        "loose": 25,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 40,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 272,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-3",
+        "targets": {
+          "right": {
+            "x": 626.625,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 3,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "tap picture",
+      "tap hint (453, 853)",
+      "tap picture",
+      "rotate → 568×320@2",
+      "burst ×6",
+      "tap off the sand",
+      "wait 197",
+      "tap off the sand"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 3,
+        "clickLimit": null,
+        "remaining": 1375,
+        "total": 1440,
+        "removedPct": 2.8,
+        "lastCut": 20,
+        "lastDrop": 0,
+        "loose": 25,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 40,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 289,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-3",
+        "targets": {
+          "right": {
+            "x": 626.625,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 3,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 813,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 13,
+    "design": {
+      "x": 620.449534021318,
+      "y": 1640.076879952103
+    },
+    "css": {
+      "x": 297.40825567021966,
+      "y": 273.3461466586838
+    },
+    "viewport": {
+      "vw": 568,
+      "vh": 320,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 819,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 3,
+        "clickLimit": null,
+        "remaining": 1375,
+        "total": 1440,
+        "removedPct": 2.8,
+        "lastCut": 20,
+        "lastDrop": 0,
+        "loose": 25,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 40,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 290,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-3",
+        "targets": {
+          "right": {
+            "x": 626.625,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 3,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "tap hint (453, 853)",
+      "tap picture",
+      "rotate → 568×320@2",
+      "burst ×6",
+      "tap off the sand",
+      "wait 197",
+      "tap off the sand",
+      "tap off the sand"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 3,
+        "clickLimit": null,
+        "remaining": 1375,
+        "total": 1440,
+        "removedPct": 2.8,
+        "lastCut": 20,
+        "lastDrop": 0,
+        "loose": 25,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 40,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 307,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-3",
+        "targets": {
+          "right": {
+            "x": 626.625,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 3,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 921,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 15,
+    "design": {
+      "x": 225.32497957348824,
+      "y": 1560.6286656437442
+    },
+    "css": {
+      "x": 231.55416326224804,
+      "y": 260.10477760729066
+    },
+    "viewport": {
+      "vw": 568,
+      "vh": 320,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 959,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 7,
+        "clickLimit": null,
+        "remaining": 1285,
+        "total": 1440,
+        "removedPct": 2.8,
+        "lastCut": 25,
+        "lastDrop": 0,
+        "loose": 115,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 40,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 313,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-7",
+        "targets": {
+          "right": {
+            "x": 626.625,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 8,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "rotate → 568×320@2",
+      "burst ×6",
+      "tap off the sand",
+      "wait 197",
+      "tap off the sand",
+      "tap off the sand",
+      "tap off the sand",
+      "burst ×6"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 8,
+        "clickLimit": null,
+        "remaining": 1269,
+        "total": 1440,
+        "removedPct": 2.9,
+        "lastCut": 16,
+        "lastDrop": 0,
+        "loose": 131,
+        "funnel": 2,
+        "belt": 1,
+        "beltLoad": 35,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 330,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-8",
+        "targets": {
+          "right": {
+            "x": 626.625,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 8,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 1061,
+    "publishedFailure": true,
+    "actualFailure": false,
+    "canvasAfterFailure": {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 568,
+        "height": 320
+      },
+      "bitmap": {
+        "width": 1136,
+        "height": 640
+      },
+      "viewport": {
+        "innerWidth": 568,
+        "innerHeight": 320,
+        "dpr": 2,
+        "visual": {
+          "width": 568,
+          "height": 320,
+          "scale": 1
+        }
+      },
+      "currentUrl": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    }
+  },
+  {
+    "actionIndex": 16,
+    "design": {
+      "x": 371.56315106898546,
+      "y": 1237.5180066842586
+    },
+    "css": {
+      "x": 255.9271918448309,
+      "y": 206.2530011140431
+    },
+    "viewport": {
+      "vw": 568,
+      "vh": 320,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 1063,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 8,
+        "clickLimit": null,
+        "remaining": 1269,
+        "total": 1440,
+        "removedPct": 2.9,
+        "lastCut": 16,
+        "lastDrop": 0,
+        "loose": 131,
+        "funnel": 2,
+        "belt": 1,
+        "beltLoad": 35,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 330,
+        "muted": false,
+        "sounds": {
+          "bgm": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-8",
+        "targets": {
+          "right": {
+            "x": 626.625,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 8,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "burst ×6",
+      "tap off the sand",
+      "wait 197",
+      "tap off the sand",
+      "tap off the sand",
+      "tap off the sand",
+      "burst ×6",
+      "tap off the sand"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 8,
+        "clickLimit": null,
+        "remaining": 1269,
+        "total": 1440,
+        "removedPct": 4.1,
+        "lastCut": 16,
+        "lastDrop": 0,
+        "loose": 131,
+        "funnel": 19,
+        "belt": 1,
+        "beltLoad": 28,
+        "fronts": [
+          10,
+          11
+        ],
+        "bucketsDone": 0,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 345,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 1,
+          "sfx-sand": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-8",
+        "targets": {
+          "right": {
+            "x": 626.625,
+            "y": 852.625
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 8,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 1153,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 26,
+    "design": {
+      "x": 666.4653651043773,
+      "y": 1388.9772239560261
+    },
+    "css": {
+      "x": 197.41267051004493,
+      "y": 410.90576208699105
+    },
+    "viewport": {
+      "vw": 320,
+      "vh": 568,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 324,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 11,
+        "clickLimit": null,
+        "remaining": 1197,
+        "total": 1440,
+        "removedPct": 12.9,
+        "lastCut": 16,
+        "lastDrop": 0,
+        "loose": 82,
+        "funnel": 25,
+        "belt": 0,
+        "beltLoad": 0,
+        "fronts": [
+          10,
+          11,
+          1
+        ],
+        "bucketsDone": 1,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 2149,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 3,
+          "sfx-sand": 2,
+          "sfx-lid": 1,
+          "sfx-bells": 1,
+          "sfx-woosh": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-11",
+        "targets": {
+          "right": {
+            "x": 376.375,
+            "y": 814.125
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 11,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "tap hint (627, 853)",
+      "idle 10 s",
+      "wait 31",
+      "wait 332",
+      "tap picture",
+      "rotate → 320×568@2",
+      "tap hint (800, 853)",
+      "tap hint (203, 814)"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 11,
+        "clickLimit": null,
+        "remaining": 1197,
+        "total": 1440,
+        "removedPct": 14.9,
+        "lastCut": 16,
+        "lastDrop": 0,
+        "loose": 82,
+        "funnel": 54,
+        "belt": 0,
+        "beltLoad": 0,
+        "fronts": [
+          10,
+          11,
+          1
+        ],
+        "bucketsDone": 1,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 2165,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 3,
+          "sfx-sand": 2,
+          "sfx-lid": 1,
+          "sfx-bells": 1,
+          "sfx-woosh": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-11",
+        "targets": {
+          "right": {
+            "x": 376.375,
+            "y": 814.125
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 203.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 11,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 417,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 31,
+    "design": {
+      "x": 804.9565428495407,
+      "y": 1536.2045968230814
+    },
+    "css": {
+      "x": 238.3829772596558,
+      "y": 454.46052656016155
+    },
+    "viewport": {
+      "vw": 320,
+      "vh": 568,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 789,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 13,
+        "clickLimit": null,
+        "remaining": 1165,
+        "total": 1440,
+        "removedPct": 18.1,
+        "lastCut": 16,
+        "lastDrop": 0,
+        "loose": 52,
+        "funnel": 37,
+        "belt": 2,
+        "beltLoad": 62,
+        "fronts": [
+          10,
+          11,
+          1
+        ],
+        "bucketsDone": 1,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 2226,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 4,
+          "sfx-sand": 2,
+          "sfx-lid": 1,
+          "sfx-bells": 1,
+          "sfx-woosh": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-13",
+        "targets": {
+          "right": {
+            "x": 280.125,
+            "y": 756.375
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 896.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 13,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "rotate → 320×568@2",
+      "tap hint (800, 853)",
+      "tap hint (203, 814)",
+      "tap off the sand",
+      "tap hint (376, 814)",
+      "tap picture",
+      "tap picture",
+      "tap hint (896, 814)"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 13,
+        "clickLimit": null,
+        "remaining": 1165,
+        "total": 1440,
+        "removedPct": 18.7,
+        "lastCut": 16,
+        "lastDrop": 0,
+        "loose": 28,
+        "funnel": 22,
+        "belt": 3,
+        "beltLoad": 86,
+        "fronts": [
+          10,
+          11,
+          1
+        ],
+        "bucketsDone": 1,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 2241,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 4,
+          "sfx-sand": 2,
+          "sfx-lid": 1,
+          "sfx-bells": 1,
+          "sfx-woosh": 1
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-13",
+        "targets": {
+          "right": {
+            "x": 280.125,
+            "y": 756.375
+          },
+          "wrong": null,
+          "blocked": {
+            "x": 896.125,
+            "y": 756.375
+          },
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 13,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 880,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 46,
+    "design": {
+      "x": 682.2487845644355,
+      "y": 1587.420232645236
+    },
+    "css": {
+      "x": 459.86601843436557,
+      "y": 846.6241240774592
+    },
+    "viewport": {
+      "vw": 768,
+      "vh": 1024,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 603,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 17,
+        "clickLimit": null,
+        "remaining": 1080,
+        "total": 1440,
+        "removedPct": 25,
+        "lastCut": 20,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 28,
+        "fronts": [
+          10,
+          11,
+          3,
+          1
+        ],
+        "bucketsDone": 2,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 2753,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 7,
+          "sfx-sand": 3,
+          "sfx-lid": 2,
+          "sfx-bells": 2,
+          "sfx-woosh": 2
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-17",
+        "targets": {
+          "right": null,
+          "wrong": null,
+          "blocked": null,
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 17,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "wait 189",
+      "burst ×6",
+      "wait 472",
+      "wait 66",
+      "wait 461",
+      "tap hint (896, 737)",
+      "resize → 768×1024@2",
+      "wait 574"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 1,
+        "activeColors": [
+          10,
+          11
+        ],
+        "counted": 17,
+        "clickLimit": null,
+        "remaining": 1080,
+        "total": 1440,
+        "removedPct": 25,
+        "lastCut": 20,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 21,
+        "fronts": [
+          10,
+          11,
+          3,
+          1
+        ],
+        "bucketsDone": 2,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 2768,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 7,
+          "sfx-sand": 3,
+          "sfx-lid": 2,
+          "sfx-bells": 2,
+          "sfx-woosh": 2
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-17",
+        "targets": {
+          "right": null,
+          "wrong": null,
+          "blocked": null,
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 17,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 695,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 103,
+    "design": {
+      "x": 337.00701516121626,
+      "y": 1243.8126716855913
+    },
+    "css": {
+      "x": 275.7370747526487,
+      "y": 663.3667582323154
+    },
+    "viewport": {
+      "vw": 768,
+      "vh": 1024,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 1351,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 2,
+        "activeColors": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "counted": 22,
+        "clickLimit": null,
+        "remaining": 540,
+        "total": 1440,
+        "removedPct": 62.5,
+        "lastCut": 108,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 12,
+        "beltLoad": 369,
+        "fronts": [
+          7,
+          5,
+          3,
+          1
+        ],
+        "bucketsDone": 7,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 4119,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 10,
+          "sfx-sand": 5,
+          "sfx-lid": 7,
+          "sfx-bells": 7,
+          "sfx-woosh": 7
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-22",
+        "targets": {
+          "right": null,
+          "wrong": null,
+          "blocked": null,
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 22,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "wait 4",
+      "rotate → 1024×768@2",
+      "tap picture",
+      "rotate → 768×1024@2",
+      "tap picture",
+      "hidden (state play)",
+      "tap picture",
+      "tap picture"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 2,
+        "activeColors": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "counted": 22,
+        "clickLimit": null,
+        "remaining": 540,
+        "total": 1440,
+        "removedPct": 62.5,
+        "lastCut": 108,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 12,
+        "beltLoad": 347,
+        "fronts": [
+          7,
+          5,
+          3,
+          1
+        ],
+        "bucketsDone": 7,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 4134,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 10,
+          "sfx-sand": 5,
+          "sfx-lid": 7,
+          "sfx-bells": 7,
+          "sfx-woosh": 7
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-22",
+        "targets": {
+          "right": null,
+          "wrong": null,
+          "blocked": null,
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 22,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 1442,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 116,
+    "design": {
+      "x": 502.7343915402889,
+      "y": 1393.3790397364646
+    },
+    "css": {
+      "x": 414.4304232816212,
+      "y": 283.0301174464694
+    },
+    "viewport": {
+      "vw": 844,
+      "vh": 390,
+      "dpr": 3
+    },
+    "ageSinceViewportChangeBeforeMs": 820,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 2,
+        "activeColors": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "counted": 22,
+        "clickLimit": null,
+        "remaining": 540,
+        "total": 1440,
+        "removedPct": 62.5,
+        "lastCut": 108,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 8,
+        "beltLoad": 235,
+        "fronts": [
+          7,
+          5,
+          3,
+          1
+        ],
+        "bucketsDone": 11,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 4495,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 10,
+          "sfx-sand": 5,
+          "sfx-lid": 11,
+          "sfx-bells": 11,
+          "sfx-woosh": 11
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-22",
+        "targets": {
+          "right": null,
+          "wrong": null,
+          "blocked": null,
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 22,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "wait 53",
+      "wait 241",
+      "wait 213",
+      "resize → 600×600@1",
+      "resize → 390×844@3",
+      "rotate → 844×390@3",
+      "tap picture",
+      "wait 572"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 2,
+        "activeColors": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "counted": 22,
+        "clickLimit": null,
+        "remaining": 540,
+        "total": 1440,
+        "removedPct": 62.5,
+        "lastCut": 108,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 8,
+        "beltLoad": 235,
+        "fronts": [
+          7,
+          5,
+          3,
+          1
+        ],
+        "bucketsDone": 11,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 4511,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 10,
+          "sfx-sand": 5,
+          "sfx-lid": 11,
+          "sfx-bells": 11,
+          "sfx-woosh": 11
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-22",
+        "targets": {
+          "right": null,
+          "wrong": null,
+          "blocked": null,
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 22,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 913,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 143,
+    "design": {
+      "x": 918.83131057024,
+      "y": 1582.0897973654792
+    },
+    "css": {
+      "x": 586.0433656374614,
+      "y": 843.7812252615889
+    },
+    "viewport": {
+      "vw": 768,
+      "vh": 1024,
+      "dpr": 1
+    },
+    "ageSinceViewportChangeBeforeMs": 1551,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 2,
+        "activeColors": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "counted": 22,
+        "clickLimit": null,
+        "remaining": 540,
+        "total": 1440,
+        "removedPct": 62.5,
+        "lastCut": 108,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 3,
+        "beltLoad": 86,
+        "fronts": [
+          8,
+          5,
+          9
+        ],
+        "bucketsDone": 16,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 5185,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 10,
+          "sfx-sand": 5,
+          "sfx-lid": 15,
+          "sfx-bells": 15,
+          "sfx-woosh": 15
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-22",
+        "targets": {
+          "right": null,
+          "wrong": null,
+          "blocked": null,
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 22,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "tap picture",
+      "rotate → 768×1024@1",
+      "burst ×6",
+      "wait 591",
+      "tap picture",
+      "wait 521",
+      "tap picture",
+      "tap picture"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 2,
+        "activeColors": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "counted": 22,
+        "clickLimit": null,
+        "remaining": 540,
+        "total": 1440,
+        "removedPct": 62.5,
+        "lastCut": 108,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 2,
+        "beltLoad": 71,
+        "fronts": [
+          8,
+          5,
+          9
+        ],
+        "bucketsDone": 16,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 5200,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 10,
+          "sfx-sand": 5,
+          "sfx-lid": 15,
+          "sfx-bells": 15,
+          "sfx-woosh": 15
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-22",
+        "targets": {
+          "right": null,
+          "wrong": null,
+          "blocked": null,
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 22,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 1643,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 146,
+    "design": {
+      "x": 151.25837732106447,
+      "y": 1487.912805727683
+    },
+    "css": {
+      "x": 176.6711345712344,
+      "y": 793.5534963880976
+    },
+    "viewport": {
+      "vw": 768,
+      "vh": 1024,
+      "dpr": 1
+    },
+    "ageSinceViewportChangeBeforeMs": 93,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 2,
+        "activeColors": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "counted": 22,
+        "clickLimit": null,
+        "remaining": 540,
+        "total": 1440,
+        "removedPct": 62.5,
+        "lastCut": 108,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 2,
+        "beltLoad": 46,
+        "fronts": [
+          8,
+          9
+        ],
+        "bucketsDone": 16,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 5223,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 10,
+          "sfx-sand": 5,
+          "sfx-lid": 16,
+          "sfx-bells": 16,
+          "sfx-woosh": 15
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-22",
+        "targets": {
+          "right": null,
+          "wrong": null,
+          "blocked": null,
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 22,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "wait 591",
+      "tap picture",
+      "wait 521",
+      "tap picture",
+      "tap picture",
+      "tap off the sand",
+      "rotate → 1024×768@1",
+      "rotate → 768×1024@1"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 2,
+        "activeColors": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "counted": 22,
+        "clickLimit": null,
+        "remaining": 540,
+        "total": 1440,
+        "removedPct": 62.5,
+        "lastCut": 108,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 35,
+        "fronts": [
+          8,
+          9
+        ],
+        "bucketsDone": 16,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 5238,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 10,
+          "sfx-sand": 5,
+          "sfx-lid": 16,
+          "sfx-bells": 16,
+          "sfx-woosh": 16
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-22",
+        "targets": {
+          "right": null,
+          "wrong": null,
+          "blocked": null,
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 22,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 186,
+    "publishedFailure": false,
+    "actualFailure": false
+  },
+  {
+    "actionIndex": 159,
+    "design": {
+      "x": 855.4248250648379,
+      "y": 1831.6029912000522
+    },
+    "css": {
+      "x": 552.2265733679135,
+      "y": 976.8549286400279
+    },
+    "viewport": {
+      "vw": 768,
+      "vh": 1024,
+      "dpr": 1
+    },
+    "ageSinceViewportChangeBeforeMs": 959,
+    "before": {
+      "published": {
+        "state": "play",
+        "wave": 2,
+        "activeColors": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "counted": 22,
+        "clickLimit": null,
+        "remaining": 540,
+        "total": 1440,
+        "removedPct": 62.5,
+        "lastCut": 108,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 21,
+        "fronts": [
+          8,
+          6,
+          4,
+          9
+        ],
+        "bucketsDone": 18,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 5438,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 10,
+          "sfx-sand": 5,
+          "sfx-lid": 18,
+          "sfx-bells": 18,
+          "sfx-woosh": 18
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-22",
+        "targets": {
+          "right": null,
+          "wrong": null,
+          "blocked": null,
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 22,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "priorActions": [
+      "tap picture",
+      "rotate → 1024×768@1",
+      "rotate → 768×1024@1",
+      "tap picture",
+      "wait 509",
+      "tap picture",
+      "tap picture",
+      "tap picture"
+    ],
+    "after": {
+      "published": {
+        "state": "play",
+        "wave": 2,
+        "activeColors": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "counted": 22,
+        "clickLimit": null,
+        "remaining": 540,
+        "total": 1440,
+        "removedPct": 62.5,
+        "lastCut": 108,
+        "lastDrop": 0,
+        "loose": 0,
+        "funnel": 0,
+        "belt": 1,
+        "beltLoad": 21,
+        "fronts": [
+          8,
+          6,
+          4,
+          9
+        ],
+        "bucketsDone": 18,
+        "speed": 1,
+        "accounted": 1440,
+        "integrity": "",
+        "frame": 5453,
+        "muted": false,
+        "sounds": {
+          "bgm": 1,
+          "sfx-cut": 10,
+          "sfx-sand": 5,
+          "sfx-lid": 18,
+          "sfx-bells": 18,
+          "sfx-woosh": 18
+        },
+        "handVisible": false,
+        "vignette": 0,
+        "ended": false,
+        "endReason": "",
+        "milestone": "tap-22",
+        "targets": {
+          "right": null,
+          "wrong": null,
+          "blocked": null,
+          "swipe": null
+        },
+        "mechanic": "tap"
+      },
+      "actualCount": 22,
+      "url": "file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/output/qa-2026-10-29/test-only-build/sdp_mip_grhpl_cuttingsand_default_real_nougc_noseason_en_90seconds_na_mo.html"
+    },
+    "ageSinceViewportChangeAfterMs": 1051,
+    "publishedFailure": false,
+    "actualFailure": false
+  }
+]

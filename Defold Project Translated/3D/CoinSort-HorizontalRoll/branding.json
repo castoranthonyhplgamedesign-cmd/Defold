@@ -1,0 +1,9 @@
+{
+  "name": "Token Roll",
+  "executable": "TokenRoll",
+  "filename": "Token Roll.html",
+  "icon": "assets/branding/token_roll.png",
+  "icon_width": 1254,
+  "icon_height": 1254,
+  "replaces": "CoinSort HorizontalRoll"
+}

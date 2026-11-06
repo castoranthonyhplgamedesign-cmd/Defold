@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-29T05:48:22.962Z",
+  "initialAmmo": 4,
+  "samples": [
+    {
+      "elapsedMs": 1505,
+      "ammo": "2"
+    },
+    {
+      "elapsedMs": 6016,
+      "ammo": "2"
+    },
+    {
+      "elapsedMs": 12016,
+      "ammo": "11"
+    }
+  ],
+  "errors": [],
+  "meaning": "Cyan has two shots left after the opening pass; after the remaining two are hit, the next purple cannon has 11 ammo.",
+  "audio": "muted"
+}

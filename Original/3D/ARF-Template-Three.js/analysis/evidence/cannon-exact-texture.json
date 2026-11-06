@@ -1,0 +1,15 @@
+{
+  "source": "reference/textures/tunnel-121420.webp",
+  "output": "reference/textures/tunnel-121420-exact.webp",
+  "width": 512,
+  "height": 512,
+  "filledPixels": 115545,
+  "totalPixels": 262144,
+  "RGB": [
+    18,
+    20,
+    32
+  ],
+  "bytes": 49438,
+  "losslessRoundTrip": true
+}

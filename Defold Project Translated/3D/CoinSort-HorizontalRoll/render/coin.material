@@ -1,0 +1,29 @@
+name: "coin"
+tags: "coin"
+vertex_program: "/render/coin.vp"
+fragment_program: "/render/coin.fp"
+vertex_space: VERTEX_SPACE_LOCAL
+vertex_constants { name: "shape" type: CONSTANT_TYPE_USER value { x: 540 y: 500 z: 78 w: 46.8 } }
+vertex_constants { name: "band" type: CONSTANT_TYPE_USER value { x: 12 y: 12 z: 0 w: 3 } }
+vertex_constants { name: "roll" type: CONSTANT_TYPE_USER value { x: 0 y: 0 z: 0 w: 0 } }
+vertex_constants { name: "camera" type: CONSTANT_TYPE_USER value { x: 540 y: 960 z: 1.5 w: 0 } }
+vertex_constants { name: "viewport" type: CONSTANT_TYPE_USER value { x: 1080 y: 1920 z: 1 w: 0 } }
+vertex_constants { name: "clock" type: CONSTANT_TYPE_USER value { x: 0 y: 0 z: 0 w: 0 } }
+vertex_constants { name: "jar" type: CONSTANT_TYPE_USER value { x: 540 y: 745 z: 0 w: 0 } }
+vertex_constants { name: "lanes" type: CONSTANT_TYPE_USER
+value { x: 0 y: -10000 z: -1 w: 0 }
+value { x: 0 y: -10000 z: -1 w: 0 }
+value { x: 0 y: -10000 z: -1 w: 0 }
+value { x: 0 y: -10000 z: -1 w: 0 }
+value { x: 0 y: -10000 z: -1 w: 0 }
+value { x: 0 y: -10000 z: -1 w: 0 }
+value { x: 0 y: -10000 z: -1 w: 0 }
+value { x: 0 y: -10000 z: -1 w: 0 }
+value { x: 0 y: -10000 z: -1 w: 0 }
+value { x: 0 y: -10000 z: -1 w: 0 }
+value { x: 0 y: -10000 z: -1 w: 0 }
+value { x: 0 y: -10000 z: -1 w: 0 }
+}
+vertex_constants { name: "light_view_proj" type: CONSTANT_TYPE_USER_MATRIX4 value { x: 1 } value { y: 1 } value { z: 1 } value { w: 1 } }
+samplers { name: "texture_sampler" wrap_u: WRAP_MODE_CLAMP_TO_EDGE wrap_v: WRAP_MODE_CLAMP_TO_EDGE filter_min: FILTER_MODE_MIN_LINEAR_MIPMAP_LINEAR filter_mag: FILTER_MODE_MAG_LINEAR }
+samplers { name: "shadow_sampler" wrap_u: WRAP_MODE_CLAMP_TO_EDGE wrap_v: WRAP_MODE_CLAMP_TO_EDGE filter_min: FILTER_MODE_MIN_NEAREST filter_mag: FILTER_MODE_MAG_NEAREST }

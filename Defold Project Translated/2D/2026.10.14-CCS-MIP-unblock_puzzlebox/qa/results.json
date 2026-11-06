@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-06T15:26:17.385Z",
+  "results": [
+    {
+      "name": "Defold boots with original seeded 49-ball pile and launcher",
+      "pass": true
+    },
+    {
+      "name": "Background presses do not count",
+      "pass": true
+    },
+    {
+      "name": "Press-drag-release drops one ball and advances NEXT",
+      "pass": true
+    },
+    {
+      "name": "Audio unlocks on gesture and host pause/resume gates it",
+      "pass": true
+    },
+    {
+      "name": "Rotation preserves click count, elapsed session and ball identity",
+      "pass": true
+    },
+    {
+      "name": "3-click variant ends on third press with one automatic redirect",
+      "pass": true
+    },
+    {
+      "name": "Endcard tap routes through local CTA and records CTA_CLICKED",
+      "pass": true
+    },
+    {
+      "name": "Real danger countdown reaches failure presentation",
+      "pass": true
+    },
+    {
+      "name": "Controlled physical gift-floor contact reaches win and opens gift",
+      "pass": true
+    },
+    {
+      "name": "Controlled 6+3 ring merge clears the complete nine-ring run",
+      "pass": true
+    },
+    {
+      "name": "Mixed donor exposes its inner color after whole-run transfer",
+      "pass": true
+    },
+    {
+      "name": "Capacity reservations never exceed the 20-ring atlas limit",
+      "pass": true
+    },
+    {
+      "name": "HUD restart creates a fresh pile while keeping session clicks",
+      "pass": true,
+      "testedAt": "2026-11-06T15:26:17.384Z"
+    },
+    {
+      "name": "10-click variant ends on the tenth player-ball press",
+      "pass": true
+    },
+    {
+      "name": "60-second variant starts on first valid input and ends after real elapsed play",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "screens": [
+    "defold-portrait-start",
+    "defold-after-drop",
+    "defold-landscape",
+    "defold-endcard",
+    "defold-fail",
+    "defold-win-gift",
+    "defold-hud-restart"
+  ],
+  "unassistedFullClear": false,
+  "lastRerun": "HUD restart"
+}

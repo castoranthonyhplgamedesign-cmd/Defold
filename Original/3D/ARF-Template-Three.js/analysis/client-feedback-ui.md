@@ -1,0 +1,27 @@
+# Opening caption, red preload and ammo readability
+
+Implemented 2026-11-03 after user approval.
+
+Latest follow-up: the caption fades/slides in over 0.28 active seconds (8-pixel downward start, cubic ease-out), then fades/slides out over 0.18 active seconds (6 pixels upward) after the first accepted launch. Blocked taps preserve it. Host pause freezes the transition, reduced-motion mode skips it, and dismissal retains the camera framing. Current caption stroke is 5 CSS pixels; preload color is #FF4242. TypeScript and twelve viewport checks passed, including fade-in/out, paused exit, reduced motion, safe areas and rotation. Delivery outputs have not been rebuilt for this follow-up.
+
+- Opening wording: “The belt is 99% full! Can you clear it?” Uses the existing Lilita One ammo font, white fill and black outline. Following review, it is centered in both orientations: two lines in portrait and one line above gameplay in landscape. No input interception.
+- Caption appears immediately for the overload level, remains after blocked taps, and hides after the first accepted launch or any ending. It uses existing session state, with no new gameplay timer.
+- Portrait caption starts at least 68 CSS pixels down on tall phones (width at most 600 pixels and height at least twice the width). Small phones and tablets use a 24-pixel minimum. Both respect 12 pixels below the reported top safe-area inset. Landscape starts at least 24 pixels down and respects the top and side safe-area insets. Actual physical cutout coverage still requires device verification.
+- Framing reserves the caption's CSS top offset, line height and outline clearance in both orientations. That framing persists after dismissal so gameplay does not jump. CSS measurements are read on resize rather than every frame.
+- Latest spacing refinement uses 4 pixels of outline clearance and 4 pixels of additional header padding, with 12-pixel landscape bottom padding. Compared with the preceding layout, measured gameplay scale grows 6–8% on landscape phones and 3–4% on landscape tablets; small portrait phones grow 15–17% and portrait tablets 7–8%. Tall-phone scale stays unchanged. See [caption-spacing-comparison.json](evidence/caption-spacing-comparison.json); preceding captures are in `screenshots/caption-spacing/`.
+- Active ammo text is 20% larger (128 → 153.6 design pixels). Following review, black strokes are 18 design pixels for active ammo, 12 for reserve counters/fullness, and 6 CSS pixels for the caption. White fill is painted after the stroke to preserve digit interiors. The reserve-cannon counter and fullness percentage retain their existing font sizes.
+- Starting ammo now follows the incoming cannon during the existing 0.3-second loading animation. The reserve-cannon counter hides during this movement to prevent overlapping labels, then returns. Remaining ammo updates normally when hits land. Firing and replacement timing are unchanged.
+- Preloaded belt blocks, matching cannons and their colored debris use base color `#f34041`. Internal `white` matching IDs remain unchanged, preserving saved levels, budgets and queue logic. Accessibility labels call these cannons red. Neutral arrow outlines, projectiles and effect bases retain their previous white material. Gloss and lighting still affect rendered pixel colors.
+
+## Verification
+
+- TypeScript check passed after the caption-position/outline correction. All 149 automated tests passed during the preceding implementation (`evidence/client-feedback-tests.txt`); this UI-only follow-up re-ran the focused browser checks below.
+- Muted desktop Chrome/Playwright checked 320×568, 360×640, 390×844, 430×932, 768×1024 and 820×1180, each in both orientations. Caption stayed inside the viewport with no horizontal overflow or overlap with cannon labels. Live portrait/landscape rotation also passed.
+- Additional Chromium safe-area overrides checked 59-pixel and 72-pixel portrait top insets and a 59-pixel landscape left inset. These are simulated cutout-clearance checks, not physical iPhone observations.
+- Each viewport exercised a real native click on the hinted cyan arrow: caption dismissed, replacement cannon displayed its complete 16 ammo during loading, and firing subsequently decremented the displayed count. Blocked-launch caption persistence was checked through the real session API.
+- Dismissal also checks that the untouched cannon lane's screen position and scale remain stable: there is no camera jump after the caption disappears.
+- No page errors. Materials measured `f34041` for the preload and `f4f6ff` for neutral highlights/effects. Gameplay shooting constants, ammo queues and overload rules were not edited.
+- Screenshots: [client-feedback](screenshots/client-feedback/). Measurements/assertions: [client-feedback-browser.json](evidence/client-feedback-browser.json). Re-run with `node tools/client-feedback-smoke.mjs` while the dev server runs on port 5173.
+- Before the caption-position/outline correction, an isolated production build passed at `analysis/build/client-feedback/index.html`: 3,893,351 bytes. This artifact and existing `dist/` deliveries have not been rebuilt for the latest correction.
+
+Physical-device readability, iOS font rendering and official network-host validation remain unverified. Showing the starting count during loading provides the existing 0.3-second reading window; no additional firing delay was introduced.

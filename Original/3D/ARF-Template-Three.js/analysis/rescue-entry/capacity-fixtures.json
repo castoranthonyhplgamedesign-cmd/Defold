@@ -1,0 +1,35 @@
+{
+  "method": "Controlled occupancy of reference manager in sandboxed browser; not a natural full-game playthrough",
+  "cases": [
+    {
+      "scenario": "one-free-slot",
+      "capacity": 76,
+      "before": 75,
+      "accepted": true,
+      "shifted": 75,
+      "minShift": -1.0000000000000115,
+      "maxShift": -0.9999999999999862,
+      "incomingProgress": 0
+    },
+    {
+      "scenario": "full",
+      "capacity": 76,
+      "before": 76,
+      "accepted": false,
+      "shifted": 0,
+      "minShift": 0,
+      "maxShift": 0,
+      "incomingProgress": null
+    }
+  ],
+  "requests": [
+    {
+      "url": "https://reference.invalid/",
+      "action": "local-fixture"
+    },
+    {
+      "url": "https://reference.invalid/mraid.js",
+      "action": "blocked"
+    }
+  ]
+}

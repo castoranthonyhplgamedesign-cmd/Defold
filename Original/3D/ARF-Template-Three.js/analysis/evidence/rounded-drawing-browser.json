@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-10-27T08:28:45.155Z",
+  "result": "pass",
+  "errors": [],
+  "checks": [
+    "custom point-drawn inward bend",
+    "rounding changes sampled path, retains controls",
+    "undo/redo",
+    "corner editing after rounding",
+    "arrow and free cannon authoring",
+    "export/import/reload",
+    "native-input preview clear",
+    "invalid rounding preserves current draft",
+    "imported model control disabled",
+    "return to sharp",
+    "narrow viewport"
+  ]
+}

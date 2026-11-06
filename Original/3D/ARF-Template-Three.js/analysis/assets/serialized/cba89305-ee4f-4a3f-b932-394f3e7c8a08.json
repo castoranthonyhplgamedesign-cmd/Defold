@@ -1,0 +1,59 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "Sphere",
+      "data": {
+        "__ref__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "Sphere",
+      "_components": [
+        {
+          "__type__": "cc.MeshRenderer",
+          "_name": "Sphere<ModelComponent>",
+          "__prefab": {
+            "__type__": "cc.CompPrefabInfo",
+            "fileId": "5bs0NG129NDJ/eUlwznl4y"
+          },
+          "_materials": [
+            {
+              "__uuid__": "620b6bf3-0369-4560-837f-2a2c00b73c26"
+            }
+          ],
+          "bakeSettings": {
+            "__type__": "cc.ModelBakeSettings"
+          },
+          "node": {
+            "__ref__": 1
+          },
+          "_mesh": {
+            "__uuid__": "1263d74c-8167-4928-91a6-4e2672411f47@17020"
+          }
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "fileId": "9fF3NbDKtDaqhX5JhjZnqT",
+        "instance": null,
+        "targetOverrides": null,
+        "nestedPrefabInstanceRoots": null,
+        "asset": {
+          "__ref__": 0
+        },
+        "root": {
+          "__ref__": 1
+        }
+      },
+      "_lpos": {
+        "__type__": "cc.Vec3",
+        "x": 5,
+        "y": 0,
+        "z": -5
+      }
+    }
+  ]
+}

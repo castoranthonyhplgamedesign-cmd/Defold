@@ -1,0 +1,35 @@
+{
+  "delivered": "D:/allproject/defold/output/MysteryMaster.html",
+  "sha256": "7b21dd37be0c711d47e8cf4a6adf97ebbf596e4e595120bc5d96e352c69bfe94",
+  "bytes": 4558562,
+  "passed": 6,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Copied file has embedded resources, correct filename, matching hash and size under 5 MB",
+      "status": "PASS"
+    },
+    {
+      "name": "MysteryMaster title, icon, heading, new logo and full puzzle completion",
+      "status": "PASS"
+    },
+    {
+      "name": "Single-file 2clicks variant",
+      "status": "PASS"
+    },
+    {
+      "name": "Single-file 4clicks variant",
+      "status": "PASS"
+    },
+    {
+      "name": "Direct file opening works without a web server or companion files",
+      "status": "PASS"
+    },
+    {
+      "name": "No browser errors or external asset requests",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "unexpected": []
+}

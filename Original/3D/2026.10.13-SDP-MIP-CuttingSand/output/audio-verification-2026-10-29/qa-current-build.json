@@ -1,0 +1,812 @@
+[
+  {
+    "label": "tap / full clear / bucket and end-card cues",
+    "pass": true,
+    "elapsedMs": 54134,
+    "taps": 26,
+    "buckets": 31,
+    "audio": {
+      "unlocked": true,
+      "hostMuted": false,
+      "muted": false,
+      "gameplayFinished": true,
+      "channels": {
+        "bgm": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 0,
+          "baseVolume": 0.8,
+          "targetVolume": 0,
+          "logicalGain": 0,
+          "crossfading": false,
+          "loopStart": 0,
+          "loopEnd": 53.02857142857143,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.004848000127822161,
+              "seek": 0,
+              "duration": 53.02857142857143,
+              "weight": 0
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0,
+              "seek": 0,
+              "duration": 53.02857142857143,
+              "weight": 0
+            }
+          ],
+          "starts": 1
+        },
+        "sfx-conveyor": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 0,
+          "baseVolume": 0.9,
+          "targetVolume": 0,
+          "logicalGain": 0,
+          "crossfading": false,
+          "loopStart": 0.56,
+          "loopEnd": 49.08,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.012606385163962841,
+              "seek": 0,
+              "duration": 49.08408163265306,
+              "weight": 0
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.007486363407224417,
+              "seek": 0,
+              "duration": 49.08408163265306,
+              "weight": 0
+            }
+          ],
+          "starts": 2
+        },
+        "sfx-cut": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 0,
+          "baseVolume": 0.8,
+          "targetVolume": 0,
+          "logicalGain": 0,
+          "crossfading": false,
+          "loopStart": 0,
+          "loopEnd": 2.6644897959183673,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.0066545456647872925,
+              "seek": 0,
+              "duration": 2.6644897959183673,
+              "weight": 0
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0,
+              "seek": 0,
+              "duration": 2.6644897959183673,
+              "weight": 0
+            }
+          ],
+          "starts": 12
+        },
+        "sfx-sand": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 0,
+          "baseVolume": 0.85,
+          "targetVolume": 0,
+          "logicalGain": 0,
+          "crossfading": false,
+          "loopStart": 0,
+          "loopEnd": 4.28,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.030631907284259796,
+              "seek": 0,
+              "duration": 4.284081632653061,
+              "weight": 0
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.007031818386167288,
+              "seek": 0,
+              "duration": 4.284081632653061,
+              "weight": 0
+            }
+          ],
+          "starts": 14
+        },
+        "sfx-click": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0,
+          "baseVolume": 0.8,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.800000011920929,
+              "seek": 0,
+              "duration": 0.313469387755102
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.800000011920929,
+              "seek": 0,
+              "duration": 0.313469387755102
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.800000011920929,
+              "seek": 0,
+              "duration": 0.313469387755102
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.313469387755102
+            }
+          ],
+          "starts": 26
+        },
+        "sfx-woosh": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0,
+          "baseVolume": 0.55,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.550000011920929,
+              "seek": 0,
+              "duration": 0.8620408163265306
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.550000011920929,
+              "seek": 0,
+              "duration": 0.8620408163265306
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.550000011920929,
+              "seek": 0,
+              "duration": 0.8620408163265306
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.550000011920929,
+              "seek": 0,
+              "duration": 0.8620408163265306
+            }
+          ],
+          "starts": 31
+        },
+        "sfx-bells": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0,
+          "baseVolume": 0.9,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.8999999761581421,
+              "seek": 0,
+              "duration": 0.9142857142857143
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.8999999761581421,
+              "seek": 0,
+              "duration": 0.9142857142857143
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.8999999761581421,
+              "seek": 0,
+              "duration": 0.9142857142857143
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.8999999761581421,
+              "seek": 0,
+              "duration": 0.9142857142857143
+            }
+          ],
+          "starts": 31
+        },
+        "sfx-win": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0,
+          "baseVolume": 1,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.2612244897959184
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.2612244897959184
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.2612244897959184
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.2612244897959184
+            }
+          ],
+          "starts": 2
+        },
+        "sfx-endcard": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0,
+          "baseVolume": 1,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.47020408163265304
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.47020408163265304
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.47020408163265304
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.47020408163265304
+            }
+          ],
+          "starts": 1
+        },
+        "sfx-cta": {
+          "playing": 1,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.8999999761581421,
+          "baseVolume": 0.9,
+          "voices": [
+            {
+              "playing": true,
+              "paused": false,
+              "volume": 0.8999999761581421,
+              "seek": 0.06965986394557433,
+              "duration": 0.5746938775510204
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.5746938775510204
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.5746938775510204
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.5746938775510204
+            }
+          ],
+          "starts": 2
+        },
+        "sfx-fail": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0,
+          "baseVolume": 0.4,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.7053061224489796
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.7053061224489796
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.7053061224489796
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.7053061224489796
+            }
+          ],
+          "starts": 0
+        }
+      }
+    }
+  },
+  {
+    "label": "swipe / silent invalid input / held stroke / time end",
+    "pass": true,
+    "elapsedMs": 16443,
+    "heldSamples": 61,
+    "bucketsBeforeEnding": 1,
+    "audio": {
+      "unlocked": true,
+      "hostMuted": false,
+      "muted": false,
+      "gameplayFinished": true,
+      "channels": {
+        "bgm": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 0,
+          "baseVolume": 0.8,
+          "targetVolume": 0,
+          "logicalGain": 0,
+          "crossfading": false,
+          "loopStart": 0,
+          "loopEnd": 53.02857142857143,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.00494399992749095,
+              "seek": 0,
+              "duration": 53.02857142857143,
+              "weight": 0
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0,
+              "seek": 0,
+              "duration": 53.02857142857143,
+              "weight": 0
+            }
+          ],
+          "starts": 1
+        },
+        "sfx-conveyor": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 0,
+          "baseVolume": 0.9,
+          "targetVolume": 0,
+          "logicalGain": 0,
+          "crossfading": false,
+          "loopStart": 0.56,
+          "loopEnd": 49.08,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.007609090767800808,
+              "seek": 0,
+              "duration": 49.08408163265306,
+              "weight": 0
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0,
+              "seek": 0,
+              "duration": 49.08408163265306,
+              "weight": 0
+            }
+          ],
+          "starts": 1
+        },
+        "sfx-cut": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 0,
+          "baseVolume": 0.8,
+          "targetVolume": 0,
+          "logicalGain": 0,
+          "crossfading": false,
+          "loopStart": 0,
+          "loopEnd": 2.6644897959183673,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.037063196301460266,
+              "seek": 0,
+              "duration": 2.6644897959183673,
+              "weight": 0
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.028727272525429726,
+              "seek": 0,
+              "duration": 2.6644897959183673,
+              "weight": 0
+            }
+          ],
+          "starts": 2
+        },
+        "sfx-sand": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 2,
+          "volume": 0,
+          "baseVolume": 0.85,
+          "targetVolume": 0,
+          "logicalGain": 0,
+          "crossfading": false,
+          "loopStart": 0,
+          "loopEnd": 4.28,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.030522726476192474,
+              "seek": 0,
+              "duration": 4.284081632653061,
+              "weight": 0
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.011976943351328373,
+              "seek": 0,
+              "duration": 4.284081632653061,
+              "weight": 0
+            }
+          ],
+          "starts": 3
+        },
+        "sfx-click": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0,
+          "baseVolume": 0.8,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.800000011920929,
+              "seek": 0,
+              "duration": 0.313469387755102
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.313469387755102
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.313469387755102
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.313469387755102
+            }
+          ],
+          "starts": 2
+        },
+        "sfx-woosh": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0,
+          "baseVolume": 0.55,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.550000011920929,
+              "seek": 0,
+              "duration": 0.8620408163265306
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.550000011920929,
+              "seek": 0,
+              "duration": 0.8620408163265306
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.8620408163265306
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.8620408163265306
+            }
+          ],
+          "starts": 4
+        },
+        "sfx-bells": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0,
+          "baseVolume": 0.9,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.8999999761581421,
+              "seek": 0,
+              "duration": 0.9142857142857143
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 0.8999999761581421,
+              "seek": 0,
+              "duration": 0.9142857142857143
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.9142857142857143
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.9142857142857143
+            }
+          ],
+          "starts": 4
+        },
+        "sfx-win": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0,
+          "baseVolume": 1,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.2612244897959184
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.2612244897959184
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.2612244897959184
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.2612244897959184
+            }
+          ],
+          "starts": 2
+        },
+        "sfx-endcard": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0,
+          "baseVolume": 1,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.47020408163265304
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.47020408163265304
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.47020408163265304
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.47020408163265304
+            }
+          ],
+          "starts": 1
+        },
+        "sfx-cta": {
+          "playing": 1,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.8999999761581421,
+          "baseVolume": 0.9,
+          "voices": [
+            {
+              "playing": true,
+              "paused": false,
+              "volume": 0.8999999761581421,
+              "seek": 0.0696598639455761,
+              "duration": 0.5746938775510204
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.5746938775510204
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.5746938775510204
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.5746938775510204
+            }
+          ],
+          "starts": 2
+        },
+        "sfx-fail": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0,
+          "baseVolume": 0.4,
+          "voices": [
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.7053061224489796
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.7053061224489796
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.7053061224489796
+            },
+            {
+              "playing": false,
+              "paused": false,
+              "volume": 1,
+              "seek": 0,
+              "duration": 0.7053061224489796
+            }
+          ],
+          "starts": 0
+        }
+      }
+    }
+  }
+]

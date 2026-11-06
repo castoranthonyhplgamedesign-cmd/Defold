@@ -1,0 +1,1027 @@
+{
+  "status": "Confirmed static repository inspection and pure layout checks; not a browser run",
+  "root": "D:/Reference Projects/Arrow-Flow-Template",
+  "commit": "b4a7af769f1a1352668295d9fff6767363bdfeac",
+  "snapshotFiles": 38,
+  "files": [
+    {
+      "file": "src/game/arrowGrid.ts",
+      "bytes": 20540,
+      "sha256": "9e681d2423ac66c7ef64c46d93b090261be803e682585ec238c2400c051e8914"
+    },
+    {
+      "file": "src/game/beltMeshPath.ts",
+      "bytes": 7025,
+      "sha256": "431169c521ba615683b4b851d291dc725306709513559f42371f14fc75d8fe2c"
+    },
+    {
+      "file": "src/game/conveyor.ts",
+      "bytes": 16743,
+      "sha256": "e51c525b2c8dfe2a797d0662187c746fe2812a367e205d65023503b349cda4ae"
+    },
+    {
+      "file": "src/game/conveyorPath.ts",
+      "bytes": 7444,
+      "sha256": "9f2c0e25aa8822e78d80624d56b08e3bbb58f89a6b0ba8308b8778ca7710983d"
+    },
+    {
+      "file": "src/game/hitEffects.ts",
+      "bytes": 3950,
+      "sha256": "35390ff78995ea09dc6eb954719d1880f42d24d1827a91fb45da9586f5ca2c16"
+    },
+    {
+      "file": "src/layout/arrowGrid2D.ts",
+      "bytes": 3173,
+      "sha256": "4974473ac6b4e7217321518546e9fe5380f2c137d43fb5eda4ae9ff50be3b163"
+    },
+    {
+      "file": "src/layout/unityLayout.ts",
+      "bytes": 1282,
+      "sha256": "9c56d55eea4d808ce5b87317a7824b039b6440693c2bcd03187b65242acf0b2e"
+    },
+    {
+      "file": "src/main.ts",
+      "bytes": 25241,
+      "sha256": "eee2a3810044ffd9af00cd6e5be809d34bcc54e86eb61fa6253e088a6f3e0727"
+    },
+    {
+      "file": "src/models/AnimatedBlocks_.glb",
+      "bytes": 179400,
+      "sha256": "1672117995ef82eb3ff3f183aeff808f9b90ea633751946265f27c4abb7c1aa0"
+    },
+    {
+      "file": "src/models/Bullet_.glb",
+      "bytes": 8316,
+      "sha256": "9c7a55c539d2d33b8338f3b88bbae04ba54a4117d9d6dcadb070be46f9ba9f9d"
+    },
+    {
+      "file": "src/models/Conveyor_Custom_Mesh.glb",
+      "bytes": 290240,
+      "sha256": "48669011584e9bab27b7d739b79b0c192b5116bebc6889924934e19cd40e9802"
+    },
+    {
+      "file": "src/models/Shooter_v3_.glb",
+      "bytes": 65420,
+      "sha256": "0b98b8b5e3efb268e970b9255bd39693b6b3119e249439ba4335ace6cd190c74"
+    },
+    {
+      "file": "src/models/Tunnel_v3_.glb",
+      "bytes": 63476,
+      "sha256": "79aeff58e1b6677d67b2374737e63a4c7f805e22877c1aaced90e0be122faf81"
+    },
+    {
+      "file": "src/projectLayout.ts",
+      "bytes": 2285,
+      "sha256": "2d767f2e1dd13c7039bfa28bd6a00e485716fbfc3cd2c9479f189f4244d45daa"
+    },
+    {
+      "file": "src/style.css",
+      "bytes": 213,
+      "sha256": "7e8491f032c9b39e7c70b8132c8219f4b4c769e6eb1ac04ced1aa8eb335ca8ba"
+    },
+    {
+      "file": "src/textures/arrow-marker.webp",
+      "bytes": 3632,
+      "sha256": "9a7d405624d94fb0660e44d8dd0e2a1fe6f08bec2305b6bbc3d1968afad3e8d5"
+    },
+    {
+      "file": "src/textures/blue.webp",
+      "bytes": 4074,
+      "sha256": "6d62dbe2ef6830d5b7d9fb3134efc535e74cf00e4395998e3b24425c594e0762"
+    },
+    {
+      "file": "src/textures/green.webp",
+      "bytes": 4026,
+      "sha256": "740dc8c3d8e365c9030e73bdb22f6bfc75f373420d39f67e7e36fe60f808550a"
+    },
+    {
+      "file": "src/textures/head-outline.webp",
+      "bytes": 4546,
+      "sha256": "b445868842f49f84a41328bf34e97efbaca9a56b0188dfce7092adade4785a3a"
+    },
+    {
+      "file": "src/textures/red.webp",
+      "bytes": 3892,
+      "sha256": "4194e272d13f1fcb7bf3a696a1ef56292b7abd203e136b02a7b652d68792cbae"
+    },
+    {
+      "file": "src/textures/tunnel.webp",
+      "bytes": 6772,
+      "sha256": "ba381c63015b80c74f7e1b717a494d5ff645aa4e22ea092c568f7ceb2e1c4b18"
+    },
+    {
+      "file": "src/textures/yellow.webp",
+      "bytes": 4400,
+      "sha256": "d126b5daf63e5689b9d52c086d72c25e31c4a067dd0bbd98a80c224e9c17e2b2"
+    },
+    {
+      "file": "scripts/convert-models.mjs",
+      "bytes": 1909,
+      "sha256": "de553b6de681e4642f2719c4b1caddd65f35836cacf9b57e2f81992c2dbb9052"
+    },
+    {
+      "file": "scripts/convert-textures.mjs",
+      "bytes": 1142,
+      "sha256": "5b82af279101ee96ffb93b19799fde6a9c99d7d23ffeeee688a667dc65adb8c1"
+    },
+    {
+      "file": "scripts/convert-unity-mesh.mjs",
+      "bytes": 5271,
+      "sha256": "71c55e47ed71d31853c1953cd6f356be9d75798c327c7135523d0bf5d2d8354b"
+    },
+    {
+      "file": "scripts/finalize-html.mjs",
+      "bytes": 1072,
+      "sha256": "27ee8d2617c68104942dbb9b05b89cc59da40275318c5f91fd8b43df2d8ed85f"
+    },
+    {
+      "file": "scripts/optimize-glb.mjs",
+      "bytes": 5602,
+      "sha256": "048aeac676bee2f8adb999371290ca2ec3abe9961560cbd39fc7d47f6ed913ed"
+    },
+    {
+      "file": "AGENTS.md",
+      "bytes": 42430,
+      "sha256": "134918518aae0f222f24a752c547f6acb1ad57b2b7af11e0b1c9ec33fc5790d1"
+    },
+    {
+      "file": "index.html",
+      "bytes": 378,
+      "sha256": "cb981aa18ab3431ce8ac5c164ce01726a92a551579e44086a0da888e048daaee"
+    },
+    {
+      "file": "LOCALIZATION.md",
+      "bytes": 10377,
+      "sha256": "6315c5f878919c20eef320a926de63ccc6655f631d6e6f22b01ebb585d5b2a3b"
+    },
+    {
+      "file": "New-Arrow-Flow-Arrow-Grid-Test-layout.json",
+      "bytes": 6502,
+      "sha256": "65920da63f9e0c2496b0ac53034c851f950b08660fdf4be18fabd81e24d2bb4f"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 65903,
+      "sha256": "90cc69d15264ba5ce5f772baa5ad6996b9f1a7380d37fdf08ca2a3ef676402db"
+    },
+    {
+      "file": "package.json",
+      "bytes": 706,
+      "sha256": "f9223f20a5393c07ffd81f3aaa712bd1f44b261a1824ce6bad6415e9ecdb9888"
+    },
+    {
+      "file": "SCENE_PORT.md",
+      "bytes": 5878,
+      "sha256": "2ff9818362414bc72164fbbf14501eefbbdd58ea9cf412c21b5e5737683eafd4"
+    },
+    {
+      "file": "TEMPLATE_GUIDE.md",
+      "bytes": 5616,
+      "sha256": "4dd882df5117d92645221af307f86b71309ad6203fbb21baa8c622537ece51b5"
+    },
+    {
+      "file": "tsconfig.json",
+      "bytes": 292,
+      "sha256": "ab854171aa3039469a4cbb38b2cdfd00fe571154303f6d58ccdc060276f3b0f1"
+    },
+    {
+      "file": "vite.config.ts",
+      "bytes": 395,
+      "sha256": "270cc974ac3082e44e9fd1573de4e180dd681ac6437613313fdd1e0a1b20b828"
+    },
+    {
+      "file": "Assets/3D World Assets/Arrow Flow 3D Scene_Layout.json",
+      "bytes": 95135,
+      "sha256": "550d1c837ca95a35f5acd56d9be8e6c7763d8a883d0033805cb0f0daed31df6d"
+    }
+  ],
+  "imports": [
+    {
+      "file": "src/game/arrowGrid.ts",
+      "lines": 501,
+      "babylonImports": [
+        "import { Matrix, Quaternion, Vector3 } from '@babylonjs/core/Maths/math.vector';\r",
+        "import { Mesh } from '@babylonjs/core/Meshes/mesh';\r",
+        "import { Scene } from '@babylonjs/core/scene';\r"
+      ]
+    },
+    {
+      "file": "src/game/beltMeshPath.ts",
+      "lines": 156,
+      "babylonImports": [
+        "import { Vector3 } from '@babylonjs/core/Maths/math.vector';\r",
+        "import { Mesh } from '@babylonjs/core/Meshes/mesh';\r"
+      ]
+    },
+    {
+      "file": "src/game/conveyor.ts",
+      "lines": 420,
+      "babylonImports": [
+        "import { Quaternion, Vector3 } from '@babylonjs/core/Maths/math.vector';\r",
+        "import { StandardMaterial } from '@babylonjs/core/Materials/standardMaterial';\r",
+        "import { DynamicTexture } from '@babylonjs/core/Materials/Textures/dynamicTexture';\r",
+        "import { Mesh } from '@babylonjs/core/Meshes/mesh';\r",
+        "import { MeshBuilder } from '@babylonjs/core/Meshes/meshBuilder';\r"
+      ]
+    },
+    {
+      "file": "src/game/conveyorPath.ts",
+      "lines": 170,
+      "babylonImports": [
+        "import { Vector3 } from '@babylonjs/core/Maths/math.vector';\r"
+      ]
+    },
+    {
+      "file": "src/game/hitEffects.ts",
+      "lines": 95,
+      "babylonImports": [
+        "import { Color3 } from '@babylonjs/core/Maths/math.color';\r",
+        "import { Vector3 } from '@babylonjs/core/Maths/math.vector';\r",
+        "import { StandardMaterial } from '@babylonjs/core/Materials/standardMaterial';\r",
+        "import { Mesh } from '@babylonjs/core/Meshes/mesh';\r",
+        "import { MeshBuilder } from '@babylonjs/core/Meshes/meshBuilder';\r",
+        "import type { Scene } from '@babylonjs/core/scene';\r"
+      ]
+    },
+    {
+      "file": "src/layout/arrowGrid2D.ts",
+      "lines": 75,
+      "babylonImports": []
+    },
+    {
+      "file": "src/layout/unityLayout.ts",
+      "lines": 40,
+      "babylonImports": []
+    },
+    {
+      "file": "src/main.ts",
+      "lines": 491,
+      "babylonImports": [
+        "import { Color3, Color4 } from '@babylonjs/core/Maths/math.color';\r",
+        "import { Vector3, Quaternion, Matrix } from '@babylonjs/core/Maths/math.vector';\r",
+        "import { Engine } from '@babylonjs/core/Engines/engine';\r",
+        "import { Scene } from '@babylonjs/core/scene';\r",
+        "import { FreeCamera } from '@babylonjs/core/Cameras/freeCamera';\r",
+        "import { DirectionalLight } from '@babylonjs/core/Lights/directionalLight';\r",
+        "import { HemisphericLight } from '@babylonjs/core/Lights/hemisphericLight';\r",
+        "import { Mesh } from '@babylonjs/core/Meshes/mesh';\r",
+        "import { MeshBuilder } from '@babylonjs/core/Meshes/meshBuilder';\r",
+        "import { SceneLoader } from '@babylonjs/core/Loading/sceneLoader';\r",
+        "import { StandardMaterial } from '@babylonjs/core/Materials/standardMaterial';\r",
+        "import { Texture } from '@babylonjs/core/Materials/Textures/texture';\r",
+        "import '@babylonjs/loaders/glTF/glTFFileLoader';\r",
+        "import '@babylonjs/loaders/glTF/2.0/glTFLoader';\r"
+      ]
+    },
+    {
+      "file": "src/projectLayout.ts",
+      "lines": 83,
+      "babylonImports": []
+    },
+    {
+      "file": "vite.config.ts",
+      "lines": 15,
+      "babylonImports": []
+    }
+  ],
+  "versions": {
+    "@babylonjs/core": "9.31.0",
+    "@babylonjs/loaders": "9.31.0",
+    "vite": "7.3.7",
+    "typescript": "5.9.3",
+    "vite-plugin-singlefile": "2.3.4"
+  },
+  "config": {
+    "view": {
+      "background": {
+        "r": 0.2627,
+        "g": 0.2588,
+        "b": 0.4039
+      },
+      "cameraHeight": 13.5,
+      "cameraTarget": {
+        "x": 0,
+        "y": 0,
+        "z": -8.46
+      },
+      "minimumHalfWidth": 8.8
+    },
+    "nodes": {
+      "slotPlacements": "Conveyor Blocks",
+      "beltArrows": "Conveyor Arrows",
+      "turretPrefix": "Shooter Turret",
+      "turretBodyMesh": "Shooter1_",
+      "muzzle": "Muzzle Point",
+      "headMesh": "HeadBlock1",
+      "bodyMesh": "Block1",
+      "cornerMesh": "CornerBlock1",
+      "conveyorWallMesh": "Custom Mesh",
+      "conveyorBeltMesh": "Conveyor Belt",
+      "tunnelMeshPrefix": "Tunnel",
+      "bulletMesh": "Icosphere",
+      "beltArrowSprite": "Arrow_.png",
+      "headHighlight": "OutlineSprite__0.png"
+    },
+    "grid": {
+      "cellSize": 1.5,
+      "speed": 7.2,
+      "exitDirection": {
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "exitScanDistance": 100
+    },
+    "grid2D": {
+      "center": {
+        "x": 0.11,
+        "z": -7.35
+      },
+      "colors": {
+        "#ff0000": "red",
+        "#00ff04": "green",
+        "#eeff00": "yellow",
+        "#1100ff": "blue"
+      }
+    },
+    "conveyor": {
+      "path": {
+        "kind": "beltMesh"
+      },
+      "meshSizing": {
+        "slotPitchToWidth": 0.86,
+        "markerPitchToWidth": 1.43,
+        "markerWidthToBelt": 0.43,
+        "markerLengthToBelt": 0.255,
+        "blockWidthToBelt": 0.75
+      },
+      "markerSpeed": 2.8,
+      "transferSeconds": 0.12,
+      "bulletSpeed": 38,
+      "blockColor": "red",
+      "startEmpty": true
+    },
+    "shooters": {
+      "shotsPerTurret": 17,
+      "advanceSeconds": 0.55,
+      "counterOffset": {
+        "x": 0,
+        "y": 1.92,
+        "z": 0.65
+      },
+      "bulletHitHeight": 1.1,
+      "bulletScale": 0.55,
+      "bulletColor": "#f4f2e9",
+      "bulletEmissiveStrength": 0.45,
+      "effects": {
+        "burstSize": 0.31,
+        "burstCount": 11,
+        "burstDuration": 0.48,
+        "burstColors": {
+          "red": "#ff5146",
+          "yellow": "#ffdb24",
+          "green": "#1cea18",
+          "blue": "#15cee8"
+        }
+      }
+    }
+  },
+  "grid": {
+    "arrows": 12,
+    "cells": 56,
+    "bounds": {
+      "minX": -15,
+      "minY": -10,
+      "width": 7,
+      "height": 8
+    },
+    "colors": {
+      "red": 24,
+      "green": 11,
+      "yellow": 13,
+      "blue": 8
+    },
+    "validation": "Original accepted; deliberately invalid overlapping layout rejected",
+    "mapped": [
+      {
+        "id": "web:206b69de-e00b-431e-bdfd-47679db808fb",
+        "color": "red",
+        "exitDirection": {
+          "x": 0,
+          "z": -1
+        },
+        "points": [
+          {
+            "x": -2.89,
+            "z": -12.6
+          },
+          {
+            "x": -2.89,
+            "z": -11.1
+          },
+          {
+            "x": -2.89,
+            "z": -9.6
+          },
+          {
+            "x": -1.39,
+            "z": -9.6
+          },
+          {
+            "x": 0.11,
+            "z": -9.6
+          }
+        ]
+      },
+      {
+        "id": "web:13d3771a-931f-4746-9a0b-55a51e791e23",
+        "color": "red",
+        "exitDirection": {
+          "x": -1,
+          "z": 0
+        },
+        "points": [
+          {
+            "x": -4.39,
+            "z": -8.1
+          },
+          {
+            "x": -2.89,
+            "z": -8.1
+          },
+          {
+            "x": -1.39,
+            "z": -8.1
+          },
+          {
+            "x": 0.11,
+            "z": -8.1
+          },
+          {
+            "x": 0.11,
+            "z": -6.6
+          },
+          {
+            "x": 0.11,
+            "z": -5.1
+          }
+        ]
+      },
+      {
+        "id": "web:095f340b-fcbe-4fa7-b97e-98b8b548caef",
+        "color": "red",
+        "exitDirection": {
+          "x": 0,
+          "z": -1
+        },
+        "points": [
+          {
+            "x": -1.39,
+            "z": -6.6
+          },
+          {
+            "x": -1.39,
+            "z": -5.1
+          },
+          {
+            "x": -1.39,
+            "z": -3.5999999999999996
+          },
+          {
+            "x": 0.11,
+            "z": -3.5999999999999996
+          },
+          {
+            "x": 1.61,
+            "z": -3.5999999999999996
+          },
+          {
+            "x": 3.11,
+            "z": -3.5999999999999996
+          }
+        ]
+      },
+      {
+        "id": "web:6753f6c0-d954-4f89-967c-7967a3317f95",
+        "color": "red",
+        "exitDirection": {
+          "x": 1,
+          "z": 0
+        },
+        "points": [
+          {
+            "x": 4.61,
+            "z": -5.1
+          },
+          {
+            "x": 3.11,
+            "z": -5.1
+          },
+          {
+            "x": 1.61,
+            "z": -5.1
+          },
+          {
+            "x": 1.61,
+            "z": -6.6
+          },
+          {
+            "x": 1.61,
+            "z": -8.1
+          },
+          {
+            "x": 1.61,
+            "z": -9.6
+          },
+          {
+            "x": 1.61,
+            "z": -11.1
+          }
+        ]
+      },
+      {
+        "id": "web:047d6882-93d4-4b93-aa41-0bc0ca581e4b",
+        "color": "green",
+        "exitDirection": {
+          "x": 1,
+          "z": 0
+        },
+        "points": [
+          {
+            "x": 4.61,
+            "z": -6.6
+          },
+          {
+            "x": 3.11,
+            "z": -6.6
+          },
+          {
+            "x": 3.11,
+            "z": -8.1
+          },
+          {
+            "x": 3.11,
+            "z": -9.6
+          }
+        ]
+      },
+      {
+        "id": "web:885e21f9-6c17-4b92-95b7-a5efb4680b7c",
+        "color": "green",
+        "exitDirection": {
+          "x": 1,
+          "z": 0
+        },
+        "points": [
+          {
+            "x": -1.39,
+            "z": -2.0999999999999996
+          },
+          {
+            "x": -2.89,
+            "z": -2.0999999999999996
+          },
+          {
+            "x": -2.89,
+            "z": -3.5999999999999996
+          },
+          {
+            "x": -2.89,
+            "z": -5.1
+          },
+          {
+            "x": -2.89,
+            "z": -6.6
+          }
+        ]
+      },
+      {
+        "id": "web:10c041b0-f167-484a-8451-70217c0acc31",
+        "color": "green",
+        "exitDirection": {
+          "x": -1,
+          "z": 0
+        },
+        "points": [
+          {
+            "x": -1.39,
+            "z": -11.1
+          },
+          {
+            "x": 0.11,
+            "z": -11.1
+          }
+        ]
+      },
+      {
+        "id": "web:01b5d640-0c13-46ef-be74-dd2dd4c366d1",
+        "color": "yellow",
+        "exitDirection": {
+          "x": 0,
+          "z": -1
+        },
+        "points": [
+          {
+            "x": 4.61,
+            "z": -3.5999999999999996
+          },
+          {
+            "x": 4.61,
+            "z": -2.0999999999999996
+          },
+          {
+            "x": 3.11,
+            "z": -2.0999999999999996
+          },
+          {
+            "x": 1.61,
+            "z": -2.0999999999999996
+          },
+          {
+            "x": 0.11,
+            "z": -2.0999999999999996
+          }
+        ]
+      },
+      {
+        "id": "web:4dfb87ca-e418-45ce-8966-80669490eaac",
+        "color": "yellow",
+        "exitDirection": {
+          "x": -1,
+          "z": 0
+        },
+        "points": [
+          {
+            "x": 3.11,
+            "z": -11.1
+          },
+          {
+            "x": 4.61,
+            "z": -11.1
+          },
+          {
+            "x": 4.61,
+            "z": -9.6
+          },
+          {
+            "x": 4.61,
+            "z": -8.1
+          }
+        ]
+      },
+      {
+        "id": "web:f785e986-4832-4fc9-a478-6741a6a8764d",
+        "color": "yellow",
+        "exitDirection": {
+          "x": 0,
+          "z": 1
+        },
+        "points": [
+          {
+            "x": -4.39,
+            "z": -2.0999999999999996
+          },
+          {
+            "x": -4.39,
+            "z": -3.5999999999999996
+          },
+          {
+            "x": -4.39,
+            "z": -5.1
+          },
+          {
+            "x": -4.39,
+            "z": -6.6
+          }
+        ]
+      },
+      {
+        "id": "web:1a0064ea-d4b3-4b24-8974-103739bf2e79",
+        "color": "blue",
+        "exitDirection": {
+          "x": -1,
+          "z": 0
+        },
+        "points": [
+          {
+            "x": -1.39,
+            "z": -12.6
+          },
+          {
+            "x": 0.11,
+            "z": -12.6
+          },
+          {
+            "x": 1.61,
+            "z": -12.6
+          },
+          {
+            "x": 3.11,
+            "z": -12.6
+          },
+          {
+            "x": 4.61,
+            "z": -12.6
+          }
+        ]
+      },
+      {
+        "id": "web:3decda14-91aa-4c51-9ef5-5ff1ed76c7b4",
+        "color": "blue",
+        "exitDirection": {
+          "x": 0,
+          "z": -1
+        },
+        "points": [
+          {
+            "x": -4.39,
+            "z": -12.6
+          },
+          {
+            "x": -4.39,
+            "z": -11.1
+          },
+          {
+            "x": -4.39,
+            "z": -9.6
+          }
+        ]
+      }
+    ]
+  },
+  "turrets": [
+    {
+      "name": "Shooter Turret",
+      "parent": "Tunnel_v2_.002",
+      "color": "red",
+      "position": {
+        "x": -3.6777,
+        "y": 1.0444,
+        "z": 22.8644
+      }
+    },
+    {
+      "name": "Shooter Turret (1)",
+      "parent": "Tunnel_v2_.002",
+      "color": "yellow",
+      "position": {
+        "x": -3.6777,
+        "y": 1.0444,
+        "z": 25.6189
+      }
+    },
+    {
+      "name": "Shooter Turret",
+      "parent": "Tunnel_v2_.002",
+      "color": "red",
+      "position": {
+        "x": 3.6723,
+        "y": 1.0444,
+        "z": 22.8644
+      }
+    },
+    {
+      "name": "Shooter Turret (1)",
+      "parent": "Tunnel_v2_.002",
+      "color": "green",
+      "position": {
+        "x": 3.6723,
+        "y": 1.0444,
+        "z": 25.6189
+      }
+    }
+  ],
+  "assets": [
+    {
+      "file": "src/models/AnimatedBlocks_.glb",
+      "bytes": 179400,
+      "sha256": "1672117995ef82eb3ff3f183aeff808f9b90ea633751946265f27c4abb7c1aa0",
+      "meshes": [
+        {
+          "name": "Block1",
+          "primitives": [
+            {
+              "vertices": 386,
+              "triangles": 350,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "CornerBlock1",
+          "primitives": [
+            {
+              "vertices": 373,
+              "triangles": 350,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "HeadBlock1",
+          "primitives": [
+            {
+              "vertices": 888,
+              "triangles": 884,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ]
+            }
+          ]
+        }
+      ],
+      "animations": 0,
+      "skins": 0,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "src/models/Bullet_.glb",
+      "bytes": 8316,
+      "sha256": "9c7a55c539d2d33b8338f3b88bbae04ba54a4117d9d6dcadb070be46f9ba9f9d",
+      "meshes": [
+        {
+          "name": "Icosphere",
+          "primitives": [
+            {
+              "vertices": 240,
+              "triangles": 80,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ]
+            }
+          ]
+        }
+      ],
+      "animations": 0,
+      "skins": 0,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "src/models/Conveyor_Custom_Mesh.glb",
+      "bytes": 290240,
+      "sha256": "48669011584e9bab27b7d739b79b0c192b5116bebc6889924934e19cd40e9802",
+      "meshes": [
+        {
+          "name": "Custom Mesh",
+          "primitives": [
+            {
+              "vertices": 12024,
+              "triangles": 11520,
+              "attributes": [
+                "POSITION",
+                "NORMAL"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Conveyor Belt",
+          "primitives": [
+            {
+              "vertices": 12024,
+              "triangles": 576,
+              "attributes": [
+                "POSITION",
+                "NORMAL"
+              ]
+            }
+          ]
+        }
+      ],
+      "animations": 0,
+      "skins": 0,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "src/models/Shooter_v3_.glb",
+      "bytes": 65420,
+      "sha256": "0b98b8b5e3efb268e970b9255bd39693b6b3119e249439ba4335ace6cd190c74",
+      "meshes": [
+        {
+          "name": "Shooter1_",
+          "primitives": [
+            {
+              "vertices": 581,
+              "triangles": 1004,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ShooterMuzzle1_",
+          "primitives": [
+            {
+              "vertices": 1120,
+              "triangles": 2041,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ]
+            }
+          ]
+        }
+      ],
+      "animations": 0,
+      "skins": 0,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "src/models/Tunnel_v3_.glb",
+      "bytes": 63476,
+      "sha256": "79aeff58e1b6677d67b2374737e63a4c7f805e22877c1aaced90e0be122faf81",
+      "meshes": [
+        {
+          "name": "Tunnel_v2_.002",
+          "primitives": [
+            {
+              "vertices": 304,
+              "triangles": 272,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tunnel_v3_",
+          "primitives": [
+            {
+              "vertices": 1460,
+              "triangles": 2165,
+              "attributes": [
+                "NORMAL",
+                "POSITION",
+                "TEXCOORD_0"
+              ]
+            }
+          ]
+        }
+      ],
+      "animations": 0,
+      "skins": 0,
+      "extensions": [],
+      "externalUris": []
+    },
+    {
+      "file": "src/textures/arrow-marker.webp",
+      "bytes": 3632,
+      "sha256": "9a7d405624d94fb0660e44d8dd0e2a1fe6f08bec2305b6bbc3d1968afad3e8d5"
+    },
+    {
+      "file": "src/textures/blue.webp",
+      "bytes": 4074,
+      "sha256": "6d62dbe2ef6830d5b7d9fb3134efc535e74cf00e4395998e3b24425c594e0762"
+    },
+    {
+      "file": "src/textures/green.webp",
+      "bytes": 4026,
+      "sha256": "740dc8c3d8e365c9030e73bdb22f6bfc75f373420d39f67e7e36fe60f808550a"
+    },
+    {
+      "file": "src/textures/head-outline.webp",
+      "bytes": 4546,
+      "sha256": "b445868842f49f84a41328bf34e97efbaca9a56b0188dfce7092adade4785a3a"
+    },
+    {
+      "file": "src/textures/red.webp",
+      "bytes": 3892,
+      "sha256": "4194e272d13f1fcb7bf3a696a1ef56292b7abd203e136b02a7b652d68792cbae"
+    },
+    {
+      "file": "src/textures/tunnel.webp",
+      "bytes": 6772,
+      "sha256": "ba381c63015b80c74f7e1b717a494d5ff645aa4e22ea092c568f7ceb2e1c4b18"
+    },
+    {
+      "file": "src/textures/yellow.webp",
+      "bytes": 4400,
+      "sha256": "d126b5daf63e5689b9d52c086d72c25e31c4a067dd0bbd98a80c224e9c17e2b2"
+    }
+  ],
+  "assetBytes": 638194,
+  "base64AssetBytes": 850940,
+  "buildVerified": false
+}

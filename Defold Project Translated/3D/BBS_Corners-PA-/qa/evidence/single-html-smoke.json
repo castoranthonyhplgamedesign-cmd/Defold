@@ -1,0 +1,16 @@
+{
+  "name": "Brickshatter Corners",
+  "file": "D:\\allproject\\defold\\output\\Brickshatter-Corners.html",
+  "timestamp": "2026-11-06T15:42:26.068Z",
+  "offline": true,
+  "tests": [
+    "renamed HTML loads directly from the requested folder with networking disabled",
+    "embedded meshes, textures, fonts, audio and gameplay run without companion files",
+    "renamed end card works offline and local CTA stays in the file",
+    "standalone file supports rotation",
+    "zero external requests and zero runtime errors"
+  ],
+  "errors": [],
+  "extraRequests": [],
+  "passed": true
+}

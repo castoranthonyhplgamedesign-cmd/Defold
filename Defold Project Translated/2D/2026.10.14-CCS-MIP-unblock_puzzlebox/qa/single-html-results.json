@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-06T15:43:29.078Z",
+  "testedFile": "D:\\allproject\\defold\\output\\Ring Sort.html",
+  "isolatedDirectory": "C:\\Users\\ANTHON~1\\AppData\\Local\\Temp\\ring-sort-single-NednZ2",
+  "offline": true,
+  "results": [
+    {
+      "name": "Single file boots offline in an otherwise empty folder",
+      "pass": true
+    },
+    {
+      "name": "Offline input, physics, NEXT advancement and audio unlock work",
+      "pass": true
+    },
+    {
+      "name": "Offline end card uses Ring Sort branding and local CTA",
+      "pass": true
+    },
+    {
+      "name": "Single-file canvas rotates correctly",
+      "pass": true
+    },
+    {
+      "name": "No network or sibling file requests",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "requests": [
+    "file:///C:/Users/ANTHON%7E1/AppData/Local/Temp/ring-sort-single-NednZ2/Ring%20Sort.html?qa=1&variant=3clk"
+  ]
+}

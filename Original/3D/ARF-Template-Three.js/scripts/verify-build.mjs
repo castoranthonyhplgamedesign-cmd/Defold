@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import vm from 'node:vm';
+const file = 'dist/index.html';
+let html = fs.readFileSync(file, 'utf8');
+html = html.replace(/<script type="module" crossorigin>/g, '<script>');
+assert(!/<script[^>]+(?:src=|type="module"|crossorigin)/i.test(html));
+assert(!/(?:src|href)="(?:https?:|\/src\/)/.test(html));
+for (const [, script] of html.matchAll(/<script[^>]*>([\s\S]*?)<\/script>/g)) new vm.Script(script);
+assert(Buffer.byteLength(html) < 4_000_000, 'Build exceeds common provisional budget');
+fs.writeFileSync(file, html);
+console.log(`Single-file gameplay preview: ${Buffer.byteLength(html)} bytes (not a network delivery build).`);

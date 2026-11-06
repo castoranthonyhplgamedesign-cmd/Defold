@@ -1,0 +1,84 @@
+{
+  "method": "Cyclic least-squares pairing of equal-size inner/outer boundary samples; midpoint centerline; closed RDP simplification. Inferred path, not an authored spline.",
+  "boundarySampleCount": 606,
+  "pairedWidth": {
+    "min": 0.08345389014007572,
+    "median": 0.08345405602772352,
+    "max": 0.0834543324943083
+  },
+  "scaleToEditor": 15.577433403214565,
+  "attempts": [
+    {
+      "tolerance": 0.001,
+      "points": 235,
+      "valid": false,
+      "reason": "Conveyor point count is invalid (3-64 editable, up to 1024 for an imported mesh)"
+    },
+    {
+      "tolerance": 0.002,
+      "points": 163,
+      "valid": false,
+      "reason": "Conveyor point count is invalid (3-64 editable, up to 1024 for an imported mesh)"
+    },
+    {
+      "tolerance": 0.003,
+      "points": 137,
+      "valid": false,
+      "reason": "Conveyor point count is invalid (3-64 editable, up to 1024 for an imported mesh)"
+    },
+    {
+      "tolerance": 0.004,
+      "points": 114,
+      "valid": false,
+      "reason": "Conveyor point count is invalid (3-64 editable, up to 1024 for an imported mesh)"
+    },
+    {
+      "tolerance": 0.005,
+      "points": 102,
+      "valid": false,
+      "reason": "Conveyor point count is invalid (3-64 editable, up to 1024 for an imported mesh)"
+    },
+    {
+      "tolerance": 0.006,
+      "points": 93,
+      "valid": false,
+      "reason": "Conveyor point count is invalid (3-64 editable, up to 1024 for an imported mesh)"
+    },
+    {
+      "tolerance": 0.008,
+      "points": 82,
+      "valid": false,
+      "reason": "Conveyor point count is invalid (3-64 editable, up to 1024 for an imported mesh)"
+    },
+    {
+      "tolerance": 0.01,
+      "points": 76,
+      "valid": false,
+      "reason": "Conveyor point count is invalid (3-64 editable, up to 1024 for an imported mesh)"
+    },
+    {
+      "tolerance": 0.012,
+      "points": 69,
+      "valid": false,
+      "reason": "Conveyor point count is invalid (3-64 editable, up to 1024 for an imported mesh)"
+    },
+    {
+      "tolerance": 0.015,
+      "points": 62,
+      "valid": false,
+      "reason": "Conveyor width overlaps its corners or a narrow bend"
+    },
+    {
+      "tolerance": 0.02,
+      "points": 49,
+      "valid": false,
+      "reason": "Conveyor width overlaps its corners or a narrow bend"
+    },
+    {
+      "tolerance": 0.025,
+      "points": 45,
+      "valid": true
+    }
+  ],
+  "candidatePoints": 45
+}

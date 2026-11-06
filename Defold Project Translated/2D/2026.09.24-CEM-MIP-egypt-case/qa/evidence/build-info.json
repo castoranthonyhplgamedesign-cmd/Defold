@@ -1,0 +1,14 @@
+{
+  "tested_code_commit": "760495f4831caf8fe8a1aae6cda170b896e3e213",
+  "original_branch": "main",
+  "original_commit": "d993837484f9f5e6ee2fe9530c704365eed376fc",
+  "defold_engine_revision": "d295ed4edff2e49072719835713e625f409849f1",
+  "build_variant": "release",
+  "target": "wasm-web",
+  "html_variants": 24,
+  "zip_packages": 9,
+  "largest_html_bytes": 4349141,
+  "local_preview": "http://127.0.0.1:8174/dist/",
+  "qa_passed": 27,
+  "qa_failed": 0
+}

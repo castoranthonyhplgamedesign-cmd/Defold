@@ -1,0 +1,25 @@
+# Local tools and generated dependencies
+/.tools/
+**/node_modules/
+**/__pycache__/
+*.pyc
+**/bob*.jar
+
+# Defold build output and editor caches
+**/build/
+**/publish/
+**/.internal/
+**/.editor_settings
+**/.DS_Store
+/analysis/staging/
+/analysis/local-publish/
+
+# Local browser profiles and caches
+**/chrome-profile*/
+**/browser-profile*/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+!.env.sample

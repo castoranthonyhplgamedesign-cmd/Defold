@@ -1,0 +1,12 @@
+attribute highp vec4 position;
+attribute mediump vec3 normal;
+attribute mediump vec3 body;
+uniform highp mat4 worldviewproj;
+uniform highp mat4 world;
+varying mediump vec3 var_normal;
+varying mediump vec3 var_body;
+void main() {
+    gl_Position = worldviewproj * position;
+    var_normal = normalize((world * vec4(normal, 0.0)).xyz);
+    var_body = body;
+}

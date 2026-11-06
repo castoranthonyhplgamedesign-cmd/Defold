@@ -1,0 +1,19 @@
+{
+  "checkedAt": "2026-10-27T08:14:13.540Z",
+  "result": "pass",
+  "bytes": 3635000,
+  "screens": [
+    "analysis/screenshots/editor-authoring/package-390x844.png",
+    "analysis/screenshots/editor-authoring/package-844x390.png",
+    "analysis/screenshots/editor-authoring/package-768x1024.png",
+    "analysis/screenshots/editor-authoring/package-360x640.png"
+  ],
+  "errors": [],
+  "external": [],
+  "checks": [
+    "standalone served package",
+    "four viewport rendering",
+    "native-input clear with imported geometry and free cannon",
+    "editor excluded"
+  ]
+}

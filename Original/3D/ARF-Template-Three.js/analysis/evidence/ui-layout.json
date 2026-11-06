@@ -1,0 +1,604 @@
+{
+  "status": "Confirmed serialized values; Unknown final rendered bounds",
+  "canvas": {
+    "name": "Canvas",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": 360,
+      "y": 640,
+      "z": 0
+    },
+    "components": [
+      {
+        "__type__": "cc.UITransform",
+        "_contentSize": {
+          "__type__": "cc.Size",
+          "width": 720,
+          "height": 1280
+        },
+        "node": {
+          "__ref__": 12
+        }
+      },
+      {
+        "__type__": "cc.Canvas",
+        "node": {
+          "__ref__": 12
+        },
+        "_cameraComponent": {
+          "__ref__": 322
+        }
+      },
+      {
+        "__type__": "cc.Widget",
+        "_alignFlags": 45,
+        "node": {
+          "__ref__": 12
+        }
+      }
+    ],
+    "children": [
+      {
+        "name": "Camera",
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1000
+        },
+        "components": [
+          {
+            "__type__": "cc.Camera",
+            "_projection": 0,
+            "_priority": 1073741824,
+            "_orthoHeight": 640,
+            "_far": 2000,
+            "_clearFlags": 6,
+            "_visibility": 41943040,
+            "node": {
+              "__ref__": 321
+            },
+            "_color": {
+              "__type__": "cc.Color",
+              "r": 0,
+              "g": 0,
+              "b": 0,
+              "a": 255
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "HUD",
+        "components": [
+          {
+            "__type__": "cc.UITransform",
+            "node": {
+              "__ref__": 77
+            }
+          }
+        ],
+        "children": [
+          {
+            "name": "title (2)",
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": -266.872,
+              "y": -577.112,
+              "z": 0
+            },
+            "components": [
+              {
+                "__type__": "cc.UITransform",
+                "_contentSize": {
+                  "__type__": "cc.Size",
+                  "width": 169.513,
+                  "height": 102.45880696202532
+                },
+                "node": {
+                  "__ref__": 79
+                }
+              },
+              {
+                "__type__": "cc.Sprite",
+                "_sizeMode": 0,
+                "node": {
+                  "__ref__": 79
+                },
+                "_spriteFrame": {
+                  "__uuid__": "e9ba55d5-a84e-4356-9314-6c3d429c78c3@f9941"
+                }
+              },
+              {
+                "__type__": "cc.Widget",
+                "_alignFlags": 12,
+                "_left": 8.371499999999955,
+                "_bottom": 11.658596518987352,
+                "_target": {
+                  "__ref__": 12
+                },
+                "node": {
+                  "__ref__": 79
+                }
+              },
+              {
+                "__type__": "cc.Button",
+                "_transition": 3,
+                "clickEvents": [
+                  {
+                    "__type__": "cc.ClickEvent",
+                    "_componentId": "215a55p2fpL3L6lcswjxo3B",
+                    "handler": "onStoreButtonClicked",
+                    "target": {
+                      "__ref__": 5
+                    }
+                  }
+                ],
+                "_target": {
+                  "__ref__": 45
+                },
+                "node": {
+                  "__ref__": 79
+                }
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "button",
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 211.14100000000002,
+              "y": -589.966,
+              "z": 0
+            },
+            "components": [
+              {
+                "__type__": "cc.UITransform",
+                "_contentSize": {
+                  "__type__": "cc.Size",
+                  "width": 261.524,
+                  "height": 84.0176401869159
+                },
+                "node": {
+                  "__ref__": 45
+                }
+              },
+              {
+                "__type__": "cc.Sprite",
+                "_sizeMode": 0,
+                "node": {
+                  "__ref__": 45
+                },
+                "_spriteFrame": {
+                  "__uuid__": "7ee7c69f-f28a-4986-8d93-f51a03f19e78@f9941"
+                }
+              },
+              {
+                "__type__": "cc.Widget",
+                "_alignFlags": 36,
+                "_left": 8.371499999999955,
+                "_right": 18.09700000000001,
+                "_bottom": 8.025179906541986,
+                "_target": {
+                  "__ref__": 12
+                },
+                "node": {
+                  "__ref__": 45
+                }
+              },
+              {
+                "__type__": "cc.Button",
+                "_transition": 3,
+                "clickEvents": [
+                  {
+                    "__type__": "cc.ClickEvent",
+                    "_componentId": "215a55p2fpL3L6lcswjxo3B",
+                    "handler": "onStoreButtonClicked",
+                    "target": {
+                      "__ref__": 5
+                    }
+                  }
+                ],
+                "node": {
+                  "__ref__": 45
+                }
+              },
+              {
+                "__type__": "cc.Animation",
+                "playOnLoad": true,
+                "_clips": [
+                  {
+                    "__uuid__": "612b568c-6e7e-4b82-a194-d0cb5b2656f1"
+                  }
+                ],
+                "node": {
+                  "__ref__": 45
+                },
+                "_defaultClip": {
+                  "__uuid__": "612b568c-6e7e-4b82-a194-d0cb5b2656f1"
+                }
+              }
+            ],
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "CTA",
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "components": [
+          {
+            "__type__": "cc.UITransform",
+            "node": {
+              "__ref__": 70
+            }
+          }
+        ],
+        "children": [
+          {
+            "name": "SpriteSplash",
+            "components": [
+              {
+                "__type__": "cc.UITransform",
+                "_contentSize": {
+                  "__type__": "cc.Size",
+                  "width": 720,
+                  "height": 1280
+                },
+                "node": {
+                  "__ref__": 78
+                }
+              },
+              {
+                "__type__": "cc.Sprite",
+                "_sizeMode": 0,
+                "_color": {
+                  "__type__": "cc.Color",
+                  "r": 0,
+                  "g": 0,
+                  "b": 0,
+                  "a": 200
+                },
+                "node": {
+                  "__ref__": 78
+                },
+                "_spriteFrame": {
+                  "__uuid__": "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941"
+                }
+              },
+              {
+                "__type__": "cc.Widget",
+                "_alignFlags": 45,
+                "_originalWidth": 100,
+                "_originalHeight": 100,
+                "_target": {
+                  "__ref__": 12
+                },
+                "node": {
+                  "__ref__": 78
+                }
+              },
+              {
+                "__type__": "cc.BlockInputEvents",
+                "node": {
+                  "__ref__": 78
+                }
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "AppIcon_",
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": 66.055,
+              "z": 0
+            },
+            "components": [
+              {
+                "__type__": "cc.UITransform",
+                "_contentSize": {
+                  "__type__": "cc.Size",
+                  "width": 400,
+                  "height": 400
+                },
+                "node": {
+                  "__ref__": 136
+                }
+              },
+              {
+                "__type__": "cc.Sprite",
+                "_sizeMode": 0,
+                "node": {
+                  "__ref__": 136
+                },
+                "_spriteFrame": {
+                  "__uuid__": "ebadcded-6f27-4491-afaf-84fc212b18a4@f9941"
+                }
+              },
+              {
+                "__type__": "cc.Button",
+                "_transition": 3,
+                "clickEvents": [
+                  {
+                    "__type__": "cc.ClickEvent",
+                    "_componentId": "215a55p2fpL3L6lcswjxo3B",
+                    "handler": "onStoreButtonClicked",
+                    "target": {
+                      "__ref__": 5
+                    }
+                  }
+                ],
+                "_target": {
+                  "__ref__": 71
+                },
+                "node": {
+                  "__ref__": 136
+                }
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "title (2)",
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": -0.106,
+              "y": 360.479,
+              "z": 0
+            },
+            "scale": {
+              "__type__": "cc.Vec3",
+              "x": 1.801,
+              "y": 1.801,
+              "z": 1.801
+            },
+            "components": [
+              {
+                "__type__": "cc.UITransform",
+                "_contentSize": {
+                  "__type__": "cc.Size",
+                  "width": 169.513,
+                  "height": 102.45880696202532
+                },
+                "node": {
+                  "__ref__": 137
+                }
+              },
+              {
+                "__type__": "cc.Sprite",
+                "_sizeMode": 0,
+                "node": {
+                  "__ref__": 137
+                },
+                "_spriteFrame": {
+                  "__uuid__": "e9ba55d5-a84e-4356-9314-6c3d429c78c3@f9941"
+                }
+              },
+              {
+                "__type__": "cc.Button",
+                "_transition": 3,
+                "clickEvents": [
+                  {
+                    "__type__": "cc.ClickEvent",
+                    "_componentId": "215a55p2fpL3L6lcswjxo3B",
+                    "handler": "onStoreButtonClicked",
+                    "target": {
+                      "__ref__": 5
+                    }
+                  }
+                ],
+                "_target": {
+                  "__ref__": 45
+                },
+                "node": {
+                  "__ref__": 137
+                }
+              }
+            ],
+            "children": []
+          },
+          {
+            "name": "button",
+            "position": {
+              "__type__": "cc.Vec3",
+              "x": 0,
+              "y": -226.073,
+              "z": 0
+            },
+            "components": [
+              {
+                "__type__": "cc.UITransform",
+                "_contentSize": {
+                  "__type__": "cc.Size",
+                  "width": 337.31,
+                  "height": 108.36477803738319
+                },
+                "node": {
+                  "__ref__": 71
+                }
+              },
+              {
+                "__type__": "cc.Sprite",
+                "_sizeMode": 0,
+                "node": {
+                  "__ref__": 71
+                },
+                "_spriteFrame": {
+                  "__uuid__": "7ee7c69f-f28a-4986-8d93-f51a03f19e78@f9941"
+                }
+              },
+              {
+                "__type__": "cc.Button",
+                "_transition": 3,
+                "clickEvents": [
+                  {
+                    "__type__": "cc.ClickEvent",
+                    "_componentId": "215a55p2fpL3L6lcswjxo3B",
+                    "handler": "onStoreButtonClicked",
+                    "target": {
+                      "__ref__": 5
+                    }
+                  }
+                ],
+                "node": {
+                  "__ref__": 71
+                },
+                "_target": {
+                  "__ref__": 71
+                }
+              },
+              {
+                "__type__": "cc.Animation",
+                "playOnLoad": true,
+                "_clips": [
+                  {
+                    "__uuid__": "612b568c-6e7e-4b82-a194-d0cb5b2656f1"
+                  }
+                ],
+                "node": {
+                  "__ref__": 71
+                },
+                "_defaultClip": {
+                  "__uuid__": "612b568c-6e7e-4b82-a194-d0cb5b2656f1"
+                }
+              }
+            ],
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "hand": {
+    "name": "Tunnel",
+    "position": {
+      "__type__": "cc.Vec3",
+      "x": -2.525,
+      "y": 0,
+      "z": -12.134
+    },
+    "components": [
+      {
+        "__type__": "cc.UITransform",
+        "node": {
+          "__ref__": 69
+        }
+      },
+      {
+        "__type__": "cc.RenderRoot2D",
+        "node": {
+          "__ref__": 69
+        }
+      },
+      {
+        "__type__": "11aa0TpPd9Et477OkBF+fLY",
+        "node": {
+          "__ref__": 69
+        }
+      }
+    ],
+    "children": [
+      {
+        "name": "idle",
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 1.571,
+          "y": 0,
+          "z": 2.288
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 2.524,
+          "y": 2.864,
+          "z": 2.864
+        },
+        "rotation": {
+          "__type__": "cc.Quat",
+          "x": -0.7071067811865475,
+          "y": 0,
+          "z": 0,
+          "w": 0.7071067811865476
+        },
+        "components": [
+          {
+            "__type__": "cc.UITransform",
+            "_contentSize": {
+              "__type__": "cc.Size",
+              "width": 1.7,
+              "height": 2
+            },
+            "node": {
+              "__ref__": 224
+            }
+          },
+          {
+            "__type__": "cc.Sprite",
+            "_sizeMode": 0,
+            "node": {
+              "__ref__": 224
+            },
+            "_spriteFrame": {
+              "__uuid__": "f571e731-662a-47d5-97ac-a8a7f089bf7d@f9941"
+            }
+          }
+        ],
+        "children": []
+      },
+      {
+        "name": "tap",
+        "position": {
+          "__type__": "cc.Vec3",
+          "x": 1.567,
+          "y": 0,
+          "z": 2.217
+        },
+        "scale": {
+          "__type__": "cc.Vec3",
+          "x": 2.524,
+          "y": 2.864,
+          "z": 2.864
+        },
+        "rotation": {
+          "__type__": "cc.Quat",
+          "x": -0.7071067811865475,
+          "y": 0,
+          "z": 0,
+          "w": 0.7071067811865476
+        },
+        "components": [
+          {
+            "__type__": "cc.UITransform",
+            "_contentSize": {
+              "__type__": "cc.Size",
+              "width": 1.7,
+              "height": 2
+            },
+            "node": {
+              "__ref__": 225
+            }
+          },
+          {
+            "__type__": "cc.Sprite",
+            "_sizeMode": 0,
+            "node": {
+              "__ref__": 225
+            },
+            "_spriteFrame": {
+              "__uuid__": "6df3381d-185f-4eaa-abbd-556744d82f44@f9941"
+            }
+          }
+        ],
+        "children": []
+      }
+    ]
+  }
+}

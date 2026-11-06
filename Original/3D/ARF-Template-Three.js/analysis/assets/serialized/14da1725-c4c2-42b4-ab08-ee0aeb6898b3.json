@@ -1,0 +1,29 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Material",
+      "_name": "default-particle-gpu-material",
+      "_props": [
+        {}
+      ],
+      "_states": [
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        }
+      ],
+      "_defines": [
+        {}
+      ],
+      "_effectAsset": {
+        "__uuid__": "971bdb23-3ff6-43eb-b422-1c30165a3663"
+      }
+    }
+  ]
+}

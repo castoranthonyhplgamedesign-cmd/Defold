@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-27T08:30:20.963Z",
+  "result": "pass",
+  "bytes": 2611293,
+  "errors": [],
+  "external": [],
+  "checks": [
+    "standalone packaged native-input clear",
+    "editor control excluded"
+  ]
+}

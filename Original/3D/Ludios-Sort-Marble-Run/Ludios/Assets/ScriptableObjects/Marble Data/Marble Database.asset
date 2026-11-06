@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6743bcd5fee21f94da49c5b669067332, type: 3}
+  m_Name: Marble Database
+  m_EditorClassIdentifier: 
+  entries:
+  - type: 0
+    prefab: {fileID: 9002924386242477654, guid: 2277868abcf9e6943a6a24e5a9c41da2,
+      type: 3}
+  - type: 1
+    prefab: {fileID: 2300242091948754025, guid: 9cb01f87fd2dce14e937b0588f3aa523,
+      type: 3}
+  - type: 2
+    prefab: {fileID: 3838957305338505712, guid: 4992bca634aca1a40a981c22ce128ec9,
+      type: 3}
+  - type: 3
+    prefab: {fileID: 1157628535773081652, guid: 11364eacbb083e94e933d7ed51e72314,
+      type: 3}
+  - type: 4
+    prefab: {fileID: 7243341897712106907, guid: f2d04f5ff6b71dd4b864610d7f7b5c7f,
+      type: 3}
+  - type: 5
+    prefab: {fileID: 6411594441267014863, guid: bf1733d29f7842549815e930381083ef,
+      type: 3}
+  - type: 6
+    prefab: {fileID: 9068315194671794099, guid: 6abb35c8492fdae48b0da011827e3ed1,
+      type: 3}

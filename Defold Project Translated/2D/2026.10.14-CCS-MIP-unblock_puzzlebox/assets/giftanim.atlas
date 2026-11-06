@@ -1,0 +1,15 @@
+images { image: "/assets/giftanim/open_0.png" }
+images { image: "/assets/giftanim/open_1.png" }
+images { image: "/assets/giftanim/open_10.png" }
+images { image: "/assets/giftanim/open_11.png" }
+images { image: "/assets/giftanim/open_2.png" }
+images { image: "/assets/giftanim/open_3.png" }
+images { image: "/assets/giftanim/open_4.png" }
+images { image: "/assets/giftanim/open_5.png" }
+images { image: "/assets/giftanim/open_6.png" }
+images { image: "/assets/giftanim/open_7.png" }
+images { image: "/assets/giftanim/open_8.png" }
+images { image: "/assets/giftanim/open_9.png" }
+margin: 0
+extrude_borders: 2
+inner_padding: 0

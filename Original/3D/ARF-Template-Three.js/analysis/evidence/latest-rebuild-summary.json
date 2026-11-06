@@ -1,0 +1,15 @@
+{
+  "builtAt": "2026-11-03T03:03:37.752Z",
+  "testedAt": "2026-11-03T03:15:40.268Z",
+  "outputs": 32,
+  "lengths": [
+    "10clicks",
+    "3clicks",
+    "60seconds",
+    "full"
+  ],
+  "largestHTMLBytes": 3895387,
+  "browser": "153.0.8010.12",
+  "packagedChecks": "32/32 passed; controlled hosts, blocked requests and muted browser audio",
+  "unverified": "Physical devices and official ad-network validators"
+}

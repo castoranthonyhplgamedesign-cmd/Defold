@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "source_sha256": "98f9f70217c5f4cdc0b315f2d2c1b01a9d890add081752c936f82dfa2c4e8122",
+  "moves": 7,
+  "matched_columns": [
+    2,
+    3
+  ],
+  "method": "Original CoinCylinderLevel methods executed on its real constants; Lua-generated legal rotation replay compared after every move."
+}

@@ -1,0 +1,21 @@
+taps during pour
+tap picture (cut: counts, cuts nothing)
+random swipe (3 points)
+burst ×4
+swipe from outside
+random swipe (3 points)
+tap picture (cut: counts, cuts nothing)
+resize → 960×540@2
+burst ×4
+burst ×3
+swipe hint (157, 789) → (273, 789)
+random swipe (3 points)
+swipe hint (294, 789) → (444, 789)
+swipe hint (551, 789) → (701, 789)
+rotate → 540×960@2
+burst ×5
+swipe hint (722, 789) → (872, 789)
+swipe below the picture
+swipe hint (807, 704) → (923, 704)
+rotate on end card → 960×540@2
+rotate on end card → 540×960@2

@@ -1,0 +1,175 @@
+{
+  "ignores": [
+    "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleAudio.cs",
+    "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModulePhysics.cs",
+    "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModulePhysics2D.cs",
+    "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleSprite.cs",
+    "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUI.cs",
+    "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs",
+    "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/Utility/EColor.cs"
+  ],
+  "groups": [
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Audio/Scripts/AudioChannel.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Audio/Scripts/AudioLibrary.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Audio/Scripts/AudioManager.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Marble Generation/MarbleIntroAnimation.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Marble Generation/MarbleIntroSpawner.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Marble Generation/MarbleDataBase.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/LabelAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/LabelTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/AllowNestingAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/DisableIfTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/EnumFlagsAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/EnableIfTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/EnableIfAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/EnableIfAttributeBase.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/DisableIfAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/Utility/EConditionOperator.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/HideIfAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/HideIfTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ReorderableListAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/ReorderableListTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/ShowIfTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/ShowIfAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/ShowIfAttributeBase.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/MetaAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/BoxGroupAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/BoxGroupTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/MinMaxSliderAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/_TestScriptableObjectB.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/_TestScriptableObjectA.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/_NaughtyScriptableObject.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/Expandable.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/ExpandableTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/DrawerAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/AnimatorParamAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/AnimatorParamTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ButtonAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/ButtonTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/InputAxisTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/InputAxisAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/LayerTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/LayerAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/SortingLayerTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/SortingLayerAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/TagTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/TagAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/SpecialCaseDrawerAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ShowNativePropertyAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/ShowNativePropertyTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes_SpecialCase/ShowNonSerializedFieldAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/ShowNonSerializedFieldTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/INaughtyAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/ValidatorAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/MaxValueAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/MinMaxValueTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/MinValueAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/RequiredAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/RequiredTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/ValidatorAttributes/ValidateInputAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/ValidateInputTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/CurveRangeAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/CurveRangeTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/Utility/EColor.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/HorizontalLineAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/HorizontalLineTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ProgressBarAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/ProgressBarTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/DropdownAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/DropdownTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/InfoBoxAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/InfoBoxTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ResizableTextAreaAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/ResizableTextAreaTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/SceneAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/SceneTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/DrawerAttributes/ShowAssetPreviewAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/ShowAssetPreviewTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/FoldoutTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/FoldoutAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/IGroupAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/MinMaxSliderTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/OnValueChangedAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/OnValueChangedTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Core/MetaAttributes/ReadOnlyAttribute.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/ReadOnlyTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/EnumFlagsTest.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Tray Generation/TrayDatabase.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Tray Generation/TrayType.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Tray Generation/TrayLevelData.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Tray System/Tray.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Marble System/Marble.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Marble System/MarbleColumn.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Tray System/TrayAnimation.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Marble System/RampWaypoints.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Marble System/MarbleAnimationManager.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Tray System/TrayManager.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/TutorialManager.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Marble Generation/MarbleType.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Marble Generation/MarbleLevelData.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/EndCardManager.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/CTAManager.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Core/Services/IAudioService.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Core/Services/ServicesLocator.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Core/Events/EventAggregator.cs",
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Core/Events/GameEvent.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Core/Services/IUIManager.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleAudio.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleEPOOutline.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModulePhysics.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModulePhysics2D.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleSprite.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUI.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUnityVersion.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/DOTween/Modules/DOTweenModuleUtils.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/NaughtyAttributes/Scripts/Test/_NaughtyComponent.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Marble Generation/MarbleBoardGenerator.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Marble Generation/MarbleDatabaseEditor.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Marble Generation/MarbleIntroGeneration.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/Scripts/Tray Generation/TrayGenerator.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Unity Projects/Ludios-Sort-Marble-Run/Ludios/LunaTemp/stage3/processed-scripts/Assets/TutorialInfo/Scripts/Readme.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Plugins/7.2.0/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Plugins/7.2.0/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+    ],
+    [
+      "E:/PROGRAMMING/Plugins/7.2.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+    ]
+  ]
+}

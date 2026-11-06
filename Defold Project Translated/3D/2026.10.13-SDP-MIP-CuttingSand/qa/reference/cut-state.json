@@ -1,0 +1,59 @@
+{
+  "state": "play",
+  "wave": 1,
+  "activeColors": [
+    10,
+    11
+  ],
+  "counted": 1,
+  "clickLimit": null,
+  "remaining": 30702,
+  "total": 31752,
+  "removedPct": 3.3,
+  "lastCut": 29,
+  "lastDrop": 0,
+  "loose": 0,
+  "funnel": 0,
+  "belt": 2,
+  "beltLoad": 49,
+  "fronts": [
+    10,
+    11
+  ],
+  "bucketsDone": 0,
+  "speed": 1,
+  "accounted": 31752,
+  "integrity": "",
+  "frame": 518,
+  "muted": false,
+  "sounds": {
+    "bgm": 1,
+    "sfx-conveyor": 1,
+    "sfx-cut": 1,
+    "sfx-click": 1,
+    "sfx-sand": 2
+  },
+  "handVisible": false,
+  "vignette": 0,
+  "ended": false,
+  "endReason": "",
+  "milestone": "cut-1",
+  "targets": {
+    "right": {
+      "x": 368.8888888888889,
+      "y": 858.6851851851852
+    },
+    "wrong": null,
+    "blocked": {
+      "x": 368.8888888888889,
+      "y": 744.6111111111112
+    },
+    "swipe": {
+      "x1": 293.8888888888889,
+      "y1": 789.425925925926,
+      "x2": 443.8888888888889,
+      "y2": 789.425925925926
+    }
+  },
+  "mechanic": "cut"
+}

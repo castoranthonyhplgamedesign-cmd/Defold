@@ -1,0 +1,64 @@
+# --- Unity System Folders ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+MemoryCaptures/
+
+# --- Meta Files (The biggest token saver) ---
+*.meta
+
+# --- IDE and OS Files ---
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+.DS_Store
+Thumbs.db
+
+# --- Assets that Claude shouldn't read ---
+# (Binary files are useless context for a text-based AI)
+*.unitypackage
+*.zip
+*.rar
+*.7z
+
+# --- Media Assets ---
+*.png
+*.jpg
+*.jpeg
+*.tga
+*.psd
+*.exr
+*.pdf
+*.mp3
+*.wav
+*.ogg
+*.mp4
+*.mov
+*.fbx
+*.obj
+*.max
+*.blend
+
+# --- Computed / Generated Assets ---
+*.asset
+*.unity
+*.prefab
+*.mat
+*.anim
+*.controller
+*.overrideController
+*.physicMaterial
+*.physicsMaterial2D
+*.renderTexture
+*.cubemap
+*.mask
+*.guiskin
+*.fontsettings

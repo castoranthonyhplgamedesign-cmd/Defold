@@ -1,0 +1,17 @@
+{
+  "source": {
+    "body": "a45e711c-c946-4632-a215-f8c994fa9f4a@41ac8",
+    "corner": "c6eea205-ec83-4098-8759-1c5862dbe22a@0a48a",
+    "head": "748aa730-f10e-4897-9e4a-6963194fe2e2@db054",
+    "inner": "7e0d00cd-e958-4d76-b418-a3e8130166a2@2e7eb",
+    "cannon": "69414c89-0d43-42e9-ace6-01ff0a340dd1@3d923",
+    "tunnel": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@c6e33",
+    "tunnelBase": "2d1aaa79-f44e-408e-bd52-45b2357e89d5@00870",
+    "track": "716d7457-32e8-483b-b6fe-c528a6798a00@a62fe"
+  },
+  "packedGeometryBytes": 947500,
+  "boardCells": 406,
+  "arrows": 79,
+  "interpretation": "Declared array lengths take precedence over stale cell overrides. Inferred, runtime unverified.",
+  "materialLimit": "Tunnel texture and UVs retained. Three gloss is authored tuning; Cocos shader parity remains unverified."
+}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c5274f7d3ad0444a957ad9a75c70b5, type: 3}
+  m_Name: Tray Database
+  m_EditorClassIdentifier: 
+  entries:
+  - type: 0
+    prefab: {fileID: 3935695951589396506, guid: 63f574240b332a2499371eddf4df7ef8,
+      type: 3}
+  - type: 1
+    prefab: {fileID: 3935695951589396506, guid: 6a72455cb10ee1b4aac4535565595fcc,
+      type: 3}
+  - type: 2
+    prefab: {fileID: 3935695951589396506, guid: 867027b31517f1b488509d7c44fd6123,
+      type: 3}
+  - type: 3
+    prefab: {fileID: 3935695951589396506, guid: 5b4cf812464b5b5478b3787cc05305da,
+      type: 3}
+  - type: 4
+    prefab: {fileID: 3935695951589396506, guid: 852626af5b2f17d46abeafe27f9f2bba,
+      type: 3}
+  - type: 5
+    prefab: {fileID: 3935695951589396506, guid: ca3f36ca3e391704abec02df8637d187,
+      type: 3}
+  - type: 6
+    prefab: {fileID: 3935695951589396506, guid: 49efd89c7b4921a44940bc6d10daa677,
+      type: 3}

@@ -1,0 +1,280 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "BlockExplosion",
+      "data": {
+        "__ref__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "BlockExplosion",
+      "_components": [
+        {
+          "__ref__": 2
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "fileId": "dfP17I7ZFP/6td66C91A+e",
+        "instance": null,
+        "targetOverrides": null,
+        "nestedPrefabInstanceRoots": null,
+        "asset": {
+          "__ref__": 0
+        },
+        "root": {
+          "__ref__": 1
+        }
+      },
+      "_lpos": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 1.776,
+        "z": 0
+      }
+    },
+    {
+      "__type__": "cc.ParticleSystem",
+      "duration": 0.3,
+      "loop": false,
+      "playOnAwake": false,
+      "node": {
+        "__ref__": 1
+      },
+      "__prefab": {
+        "__type__": "cc.CompPrefabInfo",
+        "fileId": "31gNQvhRhBdpFL4yq3bkYh"
+      },
+      "_materials": [
+        {
+          "__uuid__": "20151941-7308-4abe-8df2-4f89514ea7c6"
+        }
+      ],
+      "startColor": {
+        "__type__": "cc.GradientRange"
+      },
+      "startSizeX": {
+        "__type__": "cc.CurveRange",
+        "constant": 0.6
+      },
+      "startSizeY": {
+        "__type__": "cc.CurveRange"
+      },
+      "startSizeZ": {
+        "__type__": "cc.CurveRange"
+      },
+      "startSpeed": {
+        "__type__": "cc.CurveRange",
+        "constant": 3
+      },
+      "startRotationX": {
+        "__type__": "cc.CurveRange"
+      },
+      "startRotationY": {
+        "__type__": "cc.CurveRange"
+      },
+      "startRotationZ": {
+        "__type__": "cc.CurveRange"
+      },
+      "startDelay": {
+        "__type__": "cc.CurveRange"
+      },
+      "startLifetime": {
+        "__type__": "cc.CurveRange",
+        "constant": 0.3
+      },
+      "gravityModifier": {
+        "__type__": "cc.CurveRange"
+      },
+      "rateOverTime": {
+        "__type__": "cc.CurveRange",
+        "constant": 100
+      },
+      "rateOverDistance": {
+        "__type__": "cc.CurveRange"
+      },
+      "_colorOverLifetimeModule": {
+        "__type__": "cc.ColorOvertimeModule",
+        "color": {
+          "__type__": "cc.GradientRange"
+        }
+      },
+      "_shapeModule": {
+        "__type__": "cc.ShapeModule",
+        "_enable": true,
+        "_shapeType": 3,
+        "sphericalDirectionAmount": 21,
+        "arcSpeed": {
+          "__type__": "cc.CurveRange",
+          "constant": 1
+        }
+      },
+      "_sizeOvertimeModule": {
+        "__type__": "cc.SizeOvertimeModule",
+        "_enable": true,
+        "size": {
+          "__type__": "cc.CurveRange",
+          "mode": 1,
+          "spline": {
+            "__type__": "cc.RealCurve",
+            "_times": [
+              0,
+              1
+            ],
+            "_values": [
+              {
+                "__type__": "cc.RealKeyframeValue",
+                "value": 1,
+                "rightTangent": -1,
+                "rightTangentWeight": 1,
+                "leftTangent": -1,
+                "leftTangentWeight": 1
+              },
+              {
+                "__type__": "cc.RealKeyframeValue",
+                "rightTangent": -1,
+                "rightTangentWeight": 1,
+                "leftTangent": -1,
+                "leftTangentWeight": 1
+              }
+            ]
+          }
+        },
+        "x": {
+          "__type__": "cc.CurveRange"
+        },
+        "y": {
+          "__type__": "cc.CurveRange"
+        },
+        "z": {
+          "__type__": "cc.CurveRange"
+        }
+      },
+      "_velocityOvertimeModule": {
+        "__type__": "cc.VelocityOvertimeModule",
+        "x": {
+          "__type__": "cc.CurveRange"
+        },
+        "y": {
+          "__type__": "cc.CurveRange"
+        },
+        "z": {
+          "__type__": "cc.CurveRange"
+        },
+        "speedModifier": {
+          "__type__": "cc.CurveRange",
+          "constant": 1
+        }
+      },
+      "_forceOvertimeModule": {
+        "__type__": "cc.ForceOvertimeModule",
+        "x": {
+          "__type__": "cc.CurveRange"
+        },
+        "y": {
+          "__type__": "cc.CurveRange"
+        },
+        "z": {
+          "__type__": "cc.CurveRange"
+        }
+      },
+      "_limitVelocityOvertimeModule": {
+        "__type__": "cc.LimitVelocityOvertimeModule",
+        "limitX": {
+          "__type__": "cc.CurveRange"
+        },
+        "limitY": {
+          "__type__": "cc.CurveRange"
+        },
+        "limitZ": {
+          "__type__": "cc.CurveRange"
+        },
+        "limit": {
+          "__type__": "cc.CurveRange"
+        }
+      },
+      "_rotationOvertimeModule": {
+        "__type__": "cc.RotationOvertimeModule",
+        "x": {
+          "__type__": "cc.CurveRange"
+        },
+        "y": {
+          "__type__": "cc.CurveRange"
+        },
+        "z": {
+          "__type__": "cc.CurveRange"
+        }
+      },
+      "_textureAnimationModule": {
+        "__type__": "cc.TextureAnimationModule",
+        "_enable": true,
+        "_numTilesX": 4,
+        "_numTilesY": 4,
+        "cycleCount": 1,
+        "frameOverTime": {
+          "__type__": "cc.CurveRange",
+          "mode": 1,
+          "spline": {
+            "__type__": "cc.RealCurve",
+            "_times": [
+              0,
+              1
+            ],
+            "_values": [
+              {
+                "__type__": "cc.RealKeyframeValue",
+                "interpolationMode": 2,
+                "value": 1,
+                "rightTangentWeight": 1,
+                "leftTangentWeight": 1
+              },
+              {
+                "__type__": "cc.RealKeyframeValue",
+                "interpolationMode": 2,
+                "rightTangentWeight": 1,
+                "leftTangentWeight": 1
+              }
+            ]
+          }
+        },
+        "startFrame": {
+          "__type__": "cc.CurveRange"
+        }
+      },
+      "_noiseModule": {
+        "__type__": "cc.NoiseModule"
+      },
+      "_trailModule": {
+        "__type__": "cc.TrailModule",
+        "lifeTime": {
+          "__type__": "cc.CurveRange",
+          "constant": 1
+        },
+        "widthRatio": {
+          "__type__": "cc.CurveRange"
+        },
+        "colorOverTrail": {
+          "__type__": "cc.GradientRange"
+        },
+        "colorOvertime": {
+          "__type__": "cc.GradientRange"
+        },
+        "_particleSystem": {
+          "__ref__": 2
+        }
+      },
+      "renderer": {
+        "__type__": "cc.ParticleSystemRenderer",
+        "_cpuMaterial": {
+          "__uuid__": "20151941-7308-4abe-8df2-4f89514ea7c6"
+        },
+        "_mainTexture": {
+          "__uuid__": "06a43fb3-29ec-448c-aa1c-459ab909d025@6c48a"
+        }
+      }
+    }
+  ]
+}

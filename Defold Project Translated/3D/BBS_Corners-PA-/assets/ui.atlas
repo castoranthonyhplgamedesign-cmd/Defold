@@ -1,0 +1,6 @@
+images { image: "/assets/app_icon.png" }
+images { image: "/assets/play_now.png" }
+images { image: "/assets/hand.png" }
+margin: 0
+extrude_borders: 2
+inner_padding: 2

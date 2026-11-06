@@ -1,0 +1,8 @@
+function init(self)
+    self.image=gui.new_box_node(vmath.vector3(),vmath.vector3(1,1,0))
+    gui.set_texture(self.image,'background');gui.play_flipbook(self.image,'background')
+end
+function update(self)
+    local w,h=window.get_size();local scale=math.max(w/3412,h/1920)
+    gui.set_position(self.image,vmath.vector3(w/2,h/2,0));gui.set_size(self.image,vmath.vector3(3412*scale,1920*scale,0))
+end

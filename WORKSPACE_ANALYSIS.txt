@@ -1,0 +1,86 @@
+Defold workspace analysis — 2026-11-06
+
+Scope
+Reviewed the root README, project mapping, source instructions, repository
+baselines, translated project configuration, main Lua code paths, browser
+bridges, asset provenance, and existing QA tooling. No game implementation or
+original source was changed. This is a repository review, not a parity sign-off.
+
+Working agreement
+Comment the work, document it, commit, publish locally, then test and QA.
+Use loopback (127.0.0.1) for local publishing. No public hosting or deployment.
+Keep Original unchanged. Make translations in Defold Project Translated.
+Reuse original assets and document conversions. Preserve gameplay, controls,
+visuals, audio, timing, progression, variants, and end states. A successful
+build alone does not satisfy the root README's completion criteria.
+
+Source baselines
+Egypt Case: main, d993837 (Initial Build); Phaser 3.90 / TypeScript / Vite.
+Puzzlebox: main, be16ff7 (Client Revisions: full starting board, red-line fail,
+gift opening); Phaser 3.90 / TypeScript / Vite.
+BBS Corners: Wide-U-Client_Revision, cfd9f7b (Bug Fixes); Unity source plus
+Babylon.js / TypeScript PortRoot and a separate reference/BBS-Corners copy.
+Ludios: main, 0a19ded (Background Change); Unity project under Ludios.
+Conveyor: playable/conveyor-overload, 5d3e97c; Three.js / TypeScript / Vite.
+The original repositories reported no tracked modifications during inspection.
+This check did not establish absence of untracked files or validate Git LFS.
+
+Current translations
+BBS Corners: Defold destination exists. main/board.lua owns integer occupancy,
+movement, gates, routes, and hints. main/game.script coordinates input, scene
+animation, variants, and platform integration. Custom rendering and original
+mesh conversions exist. docs/asset-manifest.json identifies cfd9f7b and mesh
+coordinate conversion. qa/board_test.lua and tools/qa.mjs exist.
+
+Egypt Case: Defold destination exists. main/game.gui_script implements portrait
+drag/drop, tutorial, feedback, progression, and end card. Authored coordinates
+are 1080x1920. web/bridge.js handles configuration, browser audio, SDK routing,
+lifecycle, and replacement texture preparation. docs/asset-inventory.json
+records image conversion and copied audio. Reference captures exist under qa.
+
+Puzzlebox: Defold destination exists. modules/board.lua owns merge/clear rules;
+main/game.gui_script coordinates input and game phases; modules/view.lua draws
+the GUI. modules/bridge.lua calls JavaScript through html5.run. web/physics.js
+retains the original Phaser Matter solver, with bundled browser integration.
+docs/WORK_LOG.md identifies baseline be16ff7 and explicitly states HTML5-only
+support for this backend. Native gameplay is not supported by this design.
+
+Ludios and Conveyor: original sources exist, but their mapped Defold destination
+directories were absent during this review. Ludios includes marble generation,
+tray generation, motion, tutorial, end-card, and CTA systems. Conveyor includes
+arrow/conveyor/cannon gameplay, variants, editor tooling, and extensive original
+tests. Its README calls the current experience Arrow Flow; the folder name alone
+should not determine port behavior.
+
+Verification and gaps
+PASS: executed BBS qa/board_test.lua with the workspace LuaJIT executable.
+Result: 63 slots, 56 bricks, 9 exits; occupancy, collision, bounds, idempotence,
+and a full-clear route of 508 moves passed.
+PASS: LuaJIT parsed 13 runtime Lua/script files across the three translated
+projects with zero syntax failures. Parsing does not verify Defold API usage.
+
+BBS and Egypt translated repositories are initialized on master without any
+commits; their implementation files were untracked at inspection time.
+Puzzlebox package.json defines npm run qa as node scripts/qa.mjs, but that
+script was absent when checked. This command is therefore not usable yet.
+Asset inventories do not replace a run/build guide or parity checklist.
+Existing screenshots and generated artifacts are not proof that all required
+viewports, interactions, transitions, audio cues, and end states match.
+No complete Defold build, browser playthrough, mobile performance measurement,
+network submission validation, or side-by-side audio/visual QA was performed
+as part of this analysis. No translation is certified complete by this report.
+
+Tooling
+Defold installation: C:/Users/Anthony Castor/Documents/Defold/Defold.exe.
+Workspace .tools contains bob.jar and libexec/x86_64-win32/luajit-64.exe.
+Java 21, Node.js, and Python are available. Tool presence does not prove that
+all engine bundles, browser dependencies, or delivery builds are ready.
+
+Next implementation sequence
+Select the game, record its exact original baseline and required target output,
+establish a reproducible original run from an isolated working copy, and capture
+the acceptance flow. Complete the selected translation and document commands,
+asset provenance, known differences, and comparison checklist. Review and commit
+the intended files without bundling unrelated existing work. Publish to loopback
+only, then run functional tests and visual/audio QA across required states and
+viewports. Record results and fixes; commit any subsequent corrections.

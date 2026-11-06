@@ -1,0 +1,51 @@
+{
+  "at": "2026-10-29T16:01:58.987Z",
+  "browser": "156.0.8078.49",
+  "output": "muted with --mute-audio; speaker mix not auditioned",
+  "before": {
+    "voices": 35,
+    "requests": 0,
+    "duration": 7.68
+  },
+  "started": {
+    "time": 0.014069,
+    "paused": false,
+    "muted": false,
+    "volume": 0.5,
+    "requests": 2,
+    "playing": 1
+  },
+  "hidden": {
+    "time": 0.01627,
+    "paused": true,
+    "muted": true,
+    "volume": 0.5,
+    "requests": 2,
+    "playing": 1
+  },
+  "resumed": {
+    "time": 0.04644,
+    "paused": false,
+    "muted": false,
+    "volume": 0.5,
+    "requests": 3,
+    "playing": 2
+  },
+  "looped": {
+    "time": 0,
+    "paused": false,
+    "muted": false,
+    "volume": 0.5,
+    "requests": 4,
+    "playing": 5
+  },
+  "repeats": {
+    "wraps": 3,
+    "intervalsMs": [
+      7739.199999988079,
+      7739.699999988079
+    ],
+    "paused": false
+  },
+  "errors": []
+}

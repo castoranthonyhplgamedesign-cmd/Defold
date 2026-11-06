@@ -1,0 +1,11 @@
+{
+  "results": [
+    {
+      "name": "Defold boots with original seeded 49-ball pile and launcher",
+      "pass": true
+    }
+  ],
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (File not found)"
+  ]
+}

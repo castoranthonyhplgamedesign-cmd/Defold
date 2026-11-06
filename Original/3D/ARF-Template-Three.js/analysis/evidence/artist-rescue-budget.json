@@ -1,0 +1,21 @@
+{
+  "checkedAt": "2026-10-27T09:14:09.079Z",
+  "sourceUnchanged": true,
+  "sha256": "ea883eb48c630c7bb50a6160ac2f552bb25d8e241360ee3565a6f0a95b6f0d74",
+  "sourceBytes": 2248508,
+  "sourceVertices": 61680,
+  "selectedVertices": 38130,
+  "selectedTriangles": 21048,
+  "pathPoints": 256,
+  "conveyorJsonBytes": 1577312,
+  "rawHtmlBytes": 4186416,
+  "commonCapBytes": 4000000,
+  "overBudgetBytes": 186416,
+  "packageResult": "rejected by byte ceiling; Vite output is diagnostic only, not a finalized delivery",
+  "typecheck": "pass",
+  "tests": {
+    "passed": 84,
+    "failed": 0
+  },
+  "browser": "analysis/evidence/artist-rescue-browser.json"
+}

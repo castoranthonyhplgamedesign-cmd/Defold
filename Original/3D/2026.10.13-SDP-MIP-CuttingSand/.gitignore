@@ -1,0 +1,11 @@
+node_modules/
+*.log
+*.tsbuildinfo
+.build-temp/
+dist/
+qa-screenshots/
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

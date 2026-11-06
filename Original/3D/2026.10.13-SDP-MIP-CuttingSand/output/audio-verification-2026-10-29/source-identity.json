@@ -1,0 +1,1779 @@
+{
+  "method": "Fresh supplied float32 WAV identity check against previously decoded actual mockup PCM. WAV averaged to mono and 11025 Hz using a 4-sample box filter. Normalized waveform correlation at 2756.25 Hz then 11025 Hz refinement. Correlation scores are not probabilities. Positive high scores across broadband duration support identity; weak scores do not establish absence.",
+  "sampleRate": 11025,
+  "referenceSeconds": 58.999909297052156,
+  "files": [
+    {
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/bubble-pop Audio Extracted.wav",
+      "channels": 2,
+      "duration": 0.43333333333333335,
+      "rms": 0.04012798693585901,
+      "peak": 0.5082632452249527,
+      "matches": [
+        {
+          "sourceWindow": [
+            0,
+            0.43333333333333335
+          ],
+          "videoTime": 55.22140589569161,
+          "sourceStartAlignedToVideo": 55.22140589569161,
+          "score": 0.994471360856504,
+          "gain": 0.9978529063146511,
+          "comparedSeconds": 0.4332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.43333333333333335
+          ],
+          "videoTime": 55.56825396825397,
+          "sourceStartAlignedToVideo": 55.56825396825397,
+          "score": 0.425647112851781,
+          "gain": 0.005753881389436921,
+          "comparedSeconds": 0.4332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.43333333333333335
+          ],
+          "videoTime": 4.533333333333333,
+          "sourceStartAlignedToVideo": 4.533333333333333,
+          "score": -0.15665541798183216,
+          "gain": -0.08742849564615757,
+          "comparedSeconds": 0.4332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.43333333333333335
+          ],
+          "videoTime": 19.994648526077096,
+          "sourceStartAlignedToVideo": 19.994648526077096,
+          "score": -0.14405650083832364,
+          "gain": -0.2400392671771056,
+          "comparedSeconds": 0.4332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.43333333333333335
+          ],
+          "videoTime": 47.319818594104305,
+          "sourceStartAlignedToVideo": 47.319818594104305,
+          "score": 0.13189570922636726,
+          "gain": 0.1046918022044656,
+          "comparedSeconds": 0.4332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.43333333333333335
+          ],
+          "videoTime": 32.39419501133787,
+          "sourceStartAlignedToVideo": 32.39419501133787,
+          "score": -0.1216044410370304,
+          "gain": -0.23504301658730692,
+          "comparedSeconds": 0.4332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.43333333333333335
+          ],
+          "videoTime": 25.334784580498866,
+          "sourceStartAlignedToVideo": 25.334784580498866,
+          "score": -0.12029314896386865,
+          "gain": -0.20906966316840966,
+          "comparedSeconds": 0.4332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.43333333333333335
+          ],
+          "videoTime": 56.76707482993197,
+          "sourceStartAlignedToVideo": 56.76707482993197,
+          "score": 0.01957286968791899,
+          "gain": 0.003826665371006893,
+          "comparedSeconds": 0.4332879818594104
+        }
+      ]
+    },
+    {
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/click_128kbps Audio Extracted.wav",
+      "channels": 2,
+      "duration": 0.26666666666666666,
+      "rms": 0.021015139608028085,
+      "peak": 0.2266423529945314,
+      "matches": [
+        {
+          "sourceWindow": [
+            0,
+            0.26666666666666666
+          ],
+          "videoTime": 41.888072562358275,
+          "sourceStartAlignedToVideo": 41.888072562358275,
+          "score": 0.6083688582505293,
+          "gain": 0.7553160019303776,
+          "comparedSeconds": 0.26666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.26666666666666666
+          ],
+          "videoTime": 18.988027210884354,
+          "sourceStartAlignedToVideo": 18.988027210884354,
+          "score": 0.4045707492598595,
+          "gain": 0.6530139080946488,
+          "comparedSeconds": 0.26666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.26666666666666666
+          ],
+          "videoTime": 12.82140589569161,
+          "sourceStartAlignedToVideo": 12.82140589569161,
+          "score": 0.36847654354415044,
+          "gain": 0.7577935849773085,
+          "comparedSeconds": 0.26666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.26666666666666666
+          ],
+          "videoTime": 56.87183673469388,
+          "sourceStartAlignedToVideo": 56.87183673469388,
+          "score": -0.13464998640095027,
+          "gain": -0.0005187903287865445,
+          "comparedSeconds": 0.26666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.26666666666666666
+          ],
+          "videoTime": 55.66984126984127,
+          "sourceStartAlignedToVideo": 55.66984126984127,
+          "score": -0.09941401017169982,
+          "gain": -9.236087200044906e-8,
+          "comparedSeconds": 0.26666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.26666666666666666
+          ],
+          "videoTime": 8.404625850340135,
+          "sourceStartAlignedToVideo": 8.404625850340135,
+          "score": -0.09747932777697414,
+          "gain": -0.27011905706146666,
+          "comparedSeconds": 0.26666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.26666666666666666
+          ],
+          "videoTime": 47.924625850340135,
+          "sourceStartAlignedToVideo": 47.924625850340135,
+          "score": -0.09495997136336054,
+          "gain": -0.3170397087150787,
+          "comparedSeconds": 0.26666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.26666666666666666
+          ],
+          "videoTime": 21.783219954648526,
+          "sourceStartAlignedToVideo": 21.783219954648526,
+          "score": 0.08872784790717332,
+          "gain": 0.17139391956851865,
+          "comparedSeconds": 0.26666666666666666
+        }
+      ]
+    },
+    {
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Conveyor Audio Extracted.wav",
+      "channels": 2,
+      "duration": 49.03333333333333,
+      "rms": 0.003596713774622486,
+      "peak": 0.01961935660801828,
+      "matches": [
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 0.02140589569160998,
+          "sourceStartAlignedToVideo": 0.02140589569160998,
+          "score": 0.06725297661260399,
+          "gain": 0.9914391465099509,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 8.02140589569161,
+          "sourceStartAlignedToVideo": 0.021405895691609444,
+          "score": 0.06642633754661274,
+          "gain": 1.037028869045729,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 32.02140589569161,
+          "sourceStartAlignedToVideo": 0.021405895691607668,
+          "score": 0.05964470291745444,
+          "gain": 0.9657799072001383,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 20.02140589569161,
+          "sourceStartAlignedToVideo": 0.02140589569161122,
+          "score": 0.05377376693801664,
+          "gain": 1.022245722146599,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 42.02140589569161,
+          "sourceStartAlignedToVideo": 0.021405895691607668,
+          "score": 0.05152220236640508,
+          "gain": 0.9254304917501537,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 48.902403628117916,
+          "sourceStartAlignedToVideo": 28.902403628117916,
+          "score": 0.01986981732059637,
+          "gain": 0.38575313658805993,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 51.83482993197279,
+          "sourceStartAlignedToVideo": 9.834829931972791,
+          "score": -0.019067902643425998,
+          "gain": -0.25836224689962434,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 48.03582766439909,
+          "sourceStartAlignedToVideo": 16.035827664399093,
+          "score": -0.01905249339672535,
+          "gain": -0.39326507338333794,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 49.330068027210885,
+          "sourceStartAlignedToVideo": 29.330068027210885,
+          "score": -0.01798966686343665,
+          "gain": -0.32343905638918646,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 49.910657596371884,
+          "sourceStartAlignedToVideo": 41.910657596371884,
+          "score": -0.01791707096399642,
+          "gain": -0.3167297759250741,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 51.64634920634921,
+          "sourceStartAlignedToVideo": 19.646349206349207,
+          "score": -0.0175683578767667,
+          "gain": -0.27455297677303725,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 51.06603174603175,
+          "sourceStartAlignedToVideo": 19.066031746031747,
+          "score": 0.017472190484221453,
+          "gain": 0.2874735378318296,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 50.19392290249433,
+          "sourceStartAlignedToVideo": 42.19392290249433,
+          "score": 0.017228269461151493,
+          "gain": 0.30322924775049986,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 51.35609977324263,
+          "sourceStartAlignedToVideo": 9.356099773242633,
+          "score": 0.017136814271574926,
+          "gain": 0.24081500979897616,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 48.016235827664396,
+          "sourceStartAlignedToVideo": 6.016235827664396,
+          "score": 0.017111677586870197,
+          "gain": 0.3113762899787766,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 51.468662131519274,
+          "sourceStartAlignedToVideo": 43.468662131519274,
+          "score": -0.01709265621872009,
+          "gain": -0.2658568624765349,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 51.36371882086168,
+          "sourceStartAlignedToVideo": 51.36371882086168,
+          "score": 0.016735848990165798,
+          "gain": 0.27414077730705794,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 50.45079365079365,
+          "sourceStartAlignedToVideo": 42.45079365079365,
+          "score": -0.016584148798336154,
+          "gain": -0.29063556872080437,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 49.45052154195011,
+          "sourceStartAlignedToVideo": 17.45052154195011,
+          "score": 0.016102395185683377,
+          "gain": 0.28840088818069787,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 43.22829931972789,
+          "sourceStartAlignedToVideo": 43.22829931972789,
+          "score": -0.015773797917568146,
+          "gain": -0.32498647502027067,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 51.90893424036281,
+          "sourceStartAlignedToVideo": 43.90893424036281,
+          "score": 0.015279591471974118,
+          "gain": 0.22685165718375994,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 48.9404081632653,
+          "sourceStartAlignedToVideo": 40.9404081632653,
+          "score": 0.01516483662973788,
+          "gain": 0.2905313677942126,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 49.16390022675737,
+          "sourceStartAlignedToVideo": 17.16390022675737,
+          "score": 0.015139779944684444,
+          "gain": 0.27912749493709516,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 50.448526077097505,
+          "sourceStartAlignedToVideo": 8.448526077097505,
+          "score": -0.015087528717523948,
+          "gain": -0.2374949077396176,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 50.84308390022676,
+          "sourceStartAlignedToVideo": 50.84308390022676,
+          "score": -0.01485562856544767,
+          "gain": -0.2647879295165503,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 50.07673469387755,
+          "sourceStartAlignedToVideo": 8.076734693877547,
+          "score": -0.014378416154739556,
+          "gain": -0.22793344653851835,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 48.620226757369615,
+          "sourceStartAlignedToVideo": 6.620226757369615,
+          "score": -0.014341460627720917,
+          "gain": -0.2519086676371667,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 49.85333333333333,
+          "sourceStartAlignedToVideo": 49.85333333333333,
+          "score": 0.014301504633550783,
+          "gain": 0.26491764446362015,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 48.870385487528345,
+          "sourceStartAlignedToVideo": 48.870385487528345,
+          "score": -0.013958089891002093,
+          "gain": -0.28330102747978203,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 49.60671201814059,
+          "sourceStartAlignedToVideo": 29.60671201814059,
+          "score": 0.013798002549679948,
+          "gain": 0.24280102559022004,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 50.06585034013605,
+          "sourceStartAlignedToVideo": 30.065850340136052,
+          "score": 0.013572020592377344,
+          "gain": 0.2405989283060788,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 49.74231292517007,
+          "sourceStartAlignedToVideo": 7.742312925170069,
+          "score": -0.013461987680810769,
+          "gain": -0.21385418784056728,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 50.25115646258504,
+          "sourceStartAlignedToVideo": 50.25115646258504,
+          "score": 0.013422149466364887,
+          "gain": 0.2473390381432656,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 29.25378684807256,
+          "sourceStartAlignedToVideo": -2.7462131519274386,
+          "score": 0.013281259310723883,
+          "gain": 0.24961781703397332,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 51.10566893424036,
+          "sourceStartAlignedToVideo": 31.105668934240363,
+          "score": 0.013267755900100365,
+          "gain": 0.21260768440669642,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 51.96290249433107,
+          "sourceStartAlignedToVideo": 51.96290249433107,
+          "score": 0.012480846955787155,
+          "gain": 0.19364890634348925,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 51.533696145124715,
+          "sourceStartAlignedToVideo": 31.533696145124715,
+          "score": 0.01198732573096479,
+          "gain": 0.18613244320010824,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 48.77052154195011,
+          "sourceStartAlignedToVideo": 16.77052154195011,
+          "score": -0.011580738713736912,
+          "gain": -0.2289532120793942,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 48.16199546485261,
+          "sourceStartAlignedToVideo": 28.16199546485261,
+          "score": -0.010715183182222685,
+          "gain": -0.2184046709893509,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 50.883537414965986,
+          "sourceStartAlignedToVideo": 42.883537414965986,
+          "score": -0.010513604467077902,
+          "gain": -0.17872928661977744,
+          "comparedSeconds": 7
+        }
+      ]
+    },
+    {
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Danger Alarm Audio Extracted.wav",
+      "channels": 2,
+      "duration": 0.6666666666666666,
+      "rms": 0.193699520961027,
+      "peak": 0.39485590159893036,
+      "matches": [
+        {
+          "sourceWindow": [
+            0,
+            0.6666666666666666
+          ],
+          "videoTime": 24.261224489795918,
+          "sourceStartAlignedToVideo": 24.261224489795918,
+          "score": 0.20314983624168448,
+          "gain": 0.03966458763074514,
+          "comparedSeconds": 0.6666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.6666666666666666
+          ],
+          "videoTime": 13.149478458049886,
+          "sourceStartAlignedToVideo": 13.149478458049886,
+          "score": 0.19836398364181876,
+          "gain": 0.02456188753302414,
+          "comparedSeconds": 0.6666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.6666666666666666
+          ],
+          "videoTime": 1.5597278911564625,
+          "sourceStartAlignedToVideo": 1.5597278911564625,
+          "score": -0.19661180767094671,
+          "gain": -0.030595106965084762,
+          "comparedSeconds": 0.6666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.6666666666666666
+          ],
+          "videoTime": 12.131156462585034,
+          "sourceStartAlignedToVideo": 12.131156462585034,
+          "score": -0.1499661084140547,
+          "gain": -0.043166921810452195,
+          "comparedSeconds": 0.6666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.6666666666666666
+          ],
+          "videoTime": 0.8370975056689343,
+          "sourceStartAlignedToVideo": 0.8370975056689343,
+          "score": -0.1469139783877821,
+          "gain": -0.04567415959462118,
+          "comparedSeconds": 0.6666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.6666666666666666
+          ],
+          "videoTime": 1.8121541950113378,
+          "sourceStartAlignedToVideo": 1.8121541950113378,
+          "score": -0.14043074197848557,
+          "gain": -0.019557794081931392,
+          "comparedSeconds": 0.6666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.6666666666666666
+          ],
+          "videoTime": 35.71809523809524,
+          "sourceStartAlignedToVideo": 35.71809523809524,
+          "score": -0.1291911025380243,
+          "gain": -0.02011795376619652,
+          "comparedSeconds": 0.6666666666666666
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.6666666666666666
+          ],
+          "videoTime": 18.93124716553288,
+          "sourceStartAlignedToVideo": 18.93124716553288,
+          "score": 0.10094841108876074,
+          "gain": 0.014879393015972417,
+          "comparedSeconds": 0.6666666666666666
+        }
+      ]
+    },
+    {
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Digital Click 1 Audio Extracted.wav",
+      "channels": 2,
+      "duration": 0.5333333333333333,
+      "rms": 0.03948198637531612,
+      "peak": 0.5099329091608524,
+      "matches": [
+        {
+          "sourceWindow": [
+            0,
+            0.5333333333333333
+          ],
+          "videoTime": 56.62140589569161,
+          "sourceStartAlignedToVideo": 56.62140589569161,
+          "score": 0.966214818119599,
+          "gain": 0.9716632436401709,
+          "comparedSeconds": 0.5333333333333333
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.5333333333333333
+          ],
+          "videoTime": 41.22349206349207,
+          "sourceStartAlignedToVideo": 41.22349206349207,
+          "score": -0.1643360370915701,
+          "gain": -0.3074059059014883,
+          "comparedSeconds": 0.5333333333333333
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.5333333333333333
+          ],
+          "videoTime": 31.38984126984127,
+          "sourceStartAlignedToVideo": 31.38984126984127,
+          "score": 0.15091693304515308,
+          "gain": 0.3116307298272174,
+          "comparedSeconds": 0.5333333333333333
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.5333333333333333
+          ],
+          "videoTime": 15.77687074829932,
+          "sourceStartAlignedToVideo": 15.77687074829932,
+          "score": 0.12960115046919307,
+          "gain": 0.08607601995537893,
+          "comparedSeconds": 0.5333333333333333
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.5333333333333333
+          ],
+          "videoTime": 24.00843537414966,
+          "sourceStartAlignedToVideo": 24.00843537414966,
+          "score": 0.07040531274325271,
+          "gain": 0.13158354351016346,
+          "comparedSeconds": 0.5333333333333333
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.5333333333333333
+          ],
+          "videoTime": 45.49641723356009,
+          "sourceStartAlignedToVideo": 45.49641723356009,
+          "score": -0.04776818977471246,
+          "gain": -0.10050898178007343,
+          "comparedSeconds": 0.5333333333333333
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.5333333333333333
+          ],
+          "videoTime": 21.49641723356009,
+          "sourceStartAlignedToVideo": 21.49641723356009,
+          "score": -0.04542098532649536,
+          "gain": -0.09381755892520173,
+          "comparedSeconds": 0.5333333333333333
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.5333333333333333
+          ],
+          "videoTime": 19.13968253968254,
+          "sourceStartAlignedToVideo": 19.13968253968254,
+          "score": 0.032526210511852525,
+          "gain": 0.03663268104573985,
+          "comparedSeconds": 0.5333333333333333
+        }
+      ]
+    },
+    {
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Falling Sand Audio Extracted.wav",
+      "channels": 2,
+      "duration": 2.6166666666666667,
+      "rms": 0.0106886525425164,
+      "peak": 0.06542022386565804,
+      "matches": [
+        {
+          "sourceWindow": [
+            0,
+            2.6166666666666667
+          ],
+          "videoTime": 0.4546938775510204,
+          "sourceStartAlignedToVideo": 0.4546938775510204,
+          "score": 0.09883783039984839,
+          "gain": 0.40984512735478973,
+          "comparedSeconds": 2.6165986394557823
+        },
+        {
+          "sourceWindow": [
+            0,
+            2.6166666666666667
+          ],
+          "videoTime": 1.5880272108843538,
+          "sourceStartAlignedToVideo": 1.5880272108843538,
+          "score": 0.05030608992720288,
+          "gain": 0.22036919168412636,
+          "comparedSeconds": 2.6165986394557823
+        },
+        {
+          "sourceWindow": [
+            0,
+            2.6166666666666667
+          ],
+          "videoTime": 53.097687074829935,
+          "sourceStartAlignedToVideo": 53.097687074829935,
+          "score": 0.025644004458002686,
+          "gain": 0.17634514283651598,
+          "comparedSeconds": 2.6165986394557823
+        },
+        {
+          "sourceWindow": [
+            0,
+            2.6166666666666667
+          ],
+          "videoTime": 52.41832199546485,
+          "sourceStartAlignedToVideo": 52.41832199546485,
+          "score": -0.025325494299463475,
+          "gain": -0.18934933317446292,
+          "comparedSeconds": 2.6165986394557823
+        },
+        {
+          "sourceWindow": [
+            0,
+            2.6166666666666667
+          ],
+          "videoTime": 46.40789115646258,
+          "sourceStartAlignedToVideo": 46.40789115646258,
+          "score": 0.021245146382786743,
+          "gain": 0.13923514864683756,
+          "comparedSeconds": 2.6165986394557823
+        },
+        {
+          "sourceWindow": [
+            0,
+            2.6166666666666667
+          ],
+          "videoTime": 46.917097505668934,
+          "sourceStartAlignedToVideo": 46.917097505668934,
+          "score": -0.017970668304699844,
+          "gain": -0.11447076850140156,
+          "comparedSeconds": 2.6165986394557823
+        },
+        {
+          "sourceWindow": [
+            0,
+            2.6166666666666667
+          ],
+          "videoTime": 53.71501133786848,
+          "sourceStartAlignedToVideo": 53.71501133786848,
+          "score": -0.015542689304584975,
+          "gain": -0.09815923530594974,
+          "comparedSeconds": 2.6165986394557823
+        },
+        {
+          "sourceWindow": [
+            0,
+            2.6166666666666667
+          ],
+          "videoTime": 55.55555555555556,
+          "sourceStartAlignedToVideo": 55.55555555555556,
+          "score": 0.013527653151247928,
+          "gain": 0.022689222817649277,
+          "comparedSeconds": 2.6165986394557823
+        }
+      ]
+    },
+    {
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/OhmLab_Bubble-Pop Audio Extracted.wav",
+      "channels": 2,
+      "duration": 0.23333333333333334,
+      "rms": 0.11837155869604002,
+      "peak": 0.5419770628213882,
+      "matches": [
+        {
+          "sourceWindow": [
+            0,
+            0.23333333333333334
+          ],
+          "videoTime": 54.954739229024945,
+          "sourceStartAlignedToVideo": 54.954739229024945,
+          "score": 0.9762228169703918,
+          "gain": 0.9949630976149955,
+          "comparedSeconds": 0.23328798185941044
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.23333333333333334
+          ],
+          "videoTime": 54.72136054421769,
+          "sourceStartAlignedToVideo": 54.72136054421769,
+          "score": 0.967778112956909,
+          "gain": 1.0398754712671807,
+          "comparedSeconds": 0.23328798185941044
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.23333333333333334
+          ],
+          "videoTime": 2.0829024943310657,
+          "sourceStartAlignedToVideo": 2.0829024943310657,
+          "score": 0.2659740617815603,
+          "gain": 0.07154472132431382,
+          "comparedSeconds": 0.23328798185941044
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.23333333333333334
+          ],
+          "videoTime": 43.77333333333333,
+          "sourceStartAlignedToVideo": 43.77333333333333,
+          "score": -0.2607850308643067,
+          "gain": -0.08165300407829403,
+          "comparedSeconds": 0.23328798185941044
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.23333333333333334
+          ],
+          "videoTime": 55.63056689342404,
+          "sourceStartAlignedToVideo": 55.63056689342404,
+          "score": 0.24472647421003757,
+          "gain": 0.0005500800217930936,
+          "comparedSeconds": 0.23328798185941044
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.23333333333333334
+          ],
+          "videoTime": 52.14077097505669,
+          "sourceStartAlignedToVideo": 52.14077097505669,
+          "score": 0.23943334004193584,
+          "gain": 0.09825941647243899,
+          "comparedSeconds": 0.23328798185941044
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.23333333333333334
+          ],
+          "videoTime": 44.09315192743764,
+          "sourceStartAlignedToVideo": 44.09315192743764,
+          "score": -0.18627604555455124,
+          "gain": -0.05564167920269764,
+          "comparedSeconds": 0.23328798185941044
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.23333333333333334
+          ],
+          "videoTime": 13.380498866213152,
+          "sourceStartAlignedToVideo": 13.380498866213152,
+          "score": -0.1496909444851385,
+          "gain": -0.034091250832734225,
+          "comparedSeconds": 0.23328798185941044
+        }
+      ]
+    },
+    {
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Relaxing Lo-Fi Audio Extracted.wav",
+      "channels": 2,
+      "duration": 53,
+      "rms": 0.0610920254296538,
+      "peak": 0.21902537532150745,
+      "matches": [
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 37.23609977324263,
+          "sourceStartAlignedToVideo": 5.236099773242628,
+          "score": 0.09832062871103979,
+          "gain": 0.09341211112297898,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 0.8359183673469388,
+          "sourceStartAlignedToVideo": 0.8359183673469388,
+          "score": -0.09830045868602337,
+          "gain": -0.08363471972598571,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 18.658321995464853,
+          "sourceStartAlignedToVideo": 10.658321995464853,
+          "score": -0.09220094922021912,
+          "gain": -0.10813404662724423,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 14.355192743764173,
+          "sourceStartAlignedToVideo": -5.644807256235827,
+          "score": 0.08958680073744568,
+          "gain": 0.09030942396819114,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 2.982312925170068,
+          "sourceStartAlignedToVideo": -5.017687074829932,
+          "score": -0.08943223391865418,
+          "gain": -0.08410263711131097,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 1.8607709750566894,
+          "sourceStartAlignedToVideo": -40.13922902494331,
+          "score": -0.0894030837350653,
+          "gain": -0.0685506995966317,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 8.713832199546486,
+          "sourceStartAlignedToVideo": -11.286167800453514,
+          "score": -0.08922742475233578,
+          "gain": -0.08062251177180847,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 31.796462585034014,
+          "sourceStartAlignedToVideo": -0.20353741496598587,
+          "score": 0.0891158820000929,
+          "gain": 0.07865212887786593,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 30.08888888888889,
+          "sourceStartAlignedToVideo": -11.911111111111111,
+          "score": 0.08810694517703936,
+          "gain": 0.08113987278597,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 10.304126984126984,
+          "sourceStartAlignedToVideo": 2.3041269841269845,
+          "score": -0.08684175167020346,
+          "gain": -0.07094781732467748,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 36.943673469387754,
+          "sourceStartAlignedToVideo": 16.943673469387754,
+          "score": 0.08617417654730888,
+          "gain": 0.0832104595441906,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 19.44607709750567,
+          "sourceStartAlignedToVideo": 19.44607709750567,
+          "score": 0.08581774945246949,
+          "gain": 0.10323127935940375,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 3.5677097505668933,
+          "sourceStartAlignedToVideo": -28.432290249433105,
+          "score": -0.08553511059936449,
+          "gain": -0.07611469395532697,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 15.846077097505669,
+          "sourceStartAlignedToVideo": 7.846077097505669,
+          "score": -0.08514370506967922,
+          "gain": -0.09525463050416834,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 20.461496598639457,
+          "sourceStartAlignedToVideo": -21.538503401360543,
+          "score": -0.08506901199875079,
+          "gain": -0.08760408769903404,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 3.2755555555555556,
+          "sourceStartAlignedToVideo": -16.724444444444444,
+          "score": -0.0849657477887951,
+          "gain": -0.07737610877107153,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 4.5534693877551025,
+          "sourceStartAlignedToVideo": -3.4465306122448975,
+          "score": -0.08462206199309091,
+          "gain": -0.07961137552156627,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 3.578140589569161,
+          "sourceStartAlignedToVideo": 3.578140589569161,
+          "score": -0.08345170407687319,
+          "gain": -0.07986951364856709,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 14.647800453514739,
+          "sourceStartAlignedToVideo": -17.35219954648526,
+          "score": 0.08268088510528325,
+          "gain": 0.08621174703481536,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 10.313106575963719,
+          "sourceStartAlignedToVideo": -9.686893424036281,
+          "score": 0.08256022521104696,
+          "gain": 0.06364541466569563,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 31.02675736961451,
+          "sourceStartAlignedToVideo": 23.02675736961451,
+          "score": 0.08247217393828106,
+          "gain": 0.08217745707917823,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 31.5037641723356,
+          "sourceStartAlignedToVideo": 11.5037641723356,
+          "score": 0.08218320631300068,
+          "gain": 0.07578908139469961,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 18.950748299319727,
+          "sourceStartAlignedToVideo": -1.0492517006802728,
+          "score": -0.08150686719505358,
+          "gain": -0.09088421976036964,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 9.006802721088436,
+          "sourceStartAlignedToVideo": -22.993197278911566,
+          "score": -0.08149839375836757,
+          "gain": -0.07230021178768337,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 37.46013605442177,
+          "sourceStartAlignedToVideo": 37.46013605442177,
+          "score": -0.08115822282376035,
+          "gain": -0.08482513478689772,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 23.5275283446712,
+          "sourceStartAlignedToVideo": 23.5275283446712,
+          "score": -0.08096349289245165,
+          "gain": -0.09127712149183337,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 10.888707482993198,
+          "sourceStartAlignedToVideo": -21.111292517006802,
+          "score": -0.08089470868507596,
+          "gain": -0.062465619039759966,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 12.129977324263038,
+          "sourceStartAlignedToVideo": 12.129977324263038,
+          "score": -0.08087201317853951,
+          "gain": -0.07232703722377003,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 14.974512471655329,
+          "sourceStartAlignedToVideo": 14.974512471655329,
+          "score": -0.08023402867105059,
+          "gain": -0.08690553448830278,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 32.83800453514739,
+          "sourceStartAlignedToVideo": -9.161995464852609,
+          "score": -0.0797518233296835,
+          "gain": -0.0680111776595732,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 36.649795918367346,
+          "sourceStartAlignedToVideo": 28.649795918367346,
+          "score": 0.07866250917134247,
+          "gain": 0.07974783606675559,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            0,
+            7
+          ],
+          "videoTime": 16.62639455782313,
+          "sourceStartAlignedToVideo": 16.62639455782313,
+          "score": -0.07841783674506975,
+          "gain": -0.08941182007279773,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 35.7350566893424,
+          "sourceStartAlignedToVideo": -6.2649433106576,
+          "score": 0.07792974320200811,
+          "gain": 0.06647997378459958,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 32.544943310657594,
+          "sourceStartAlignedToVideo": -9.455056689342406,
+          "score": 0.0779277653527169,
+          "gain": 0.06382702550232357,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            8,
+            15
+          ],
+          "videoTime": 22.746485260770974,
+          "sourceStartAlignedToVideo": 14.746485260770974,
+          "score": -0.07759239660306226,
+          "gain": -0.08329740764767019,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            20,
+            27
+          ],
+          "videoTime": 15.957460317460317,
+          "sourceStartAlignedToVideo": -4.042539682539683,
+          "score": 0.07645364950369357,
+          "gain": 0.08095256811040391,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 25.942312925170068,
+          "sourceStartAlignedToVideo": -6.057687074829932,
+          "score": 0.07555684319808804,
+          "gain": 0.07946280651716223,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            32,
+            39
+          ],
+          "videoTime": 16.431292517006803,
+          "sourceStartAlignedToVideo": -15.568707482993197,
+          "score": -0.07465597006027837,
+          "gain": -0.07821656415026856,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 7.4917913832199545,
+          "sourceStartAlignedToVideo": -34.508208616780045,
+          "score": -0.07370338680559077,
+          "gain": -0.05857160736057808,
+          "comparedSeconds": 7
+        },
+        {
+          "sourceWindow": [
+            42,
+            49
+          ],
+          "videoTime": 28.66938775510204,
+          "sourceStartAlignedToVideo": -13.33061224489796,
+          "score": -0.07136696667265786,
+          "gain": -0.07459323730603276,
+          "comparedSeconds": 7
+        }
+      ]
+    },
+    {
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/Source Prop Salt Pour Big Shaker Grains Sand Falling Heavy 01 Audio Extracted.wav",
+      "channels": 2,
+      "duration": 4.233333333333333,
+      "rms": 0.005770714835103748,
+      "peak": 0.0265719685703516,
+      "matches": [
+        {
+          "sourceWindow": [
+            0,
+            4.233333333333333
+          ],
+          "videoTime": 43.78802721088435,
+          "sourceStartAlignedToVideo": 43.78802721088435,
+          "score": 0.023196253404820295,
+          "gain": 0.2740451611518276,
+          "comparedSeconds": 4.2332879818594105
+        },
+        {
+          "sourceWindow": [
+            0,
+            4.233333333333333
+          ],
+          "videoTime": 18.638458049886623,
+          "sourceStartAlignedToVideo": 18.638458049886623,
+          "score": 0.009539235286525442,
+          "gain": 0.12112748327508983,
+          "comparedSeconds": 4.2332879818594105
+        },
+        {
+          "sourceWindow": [
+            0,
+            4.233333333333333
+          ],
+          "videoTime": 54.55074829931973,
+          "sourceStartAlignedToVideo": 54.55074829931973,
+          "score": 0.008312747351096592,
+          "gain": 0.06819495074590665,
+          "comparedSeconds": 4.2332879818594105
+        },
+        {
+          "sourceWindow": [
+            0,
+            4.233333333333333
+          ],
+          "videoTime": 53.88480725623583,
+          "sourceStartAlignedToVideo": 53.88480725623583,
+          "score": -0.006653614610314115,
+          "gain": -0.05902594484290775,
+          "comparedSeconds": 4.2332879818594105
+        },
+        {
+          "sourceWindow": [
+            0,
+            4.233333333333333
+          ],
+          "videoTime": 52.87455782312925,
+          "sourceStartAlignedToVideo": 52.87455782312925,
+          "score": 0.006485328588453117,
+          "gain": 0.06753026861012246,
+          "comparedSeconds": 4.2332879818594105
+        },
+        {
+          "sourceWindow": [
+            0,
+            4.233333333333333
+          ],
+          "videoTime": 53.44489795918367,
+          "sourceStartAlignedToVideo": 53.44489795918367,
+          "score": 0.006008411191564924,
+          "gain": 0.061487713243951005,
+          "comparedSeconds": 4.2332879818594105
+        },
+        {
+          "sourceWindow": [
+            0,
+            4.233333333333333
+          ],
+          "videoTime": 51.70657596371882,
+          "sourceStartAlignedToVideo": 51.70657596371882,
+          "score": 0.005984612867493385,
+          "gain": 0.07119329612922683,
+          "comparedSeconds": 4.2332879818594105
+        },
+        {
+          "sourceWindow": [
+            0,
+            4.233333333333333
+          ],
+          "videoTime": 52.37369614512472,
+          "sourceStartAlignedToVideo": 52.37369614512472,
+          "score": 0.004341984008319845,
+          "gain": 0.04875333658603574,
+          "comparedSeconds": 4.2332879818594105
+        }
+      ]
+    },
+    {
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/star Audio Extracted.wav",
+      "channels": 2,
+      "duration": 0.8666666666666667,
+      "rms": 0.03892511065729204,
+      "peak": 0.23275800980627537,
+      "matches": [
+        {
+          "sourceWindow": [
+            0,
+            0.8666666666666667
+          ],
+          "videoTime": 52.521360544217686,
+          "sourceStartAlignedToVideo": 52.521360544217686,
+          "score": 0.5885031000275082,
+          "gain": 0.9505475690128579,
+          "comparedSeconds": 0.8666666666666667
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8666666666666667
+          ],
+          "videoTime": 46.588027210884356,
+          "sourceStartAlignedToVideo": 46.588027210884356,
+          "score": 0.557348812646364,
+          "gain": 0.9592175087398068,
+          "comparedSeconds": 0.8666666666666667
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8666666666666667
+          ],
+          "videoTime": 29.85469387755102,
+          "sourceStartAlignedToVideo": 29.85469387755102,
+          "score": 0.5511885076218359,
+          "gain": 0.9595857814204815,
+          "comparedSeconds": 0.8666666666666667
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8666666666666667
+          ],
+          "videoTime": 18.121360544217687,
+          "sourceStartAlignedToVideo": 18.121360544217687,
+          "score": 0.5317192067182955,
+          "gain": 0.950117446602051,
+          "comparedSeconds": 0.8666666666666667
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8666666666666667
+          ],
+          "videoTime": 44.28807256235827,
+          "sourceStartAlignedToVideo": 44.28807256235827,
+          "score": 0.5213251535236498,
+          "gain": 0.9725342974160985,
+          "comparedSeconds": 0.8666666666666667
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8666666666666667
+          ],
+          "videoTime": 39.42140589569161,
+          "sourceStartAlignedToVideo": 39.42140589569161,
+          "score": 0.515850843107712,
+          "gain": 0.9842289368876276,
+          "comparedSeconds": 0.8666666666666667
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8666666666666667
+          ],
+          "videoTime": 53.588027210884356,
+          "sourceStartAlignedToVideo": 53.588027210884356,
+          "score": 0.5096353033666814,
+          "gain": 0.9560860831369626,
+          "comparedSeconds": 0.8666666666666667
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8666666666666667
+          ],
+          "videoTime": 22.154739229024944,
+          "sourceStartAlignedToVideo": 22.154739229024944,
+          "score": 0.503839138846996,
+          "gain": 0.9837052034571852,
+          "comparedSeconds": 0.8666666666666667
+        }
+      ]
+    },
+    {
+      "source": "Assets/Audio/SDP SFX AND BGM/SFX AND BGM/StoneSlide01 Audio Extracted.wav",
+      "channels": 1,
+      "duration": 0.8333333333333334,
+      "rms": 0.06993906782049812,
+      "peak": 0.4184606000781059,
+      "matches": [
+        {
+          "sourceWindow": [
+            0,
+            0.8333333333333334
+          ],
+          "videoTime": 52.521360544217686,
+          "sourceStartAlignedToVideo": 52.521360544217686,
+          "score": 0.5951449684919379,
+          "gain": 0.5455314592977091,
+          "comparedSeconds": 0.8332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8333333333333334
+          ],
+          "videoTime": 50.85469387755102,
+          "sourceStartAlignedToVideo": 50.85469387755102,
+          "score": 0.5752676296206818,
+          "gain": 0.62647020747509,
+          "comparedSeconds": 0.8332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8333333333333334
+          ],
+          "videoTime": 41.08807256235828,
+          "sourceStartAlignedToVideo": 41.08807256235828,
+          "score": 0.5686159393848513,
+          "gain": 0.5564393882424316,
+          "comparedSeconds": 0.8332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8333333333333334
+          ],
+          "videoTime": 32.18802721088436,
+          "sourceStartAlignedToVideo": 32.18802721088436,
+          "score": 0.5655093349957635,
+          "gain": 0.6348064904627262,
+          "comparedSeconds": 0.8332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8333333333333334
+          ],
+          "videoTime": 29.85469387755102,
+          "sourceStartAlignedToVideo": 29.85469387755102,
+          "score": 0.558655449878298,
+          "gain": 0.5514316301474083,
+          "comparedSeconds": 0.8332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8333333333333334
+          ],
+          "videoTime": 44.28807256235827,
+          "sourceStartAlignedToVideo": 44.28807256235827,
+          "score": 0.5529919241518629,
+          "gain": 0.5581931433957922,
+          "comparedSeconds": 0.8332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8333333333333334
+          ],
+          "videoTime": 18.121360544217687,
+          "sourceStartAlignedToVideo": 18.121360544217687,
+          "score": 0.543060075774616,
+          "gain": 0.5497758025516404,
+          "comparedSeconds": 0.8332879818594104
+        },
+        {
+          "sourceWindow": [
+            0,
+            0.8333333333333334
+          ],
+          "videoTime": 21.42140589569161,
+          "sourceStartAlignedToVideo": 21.42140589569161,
+          "score": 0.5326502111306448,
+          "gain": 0.5702009341843187,
+          "comparedSeconds": 0.8332879818594104
+        }
+      ]
+    }
+  ],
+  "gainInterpretation": "Do not use WAV-to-reference gain for mix calibration. WAVs were downsampled with a simple box filter, which aliases high-frequency noise, unlike the browser decoder. Use runtime-level-comparison.json actual MP3-to-reference estimates instead."
+}

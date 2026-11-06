@@ -1,0 +1,33 @@
+{
+  "at": "2026-10-29T09:23:58.589Z",
+  "browser": "156.0.8078.49",
+  "muted": true,
+  "method": "Native press then controlled clear/timeout; actual overload failure; hide before endcard; editor import and preview",
+  "results": [
+    {
+      "reason": "clear",
+      "requests": 1,
+      "playing": 1,
+      "duration": 1.814308,
+      "volume": 0.15,
+      "paused": false
+    },
+    {
+      "reason": "timeout",
+      "requests": 0,
+      "playing": 0,
+      "duration": 1.814308,
+      "volume": 0.15,
+      "paused": true
+    },
+    {
+      "reason": "fail",
+      "requests": 0,
+      "playing": 0,
+      "duration": 1.814308,
+      "volume": 0.15,
+      "paused": true
+    }
+  ],
+  "errors": []
+}

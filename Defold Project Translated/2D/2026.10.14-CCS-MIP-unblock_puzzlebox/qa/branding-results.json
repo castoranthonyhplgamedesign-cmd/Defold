@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-06T15:43:34.336Z",
+  "results": [
+    {
+      "name": "Old local URL redirects to Ring Sort and preserves variant",
+      "pass": true
+    },
+    {
+      "name": "Browser title and application metadata use Ring Sort",
+      "pass": true
+    },
+    {
+      "name": "Generated favicon, touch icon, manifest and Windows ICO are served",
+      "pass": true
+    },
+    {
+      "name": "Ring Sort end-card logo and install label render in portrait",
+      "pass": true
+    },
+    {
+      "name": "Renamed end card remains centered in landscape",
+      "pass": true
+    },
+    {
+      "name": "Root local URL opens Ring Sort",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

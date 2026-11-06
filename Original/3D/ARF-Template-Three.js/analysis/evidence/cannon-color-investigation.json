@@ -1,0 +1,63 @@
+{
+  "at": "2026-10-29T09:35:45.655Z",
+  "browser": "156.0.8078.49",
+  "viewport": [
+    768,
+    1024
+  ],
+  "audio": "muted",
+  "note": "Browser-only material/overlay overrides; production source unchanged",
+  "results": [
+    {
+      "mode": "current",
+      "file": "analysis/screenshots/cannon-color-investigation/current.png",
+      "samples": {
+        "centerHood": "#4c3051",
+        "leftHood": "#692b48",
+        "centerOuterEdge": "#1b1f47",
+        "target": "#3e446e"
+      }
+    },
+    {
+      "mode": "no-vignette",
+      "file": "analysis/screenshots/cannon-color-investigation/no-vignette.png",
+      "samples": {
+        "centerHood": "#32345a",
+        "leftHood": "#33345b",
+        "centerOuterEdge": "#1b1f47",
+        "target": "#3e446e"
+      }
+    },
+    {
+      "mode": "untextured-lit",
+      "file": "analysis/screenshots/cannon-color-investigation/untextured-lit.png",
+      "samples": {
+        "centerHood": "#515680",
+        "leftHood": "#515680",
+        "centerOuterEdge": "#444974",
+        "target": "#3e446e"
+      }
+    },
+    {
+      "mode": "unlit-textured",
+      "file": "analysis/screenshots/cannon-color-investigation/unlit-textured.png",
+      "samples": {
+        "centerHood": "#191c49",
+        "leftHood": "#191c49",
+        "centerOuterEdge": "#151942",
+        "target": "#3e446e"
+      }
+    },
+    {
+      "mode": "unlit-solid",
+      "file": "analysis/screenshots/cannon-color-investigation/unlit-solid.png",
+      "samples": {
+        "centerHood": "#3e446e",
+        "leftHood": "#3e446e",
+        "centerOuterEdge": "#3e446e",
+        "target": "#3e446e"
+      }
+    }
+  ],
+  "errors": []
+}

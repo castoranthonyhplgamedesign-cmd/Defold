@@ -1,0 +1,110 @@
+{
+  "source": "untitled-level.arrow-flow.json",
+  "arrows": 59,
+  "blocks": 199,
+  "grid": {
+    "size": 1.25,
+    "offset": [
+      0,
+      0
+    ]
+  },
+  "validation": "pass",
+  "squareFootprintsOverMesh": 6,
+  "actualProjectedPartsOverMesh": 5,
+  "affectedArrows": 3,
+  "overlaps": [
+    {
+      "arrowNumber": 1,
+      "id": "79a58850-4916-4dbb-ad6b-ae03a82e43f5",
+      "color": "blue",
+      "segmentIndex": 0,
+      "kind": "head",
+      "logical": [
+        -7,
+        -12
+      ],
+      "world": [
+        -8.75,
+        -15
+      ],
+      "overlaps": [
+        "frame"
+      ]
+    },
+    {
+      "arrowNumber": 6,
+      "id": "af8bf3c5-90f6-485c-a014-2b472ed754e4",
+      "color": "blue",
+      "segmentIndex": 0,
+      "kind": "head",
+      "logical": [
+        -8,
+        3
+      ],
+      "world": [
+        -10,
+        3.75
+      ],
+      "overlaps": [
+        "frame"
+      ]
+    },
+    {
+      "arrowNumber": 6,
+      "id": "af8bf3c5-90f6-485c-a014-2b472ed754e4",
+      "color": "blue",
+      "segmentIndex": 3,
+      "kind": "body",
+      "logical": [
+        -8,
+        0
+      ],
+      "world": [
+        -10,
+        0
+      ],
+      "overlaps": [
+        "frame",
+        "belt"
+      ]
+    },
+    {
+      "arrowNumber": 42,
+      "id": "ef873a83-c913-4718-bd0f-b20082ebf1d0",
+      "color": "blue",
+      "segmentIndex": 0,
+      "kind": "head",
+      "logical": [
+        8,
+        3
+      ],
+      "world": [
+        10,
+        3.75
+      ],
+      "overlaps": [
+        "frame"
+      ]
+    },
+    {
+      "arrowNumber": 42,
+      "id": "ef873a83-c913-4718-bd0f-b20082ebf1d0",
+      "color": "blue",
+      "segmentIndex": 3,
+      "kind": "body",
+      "logical": [
+        8,
+        0
+      ],
+      "world": [
+        10,
+        0
+      ],
+      "overlaps": [
+        "frame",
+        "belt"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "method": "Mono decoded runtime MP3 compared with original supplied float32 WAV and mixed reference. Relative gains are waveform least-squares estimates, not perceived loudness measurements. Highpass of two one-pole 500Hz filters suppresses unrelated BGM when estimating reference sand-component gains.",
+  "sounds": [
+    {
+      "id": "sfx-cut",
+      "source": "Falling Sand Audio Extracted.wav",
+      "volume": 0.8,
+      "conversion": {
+        "score": 0.7775624987723587,
+        "amplitudeGain": 0.6871301626971208,
+        "paddingStartSeconds": 0.025124716553287983,
+        "calibratedAmplitude": false,
+        "note": "amplitudeGain and conversion score are affected by crude box-filter downsampling of the original WAV; do not interpret them as actual MP3 level loss. paddingStartSeconds remains useful for alignment."
+      },
+      "sourceWindow": [
+        0.6,
+        1.2
+      ],
+      "videoMatches": [
+        {
+          "videoTime": 25.82140589569161,
+          "score": 0.5405193721163944,
+          "referenceComponentGain": 0.9506343075224083,
+          "currentSteadyVolume": 0.8,
+          "currentToReferenceGainRatio": 0.8415433712728093,
+          "currentRelativeDb": -1.4984699308025866
+        },
+        {
+          "videoTime": 17.5881179138322,
+          "score": 0.525627199054241,
+          "referenceComponentGain": 0.8755438476602307,
+          "currentSteadyVolume": 0.8,
+          "currentToReferenceGainRatio": 0.913717801955766,
+          "currentRelativeDb": -0.7837582730059001
+        },
+        {
+          "videoTime": 36.68807256235828,
+          "score": 0.5144536320164595,
+          "referenceComponentGain": 0.9659323890311079,
+          "currentSteadyVolume": 0.8,
+          "currentToReferenceGainRatio": 0.8282153172257236,
+          "currentRelativeDb": -1.6371348361247386
+        },
+        {
+          "videoTime": 15.488072562358276,
+          "score": 0.5084240541345763,
+          "referenceComponentGain": 0.9864890852782808,
+          "currentSteadyVolume": 0.8,
+          "currentToReferenceGainRatio": 0.8109567677318258,
+          "currentRelativeDb": -1.8200459499559947
+        },
+        {
+          "videoTime": 30.3881179138322,
+          "score": 0.47523861885712704,
+          "referenceComponentGain": 0.8668095807302945,
+          "currentSteadyVolume": 0.8,
+          "currentToReferenceGainRatio": 0.9229247320109144,
+          "currentRelativeDb": -0.6966743176230726
+        },
+        {
+          "videoTime": 28.3881179138322,
+          "score": 0.46705626958788593,
+          "referenceComponentGain": 0.855591195386242,
+          "currentSteadyVolume": 0.8,
+          "currentToReferenceGainRatio": 0.9350259847389544,
+          "currentRelativeDb": -0.583526394914726
+        },
+        {
+          "videoTime": 49.888072562358275,
+          "score": 0.3759706322472418,
+          "referenceComponentGain": 0.7474205681070715,
+          "currentSteadyVolume": 0.8,
+          "currentToReferenceGainRatio": 1.0703478525164112,
+          "currentRelativeDb": 0.5904988411347103
+        },
+        {
+          "videoTime": 24.154739229024944,
+          "score": 0.34578326948525095,
+          "referenceComponentGain": 0.934367096482488,
+          "currentSteadyVolume": 0.8,
+          "currentToReferenceGainRatio": 0.856194533189016,
+          "currentRelativeDb": -1.3485509893526566
+        }
+      ]
+    },
+    {
+      "id": "sfx-sand",
+      "source": "Source Prop Salt Pour Big Shaker Grains Sand Falling Heavy 01 Audio Extracted.wav",
+      "volume": 0.85,
+      "conversion": {
+        "score": 0.46128110552024604,
+        "amplitudeGain": 0.2772442138001631,
+        "paddingStartSeconds": 0.025124716553287983,
+        "calibratedAmplitude": false,
+        "note": "amplitudeGain and conversion score are affected by crude box-filter downsampling of the original WAV; do not interpret them as actual MP3 level loss. paddingStartSeconds remains useful for alignment."
+      },
+      "sourceWindow": [
+        2.4,
+        3
+      ],
+      "videoMatches": [
+        {
+          "videoTime": 8.088072562358276,
+          "score": 0.41334284548853156,
+          "referenceComponentGain": 0.8620754001046702,
+          "currentSteadyVolume": 0.85,
+          "currentToReferenceGainRatio": 0.985992640431215,
+          "currentRelativeDb": -0.12252653346869574
+        },
+        {
+          "videoTime": 33.488072562358276,
+          "score": 0.33827674836437527,
+          "referenceComponentGain": 0.8706418069165517,
+          "currentSteadyVolume": 0.85,
+          "currentToReferenceGainRatio": 0.9762912752953407,
+          "currentRelativeDb": -0.2084118355768956
+        },
+        {
+          "videoTime": 41.954739229024945,
+          "score": 0.3266424747527098,
+          "referenceComponentGain": 0.9202856131337973,
+          "currentSteadyVolume": 0.85,
+          "currentToReferenceGainRatio": 0.9236263045616266,
+          "currentRelativeDb": -0.6900741404049986
+        },
+        {
+          "videoTime": 37.72145124716553,
+          "score": 0.24376491709720832,
+          "referenceComponentGain": 0.8172778511750923,
+          "currentSteadyVolume": 0.85,
+          "currentToReferenceGainRatio": 1.0400379733500171,
+          "currentRelativeDb": 0.3409839266544783
+        },
+        {
+          "videoTime": 3.8547845804988663,
+          "score": 0.21580616726115068,
+          "referenceComponentGain": 0.7979995137469544,
+          "currentSteadyVolume": 0.85,
+          "currentToReferenceGainRatio": 1.0651635563145654,
+          "currentRelativeDb": 0.5483259799298825
+        },
+        {
+          "videoTime": 16.5881179138322,
+          "score": 0.2133427195335319,
+          "referenceComponentGain": 0.804327339399196,
+          "currentSteadyVolume": 0.85,
+          "currentToReferenceGainRatio": 1.0567836729694156,
+          "currentRelativeDb": 0.4797218984491841
+        },
+        {
+          "videoTime": 12.5881179138322,
+          "score": 0.20518874895560016,
+          "referenceComponentGain": 0.7779663329897963,
+          "currentSteadyVolume": 0.85,
+          "currentToReferenceGainRatio": 1.092592267757104,
+          "currentRelativeDb": 0.7691624540068414
+        },
+        {
+          "videoTime": 29.254784580498868,
+          "score": 0.0991597842629453,
+          "referenceComponentGain": 1.0176192552655938,
+          "currentSteadyVolume": 0.85,
+          "currentToReferenceGainRatio": 0.8352829367189539,
+          "currentRelativeDb": -1.5633278066845226
+        }
+      ]
+    }
+  ],
+  "gainInterpretation": "videoMatches compare actual browser-decoded runtime MP3 against the mixed reference and are approximate component-gain estimates only; they are not perceived loudness measurements or a definitive full-mix calibration."
+}

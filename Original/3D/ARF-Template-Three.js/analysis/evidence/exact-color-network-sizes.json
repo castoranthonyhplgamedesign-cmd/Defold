@@ -1,0 +1,34 @@
+[
+  {
+    "network": "al",
+    "bytes": 3984097
+  },
+  {
+    "network": "fb",
+    "bytes": 3982945
+  },
+  {
+    "network": "gg",
+    "bytes": 3983014
+  },
+  {
+    "network": "is",
+    "bytes": 3984066
+  },
+  {
+    "network": "mtg",
+    "bytes": 3983041
+  },
+  {
+    "network": "mo",
+    "bytes": 3982943
+  },
+  {
+    "network": "un",
+    "bytes": 3984230
+  },
+  {
+    "network": "vu",
+    "bytes": 3983061
+  }
+]

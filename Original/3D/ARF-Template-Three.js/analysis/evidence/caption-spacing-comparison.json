@@ -1,0 +1,122 @@
+[
+  {
+    "viewport": [
+      320,
+      568
+    ],
+    "captionTopBefore": 68,
+    "captionTopAfter": 24,
+    "gameplayScaleGainPercent": 17.4,
+    "captionToReserveGap": 13
+  },
+  {
+    "viewport": [
+      568,
+      320
+    ],
+    "captionTopBefore": 12,
+    "captionTopAfter": 24,
+    "gameplayScaleGainPercent": 6,
+    "captionToReserveGap": 11
+  },
+  {
+    "viewport": [
+      360,
+      640
+    ],
+    "captionTopBefore": 68,
+    "captionTopAfter": 24,
+    "gameplayScaleGainPercent": 14.7,
+    "captionToReserveGap": 14
+  },
+  {
+    "viewport": [
+      640,
+      360
+    ],
+    "captionTopBefore": 12,
+    "captionTopAfter": 24,
+    "gameplayScaleGainPercent": 7,
+    "captionToReserveGap": 11
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "captionTopBefore": 68,
+    "captionTopAfter": 68,
+    "gameplayScaleGainPercent": 0,
+    "captionToReserveGap": 14
+  },
+  {
+    "viewport": [
+      844,
+      390
+    ],
+    "captionTopBefore": 12,
+    "captionTopAfter": 24,
+    "gameplayScaleGainPercent": 7.6,
+    "captionToReserveGap": 11
+  },
+  {
+    "viewport": [
+      430,
+      932
+    ],
+    "captionTopBefore": 68,
+    "captionTopAfter": 68,
+    "gameplayScaleGainPercent": 0,
+    "captionToReserveGap": 15
+  },
+  {
+    "viewport": [
+      932,
+      430
+    ],
+    "captionTopBefore": 12,
+    "captionTopAfter": 24,
+    "gameplayScaleGainPercent": 7.1,
+    "captionToReserveGap": 12
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "captionTopBefore": 68,
+    "captionTopAfter": 24,
+    "gameplayScaleGainPercent": 8.3,
+    "captionToReserveGap": 17
+  },
+  {
+    "viewport": [
+      1024,
+      768
+    ],
+    "captionTopBefore": 12,
+    "captionTopAfter": 24,
+    "gameplayScaleGainPercent": 3.6,
+    "captionToReserveGap": 15
+  },
+  {
+    "viewport": [
+      820,
+      1180
+    ],
+    "captionTopBefore": 68,
+    "captionTopAfter": 24,
+    "gameplayScaleGainPercent": 7,
+    "captionToReserveGap": 19
+  },
+  {
+    "viewport": [
+      1180,
+      820
+    ],
+    "captionTopBefore": 12,
+    "captionTopAfter": 24,
+    "gameplayScaleGainPercent": 3.3,
+    "captionToReserveGap": 16
+  }
+]

@@ -1,0 +1,8 @@
+const fs=require('fs'),path=require('path');
+const level=JSON.parse(fs.readFileSync('analysis/evidence/level.json')),cat=JSON.parse(fs.readFileSync('analysis/evidence/asset-catalog.json')),engine=fs.readFileSync('analysis/extracted/bundle/cocos-js/cc.js.pretty.js','utf8');
+const defaults={};for(let needle of ['"_near"','_near =','maxPixelRatio','ORTHO:','_shadowEnabled =','_illuminanceLDR =','_orthoHeight']){let a=[],i=-1;while((i=engine.indexOf(needle,i+1))>=0&&a.length<6)a.push({line:engine.slice(0,i).split('\n').length,text:engine.slice(Math.max(0,i-60),i+240)});defaults[needle]=a;}fs.writeFileSync('analysis/evidence/engine-defaults.json',JSON.stringify(defaults,null,2));
+const cells=level.arrows.flatMap(a=>a.cells.map(c=>({x:a.position.x+c.x,y:a.position.y+c.y,z:a.position.z+c.z}))),keys=cells.map(p=>JSON.stringify([p.x,p.y,p.z]));let grid={total:cells.length,unique:new Set(keys).size,axes:Object.fromEntries(['x','y','z'].map(k=>[k,[...new Set(cells.map(c=>c[k]))].sort((a,b)=>a-b)]))};
+fs.writeFileSync('analysis/evidence/grid-summary.json',JSON.stringify(grid,null,2));
+const mats=cat.filter(r=>r.type==='cc.Material').map(r=>{let o=JSON.parse(fs.readFileSync(r.file)).objects[0];return {id:r.id,name:r.name,effect:o._effectAsset,technique:o._techIdx??0,defines:o._defines,states:o._states,properties:o._props,source:r.file};});fs.writeFileSync('analysis/evidence/materials.json',JSON.stringify(mats,null,2));
+const meshes=cat.filter(r=>r.type==='mesh buffer').map(r=>({id:r.id,bytes:r.bytes,vertices:r.details.vertices,triangles:r.details.triangles,gltf:r.details.gltf}));
+console.log(JSON.stringify({grid,meshes,audio:cat.filter(r=>r.type==='audio').map(r=>({name:r.name,bytes:r.bytes,duration:r.duration,details:r.details})),defaults},null,2));

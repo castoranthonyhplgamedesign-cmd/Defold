@@ -1,0 +1,30 @@
+{
+  "tool": "Built-in image_gen",
+  "generatedSource": "C:\\Users\\Kc Mondejar\\.codex\\generated_images\\01a1800e-e475-7f72-bad4-1ae7e7fe394d\\exec-285056c4-1488-46aa-94cb-980deff56fbf.png",
+  "masterFile": "level-rainbow-checker-v2-master.png",
+  "exportFile": "level-rainbow-checker-v2.png",
+  "targetFile": "../../../Assets/Image/level-rainbow-checker-v2.png",
+  "width": 1080,
+  "height": 960,
+  "opaque": true,
+  "referenceLayout": {
+    "stripeCount": 9,
+    "stripeOrder": [
+      "violet",
+      "royal blue",
+      "cyan",
+      "grass green",
+      "lime",
+      "yellow",
+      "orange",
+      "red",
+      "pink"
+    ],
+    "rainbowHeightFraction": 0.75,
+    "checkerColumns": 9,
+    "checkerRows": 2,
+    "topLeftChecker": "white"
+  },
+  "notes": "Separate new level image matching the supplied two-row checker reference. Existing level source and runtime selection preserved.",
+  "prompt": "Use case: stylized-concept.\nAsset type: a flat front-facing sand-painting level texture for a mobile cutting-sand game.\nReference image: the user's MOST RECENT attached image showing nine vertical rainbow color stripes over two rows of black-and-white checkerboard.\nPrimary request: faithfully recreate that pattern as a clean high-resolution standalone level image, preserving exactly its layout, nine colors in the same order, straight boundaries and fine colored sand texture.\nGeometry: full-bleed rectangular image, width:height exactly 9:8. Imagine a grid of 9 columns and 8 rows of equal square cells.\nUpper 6 rows / upper 75 percent of height: exactly NINE equal-width VERTICAL stripes extending all the way from the top edge to the checkerboard boundary, with no horizontal subdivisions. From LEFT to RIGHT: 1 violet-purple, 2 saturated royal blue, 3 bright sky cyan-blue, 4 medium grass green, 5 light lime green, 6 pale bright yellow, 7 warm orange, 8 vivid red, 9 bright pink-magenta. All nine stripes have the same width. Use the reference's hues closely.\nLower 2 rows / lower 25 percent of height: exactly TWO rows and NINE columns of alternating black-and-white square checkerboard, aligned one-to-one with the nine stripe columns above. Each square is exactly as wide as one stripe. TOP checker row starts WHITE at far left, alternating white, black, white, black, white, black, white, black, white. BOTTOM checker row starts BLACK at far left, alternating black, white, black, white, black, white, black, white, black.\nMaterial: subtle fine sand-grain mottling inside every colored stripe, matching the screenshot's texture. Black checker squares have very faint dark gray grain. White squares remain nearly plain white. Consistent flat colors and straight crisp grid boundaries, no 3D depth. Fine grain must not cross color boundaries. Keep texture understated and natural at game scale.\nComposition: pattern fills the ENTIRE canvas exactly to all four edges, perfectly straight-on, not photographed or tilted. No frame, border, rounded corners, gutters, margins, shadows, seam lines, perspective or lighting gradient.\nBackground: none outside the pattern. Opaque PNG, no transparency.\nText: none. No numbers, labels, game UI, shovel, bucket, hand, scenery, logo or watermark. Do not add stripes or extra checker rows."
+}

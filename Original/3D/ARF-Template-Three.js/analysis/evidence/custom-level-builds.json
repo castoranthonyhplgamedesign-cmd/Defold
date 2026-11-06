@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-10-26T09:23:04.410Z",
+  "results": [
+    {
+      "tag": "preview",
+      "htmlBytes": 2608549,
+      "file": "dist/custom/four-sides-arrow-flow-json/preview/arf_mip_grhpl_conveyor_four-sides-arrow-flow-json_real_nougc_noseason_en_full_na_preview.html",
+      "packageBytes": 2608549
+    },
+    {
+      "tag": "al",
+      "htmlBytes": 2609601,
+      "file": "dist/custom/four-sides-arrow-flow-json/al/arf_mip_grhpl_conveyor_four-sides-arrow-flow-json_real_nougc_noseason_en_full_na_al.html",
+      "packageBytes": 2609601
+    },
+    {
+      "tag": "fb",
+      "htmlBytes": 2608540,
+      "file": "dist/custom/four-sides-arrow-flow-json/fb/arf_mip_grhpl_conveyor_four-sides-arrow-flow-json_real_nougc_noseason_en_full_na_fb.html",
+      "packageBytes": 2608540
+    },
+    {
+      "tag": "gg",
+      "htmlBytes": 2608609,
+      "file": "dist/custom/four-sides-arrow-flow-json/gg/arf_mip_grhpl_conveyor_four-sides-arrow-flow-json_real_nougc_noseason_en_full_na_gg.zip",
+      "packageBytes": 1101469
+    },
+    {
+      "tag": "is",
+      "htmlBytes": 2609568,
+      "file": "dist/custom/four-sides-arrow-flow-json/is/arf_mip_grhpl_conveyor_four-sides-arrow-flow-json_real_nougc_noseason_en_full_na_is.html",
+      "packageBytes": 2609568
+    },
+    {
+      "tag": "mtg",
+      "htmlBytes": 2608638,
+      "file": "dist/custom/four-sides-arrow-flow-json/mtg/arf_mip_grhpl_conveyor_four-sides-arrow-flow-json_real_nougc_noseason_en_full_na_mtg.zip",
+      "packageBytes": 1101463
+    },
+    {
+      "tag": "mo",
+      "htmlBytes": 2608538,
+      "file": "dist/custom/four-sides-arrow-flow-json/mo/arf_mip_grhpl_conveyor_four-sides-arrow-flow-json_real_nougc_noseason_en_full_na_mo.html",
+      "packageBytes": 2608538
+    },
+    {
+      "tag": "un",
+      "htmlBytes": 2609748,
+      "file": "dist/custom/four-sides-arrow-flow-json/un/arf_mip_grhpl_conveyor_four-sides-arrow-flow-json_real_nougc_noseason_en_full_na_un.html",
+      "packageBytes": 2609748
+    },
+    {
+      "tag": "vu",
+      "htmlBytes": 2608617,
+      "file": "dist/custom/four-sides-arrow-flow-json/vu/arf_mip_grhpl_conveyor_four-sides-arrow-flow-json_real_nougc_noseason_en_full_na_vu.zip",
+      "packageBytes": 1101438
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "tag": "preview",
+      "url": "https://custom.invalid/"
+    },
+    {
+      "tag": "al",
+      "url": "https://custom.invalid/"
+    },
+    {
+      "tag": "al",
+      "url": "https://custom.invalid/mraid.js"
+    },
+    {
+      "tag": "fb",
+      "url": "https://custom.invalid/"
+    },
+    {
+      "tag": "gg",
+      "url": "https://custom.invalid/"
+    },
+    {
+      "tag": "gg",
+      "url": "https://tpc.googlesyndication.com/pagead/gadgets/html5/api/exitapi.js"
+    },
+    {
+      "tag": "is",
+      "url": "https://custom.invalid/"
+    },
+    {
+      "tag": "is",
+      "url": "https://custom.invalid/mraid.js"
+    },
+    {
+      "tag": "mtg",
+      "url": "https://custom.invalid/"
+    },
+    {
+      "tag": "mo",
+      "url": "https://custom.invalid/"
+    },
+    {
+      "tag": "un",
+      "url": "https://custom.invalid/"
+    },
+    {
+      "tag": "un",
+      "url": "https://custom.invalid/mraid.js"
+    },
+    {
+      "tag": "vu",
+      "url": "https://custom.invalid/"
+    }
+  ],
+  "notes": "Eight selected network packages and standalone preview booted locally. Native touch cleared the standalone custom level. Host bridges were mocked; official network acceptance is unverified."
+}

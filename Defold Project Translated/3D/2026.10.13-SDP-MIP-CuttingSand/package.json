@@ -1,0 +1,15 @@
+{
+  "name": "sand-slice-defold", "private": true, "type": "module",
+  "scripts": {
+    "prepare:assets": "node scripts/prepare.mjs",
+    "reference": "vite --config tools/reference/vite.config.ts --host 127.0.0.1 --port 8181",
+    "build": "node scripts/build.mjs",
+    "brand": "node scripts/branding.mjs",
+    "package:html": "node scripts/package-html.mjs",
+    "qa:html": "node scripts/qa-html.mjs",
+    "publish:local": "node scripts/serve.mjs",
+    "test": "node scripts/test.mjs",
+    "qa": "node scripts/qa.mjs"
+  },
+  "devDependencies": { "esbuild": "0.25.12", "sharp": "0.34.4", "playwright": "1.60.0" }
+}

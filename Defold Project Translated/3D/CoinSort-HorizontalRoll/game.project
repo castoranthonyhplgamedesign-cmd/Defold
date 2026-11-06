@@ -1,0 +1,50 @@
+[project]
+title = Token Roll
+version = 1.0
+
+[bootstrap]
+main_collection = /main/main.collectionc
+render = /render/main.renderc
+
+[display]
+width = 1080
+height = 1920
+high_dpi = 1
+dynamic_orientation = 1
+vsync = 1
+samples = 4
+
+[input]
+game_binding = /main/input.input_bindingc
+
+[script]
+shared_state = 1
+
+[html5]
+htmlfile = /web/template.html
+heap_size = 512
+scale_mode = Stretch
+show_fullscreen_button = 0
+show_made_with_defold = 0
+
+[resource]
+max_resources = 2048
+
+[collection]
+max_instances = 512
+
+[gui]
+max_count = 8
+
+[sound]
+max_sound_instances = 64
+
+[graphics]
+texture_min_filter = linear_mipmap_linear
+texture_mag_filter = linear
+
+[render]
+max_draw_calls = 256
+
+[shader]
+exclude_gles_sm100 = 1

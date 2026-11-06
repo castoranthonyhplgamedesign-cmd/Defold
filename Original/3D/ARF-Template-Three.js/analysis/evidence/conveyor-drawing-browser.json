@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-26T09:21:11.254Z",
+  "result": "pass",
+  "errors": [],
+  "checks": [
+    "clicked inward-bend outline closes at start",
+    "Backspace removes corner",
+    "one-step undo and redo",
+    "Escape cancels without replacing old belt",
+    "crossing rejection retains old belt and editable draft",
+    "continuous drag closes rectangle",
+    "drawn loop exports and opens actual Three preview",
+    "four preview sizes",
+    "mouse clear in preview",
+    "native touch clear in packaged concave level"
+  ]
+}

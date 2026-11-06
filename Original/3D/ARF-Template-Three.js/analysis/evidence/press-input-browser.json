@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-29T06:21:39.310Z",
+  "results": [
+    {
+      "input": "native mouse pointer",
+      "pressCounting": true,
+      "noReleaseDoubleCount": true,
+      "threeClickEndcard": true,
+      "cleanup": true
+    },
+    {
+      "input": "native touch emulation",
+      "pressCounting": true,
+      "noReleaseDoubleCount": true,
+      "threeClickEndcard": true,
+      "cleanup": true
+    }
+  ],
+  "errors": [],
+  "limits": "Real input/session modules with controlled picking and audio ownership. Touch emulation is not physical iOS."
+}

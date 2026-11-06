@@ -1,0 +1,204 @@
+[
+  {
+    "label": "tap / full clear / bucket and end-card cues",
+    "pass": true,
+    "elapsedMs": 56233,
+    "taps": 26,
+    "buckets": 31,
+    "audio": {
+      "unlocked": true,
+      "hostMuted": false,
+      "muted": false,
+      "gameplayFinished": true,
+      "channels": {
+        "bgm": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0,
+          "starts": 1
+        },
+        "sfx-conveyor": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.8999999761581421,
+          "starts": 1
+        },
+        "sfx-cut": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.00342857139185071,
+          "starts": 14
+        },
+        "sfx-sand": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.0036428573075681925,
+          "starts": 13
+        },
+        "sfx-click": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.800000011920929,
+          "starts": 26
+        },
+        "sfx-woosh": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.550000011920929,
+          "starts": 31
+        },
+        "sfx-bells": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.8999999761581421,
+          "starts": 31
+        },
+        "sfx-win": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 1
+        },
+        "sfx-endcard": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 1
+        },
+        "sfx-cta": {
+          "playing": 1,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.8999999761581421,
+          "starts": 2
+        },
+        "sfx-fail": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        }
+      }
+    }
+  },
+  {
+    "label": "swipe / silent invalid input / held stroke / time end",
+    "pass": true,
+    "elapsedMs": 16494,
+    "heldSamples": 60,
+    "bucketsBeforeEnding": 1,
+    "audio": {
+      "unlocked": true,
+      "hostMuted": false,
+      "muted": false,
+      "gameplayFinished": true,
+      "channels": {
+        "bgm": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.004832000005990267,
+          "starts": 1
+        },
+        "sfx-conveyor": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.8999999761581421,
+          "starts": 1
+        },
+        "sfx-cut": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.038114286959171295,
+          "starts": 2
+        },
+        "sfx-sand": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 1,
+          "volume": 0.0036428573075681925,
+          "starts": 2
+        },
+        "sfx-click": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.800000011920929,
+          "starts": 2
+        },
+        "sfx-woosh": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.550000011920929,
+          "starts": 4
+        },
+        "sfx-bells": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.8999999761581421,
+          "starts": 4
+        },
+        "sfx-win": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 1
+        },
+        "sfx-endcard": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 1
+        },
+        "sfx-cta": {
+          "playing": 1,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 0.8999999761581421,
+          "starts": 2
+        },
+        "sfx-fail": {
+          "playing": 0,
+          "paused": 0,
+          "capacity": 4,
+          "volume": 1,
+          "starts": 0
+        }
+      }
+    }
+  },
+  {
+    "label": "host mute / overlapping pauses / audio overrides",
+    "pass": false,
+    "elapsedMs": 1,
+    "error": "Error: ENOENT: no such file or directory, scandir 'G:\\downloads\\Work\\Phaser\\2026.10.13 SDP, MIP, CuttingSand\\dist\\cantreach_swipe\\90seconds'\n    at Object.readdirSync (node:fs:1570:26)\n    at withPage (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/audio.mjs:56:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async lifecycleCase (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/audio.mjs:196:3)\n    at async file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/audio.mjs:271:39"
+  },
+  {
+    "label": "MUTE keeps gameplay and CTA silent",
+    "pass": false,
+    "elapsedMs": 0,
+    "error": "Error: ENOENT: no such file or directory, scandir 'G:\\downloads\\Work\\Phaser\\2026.10.13 SDP, MIP, CuttingSand\\dist\\cantreach_swipe\\90seconds'\n    at Object.readdirSync (node:fs:1570:26)\n    at withPage (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/audio.mjs:56:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async muteCase (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/audio.mjs:236:3)\n    at async file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/audio.mjs:271:39"
+  },
+  {
+    "label": "danger alarm only on a real jam",
+    "pass": false,
+    "elapsedMs": 15273,
+    "error": "Error: Timed out waiting for ordered end-card pops: {\"unlocked\":true,\"hostMuted\":false,\"muted\":false,\"gameplayFinished\":true,\"channels\":{\"bgm\":{\"playing\":0,\"paused\":0,\"capacity\":1,\"volume\":0.004864000249654055,\"starts\":1},\"sfx-conveyor\":{\"playing\":0,\"paused\":0,\"capacity\":1,\"volume\":0.8999999761581421,\"starts\":1},\"sfx-cut\":{\"playing\":0,\"paused\":0,\"capacity\":1,\"volume\":0.037942856550216675,\"starts\":2},\"sfx-sand\":{\"playing\":0,\"paused\":0,\"capacity\":1,\"volume\":0.040314286947250366,\"starts\":2},\"sfx-click\":{\"playing\":0,\"paused\":0,\"capacity\":4,\"volume\":0.800000011920929,\"starts\":2},\"sfx-woosh\":{\"playing\":0,\"paused\":0,\"capacity\":4,\"volume\":1,\"starts\":0},\"sfx-bells\":{\"playing\":0,\"paused\":0,\"capacity\":4,\"volume\":1,\"starts\":0},\"sfx-win\":{\"playing\":0,\"paused\":0,\"capacity\":4,\"volume\":1,\"starts\":2},\"sfx-endcard\":{\"playing\":0,\"paused\":0,\"capacity\":4,\"volume\":1,\"starts\":1},\"sfx-cta\":{\"playing\":0,\"paused\":0,\"capacity\":4,\"volume\":1,\"starts\":0},\"sfx-fail\":{\"playing\":0,\"paused\":0,\"capacity\":4,\"volume\":0.4000000059604645,\"starts\":1}}}\n    at waitAudio (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/audio.mjs:36:9)\n    at async endcardChecks (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/audio.mjs:80:15)\n    at async file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/audio.mjs:263:5\n    at async withPage (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/audio.mjs:63:21)\n    at async failCase (file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/audio.mjs:251:3)\n    at async file:///G:/downloads/Work/Phaser/2026.10.13%20SDP,%20MIP,%20CuttingSand/scripts/qa/audio.mjs:271:39"
+  }
+]

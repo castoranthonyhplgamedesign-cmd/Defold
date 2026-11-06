@@ -1,0 +1,271 @@
+{
+  "baseline": "ccb8e2b210a432272e0e4147a64b163484c4aa70",
+  "branch": "main",
+  "meshCount": 1,
+  "vertices": 1140,
+  "originalBounds": {
+    "min": [
+      -0.08206824213266373,
+      -0.3256013989448548,
+      -0.3256013989448548
+    ],
+    "max": [
+      0.08226537704467773,
+      0.3256013989448548,
+      0.3256013989448548
+    ]
+  },
+  "conversion": "FBXLoader geometry and world transforms; center and scale as original 60px footprint times 0.7; reverse winding and mirror numbered-cap U coordinates exactly as Coin3DController.prepareTemplate3D.",
+  "assets": [
+    {
+      "source": "src/constants.ts",
+      "sha256": "9c7a4a04a79ef0d84da645c10aed984ca4630c857a0d911faa2870648d4cd1b6"
+    },
+    {
+      "source": "src/game/CoinCylinderLevel.ts",
+      "sha256": "98f9f70217c5f4cdc0b315f2d2c1b01a9d890add081752c936f82dfa2c4e8122"
+    },
+    {
+      "source": "src/game/Coin3DController.ts",
+      "sha256": "26a5ea80280af14c63cf64d4820eba6c96553b3a478e78bdf8736b03ceb76f40"
+    },
+    {
+      "source": "Assets/models/Coin.fbx",
+      "sha256": "b9a8e36128e2581cdce64b0a5f8b1c541790a062f3fe661691cabc7f88968b64"
+    },
+    {
+      "source": "assets\\branding\\token_roll.png",
+      "destination": "assets\\images\\app_icon.png",
+      "conversion": "User-authorized generated Token Roll replacement icon",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "source_sha256": "0c459529e5858c7942912a70b945033fb204f4b993921f33d38f26a73941b54a"
+    },
+    {
+      "source": "Assets\\images\\Background.webp",
+      "destination": "assets\\images\\background.png",
+      "conversion": "WebP decoded to RGBA PNG; source dimensions and pixels retained",
+      "dimensions": [
+        3412,
+        1920
+      ],
+      "source_sha256": "b5e7963ff4b6c89844d4d17450a6e79a5d60d3cff03fef7d8efe0ea6e9ddf1e6"
+    },
+    {
+      "source": "Assets\\images\\Hand.webp",
+      "destination": "assets\\images\\hand.png",
+      "conversion": "WebP decoded to RGBA PNG; source dimensions and pixels retained",
+      "dimensions": [
+        512,
+        512
+      ],
+      "source_sha256": "7ccf791c9883664179c52b0375c8c8a6aad9961fb39f97fa864dbe6a256455b0"
+    },
+    {
+      "source": "Assets\\images\\Lock.webp",
+      "destination": "assets\\images\\lock.png",
+      "conversion": "WebP decoded to RGBA PNG; source dimensions and pixels retained",
+      "dimensions": [
+        512,
+        512
+      ],
+      "source_sha256": "0b46314492dc9a00d2f8af6af14105f0f4839555c32f0f5c9ae9132b56d1d021"
+    },
+    {
+      "source": "Assets\\images\\Jar Glass Base.webp",
+      "destination": "assets\\images\\jar_base.png",
+      "conversion": "WebP decoded to RGBA PNG; source dimensions and pixels retained",
+      "dimensions": [
+        437,
+        140
+      ],
+      "source_sha256": "a11bed321e4d3794d83abe3a969801809847574f65447fb62e8181995c6b6687"
+    },
+    {
+      "source": "Assets\\images\\Jar Glass Body.webp",
+      "destination": "assets\\images\\jar_body.png",
+      "conversion": "WebP decoded to RGBA PNG; source dimensions and pixels retained",
+      "dimensions": [
+        500,
+        448
+      ],
+      "source_sha256": "777cb80b2256f3c31fb47021494a73cc4283acbcd5a508d01ae86e2db9d9eb3b"
+    },
+    {
+      "source": "Assets\\images\\Jar Wood Lid.webp",
+      "destination": "assets\\images\\jar_lid.png",
+      "conversion": "WebP decoded to RGBA PNG; source dimensions and pixels retained",
+      "dimensions": [
+        239,
+        118
+      ],
+      "source_sha256": "87d06a79b9c5b5e3ea3ff24fdac47e4248ccc1df6466b0c4cafbc9ea72be44b9"
+    },
+    {
+      "source": "Assets\\images\\Gold.webp",
+      "destination": "assets/coin_atlas.png",
+      "conversion": "2048x2048 source pixels copied into atlas; UVs address the original tile",
+      "tile": [
+        0,
+        2048,
+        2048,
+        2048
+      ],
+      "source_sha256": "7ae51847adbd18e00f13b684e576984a21f145fe6083b09cc5119936393819a1"
+    },
+    {
+      "source": "Assets\\images\\Sky.webp",
+      "destination": "assets/coin_atlas.png",
+      "conversion": "2048x2048 source pixels copied into atlas; UVs address the original tile",
+      "tile": [
+        2048,
+        2048,
+        2048,
+        2048
+      ],
+      "source_sha256": "099bcc25689ab51af485d87ce6da67cbe95b342cfbe954f493c4334d64f93bcd"
+    },
+    {
+      "source": "Assets\\images\\Lime.webp",
+      "destination": "assets/coin_atlas.png",
+      "conversion": "2048x2048 source pixels copied into atlas; UVs address the original tile",
+      "tile": [
+        4096,
+        2048,
+        2048,
+        2048
+      ],
+      "source_sha256": "3ccb23abf7cbdc22b6c0d80b92df575f58315be72d0e9ca88ed5ff124c1ca345"
+    },
+    {
+      "source": "Assets\\images\\Violet.webp",
+      "destination": "assets/coin_atlas.png",
+      "conversion": "2048x2048 source pixels copied into atlas; UVs address the original tile",
+      "tile": [
+        0,
+        0,
+        2048,
+        2048
+      ],
+      "source_sha256": "79192b5a99007bf37b407123acf9dcc2d1f7744d3920904f90e3dd98097988ee"
+    },
+    {
+      "source": "Assets\\images\\Coral.webp",
+      "destination": "assets/coin_atlas.png",
+      "conversion": "2048x2048 source pixels copied into atlas; UVs address the original tile",
+      "tile": [
+        2048,
+        0,
+        2048,
+        2048
+      ],
+      "source_sha256": "64d21aef8f220bea233ffb282da3b07e53c880d4379e75958d0be4cdc041ece6"
+    },
+    {
+      "source": "Assets\\images\\Pink.webp",
+      "destination": "assets/coin_atlas.png",
+      "conversion": "2048x2048 source pixels copied into atlas; UVs address the original tile",
+      "tile": [
+        4096,
+        0,
+        2048,
+        2048
+      ],
+      "source_sha256": "c0461c3fd551f60478cb4f5d5425d5282d405b0d86f667cebd43b746b9ce6ce3"
+    },
+    {
+      "source": "Assets\\audio\\Coin.mp3",
+      "destination": "assets\\audio\\Coin.mp3",
+      "conversion": "byte-for-byte MP3 copy",
+      "source_sha256": "5eb7b0a154ec60f590fcd0269ed864a8c1da0690d7a3bceb809efef96f4fce49"
+    },
+    {
+      "source": "Assets\\audio\\Jar.mp3",
+      "destination": "assets\\audio\\Jar.mp3",
+      "conversion": "byte-for-byte MP3 copy",
+      "source_sha256": "431e9fa0d8ee8bb18da5d30e2215409f3623b9432374228f5f7c28d6356ad948"
+    },
+    {
+      "source": "Assets\\audio\\Lock.mp3",
+      "destination": "assets\\audio\\Lock.mp3",
+      "conversion": "byte-for-byte MP3 copy",
+      "source_sha256": "04f264a39a636270a4197fc46d6dd01a080060f647c1baa5a0c6e3ba5c520c97"
+    },
+    {
+      "source": "Assets\\audio\\Lowkey-Trap.mp3",
+      "destination": "assets\\audio\\Lowkey-Trap.mp3",
+      "conversion": "byte-for-byte MP3 copy",
+      "source_sha256": "a5f6f75156147c49789f0b37720e2a2bae2c78f60aee20222015de8dffb84a93"
+    },
+    {
+      "source": "C:/Windows/Fonts/arialbd.ttf",
+      "destination": "assets/Arial-Bold.ttf",
+      "conversion": "Arial Bold used by the original browser; local system font copied unchanged",
+      "source_sha256": "766f06ac8761f82f25d032a220e89438f6064591af9915061f20b949efdedf69"
+    }
+  ],
+  "materials": [
+    {
+      "type": "MeshPhongMaterial",
+      "shininess": 25,
+      "specular": [
+        0.6038273590529664,
+        0.6038273590529664,
+        0.6038273590529664
+      ],
+      "map": {
+        "flipY": true,
+        "matrix": [
+          1,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          1
+        ]
+      }
+    }
+  ],
+  "shared_batch": {
+    "vertex_count": 164160,
+    "source_vertices_per_coin": 1140,
+    "instances": 24,
+    "conversion": "FBX mesh reused as 12 lanes x 12 coins. Shader hides unused lanes/coins; all 24 bands share the same buffer."
+  },
+  "audio_conversions": [
+    {
+      "source": "assets/audio/Coin.mp3",
+      "destination": "assets/audio/Coin.ogg",
+      "conversion": "MP3 decoded and encoded as Vorbis quality 6; no speed, gain, trimming or channel changes",
+      "source_sha256": "5eb7b0a154ec60f590fcd0269ed864a8c1da0690d7a3bceb809efef96f4fce49",
+      "output_sha256": "3cfe994f5c43fb5ea235b677ee22cf79d5efc15d56ca16328d1b41ad901ac326"
+    },
+    {
+      "source": "assets/audio/Jar.mp3",
+      "destination": "assets/audio/Jar.ogg",
+      "conversion": "MP3 decoded and encoded as Vorbis quality 6; no speed, gain, trimming or channel changes",
+      "source_sha256": "431e9fa0d8ee8bb18da5d30e2215409f3623b9432374228f5f7c28d6356ad948",
+      "output_sha256": "f5853ddad23e9e6cbe03815dd1324bb3652fd4a333fe417d04cc66a3da23d0fc"
+    },
+    {
+      "source": "assets/audio/Lock.mp3",
+      "destination": "assets/audio/Lock.ogg",
+      "conversion": "MP3 decoded and encoded as Vorbis quality 6; no speed, gain, trimming or channel changes",
+      "source_sha256": "04f264a39a636270a4197fc46d6dd01a080060f647c1baa5a0c6e3ba5c520c97",
+      "output_sha256": "e470dda82f8b4fc34eabfb04ac65ec042578bfaa0350e467c01abd35cd1df170"
+    },
+    {
+      "source": "assets/audio/Lowkey-Trap.mp3",
+      "destination": "assets/audio/Lowkey-Trap.ogg",
+      "conversion": "MP3 decoded and encoded as Vorbis quality 6; no speed, gain, trimming or channel changes",
+      "source_sha256": "a5f6f75156147c49789f0b37720e2a2bae2c78f60aee20222015de8dffb84a93",
+      "output_sha256": "1b46301db3d75020b9b2ca982d2c0fde689feb008902a577d31984e0aec6c5ee"
+    }
+  ],
+  "ffmpeg_sha256": "04e1307997530f9cf2fe35cba2ca7e8875ca91da02f89d6c7243df819c94ad00"
+}

@@ -1,0 +1,16 @@
+{
+  "checkedAt": "2026-10-27T07:27:57.646Z",
+  "result": "pass",
+  "errors": [],
+  "checks": [
+    "original rounded mesh import",
+    "fixed artist geometry controls",
+    "preset replacement and undo restore mesh",
+    "arrow authoring",
+    "cannon placement",
+    "export buffer roundtrip",
+    "browser draft reload",
+    "native-input Three preview clear",
+    "narrow layout"
+  ]
+}

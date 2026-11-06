@@ -1,0 +1,30 @@
+local Game=require 'modules.game'
+local View=require 'modules.view'
+local function host(name,data)
+ if html5 then return html5.run('window.SandHost.'..name..'('..(data~=nil and json.encode(data)or '')..')')end
+end
+function init(self)
+ msg.post('.','acquire_input_focus')
+ local ok,err=pcall(function()self.C=json.decode(assert(sys.load_resource('/assets/data/config.json')));self.level=json.decode(assert(sys.load_resource('/assets/data/level.json')))end)
+ if not ok then self.failed=true;host('fatal',tostring(err))end
+end
+local function tick(self,dt)
+ if html5 and not self.started then
+  if html5.run('window.SandHost&&window.SandHost.ready?"yes":"no"')~='yes'then return end
+  local opts=json.decode(host('options'));self.game=Game.new(self.C,self.level,sys.load_resource('/assets/data/cells.bin'),sys.load_resource('/assets/data/shades.bin'),sys.load_resource('/assets/data/regions.bin'),opts,host)
+  self.view=View.new(self.C,self.game.grid);self.started=true
+ end
+ if not self.started then return end
+ local frame=json.decode(host('frame'));self.view:layout(frame.w,frame.h)
+ if not frame.paused then
+  for _,p in ipairs(frame.inputs or{})do p.x=(p.x-self.view.ox)/self.view.s;p.y=(p.y-self.view.oy)/self.view.s;self.game:input(p)end
+  self.game:update(dt*1000)
+ end
+ self.view:draw(self.game);self.report=(self.report or 0)+dt
+ if self.report>=.1 then self.report=0;host('publish',self.game:snapshot())end
+end
+function update(self,dt)
+ if self.failed then return end
+ local ok,err=pcall(tick,self,dt)
+ if not ok then self.failed=true;host('fatal',debug.traceback(tostring(err)))end
+end

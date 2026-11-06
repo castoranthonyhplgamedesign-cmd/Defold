@@ -1,0 +1,364 @@
+{
+  "name": "New Arrow Flow Test layout",
+  "source": "Point Out Layout Editor",
+  "description": "",
+  "arrowCount": 12,
+  "gridBounds": {
+    "minX": -15,
+    "minY": -10,
+    "width": 7,
+    "height": 8
+  },
+  "movementBounds": {
+    "minX": -50,
+    "minY": -50,
+    "width": 101,
+    "height": 101
+  },
+  "arrows": [
+    {
+      "fileID": "web:206b69de-e00b-431e-bdfd-47679db808fb",
+      "isThin": true,
+      "exitDirection": "Top",
+      "headPosition": {
+        "x": -14,
+        "y": -3
+      },
+      "bodyOffsets": [
+        {
+          "x": 0,
+          "y": -1
+        },
+        {
+          "x": 0,
+          "y": -2
+        },
+        {
+          "x": 1,
+          "y": -2
+        },
+        {
+          "x": 2,
+          "y": -2
+        }
+      ],
+      "style": {
+        "color": "#ff0000"
+      }
+    },
+    {
+      "fileID": "web:13d3771a-931f-4746-9a0b-55a51e791e23",
+      "isThin": true,
+      "exitDirection": "Left",
+      "headPosition": {
+        "x": -15,
+        "y": -6
+      },
+      "bodyOffsets": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 3,
+          "y": 0
+        },
+        {
+          "x": 3,
+          "y": -1
+        },
+        {
+          "x": 3,
+          "y": -2
+        }
+      ],
+      "style": {
+        "color": "#ff0000"
+      }
+    },
+    {
+      "fileID": "web:095f340b-fcbe-4fa7-b97e-98b8b548caef",
+      "isThin": true,
+      "exitDirection": "Top",
+      "headPosition": {
+        "x": -13,
+        "y": -7
+      },
+      "bodyOffsets": [
+        {
+          "x": 0,
+          "y": -1
+        },
+        {
+          "x": 0,
+          "y": -2
+        },
+        {
+          "x": 1,
+          "y": -2
+        },
+        {
+          "x": 2,
+          "y": -2
+        },
+        {
+          "x": 3,
+          "y": -2
+        }
+      ],
+      "style": {
+        "color": "#ff0000"
+      }
+    },
+    {
+      "fileID": "web:6753f6c0-d954-4f89-967c-7967a3317f95",
+      "isThin": true,
+      "exitDirection": "Right",
+      "headPosition": {
+        "x": -9,
+        "y": -8
+      },
+      "bodyOffsets": [
+        {
+          "x": -1,
+          "y": 0
+        },
+        {
+          "x": -2,
+          "y": 0
+        },
+        {
+          "x": -2,
+          "y": 1
+        },
+        {
+          "x": -2,
+          "y": 2
+        },
+        {
+          "x": -2,
+          "y": 3
+        },
+        {
+          "x": -2,
+          "y": 4
+        }
+      ],
+      "style": {
+        "color": "#ff0000"
+      }
+    },
+    {
+      "fileID": "web:047d6882-93d4-4b93-aa41-0bc0ca581e4b",
+      "isThin": true,
+      "exitDirection": "Right",
+      "headPosition": {
+        "x": -9,
+        "y": -7
+      },
+      "bodyOffsets": [
+        {
+          "x": -1,
+          "y": 0
+        },
+        {
+          "x": -1,
+          "y": 1
+        },
+        {
+          "x": -1,
+          "y": 2
+        }
+      ],
+      "style": {
+        "color": "#00ff04"
+      }
+    },
+    {
+      "fileID": "web:885e21f9-6c17-4b92-95b7-a5efb4680b7c",
+      "isThin": true,
+      "exitDirection": "Right",
+      "headPosition": {
+        "x": -13,
+        "y": -10
+      },
+      "bodyOffsets": [
+        {
+          "x": -1,
+          "y": 0
+        },
+        {
+          "x": -1,
+          "y": 1
+        },
+        {
+          "x": -1,
+          "y": 2
+        },
+        {
+          "x": -1,
+          "y": 3
+        }
+      ],
+      "style": {
+        "color": "#00ff04"
+      }
+    },
+    {
+      "fileID": "web:10c041b0-f167-484a-8451-70217c0acc31",
+      "isThin": true,
+      "exitDirection": "Left",
+      "headPosition": {
+        "x": -13,
+        "y": -4
+      },
+      "bodyOffsets": [
+        {
+          "x": 1,
+          "y": 0
+        }
+      ],
+      "style": {
+        "color": "#00ff04"
+      }
+    },
+    {
+      "fileID": "web:01b5d640-0c13-46ef-be74-dd2dd4c366d1",
+      "isThin": true,
+      "exitDirection": "Top",
+      "headPosition": {
+        "x": -9,
+        "y": -9
+      },
+      "bodyOffsets": [
+        {
+          "x": 0,
+          "y": -1
+        },
+        {
+          "x": -1,
+          "y": -1
+        },
+        {
+          "x": -2,
+          "y": -1
+        },
+        {
+          "x": -3,
+          "y": -1
+        }
+      ],
+      "style": {
+        "color": "#eeff00"
+      }
+    },
+    {
+      "fileID": "web:4dfb87ca-e418-45ce-8966-80669490eaac",
+      "isThin": true,
+      "exitDirection": "Left",
+      "headPosition": {
+        "x": -10,
+        "y": -4
+      },
+      "bodyOffsets": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 1,
+          "y": -1
+        },
+        {
+          "x": 1,
+          "y": -2
+        }
+      ],
+      "style": {
+        "color": "#eeff00"
+      }
+    },
+    {
+      "fileID": "web:f785e986-4832-4fc9-a478-6741a6a8764d",
+      "isThin": true,
+      "exitDirection": "Bottom",
+      "headPosition": {
+        "x": -15,
+        "y": -10
+      },
+      "bodyOffsets": [
+        {
+          "x": 0,
+          "y": 1
+        },
+        {
+          "x": 0,
+          "y": 2
+        },
+        {
+          "x": 0,
+          "y": 3
+        }
+      ],
+      "style": {
+        "color": "#eeff00"
+      }
+    },
+    {
+      "fileID": "web:1a0064ea-d4b3-4b24-8974-103739bf2e79",
+      "isThin": true,
+      "exitDirection": "Left",
+      "headPosition": {
+        "x": -13,
+        "y": -3
+      },
+      "bodyOffsets": [
+        {
+          "x": 1,
+          "y": 0
+        },
+        {
+          "x": 2,
+          "y": 0
+        },
+        {
+          "x": 3,
+          "y": 0
+        },
+        {
+          "x": 4,
+          "y": 0
+        }
+      ],
+      "style": {
+        "color": "#1100ff"
+      }
+    },
+    {
+      "fileID": "web:3decda14-91aa-4c51-9ef5-5ff1ed76c7b4",
+      "isThin": true,
+      "exitDirection": "Top",
+      "headPosition": {
+        "x": -15,
+        "y": -3
+      },
+      "bodyOffsets": [
+        {
+          "x": 0,
+          "y": -1
+        },
+        {
+          "x": 0,
+          "y": -2
+        }
+      ],
+      "style": {
+        "color": "#1100ff"
+      }
+    }
+  ]
+}

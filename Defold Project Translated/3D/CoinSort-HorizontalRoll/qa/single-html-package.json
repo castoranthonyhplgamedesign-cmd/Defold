@@ -1,0 +1,10 @@
+{
+  "captured_utc": "2026-11-06T16:16:41.284252+00:00",
+  "name": "Token Roll",
+  "file": "D:\\allproject\\defold\\output\\Token Roll.html",
+  "bytes": 23240184,
+  "sha256": "44ebca4042568b01878ea8379c047d5943c0266a97ab1a0524b8e73eff8ddf65",
+  "embedded_assets": 15,
+  "companion_files_required": false,
+  "format": "Single HTML with inline loader and gzip/base64 engine, Wasm and archive assets; embedded icon."
+}

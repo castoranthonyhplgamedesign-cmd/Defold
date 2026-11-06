@@ -1,0 +1,48 @@
+{
+  "palette": {
+    "blue": "#2cd8ed",
+    "purple": "#8436f5",
+    "pink": "#fa42bd",
+    "green": "#14e528",
+    "black": "#62686c",
+    "yellow": "#ffcc00",
+    "white": "#ff4242",
+    "neutral": "#f4f6ff",
+    "Outer": "#a3ccff",
+    "Inner": "#25275b"
+  },
+  "gloss": {
+    "roughness": 0.3,
+    "metalness": 0,
+    "clearcoat": 0.7,
+    "clearcoatRoughness": 0.24
+  },
+  "belt": {
+    "roughness": 0.6,
+    "clearcoat": 0,
+    "specularIntensity": 0.1
+  },
+  "insets": {
+    "color": "arrow color multiplied by .55 in linear space",
+    "roughness": 0.75,
+    "metalness": 0,
+    "envMapIntensity": 0.12
+  },
+  "tray": {
+    "type": "MeshBasicMaterial",
+    "texture": "Textures/Cannon_Tray/tunnel-3c4374-exact.webp",
+    "tint": null,
+    "toneMapped": false
+  },
+  "background": "#3b3f68",
+  "gridDot": "#5c6194",
+  "chevron": {
+    "color": "#6873a8",
+    "opacity": 0.65
+  },
+  "blockedOverlay": {
+    "color": "#ff2020",
+    "opacity": "two animated contact pulses"
+  },
+  "lightingSource": "src/render/mockupLighting.ts"
+}

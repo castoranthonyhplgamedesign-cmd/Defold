@@ -1,0 +1,11 @@
+{
+  "checkedAt": "2026-10-27T07:47:56.274Z",
+  "result": "pass",
+  "bytes": 2608575,
+  "checks": [
+    "custom distance serialized",
+    "native-input clear in packaged HTML"
+  ],
+  "errors": [],
+  "external": []
+}

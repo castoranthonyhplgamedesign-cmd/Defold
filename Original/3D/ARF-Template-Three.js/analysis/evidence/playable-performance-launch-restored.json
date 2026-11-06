@@ -1,0 +1,84 @@
+{
+  "at": "2026-10-30T02:29:32.115Z",
+  "file": "dist/index.html",
+  "bytes": 3883105,
+  "browser": "156.0.8078.49",
+  "cpu": "AMD Ryzen 5 3600 6-Core Processor              ",
+  "platform": "win32",
+  "results": [
+    {
+      "cpuThrottle": 1,
+      "phase": "idle",
+      "readyMs": 2713,
+      "frames": 720,
+      "fps": 144.02016282279516,
+      "medianMs": 6.900000000000546,
+      "p95Ms": 7.100000000000364,
+      "drawsPerFrame": 70,
+      "mainDraws": 41,
+      "triangles": 190217,
+      "buffer": [
+        780,
+        1688
+      ],
+      "heapBytes": 18897473,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 (0x00002504) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    {
+      "cpuThrottle": 1,
+      "phase": "launch",
+      "readyMs": 2713,
+      "frames": 696,
+      "fps": 139.2055682227289,
+      "medianMs": 6.900000000001455,
+      "p95Ms": 7.100000000000364,
+      "drawsPerFrame": 71.7560975609756,
+      "mainDraws": 41,
+      "triangles": 182134,
+      "buffer": [
+        780,
+        1688
+      ],
+      "heapBytes": 18683410,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 (0x00002504) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    {
+      "cpuThrottle": 4,
+      "phase": "idle",
+      "readyMs": 2833,
+      "frames": 423,
+      "fps": 84.486787704476,
+      "medianMs": 13.800000000000182,
+      "p95Ms": 14.5,
+      "drawsPerFrame": 70,
+      "mainDraws": 41,
+      "triangles": 190217,
+      "buffer": [
+        780,
+        1688
+      ],
+      "heapBytes": 16450445,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 (0x00002504) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    },
+    {
+      "cpuThrottle": 4,
+      "phase": "launch",
+      "readyMs": 2833,
+      "frames": 370,
+      "fps": 73.89802073139069,
+      "medianMs": 13.899999999999636,
+      "p95Ms": 20.899999999999636,
+      "drawsPerFrame": 71.54986522911051,
+      "mainDraws": 41,
+      "triangles": 182134,
+      "buffer": [
+        780,
+        1688
+      ],
+      "heapBytes": 21980217,
+      "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 3060 (0x00002504) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+    }
+  ],
+  "errors": [],
+  "limits": "Headless desktop fixture, not a physical phone or ad host. GPU renderer and CPU throttle are recorded; shared host load affects timings."
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.build-tmp/
+.vite/
+vite-dev.log
+vite-dev.err.log
+qa-screenshots/
+qa-artifacts/

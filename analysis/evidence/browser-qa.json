@@ -1,0 +1,84 @@
+{
+  "captured_utc": "2026-11-06T14:41:10.491Z",
+  "report": {
+    "status": "PASS",
+    "http_status": 200,
+    "mobile_no_horizontal_overflow": true
+  },
+  "games": [
+    {
+      "key": "bbs",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "errors": [
+        "Invalid filter"
+      ],
+      "console_errors": [],
+      "failed_requests": [],
+      "external_blocked": [],
+      "http_errors": [],
+      "http_status": 200,
+      "state": null,
+      "bridge_present": true,
+      "status": "FAIL"
+    },
+    {
+      "key": "bbs",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "errors": [
+        "Invalid filter"
+      ],
+      "console_errors": [],
+      "failed_requests": [],
+      "external_blocked": [],
+      "http_errors": [],
+      "http_status": 200,
+      "state": null,
+      "bridge_present": true,
+      "status": "FAIL"
+    },
+    {
+      "key": "egypt",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "errors": [],
+      "console_errors": [
+        "ERROR:SCRIPT: main/game.gui_script:188: bad argument #1 to 'decode' (string expected, got nil)\nstack traceback:\n  [C]:-1: in function decode\n  main/game.gui_script:188: in function <main/game.gui_script:186>\n\n",
+        "ERROR:GAMESYS: Error when initializing gui component: RESULT_SCRIPT_ERROR.\n"
+      ],
+      "failed_requests": [],
+      "external_blocked": [],
+      "http_errors": [],
+      "http_status": 200,
+      "state": null,
+      "bridge_present": false,
+      "status": "FAIL"
+    },
+    {
+      "key": "egypt",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "errors": [],
+      "console_errors": [
+        "ERROR:SCRIPT: main/game.gui_script:188: bad argument #1 to 'decode' (string expected, got nil)\nstack traceback:\n  [C]:-1: in function decode\n  main/game.gui_script:188: in function <main/game.gui_script:186>\n\n",
+        "ERROR:GAMESYS: Error when initializing gui component: RESULT_SCRIPT_ERROR.\n"
+      ],
+      "failed_requests": [],
+      "external_blocked": [],
+      "http_errors": [],
+      "http_status": 200,
+      "state": null,
+      "bridge_present": false,
+      "status": "FAIL"
+    }
+  ]
+}

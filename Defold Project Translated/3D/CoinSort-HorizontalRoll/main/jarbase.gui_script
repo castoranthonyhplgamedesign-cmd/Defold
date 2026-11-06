@@ -1,0 +1,11 @@
+function init(self)
+    self.base=gui.new_box_node(vmath.vector3(),vmath.vector3(1,1,0))
+    gui.set_texture(self.base,'ui');gui.play_flipbook(self.base,'jar_base');gui.set_enabled(self.base,false)
+end
+function on_message(self,id,m)
+    if id~=hash('frame')then return end
+    local w,h=window.get_size();local s=math.min(w/1080,h/1920);local zoom=m.zoom*s
+    gui.set_enabled(self.base,m.jar_visible)
+    gui.set_position(self.base,vmath.vector3(w/2+(m.jar_x-m.x)*zoom,h/2-(m.jar_y+62-m.y)*zoom,0))
+    gui.set_size(self.base,vmath.vector3(130*zoom,35*zoom,0))
+end

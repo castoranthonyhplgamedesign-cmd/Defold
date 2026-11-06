@@ -1,0 +1,946 @@
+{
+  "at": "2026-11-03T06:26:36.670Z",
+  "audio": "muted",
+  "results": [
+    {
+      "viewport": [
+        320,
+        568
+      ],
+      "initial": {
+        "hidden": false,
+        "opacity": 1,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568
+        },
+        "caption": {
+          "x": 23.731292724609375,
+          "y": 248.10108947753906,
+          "width": 272.53741455078125,
+          "height": 71.79783630371094
+        },
+        "paused": false,
+        "time": 0.8330000000000005,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.07969709116240095,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "exiting": {
+        "hidden": false,
+        "opacity": 0.6,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 568
+        },
+        "caption": {
+          "x": 26.104232788085938,
+          "y": 245.52450561523438,
+          "width": 267.79150390625,
+          "height": 70.54757690429688
+        },
+        "paused": false,
+        "time": 1.9210000000000014,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.18760433783822128,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "gameplay": {
+        "hidden": true,
+        "opacity": 0,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "paused": false,
+        "time": 2.3050000000000015,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.22507737631676847,
+        "hintHidden": false,
+        "redirects": 0
+      }
+    },
+    {
+      "viewport": [
+        568,
+        320
+      ],
+      "initial": {
+        "hidden": false,
+        "opacity": 1,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 568,
+          "height": 320
+        },
+        "caption": {
+          "x": 23.944000244140625,
+          "y": 124.16415405273438,
+          "width": 520.112060546875,
+          "height": 71.67169189453125
+        },
+        "paused": false,
+        "time": 0.7370000000000004,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.0699615659227191,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "exiting": {
+        "hidden": false,
+        "opacity": 0.533333,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 568,
+          "height": 320
+        },
+        "caption": {
+          "x": 24.369781494140625,
+          "y": 120.42388916015625,
+          "width": 519.260498046875,
+          "height": 71.55433654785156
+        },
+        "paused": false,
+        "time": 1.8410000000000013,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.18030420449223483,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "gameplay": {
+        "hidden": true,
+        "opacity": 0,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "paused": false,
+        "time": 2.2410000000000014,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.21800925361566612,
+        "hintHidden": false,
+        "redirects": 0
+      }
+    },
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "initial": {
+        "hidden": false,
+        "opacity": 1,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 640
+        },
+        "caption": {
+          "x": 23.966400146484375,
+          "y": 284.1641540527344,
+          "width": 312.06719970703125,
+          "height": 71.67169189453125
+        },
+        "paused": false,
+        "time": 0.7340000000000004,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.0699615659227191,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "exiting": {
+        "hidden": false,
+        "opacity": 0.533333,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 640
+        },
+        "caption": {
+          "x": 23.886962890625,
+          "y": 280.33880615234375,
+          "width": 312.22607421875,
+          "height": 71.70816040039062
+        },
+        "paused": false,
+        "time": 1.8380000000000014,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.18030420449223483,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "gameplay": {
+        "hidden": true,
+        "opacity": 0,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "paused": false,
+        "time": 2.2380000000000018,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.21800925361566612,
+        "hintHidden": false,
+        "redirects": 0
+      }
+    },
+    {
+      "viewport": [
+        640,
+        360
+      ],
+      "initial": {
+        "hidden": false,
+        "opacity": 1,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 360
+        },
+        "caption": {
+          "x": 23.76019287109375,
+          "y": 144.14285278320312,
+          "width": 592.4796142578125,
+          "height": 71.71429443359375
+        },
+        "paused": false,
+        "time": 0.7870000000000005,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.07529379511767478,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "exiting": {
+        "hidden": false,
+        "opacity": 0.533333,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 640,
+          "height": 360
+        },
+        "caption": {
+          "x": 23.250030517578125,
+          "y": 140.26710510253906,
+          "width": 593.5,
+          "height": 71.83781433105469
+        },
+        "paused": false,
+        "time": 1.8910000000000013,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.18468428449982677,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "gameplay": {
+        "hidden": true,
+        "opacity": 0,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "paused": false,
+        "time": 2.2910000000000017,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.22339055549140754,
+        "hintHidden": false,
+        "redirects": 0
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "initial": {
+        "hidden": false,
+        "opacity": 1,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "caption": {
+          "x": 23.927978515625,
+          "y": 386.15679931640625,
+          "width": 342.14404296875,
+          "height": 71.68643188476562
+        },
+        "paused": false,
+        "time": 0.7430000000000004,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.07082158873977466,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "exiting": {
+        "hidden": false,
+        "opacity": 0.533333,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 844
+        },
+        "caption": {
+          "x": 23.6064453125,
+          "y": 382.27630615234375,
+          "width": 342.787109375,
+          "height": 71.8211669921875
+        },
+        "paused": false,
+        "time": 1.8630000000000013,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.1824942444960308,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "gameplay": {
+        "hidden": true,
+        "opacity": 0,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "paused": false,
+        "time": 2.2630000000000017,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.2207762567127376,
+        "hintHidden": false,
+        "redirects": 0
+      }
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "initial": {
+        "hidden": false,
+        "opacity": 1,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390
+        },
+        "caption": {
+          "x": 81.82760620117188,
+          "y": 159.15371704101562,
+          "width": 680.3447265625,
+          "height": 71.69258117675781
+        },
+        "paused": false,
+        "time": 0.7510000000000004,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.07168942224452665,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "exiting": {
+        "hidden": false,
+        "opacity": 0.533333,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 844,
+          "height": 390
+        },
+        "caption": {
+          "x": 81.564453125,
+          "y": 155.31675720214844,
+          "width": 680.87109375,
+          "height": 71.748046875
+        },
+        "paused": false,
+        "time": 1.8550000000000013,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.1817642311614321,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "gameplay": {
+        "hidden": true,
+        "opacity": 0,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "paused": false,
+        "time": 2.2550000000000017,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.21985033354762287,
+        "hintHidden": false,
+        "redirects": 0
+      }
+    },
+    {
+      "viewport": [
+        430,
+        932
+      ],
+      "initial": {
+        "hidden": false,
+        "opacity": 1,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 932
+        },
+        "caption": {
+          "x": 23.947021484375,
+          "y": 427.45806884765625,
+          "width": 382.10595703125,
+          "height": 77.0838623046875
+        },
+        "paused": false,
+        "time": 0.7290000000000004,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.06911262712289325,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "exiting": {
+        "hidden": false,
+        "opacity": 0.533333,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 932
+        },
+        "caption": {
+          "x": 23.704910278320312,
+          "y": 423.5989990234375,
+          "width": 382.5902099609375,
+          "height": 77.18154907226562
+        },
+        "paused": false,
+        "time": 1.8490000000000013,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.1810342178268334,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "gameplay": {
+        "hidden": true,
+        "opacity": 0,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "paused": false,
+        "time": 2.2490000000000014,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.21892035003316285,
+        "hintHidden": false,
+        "redirects": 0
+      }
+    },
+    {
+      "viewport": [
+        932,
+        430
+      ],
+      "initial": {
+        "hidden": false,
+        "opacity": 1,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 932,
+          "height": 430
+        },
+        "caption": {
+          "x": 125.88217163085938,
+          "y": 176.4553985595703,
+          "width": 680.235595703125,
+          "height": 77.08920288085938
+        },
+        "paused": false,
+        "time": 0.7350000000000004,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.0699615659227191,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "exiting": {
+        "hidden": false,
+        "opacity": 0.533333,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 932,
+          "height": 430
+        },
+        "caption": {
+          "x": 125.56472778320312,
+          "y": 172.61019897460938,
+          "width": 680.87060546875,
+          "height": 77.16116333007812
+        },
+        "paused": false,
+        "time": 1.8550000000000013,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.1817642311614321,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "gameplay": {
+        "hidden": true,
+        "opacity": 0,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "paused": false,
+        "time": 2.2550000000000017,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.21985033354762287,
+        "hintHidden": false,
+        "redirects": 0
+      }
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "initial": {
+        "hidden": false,
+        "opacity": 1,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024
+        },
+        "caption": {
+          "x": 43.88275146484375,
+          "y": 449.2596130371094,
+          "width": 680.2344970703125,
+          "height": 125.48074340820312
+        },
+        "paused": false,
+        "time": 0.7470000000000003,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.07082158873977466,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "exiting": {
+        "hidden": false,
+        "opacity": 0.533333,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 1024
+        },
+        "caption": {
+          "x": 42.656036376953125,
+          "y": 445.2139587402344,
+          "width": 682.68798828125,
+          "height": 125.93331909179688
+        },
+        "paused": false,
+        "time": 1.8510000000000013,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.1817642311614321,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "gameplay": {
+        "hidden": true,
+        "opacity": 0,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "paused": false,
+        "time": 2.2510000000000017,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.21985033354762287,
+        "hintHidden": false,
+        "redirects": 0
+      }
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "initial": {
+        "hidden": false,
+        "opacity": 1,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768
+        },
+        "caption": {
+          "x": 171.82806396484375,
+          "y": 321.2495422363281,
+          "width": 680.3438720703125,
+          "height": 125.50094604492188
+        },
+        "paused": false,
+        "time": 0.7690000000000005,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.07346467580767588,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "exiting": {
+        "hidden": false,
+        "opacity": 0.533333,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 768
+        },
+        "caption": {
+          "x": 170.5977783203125,
+          "y": 317.2025451660156,
+          "width": 682.804443359375,
+          "height": 125.954833984375
+        },
+        "paused": false,
+        "time": 1.8730000000000013,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.18322425783062937,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "gameplay": {
+        "hidden": true,
+        "opacity": 0,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "paused": false,
+        "time": 2.2730000000000015,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.22165732252954612,
+        "hintHidden": false,
+        "redirects": 0
+      }
+    },
+    {
+      "viewport": [
+        820,
+        1180
+      ],
+      "initial": {
+        "hidden": false,
+        "opacity": 1,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 1180
+        },
+        "caption": {
+          "x": 69.9058837890625,
+          "y": 527.263916015625,
+          "width": 680.188232421875,
+          "height": 125.47222900390625
+        },
+        "paused": false,
+        "time": 0.7370000000000004,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.0699615659227191,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "exiting": {
+        "hidden": false,
+        "opacity": 0.533333,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 820,
+          "height": 1180
+        },
+        "caption": {
+          "x": 68.43978881835938,
+          "y": 523.171630859375,
+          "width": 683.120361328125,
+          "height": 126.01312255859375
+        },
+        "paused": false,
+        "time": 1.8410000000000013,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.18030420449223483,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "gameplay": {
+        "hidden": true,
+        "opacity": 0,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "paused": false,
+        "time": 2.2410000000000014,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.21800925361566612,
+        "hintHidden": false,
+        "redirects": 0
+      }
+    },
+    {
+      "viewport": [
+        1180,
+        820
+      ],
+      "initial": {
+        "hidden": false,
+        "opacity": 1,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 1180,
+          "height": 820
+        },
+        "caption": {
+          "x": 249.72528076171875,
+          "y": 347.2305603027344,
+          "width": 680.5494384765625,
+          "height": 125.53884887695312
+        },
+        "paused": false,
+        "time": 0.7780000000000005,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.07436684944009857,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "exiting": {
+        "hidden": false,
+        "opacity": 0.533333,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 1180,
+          "height": 820
+        },
+        "caption": {
+          "x": 248.49020385742188,
+          "y": 343.1814880371094,
+          "width": 683.01953125,
+          "height": 125.9945068359375
+        },
+        "paused": false,
+        "time": 1.8820000000000014,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.18395427116522806,
+        "hintHidden": true,
+        "redirects": 0
+      },
+      "gameplay": {
+        "hidden": true,
+        "opacity": 0,
+        "box": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "caption": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "paused": false,
+        "time": 2.282000000000002,
+        "remaining": 60,
+        "taps": 0,
+        "started": false,
+        "progress": 0.22253838834635478,
+        "hintHidden": false,
+        "redirects": 0
+      }
+    }
+  ],
+  "rotation": true,
+  "pausedTransition": true,
+  "reducedMotion": true,
+  "errors": []
+}

@@ -1,0 +1,701 @@
+[
+  {
+    "name": "portrait",
+    "snapshot": {
+      "handVisible": true,
+      "activeColors": [
+        10,
+        11
+      ],
+      "clickLimit": 9999,
+      "belt": 0,
+      "remaining": 31752,
+      "bucketsDone": 0,
+      "beltLoad": 0,
+      "counted": 0,
+      "fronts": [
+        10,
+        11
+      ],
+      "time": 1993.2849858887,
+      "total": 31752,
+      "mechanic": "cut",
+      "targets": {
+        "right": {
+          "y": 858.68518518519,
+          "x": 197.77777777778
+        },
+        "swipe": {
+          "x2": 272.77777777778,
+          "y2": 789.42592592593,
+          "y1": 789.42592592593,
+          "x1": 157.03703703704
+        },
+        "blocked": {
+          "y": 744.61111111111,
+          "x": 197.77777777778
+        }
+      },
+      "endReason": "",
+      "loose": 0,
+      "lastCut": 0,
+      "ended": false,
+      "state": "play",
+      "wave": 1,
+      "accounted": 31752,
+      "integrity": "",
+      "funnel": 0,
+      "frame": 75,
+      "lastDrop": 0,
+      "removedPct": 0
+    },
+    "errors": [],
+    "diagnostics": {
+      "events": [
+        {
+          "name": "LOADING",
+          "time": 32.09999990463257
+        },
+        {
+          "name": "LOADED",
+          "time": 1002.9000000953674
+        },
+        {
+          "name": "DISPLAYED",
+          "time": 1003
+        }
+      ],
+      "redirects": [],
+      "audio": {
+        "unlocked": false,
+        "paused": false,
+        "muted": true,
+        "gain": 0,
+        "context": "suspended"
+      },
+      "plays": {}
+    }
+  },
+  {
+    "name": "landscape",
+    "snapshot": {
+      "handVisible": true,
+      "activeColors": [
+        10,
+        11
+      ],
+      "clickLimit": 9999,
+      "belt": 0,
+      "remaining": 31752,
+      "bucketsDone": 0,
+      "beltLoad": 0,
+      "counted": 0,
+      "fronts": [
+        10,
+        11
+      ],
+      "time": 1538.4849910624,
+      "total": 31752,
+      "mechanic": "cut",
+      "targets": {
+        "right": {
+          "y": 858.68518518519,
+          "x": 197.77777777778
+        },
+        "swipe": {
+          "x2": 272.77777777778,
+          "y2": 789.42592592593,
+          "y1": 789.42592592593,
+          "x1": 157.03703703704
+        },
+        "blocked": {
+          "y": 744.61111111111,
+          "x": 197.77777777778
+        }
+      },
+      "endReason": "",
+      "loose": 0,
+      "lastCut": 0,
+      "ended": false,
+      "state": "play",
+      "wave": 1,
+      "accounted": 31752,
+      "integrity": "",
+      "funnel": 0,
+      "frame": 49,
+      "lastDrop": 0,
+      "removedPct": 0
+    },
+    "errors": [],
+    "diagnostics": {
+      "events": [
+        {
+          "name": "LOADING",
+          "time": 29.199999809265137
+        },
+        {
+          "name": "LOADED",
+          "time": 969.0999999046326
+        },
+        {
+          "name": "DISPLAYED",
+          "time": 969.0999999046326
+        }
+      ],
+      "redirects": [],
+      "audio": {
+        "unlocked": false,
+        "paused": false,
+        "muted": true,
+        "gain": 0,
+        "context": "suspended"
+      },
+      "plays": {}
+    }
+  },
+  {
+    "name": "cut",
+    "snapshot": {
+      "handVisible": false,
+      "activeColors": [
+        10,
+        11
+      ],
+      "clickLimit": 9999,
+      "belt": 0,
+      "remaining": 30702,
+      "bucketsDone": 0,
+      "beltLoad": 3,
+      "counted": 1,
+      "fronts": [
+        10,
+        11
+      ],
+      "time": 5042.17196838,
+      "total": 31752,
+      "mechanic": "cut",
+      "targets": {
+        "right": {
+          "y": 858.68518518519,
+          "x": 368.88888888889
+        },
+        "swipe": {
+          "x2": 443.88888888889,
+          "y2": 789.42592592593,
+          "y1": 789.42592592593,
+          "x1": 293.88888888889
+        },
+        "blocked": {
+          "y": 744.61111111111,
+          "x": 368.88888888889
+        }
+      },
+      "endReason": "",
+      "loose": 0,
+      "lastCut": 0,
+      "ended": false,
+      "state": "play",
+      "wave": 1,
+      "accounted": 31752,
+      "integrity": "",
+      "funnel": 0,
+      "frame": 202,
+      "lastDrop": 0,
+      "removedPct": 3.3068783068783
+    },
+    "errors": [],
+    "diagnostics": {
+      "events": [
+        {
+          "name": "LOADING",
+          "time": 30.90000009536743
+        },
+        {
+          "name": "LOADED",
+          "time": 937
+        },
+        {
+          "name": "DISPLAYED",
+          "time": 937
+        },
+        {
+          "name": "CHALLENGE_STARTED",
+          "time": 7693.900000095367
+        }
+      ],
+      "redirects": [],
+      "audio": {
+        "unlocked": true,
+        "paused": false,
+        "muted": false,
+        "gain": 1,
+        "context": "running"
+      },
+      "plays": {
+        "bgm": 1,
+        "sfx-conveyor": 1,
+        "sfx-cut": 1,
+        "sfx-click": 1,
+        "sfx-sand": 2
+      }
+    }
+  },
+  {
+    "name": "tap",
+    "snapshot": {
+      "handVisible": false,
+      "activeColors": [
+        10,
+        11
+      ],
+      "clickLimit": 9999,
+      "belt": 10,
+      "remaining": 31311,
+      "bucketsDone": 0,
+      "beltLoad": 295,
+      "counted": 1,
+      "fronts": [
+        10,
+        11
+      ],
+      "time": 3109.3829858582,
+      "total": 31752,
+      "mechanic": "tap",
+      "targets": {
+        "right": {
+          "y": 858.68518518519,
+          "x": 283.33333333333
+        },
+        "blocked": {
+          "y": 744.61111111111,
+          "x": 197.77777777778
+        }
+      },
+      "endReason": "",
+      "loose": 146,
+      "lastCut": 441,
+      "ended": false,
+      "state": "play",
+      "wave": 1,
+      "accounted": 31752,
+      "integrity": "",
+      "funnel": 146,
+      "frame": 119,
+      "lastDrop": 0,
+      "removedPct": 1.3888888888889
+    },
+    "errors": [],
+    "diagnostics": {
+      "events": [
+        {
+          "name": "LOADING",
+          "time": 40.09999990463257
+        },
+        {
+          "name": "LOADED",
+          "time": 987.4000000953674
+        },
+        {
+          "name": "DISPLAYED",
+          "time": 987.4000000953674
+        },
+        {
+          "name": "CHALLENGE_STARTED",
+          "time": 8276
+        }
+      ],
+      "redirects": [],
+      "audio": {
+        "unlocked": true,
+        "paused": false,
+        "muted": false,
+        "gain": 1,
+        "context": "running"
+      },
+      "plays": {
+        "bgm": 1,
+        "sfx-conveyor": 1,
+        "sfx-sand": 1,
+        "sfx-click": 1,
+        "sfx-cut": 1
+      }
+    }
+  },
+  {
+    "name": "limit-5",
+    "snapshot": {
+      "handVisible": false,
+      "activeColors": [
+        10,
+        11
+      ],
+      "clickLimit": 5,
+      "belt": 0,
+      "remaining": 31752,
+      "bucketsDone": 0,
+      "beltLoad": 0,
+      "counted": 5,
+      "fronts": [
+        10,
+        11
+      ],
+      "time": 2989.2849726602,
+      "total": 31752,
+      "mechanic": "cut",
+      "targets": {
+        "right": {
+          "y": 858.68518518519,
+          "x": 197.77777777778
+        },
+        "swipe": {
+          "x2": 272.77777777778,
+          "y2": 789.42592592593,
+          "y1": 789.42592592593,
+          "x1": 157.03703703704
+        },
+        "blocked": {
+          "y": 744.61111111111,
+          "x": 197.77777777778
+        }
+      },
+      "endReason": "limit",
+      "loose": 0,
+      "lastCut": 0,
+      "ended": true,
+      "state": "endcard",
+      "wave": 1,
+      "accounted": 31752,
+      "integrity": "",
+      "funnel": 0,
+      "frame": 133,
+      "lastDrop": 0,
+      "removedPct": 0
+    },
+    "errors": [],
+    "diagnostics": {
+      "events": [
+        {
+          "name": "LOADING",
+          "time": 31
+        },
+        {
+          "name": "LOADED",
+          "time": 963.4000000953674
+        },
+        {
+          "name": "DISPLAYED",
+          "time": 963.4000000953674
+        },
+        {
+          "name": "CHALLENGE_STARTED",
+          "time": 8458
+        },
+        {
+          "name": "CTA_CLICKED",
+          "time": 9256.700000286102
+        },
+        {
+          "name": "ENDCARD_SHOWN",
+          "time": 9257.099999904633
+        },
+        {
+          "name": "CTA_CLICKED",
+          "time": 9970.099999904633
+        }
+      ],
+      "redirects": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.fingersyoda.sanddrop&hl=en",
+          "time": 9256.700000286102
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.fingersyoda.sanddrop&hl=en",
+          "time": 9970.099999904633
+        }
+      ],
+      "audio": {
+        "unlocked": true,
+        "paused": false,
+        "muted": false,
+        "gain": 1,
+        "context": "running"
+      },
+      "plays": {
+        "bgm": 1,
+        "sfx-conveyor": 1,
+        "sfx-win": 2,
+        "sfx-endcard": 1,
+        "sfx-cta": 1
+      }
+    }
+  },
+  {
+    "name": "limit-10",
+    "snapshot": {
+      "handVisible": false,
+      "activeColors": [
+        10,
+        11
+      ],
+      "clickLimit": 10,
+      "belt": 0,
+      "remaining": 31752,
+      "bucketsDone": 0,
+      "beltLoad": 0,
+      "counted": 10,
+      "fronts": [
+        10,
+        11
+      ],
+      "time": 4058.0509414431,
+      "total": 31752,
+      "mechanic": "cut",
+      "targets": {
+        "right": {
+          "y": 858.68518518519,
+          "x": 197.77777777778
+        },
+        "swipe": {
+          "x2": 272.77777777778,
+          "y2": 789.42592592593,
+          "y1": 789.42592592593,
+          "x1": 157.03703703704
+        },
+        "blocked": {
+          "y": 744.61111111111,
+          "x": 197.77777777778
+        }
+      },
+      "endReason": "limit",
+      "loose": 0,
+      "lastCut": 0,
+      "ended": true,
+      "state": "endcard",
+      "wave": 1,
+      "accounted": 31752,
+      "integrity": "",
+      "funnel": 0,
+      "frame": 195,
+      "lastDrop": 0,
+      "removedPct": 0
+    },
+    "errors": [],
+    "diagnostics": {
+      "events": [
+        {
+          "name": "LOADING",
+          "time": 26.800000190734863
+        },
+        {
+          "name": "LOADED",
+          "time": 914.5
+        },
+        {
+          "name": "DISPLAYED",
+          "time": 914.5999999046326
+        },
+        {
+          "name": "CHALLENGE_STARTED",
+          "time": 8111.699999809265
+        },
+        {
+          "name": "CTA_CLICKED",
+          "time": 9911
+        },
+        {
+          "name": "ENDCARD_SHOWN",
+          "time": 9911.5
+        },
+        {
+          "name": "CTA_CLICKED",
+          "time": 10639.699999809265
+        }
+      ],
+      "redirects": [
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.fingersyoda.sanddrop&hl=en",
+          "time": 9910.900000095367
+        },
+        {
+          "url": "https://play.google.com/store/apps/details?id=com.fingersyoda.sanddrop&hl=en",
+          "time": 10639.699999809265
+        }
+      ],
+      "audio": {
+        "unlocked": true,
+        "paused": false,
+        "muted": false,
+        "gain": 1,
+        "context": "running"
+      },
+      "plays": {
+        "bgm": 1,
+        "sfx-conveyor": 1,
+        "sfx-win": 2,
+        "sfx-endcard": 1,
+        "sfx-cta": 1
+      }
+    }
+  },
+  {
+    "name": "rotate",
+    "snapshot": {
+      "handVisible": true,
+      "activeColors": [
+        10,
+        11
+      ],
+      "clickLimit": 9999,
+      "belt": 0,
+      "remaining": 31752,
+      "bucketsDone": 0,
+      "beltLoad": 0,
+      "counted": 0,
+      "fronts": [
+        10,
+        11
+      ],
+      "time": 2212.8849788569,
+      "total": 31752,
+      "mechanic": "cut",
+      "targets": {
+        "right": {
+          "y": 858.68518518519,
+          "x": 197.77777777778
+        },
+        "swipe": {
+          "x2": 272.77777777778,
+          "y2": 789.42592592593,
+          "y1": 789.42592592593,
+          "x1": 157.03703703704
+        },
+        "blocked": {
+          "y": 744.61111111111,
+          "x": 197.77777777778
+        }
+      },
+      "endReason": "",
+      "loose": 0,
+      "lastCut": 0,
+      "ended": false,
+      "state": "play",
+      "wave": 1,
+      "accounted": 31752,
+      "integrity": "",
+      "funnel": 0,
+      "frame": 88,
+      "lastDrop": 0,
+      "removedPct": 0
+    },
+    "errors": [],
+    "diagnostics": {
+      "events": [
+        {
+          "name": "LOADING",
+          "time": 42.19999980926514
+        },
+        {
+          "name": "LOADED",
+          "time": 954.6999998092651
+        },
+        {
+          "name": "DISPLAYED",
+          "time": 954.7999997138977
+        }
+      ],
+      "redirects": [],
+      "audio": {
+        "unlocked": false,
+        "paused": false,
+        "muted": true,
+        "gain": 0,
+        "context": "suspended"
+      },
+      "plays": {}
+    }
+  },
+  {
+    "name": "lifecycle",
+    "snapshot": {
+      "handVisible": false,
+      "activeColors": [
+        10,
+        11
+      ],
+      "clickLimit": 9999,
+      "belt": 0,
+      "remaining": 31752,
+      "bucketsDone": 0,
+      "beltLoad": 0,
+      "counted": 1,
+      "fronts": [
+        10,
+        11
+      ],
+      "time": 2171.3849795051,
+      "total": 31752,
+      "mechanic": "cut",
+      "targets": {
+        "right": {
+          "y": 858.68518518519,
+          "x": 197.77777777778
+        },
+        "swipe": {
+          "x2": 272.77777777778,
+          "y2": 789.42592592593,
+          "y1": 789.42592592593,
+          "x1": 157.03703703704
+        },
+        "blocked": {
+          "y": 744.61111111111,
+          "x": 197.77777777778
+        }
+      },
+      "endReason": "",
+      "loose": 0,
+      "lastCut": 0,
+      "ended": false,
+      "state": "play",
+      "wave": 1,
+      "accounted": 31752,
+      "integrity": "",
+      "funnel": 0,
+      "frame": 85,
+      "lastDrop": 0,
+      "removedPct": 0
+    },
+    "errors": [],
+    "diagnostics": {
+      "events": [
+        {
+          "name": "LOADING",
+          "time": 30.90000009536743
+        },
+        {
+          "name": "LOADED",
+          "time": 922.4000000953674
+        },
+        {
+          "name": "DISPLAYED",
+          "time": 922.4000000953674
+        },
+        {
+          "name": "CHALLENGE_STARTED",
+          "time": 7563.400000095367
+        }
+      ],
+      "redirects": [],
+      "audio": {
+        "unlocked": true,
+        "paused": false,
+        "muted": false,
+        "gain": 1,
+        "context": "running"
+      },
+      "plays": {
+        "bgm": 1,
+        "sfx-conveyor": 1
+      }
+    }
+  }
+]

@@ -1,0 +1,7 @@
+script: "/main/game.gui_script"
+fonts { name: "body" font: "/assets/fonts/grenze600.font" }
+fonts { name: "title" font: "/assets/fonts/grenze700.font" }
+material: "/builtins/materials/gui.material"
+adjust_reference: ADJUST_REFERENCE_DISABLED
+max_nodes: 256
+max_dynamic_textures: 32

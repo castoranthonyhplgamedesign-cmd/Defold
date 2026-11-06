@@ -1,0 +1,2 @@
+images { image: "/assets/images/background.png" }
+extrude_borders: 2

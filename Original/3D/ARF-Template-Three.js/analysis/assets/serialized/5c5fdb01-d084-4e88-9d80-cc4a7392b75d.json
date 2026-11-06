@@ -1,0 +1,96 @@
+{
+  "root": 0,
+  "objects": [
+    {
+      "__type__": "cc.Material",
+      "_name": "Inner",
+      "_states": [
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        },
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        },
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        },
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        },
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        },
+        {
+          "rasterizerState": {},
+          "depthStencilState": {},
+          "blendState": {
+            "targets": [
+              {}
+            ]
+          }
+        }
+      ],
+      "_defines": [
+        {
+          "USE_INSTANCING": true
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "_props": [
+        {
+          "roughness": 0.69,
+          "specularIntensity": 0,
+          "mainColor": {
+            "__type__": "cc.Color",
+            "r": 59,
+            "g": 63,
+            "b": 115,
+            "a": 255
+          }
+        },
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "_effectAsset": {
+        "__uuid__": "c8f66d17-351a-48da-a12c-0212d28575c4"
+      }
+    }
+  ]
+}

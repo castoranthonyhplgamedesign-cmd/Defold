@@ -1,0 +1,70 @@
+{
+  "kind": "arrow-flow",
+  "version": 1,
+  "name": "Four sides",
+  "origin": [
+    0,
+    0
+  ],
+  "board": {
+    "bounds": {
+      "minX": -3,
+      "minY": -3,
+      "width": 7,
+      "height": 7
+    },
+    "arrows": [
+      {
+        "id": "north",
+        "color": "green",
+        "head": [
+          0,
+          2
+        ],
+        "body": [
+          [
+            0,
+            -1
+          ]
+        ],
+        "facing": "Top"
+      }
+    ]
+  },
+  "conveyor": {
+    "points": [
+      [
+        5,
+        -5
+      ],
+      [
+        -5,
+        -5
+      ],
+      [
+        -5,
+        5
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "width": 1.3,
+    "direction": 1
+  },
+  "cannons": [
+    {
+      "id": "top",
+      "progress": 0.625,
+      "offset": 7,
+      "angle": null,
+      "queue": [
+        {
+          "color": "green",
+          "ammo": 2
+        }
+      ]
+    }
+  ]
+}

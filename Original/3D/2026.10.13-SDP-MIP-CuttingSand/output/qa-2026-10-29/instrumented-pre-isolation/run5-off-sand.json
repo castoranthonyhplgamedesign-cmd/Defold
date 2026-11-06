@@ -1,0 +1,376 @@
+[
+  {
+    "actionIndex": 2,
+    "design": {
+      "x": 260.8074374124408,
+      "y": 1344.3285057181492
+    },
+    "css": {
+      "x": 77.40553356784706,
+      "y": 397.69718294161913
+    },
+    "viewport": {
+      "vw": 320,
+      "vh": 568,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 1934,
+    "before": {
+      "counted": 0,
+      "frame": 67,
+      "state": "play",
+      "remaining": 1440,
+      "milestone": "play"
+    },
+    "priorActions": [
+      "taps during pour"
+    ],
+    "after": {
+      "counted": 0,
+      "frame": 84,
+      "state": "play",
+      "remaining": 1440,
+      "milestone": "play",
+      "ended": false
+    },
+    "ageSinceViewportChangeAfterMs": 2036,
+    "failed": false
+  },
+  {
+    "actionIndex": 9,
+    "design": {
+      "x": 319.03668340295553,
+      "y": 1781.2006070045754
+    },
+    "css": {
+      "x": 247.17278056715924,
+      "y": 296.86676783409587
+    },
+    "viewport": {
+      "vw": 568,
+      "vh": 320,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 267,
+    "before": {
+      "counted": 3,
+      "frame": 193,
+      "state": "play",
+      "remaining": 1375,
+      "milestone": "tap-3"
+    },
+    "priorActions": [
+      "taps during pour",
+      "tap off the sand",
+      "tap hint (280, 853)",
+      "tap picture",
+      "tap hint (453, 853)",
+      "tap picture",
+      "rotate â†’ 568Ã—320@2",
+      "burst Ã—6"
+    ],
+    "after": {
+      "counted": 3,
+      "frame": 207,
+      "state": "play",
+      "remaining": 1375,
+      "milestone": "tap-3",
+      "ended": false
+    },
+    "ageSinceViewportChangeAfterMs": 354,
+    "failed": false
+  },
+  {
+    "actionIndex": 11,
+    "design": {
+      "x": 852.8976622596383,
+      "y": 1725.8962601376697
+    },
+    "css": {
+      "x": 336.14961037660635,
+      "y": 287.6493766896116
+    },
+    "viewport": {
+      "vw": 568,
+      "vh": 320,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 558,
+    "before": {
+      "counted": 3,
+      "frame": 241,
+      "state": "play",
+      "remaining": 1375,
+      "milestone": "tap-3"
+    },
+    "priorActions": [
+      "tap hint (280, 853)",
+      "tap picture",
+      "tap hint (453, 853)",
+      "tap picture",
+      "rotate â†’ 568Ã—320@2",
+      "burst Ã—6",
+      "tap off the sand",
+      "wait 197"
+    ],
+    "after": {
+      "counted": 3,
+      "frame": 256,
+      "state": "play",
+      "remaining": 1375,
+      "milestone": "tap-3",
+      "ended": false
+    },
+    "ageSinceViewportChangeAfterMs": 649,
+    "failed": false
+  },
+  {
+    "actionIndex": 12,
+    "design": {
+      "x": 201.48594301193953,
+      "y": 1527.8702144743875
+    },
+    "css": {
+      "x": 227.5809905019899,
+      "y": 254.64503574573124
+    },
+    "viewport": {
+      "vw": 568,
+      "vh": 320,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 650,
+    "before": {
+      "counted": 3,
+      "frame": 256,
+      "state": "play",
+      "remaining": 1375,
+      "milestone": "tap-3"
+    },
+    "priorActions": [
+      "tap picture",
+      "tap hint (453, 853)",
+      "tap picture",
+      "rotate â†’ 568Ã—320@2",
+      "burst Ã—6",
+      "tap off the sand",
+      "wait 197",
+      "tap off the sand"
+    ],
+    "after": {
+      "counted": 3,
+      "frame": 272,
+      "state": "play",
+      "remaining": 1375,
+      "milestone": "tap-3",
+      "ended": false
+    },
+    "ageSinceViewportChangeAfterMs": 744,
+    "failed": false
+  },
+  {
+    "actionIndex": 13,
+    "design": {
+      "x": 620.449534021318,
+      "y": 1640.076879952103
+    },
+    "css": {
+      "x": 297.40825567021966,
+      "y": 273.3461466586838
+    },
+    "viewport": {
+      "vw": 568,
+      "vh": 320,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 745,
+    "before": {
+      "counted": 3,
+      "frame": 272,
+      "state": "play",
+      "remaining": 1375,
+      "milestone": "tap-3"
+    },
+    "priorActions": [
+      "tap hint (453, 853)",
+      "tap picture",
+      "rotate â†’ 568Ã—320@2",
+      "burst Ã—6",
+      "tap off the sand",
+      "wait 197",
+      "tap off the sand",
+      "tap off the sand"
+    ],
+    "after": {
+      "counted": 3,
+      "frame": 287,
+      "state": "play",
+      "remaining": 1375,
+      "milestone": "tap-3",
+      "ended": false
+    },
+    "ageSinceViewportChangeAfterMs": 838,
+    "failed": false
+  },
+  {
+    "actionIndex": 15,
+    "design": {
+      "x": 225.32497957348824,
+      "y": 1560.6286656437442
+    },
+    "css": {
+      "x": 231.55416326224804,
+      "y": 260.10477760729066
+    },
+    "viewport": {
+      "vw": 568,
+      "vh": 320,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 887,
+    "before": {
+      "counted": 7,
+      "frame": 295,
+      "state": "play",
+      "remaining": 1285,
+      "milestone": "tap-7"
+    },
+    "priorActions": [
+      "rotate â†’ 568Ã—320@2",
+      "burst Ã—6",
+      "tap off the sand",
+      "wait 197",
+      "tap off the sand",
+      "tap off the sand",
+      "tap off the sand",
+      "burst Ã—6"
+    ],
+    "after": {
+      "counted": 8,
+      "frame": 311,
+      "state": "play",
+      "remaining": 1269,
+      "milestone": "tap-8",
+      "ended": false
+    },
+    "ageSinceViewportChangeAfterMs": 981,
+    "failed": true,
+    "canvasAfterFailure": {
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 568,
+        "height": 320
+      },
+      "bitmap": {
+        "width": 1136,
+        "height": 640
+      },
+      "viewport": {
+        "innerWidth": 568,
+        "innerHeight": 320,
+        "dpr": 2,
+        "visual": {
+          "width": 568,
+          "height": 320,
+          "offsetLeft": 0,
+          "offsetTop": 0,
+          "scale": 1
+        }
+      },
+      "latestState": {
+        "counted": 8,
+        "frame": 311,
+        "milestone": "tap-8"
+      }
+    }
+  },
+  {
+    "actionIndex": 16,
+    "design": {
+      "x": 371.56315106898546,
+      "y": 1237.5180066842586
+    },
+    "css": {
+      "x": 255.9271918448309,
+      "y": 206.2530011140431
+    },
+    "viewport": {
+      "vw": 568,
+      "vh": 320,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 984,
+    "before": {
+      "counted": 8,
+      "frame": 311,
+      "state": "play",
+      "remaining": 1269,
+      "milestone": "tap-8"
+    },
+    "priorActions": [
+      "burst Ã—6",
+      "tap off the sand",
+      "wait 197",
+      "tap off the sand",
+      "tap off the sand",
+      "tap off the sand",
+      "burst Ã—6",
+      "tap off the sand"
+    ],
+    "after": {
+      "counted": 8,
+      "frame": 326,
+      "state": "play",
+      "remaining": 1269,
+      "milestone": "tap-8",
+      "ended": false
+    },
+    "ageSinceViewportChangeAfterMs": 1072,
+    "failed": false
+  },
+  {
+    "actionIndex": 26,
+    "design": {
+      "x": 666.4653651043773,
+      "y": 1388.9772239560261
+    },
+    "css": {
+      "x": 197.41267051004493,
+      "y": 410.90576208699105
+    },
+    "viewport": {
+      "vw": 320,
+      "vh": 568,
+      "dpr": 2
+    },
+    "ageSinceViewportChangeBeforeMs": 350,
+    "before": {
+      "counted": 4,
+      "frame": 139,
+      "state": "play",
+      "remaining": 31517,
+      "milestone": "cut-4"
+    },
+    "priorActions": [
+      "tap hint (627, 853)",
+      "idle 10 s",
+      "wait 31",
+      "wait 332",
+      "tap picture",
+      "rotate â†’ 320Ã—568@2",
+      "tap hint (198, 859)",
+      "tap hint (198, 859)"
+    ],
+    "after": {
+      "counted": 4,
+      "frame": 157,
+      "state": "play",
+      "remaining": 31517,
+      "milestone": "cut-4",
+      "ended": false
+    },
+    "ageSinceViewportChangeAfterMs": 458,
+    "failed": false
+  }
+]

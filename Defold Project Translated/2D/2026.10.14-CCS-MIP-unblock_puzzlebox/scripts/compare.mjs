@@ -1,0 +1,16 @@
+import {chromium} from 'playwright';
+import {writeFile} from 'node:fs/promises';
+const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',args:['--mute-audio','--no-sandbox']});
+const page=await browser.newPage({viewport:{width:390,height:844}});const errors=[];
+await page.addInitScript(()=>{window.open=(...args)=>{window.__referenceRedirects??=[];window.__referenceRedirects.push(args);return null;};});
+page.on('pageerror',e=>{errors.push(String(e));console.log('ERROR',String(e))});
+await page.goto('http://127.0.0.1:8172/?variant=60sec&hud=0');
+await page.waitForFunction(()=>window.__game?.scene.getScene('Game')?.launcher?.ready,{},{timeout:60000});
+await writeFile('qa/reference-pre.json',JSON.stringify(await page.evaluate(()=>window.__referencePre),null,2));
+await writeFile('qa/reference-steps.json',JSON.stringify(await page.evaluate(()=>window.__steps),null,2));
+const settled=await page.evaluate(()=>window.__referenceSettled);await writeFile('qa/reference-settled.json',JSON.stringify(settled,null,2));
+const state=await page.evaluate(()=>{const s=window.__game.scene.getScene('Game');return {balls:s.board.balls.map(b=>({id:b.id,x:b.x,y:b.y,rings:b.rings,radius:b.radius})),gift:{x:s.board.box.position.x,y:s.board.box.position.y,a:s.board.box.angle},launcher:{x:s.launcher.current.x,y:s.launcher.current.y,rings:s.launcher.current.rings},next:{rings:s.launcher.next.rings}}});
+await writeFile('qa/reference-initial-state.json',JSON.stringify(state,null,2));await page.waitForTimeout(500);await page.screenshot({path:'qa/screenshots/reference-portrait-start.png'});
+await page.setViewportSize({width:844,height:390});await page.waitForTimeout(400);await page.screenshot({path:'qa/screenshots/reference-landscape.png'});
+await page.setViewportSize({width:390,height:844});await page.evaluate(()=>window.debug.limit());await page.waitForTimeout(600);await page.screenshot({path:'qa/screenshots/reference-endcard.png'});
+await writeFile('qa/reference-errors.json',JSON.stringify(errors,null,2));await browser.close();console.log('Reference captures complete');

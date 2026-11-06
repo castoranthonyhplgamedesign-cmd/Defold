@@ -1,0 +1,101 @@
+{
+  "scope": "Current playable source-to-runtime mapping only. This inventory does not establish which sounds occur in the reference video.",
+  "referenceVideo": "Assets/Mock_Up/sdp_cantreach_sandshovel_59s_1080x1920.mp4",
+  "sourceFilesEdited": false,
+  "runtimeSlots": [
+    {
+      "id": "bgm",
+      "source": "Assets/Audio/BGM/Ambient-Synth/bgm-synth-chimes.mp3",
+      "transform": "Copied byte-for-byte; current runtime hash matches source.",
+      "baseVolume": 0.2,
+      "loop": true,
+      "trigger": "Starts once on first pointerdown, including a pointerdown outside valid gameplay. Kept playing under endcard.",
+      "sourceReferences": ["scripts/prepare-assets.mjs:94", "src/audio.ts:45", "src/audio.ts:56", "src/scenes/GameScene.ts:515", "src/audio.ts:74"]
+    },
+    {
+      "id": "sfx-cut",
+      "source": "Assets/Audio/SFX/Sand/Sand Swish.wav",
+      "transform": "First 0.9 s, 20 ms fade-in, 0.4 s fade-out, mono, peak normalization to -1 dBFS, 96 kbps MP3.",
+      "baseVolume": 0.75,
+      "loop": false,
+      "trigger": "Cut/tap feedback pending until at least 8 sand moves occur in the picture within 400 ms; held swipe may rearm at most every 400 ms.",
+      "sourceReferences": ["scripts/prepare-assets.mjs:96", "src/scenes/GameScene.ts:680", "src/constants.ts:118", "src/constants.ts:167"]
+    },
+    {
+      "id": "sfx-sand",
+      "source": "Assets/Audio/SFX/Sand/PourSand 6055_54_2.wav",
+      "transform": "2.0 s cut starting at 0.5 s, 20 ms fade-in, 0.7 s fade-out, mono, peak normalization to -1 dBFS, 96 kbps MP3.",
+      "baseVolume": 0.45,
+      "loop": false,
+      "trigger": "Started alongside sfx-cut when sand really falls; exclusive so another pour does not start while this sound is already playing.",
+      "sourceReferences": ["scripts/prepare-assets.mjs:98", "src/scenes/GameScene.ts:695", "src/audio.ts:92"]
+    },
+    {
+      "id": "sfx-lid",
+      "source": "Assets/Audio/SFX/Sand/pill-container-lid-close/pill-container-lid-close.wav",
+      "transform": "First 0.35 s, 20 ms fade-in, 0.15 s fade-out, mono, peak normalization to -1 dBFS, 96 kbps MP3.",
+      "baseVolume": 0.8,
+      "loop": false,
+      "trigger": "Full-bucket lid-drop tween completes; plays together with sfx-bells. Not triggered by waiting bucket lid opening.",
+      "sourceReferences": ["scripts/prepare-assets.mjs:100", "src/game/BucketRack.ts:652", "src/scenes/GameScene.ts:273"]
+    },
+    {
+      "id": "sfx-woosh",
+      "source": "Assets/Audio/SFX/Whoosh-Swipe/sfx-whoosh-quick-swing.mp3",
+      "transform": "Copied byte-for-byte; current runtime hash matches source.",
+      "baseVolume": 0.6,
+      "loop": false,
+      "trigger": "Full bucket reaches belt after its hop, at flash/sparkle and start of rightward fling.",
+      "sourceReferences": ["scripts/prepare-assets.mjs:101", "src/game/BucketRack.ts:696", "src/scenes/GameScene.ts:276"]
+    },
+    {
+      "id": "sfx-praise",
+      "source": "Assets/Audio/SFX/Correct-Match/sfx-correct-confirm.wav",
+      "transform": "First 1.4 s, 20 ms fade-in, 0.4 s fade-out, mono, peak normalization to -1 dBFS, 96 kbps MP3.",
+      "baseVolume": 0.6,
+      "loop": false,
+      "trigger": "A supported-sand drop reaches 3% of picture; praise word GREAT/AWESOME/AMAZING and shake accompany it. Further word thresholds 10% and 25%.",
+      "sourceReferences": ["scripts/prepare-assets.mjs:103", "src/scenes/GameScene.ts:704", "src/constants.ts:133"]
+    },
+    {
+      "id": "sfx-bells",
+      "source": "Assets/Audio/SFX/Correct-Match/sfx-correct-magic-bells.mp3",
+      "transform": "Copied byte-for-byte; current runtime hash matches source.",
+      "baseVolume": 0.6,
+      "loop": false,
+      "trigger": "Full-bucket lid closes, and packshot endcard reveal if SHOW_PACKSHOT is true.",
+      "sourceReferences": ["scripts/prepare-assets.mjs:105", "src/scenes/GameScene.ts:274", "src/scenes/GameScene.ts:1025"]
+    },
+    {
+      "id": "sfx-fail",
+      "source": "Assets/Audio/SFX/Wrong-Fail/sfx-fail-try-again.mp3",
+      "transform": "Copied byte-for-byte; current runtime hash matches source.",
+      "baseVolume": 0.7,
+      "loop": false,
+      "trigger": "Jam or soft lock. Not played for click/time limit endings.",
+      "sourceReferences": ["scripts/prepare-assets.mjs:107", "src/scenes/GameScene.ts:952"]
+    },
+    {
+      "id": "sfx-win",
+      "source": "Assets/Audio/SandDrop/Win.mp3",
+      "transform": "Copied byte-for-byte; current runtime hash matches source.",
+      "baseVolume": 0.7,
+      "loop": false,
+      "trigger": "Solved level. Win and fail stings are allowed to finish under endcard.",
+      "sourceReferences": ["scripts/prepare-assets.mjs:108", "src/scenes/GameScene.ts:943", "src/scenes/GameScene.ts:1021"]
+    }
+  ],
+  "referenceMatchingCandidates": [
+    {"path": "Assets/Audio/SandDrop/SandCut.mp3", "sourceBytes": 20480, "usedByCurrentPlayable": false},
+    {"path": "Assets/Audio/SandDrop/Sand.mp3", "sourceBytes": 90950, "usedByCurrentPlayable": false},
+    {"path": "Assets/Audio/SandDrop/boxClose.mp3", "sourceBytes": 2507, "usedByCurrentPlayable": false},
+    {"path": "Assets/Audio/SandDrop/boxWoosh.mp3", "sourceBytes": 15464, "usedByCurrentPlayable": false},
+    {"path": "Assets/Audio/SandDrop/Win.mp3", "sourceBytes": 111848, "usedByCurrentPlayable": true}
+  ],
+  "notes": [
+    "All nine current slot base volumes and loop flags agree with src/projectDefaults.json:615-686.",
+    "The current loaded manifest has no voiceover and no dedicated conveyor motor loop; this is a statement about the playable source, not the reference video.",
+    "Audio library README genre labels are title/pack/use-derived and explicitly were not all auditioned. They are not reliable proof of the reference video's sound identity.",
+    "WAV conversion implementation is scripts/prepare-assets.mjs:139-166; copied MP3 source identity is verified by SHA-256 comparison against Assets/Runtime/audio."
+  ]
+}

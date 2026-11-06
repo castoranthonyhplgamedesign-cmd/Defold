@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-29T04:28:49.441Z",
+  "stage": "chevron-bold",
+  "views": [
+    {
+      "width": 390,
+      "height": 844,
+      "meter": "99%",
+      "engine": "three.js r184",
+      "drawCalls": "41",
+      "triangles": "189703"
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "meter": "99%",
+      "engine": "three.js r184",
+      "drawCalls": "41",
+      "triangles": "189703"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "meter": "99%",
+      "engine": "three.js r184",
+      "drawCalls": "41",
+      "triangles": "189703"
+    },
+    {
+      "width": 360,
+      "height": 640,
+      "meter": "99%",
+      "engine": "three.js r184",
+      "drawCalls": "41",
+      "triangles": "189703"
+    }
+  ],
+  "restored": false,
+  "errors": [],
+  "external": [],
+  "audio": "muted"
+}

@@ -1,0 +1,155 @@
+{
+  "at": "2026-11-03T02:59:46.968Z",
+  "audio": "muted",
+  "results": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "initial": {
+        "idle": 0.6820000000000004,
+        "hint": 19,
+        "hidden": false
+      },
+      "beats": [
+        {
+          "early": {
+            "idle": 3.2000000000000024,
+            "hint": null,
+            "hidden": true
+          },
+          "idle": {
+            "idle": 8.000000000000005,
+            "hint": 51,
+            "hidden": false
+          }
+        },
+        {
+          "early": {
+            "idle": 3.2000000000000024,
+            "hint": null,
+            "hidden": true
+          },
+          "idle": {
+            "idle": 3.696000000000003,
+            "hint": 57,
+            "hidden": false
+          }
+        }
+      ]
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "initial": {
+        "idle": 0.6180000000000003,
+        "hint": 19,
+        "hidden": false
+      },
+      "beats": [
+        {
+          "early": {
+            "idle": 3.2000000000000024,
+            "hint": null,
+            "hidden": true
+          },
+          "idle": {
+            "idle": 7.904000000000006,
+            "hint": 51,
+            "hidden": false
+          }
+        },
+        {
+          "early": {
+            "idle": 3.2000000000000024,
+            "hint": null,
+            "hidden": true
+          },
+          "idle": {
+            "idle": 3.696000000000003,
+            "hint": 57,
+            "hidden": false
+          }
+        }
+      ]
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "initial": {
+        "idle": 0.6270000000000003,
+        "hint": 19,
+        "hidden": false
+      },
+      "beats": [
+        {
+          "early": {
+            "idle": 3.2000000000000024,
+            "hint": null,
+            "hidden": true
+          },
+          "idle": {
+            "idle": 8.000000000000005,
+            "hint": 51,
+            "hidden": false
+          }
+        },
+        {
+          "early": {
+            "idle": 3.2000000000000024,
+            "hint": null,
+            "hidden": true
+          },
+          "idle": {
+            "idle": 3.696000000000003,
+            "hint": 57,
+            "hidden": false
+          }
+        }
+      ]
+    },
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "initial": {
+        "idle": 0.6180000000000003,
+        "hint": 19,
+        "hidden": false
+      },
+      "beats": [
+        {
+          "early": {
+            "idle": 3.2000000000000024,
+            "hint": null,
+            "hidden": true
+          },
+          "idle": {
+            "idle": 7.904000000000006,
+            "hint": 51,
+            "hidden": false
+          }
+        },
+        {
+          "early": {
+            "idle": 3.2000000000000024,
+            "hint": null,
+            "hidden": true
+          },
+          "idle": {
+            "idle": 3.696000000000003,
+            "hint": 57,
+            "hidden": false
+          }
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

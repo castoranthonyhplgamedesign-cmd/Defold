@@ -1,0 +1,155 @@
+{
+  "at": "2026-10-30T03:31:34.827Z",
+  "audio": "muted",
+  "runs": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "target": {
+        "id": 0,
+        "length": 6,
+        "room": 4,
+        "highlighted": true,
+        "pick": 0,
+        "point": [
+          75.8861559877691,
+          638.8042724814634
+        ]
+      },
+      "warned": {
+        "time": 0.4839999999999449,
+        "warning": true,
+        "ended": "fail",
+        "admitted": 101,
+        "limit": 101,
+        "pending": 2,
+        "meter": "100%",
+        "alert": false
+      },
+      "ended": {
+        "time": 0.4839999999999449,
+        "warning": true,
+        "ended": "fail",
+        "admitted": 101,
+        "limit": 101,
+        "pending": 2,
+        "meter": "100%",
+        "alert": false
+      }
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "target": {
+        "id": 0,
+        "length": 6,
+        "room": 4,
+        "highlighted": true,
+        "pick": 0,
+        "point": [
+          354.03222578687206,
+          318.7110930526974
+        ]
+      },
+      "warned": {
+        "time": 0.4749999999999517,
+        "warning": true,
+        "ended": "fail",
+        "admitted": 101,
+        "limit": 101,
+        "pending": 2,
+        "meter": "100%",
+        "alert": false
+      },
+      "ended": {
+        "time": 0.4749999999999517,
+        "warning": true,
+        "ended": "fail",
+        "admitted": 101,
+        "limit": 101,
+        "pending": 2,
+        "meter": "100%",
+        "alert": false
+      }
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "target": {
+        "id": 0,
+        "length": 6,
+        "room": 4,
+        "highlighted": true,
+        "pick": 0,
+        "point": [
+          190.71169104891342,
+          863.8124324575543
+        ]
+      },
+      "warned": {
+        "time": 0.4779999999999518,
+        "warning": true,
+        "ended": "fail",
+        "admitted": 101,
+        "limit": 101,
+        "pending": 2,
+        "meter": "100%",
+        "alert": false
+      },
+      "ended": {
+        "time": 0.4779999999999518,
+        "warning": true,
+        "ended": "fail",
+        "admitted": 101,
+        "limit": 101,
+        "pending": 2,
+        "meter": "100%",
+        "alert": false
+      }
+    },
+    {
+      "viewport": [
+        360,
+        640
+      ],
+      "target": {
+        "id": 0,
+        "length": 6,
+        "room": 4,
+        "highlighted": true,
+        "pick": 0,
+        "point": [
+          70.04875937332535,
+          520.1270207521201
+        ]
+      },
+      "warned": {
+        "time": 0.476999999999947,
+        "warning": true,
+        "ended": "fail",
+        "admitted": 101,
+        "limit": 101,
+        "pending": 2,
+        "meter": "100%",
+        "alert": false
+      },
+      "ended": {
+        "time": 0.476999999999947,
+        "warning": true,
+        "ended": "fail",
+        "admitted": 101,
+        "limit": 101,
+        "pending": 2,
+        "meter": "100%",
+        "alert": false
+      }
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,5640 @@
+{
+  "status": "Confirmed static serialization; no runtime verification",
+  "source": "assets/serialized/05df34ae-586f-458e-a1b4-9cb0c0e05872.json",
+  "stats": {
+    "arrows": 79,
+    "blocks": 536,
+    "byColor": {
+      "pink": 74,
+      "green": 96,
+      "yellow": 75,
+      "purple": 75,
+      "orange": 78,
+      "black": 64,
+      "blue": 74
+    },
+    "ammoByColor": {
+      "green": 69,
+      "yellow": 71,
+      "purple": 65,
+      "orange": 57,
+      "pink": 60,
+      "black": 49,
+      "blue": 54
+    },
+    "axes": [
+      "[-1,0,0]",
+      "[0,0,-1]",
+      "[1,0,0]",
+      "[0,0,1]"
+    ],
+    "pathLengthPolyline": 84.30468719308686
+  },
+  "arrows": [
+    {
+      "color": "pink",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -5.5,
+        "y": 0,
+        "z": -12
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 140
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -2.5,
+        "y": 0,
+        "z": -13
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 141
+    },
+    {
+      "color": "yellow",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -1.5,
+        "y": 0,
+        "z": -13
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 142
+    },
+    {
+      "color": "purple",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 1.5,
+        "y": 0,
+        "z": -13
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 143
+    },
+    {
+      "color": "yellow",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -7.5,
+        "y": 0,
+        "z": -10
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 144
+    },
+    {
+      "color": "pink",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 0.5,
+        "y": 0,
+        "z": -13
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 145
+    },
+    {
+      "color": "orange",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 2.5,
+        "y": 0,
+        "z": -13
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 146
+    },
+    {
+      "color": "pink",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 4.5,
+        "y": 0,
+        "z": -13
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 147
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -7.5,
+        "y": 0,
+        "z": -9
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 148
+    },
+    {
+      "color": "orange",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -6.5,
+        "y": 0,
+        "z": -9
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 149
+    },
+    {
+      "color": "black",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -1.5,
+        "y": 0,
+        "z": -11
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 150
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 3.5,
+        "y": 0,
+        "z": -11
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 151
+    },
+    {
+      "color": "blue",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 4.5,
+        "y": 0,
+        "z": -11
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 152
+    },
+    {
+      "color": "purple",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 6.5,
+        "y": 0,
+        "z": -11
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 153
+    },
+    {
+      "color": "purple",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -3.5,
+        "y": 0,
+        "z": -8
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 154
+    },
+    {
+      "color": "blue",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -2.5,
+        "y": 0,
+        "z": -8
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 155
+    },
+    {
+      "color": "yellow",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -1.5,
+        "y": 0,
+        "z": -8
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 156
+    },
+    {
+      "color": "blue",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 1.5,
+        "y": 0,
+        "z": -9
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 157
+    },
+    {
+      "color": "black",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 2.5,
+        "y": 0,
+        "z": -9
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 158
+    },
+    {
+      "color": "orange",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 7.5,
+        "y": 0,
+        "z": -10
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 159
+    },
+    {
+      "color": "purple",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 1.5,
+        "y": 0,
+        "z": -7
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 160
+    },
+    {
+      "color": "yellow",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 7.5,
+        "y": 0,
+        "z": -7
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 161
+    },
+    {
+      "color": "purple",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 7.5,
+        "y": 0,
+        "z": -6
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 162
+    },
+    {
+      "color": "blue",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -4.5,
+        "y": 0,
+        "z": -6
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 163
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -7.5,
+        "y": 0,
+        "z": -5
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 164
+    },
+    {
+      "color": "black",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 4,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 4,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 4,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -7.5,
+        "y": 0,
+        "z": -4
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 165
+    },
+    {
+      "color": "purple",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -4.5,
+        "y": 0,
+        "z": -3
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 166
+    },
+    {
+      "color": "pink",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -1.5,
+        "y": 0,
+        "z": -3
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 167
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 2.5,
+        "y": 0,
+        "z": -4
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 168
+    },
+    {
+      "color": "orange",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 4.5,
+        "y": 0,
+        "z": -3
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 169
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 7.5,
+        "y": 0,
+        "z": -3
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 170
+    },
+    {
+      "color": "black",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 7.5,
+        "y": 0,
+        "z": -5
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 171
+    },
+    {
+      "color": "black",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 3
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 7.5,
+        "y": 0,
+        "z": -2
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 172
+    },
+    {
+      "color": "blue",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 7.5,
+        "y": 0,
+        "z": -1
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 173
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 4,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -7.5,
+        "y": 0,
+        "z": -3
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 174
+    },
+    {
+      "color": "orange",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 4,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -7.5,
+        "y": 0,
+        "z": -2
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 175
+    },
+    {
+      "color": "yellow",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 4,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -7.5,
+        "y": 0,
+        "z": 2
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 176
+    },
+    {
+      "color": "pink",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 4,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -7.5,
+        "y": 0,
+        "z": 3
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 177
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 4,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 4,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -7.5,
+        "y": 0,
+        "z": 4
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 178
+    },
+    {
+      "color": "yellow",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 7.5,
+        "y": 0,
+        "z": 2
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 179
+    },
+    {
+      "color": "orange",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 7.5,
+        "y": 0,
+        "z": 3
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 180
+    },
+    {
+      "color": "pink",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 7.5,
+        "y": 0,
+        "z": 4
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 181
+    },
+    {
+      "color": "orange",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 6.5,
+        "y": 0,
+        "z": 5
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 182
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 7.5,
+        "y": 0,
+        "z": 5
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 183
+    },
+    {
+      "color": "yellow",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 7.5,
+        "y": 0,
+        "z": 10
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 184
+    },
+    {
+      "color": "orange",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 4.5,
+        "y": 0,
+        "z": 13
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 186
+    },
+    {
+      "color": "black",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 5.5,
+        "y": 0,
+        "z": 9
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 187
+    },
+    {
+      "color": "purple",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 3.5,
+        "y": 0,
+        "z": 13
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 188
+    },
+    {
+      "color": "pink",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 2.5,
+        "y": 0,
+        "z": 13
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 189
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -1.5,
+        "y": 0,
+        "z": 13
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 190
+    },
+    {
+      "color": "orange",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -0.5,
+        "y": 0,
+        "z": 13
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 191
+    },
+    {
+      "color": "yellow",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 1.5,
+        "y": 0,
+        "z": 13
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 192
+    },
+    {
+      "color": "pink",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -2.5,
+        "y": 0,
+        "z": 9
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 193
+    },
+    {
+      "color": "yellow",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 4
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -7.5,
+        "y": 0,
+        "z": 5
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 194
+    },
+    {
+      "color": "orange",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 4,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -6.5,
+        "y": 0,
+        "z": 5
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 195
+    },
+    {
+      "color": "purple",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -7.5,
+        "y": 0,
+        "z": 9
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 196
+    },
+    {
+      "color": "pink",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -7.5,
+        "y": 0,
+        "z": 10
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 197
+    },
+    {
+      "color": "black",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -6.5,
+        "y": 0,
+        "z": 11
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 198
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -4.5,
+        "y": 0,
+        "z": 11
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 199
+    },
+    {
+      "color": "blue",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -4
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -3.5,
+        "y": 0,
+        "z": 10
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 200
+    },
+    {
+      "color": "black",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -4.5,
+        "y": 0,
+        "z": 2
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 201
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -4.5,
+        "y": 0,
+        "z": 1
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 202
+    },
+    {
+      "color": "purple",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -2.5,
+        "y": 0,
+        "z": 8
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 203
+    },
+    {
+      "color": "black",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -2.5,
+        "y": 0,
+        "z": 7
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 204
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -1.5,
+        "y": 0,
+        "z": -2
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 205
+    },
+    {
+      "color": "purple",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": -1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 3,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -1.5,
+        "y": 0,
+        "z": -1
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 206
+    },
+    {
+      "color": "orange",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -0.5,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 207
+    },
+    {
+      "color": "green",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 1.5,
+        "y": 0,
+        "z": 2
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 208
+    },
+    {
+      "color": "yellow",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 0.5,
+        "y": 0,
+        "z": 3
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 209
+    },
+    {
+      "color": "blue",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 4.5,
+        "y": 0,
+        "z": 1
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 210
+    },
+    {
+      "color": "purple",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 3.5,
+        "y": 0,
+        "z": 2
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 211
+    },
+    {
+      "color": "blue",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 5.5,
+        "y": 0,
+        "z": 6
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 212
+    },
+    {
+      "color": "orange",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 0,
+        "z": 0
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 5.5,
+        "y": 0,
+        "z": 7
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 213
+    },
+    {
+      "color": "blue",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 1.5,
+        "y": 0,
+        "z": 10
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 214
+    },
+    {
+      "color": "blue",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -1.5,
+        "y": 0,
+        "z": 5
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 215
+    },
+    {
+      "color": "pink",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -3
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 1.5,
+        "y": 0,
+        "z": 5
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 216
+    },
+    {
+      "color": "blue",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 2,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -4.5,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 217
+    },
+    {
+      "color": "pink",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": 1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": -2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": -1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": -2
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 4.5,
+        "y": 0,
+        "z": 0
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 218
+    },
+    {
+      "color": "yellow",
+      "direction": {
+        "__type__": "cc.Vec3",
+        "x": 0,
+        "y": 0,
+        "z": -1
+      },
+      "cells": [
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": 0,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -1,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -2,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -3,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -4,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -5,
+          "y": 0,
+          "z": 2
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -5,
+          "y": 0,
+          "z": 1
+        },
+        {
+          "__type__": "cc.Vec3",
+          "x": -5,
+          "y": 0,
+          "z": 0
+        }
+      ],
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 2.5,
+        "y": 0,
+        "z": 4
+      },
+      "rotation": {
+        "__type__": "cc.Quat",
+        "x": 0,
+        "y": 0,
+        "z": 0,
+        "w": 1
+      },
+      "sourceObject": 219
+    }
+  ],
+  "shooters": [
+    {
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 3,
+        "y": -0.428,
+        "z": -21
+      },
+      "sourceObject": 47,
+      "queue": [
+        {
+          "color": "green",
+          "ammo": 26,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": 2.2
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 48
+        },
+        {
+          "color": "yellow",
+          "ammo": 18,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": 0
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 49
+        },
+        {
+          "color": "purple",
+          "ammo": 13,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": -2.2
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 50
+        }
+      ]
+    },
+    {
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -3,
+        "y": -0.428,
+        "z": -21
+      },
+      "sourceObject": 51,
+      "queue": [
+        {
+          "color": "orange",
+          "ammo": 27,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": 2.2
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 53
+        },
+        {
+          "color": "pink",
+          "ammo": 27,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": 0
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 54
+        },
+        {
+          "color": "black",
+          "ammo": 25,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": -2.2
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 55
+        },
+        {
+          "color": "yellow",
+          "ammo": 27,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": -4.4
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 56
+        }
+      ]
+    },
+    {
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": -8,
+        "y": -0.428,
+        "z": -18
+      },
+      "sourceObject": 57,
+      "queue": [
+        {
+          "color": "purple",
+          "ammo": 33,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": 2.2
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 58
+        },
+        {
+          "color": "yellow",
+          "ammo": 26,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": 0
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 59
+        },
+        {
+          "color": "blue",
+          "ammo": 30,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": -2.2
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 60
+        },
+        {
+          "color": "pink",
+          "ammo": 33,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": -4.4
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 61
+        },
+        {
+          "color": "green",
+          "ammo": 15,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": -6.6
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 62
+        }
+      ]
+    },
+    {
+      "position": {
+        "__type__": "cc.Vec3",
+        "x": 8,
+        "y": -0.428,
+        "z": -18
+      },
+      "sourceObject": 63,
+      "queue": [
+        {
+          "color": "black",
+          "ammo": 24,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": 2.2
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 64
+        },
+        {
+          "color": "orange",
+          "ammo": 30,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": 0
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 65
+        },
+        {
+          "color": "green",
+          "ammo": 28,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": -2.2
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 66
+        },
+        {
+          "color": "purple",
+          "ammo": 19,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": -4.4
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 67
+        },
+        {
+          "color": "blue",
+          "ammo": 24,
+          "position": {
+            "__type__": "cc.Vec3",
+            "x": 0,
+            "y": 0.428,
+            "z": -6.6
+          },
+          "rotation": {
+            "__type__": "cc.Quat",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "sourceObject": 68
+        }
+      ]
+    }
+  ],
+  "pathWorldControlPoints": [
+    {
+      "x": 4.176,
+      "y": 0,
+      "z": 14.790000000000001
+    },
+    {
+      "x": -4.176,
+      "y": 0,
+      "z": 14.790000000000001
+    },
+    {
+      "x": -6.860704,
+      "y": 0,
+      "z": 12.774479999999999
+    },
+    {
+      "x": -8.826208,
+      "y": 0,
+      "z": 10.76406
+    },
+    {
+      "x": -8.816928,
+      "y": 0,
+      "z": -10.628400000000001
+    },
+    {
+      "x": -6.80224,
+      "y": 0,
+      "z": -12.82548
+    },
+    {
+      "x": -4.176,
+      "y": 0,
+      "z": -14.78388
+    },
+    {
+      "x": 4.176,
+      "y": 0,
+      "z": -14.78184
+    },
+    {
+      "x": 6.738208,
+      "y": 0,
+      "z": -12.87648
+    },
+    {
+      "x": 8.816000000000003,
+      "y": -2.384185791015625e-7,
+      "z": -10.500000000000002
+    },
+    {
+      "x": 8.817856,
+      "y": 0,
+      "z": 10.679400000000001
+    },
+    {
+      "x": 6.993408,
+      "y": 0,
+      "z": 12.83568
+    }
+  ]
+}

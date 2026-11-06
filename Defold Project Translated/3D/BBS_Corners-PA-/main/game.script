@@ -1,0 +1,173 @@
+local Board=require "main.board"
+local View=require "main.viewport"
+local Platform=require "main.platform"
+local function position(a,y) return vmath.vector3(a.x,y or 0,-a.z-(a.length-1)/2) end
+local function color(hex)
+    return vmath.vector4(tonumber(hex:sub(1,2),16)/255,tonumber(hex:sub(3,4),16)/255,tonumber(hex:sub(5,6),16)/255,1)
+end
+local function play(self,name)
+    if not self.audio_unlocked then return end
+    sound.play("#"..name)
+end
+local function end_game(self,win)
+    if self.ended then return end
+    self.ended=true;self.end_time=0;self.drag=nil;self.hint=nil
+    Platform.finish(win)
+    sound.set_gain("#bgm",0.1)
+    msg.post("/hud#gui","endcard",{win=win})
+    if self.iteration~="full" then Platform.cta() end
+end
+local function submit(self,a,g)
+    if not Board.remove(self.board,a) then return end
+    self.drag=nil;self.hint=nil;self.busy=0.4
+    self.plan_dirty=true
+    local p=vmath.vector3(g.x+g.dx*0.3,0.55,-g.z-g.dz*0.3)
+    go.animate(a.go,"position",go.PLAYBACK_ONCE_FORWARD,p,go.EASING_INQUAD,0.4)
+    go.animate(a.go,"scale",go.PLAYBACK_ONCE_FORWARD,vmath.vector3(0.02),go.EASING_INQUAD,0.4,0,function()msg.post(msg.url(nil,a.go,"mesh"),"disable")end)
+    go.animate(g.go,"position.y",go.PLAYBACK_ONCE_PINGPONG,0.28,go.EASING_OUTQUAD,0.26)
+    msg.post("/hud#gui","burst",{x=g.x,z=g.z,color=color(Board.colors[g.color]),dx=g.dx,dz=g.dz})
+    play(self,"crumple")
+    local pct=(56-self.board.remaining)/56
+    for _,p in ipairs({25,50,75}) do if pct>=p/100 then Platform.event("CHALLENGE_PASS_"..p) end end
+end
+local function snapshot(self,v)
+    local bricks={}
+    for _,a in ipairs(self.board.bricks) do
+        local x,y=View.project(v,a.x,a.z+(a.length-1)/2,0.35)
+        bricks[#bricks+1]={id=a.id,color=a.color,x=a.x,z=a.z,length=a.length,active=a.active,screen_x=x,screen_y=v.h-y}
+    end
+    if self.plan_dirty and not self.drag and self.busy==0 and not self.ended then
+        self.next_hint=Board.hint(self.board);self.plan_dirty=false
+    end
+    local hint=self.next_hint
+    local route={}
+    if hint and hint.route then for _,p in ipairs(hint.route) do local x,y=View.project(v,p.x,p.z+(hint.brick.length-1)/2,0.58);route[#route+1]={x=x,y=v.h-y} end end
+    Platform.snapshot({remaining=self.board.remaining,ended=self.ended,clicks=self.clicks,time=self.time,iteration=self.iteration,bricks=bricks,
+        hint=hint and {id=hint.brick.id,dx=hint.dx,dz=hint.dz,route=route,blocker=hint.blocker or false} or nil,width=v.w,height=v.h,ppu=v.ppu,paused=self.paused})
+end
+function init(self)
+    msg.post(".","acquire_input_focus")
+    self.board=Board.new();self.iteration=Platform.config("iteration","full")
+    self.started=false;self.ended=false;self.clicks=0;self.time=30;self.idle=6;self.clock=0;self.busy=0;self.report=0
+    self.hint=Board.hint(self.board)
+    self.next_hint=self.hint;self.plan_dirty=false
+    go.set("/borderOuter#mesh","tint",color("303195"))
+    go.set("/borderInside#mesh","tint",color("303195"))
+    window.set_listener(function(_,event)
+        if event==window.WINDOW_EVENT_FOCUS_LOST then self.focus_lost=true
+        elseif event==window.WINDOW_EVENT_FOCUS_GAINED then self.focus_lost=false end
+    end)
+    for _,a in ipairs(self.board.bricks) do
+        a.go=hash("/brick"..a.id)
+        go.set_position(position(a),a.go)
+        go.set(msg.url(nil,a.go,"mesh"),"tint",color(Board.colors[a.color]))
+    end
+    for i,g in ipairs(self.board.gates) do
+        g.go=hash("/gate"..i)
+        go.set(msg.url(nil,g.go,"mesh"),"tint",color(Board.colors[g.color]))
+    end
+    Platform.event("LOADED");Platform.event("DISPLAYED")
+end
+function update(self,dt)
+    local w,h=window.get_size()
+    local v=View.calculate(w,h)
+    local state=Platform.state()
+    local paused=(state=="paused") or (self.focus_lost==true)
+    if paused~=self.paused then
+        self.paused=paused
+        sound.pause("#bgm",paused)
+        if paused then self.drag=nil end
+    end
+    sound.set_group_gain(hash("master"),paused and 0 or Platform.volume())
+    if paused then return end
+    self.clock=self.clock+dt;self.busy=math.max(0,self.busy-dt)
+    if self.ended then self.end_time=self.end_time+dt
+    else
+        if self.busy==0 and self.board.remaining==0 then end_game(self,true) end
+        if self.started and self.iteration=="30seconds" then self.time=math.max(0,self.time-dt);if self.time==0 then end_game(self,false) end end
+        if not self.drag then self.idle=self.idle+dt end
+        if self.idle>=6 and not self.hint then self.hint=self.next_hint end
+    end
+    local hint=self.hint
+    if hint and not self.ended then
+        local a=hint.brick
+        local phase=(self.clock%1.5)/1.5
+        local progress=(1-math.cos(math.min(1,phase/0.75)*math.pi))/2
+        local distance=math.max(0.65,math.min(1.6,#hint.route*0.75))
+        local x,y=View.project(v,a.x+hint.dx*progress*distance,a.z+(a.length-1)/2+hint.dz*progress*distance,0.9)
+        msg.post("/hud#gui","hand",{x=x,y=y,alpha=math.min(1,phase*8,(1-phase)*5)})
+    else msg.post("/hud#gui","hand",{alpha=0}) end
+    msg.post("/hud#gui","status",{iteration=self.iteration,time=self.time,clicks=self.clicks,remaining=self.board.remaining})
+    self.report=self.report+dt
+    if self.report>0.25 then self.report=0;snapshot(self,v) end
+end
+local function settle(self)
+    if not self.drag then return end
+    local a=self.drag.brick
+    go.animate(a.go,"position",go.PLAYBACK_ONCE_FORWARD,position(a),go.EASING_OUTQUAD,0.12)
+    self.drag=nil;play(self,"drop")
+    self.plan_dirty=true
+end
+function on_input(self,action_id,action)
+    if action_id==hash("restart") and action.pressed then sys.reboot();return true end
+    if action_id~=hash("touch") and action_id~=nil then return end
+    if self.paused then return true end
+    local w,h=window.get_size();local v=View.calculate(w,h)
+    local px,py=action.screen_x or action.x,action.screen_y or action.y
+    if not px or not py then return end
+    if self.ended then if action.released and self.end_time>=1 then Platform.cta() end;return true end
+    if self.busy>0 then return true end
+    if action.pressed then
+        self.footer_pressed=py<v.footer
+        if self.footer_pressed then return true end
+        local x,z=View.unproject(v,px,py,0.35)
+        local a=Board.pick(self.board,x,z)
+        if not a then return end
+        if not self.audio_unlocked then self.audio_unlocked=true;sound.play("#bgm",{gain=0.2}) end
+        Platform.start();self.started=true;self.clicks=self.clicks+1;self.idle=0;self.hint=nil
+        if self.iteration=="4clicks" and self.clicks>=4 then end_game(self,false);return true end
+        self.drag={brick=a,offsetx=x-a.x,offsetz=z-a.z,lastx=x,lastz=z}
+        go.cancel_animations(a.go,"position")
+        go.set_position(position(a,0.34),a.go)
+        for _,g in ipairs(self.board.gates) do if g.color==a.color then go.animate(g.go,"position.y",go.PLAYBACK_ONCE_PINGPONG,0.28,go.EASING_OUTQUAD,0.26) end end
+        play(self,"drag")
+    elseif action.released then
+        if self.footer_pressed and py<v.footer then Platform.cta() else settle(self) end
+        self.footer_pressed=false
+    elseif self.drag then
+        local d=self.drag;local a=d.brick
+        local x,z=View.unproject(v,px,py,0.35)
+        local tx,tz=x-d.offsetx,z-d.offsetz
+        -- Take cardinal cell steps; stop at the first obstruction to prevent tunneling.
+        for _=1,24 do
+            local dx,dz=tx-a.x,tz-a.z
+            local mx,mz=0,0
+            if math.abs(dx)>math.abs(dz) then if math.abs(dx)>=0.52 then mx=dx>0 and 1 or -1 end
+            elseif math.abs(dz)>=0.52 then mz=dz>0 and 1 or -1 end
+            if mx==0 and mz==0 then break end
+            if not Board.move(self.board,a,a.x+mx,a.z+mz) then
+                local g=Board.gate(self.board,a,a.x,a.z)
+                if g and mx*g.dx+mz*g.dz>0 then submit(self,a,g) end
+                break
+            end
+            self.plan_dirty=true
+            local g=Board.gate(self.board,a,a.x,a.z)
+            if g then submit(self,a,g);break end
+        end
+        if self.drag then
+            local dx,dz=tx-a.x,tz-a.z
+            local ox,oz=0,0
+            if math.abs(dx)>math.abs(dz) and Board.can_place(self.board,a,a.x+(dx>0 and 1 or -1),a.z) then
+                ox=math.max(-0.49,math.min(0.49,dx))
+            elseif math.abs(dz)>0.001 and Board.can_place(self.board,a,a.x,a.z+(dz>0 and 1 or -1)) then
+                oz=math.max(-0.49,math.min(0.49,dz))
+            end
+            go.set_position(vmath.vector3(a.x+ox,0.34,-a.z-(a.length-1)/2-oz),a.go)
+        end
+        self.idle=0
+    end
+    return true
+end
+function on_message(self,id,message)
+    if id==hash("window_event") then self.focus_lost=message.event==window.WINDOW_EVENT_FOCUS_LOST end
+end

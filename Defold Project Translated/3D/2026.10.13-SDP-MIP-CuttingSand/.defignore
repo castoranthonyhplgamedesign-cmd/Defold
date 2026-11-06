@@ -1,0 +1,8 @@
+/tools
+/node_modules
+/scripts
+/docs
+/qa
+/local-publish
+/bundle
+/.git

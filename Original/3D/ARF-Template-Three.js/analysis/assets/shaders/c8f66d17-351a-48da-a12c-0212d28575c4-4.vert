@@ -1,0 +1,887 @@
+
+precision highp float;
+  #define CC_SURFACES_USE_SECOND_UV HAS_SECOND_UV
+  #define CC_SURFACES_USE_TWO_SIDED USE_TWOSIDE
+  #define CC_SURFACES_LIGHTING_ANISOTROPIC IS_ANISOTROPY
+  #define CC_SURFACES_USE_VERTEX_COLOR USE_VERTEX_COLOR
+#if IS_ANISOTROPY || USE_NORMAL_MAP
+  #define CC_SURFACES_USE_TANGENT_SPACE 1
+#endif
+  #define CC_SURFACES_LIGHTING_ANISOTROPIC_ENVCONVOLUTION_COUNT 31
+#ifndef CC_SURFACES_USE_SECOND_UV
+  #define CC_SURFACES_USE_SECOND_UV 0
+#endif
+#ifndef CC_SURFACES_USE_TANGENT_SPACE
+  #define CC_SURFACES_USE_TANGENT_SPACE 0
+#endif
+#ifndef CC_SURFACES_USE_VERTEX_COLOR
+  #define CC_SURFACES_USE_VERTEX_COLOR 0
+#endif
+#ifndef CC_SURFACES_TRANSFER_LOCAL_POS
+  #define CC_SURFACES_TRANSFER_LOCAL_POS 0
+#endif
+#ifndef CC_SURFACES_TRANSFER_CLIP_POS
+  #define CC_SURFACES_TRANSFER_CLIP_POS 0
+#endif
+#ifndef CC_SURFACES_USE_LIGHT_MAP
+  #ifdef CC_USE_LIGHTMAP
+    #define CC_SURFACES_USE_LIGHT_MAP CC_USE_LIGHTMAP
+  #else
+    #define CC_SURFACES_USE_LIGHT_MAP 0
+  #endif
+#endif
+#ifndef CC_SURFACES_FLIP_UV
+  #define CC_SURFACES_FLIP_UV 0
+#endif
+#ifndef CC_SURFACES_USE_TWO_SIDED
+  #define CC_SURFACES_USE_TWO_SIDED 0
+#endif
+#ifndef CC_SURFACES_USE_REFLECTION_DENOISE
+  #define CC_SURFACES_USE_REFLECTION_DENOISE 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_ANISOTROPIC
+  #define CC_SURFACES_LIGHTING_ANISOTROPIC 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_ANISOTROPIC_ENVCONVOLUTION_COUNT
+  #define CC_SURFACES_LIGHTING_ANISOTROPIC_ENVCONVOLUTION_COUNT 0
+#endif
+#ifndef CC_SURFACES_USE_LEGACY_COMPATIBLE_LIGHTING
+  #define CC_SURFACES_USE_LEGACY_COMPATIBLE_LIGHTING 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_USE_FRESNEL
+  #define CC_SURFACES_LIGHTING_USE_FRESNEL 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_TRANSMIT_SPECULAR
+  #define CC_SURFACES_LIGHTING_TRANSMIT_SPECULAR 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_TRANSMIT_DIFFUSE
+  #define CC_SURFACES_LIGHTING_TRANSMIT_DIFFUSE 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_USE_SHADOWMAP_TRANSMIT
+  #define CC_SURFACES_LIGHTING_USE_SHADOWMAP_TRANSMIT 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_TRT
+  #define CC_SURFACES_LIGHTING_TRT 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_DUAL_LOBE_SPECULAR
+  #define CC_SURFACES_LIGHTING_DUAL_LOBE_SPECULAR 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_SHEEN
+  #define CC_SURFACES_LIGHTING_SHEEN 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_CLEAR_COAT
+  #define CC_SURFACES_LIGHTING_CLEAR_COAT 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_TT
+  #define CC_SURFACES_LIGHTING_TT 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_SSS
+  #define CC_SURFACES_LIGHTING_SSS 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_2ND_LAYER_SPECULAR
+  #if CC_SURFACES_LIGHTING_TRT || CC_SURFACES_LIGHTING_DUAL_LOBE_SPECULAR || CC_SURFACES_LIGHTING_SHEEN || CC_SURFACES_LIGHTING_CLEAR_COAT
+    #define CC_SURFACES_LIGHTING_2ND_LAYER_SPECULAR 1
+  #endif
+#endif
+#ifndef CC_SURFACES_LIGHTING_2ND_LAYER_SPECULAR
+  #define CC_SURFACES_LIGHTING_2ND_LAYER_SPECULAR 0
+#endif
+#ifndef CC_SURFACES_LIGHTING_USE_MULTIPLE_LAYER_BLEND
+  #if CC_SURFACES_LIGHTING_CLEAR_COAT
+    #define CC_SURFACES_LIGHTING_USE_MULTIPLE_LAYER_BLEND 1
+  #endif
+#endif
+#ifndef CC_SURFACES_LIGHTING_USE_MULTIPLE_LAYER_BLEND
+  #define CC_SURFACES_LIGHTING_USE_MULTIPLE_LAYER_BLEND 0
+#endif
+#ifndef CC_SURFACES_ENABLE_DEBUG_VIEW
+  #define CC_SURFACES_ENABLE_DEBUG_VIEW 1
+#endif
+#define CC_USE_SURFACE_SHADER 1
+attribute vec3 a_position;
+attribute vec3 a_normal;
+attribute vec2 a_texCoord;
+#if CC_SURFACES_USE_TANGENT_SPACE
+  attribute vec4 a_tangent;
+#endif
+#if CC_SURFACES_USE_VERTEX_COLOR
+  attribute vec4 a_color;
+#endif
+#if CC_SURFACES_USE_SECOND_UV || CC_USE_LIGHTMAP
+  attribute vec2 a_texCoord1;
+#endif
+#if CC_USE_SKINNING
+    attribute vec4 a_joints;
+  attribute vec4 a_weights;
+#endif
+#if USE_INSTANCING
+  #if CC_USE_BAKED_ANIMATION
+    attribute highp vec4 a_jointAnimInfo;
+  #endif
+  attribute vec4 a_matWorld0;
+  attribute vec4 a_matWorld1;
+  attribute vec4 a_matWorld2;
+  #if CC_USE_LIGHTMAP
+    attribute vec4 a_lightingMapUVParam;
+  #endif
+  #if CC_RECEIVE_SHADOW || CC_USE_REFLECTION_PROBE
+    attribute vec4 a_localShadowBiasAndProbeId;
+  #endif
+  #if CC_USE_REFLECTION_PROBE
+    attribute vec4 a_reflectionProbeData;
+  #endif
+  #if CC_USE_LIGHT_PROBE
+    attribute vec4 a_sh_linear_const_r;
+    attribute vec4 a_sh_linear_const_g;
+    attribute vec4 a_sh_linear_const_b;
+  #endif
+#endif
+#if CC_USE_MORPH
+    attribute float a_vertexId;
+#endif
+#define QUATER_PI         0.78539816340
+#define HALF_PI           1.57079632679
+#define PI                3.14159265359
+#define PI2               6.28318530718
+#define PI4               12.5663706144
+#define INV_QUATER_PI     1.27323954474
+#define INV_HALF_PI       0.63661977237
+#define INV_PI            0.31830988618
+#define INV_PI2           0.15915494309
+#define INV_PI4           0.07957747155
+#define EPSILON           1e-6
+#define EPSILON_LOWP      1e-4
+#define LOG2              1.442695
+#define EXP_VALUE         2.71828183
+#define FP_MAX            65504.0
+#define FP_SCALE          0.0009765625
+#define FP_SCALE_INV      1024.0
+#define GRAY_VECTOR       vec3(0.299, 0.587, 0.114)
+#define LIGHT_MAP_TYPE_DISABLED 0
+#define LIGHT_MAP_TYPE_ALL_IN_ONE 1
+#define LIGHT_MAP_TYPE_INDIRECT_OCCLUSION 2
+#define REFLECTION_PROBE_TYPE_NONE 0
+#define REFLECTION_PROBE_TYPE_CUBE 1
+#define REFLECTION_PROBE_TYPE_PLANAR 2
+#define REFLECTION_PROBE_TYPE_BLEND 3
+#define REFLECTION_PROBE_TYPE_BLEND_AND_SKYBOX 4
+#define LIGHT_TYPE_DIRECTIONAL 0.0
+#define LIGHT_TYPE_SPHERE 1.0
+#define LIGHT_TYPE_SPOT 2.0
+#define LIGHT_TYPE_POINT 3.0
+#define LIGHT_TYPE_RANGED_DIRECTIONAL 4.0
+#define IS_DIRECTIONAL_LIGHT(light_type) (abs(float(light_type) - float(LIGHT_TYPE_DIRECTIONAL)) < EPSILON_LOWP)
+#define IS_SPHERE_LIGHT(light_type) (abs(float(light_type) - float(LIGHT_TYPE_SPHERE)) < EPSILON_LOWP)
+#define IS_SPOT_LIGHT(light_type) (abs(float(light_type) - float(LIGHT_TYPE_SPOT)) < EPSILON_LOWP)
+#define IS_POINT_LIGHT(light_type) (abs(float(light_type) - float(LIGHT_TYPE_POINT)) < EPSILON_LOWP)
+#define IS_RANGED_DIRECTIONAL_LIGHT(light_type) (abs(float(light_type) - float(LIGHT_TYPE_RANGED_DIRECTIONAL)) < EPSILON_LOWP)
+#define TONE_MAPPING_ACES 0
+#define TONE_MAPPING_LINEAR 1
+#define SURFACES_MAX_TRANSMIT_DEPTH_VALUE 999999.0
+#ifndef CC_SURFACES_DEBUG_VIEW_SINGLE
+  #define CC_SURFACES_DEBUG_VIEW_SINGLE 1
+#endif
+#ifndef CC_SURFACES_DEBUG_VIEW_COMPOSITE_AND_MISC
+  #define CC_SURFACES_DEBUG_VIEW_COMPOSITE_AND_MISC 2
+#endif
+varying highp vec3 v_worldPos;
+varying vec4 v_normal;
+varying vec2 v_uv;
+#if CC_SURFACES_USE_VERTEX_COLOR
+  varying lowp vec4 v_color;
+#endif
+#if CC_SURFACES_USE_TANGENT_SPACE
+  varying mediump vec4 v_tangent;
+#endif
+#if CC_SURFACES_USE_SECOND_UV
+  varying mediump vec2 v_uv1;
+#endif
+#if CC_USE_LIGHTMAP && !CC_FORWARD_ADD
+  varying mediump vec3 v_luv;
+#endif
+#if CC_RECEIVE_SHADOW || CC_USE_REFLECTION_PROBE
+  varying mediump vec4 v_shadowBiasAndProbeId;
+#endif
+#if CC_USE_REFLECTION_PROBE && USE_INSTANCING
+  varying mediump vec4 v_reflectionProbeData;
+#endif
+#if CC_USE_FOG != 4 && !CC_USE_ACCURATE_FOG
+  varying mediump float v_fogFactor;
+#endif
+#if CC_SURFACES_TRANSFER_LOCAL_POS
+  varying highp vec4 v_localPos;
+#endif
+#if CC_SURFACES_TRANSFER_CLIP_POS
+  varying highp vec4 v_clipPos;
+#endif
+#if CC_USE_LIGHT_PROBE
+  #if USE_INSTANCING
+    varying mediump vec4 v_sh_linear_const_r;
+    varying mediump vec4 v_sh_linear_const_g;
+    varying mediump vec4 v_sh_linear_const_b;
+  #endif
+#endif
+#define VSOutput_worldPos v_worldPos
+#define VSOutput_worldNormal v_normal.xyz
+#define VSOutput_faceSideSign v_normal.w
+#define VSOutput_texcoord v_uv
+#if CC_SURFACES_USE_VERTEX_COLOR
+  #define VSOutput_vertexColor v_color
+#endif
+#if CC_SURFACES_USE_TANGENT_SPACE
+  #define VSOutput_worldTangent v_tangent.xyz
+  #define VSOutput_mirrorNormal v_tangent.w
+#endif
+#if CC_SURFACES_USE_SECOND_UV
+  #define VSOutput_texcoord1 v_uv1
+#endif
+#if CC_USE_LIGHTMAP && !CC_FORWARD_ADD
+  #define VSOutput_lightMapUV v_luv
+#endif
+#if CC_RECEIVE_SHADOW
+  #define VSOutput_shadowBias v_shadowBiasAndProbeId.xy
+#endif
+#if CC_USE_REFLECTION_PROBE
+  #define VSOutput_reflectionProbeId v_shadowBiasAndProbeId.z
+  #if CC_USE_REFLECTION_PROBE == REFLECTION_PROBE_TYPE_BLEND || CC_USE_REFLECTION_PROBE == REFLECTION_PROBE_TYPE_BLEND_AND_SKYBOX
+    #define VSOutput_reflectionProbeBlendId v_shadowBiasAndProbeId.w
+  #endif
+  #if USE_INSTANCING
+    #define VSOutput_reflectionProbeData v_reflectionProbeData
+  #endif
+#endif
+#if CC_USE_FOG != 4 && !CC_USE_ACCURATE_FOG
+  #define VSOutput_fogFactor v_fogFactor
+#endif
+#if CC_SURFACES_TRANSFER_LOCAL_POS
+  #define VSOutput_localPos v_localPos
+#endif
+#if CC_SURFACES_TRANSFER_CLIP_POS
+  #define VSOutput_clipPos v_clipPos
+#endif
+struct SurfacesStandardVertexIntermediate
+{
+  highp vec4 position;
+  vec3 normal;
+#if CC_SURFACES_USE_TANGENT_SPACE
+  vec4 tangent;
+#endif
+#if CC_SURFACES_USE_VERTEX_COLOR
+  vec4 color;
+#endif
+  vec2 texCoord;
+#if CC_SURFACES_USE_SECOND_UV
+  vec2 texCoord1;
+#endif
+  highp vec4 clipPos;
+  highp vec3 worldPos;
+  vec4 worldNormal;
+  #if CC_SURFACES_USE_TANGENT_SPACE
+    vec3 worldTangent, worldBinormal;
+  #endif
+#if CC_RECEIVE_SHADOW || CC_USE_REFLECTION_PROBE
+  vec4 shadowBiasAndProbeId;
+#endif
+#if CC_USE_FOG != 4 && !CC_USE_ACCURATE_FOG
+  float fogFactor;
+#endif
+#if CC_USE_LIGHTMAP && !CC_FORWARD_ADD
+  vec3 lightmapUV;
+#endif
+};
+#if CC_USE_MORPH
+    int getVertexId() {
+      return int(a_vertexId);
+    }
+#endif
+uniform highp mat4 cc_matView;
+  uniform highp mat4 cc_matProj;
+  uniform highp vec4 cc_cameraPos;
+  uniform mediump vec4 cc_fogBase;
+  uniform mediump vec4 cc_fogAdd;
+uniform mediump vec4 cc_shadowWHPBInfo;
+  uniform mediump vec4 cc_shadowLPNNInfo;
+highp float decode32 (highp vec4 rgba) {
+  rgba = rgba * 255.0;
+  highp float Sign = 1.0 - (step(128.0, (rgba[3]) + 0.5)) * 2.0;
+  highp float Exponent = 2.0 * (mod(float(int((rgba[3]) + 0.5)), 128.0)) + (step(128.0, (rgba[2]) + 0.5)) - 127.0;
+  highp float Mantissa = (mod(float(int((rgba[2]) + 0.5)), 128.0)) * 65536.0 + rgba[1] * 256.0 + rgba[0] + 8388608.0;
+  return Sign * exp2(Exponent - 23.0) * Mantissa;
+}
+#if !USE_INSTANCING
+  uniform highp mat4 cc_matWorld;
+  uniform highp mat4 cc_matWorldIT;
+  uniform highp vec4 cc_lightingMapUVParam;
+  uniform highp vec4 cc_localShadowBias;
+#endif
+void CCGetWorldMatrixFull(out mat4 matWorld, out mat4 matWorldIT)
+{
+  #if USE_INSTANCING
+    matWorld = mat4(
+      vec4(a_matWorld0.xyz, 0.0),
+      vec4(a_matWorld1.xyz, 0.0),
+      vec4(a_matWorld2.xyz, 0.0),
+      vec4(a_matWorld0.w, a_matWorld1.w, a_matWorld2.w, 1.0)
+    );
+    vec3 scale = 1.0 / vec3(length(a_matWorld0.xyz), length(a_matWorld1.xyz), length(a_matWorld2.xyz));
+    vec3 scale2 = scale * scale;
+    matWorldIT = mat4(
+      vec4(a_matWorld0.xyz * scale2.x, 0.0),
+      vec4(a_matWorld1.xyz * scale2.y, 0.0),
+      vec4(a_matWorld2.xyz * scale2.z, 0.0),
+      vec4(0.0, 0.0, 0.0, 1.0)
+    );
+  #else
+    matWorld = cc_matWorld;
+    matWorldIT = cc_matWorldIT;
+  #endif
+}
+#if CC_USE_MORPH
+  uniform vec4 cc_displacementWeights[15];
+  uniform vec4 cc_displacementTextureInfo;
+  #if CC_MORPH_TARGET_HAS_POSITION
+    uniform sampler2D cc_PositionDisplacements;
+  #endif
+  #if CC_MORPH_TARGET_HAS_NORMAL
+    uniform sampler2D cc_NormalDisplacements;
+  #endif
+  #if CC_MORPH_TARGET_HAS_TANGENT
+    uniform sampler2D cc_TangentDisplacements;
+  #endif
+  vec2 getPixelLocation(vec2 textureResolution, int pixelIndex) {
+    float pixelIndexF = float(pixelIndex);
+    float x = mod(pixelIndexF, textureResolution.x);
+    float y = floor(pixelIndexF / textureResolution.x);
+    return vec2(x, y);
+  }
+  vec2 getPixelCoordFromLocation(vec2 location, vec2 textureResolution) {
+    return (vec2(location.x, location.y) + .5) / textureResolution;
+  }
+  #if CC_DEVICE_SUPPORT_FLOAT_TEXTURE
+      vec4 fetchVec3ArrayFromTexture(sampler2D tex, int elementIndex) {
+        int pixelIndex = elementIndex;
+        vec2 location = getPixelLocation(cc_displacementTextureInfo.xy, pixelIndex);
+        vec2 uv = getPixelCoordFromLocation(location, cc_displacementTextureInfo.xy);
+        return texture2D(tex, uv);
+      }
+  #else
+    vec4 fetchVec3ArrayFromTexture(sampler2D tex, int elementIndex) {
+      int pixelIndex = elementIndex * 4;
+      vec2 location = getPixelLocation(cc_displacementTextureInfo.xy, pixelIndex);
+      vec2 x = getPixelCoordFromLocation(location + vec2(0.0, 0.0), cc_displacementTextureInfo.xy);
+      vec2 y = getPixelCoordFromLocation(location + vec2(1.0, 0.0), cc_displacementTextureInfo.xy);
+      vec2 z = getPixelCoordFromLocation(location + vec2(2.0, 0.0), cc_displacementTextureInfo.xy);
+      return vec4(
+        decode32(texture2D(tex, x)),
+        decode32(texture2D(tex, y)),
+        decode32(texture2D(tex, z)),
+        1.0
+      );
+    }
+  #endif
+  float getDisplacementWeight(int index) {
+    int quot = index / 4;
+    int remainder = index - quot * 4;
+    if (remainder == 0) {
+      return cc_displacementWeights[quot].x;
+    } else if (remainder == 1) {
+      return cc_displacementWeights[quot].y;
+    } else if (remainder == 2) {
+      return cc_displacementWeights[quot].z;
+    } else {
+      return cc_displacementWeights[quot].w;
+    }
+  }
+  vec3 getVec3DisplacementFromTexture(sampler2D tex, int vertexIndex) {
+  #if CC_MORPH_PRECOMPUTED
+    return fetchVec3ArrayFromTexture(tex, vertexIndex).rgb;
+  #else
+    vec3 result = vec3(0, 0, 0);
+    int nVertices = int(cc_displacementTextureInfo.z);
+    for (int iTarget = 0; iTarget < CC_MORPH_TARGET_COUNT; ++iTarget) {
+      result += (fetchVec3ArrayFromTexture(tex, nVertices * iTarget + vertexIndex).rgb * getDisplacementWeight(iTarget));
+    }
+    return result;
+  #endif
+  }
+  #if CC_MORPH_TARGET_HAS_POSITION
+  vec3 getPositionDisplacement(int vertexId) {
+      return getVec3DisplacementFromTexture(cc_PositionDisplacements, vertexId);
+  }
+  #endif
+  #if CC_MORPH_TARGET_HAS_NORMAL
+  vec3 getNormalDisplacement(int vertexId) {
+      return getVec3DisplacementFromTexture(cc_NormalDisplacements, vertexId);
+  }
+  #endif
+  #if CC_MORPH_TARGET_HAS_TANGENT
+  vec3 getTangentDisplacement(int vertexId) {
+      return getVec3DisplacementFromTexture(cc_TangentDisplacements, vertexId);
+  }
+  #endif
+  void applyMorph (inout vec4 position, inout vec3 normal, inout vec4 tangent) {
+    int vertexId = getVertexId();
+  #if CC_MORPH_TARGET_HAS_POSITION
+    position.xyz = position.xyz + getPositionDisplacement(vertexId);
+  #endif
+  #if CC_MORPH_TARGET_HAS_NORMAL
+    normal.xyz = normal.xyz + getNormalDisplacement(vertexId);
+  #endif
+  #if CC_MORPH_TARGET_HAS_TANGENT
+    tangent.xyz = tangent.xyz + getTangentDisplacement(vertexId);
+  #endif
+  }
+  void applyMorph (inout vec4 position) {
+  #if CC_MORPH_TARGET_HAS_POSITION
+    position.xyz = position.xyz + getPositionDisplacement(getVertexId());
+  #endif
+  }
+#endif
+#if CC_USE_SKINNING
+  #if CC_USE_BAKED_ANIMATION
+    uniform highp vec4 cc_jointTextureInfo;
+    uniform highp vec4 cc_jointAnimInfo;
+    uniform highp sampler2D cc_jointTexture;
+    void CCGetJointTextureCoords(float pixelsPerJoint, float jointIdx, out highp float x, out highp float y, out highp float invSize)
+    {
+      #if USE_INSTANCING
+        highp float temp = pixelsPerJoint * (a_jointAnimInfo.x * a_jointAnimInfo.y + jointIdx) + a_jointAnimInfo.z;
+      #else
+        highp float temp = pixelsPerJoint * (cc_jointAnimInfo.x * cc_jointTextureInfo.y + jointIdx) + cc_jointTextureInfo.z;
+      #endif
+      invSize = cc_jointTextureInfo.w;
+      highp float tempY = floor(temp * invSize);
+      x = floor(temp - tempY * cc_jointTextureInfo.x);
+      y = (tempY + 0.5) * invSize;
+    }
+  #else
+    #if CC_USE_REAL_TIME_JOINT_TEXTURE
+      uniform highp sampler2D cc_realtimeJoint;
+    #else
+      uniform highp vec4 cc_joints[CC_JOINT_UNIFORM_CAPACITY * 3];
+    #endif
+  #endif
+  #if CC_USE_BAKED_ANIMATION
+    #if CC_DEVICE_SUPPORT_FLOAT_TEXTURE
+      mat4 getJointMatrix (float i) {
+        highp float x, y, invSize;
+        CCGetJointTextureCoords(3.0, i, x, y, invSize);
+        vec4 v1 = texture2D(cc_jointTexture, vec2((x + 0.5) * invSize, y));
+        vec4 v2 = texture2D(cc_jointTexture, vec2((x + 1.5) * invSize, y));
+        vec4 v3 = texture2D(cc_jointTexture, vec2((x + 2.5) * invSize, y));
+        return mat4(vec4(v1.xyz, 0.0), vec4(v2.xyz, 0.0), vec4(v3.xyz, 0.0), vec4(v1.w, v2.w, v3.w, 1.0));
+      }
+    #else
+      mat4 getJointMatrix (float i) {
+        highp float x, y, invSize;
+        CCGetJointTextureCoords(12.0, i, x, y, invSize);
+        vec4 v1 = vec4(
+          decode32(texture2D(cc_jointTexture, vec2((x + 0.5) * invSize, y))),
+          decode32(texture2D(cc_jointTexture, vec2((x + 1.5) * invSize, y))),
+          decode32(texture2D(cc_jointTexture, vec2((x + 2.5) * invSize, y))),
+          decode32(texture2D(cc_jointTexture, vec2((x + 3.5) * invSize, y)))
+        );
+        vec4 v2 = vec4(
+          decode32(texture2D(cc_jointTexture, vec2((x + 4.5) * invSize, y))),
+          decode32(texture2D(cc_jointTexture, vec2((x + 5.5) * invSize, y))),
+          decode32(texture2D(cc_jointTexture, vec2((x + 6.5) * invSize, y))),
+          decode32(texture2D(cc_jointTexture, vec2((x + 7.5) * invSize, y)))
+        );
+        vec4 v3 = vec4(
+          decode32(texture2D(cc_jointTexture, vec2((x + 8.5) * invSize, y))),
+          decode32(texture2D(cc_jointTexture, vec2((x + 9.5) * invSize, y))),
+          decode32(texture2D(cc_jointTexture, vec2((x + 10.5) * invSize, y))),
+          decode32(texture2D(cc_jointTexture, vec2((x + 11.5) * invSize, y)))
+        );
+        return mat4(vec4(v1.xyz, 0.0), vec4(v2.xyz, 0.0), vec4(v3.xyz, 0.0), vec4(v1.w, v2.w, v3.w, 1.0));
+      }
+    #endif
+  #else
+    #if CC_USE_REAL_TIME_JOINT_TEXTURE
+      #if CC_DEVICE_SUPPORT_FLOAT_TEXTURE
+        mat4 getJointMatrix (float i) {
+          float x = i;
+          vec4 v1 = texture2D(cc_realtimeJoint, vec2( x / 256.0, 0.5 / 3.0));
+          vec4 v2 = texture2D(cc_realtimeJoint, vec2( x / 256.0, 1.5 / 3.0));
+          vec4 v3 = texture2D(cc_realtimeJoint, vec2( x / 256.0, 2.5 / 3.0));
+          return mat4(vec4(v1.xyz, 0.0), vec4(v2.xyz, 0.0), vec4(v3.xyz, 0.0), vec4(v1.w, v2.w, v3.w, 1.0));
+        }
+      #else
+        mat4 getJointMatrix (float i) {
+         float x = 4.0 * i;
+          vec4 v1 = vec4(
+            decode32(texture2D(cc_realtimeJoint, vec2((x + 0.5)/ 1024.0, 0.5 / 3.0))),
+            decode32(texture2D(cc_realtimeJoint, vec2((x + 1.5)/ 1024.0, 0.5 / 3.0))),
+            decode32(texture2D(cc_realtimeJoint, vec2((x + 2.5)/ 1024.0, 0.5 / 3.0))),
+            decode32(texture2D(cc_realtimeJoint, vec2((x + 3.5)/ 1024.0, 0.5 / 3.0)))
+          );
+          vec4 v2 = vec4(
+            decode32(texture2D(cc_realtimeJoint, vec2((x + 0.5)/ 1024.0, 1.5 / 3.0))),
+            decode32(texture2D(cc_realtimeJoint, vec2((x + 1.5)/ 1024.0, 1.5 / 3.0))),
+            decode32(texture2D(cc_realtimeJoint, vec2((x + 2.5)/ 1024.0, 1.5 / 3.0))),
+            decode32(texture2D(cc_realtimeJoint, vec2((x + 3.5)/ 1024.0, 1.5 / 3.0)))
+          );
+          vec4 v3 = vec4(
+            decode32(texture2D(cc_realtimeJoint, vec2((x + 0.5)/ 1024.0, 2.5 / 3.0))),
+            decode32(texture2D(cc_realtimeJoint, vec2((x + 1.5)/ 1024.0, 2.5 / 3.0))),
+            decode32(texture2D(cc_realtimeJoint, vec2((x + 2.5)/ 1024.0, 2.5 / 3.0))),
+            decode32(texture2D(cc_realtimeJoint, vec2((x + 3.5)/ 1024.0, 2.5 / 3.0)))
+          );
+          return mat4(vec4(v1.xyz, 0.0), vec4(v2.xyz, 0.0), vec4(v3.xyz, 0.0), vec4(v1.w, v2.w, v3.w, 1.0));
+        }
+      #endif
+    #else
+      mat4 getJointMatrix (float i) {
+        int idx = int(i);
+        vec4 v1 = cc_joints[idx * 3];
+        vec4 v2 = cc_joints[idx * 3 + 1];
+        vec4 v3 = cc_joints[idx * 3 + 2];
+        return mat4(vec4(v1.xyz, 0.0), vec4(v2.xyz, 0.0), vec4(v3.xyz, 0.0), vec4(v1.w, v2.w, v3.w, 1.0));
+      }
+    #endif
+  #endif
+  mat4 skinMatrix () {
+    vec4 joints = vec4(a_joints);
+    return getJointMatrix(joints.x) * a_weights.x
+         + getJointMatrix(joints.y) * a_weights.y
+         + getJointMatrix(joints.z) * a_weights.z
+         + getJointMatrix(joints.w) * a_weights.w;
+  }
+  void CCSkin (inout vec4 position) {
+    mat4 m = skinMatrix();
+    position = m * position;
+  }
+  void CCSkin (inout vec4 position, inout vec3 normal, inout vec4 tangent) {
+    mat4 m = skinMatrix();
+    position = m * position;
+    normal = (m * vec4(normal, 0.0)).xyz;
+    tangent.xyz = (m * vec4(tangent.xyz, 0.0)).xyz;
+  }
+#endif
+#if CC_USE_FOG != 4 && !CC_USE_ACCURATE_FOG
+  #if CC_USE_FOG != 4
+    float LinearFog(vec4 pos, vec3 cameraPos, float fogStart, float fogEnd) {
+        vec4 wPos = pos;
+        float cam_dis = distance(cameraPos, wPos.xyz);
+        return clamp((fogEnd - cam_dis) / (fogEnd - fogStart), 0., 1.);
+    }
+    float ExpFog(vec4 pos, vec3 cameraPos, float fogStart, float fogDensity, float fogAtten) {
+        vec4 wPos = pos;
+        float cam_dis = max(distance(cameraPos, wPos.xyz) - fogStart, 0.0) / fogAtten * 4.;
+        float f = exp(-cam_dis * fogDensity);
+        return f;
+    }
+    float ExpSquaredFog(vec4 pos, vec3 cameraPos, float fogStart, float fogDensity, float fogAtten) {
+        vec4 wPos = pos;
+        float cam_dis = max(distance(cameraPos, wPos.xyz) - fogStart, 0.0) / fogAtten * 4.;
+        float f = exp(-cam_dis * cam_dis * fogDensity * fogDensity);
+        return f;
+    }
+    float LayeredFog(vec4 pos, vec3 cameraPos, float fogTop, float fogRange, float fogAtten) {
+        vec4 wPos = pos;
+        vec3 camWorldProj = cameraPos.xyz;
+        camWorldProj.y = 0.;
+        vec3 worldPosProj = wPos.xyz;
+        worldPosProj.y = 0.;
+        float fDeltaD = distance(worldPosProj, camWorldProj) / fogAtten * 2.0;
+        float fDeltaY, fDensityIntegral;
+        if (cameraPos.y > fogTop) {
+            if (wPos.y < fogTop) {
+                fDeltaY = (fogTop - wPos.y) / fogRange * 2.0;
+                fDensityIntegral = fDeltaY * fDeltaY * 0.5;
+            }
+            else {
+                fDeltaY = 0.;
+                fDensityIntegral = 0.;
+            }
+        }
+        else {
+            if (wPos.y < fogTop) {
+                float fDeltaA = (fogTop - cameraPos.y) / fogRange * 2.;
+                float fDeltaB = (fogTop - wPos.y) / fogRange * 2.;
+                fDeltaY = abs(fDeltaA - fDeltaB);
+                fDensityIntegral = abs((fDeltaA * fDeltaA * 0.5) - (fDeltaB * fDeltaB * 0.5));
+            }
+            else {
+                fDeltaY = abs(fogTop - cameraPos.y) / fogRange * 2.;
+                fDensityIntegral = abs(fDeltaY * fDeltaY * 0.5);
+            }
+        }
+        float fDensity;
+        if (fDeltaY != 0.) {
+            fDensity = (sqrt(1.0 + ((fDeltaD / fDeltaY) * (fDeltaD / fDeltaY)))) * fDensityIntegral;
+        }
+        else {
+            fDensity = 0.;
+        }
+        float f = exp(-fDensity);
+        return f;
+    }
+  #endif
+  void CC_TRANSFER_FOG_BASE(vec4 pos, out float factor)
+  {
+  #if CC_USE_FOG == 0
+  	factor = LinearFog(pos, cc_cameraPos.xyz, cc_fogBase.x, cc_fogBase.y);
+  #elif CC_USE_FOG == 1
+  	factor = ExpFog(pos, cc_cameraPos.xyz, cc_fogBase.x, cc_fogBase.z, cc_fogAdd.z);
+  #elif CC_USE_FOG == 2
+  	factor = ExpSquaredFog(pos, cc_cameraPos.xyz, cc_fogBase.x, cc_fogBase.z, cc_fogAdd.z);
+  #elif CC_USE_FOG == 3
+  	factor = LayeredFog(pos, cc_cameraPos.xyz, cc_fogAdd.x, cc_fogAdd.y, cc_fogAdd.z);
+  #else
+  	factor = 1.0;
+  #endif
+  }
+#endif
+    uniform vec4 tilingOffset;
+    uniform vec4 anisotropyParam;
+#define CC_SURFACES_VERTEX_MODIFY_SHADOW_BIAS
+vec2 SurfacesVertexModifyShadowBias(in SurfacesStandardVertexIntermediate In, vec2 originShadowBias)
+{
+  return originShadowBias + vec2(anisotropyParam.z, 0.0);
+}
+#define CC_SURFACES_VERTEX_MODIFY_UV
+void SurfacesVertexModifyUV(inout SurfacesStandardVertexIntermediate In)
+{
+  In.texCoord = In.texCoord * tilingOffset.xy + tilingOffset.zw;
+#if CC_SURFACES_USE_SECOND_UV
+  In.texCoord1 = In.texCoord1 * tilingOffset.xy + tilingOffset.zw;
+#endif
+}
+#ifndef CC_SURFACES_VERTEX_MODIFY_LOCAL_POS
+vec3 SurfacesVertexModifyLocalPos(in SurfacesStandardVertexIntermediate In)
+{
+  return vec3(In.position.xyz);
+}
+#endif
+#ifndef CC_SURFACES_VERTEX_MODIFY_LOCAL_NORMAL
+vec3 SurfacesVertexModifyLocalNormal(in SurfacesStandardVertexIntermediate In)
+{
+  return In.normal.xyz;
+}
+#endif
+#ifndef CC_SURFACES_VERTEX_MODIFY_LOCAL_TANGENT
+  #if CC_SURFACES_USE_TANGENT_SPACE
+  vec4 SurfacesVertexModifyLocalTangent(in SurfacesStandardVertexIntermediate In)
+    {
+      return In.tangent;
+    }
+  #endif
+#endif
+#ifndef CC_SURFACES_VERTEX_MODIFY_LOCAL_SHARED_DATA
+void SurfacesVertexModifyLocalSharedData(inout SurfacesStandardVertexIntermediate In)
+{
+}
+#endif
+#ifndef CC_SURFACES_VERTEX_MODIFY_WORLD_POS
+vec3 SurfacesVertexModifyWorldPos(in SurfacesStandardVertexIntermediate In)
+{
+  return In.worldPos;
+}
+#endif
+#ifndef CC_SURFACES_VERTEX_MODIFY_CLIP_POS
+vec4 SurfacesVertexModifyClipPos(in SurfacesStandardVertexIntermediate In)
+{
+  return In.clipPos;
+}
+#endif
+#ifndef CC_SURFACES_VERTEX_MODIFY_UV
+void SurfacesVertexModifyUV(inout SurfacesStandardVertexIntermediate In)
+{
+}
+#endif
+#ifndef CC_SURFACES_VERTEX_MODIFY_WORLD_NORMAL
+vec3 SurfacesVertexModifyWorldNormal(in SurfacesStandardVertexIntermediate In)
+{
+    vec3 worldNormal = In.worldNormal.xyz;
+  #if CC_SURFACES_USE_TWO_SIDED
+      worldNormal.xyz *= In.worldNormal.w;
+  #endif
+  return worldNormal;
+}
+#endif
+#ifndef CC_SURFACES_VERTEX_MODIFY_SHADOW_BIAS
+vec2 SurfacesVertexModifyShadowBias(in SurfacesStandardVertexIntermediate In, vec2 originShadowBias)
+{
+  return originShadowBias;
+}
+#endif
+#ifndef CC_SURFACES_VERTEX_MODIFY_SHARED_DATA
+void SurfacesVertexModifySharedData(inout SurfacesStandardVertexIntermediate In)
+{
+}
+#endif
+void CCSurfacesVertexInput(out SurfacesStandardVertexIntermediate In)
+{
+  In.position = vec4(a_position, 1.0);
+  In.normal = a_normal;
+#if CC_SURFACES_USE_TANGENT_SPACE
+  In.tangent = a_tangent;
+#endif
+#if CC_SURFACES_USE_VERTEX_COLOR
+  In.color = a_color;
+#endif
+  In.texCoord = a_texCoord;
+#if CC_SURFACES_USE_SECOND_UV
+  In.texCoord1 = a_texCoord1;
+#endif
+}
+void CCSurfacesVertexOutput(in SurfacesStandardVertexIntermediate In)
+{
+  gl_Position = In.clipPos;
+  VSOutput_worldNormal = In.worldNormal.xyz;
+  VSOutput_faceSideSign = In.worldNormal.w;
+  VSOutput_worldPos = In.worldPos;
+#if CC_SURFACES_USE_TANGENT_SPACE
+  VSOutput_worldTangent = In.worldTangent.xyz;
+  VSOutput_mirrorNormal = In.tangent.w > 0.0 ? 1.0 : -1.0;
+#endif
+#if CC_SURFACES_USE_VERTEX_COLOR
+  VSOutput_vertexColor = In.color;
+#endif
+  VSOutput_texcoord = In.texCoord;
+#if CC_SURFACES_USE_SECOND_UV
+  VSOutput_texcoord1 = In.texCoord1;
+#endif
+#if CC_USE_FOG != 4 && !CC_USE_ACCURATE_FOG
+  VSOutput_fogFactor = In.fogFactor;
+#endif
+#if CC_RECEIVE_SHADOW
+  VSOutput_shadowBias = In.shadowBiasAndProbeId.xy;
+#endif
+#if CC_USE_REFLECTION_PROBE
+  VSOutput_reflectionProbeId = In.shadowBiasAndProbeId.z;
+  #if CC_USE_REFLECTION_PROBE == REFLECTION_PROBE_TYPE_BLEND || CC_USE_REFLECTION_PROBE == REFLECTION_PROBE_TYPE_BLEND_AND_SKYBOX
+    VSOutput_reflectionProbeBlendId = In.shadowBiasAndProbeId.w;
+  #endif
+  #if USE_INSTANCING
+    v_reflectionProbeData = a_reflectionProbeData;
+  #endif
+#endif
+#if CC_USE_LIGHTMAP && !CC_FORWARD_ADD
+  VSOutput_lightMapUV = In.lightmapUV;
+#endif
+#if CC_SURFACES_TRANSFER_LOCAL_POS
+  VSOutput_localPos = In.position;
+#endif
+#if CC_SURFACES_TRANSFER_CLIP_POS
+  VSOutput_clipPos = In.clipPos;
+#endif
+#if CC_USE_LIGHT_PROBE
+  #if USE_INSTANCING
+    v_sh_linear_const_r = a_sh_linear_const_r;
+    v_sh_linear_const_g = a_sh_linear_const_g;
+    v_sh_linear_const_b = a_sh_linear_const_b;
+  #endif
+#endif
+}
+void CCSurfacesVertexAnimation(inout SurfacesStandardVertexIntermediate In)
+{
+vec4 temp = vec4(0.0);
+#if CC_USE_MORPH
+  #if CC_SURFACES_USE_TANGENT_SPACE
+    applyMorph(In.position, In.normal, In.tangent);
+  #else
+    applyMorph(In.position, In.normal, temp);
+  #endif
+#endif
+#if CC_USE_SKINNING
+  #if CC_SURFACES_USE_TANGENT_SPACE
+    CCSkin(In.position, In.normal, In.tangent);
+  #else
+    CCSkin(In.position, In.normal, temp);
+  #endif
+#endif
+}
+void CCSurfacesVertexWorldTransform(inout SurfacesStandardVertexIntermediate In)
+{
+    mat4 matWorld, matWorldIT;
+    CCGetWorldMatrixFull(matWorld, matWorldIT);
+    In.worldPos = (matWorld * In.position).xyz;
+    In.worldNormal.xyz = normalize((matWorldIT * vec4(In.normal.xyz, 0.0)).xyz);
+    #if CC_SURFACES_USE_TANGENT_SPACE
+      In.worldTangent = normalize((matWorld * vec4(In.tangent.xyz, 0.0)).xyz);
+      In.worldBinormal = cross(In.worldNormal.xyz, In.worldTangent) * In.tangent.w;
+    #endif
+}
+void CCSurfacesVertexTransformUV(inout SurfacesStandardVertexIntermediate In)
+{
+  #if CC_SURFACES_FLIP_UV
+    In.texCoord = cc_cameraPos.w > 1.0 ? vec2(In.texCoord.x, 1.0 - In.texCoord.y) : In.texCoord;
+    #if CC_SURFACES_USE_SECOND_UV
+      In.texCoord1 = cc_cameraPos.w > 1.0 ? vec2(In.texCoord1.x, 1.0 - In.texCoord1.y) : In.texCoord1;
+    #endif
+  #endif
+}
+void CCSurfacesVertexTransferFog(inout SurfacesStandardVertexIntermediate In)
+{
+#if CC_USE_FOG != 4 && !CC_USE_ACCURATE_FOG
+    CC_TRANSFER_FOG_BASE(vec4(In.worldPos, 1.0), In.fogFactor);
+#endif
+}
+void CCSurfacesVertexTransferShadow(inout SurfacesStandardVertexIntermediate In)
+{
+  #if CC_RECEIVE_SHADOW || CC_USE_REFLECTION_PROBE
+    In.shadowBiasAndProbeId = vec4(0.0);
+  #endif
+  #if CC_RECEIVE_SHADOW
+    In.shadowBiasAndProbeId.xy = vec2(cc_shadowWHPBInfo.w, cc_shadowLPNNInfo.z);
+    #if USE_INSTANCING
+      In.shadowBiasAndProbeId.xy += a_localShadowBiasAndProbeId.xy;
+    #else
+      In.shadowBiasAndProbeId.xy += cc_localShadowBias.xy;
+    #endif
+  #endif
+  #if CC_USE_REFLECTION_PROBE
+    #if USE_INSTANCING
+      In.shadowBiasAndProbeId.zw = a_localShadowBiasAndProbeId.zw;
+    #else
+      In.shadowBiasAndProbeId.zw = cc_localShadowBias.zw;
+    #endif
+  #endif
+}
+void CCSurfacesVertexTransferLightMapUV(inout SurfacesStandardVertexIntermediate In)
+{
+#if CC_USE_LIGHTMAP && !CC_FORWARD_ADD
+  #if USE_INSTANCING
+    In.lightmapUV.xy = a_lightingMapUVParam.xy + a_texCoord1 * a_lightingMapUVParam.z;
+    In.lightmapUV.z = a_lightingMapUVParam.w;
+  #else
+    In.lightmapUV.xy = cc_lightingMapUVParam.xy + a_texCoord1 * cc_lightingMapUVParam.z;
+    In.lightmapUV.z = cc_lightingMapUVParam.w;
+  #endif
+#endif
+}
+void main()
+{
+  SurfacesStandardVertexIntermediate In;
+  CCSurfacesVertexInput(In);
+  CCSurfacesVertexAnimation(In);
+  In.position.xyz = SurfacesVertexModifyLocalPos(In);
+  In.normal.xyz = SurfacesVertexModifyLocalNormal(In);
+  #if CC_SURFACES_USE_TANGENT_SPACE
+    In.tangent = SurfacesVertexModifyLocalTangent(In);
+  #endif
+  SurfacesVertexModifyLocalSharedData(In);
+  CCSurfacesVertexWorldTransform(In);
+  In.worldPos = SurfacesVertexModifyWorldPos(In);
+  #if CC_USE_2D
+    In.clipPos = cc_matProj * cc_matView * vec4(In.position.xyz, 1.0);
+  #else
+    In.clipPos = cc_matProj * cc_matView * vec4(In.worldPos, 1.0);
+    In.clipPos = SurfacesVertexModifyClipPos(In);
+  #endif
+  vec3 viewDirect = normalize(cc_cameraPos.xyz - In.worldPos);
+  In.worldNormal.w = dot(In.worldNormal.xyz, viewDirect) < 0.0 ? -1.0 : 1.0;
+  In.worldNormal.xyz = SurfacesVertexModifyWorldNormal(In);
+  SurfacesVertexModifyUV(In);
+  SurfacesVertexModifySharedData(In);
+  CCSurfacesVertexTransformUV(In);
+  CCSurfacesVertexTransferFog(In);
+  CCSurfacesVertexTransferLightMapUV(In);
+  CCSurfacesVertexTransferShadow(In);
+  #if CC_RECEIVE_SHADOW || CC_USE_REFLECTION_PROBE
+    In.shadowBiasAndProbeId.xy = SurfacesVertexModifyShadowBias(In, In.shadowBiasAndProbeId.xy);
+  #endif
+  CCSurfacesVertexOutput(In);
+}

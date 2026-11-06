@@ -1,0 +1,163 @@
+taps during pour
+tap off the sand
+tap hint (280, 853)
+tap picture
+tap hint (453, 853)
+tap picture
+rotate → 568×320@2
+burst ×6
+tap off the sand
+wait 197
+tap off the sand
+tap off the sand
+tap off the sand
+burst ×6
+tap off the sand
+tap off the sand
+tap picture
+tap hint (627, 853)
+idle 10 s
+wait 31
+wait 332
+tap picture
+rotate → 320×568@2
+tap hint (800, 853)
+tap hint (203, 814)
+tap off the sand
+tap hint (376, 814)
+tap picture
+tap picture
+tap hint (896, 814)
+tap off the sand
+wait 303
+burst ×5
+wait 57
+tap hint (280, 756)
+tap hint (376, 737)
+wait 537
+wait 189
+burst ×6
+wait 472
+wait 66
+wait 461
+tap hint (896, 737)
+resize → 768×1024@2
+wait 574
+tap off the sand
+wait 475
+tap picture
+tap picture
+tap picture
+tap picture
+rotate → 1024×768@2
+tap picture
+tap picture
+tap picture
+tap picture
+tap picture
+wait 11
+rotate → 768×1024@2
+tap picture
+tap picture
+tap picture
+tap picture
+rotate → 1024×768@2
+wait 455
+wait 135
+burst ×7
+wait 171
+tap hint (203, 641)
+rotate → 768×1024@2
+burst ×4
+wait 426
+rotate → 1024×768@2
+wait 34
+tap hint (376, 641)
+wait 420
+burst ×6
+burst ×3
+tap picture
+wait 531
+wait 9
+wait 42
+tap picture
+rotate → 768×1024@2
+hidden (state play)
+wait 307
+tap picture
+wait 320
+wait 426
+tap picture
+wait 162
+burst ×5
+tap picture
+tap picture
+wait 4
+rotate → 1024×768@2
+tap picture
+rotate → 768×1024@2
+tap picture
+hidden (state play)
+tap picture
+tap picture
+tap off the sand
+rotate → 1024×768@2
+wait 328
+hidden (state play)
+tap picture
+wait 53
+wait 241
+wait 213
+resize → 600×600@1
+resize → 390×844@3
+rotate → 844×390@3
+tap picture
+wait 572
+tap off the sand
+rotate → 390×844@3
+tap picture
+rotate → 844×390@3
+tap picture
+tap picture
+tap picture
+rotate → 390×844@3
+wait 311
+tap picture
+tap picture
+wait 97
+resize → 1024×768@1
+tap picture
+wait 589
+tap picture
+tap picture
+tap picture
+tap picture
+tap picture
+rotate → 768×1024@1
+burst ×6
+wait 591
+tap picture
+wait 521
+tap picture
+tap picture
+tap off the sand
+rotate → 1024×768@1
+rotate → 768×1024@1
+tap off the sand
+wait 34
+rotate → 1024×768@1
+resize → 1024×768@1
+rotate → 768×1024@1
+tap picture
+rotate → 1024×768@1
+rotate → 768×1024@1
+tap picture
+wait 509
+tap picture
+tap picture
+tap picture
+tap off the sand
+tap picture
+rotate → 1024×768@1
+rotate on end card → 768×1024@1
+rotate on end card → 1024×768@1

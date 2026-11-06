@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+let template=await fs.readFile('web/template.base.html','utf8');
+const config=JSON.parse(await fs.readFile('assets/data/config.json'));
+const brand=JSON.parse(await fs.readFile('branding.json','utf8'));
+const icon='data:image/png;base64,'+(await fs.readFile(brand.icon)).toString('base64');
+template=template.replace(/<title>[\s\S]*?<\/title>/,`<title>${brand.name}</title>`);
+const host=(await fs.readFile('web/sustained.js','utf8'))+'\n'+await fs.readFile('web/host.js','utf8');
+template=template.replace('</head>',`<meta name="application-name" content="${brand.name}"><meta name="apple-mobile-web-app-title" content="${brand.name}"><meta name="description" content="${brand.description}"><link rel="icon" type="image/png" href="${icon}"><link rel="apple-touch-icon" href="${icon}"><script>window.SAND_BRAND=${JSON.stringify(brand)};window.SAND_DEFAULTS=${JSON.stringify(config)};</script><script>${host}</script><style>html,body{width:100%;height:100%;overflow:hidden;touch-action:none}#app-container,#canvas-container{position:fixed;inset:0;width:100%;height:100%}#canvas{display:block;width:100%;height:100%}.buttons-background{display:none}</style></head>`);
+template=template.replace('EngineLoader.load("canvas", "{{exe-name}}");','window.SandBoot().then(()=>EngineLoader.load("canvas", "{{exe-name}}" )).catch(e=>{document.body.innerText=e.message;console.warn(e)});');
+template=template.replace("<script id='engine-setup' type='text/javascript'>",`<script id='engine-setup' type='text/javascript'>\nCUSTOM_PARAMETERS.resize_window_callback=function(){const w=Math.round(innerWidth),h=Math.round(innerHeight),d=Math.min(devicePixelRatio||1,2),c=document.getElementById('canvas');c.width=Math.round(w*d);c.height=Math.round(h*d);c.style.width=w+'px';c.style.height=h+'px';};`);
+await fs.writeFile('web/template.html',template);
